@@ -337,3 +337,8 @@ DEF NUM_UNLOCKED_UNOWN_SETS EQU const_value
 	const VBLANK_DMA_TRANSFER ; 6
 	const VBLANK_UNUSED       ; 7
 DEF NUM_VBLANK_HANDLERS EQU const_value
+
+; wItemFlags::
+	const_def
+	const IN_BAG_F
+	const IN_PC_F
