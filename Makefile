@@ -155,12 +155,18 @@ gfx/pokemon/%/frames.asm: gfx/pokemon/%/front.animated.tilemap gfx/pokemon/%/fro
 
 ### Misc file-specific graphics rules
 
-gfx/pokemon/%/back.2bpp: rgbgfx += --columns --colors embedded
-gfx/pokemon/%/front.2bpp: rgbgfx += --colors embedded
-
-gfx/trainers/%.2bpp: rgbgfx += --columns --colors embedded
-
 gfx/pokemon/egg/unused_front.2bpp: rgbgfx += --columns
+
+gfx/pokemon/spearow/normal.gbcpal: tools/gbcpal += --reverse
+gfx/pokemon/fearow/normal.gbcpal: tools/gbcpal += --reverse
+gfx/pokemon/farfetch_d/normal.gbcpal: tools/gbcpal += --reverse
+gfx/pokemon/hitmonlee/normal.gbcpal: tools/gbcpal += --reverse
+gfx/pokemon/scyther/normal.gbcpal: tools/gbcpal += --reverse
+gfx/pokemon/jynx/normal.gbcpal: tools/gbcpal += --reverse
+gfx/pokemon/porygon/normal.gbcpal: tools/gbcpal += --reverse
+gfx/pokemon/porygon2/normal.gbcpal: tools/gbcpal += --reverse
+
+gfx/trainers/swimmer_m.gbcpal: tools/gbcpal += --reverse
 
 gfx/new_game/shrink1.2bpp: rgbgfx += --columns
 gfx/new_game/shrink2.2bpp: rgbgfx += --columns
@@ -253,15 +259,16 @@ gfx/mobile/stadium2_n64.2bpp: tools/gfx += --trim-whitespace
 %.2bpp: %.png
 	$(RGBGFX) $(rgbgfx) -o $@ $<
 	$(if $(tools/gfx),\
-		tools/gfx $(tools/gfx) -o $@ $@)
+		tools/gfx $(tools/gfx) -o $@ $@ || $$($(RM) $@ && false))
 
 %.1bpp: %.png
 	$(RGBGFX) $(rgbgfx) --depth 1 -o $@ $<
 	$(if $(tools/gfx),\
-		tools/gfx $(tools/gfx) --depth 1 -o $@ $@)
+		tools/gfx $(tools/gfx) --depth 1 -o $@ $@ || $$($(RM) $@ && false))
 
 %.gbcpal: %.png
-	$(RGBGFX) --colors embedded -p $@ $<
+	$(RGBGFX) -p $@ $<
+	tools/gbcpal $(tools/gbcpal) $@ $@ || $$($(RM) $@ && false)
 
 %.dimensions: %.png
 	tools/png_dimensions $< $@
