@@ -155,21 +155,15 @@ gfx/pokemon/%/frames.asm: gfx/pokemon/%/front.animated.tilemap gfx/pokemon/%/fro
 
 ### Misc file-specific graphics rules
 
-gfx/pokemon/egg/unused_front.2bpp: rgbgfx += --columns
+gfx/pokemon/%/back.2bpp: rgbgfx += -Z -c embedded
+gfx/pokemon/%/front.2bpp: rgbgfx += -c embedded
 
-gfx/pokemon/spearow/normal.gbcpal: tools/gbcpal += --reverse
-gfx/pokemon/fearow/normal.gbcpal: tools/gbcpal += --reverse
-gfx/pokemon/farfetch_d/normal.gbcpal: tools/gbcpal += --reverse
-gfx/pokemon/hitmonlee/normal.gbcpal: tools/gbcpal += --reverse
-gfx/pokemon/scyther/normal.gbcpal: tools/gbcpal += --reverse
-gfx/pokemon/jynx/normal.gbcpal: tools/gbcpal += --reverse
-gfx/pokemon/porygon/normal.gbcpal: tools/gbcpal += --reverse
-gfx/pokemon/porygon2/normal.gbcpal: tools/gbcpal += --reverse
+gfx/trainers/%.2bpp: rgbgfx += -Z -c embedded
 
-gfx/trainers/swimmer_m.gbcpal: tools/gbcpal += --reverse
+gfx/pokemon/egg/unused_front.2bpp: rgbgfx += -Z
 
-gfx/new_game/shrink1.2bpp: rgbgfx += --columns
-gfx/new_game/shrink2.2bpp: rgbgfx += --columns
+gfx/new_game/shrink1.2bpp: rgbgfx += -Z
+gfx/new_game/shrink2.2bpp: rgbgfx += -Z
 
 gfx/mail/dragonite.1bpp: tools/gfx += --remove-whitespace
 gfx/mail/large_note.1bpp: tools/gfx += --remove-whitespace
@@ -179,17 +173,17 @@ gfx/mail/litebluemail_border.1bpp: tools/gfx += --remove-whitespace
 
 gfx/pokedex/pokedex.2bpp: tools/gfx += --trim-whitespace
 gfx/pokedex/pokedex_sgb.2bpp: tools/gfx += --trim-whitespace
-gfx/pokedex/question_mark.2bpp: rgbgfx += --columns
+gfx/pokedex/question_mark.2bpp: rgbgfx += -Z
 gfx/pokedex/slowpoke.2bpp: tools/gfx += --trim-whitespace
 
-gfx/pokegear/pokegear.2bpp: rgbgfx += --trim-end 2
+gfx/pokegear/pokegear.2bpp: rgbgfx += -x2
 gfx/pokegear/pokegear_sprites.2bpp: tools/gfx += --trim-whitespace
 
 gfx/mystery_gift/mystery_gift.2bpp: tools/gfx += --trim-whitespace
 
 gfx/title/crystal.2bpp: tools/gfx += --interleave --png=$<
 gfx/title/old_fg.2bpp: tools/gfx += --interleave --png=$<
-gfx/title/logo.2bpp: rgbgfx += --trim-end 4
+gfx/title/logo.2bpp: rgbgfx += -x 4
 
 gfx/trade/ball.2bpp: tools/gfx += --remove-whitespace
 gfx/trade/game_boy.2bpp: tools/gfx += --remove-duplicates --preserve=0x23,0x27
@@ -220,13 +214,13 @@ gfx/battle_anims/rocks.2bpp: tools/gfx += --remove-whitespace
 gfx/battle_anims/skyattack.2bpp: tools/gfx += --remove-whitespace
 gfx/battle_anims/status.2bpp: tools/gfx += --remove-whitespace
 
-gfx/player/chris.2bpp: rgbgfx += --columns
-gfx/player/chris_back.2bpp: rgbgfx += --columns
-gfx/player/kris.2bpp: rgbgfx += --columns
-gfx/player/kris_back.2bpp: rgbgfx += --columns
+gfx/player/chris.2bpp: rgbgfx += -Z
+gfx/player/chris_back.2bpp: rgbgfx += -Z
+gfx/player/kris.2bpp: rgbgfx += -Z
+gfx/player/kris_back.2bpp: rgbgfx += -Z
 
-gfx/trainer_card/chris_card.2bpp: rgbgfx += --columns
-gfx/trainer_card/kris_card.2bpp: rgbgfx += --columns
+gfx/trainer_card/chris_card.2bpp: rgbgfx += -Z
+gfx/trainer_card/kris_card.2bpp: rgbgfx += -Z
 gfx/trainer_card/leaders.2bpp: tools/gfx += --trim-whitespace
 
 gfx/overworld/chris_fish.2bpp: tools/gfx += --trim-whitespace
@@ -234,7 +228,7 @@ gfx/overworld/kris_fish.2bpp: tools/gfx += --trim-whitespace
 
 gfx/sprites/big_onix.2bpp: tools/gfx += --remove-whitespace --remove-xflip
 
-gfx/battle/dude.2bpp: rgbgfx += --columns
+gfx/battle/dude.2bpp: rgbgfx += -Z
 
 gfx/font/unused_bold_font.1bpp: tools/gfx += --trim-whitespace
 
@@ -259,16 +253,15 @@ gfx/mobile/stadium2_n64.2bpp: tools/gfx += --trim-whitespace
 %.2bpp: %.png
 	$(RGBGFX) $(rgbgfx) -o $@ $<
 	$(if $(tools/gfx),\
-		tools/gfx $(tools/gfx) -o $@ $@ || $$($(RM) $@ && false))
+		tools/gfx $(tools/gfx) -o $@ $@)
 
 %.1bpp: %.png
-	$(RGBGFX) $(rgbgfx) --depth 1 -o $@ $<
+	$(RGBGFX) $(rgbgfx) -d1 -o $@ $<
 	$(if $(tools/gfx),\
-		tools/gfx $(tools/gfx) --depth 1 -o $@ $@ || $$($(RM) $@ && false))
+		tools/gfx $(tools/gfx) -d1 -o $@ $@)
 
 %.gbcpal: %.png
-	$(RGBGFX) -p $@ $<
-	tools/gbcpal $(tools/gbcpal) $@ $@ || $$($(RM) $@ && false)
+	$(RGBGFX) -c embedded -p $@ $<
 
 %.dimensions: %.png
 	tools/png_dimensions $< $@
