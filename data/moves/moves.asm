@@ -269,4 +269,7 @@ Moves1:
 	move EFFECT_DEFENSE_DOWN_HIT,   20, FIGHTING,      100, 15,  50      ;ROCK_SMASH
 	move EFFECT_TRAP_TARGET,        15, WATER,          70, 15,   0      ;WHIRLPOOL
 	move EFFECT_BEAT_UP,            10, DARK,          100, 10,   0      ;BEAT_UP
+	move EFFECT_DISGUISE,            0, GHOST,         100,  5, 100      ;DISGUISE
+	move EFFECT_ATTACK_DOWN_HIT,    90, FAIRY,          90, 10,  10      ;PLAY_ROUGH
+	move EFFECT_PRIORITY_HIT,       40, GHOST,         100, 30,   0      ;SHADOW_SNEAK
 .IndirectEnd::

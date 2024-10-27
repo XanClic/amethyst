@@ -279,6 +279,9 @@ BattleAnimations::
 	dw BattleAnim_RockSmash
 	dw BattleAnim_Whirlpool
 	dw BattleAnim_BeatUp
+	dw BattleAnim_Disguise
+	dw BattleAnim_PlayRough
+	dw BattleAnim_ShadowSneak
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -2156,6 +2159,44 @@ BattleAnim_Submission:
 	anim_call BattleAnim_ShowMon_1
 	anim_ret
 
+BattleAnim_PlayRough:
+	anim_2gfx BATTLE_ANIM_GFX_OBJECTS, BATTLE_ANIM_GFX_HIT
+	anim_call BattleAnim_UserObj_1Row
+	anim_bgeffect BATTLE_BG_EFFECT_WOBBLE_MON, $0, BG_EFFECT_TARGET, $0
+	anim_sound 0, 0, SFX_LICK
+	anim_obj BATTLE_ANIM_OBJ_HEART, 64, 76, $0
+	anim_wait 32
+	anim_sound 0, 1, SFX_WING_ATTACK
+	anim_obj BATTLE_ANIM_OBJ_PALM, 120, 48, $0
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 120, 48, $0
+	anim_wait 32
+	anim_obj BATTLE_ANIM_OBJ_PALM, 152, 56, $0
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 152, 56, $0
+	anim_wait 32
+	anim_obj BATTLE_ANIM_OBJ_HEART, 136, 52, $0
+	anim_obj BATTLE_ANIM_OBJ_PALM, 136, 52, $0
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 136, 52, $0
+	anim_wait 32
+	anim_incbgeffect BATTLE_BG_EFFECT_WOBBLE_MON
+	anim_call BattleAnim_ShowMon_1
+	anim_ret
+
+BattleAnim_ShadowSneak:
+	anim_1gfx BATTLE_ANIM_GFX_HIT
+	anim_bgeffect BATTLE_BG_EFFECT_HIDE_MON, $0, BG_EFFECT_USER, $0
+	anim_wait 32
+	anim_bgp $1b
+	anim_obp0 $c0
+	anim_wait 32
+	anim_sound 0, 1, SFX_COMET_PUNCH
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 124, 40, $0
+	anim_wait 32
+	anim_bgp $00
+	anim_obp0 $00
+	anim_bgeffect BATTLE_BG_EFFECT_SHOW_MON, $0, BG_EFFECT_USER, $0
+	anim_wait 4
+	anim_ret
+
 BattleAnim_Whirlwind:
 	anim_1gfx BATTLE_ANIM_GFX_WIND
 .loop
@@ -2547,6 +2588,7 @@ BattleAnim_Flash:
 	anim_ret
 
 BattleAnim_Substitute:
+BattleAnim_Disguise:
 	anim_sound 0, 0, SFX_SURF
 	anim_if_param_equal $3, .dropsub2
 	anim_if_param_equal $2, .raisesub

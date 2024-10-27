@@ -101,6 +101,7 @@ EggMovePointers2::
 	dw NoEggMoves2
 	dw NoEggMoves2
 	dw NoEggMoves2
+	dw MimikyuEggMoves
 .IndirectEnd::
 
 ChikoritaEggMoves:
@@ -466,5 +467,11 @@ LarvitarEggMoves:
 	dw OUTRAGE
 	dw FOCUS_ENERGY
 	dw ANCIENTPOWER
-NoEggMoves2:
 	dw -1 ; end
+
+MimikyuEggMoves:
+	db DESTINY_BOND
+	db CURSE
+	db NIGHTMARE
+NoEggMoves2:
+	db -1 ; end

@@ -256,6 +256,9 @@ MoveDescriptions1:
 	dw RockSmashDescription
 	dw WhirlpoolDescription
 	dw BeatUpDescription
+	dw DisguiseDescription
+	dw PlayRoughDescription
+	dw ShadowSneakDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1264,3 +1267,15 @@ WhirlpoolDescription:
 BeatUpDescription:
 	db   "Party #MON join"
 	next "in the attack.@"
+
+DisguiseDescription:
+	db   "Makes a decoy and"
+	next "cause flinching.@"
+
+PlayRoughDescription:
+	db   "An attack that may"
+	next "lower ATTACK.@"
+
+ShadowSneakDescription:
+	db   "Lets the user get"
+	next "in the first hit.@"

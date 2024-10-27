@@ -216,6 +216,7 @@ NewPokedexOrder:
 	dw MAGCARGO
 	dw SNEASEL
 	dw MISDREAVUS
+	dw MIMIKYU
 	dw PORYGON
 	dw PORYGON2
 	dw CHANSEY

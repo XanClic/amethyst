@@ -73,4 +73,7 @@
 	const CRY_DUNSPARCE
 	const CRY_DONPHAN
 
+; gen 3+
+	const CRY_MIMIKYU
+
 DEF NUM_CRIES EQU const_value

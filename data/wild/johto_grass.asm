@@ -1678,8 +1678,8 @@ JohtoGrassWildMons:
 	dbw 3, GEODUDE
 	dbw 3, RATTATA
 	dbw 2, RATTATA
-	dbw 2, RATTATA
-	dbw 2, RATTATA
+	dbw 2, MIMIKYU
+	dbw 3, MIMIKYU
 	end_grass_wildmons
 
 	def_grass_wildmons SILVER_CAVE_OUTSIDE

@@ -2077,3 +2077,11 @@ DefenseCurl:
 	statupmessage
 	statupfailtext
 	endmove
+
+Disguise:
+	checkobedience
+	usedmovetext
+	doturn
+	substitute
+	flinchtarget
+	endmove

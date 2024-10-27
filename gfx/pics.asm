@@ -707,6 +707,8 @@ UnownPBackpic:       INCBIN "gfx/pokemon/unown_p/back.2bpp.lz"
 UnownIBackpic:       INCBIN "gfx/pokemon/unown_i/back.2bpp.lz"
 UnownRBackpic:       INCBIN "gfx/pokemon/unown_r/back.2bpp.lz"
 ArticunoFrontpic:    INCBIN "gfx/pokemon/articuno/front.animated.2bpp.lz"
+MimikyuFrontpic:     INCBIN "gfx/pokemon/mimikyu/front.animated.2bpp.lz"
+MimikyuBackpic:      INCBIN "gfx/pokemon/mimikyu/back.2bpp.lz"
 
 
 SECTION "Pics 19", ROMX
