@@ -37,56 +37,59 @@ Route6UndergroundPathSign:
 	jumptext Route6UndergroundPathSignText
 
 Route6PokefanMText:
-	text "The road is closed"
-	line "until the problem"
+	text "Die Straße zum"
+	line "KRAFTWERK bleibt"
 
-	para "at the POWER PLANT"
-	line "is solved."
+	para "gesperrt, bis das"
+	line "Problem gelöst"
+	cont "wurde."
 	done
 
 Route6UndergroundPathSignText:
-	text "UNDERGROUND PATH"
+	text "TUNNELPFAD"
 
-	para "CERULEAN CITY -"
-	line "VERMILION CITY"
+	para "AZURIA CITY -"
+	line "ORANIA CITY"
 	done
 
 PokefanmRexSeenText:
-	text "My PHANPY is the"
-	line "cutest in the"
-	cont "world."
+	text "Mein PHANPY ist"
+	line "das niedlichste"
+	cont "der ganzen Welt."
 	done
 
 PokefanmRexBeatenText:
-	text "My PHANPY!"
+	text "Mein PHANPY!"
 	done
 
 PokefanmRexAfterBattleText:
-	text "Look how adorable"
-	line "my PHANPY acts!"
+	text "Sieh, wie grazil"
+	line "sich mein PHANPY"
+	cont "bewegt!"
 
-	para "Isn't it cute"
-	line "enough to make"
-	cont "your heart melt?"
+	para "Es ist so süß,"
+	line "dass dein Herz"
+	cont "dahinschmilzt."
 	done
 
 PokefanmAllanSeenText:
-	text "My TEDDIURSA is"
-	line "the cutest in the"
-	cont "world."
+	text "Mein TEDDIURSA ist"
+	line "das niedlichste"
+	cont "der ganzen Welt."
 	done
 
 PokefanmAllanBeatenText:
-	text "My TEDDIURSA!"
+	text "Mein TEDDIURSA!"
 	done
 
 PokefanmAllanAfterBattleText:
-	text "Look how adorable"
-	line "my TEDDIURSA acts!"
+	text "Sieh, wie grazil"
+	line "sich mein"
+	cont "TEDDIURSA bewegt!"
 
-	para "Isn't it cute"
-	line "enough to make"
-	cont "your heart melt?"
+	para "Es ist so süß,"
+	line "dass dein Herz"
+	cont "dahinschmilzt."
 	done
 
 Route6_MapEvents:

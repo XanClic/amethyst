@@ -185,7 +185,11 @@ SaveTheGame_yesorno:
 	ld b, BANK(WouldYouLikeToSaveTheGameText)
 	call MapTextbox
 	call LoadMenuTextbox
+if !DEF(_CRYSTAL_EU)
 	lb bc, 0, 7
+else
+	lb bc, 0, 9
+endc
 	call PlaceYesNoBox
 	ld a, [wMenuCursorY]
 	dec a
@@ -224,9 +228,15 @@ SavedTheGame:
 	call WaitPlaySFX
 	jp WaitSFX
 
+if !DEF(_CRYSTAL_DE)
 .saving_text
 	text "Saving…"
 	done
+elif DEF(_CRYSTAL_DE)
+.saving_text
+	text "Speichern…"
+	done
+endc
 
 SaveGameData:
 	ld a, TRUE

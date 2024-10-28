@@ -100,6 +100,7 @@ PrintPage2:
 
 GBPrinterStrings: ; used only for BANK(GBPrinterStrings)
 GBPrinterString_Null: db "@"
+if !DEF(_CRYSTAL_EU)
 GBPrinterString_CheckingLink: next " CHECKING LINK...@"
 GBPrinterString_Transmitting: next "  TRANSMITTING...@"
 GBPrinterString_Printing: next "    PRINTING...@"
@@ -107,26 +108,71 @@ GBPrinterString_PrinterError1:
 	db   " Printer Error 1"
 	next ""
 	next "Check the Game Boy"
-	next "Printer Manual."
-	db   "@"
+	next "Printer Manual.@"
 GBPrinterString_PrinterError2:
 	db   " Printer Error 2"
 	next ""
 	next "Check the Game Boy"
-	next "Printer Manual."
-	db   "@"
+	next "Printer Manual.@"
 GBPrinterString_PrinterError3:
 	db   " Printer Error 3"
 	next ""
 	next "Check the Game Boy"
-	next "Printer Manual."
-	db   "@"
+	next "Printer Manual.@"
 GBPrinterString_PrinterError4:
 	db   " Printer Error 4"
 	next ""
 	next "Check the Game Boy"
-	next "Printer Manual."
-	db   "@"
+	next "Printer Manual.@"
+elif DEF(_CRYSTAL_DE)
+GBPrinterString_CheckingLink: next "   PRÜFE LINK...@"
+GBPrinterString_Transmitting: next "   ÜBERTRAGUNG@"
+GBPrinterString_Printing: next "     DRUCKEN@"
+GBPrinterString_PrinterError1:
+	db   " Drucker fehler 1"
+	next ""
+	next " Lies das GAME BOY"
+	next " PRINTER-Handbuch.@"
+GBPrinterString_PrinterError2:
+	db   " Drucker fehler 2"
+	next ""
+	next " Lies das GAME BOY"
+	next " PRINTER-Handbuch.@"
+GBPrinterString_PrinterError3:
+	db   " Drucker fehler 3"
+	next ""
+	next " Lies das GAME BOY"
+	next " PRINTER-Handbuch.@"
+GBPrinterString_PrinterError4:
+	db   " Drucker fehler 4"
+	next ""
+	next " Lies das GAME BOY"
+	next " PRINTER-Handbuch.@"
+elif DEF(_CRYSTAL_ES)
+GBPrinterString_CheckingLink: next "  COMPROBANDO...@"
+GBPrinterString_Transmitting: next " TRANSMITIENDO...@"
+GBPrinterString_Printing: next "  IMPRIMIENDO...@"
+GBPrinterString_PrinterError1:
+	db   "  Error 1 Impres."
+	next ""
+	next "Verifica el manual"
+	next "de impresora GB@"
+GBPrinterString_PrinterError2:
+	db   "  Error 2 Impres."
+	next ""
+	next "Verifica el manual"
+	next "de impresora GB@"
+GBPrinterString_PrinterError3:
+	db   "  Error 3 Impres."
+	next ""
+	next "Verifica el manual"
+	next "de impresora GB@"
+GBPrinterString_PrinterError4:
+	db   "  Error 4 Impres."
+	next ""
+	next "Verifica el manual"
+	next "de impresora GB@"
+endc
 
 PrintPartyMonPage1:
 	call ClearBGPalettes
@@ -201,7 +247,11 @@ PrintPartyMonPage1:
 	ld de, wTempMonID
 	lb bc, PRINTNUM_LEADINGZEROS | 2, 5
 	call PrintNum
+if !DEF(_CRYSTAL_DE)
 	hlcoord 1, 14
+else
+	hlcoord 1, 13
+endc
 	ld de, PrintParty_MoveString
 	call PlaceString
 	hlcoord 7, 14
@@ -340,6 +390,7 @@ PlaceGenderAndShininess:
 	ld [hl], "⁂"
 	ret
 
+if !DEF(_CRYSTAL_EU)
 PrintParty_OTString:
 	db "OT/@"
 
@@ -356,6 +407,41 @@ PrintParty_StatsString:
 	next "SPCL.DEF"
 	next "SPEED"
 	db   "@"
+elif DEF(_CRYSTAL_DE)
+PrintParty_OTString:
+	db "OT/@"
+
+PrintParty_MoveString:
+	db "ATTACKE@"
+
+PrintParty_IDNoString:
+	db "<ID>№.@"
+
+PrintParty_StatsString:
+	db   "ANGR"
+	next "VER"
+	next "SPEZ.ANG"
+	next "SPEZ.VER"
+	next "INIT"
+        db   "@"
+elif DEF(_CRYSTAL_ES)
+PrintParty_OTString:
+	db "EO/@"
+
+PrintParty_MoveString:
+	db "MOVER@"
+
+PrintParty_IDNoString:
+	db "№<ID> @"
+
+PrintParty_StatsString:
+	db   "ATAQUE"
+	next "DEFENSA"
+	next "AT. ESP"
+	next "DEF. ESP"
+	next "VELOCID."
+        db   "@"
+endc
 
 PrintParty_NoMoveString:
 	db "------------@"

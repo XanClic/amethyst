@@ -125,6 +125,12 @@ _GiveOddEgg:
 	ret
 
 .Odd:
+if !DEF(_CRYSTAL_EU)
 	db "ODD@@@@@@@@@"
+elif DEF(_CRYSTAL_DE)
+	db "Kurios@@@@@@"
+elif DEF(_CRYSTAL_ES)
+	db "Raro@@@@@@@"
+endc
 
 INCLUDE "data/events/odd_eggs.asm"

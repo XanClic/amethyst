@@ -27,10 +27,10 @@ MonMenuOptions:
 	assert_table_length NUM_MONMENUITEMS
 	db -1
 
-.stats:  db "STATS@"
-.switch: db "SWITCH@"
+.stats:  db "STATUS@"
+.switch: db "TAUSCH@"
 .item:   db "ITEM@"
-.cancel: db "CANCEL@"
-.move:   db "MOVE@"
-.mail:   db "MAIL@"
-.error:  db "ERROR!@"
+.cancel: db "ZURÜCK@"
+.move:   db "ATTACKE@"
+.mail:   db "BRIEF@"
+.error:  db "FEHLER!@"

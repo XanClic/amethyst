@@ -110,7 +110,13 @@ PlacePartyNicknames:
 	ret
 
 .CancelString:
+if !DEF(_CRYSTAL_EU)
 	db "CANCEL@"
+elif DEF(_CRYSTAL_DE)
+	db "ZURÜCK@"
+elif DEF(_CRYSTAL_ES)
+	db "SALIR@"
+endc
 
 PlacePartyHPBar:
 	xor a
@@ -340,11 +346,16 @@ PlacePartyMonTMHMCompatibility:
 	ld de, .string_able
 	ret
 
-.string_able
-	db "ABLE@"
-
-.string_not_able
-	db "NOT ABLE@"
+if !DEF(_CRYSTAL_EU)
+.string_able     db "ABLE@"
+.string_not_able db "NOT ABLE@"
+elif DEF(_CRYSTAL_DE)
+.string_able     db "OK@"
+.string_not_able db "NEIN@"
+elif DEF(_CRYSTAL_ES)
+.string_able     db "PUEDE@"
+.string_not_able db "NO PUEDE@"
+endc
 
 PlacePartyMonEvoStoneCompatibility:
 	ld a, [wPartyCount]
@@ -392,10 +403,16 @@ PlacePartyMonEvoStoneCompatibility:
 	jr nz, .loop
 	ret
 
-.string_able
-	db "ABLE@"
-.string_not_able
-	db "NOT ABLE@"
+if !DEF(_CRYSTAL_EU)
+.string_able     db "ABLE@"
+.string_not_able db "NOT ABLE@"
+elif DEF(_CRYSTAL_DE)
+.string_able     db "OK@"
+.string_not_able db "NEIN@"
+elif DEF(_CRYSTAL_ES)
+.string_able     db "PUEDE@"
+.string_not_able db "NO PUEDE@"
+endc
 
 PlacePartyMonGender:
 	ld a, [wPartyCount]
@@ -436,14 +453,19 @@ PlacePartyMonGender:
 	jr nz, .loop
 	ret
 
-.male
-	db "♂…MALE@"
-
-.female
-	db "♀…FEMALE@"
-
-.unknown
-	db "…UNKNOWN@"
+if !DEF(_CRYSTAL_EU)
+.male    db "♂…MALE@"
+.female  db "♀…FEMALE@"
+.unknown db "…UNKNOWN@"
+elif DEF(_CRYSTAL_DE)
+.male    db "♂…MÄNNL.@"
+.female  db "♀…WEIBL.@"
+.unknown db "…NEUTRUM@"
+elif DEF(_CRYSTAL_ES)
+.male    db "♂…MACHO@"
+.female  db "♀…HEMBRA@"
+.unknown db "…DESCON.@"
+endc
 
 PlacePartyMonMobileBattleSelection:
 	ld a, [wPartyCount]
@@ -715,32 +737,37 @@ PartyMenuStrings:
 	dw ChooseAMonString ; Probably used to be ChooseAMalePKMNString
 	dw ToWhichPKMNString
 
-ChooseAMonString:
-	db "Choose a #MON.@"
-
-UseOnWhichPKMNString:
-	db "Use on which <PK><MN>?@"
-
-WhichPKMNString:
-	db "Which <PK><MN>?@"
-
-TeachWhichPKMNString:
-	db "Teach which <PK><MN>?@"
-
-MoveToWhereString:
-	db "Move to where?@"
-
-ChooseAFemalePKMNString: ; unreferenced
-	db "Choose a ♀<PK><MN>.@"
-
-ChooseAMalePKMNString: ; unreferenced
-	db "Choose a ♂<PK><MN>.@"
-
-ToWhichPKMNString:
-	db "To which <PK><MN>?@"
-
-YouHaveNoPKMNString:
-	db "You have no <PK><MN>!@"
+if !DEF(_CRYSTAL_EU)
+ChooseAMonString:        db "Choose a #MON.@"
+UseOnWhichPKMNString:    db "Use on which <PK><MN>?@"
+WhichPKMNString:         db "Which <PK><MN>?@"
+TeachWhichPKMNString:    db "Teach which <PK><MN>?@"
+MoveToWhereString:       db "Move to where?@"
+ChooseAFemalePKMNString: db "Choose a ♀<PK><MN>.@" ; unused
+ChooseAMalePKMNString:   db "Choose a ♂<PK><MN>.@" ; unused
+ToWhichPKMNString:       db "To which <PK><MN>?@"
+YouHaveNoPKMNString:     db "You have no <PK><MN>!@"
+elif DEF(_CRYSTAL_DE)
+ChooseAMonString:        db "#MON wählen.@"
+UseOnWhichPKMNString:    db "Welches <PKMN>?@"
+WhichPKMNString:         db "Welches #MON?@"
+TeachWhichPKMNString:    db "#MON wählen.@"
+MoveToWhereString:       db "Wohin verschieben?@"
+ChooseAFemalePKMNString: db "Wähle weibl. <PKMN>@"
+ChooseAMalePKMNString:   db "Wähle männl. <PKMN>@"
+ToWhichPKMNString:       db "Welchem <PKMN>?@"
+YouHaveNoPKMNString:     db "Du hast kein <PKMN>!@"
+elif DEF(_CRYSTAL_ES)
+ChooseAMonString:        db "Elige un #MON.@"
+UseOnWhichPKMNString:    db "¿Usar en qué <PK><MN>?@"
+WhichPKMNString:         db "¿Qué <PK><MN>?@"
+TeachWhichPKMNString:    db "¿Enseñar a quién?@"
+MoveToWhereString:       db "¿Mover adónde?@"
+ChooseAFemalePKMNString: db "Elige un <PK><MN>♀.@" ; unused
+ChooseAMalePKMNString:   db "Elige un <PK><MN>♂.@" ; unused
+ToWhichPKMNString:       db "¿A qué <PK><MN>?@"
+YouHaveNoPKMNString:     db "¡No tienes <PK><MN>!@"
+endc
 
 PrintPartyMenuActionText:
 	ld a, [wCurPartyMon]

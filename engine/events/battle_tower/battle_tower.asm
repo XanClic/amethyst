@@ -497,7 +497,13 @@ ValidateBTParty: ; unreferenced
 	ret
 
 BT_ChrisName:
+if !DEF(_CRYSTAL_EU)
 	db "CHRIS@"
+elif DEF(_CRYSTAL_DE)
+	db "CHRIS@"
+elif DEF(_CRYSTAL_ES)
+	db "ANTONIO@"
+endc
 
 Function17042c:
 	ld hl, w3_d202TrainerData

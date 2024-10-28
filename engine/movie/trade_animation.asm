@@ -937,10 +937,22 @@ TrademonStats_MonTemplate:
 	ret
 
 .OTMonData:
+if !DEF(_CRYSTAL_EU)
 	db   "─── №."
 	next ""
 	next "OT/"
 	next "<ID>№.@"
+elif DEF(_CRYSTAL_DE)
+	db   "─── №."
+	next ""
+	next "OT/"
+	next "<ID>№.@"
+elif DEF(_CRYSTAL_ES)
+	db   "─── №."
+	next ""
+	next "EO/"
+	next "№<ID> @"
+endc
 
 TrademonStats_Egg:
 	call WaitTop
@@ -958,9 +970,19 @@ TrademonStats_Egg:
 	ret
 
 .EggData:
+if !DEF(_CRYSTAL_EU)
 	db   "EGG"
 	next "OT/?????"
 	next "<ID>№.?????@"
+elif DEF(_CRYSTAL_DE)
+	db   "EI"
+	next "OT/?????"
+	next "<ID>№.?????@"
+elif DEF(_CRYSTAL_ES)
+	db   "HUEVO"
+	next "EO/¿¿??"
+	next "№<ID> ¿¿??@"
+endc
 
 TrademonStats_WaitBGMap:
 	call WaitBGMap

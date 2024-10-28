@@ -1691,10 +1691,16 @@ HandleScreens:
 	ld hl, wStringBuffer1
 	jp CopyName2
 
-.Your:
-	db "Your@"
-.Enemy:
-	db "Enemy@"
+if !DEF(_CRYSTAL_EU)
+.Your:  db "Your@"
+.Enemy: db "Enemy@"
+elif DEF(_CRYSTAL_DE)
+.Your:  db "Dein@"
+.Enemy: db "Gegner@"
+elif DEF(_CRYSTAL_ES)
+.Your:  db "tu@"
+.Enemy: db "enemigo@"
+endc
 
 .LightScreenTick:
 	ld a, [de]
@@ -5760,10 +5766,16 @@ MoveInfoBox:
 .done
 	ret
 
-.Disabled:
-	db "Disabled!@"
-.Type:
-	db "TYPE/@"
+if !DEF(_CRYSTAL_EU)
+.Disabled: db "Disabled!@"
+.Type:     db "TYPE/@"
+elif DEF(_CRYSTAL_DE)
+.Disabled: db "Blockiert@"
+.Type:     db "TYP/@"
+elif DEF(_CRYSTAL_ES)
+.Disabled: db "¡Desact.!@"
+.Type:     db "TIPO/@"
+endc
 
 .PrintPP:
 	hlcoord 5, 11
@@ -6291,7 +6303,11 @@ LoadEnemyMon:
 ; Try again if length < 1024 mm (i.e. if HIGH(length) < 3 feet)
 	ld a, [wMagikarpLength]
 	cp HIGH(1024)
+if !DEF(_CRYSTAL_EU)
 	jr c, .GenerateDVs ; try again
+else
+	jp c, .GenerateDVs ; try again
+endc
 
 ; Finally done with DVs
 
@@ -8490,7 +8506,11 @@ DisplayLinkBattleResult:
 	jr .store_result
 
 .store_result
+if !DEF(_CRYSTAL_EU)
 	hlcoord 6, 8
+else
+	hlcoord 3, 8
+endc
 	call PlaceString
 	farcall BackupGSBallFlag
 	ld c, 200
@@ -8516,24 +8536,39 @@ DisplayLinkBattleResult:
 	call ClearTilemap
 	ret
 
-.YouWin:
-	db "YOU WIN@"
-.YouLose:
-	db "YOU LOSE@"
-.Draw:
-	db "  DRAW@"
+if !DEF(_CRYSTAL_EU)
+.YouWin:  db "YOU WIN@"
+.YouLose: db "YOU LOSE@"
+.Draw:    db "  DRAW@"
+elif DEF(_CRYSTAL_DE)
+.YouWin:  db "   GEWONNEN   @"
+.YouLose: db "   VERLOREN   @"
+.Draw:    db "UNENTSCHIEDEN @"
+elif DEF(_CRYSTAL_ES)
+.YouWin:  db "    GANAS     @"
+.YouLose: db "   PIERDES    @"
+.Draw:    db "    EMPATE    @"
+endc
 
 .Mobile_InvalidBattle:
+if !DEF(_CRYSTAL_EU)
 	hlcoord 6, 8
 	ld de, .InvalidBattle
 	call PlaceString
 	ld c, 200
 	call DelayFrames
 	call ClearTilemap
+endc
 	ret
 
 .InvalidBattle:
+if !DEF(_CRYSTAL_EU)
 	db "INVALID BATTLE@"
+elif DEF(_CRYSTAL_DE)
+	db "Ungültiger Kampf@"
+elif DEF(_CRYSTAL_ES)
+	db "BATALLA INVALIDA@"
+endc
 
 IsMobileBattle2:
 	ld a, [wLinkMode]
@@ -8684,12 +8719,20 @@ ReadAndPrintLinkBattleRecord:
 .Format:
 	db "  ---  <LF>"
 	db "         -    -    -@"
-.Record:
-	db "<PLAYER>'s RECORD@"
-.Result:
-	db "RESULT WIN LOSE DRAW@"
-.Total:
-	db "TOTAL  WIN LOSE DRAW@"
+
+if !DEF(_CRYSTAL_EU)
+.Record: db "<PLAYER>'s RECORD@"
+.Result: db "RESULT WIN LOSE DRAW@"
+.Total:  db "TOTAL  WIN LOSE DRAW@"
+elif DEF(_CRYSTAL_DE)
+.Record: db "<PLAYER>s STATISTIK@"
+.Result: db "Erg. Gew. Verl. Patt@"
+.Total:  db "Ges. Gew. Verl. Patt@"
+elif DEF(_CRYSTAL_ES)
+.Record: db "RÉCORD de <PLAYER>@"
+.Result: db "RESULT  GAN PERD EMP@"
+.Total:  db "TOTAL   GAN PERD EMP@"
+endc
 
 BattleEnd_HandleRoamMons:
 	ld a, [wBattleType]

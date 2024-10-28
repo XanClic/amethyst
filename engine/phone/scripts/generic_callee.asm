@@ -1255,9 +1255,25 @@ PhoneScript_MonFlavorText:
 	promptbutton
 	farsjump PhoneScript_HangUpText_Male
 
-GrandmaString: db "Grandma@"
-GrandpaString: db "Grandpa@"
-MomString: db "Mom@"
-DadString: db "Dad@"
-SisterString: db "Sister@"
-BrotherString: db "Brother@"
+if !DEF(_CRYSTAL_EU)
+GrandmaString:: db "Grandma@"
+GrandpaString:: db "Grandpa@"
+MomString::     db "Mom@"
+DadString::     db "Dad@"
+SisterString::  db "Sister@"
+BrotherString:: db "Brother@"
+elif DEF(_CRYSTAL_DE)
+GrandmaString:: db "Oma@"
+GrandpaString:: db "Opa@"
+MomString::     db "Mama@"
+DadString::     db "Vati@"
+SisterString::  db "Bruder@"
+BrotherString:: db "Schwester@"
+elif DEF(_CRYSTAL_ES)
+GrandmaString:: db "Abuela@"
+GrandpaString:: db "Abuelo@"
+MomString::     db "Mamá@"
+DadString::     db "Papá@"
+SisterString::  db "Hermano@"
+BrotherString:: db "Harmana@"
+endc

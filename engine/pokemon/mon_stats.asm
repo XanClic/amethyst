@@ -114,12 +114,26 @@ PrintTempMonStats:
 	ret
 
 .StatNames:
+if !DEF(_CRYSTAL_EU)
 	db   "ATTACK"
 	next "DEFENSE"
 	next "SPCL.ATK"
 	next "SPCL.DEF"
 	next "SPEED"
 	next "@"
+elif DEF(_CRYSTAL_DE)
+	db   "ANGR"
+	next "VER"
+	next "SPEZ.ANG"
+	next "SPEZ.VER"
+	next "INIT@"
+elif DEF(_CRYSTAL_ES)
+	db   "ATAQUE"
+	next "DEFENSA"
+	next "AT. ESP"
+	next "DEF. ESP"
+	next "VELOCID.@"
+endc
 
 GetGender:
 ; Return the gender of a given monster (wCurPartyMon/wCurOTMon/wCurWildMon).
@@ -250,7 +264,11 @@ ListMovePP:
 	ld e, a
 	ld d, 0
 	ld a, $3e ; P
+if !DEF(_CRYSTAL_DE)
 	call .load_loop
+else
+	call .load_ap_loop
+endc
 	ld a, b
 	and a
 	jr z, .skip
@@ -327,6 +345,18 @@ ListMovePP:
 	jr nz, .load_loop
 	ret
 
+; "AP" is german for "PP"
+.load_ap_loop
+	ld [hl], $32 ; A
+	inc hl
+	ld [hl], $3e ; P
+	dec hl
+	add hl, de
+	dec c
+	jr nz, .load_ap_loop
+	ret
+
+
 BrokenPlacePPUnits: ; unreferenced
 ; Probably would have these parameters:
 ; hl = starting coordinate
@@ -391,7 +421,13 @@ PlaceStatusString:
 	ret
 
 FntString:
+if !DEF(_CRYSTAL_EU)
 	db "FNT@"
+elif DEF(_CRYSTAL_DE)
+	db "BSG@"
+elif DEF(_CRYSTAL_ES)
+	db "DEB@"
+endc
 
 CopyStatusString:
 	ld a, [de]
@@ -432,11 +468,25 @@ PlaceNonFaintStatus:
 	pop de
 	ret
 
+if !DEF(_CRYSTAL_EU)
 SlpString: db "SLP@"
 PsnString: db "PSN@"
 BrnString: db "BRN@"
 FrzString: db "FRZ@"
 ParString: db "PAR@"
+elif DEF(_CRYSTAL_DE)
+SlpString: db "SLF@"
+PsnString: db "GIF@"
+BrnString: db "BRT@"
+FrzString: db "GFR@"
+ParString: db "PAR@"
+elif DEF(_CRYSTAL_ES)
+SlpString: db "DOR@"
+PsnString: db "ENV@"
+BrnString: db "QUE@"
+FrzString: db "CON@"
+ParString: db "PAR@"
+endc
 
 ListMoves:
 ; List moves at hl, spaced every [wListMovesLineSpacing] tiles.

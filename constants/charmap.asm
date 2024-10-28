@@ -6,10 +6,12 @@
 	charmap "<PLAY_G>",  $14 ; "<PLAYER>くん" or "<PLAYER>ちゃん"; same as "<PLAYER>" in English
 	charmap "<MOBILE>",  $15
 	charmap "<CR>",      $16
-	charmap "<BSP>",     $1f ; breakable space (usually " ", or "<LF>" on the Town Map)
+	charmap "<->",       $1d ; hyphen split, same as "-<LF>"
+	charmap "<WBR>",     $1e ; soft hyphen split
+	charmap "<BSP>",     $1f ; soft linebreak
 	charmap "<LF>",      $22
 	charmap "<POKE>",    $24 ; "<PO><KE>"
-	charmap "<WBR>",     $25 ; word-break opportunity (usually skipped, or "<LF>" on the Town Map)
+	charmap "%",         $25 ; soft linebreak in landmark names
 	charmap "<RED>",     $38 ; wRedsName
 	charmap "<GREEN>",   $39 ; wGreensName
 	charmap "<ENEMY>",   $3f
@@ -159,26 +161,47 @@
 	charmap "y",         $b8
 	charmap "z",         $b9
 
+	charmap "à",         $ba
+	charmap "è",         $bb
+	charmap "<é>",       $bc
+	charmap "ù",         $bd
+	charmap "ß",         $be
+	charmap "ç",         $bf
+
 	charmap "Ä",         $c0
 	charmap "Ö",         $c1
 	charmap "Ü",         $c2
 	charmap "ä",         $c3
 	charmap "ö",         $c4
 	charmap "ü",         $c5
+	charmap "ë",         $c6
+	charmap "ï",         $c7
+	charmap "â",         $c8
+	charmap "ô",         $c9
+	charmap "û",         $ca
+	charmap "ê",         $cb
+	charmap "î",         $cc
 
-	charmap "'d",        $d0
-	charmap "'l",        $d1
-	charmap "'m",        $d2
-	charmap "'r",        $d3
-	charmap "'s",        $d4
-	charmap "'t",        $d5
-	charmap "'v",        $d6
+	charmap "←",         $cf
 
-	charmap "←",         $df
+	charmap "c'",        $d4
+	charmap "d'",        $d5
+	charmap "j'",        $d6
+	charmap "l'",        $d7
+	charmap "m'",        $d8
+	charmap "n'",        $d9
+	charmap "p'",        $da
+	charmap "s'",        $db
+	charmap "'s",        $dc
+	charmap "<t'>",      $dd ; Never used in german, conflicts with 's
+	charmap "u'",        $de
+	charmap "y'",        $df
+
 	charmap "'",         $e0
 	charmap "<PK>",      $e1
 	charmap "<MN>",      $e2
 	charmap "-",         $e3
+	charmap "+",         $e4
 
 	charmap "?",         $e6
 	charmap "!",         $e7
@@ -191,7 +214,7 @@
 	charmap "▶",         $ed
 	charmap "▼",         $ee
 	charmap "♂",         $ef
-	charmap "¥",         $f0 ; Poké Dollar sign
+	charmap "¥",         $f0
 	charmap "×",         $f1
 	charmap "<DOT>",     $f2 ; decimal point; same as "." in English
 	charmap "/",         $f3
@@ -281,8 +304,8 @@
 
 	charmap "「", $70
 	charmap "」", $71
+	charmap "『", $72
 	charmap "』", $73
-	charmap "・", $74
 	charmap "⋯", $75
 
 	charmap "　", $7f

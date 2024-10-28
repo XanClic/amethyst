@@ -36,6 +36,9 @@ RadioJumptable:
 ; OaksPKMNTalk
 	dw OaksPKMNTalk2     ; $0b
 	dw OaksPKMNTalk3     ; $0c
+if DEF(_CRYSTAL_DE)
+	dw OaksPKMNTalk3_2
+endc
 	dw OaksPKMNTalk4     ; $0d
 	dw OaksPKMNTalk5     ; $0e
 	dw OaksPKMNTalk6     ; $0f
@@ -189,8 +192,19 @@ OaksPKMNTalk2:
 
 OaksPKMNTalk3:
 	ld hl, OPT_IntroText3
+if !DEF(_CRYSTAL_DE)
+	ld a, OAKS_POKEMON_TALK_4
+else
+	ld a, OAKS_POKEMON_TALK_3_2
+endc
+	jp NextRadioLine
+
+if DEF(_CRYSTAL_DE)
+OaksPKMNTalk3_2:
+	ld hl, OPT_IntroText3_2
 	ld a, OAKS_POKEMON_TALK_4
 	jp NextRadioLine
+endc
 
 OaksPKMNTalk4:
 ; Choose a random route, and a random Pokemon from that route.
@@ -287,6 +301,12 @@ OPT_IntroText2:
 OPT_IntroText3:
 	text_far _OPT_IntroText3
 	text_end
+
+if DEF(_CRYSTAL_DE)
+OPT_IntroText3_2:
+	text_far _OPT_IntroText3_2
+	text_end
+endc
 
 OPT_OakText1:
 	text_far _OPT_OakText1
@@ -564,7 +584,7 @@ OaksPKMNTalk12:
 	jp PlaceRadioString
 
 .pokemon_channel_string
-	db "#MON Channel@"
+	db "#MON-Kanal@"
 
 OaksPKMNTalk13:
 	ld hl, wRadioTextDelay
@@ -1694,7 +1714,7 @@ BuenasPasswordCheckTime:
 	ret
 
 BuenasPasswordChannelName:
-	db "BUENA'S PASSWORD@"
+	db "BUENAS PASSWORT@"
 
 BuenaRadioText1:
 	text_far _BuenaRadioText1

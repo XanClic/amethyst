@@ -1,10 +1,10 @@
-	db "FLYCATCHER@" ; species name
-	dw 303, 140 ; height, weight
+	db "FLIEGENTOT@" ; species name
+	dbw 10, 64 ; height, weight
 
-	db   "When it's hungry,"
-	next "it swings its"
-	next "razor-sharp"
+	db   "Ist es hungrig,"
+	next "wirft es seine"
+	next "messerscharfen"
 
-	page "leaves, slicing up"
-	next "any unlucky object"
-	next "nearby for food.@"
+	page "Blätter umher, und"
+	next "zerteilt alles"
+	next "um sich herum.@"

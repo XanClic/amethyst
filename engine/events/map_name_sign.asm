@@ -165,7 +165,23 @@ PlaceMapNameCenterAlign:
 	jr z, .stop
 	cp "<WBR>"
 	jr z, .loop
+if DEF(_CRYSTAL_EU)
+	cp "%"
+	jr z, .loop
+endc
 	inc c
+if DEF(_CRYSTAL_EU)
+	cp " "
+	jr z, .space
+	cp "<BSP>"
+	jr z, .space
+	jr .loop
+.space
+	; place an opaque space
+	dec hl
+	ld [hl], MAP_NAME_SIGN_START + 13
+	inc hl
+endc
 	jr .loop
 .stop
 	pop hl

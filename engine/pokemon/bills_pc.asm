@@ -227,17 +227,35 @@ BillsPCDepositFuncCancel:
 
 BillsPCDepositMenuHeader:
 	db MENU_BACKUP_TILES ; flags
+if !DEF(_CRYSTAL_EU)
 	menu_coords 9, 4, SCREEN_WIDTH - 1, 13
+elif DEF(_CRYSTAL_DE)
+	menu_coords 7, 4, SCREEN_WIDTH - 1, 13
+elif DEF(_CRYSTAL_ES)
+	menu_coords 11, 4, SCREEN_WIDTH - 1, 13
+endc
 	dw .MenuData
 	db 1 ; default option
 
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
+if !DEF(_CRYSTAL_EU)
 	db "DEPOSIT@"
 	db "STATS@"
 	db "RELEASE@"
 	db "CANCEL@"
+elif DEF(_CRYSTAL_DE)
+	db "ABLEGEN@"
+	db "STATUS@"
+	db "FREILASSEN@"
+	db "ZURÜCK@"
+elif DEF(_CRYSTAL_ES)
+	db "DEJAR@"
+	db "ESTAD.@"
+	db "SOLTAR@"
+	db "SALIR@"
+endc
 
 BillsPCClearThreeBoxes: ; unreferenced
 	hlcoord 0, 0
@@ -246,7 +264,13 @@ BillsPCClearThreeBoxes: ; unreferenced
 	call ClearBox
 	hlcoord 0, 4
 	ld b, 10
+if !DEF(_CRYSTAL_EU)
 	ld c, 9
+elif DEF(_CRYSTAL_DE)
+	ld c, 7
+elif DEF(_CRYSTAL_ES)
+	ld c, 11
+endc
 	call ClearBox
 	hlcoord 0, 14
 	ld b, 2
@@ -480,17 +504,35 @@ BillsPC_Withdraw:
 
 .MenuHeader:
 	db MENU_BACKUP_TILES ; flags
+if !DEF(_CRYSTAL_EU)
 	menu_coords 9, 4, SCREEN_WIDTH - 1, 13
+elif DEF(_CRYSTAL_DE)
+	menu_coords 7, 4, SCREEN_WIDTH - 1, 13
+elif DEF(_CRYSTAL_ES)
+	menu_coords 11, 4, SCREEN_WIDTH - 1, 13
+endc
 	dw .MenuData
 	db 1 ; default option
 
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
+if !DEF(_CRYSTAL_EU)
 	db "WITHDRAW@"
 	db "STATS@"
 	db "RELEASE@"
 	db "CANCEL@"
+elif DEF(_CRYSTAL_DE)
+	db "MITNEHMEN@"
+	db "STATUS@"
+	db "FREILASSEN@"
+	db "ZURÜCK@"
+elif DEF(_CRYSTAL_ES)
+	db "SACAR@"
+	db "ESTAD.@"
+	db "SOLTAR@"
+	db "SALIR@"
+endc
 
 _MovePKMNWithoutMail:
 	ld hl, wOptions
@@ -690,16 +732,32 @@ _MovePKMNWithoutMail:
 
 .MenuHeader:
 	db MENU_BACKUP_TILES ; flags
+if !DEF(_CRYSTAL_EU)
 	menu_coords 9, 4, SCREEN_WIDTH - 1, 13
+elif DEF(_CRYSTAL_DE)
+	menu_coords 7, 4, SCREEN_WIDTH - 1, 13
+elif DEF(_CRYSTAL_ES)
+	menu_coords 11, 4, SCREEN_WIDTH - 1, 13
+endc
 	dw .MenuData
 	db 1 ; default option
 
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 3 ; items
+if !DEF(_CRYSTAL_EU)
 	db "MOVE@"
 	db "STATS@"
 	db "CANCEL@"
+elif DEF(_CRYSTAL_DE)
+	db "WECHSELN@"
+	db "STATUS@"
+	db "ZURÜCK@"
+elif DEF(_CRYSTAL_ES)
+	db "MOVER@"
+	db "ESTAD.@"
+	db "SALIR@"
+endc
 
 .PrepInsertCursor:
 	xor a
@@ -1003,12 +1061,24 @@ BillsPC_BoxName:
 .party
 	ld de, .PartyPKMN
 .print
+if !DEF(_CRYSTAL_EU)
 	hlcoord 10, 1
+elif DEF(_CRYSTAL_DE)
+	hlcoord 9, 1
+elif DEF(_CRYSTAL_ES)
+	hlcoord 10, 1
+endc
 	call PlaceString
 	ret
 
 .PartyPKMN:
+if !DEF(_CRYSTAL_EU)
 	db "PARTY <PK><MN>@"
+elif DEF(_CRYSTAL_DE)
+	db "Dein Team@"
+elif DEF(_CRYSTAL_ES)
+	db "EQUIPO@"
+endc
 
 PCMonInfo:
 ; Display a monster's pic and
@@ -1257,7 +1327,13 @@ BillsPC_RefreshTextboxes:
 	ret
 
 .CancelString:
+if !DEF(_CRYSTAL_EU)
 	db "CANCEL@"
+elif DEF(_CRYSTAL_DE)
+	db "ZURÜCK@"
+elif DEF(_CRYSTAL_ES)
+	db "SALIR@"
+endc
 
 .PlaceNickname:
 	ld a, [de]
@@ -1845,9 +1921,13 @@ DepositPokemon:
 	farcall RemoveMonFromPartyOrBox
 	ld a, [wCurPartySpecies]
 	call PlayMonCry
+if !DEF(_CRYSTAL_DE)
 	hlcoord 0, 0
 	lb bc, 15, 8
 	call ClearBox
+else
+	call BillsPCClearThreeBoxes
+endc
 	hlcoord 8, 14
 	lb bc, 1, 3
 	call ClearBox
@@ -1856,14 +1936,27 @@ DepositPokemon:
 	call Textbox
 	call WaitBGMap
 	hlcoord 1, 16
+if !DEF(_CRYSTAL_DE)
 	ld de, PCString_Stored
+else
+	ld de, wStringBuffer1
+endc
 	call PlaceString
 	ld l, c
 	ld h, b
+if !DEF(_CRYSTAL_DE)
 	ld de, wStringBuffer1
+else
+	ld de, PCString_Stored
+endc
 	call PlaceString
+if !DEF(_CRYSTAL_EU)
 	ld a, "!"
 	ld [bc], a
+elif DEF(_CRYSTAL_ES)
+	ld a, "."
+	ld [bc], a
+endc
 	ld c, 50
 	call DelayFrames
 	and a
@@ -1900,9 +1993,13 @@ TryWithdrawPokemon:
 	farcall RemoveMonFromPartyOrBox
 	ld a, [wCurPartySpecies]
 	call PlayMonCry
+if !DEF(_CRYSTAL_DE)
 	hlcoord 0, 0
 	lb bc, 15, 8
 	call ClearBox
+else
+	call BillsPCClearThreeBoxes
+endc
 	hlcoord 8, 14
 	lb bc, 1, 3
 	call ClearBox
@@ -1911,14 +2008,27 @@ TryWithdrawPokemon:
 	call Textbox
 	call WaitBGMap
 	hlcoord 1, 16
+if !DEF(_CRYSTAL_DE)
 	ld de, PCString_Got
+else
+	ld de, wStringBuffer1
+endc
 	call PlaceString
 	ld l, c
 	ld h, b
+if !DEF(_CRYSTAL_DE)
 	ld de, wStringBuffer1
+else
+	ld de, PCString_Got
+endc
 	call PlaceString
+if !DEF(_CRYSTAL_EU)
 	ld a, "!"
 	ld [bc], a
+elif DEF(_CRYSTAL_ES)
+	ld a, "."
+	ld [bc], a
+endc
 	ld c, 50
 	call DelayFrames
 	and a
@@ -1936,9 +2046,13 @@ TryWithdrawPokemon:
 	ret
 
 ReleasePKMN_ByePKMN:
+if !DEF(_CRYSTAL_DE)
 	hlcoord 0, 0
 	lb bc, 15, 8
 	call ClearBox
+else
+	call BillsPCClearThreeBoxes
+endc
 	hlcoord 8, 14
 	lb bc, 1, 3
 	call ClearBox
@@ -1971,12 +2085,18 @@ ReleasePKMN_ByePKMN:
 	call PlaceString
 	ld l, c
 	ld h, b
+if !DEF(_CRYSTAL_EU)
 	inc hl
+endc
 	ld de, wStringBuffer1
 	call PlaceString
 	ld l, c
 	ld h, b
+if !DEF(_CRYSTAL_ES)
 	ld [hl], "!"
+else
+	ld [hl], "."
+endc
 	ld c, 50
 	call DelayFrames
 	ret
@@ -2028,7 +2148,13 @@ MovePKMNWithoutMail_InsertMon:
 	ret
 
 .Saving_LeaveOn:
+if !DEF(_CRYSTAL_EU)
 	db "Saving… Leave ON!@"
+elif DEF(_CRYSTAL_DE)
+	db "Speichern…@"
+elif DEF(_CRYSTAL_ES)
+	db "Guardando-No Apag.@"
+endc
 
 .Jumptable:
 	dw .BoxToBox
@@ -2262,6 +2388,7 @@ BillsPC_InitGFX:
 PCSelectLZ: INCBIN "gfx/pc/pc.2bpp.lz"
 PCMailGFX:  INCBIN "gfx/pc/pc_mail.2bpp"
 
+if !DEF(_CRYSTAL_EU)
 PCString_ChooseaPKMN: db "Choose a <PK><MN>.@"
 PCString_WhatsUp: db "What's up?@"
 PCString_ReleasePKMN: db "Release <PK><MN>?@"
@@ -2274,10 +2401,45 @@ PCString_ReleasedPKMN: db "Released <PK><MN>.@"
 PCString_Bye: db "Bye,@"
 PCString_Stored: db "Stored @"
 PCString_Got: db "Got @"
-PCString_Non: db "Non.@" ; unreferenced
+PCString_Non: db "Non.@"
 PCString_BoxFull: db "The BOX is full.@"
 PCString_PartyFull: db "The party's full!@"
 PCString_NoReleasingEGGS: db "No releasing EGGS!@"
+elif DEF(_CRYSTAL_DE)
+PCString_ChooseaPKMN: db "#MON wählen.@"
+PCString_WhatsUp: db "Wähle!@"
+PCString_ReleasePKMN: db "<PK><MN> freilassen?@"
+PCString_MoveToWhere: db "Wohin verschieben?@"
+PCString_ItsYourLastPKMN: db "Letztes #MON!@"
+PCString_TheresNoRoom: db "Die BOX ist voll!@"
+PCString_NoMoreUsablePKMN: db "Nicht einsetzbar.@"
+PCString_RemoveMail: db "Entferne BRIEF.@"
+PCString_ReleasedPKMN: db "<PK><MN> freigelassen.@"
+PCString_Bye: db "Ade, @"
+PCString_Stored: db " abgel.!@"
+PCString_Got: db " erhal.!@"
+PCString_Non: db "Nein@"
+PCString_BoxFull: db "Die BOX ist voll!@"
+PCString_PartyFull: db "Team ist voll!@"
+PCString_NoReleasingEGGS: db "EI ablegen verbt.!@"
+elif DEF(_CRYSTAL_ES)
+PCString_ChooseaPKMN: db "Elige un <PK><MN>.@"
+PCString_WhatsUp: db "¿Qué hacer?@"
+PCString_ReleasePKMN: db "¿Soltar <PK><MN>?@"
+PCString_MoveToWhere: db "¿Mover adónde?@"
+PCString_ItsYourLastPKMN: db "Es tu último <PK><MN>.@"
+PCString_TheresNoRoom: db "¡No hay sitio!@"
+PCString_NoMoreUsablePKMN: db "¡No quedan <PK><MN>!@"
+PCString_RemoveMail: db "Debe ir sin CARTA.@"
+PCString_ReleasedPKMN: db "Liberado <PK><MN>.@"
+PCString_Bye: db "Adiós @"
+PCString_Stored: db "Dejado @"
+PCString_Got: db "Sacado @"
+PCString_Non: db "Ninguno@"
+PCString_BoxFull: db "CAJA llena.@"
+PCString_PartyFull: db "¡Equipo completo!@"
+PCString_NoReleasingEGGS: db "No soltar HUEVOS.@"
+endc
 
 _ChangeBox:
 	call LoadStandardMenuHeader
@@ -2443,7 +2605,13 @@ BillsPC_PrintBoxName:
 	ret
 
 .Current:
+if !DEF(_CRYSTAL_EU)
 	db "CURRENT@"
+elif DEF(_CRYSTAL_DE)
+	db "Aktiviert@"
+elif DEF(_CRYSTAL_ES)
+	db "ACTUAL@"
+endc
 
 BillsPC_ChangeBoxSubmenu:
 	ld hl, .MenuHeader
@@ -2523,24 +2691,48 @@ BillsPC_ChangeBoxSubmenu:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
+if !DEF(_CRYSTAL_EU)
 	db "SWITCH@"
 	db "NAME@"
 	db "PRINT@"
 	db "QUIT@"
+elif DEF(_CRYSTAL_DE)
+	db "WECH.@"
+	db "NAME@"
+	db "DRUCK@"
+	db "ZURÜCK@"
+elif DEF(_CRYSTAL_ES)
+	db "CAMBIO@"
+	db "NOMBRE@"
+	db "IMPR.@"
+	db "SALIR@"
+endc
 
 BillsPC_PlaceChooseABoxString:
 	ld de, .ChooseABox
 	jr BillsPC_PlaceChangeBoxString
 
 .ChooseABox:
+if !DEF(_CRYSTAL_EU)
 	db "Choose a BOX.@"
+elif DEF(_CRYSTAL_DE)
+	db "<PK><MN>-BOX wählen.@"
+elif DEF(_CRYSTAL_ES)
+	db "Elige una caja.@"
+endc
 
 BillsPC_PlaceWhatsUpString:
 	ld de, .WhatsUp
 	jr BillsPC_PlaceChangeBoxString
 
 .WhatsUp:
+if !DEF(_CRYSTAL_EU)
 	db "What's up?@"
+elif DEF(_CRYSTAL_DE)
+	db "Wähle!@"
+elif DEF(_CRYSTAL_ES)
+	db "¿Qué hacer?@"
+endc
 
 BillsPC_PlaceEmptyBoxString_SFX:
 	ld de, .NoMonString
@@ -2553,7 +2745,13 @@ BillsPC_PlaceEmptyBoxString_SFX:
 	ret
 
 .NoMonString:
+if !DEF(_CRYSTAL_EU)
 	db "There's no #MON.@"
+elif DEF(_CRYSTAL_DE)
+	db "Kein #MON!@"
+elif DEF(_CRYSTAL_ES)
+	db "No hay #MON.@"
+endc
 
 BillsPC_PlaceChangeBoxString:
 	push de

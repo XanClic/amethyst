@@ -5,7 +5,11 @@ BugContest_SetCaughtContestMon:
 	ld [wNamedObjectIndex], a
 	farcall DisplayAlreadyCaughtText
 	farcall DisplayCaughtContestMonStats
+if !DEF(_CRYSTAL_EU)
 	lb bc, 14, 7
+else
+	lb bc, 14, 9
+endc
 	call PlaceYesNoBox
 	ret c
 

@@ -65,12 +65,28 @@ MainMenu:
 
 .Strings:
 ; entries correspond to MAINMENUITEM_* constants
+if !DEF(_CRYSTAL_EU)
 	db "CONTINUE@"
 	db "NEW GAME@"
 	db "OPTION@"
 	db "MYSTERY GIFT@"
 	db "MOBILE@"
 	db "MOBILE STUDIUM@"
+elif DEF(_CRYSTAL_DE)
+	db "WEITER@"
+	db "NEUES SPIEL@"
+	db "OPTIONEN@"
+	db "GEHEIMGABE@"
+	db "MOBILE@"
+	db "MOBILE STUDIUM@"
+elif DEF(_CRYSTAL_ES)
+	db "CONTINUAR@"
+	db "JUEGO NUEVO@"
+	db "OPCIÓN@"
+	db "REGALO MIST@"
+	db "MOBILE@"
+	db "MOBILE STUDIUM@"
+endc
 if DEF(_DEBUG)
 	db "DEBUG ROOM@"
 endc
@@ -326,7 +342,13 @@ MainMenu_PrintCurrentTimeAndDay:
 	ret
 
 .TimeNotSetString:
+if !DEF(_CRYSTAL_EU)
 	db "TIME NOT SET@"
+elif DEF(_CRYSTAL_DE)
+	db "UHR NICHT GESTELLT@"
+elif DEF(_CRYSTAL_ES)
+	db "HORA NO FIJADA@"
+endc
 
 .MainMenuTimeUnknownText: ; unreferenced
 	text_far _MainMenuTimeUnknownText
@@ -347,6 +369,7 @@ MainMenu_PrintCurrentTimeAndDay:
 	call PlaceString
 	ret
 
+if !DEF(_CRYSTAL_EU)
 .Days:
 	db "SUN@"
 	db "MON@"
@@ -357,6 +380,29 @@ MainMenu_PrintCurrentTimeAndDay:
 	db "SATUR@"
 .Day:
 	db "DAY@"
+elif DEF(_CRYSTAL_DE)
+.Days:
+	db "SONNTAG@"
+	db "MONTAG@"
+	db "DIENSTAG@"
+	db "MITTWOCH@"
+	db "DONNERSTAG@"
+	db "FREITAG@"
+	db "SAMSTAG@"
+.Day:
+	db "@"
+elif DEF(_CRYSTAL_ES)
+.Days:
+	db "DOMINGO@"
+	db "LUNES@"
+	db "MARTES@"
+	db "MIÉRCOLES@"
+	db "JUEVES@"
+	db "VIERNES@"
+	db "SÁBADO@"
+.Day:
+	db "@"
+endc
 
 ClearTilemapEtc:
 	xor a

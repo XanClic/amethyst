@@ -298,7 +298,13 @@ OakTimeWhatTimeIsItText:
 	text_end
 
 String_oclock:
+if !DEF(_CRYSTAL_EU)
 	db "o'clock@"
+elif DEF(_CRYSTAL_DE)
+	db "UHR@"
+elif DEF(_CRYSTAL_ES)
+	db "en punto@"
+endc
 
 OakTimeWhatHoursText:
 	; What?@ @
@@ -318,7 +324,7 @@ OakTimeHowManyMinutesText:
 	text_end
 
 String_min:
-	db "min.@"
+	db "Min.@"
 
 OakTimeWhoaMinutesText:
 	; Whoa!@ @
@@ -404,6 +410,7 @@ SetDayOfWeek:
 	call LoadStandardMenuHeader
 	ld hl, .OakTimeWhatDayIsItText
 	call PrintText
+if !DEF(_CRYSTAL_DE)
 	hlcoord 9, 3
 	ld b, 2
 	ld c, 9
@@ -414,6 +421,18 @@ SetDayOfWeek:
 	ld [hl], TIMESET_DOWN_ARROW
 	hlcoord 10, 5
 	call .PlaceWeekdayString
+else
+	hlcoord 8, 3
+	ld b, 2
+	ld c, 10
+	call Textbox
+	hlcoord 13, 3
+	ld [hl], TIMESET_UP_ARROW
+	hlcoord 13, 6
+	ld [hl], TIMESET_DOWN_ARROW
+	hlcoord 9, 5
+	call .PlaceWeekdayString
+endc
 	call ApplyTilemap
 	ld c, 10
 	call DelayFrames
@@ -480,12 +499,21 @@ SetDayOfWeek:
 .finish_dpad
 	xor a
 	ldh [hBGMapMode], a
+if !DEF(_CRYSTAL_DE)
 	hlcoord 10, 4
 	ld b, 2
 	ld c, 9
 	call ClearBox
 	hlcoord 10, 5
 	call .PlaceWeekdayString
+else
+	hlcoord 9, 4
+	ld b, 2
+	ld c, 10
+	call ClearBox
+	hlcoord 9, 5
+	call .PlaceWeekdayString
+endc
 	call WaitBGMap
 	and a
 	ret
@@ -516,6 +544,7 @@ SetDayOfWeek:
 	dw .Saturday
 	dw .Sunday
 
+if !DEF(_CRYSTAL_EU)
 .Sunday:    db " SUNDAY@"
 .Monday:    db " MONDAY@"
 .Tuesday:   db " TUESDAY@"
@@ -523,6 +552,23 @@ SetDayOfWeek:
 .Thursday:  db "THURSDAY@"
 .Friday:    db " FRIDAY@"
 .Saturday:  db "SATURDAY@"
+elif DEF(_CRYSTAL_DE)
+.Sunday:    db "SONNTAG@"
+.Monday:    db "MONTAG@"
+.Tuesday:   db "DIENSTAG@"
+.Wednesday: db "MITTWOCH@"
+.Thursday:  db "DONNERSTAG@"
+.Friday:    db "FREITAG@"
+.Saturday:  db "SAMSTAG@"
+elif DEF(_CRYSTAL_ES)
+.Sunday:    db "DOMINGO@"
+.Monday:    db "LUNES@"
+.Tuesday:   db "MARTES@"
+.Wednesday: db "MIÉRCOLES@"
+.Thursday:  db "JUEVES@"
+.Friday:    db "VIERNES@"
+.Saturday:  db "SÁBADO@"
+endc
 
 .OakTimeWhatDayIsItText:
 	text_far _OakTimeWhatDayIsItText
@@ -706,9 +752,19 @@ GetTimeOfDayString:
 	ld de, .day_string
 	ret
 
+if !DEF(_CRYSTAL_EU)
 .nite_string: db "NITE@"
 .morn_string: db "MORN@"
 .day_string:  db "DAY@"
+elif DEF(_CRYSTAL_DE)
+.nite_string: db "NACHT@"
+.morn_string: db "VORMITTAG@"
+.day_string:  db "TAG@"
+elif DEF(_CRYSTAL_ES)
+.nite_string: db "NOCH@"
+.morn_string: db "MAÑ@"
+.day_string:  db "DÍA@"
+endc
 
 AdjustHourForAMorPM:
 ; Convert the hour stored in c (0-23) to a 1-12 value

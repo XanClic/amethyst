@@ -415,13 +415,25 @@ PlaceYesNoBox::
 	ld a, b
 	cp SCREEN_WIDTH - 1 - 5
 	jr nz, .okay ; should this be "jr nc"?
+if !DEF(_CRYSTAL_EU)
 	ld a, SCREEN_WIDTH - 1 - 5
+elif DEF(_CRYSTAL_DE)
+	ld a, SCREEN_WIDTH - 1 - 6
+elif DEF(_CRYSTAL_ES)
+	ld a, SCREEN_WIDTH - 1 - 4
+endc
 	ld b, a
 
 .okay
 	ld a, b
 	ld [wMenuBorderLeftCoord], a
+if !DEF(_CRYSTAL_EU)
 	add 5
+elif DEF(_CRYSTAL_DE)
+	add 6
+elif DEF(_CRYSTAL_ES)
+	add 4
+endc
 	ld [wMenuBorderRightCoord], a
 	ld a, c
 	ld [wMenuBorderTopCoord], a
@@ -452,15 +464,29 @@ InterpretTwoOptionMenu::
 
 YesNoMenuHeader::
 	db MENU_BACKUP_TILES ; flags
+if !DEF(_CRYSTAL_EU)
 	menu_coords 10, 5, 15, 9
+elif DEF(_CRYSTAL_DE)
+	menu_coords 10, 5, 16, 9
+elif DEF(_CRYSTAL_ES)
+	menu_coords 10, 5, 14, 9
+endc
 	dw .MenuData
 	db 1 ; default option
 
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 2
+if !DEF(_CRYSTAL_EU)
 	db "YES@"
 	db "NO@"
+elif DEF(_CRYSTAL_DE)
+	db "JA@"
+	db "NEIN@"
+elif DEF(_CRYSTAL_ES)
+	db "SÍ@"
+	db "NO@"
+endc
 
 OffsetMenuHeader::
 	call _OffsetMenuHeader
