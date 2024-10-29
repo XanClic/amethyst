@@ -26,7 +26,6 @@ FeraligatrFrontpic:  INCBIN "gfx/pokemon/feraligatr/front.animated.2bpp.lz"
 NidokingFrontpic:    INCBIN "gfx/pokemon/nidoking/front.animated.2bpp.lz"
 RaikouFrontpic:      INCBIN "gfx/pokemon/raikou/front.animated.2bpp.lz"
 LugiaFrontpic:       INCBIN "gfx/pokemon/lugia/front.animated.2bpp.lz"
-ArticunoFrontpic:    INCBIN "gfx/pokemon/articuno/front.animated.2bpp.lz"
 TaurosFrontpic:      INCBIN "gfx/pokemon/tauros/front.animated.2bpp.lz"
 VenusaurFrontpic:    INCBIN "gfx/pokemon/venusaur/front.animated.2bpp.lz"
 EnteiFrontpic:       INCBIN "gfx/pokemon/entei/front.animated.2bpp.lz"
@@ -707,6 +706,7 @@ UnownYBackpic:       INCBIN "gfx/pokemon/unown_y/back.2bpp.lz"
 UnownPBackpic:       INCBIN "gfx/pokemon/unown_p/back.2bpp.lz"
 UnownIBackpic:       INCBIN "gfx/pokemon/unown_i/back.2bpp.lz"
 UnownRBackpic:       INCBIN "gfx/pokemon/unown_r/back.2bpp.lz"
+ArticunoFrontpic:    INCBIN "gfx/pokemon/articuno/front.animated.2bpp.lz"
 
 
 SECTION "Pics 19", ROMX
