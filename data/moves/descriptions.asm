@@ -262,6 +262,7 @@ MoveDescriptions1:
 	dw ShadowClawDescription
 	dw MoonblastDescription
 	dw HoneClawsDescription
+	dw WillOWispDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -478,6 +479,7 @@ FlamethrowerDescription:
 FireBlastDescription:
 FlameWheelDescription:
 SacredFireDescription:
+WillOWispDescription:
 	db   "Gegner erleidet"
 	next "evtl. Verbrennung.@"
 

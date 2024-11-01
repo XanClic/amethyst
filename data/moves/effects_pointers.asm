@@ -160,4 +160,5 @@ MoveEffectsPointers:
 	dw DefenseCurl
 	dw Disguise
 	dw AccuracyAttackUp
+	dw DoBurn
 	assert_table_length NUM_MOVE_EFFECTS

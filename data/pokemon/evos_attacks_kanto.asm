@@ -635,7 +635,8 @@ VulpixEvosAttacks:
 	dbw 7, QUICK_ATTACK
 	dbw 13, ROAR
 	dbw 19, CONFUSE_RAY
-	dbw 25, SAFEGUARD
+	dbw 24, WILL_O_WISP
+	dbw 27, SAFEGUARD
 	dbw 31, FLAMETHROWER
 	dbw 37, FIRE_SPIN
 	db 0 ; no more level-up moves

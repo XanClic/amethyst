@@ -285,6 +285,7 @@ BattleAnimations::
 	dw BattleAnim_ShadowClaw
 	dw BattleAnim_Moonblast
 	dw BattleAnim_HoneClaws
+	dw BattleAnim_WillOWisp
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -871,6 +872,27 @@ BattleAnim_Ember:
 	anim_obj BATTLE_ANIM_OBJ_EMBER, 64, 100, $14
 	anim_wait 4
 	anim_sound 6, 2, SFX_EMBER
+	anim_obj BATTLE_ANIM_OBJ_EMBER, 64, 84, $13
+	anim_wait 16
+	anim_incobj 1
+	anim_incobj 2
+	anim_incobj 3
+	anim_sound 0, 1, SFX_EMBER
+	anim_obj BATTLE_ANIM_OBJ_EMBER, 120, 68, $30
+	anim_obj BATTLE_ANIM_OBJ_EMBER, 132, 68, $30
+	anim_obj BATTLE_ANIM_OBJ_EMBER, 144, 68, $30
+	anim_wait 32
+	anim_ret
+
+BattleAnim_WillOWisp:
+	anim_1gfx BATTLE_ANIM_GFX_FIRE
+	anim_bgp $1b
+	anim_obp0 $c0
+	anim_sound 6, 2, SFX_ATTRACT
+	anim_obj BATTLE_ANIM_OBJ_EMBER, 64, 96, $12
+	anim_wait 4
+	anim_obj BATTLE_ANIM_OBJ_EMBER, 64, 100, $14
+	anim_wait 4
 	anim_obj BATTLE_ANIM_OBJ_EMBER, 64, 84, $13
 	anim_wait 16
 	anim_incobj 1

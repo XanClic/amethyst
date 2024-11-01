@@ -31,6 +31,16 @@ DoSleep:
 	sleeptarget
 	endmove
 
+DoBurn:
+	checkobedience
+	usedmovetext
+	doturn
+	moveanim
+	checkhit
+	checksafeguard
+	burntarget
+	endmove
+
 PoisonHit:
 	checkobedience
 	usedmovetext

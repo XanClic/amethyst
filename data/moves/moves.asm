@@ -299,4 +299,5 @@ Moves1:
 	move EFFECT_NORMAL_HIT,         70, PHYSICAL + MT_GHOST,    100, 15,   0      ;SHADOW_CLAW
 	move EFFECT_SP_ATK_DOWN_HIT,    95,  SPECIAL + MT_FAIRY,    100, 15,  30      ;MOONBLAST
 	move EFFECT_ACC_ATK_UP,          0,   STATUS + MT_DARK,     100, 15,   0      ;HONE_CLAWS
+	move EFFECT_BURN,                0,   STATUS + MT_FIRE,      85, 15,   0      ;WILL_O_WISP
 .IndirectEnd::
