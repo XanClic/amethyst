@@ -268,15 +268,12 @@ PoundDescription:
 	db   "Schlag mit Vorder-"
 	next "huf oder Schwanz.@"
 
-KarateChopDescription:
-	db   "Hohe Volltreffer-"
-	next "quote.@"
-
 DoubleslapDescription:
-	db   "Trifft bis zu"
-	next "5mal.@"
-
 CometPunchDescription:
+FuryAttackDescription:
+BarrageDescription:
+FurySwipesDescription:
+BoneRushDescription:
 	db   "Trifft bis zu"
 	next "5mal.@"
 
@@ -313,6 +310,9 @@ GuillotineDescription:
 	next "Scheren-Attacke.@"
 
 RazorWindDescription:
+SolarbeamDescription:
+SkullBashDescription:
+SkyAttackDescription:
 	db   "1. Vorbereitung"
 	next "2. Angriff@"
 
@@ -353,6 +353,12 @@ VineWhipDescription:
 	next "Ranken.@"
 
 StompDescription:
+HeadbuttDescription:
+BiteDescription:
+LowKickDescription:
+BoneClubDescription:
+RockSlideDescription:
+HyperFangDescription:
 	db   "Gegner schreckt"
 	next "evtl. zurück.@"
 
@@ -376,17 +382,9 @@ SandAttackDescription:
 	db   "Wirbelt Sand auf,"
 	next "senkt Genauigkeit.@"
 
-HeadbuttDescription:
-	db   "Gegner schreckt"
-	next "evtl. zurück.@"
-
 HornAttackDescription:
 	db   "Stoß mit dem"
 	next "Horn.@"
-
-FuryAttackDescription:
-	db   "Trifft bis zu"
-	next "5mal.@"
 
 HornDrillDescription:
 	db   "K.O. durch"
@@ -397,10 +395,18 @@ TackleDescription:
 	next "Körpereinsatz.@"
 
 BodySlamDescription:
+ThundershockDescription:
+ThunderboltDescription:
+ThunderDescription:
 	db   "Gegner ist evtl."
 	next "paralysiert.@"
 
 WrapDescription:
+PinMissileDescription:
+FireSpinDescription:
+ClampDescription:
+SpikeCannonDescription:
+WhirlpoolDescription:
 	db   "Trifft Gegner bis"
 	next "zu 5mal.@"
 
@@ -409,6 +415,8 @@ TakeDownDescription:
 	next "wird verletzt.@"
 
 ThrashDescription:
+PetalDanceDescription:
+OutrageDescription:
 	db   "Hält 2-3 Runden."
 	next "Verwir. Angreifer.@"
 
@@ -417,6 +425,7 @@ DoubleEdgeDescription:
 	next "wird verletzt.@"
 
 TailWhipDescription:
+LeerDescription:
 	db   "Senkt VERT-Wert"
 	next "des Gegners.@"
 
@@ -428,18 +437,6 @@ TwineedleDescription:
 	db   "Trifft Gegner 2 x"
 	next "mit den Stacheln.@"
 
-PinMissileDescription:
-	db   "Trifft Gegner bis"
-	next "zu 5mal.@"
-
-LeerDescription:
-	db   "Senkt VERT-Wert"
-	next "des Gegners.@"
-
-BiteDescription:
-	db   "Gegner schreckt"
-	next "evtl. zurück.@"
-
 GrowlDescription:
 	db   "Senkt den ANGR-"
 	next "Wert des Gegners.@"
@@ -449,6 +446,9 @@ RoarDescription:
 	next "Gegn. + Kampfende.@"
 
 SingDescription:
+SleepPowderDescription:
+HypnosisDescription:
+LovelyKissDescription:
 	db   "Gegner schläft"
 	next "evtl. ein.@"
 
@@ -465,14 +465,15 @@ DisableDescription:
 	next "Attacke des Gegn.@"
 
 AcidDescription:
+IronTailDescription:
 	db   "Senkt evtl. VERT-"
 	next "Wert des Gegners.@"
 
 EmberDescription:
-	db   "Gegner erleidet"
-	next "evtl. Verbrennung.@"
-
 FlamethrowerDescription:
+FireBlastDescription:
+FlameWheelDescription:
+SacredFireDescription:
 	db   "Gegner erleidet"
 	next "evtl. Verbrennung.@"
 
@@ -493,22 +494,23 @@ SurfDescription:
 	next "Wasser-Attacke.@"
 
 IceBeamDescription:
-	db   "Gegner wird evtl."
-	next "eingefroren.@"
-
 BlizzardDescription:
+PowderSnowDescription:
 	db   "Gegner wird evtl."
 	next "eingefroren.@"
 
 PsybeamDescription:
+DizzyPunchDescription:
 	db   "Gegner wird evtl."
 	next "verwirrt.@"
 
 BubblebeamDescription:
+BubbleDescription:
 	db   "Senkt evtl. INIT-"
 	next "Wert des Gegners.@"
 
 AuroraBeamDescription:
+PlayRoughDescription:
 	db   "Senkt evtl. ANGR-"
 	next "Wert des Gegners.@"
 
@@ -528,15 +530,12 @@ SubmissionDescription:
 	db   "Eine Attacke, die"
 	next "Anwender verletzt.@"
 
-LowKickDescription:
-	db   "Gegner schreckt"
-	next "evtl. zurück.@"
-
 CounterDescription:
 	db   "Erwidert Körper-"
 	next "attacken doppelt.@"
 
 SeismicTossDescription:
+NightShadeDescription:
 	db   "Angreiferlevel"
 	next "gleich Schaden.@"
 
@@ -545,10 +544,9 @@ StrengthDescription:
 	next "Körperattacke.@"
 
 AbsorbDescription:
-	db   "Erhält Hälfte des"
-	next "Schadens als KP.@"
-
 MegaDrainDescription:
+GigaDrainDescription:
+LeechLifeDescription:
 	db   "Erhält Hälfte des"
 	next "Schadens als KP.@"
 
@@ -560,31 +558,23 @@ GrowthDescription:
 	db   "Hebt"
 	next "SPEZ. ANG.@"
 
-RazorLeafDescription:
-	db   "Hohe Volltreffer-"
-	next "quote.@"
-
-SolarbeamDescription:
-	db   "1. Vorbereitung"
-	next "2. Angriff@"
-
 PoisonpowderDescription:
+SmogDescription:
+SludgeDescription:
+PoisonGasDescription:
+SludgeBombDescription:
 	db   "Gegner wird evtl."
 	next "vergiftet.@"
 
 StunSporeDescription:
+LickDescription:
+GlareDescription:
+SparkDescription:
 	db   "Gegner wird evtl."
 	next "paralysiert.@"
 
-SleepPowderDescription:
-	db   "Gegner schläft"
-	next "evtl. ein.@"
-
-PetalDanceDescription:
-	db   "Hält 2-3 Runden."
-	next "Verwir. Angreifer.@"
-
 StringShotDescription:
+IcyWindDescription:
 	db   "Senkt INIT-Wert"
 	next "des Gegners.@"
 
@@ -592,24 +582,8 @@ DragonRageDescription:
 	db   "Fügt Gegner"
 	next "40 KP Schaden zu.@"
 
-FireSpinDescription:
-	db   "Trifft Gegner bis"
-	next "zu 5mal.@"
-
-ThundershockDescription:
-	db   "Gegner ist evtl."
-	next "paralysiert.@"
-
-ThunderboltDescription:
-	db   "Gegner ist evtl."
-	next "paralysiert.@"
-
 ThunderWaveDescription:
 	db   "Gegner ist"
-	next "paralysiert.@"
-
-ThunderDescription:
-	db   "Gegner ist evtl."
 	next "paralysiert.@"
 
 RockThrowDescription:
@@ -640,10 +614,6 @@ PsychicMDescription:
 	db   "Senkt evtl. SPEZ.-"
 	next "VER des Gegners.@"
 
-HypnosisDescription:
-	db   "Gegner schläft"
-	next "evtl. ein.@"
-
 MeditateDescription:
 	db   "Erhöht ANGR-Wert.@"
 
@@ -652,6 +622,7 @@ AgilityDescription:
 	next "enorm.@"
 
 QuickAttackDescription:
+ShadowSneakDescription:
 	db   "Erstschlaggarantie"
 	next "für den Angreifer.@"
 
@@ -663,10 +634,6 @@ TeleportDescription:
 	db   "Ermöglicht Flucht"
 	next "aus Kämpfen.@"
 
-NightShadeDescription:
-	db   "Angreiferlevel"
-	next "gleich Schaden.@"
-
 MimicDescription:
 	db   "Ahmt Attacke des"
 	next "Angreifers nach.@"
@@ -676,38 +643,28 @@ ScreechDescription:
 	next "des Gegners enorm.@"
 
 DoubleTeamDescription:
-	db   "Fluchtwert nimmt"
-	next "zu.@"
-
-RecoverDescription:
-	db   "Füllt KP zur"
-	next "Hälfte auf.@"
-
-HardenDescription:
-	db   "Hebt VERT-Wert des"
-	next "Angreifers.@"
-
 MinimizeDescription:
 	db   "Fluchtwert nimmt"
 	next "zu.@"
 
-SmokescreenDescription:
-	db   "Senkt Genauigkeit"
-	next "des Gegners.@"
+RecoverDescription:
+SoftboiledDescription:
+MilkDrinkDescription:
+	db   "Füllt KP zur"
+	next "Hälfte auf.@"
+
+HardenDescription:
+WithdrawDescription:
+DefenseCurlDescription:
+	db   "Hebt VERT-Wert des"
+	next "Angreifers.@"
 
 ConfuseRayDescription:
 	db   "Verursacht"
 	next "Verwirrung.@"
 
-WithdrawDescription:
-	db   "Hebt VERT-Wert des"
-	next "Angreifers.@"
-
-DefenseCurlDescription:
-	db   "Hebt VERT-Wert des"
-	next "Angreifers.@"
-
 BarrierDescription:
+AcidArmorDescription:
 	db   "Hebt VERT-Wert des"
 	next "Angreifers enorm.@"
 
@@ -747,44 +704,13 @@ EggBombDescription:
 	db   "Der Gegner erlebt"
 	next "einen Eierhagel.@"
 
-LickDescription:
-	db   "Gegner wird evtl."
-	next "paralysiert.@"
-
-SmogDescription:
-	db   "Gegner wird evtl."
-	next "vergiftet.@"
-
-SludgeDescription:
-	db   "Gegner wird evtl."
-	next "vergiftet.@"
-
-BoneClubDescription:
-	db   "Gegner schreckt"
-	next "evtl. zurück.@"
-
-FireBlastDescription:
-	db   "Gegner erleidet"
-	next "evtl. Verbrennung.@"
-
 WaterfallDescription:
 	db   "Wasser-Attacke.@"
 
-ClampDescription:
-	db   "Trifft Gegner bis"
-	next "zu 5mal.@"
-
 SwiftDescription:
+FaintAttackDescription:
 	db   "Attacke mit"
 	next "Treffergarantie.@"
-
-SkullBashDescription:
-	db   "1. Vorbereitung"
-	next "2. Angriff@"
-
-SpikeCannonDescription:
-	db   "Trifft Gegner bis"
-	next "zu 5mal.@"
 
 ConstrictDescription:
 	db   "Senkt evtl."
@@ -795,56 +721,22 @@ AmnesiaDescription:
 	next "Angreifers enorm.@"
 
 KinesisDescription:
+MudSlapDescription:
+SmokescreenDescription:
 	db   "Senkt Genauigkeit"
 	next "des Gegners.@"
-
-SoftboiledDescription:
-	db   "Füllt KP"
-	next "zur Hälfte auf.@"
 
 HiJumpKickDescription:
 	db   "Evtl. kein Treffer"
 	next "und Selbstschaden.@"
 
-GlareDescription:
-	db   "Gegner wird evtl."
-	next "paralysiert.@"
-
 DreamEaterDescription:
 	db   "Zieht schlafendem"
 	next "Gegner KP ab.@"
 
-PoisonGasDescription:
-	db   "Gegner wird evtl."
-	next "vergiftet.@"
-
-BarrageDescription:
-	db   "Trifft bis zu"
-	next "5mal.@"
-
-LeechLifeDescription:
-	db   "Erhält Hälfte"
-	next "des Schadens.@"
-
-LovelyKissDescription:
-	db   "Gegner schläft"
-	next "evtl. ein.@"
-
-SkyAttackDescription:
-	db   "1. Vorbereitung"
-	next "2. Angriff@"
-
 TransformDescription:
 	db   "Angreifer erkennt"
 	next "Tarnung.@"
-
-BubbleDescription:
-	db   "Senkt evtl. INIT-"
-	next "Wert des Gegners.@"
-
-DizzyPunchDescription:
-	db   "Gegner wird evtl."
-	next "verwirrt.@"
 
 SporeDescription:
 	db   "Versetzt Gegner"
@@ -861,21 +753,9 @@ PsywaveDescription:
 SplashDescription:
 	db   "Keine Wirkung.@"
 
-AcidArmorDescription:
-	db   "Hebt VERT-Wert des"
-	next "Angreifers enorm.@"
-
-CrabhammerDescription:
-	db   "Hohe Volltreffer-"
-	next "quote.@"
-
 ExplosionDescription:
 	db   "Stark; Angreifer"
 	next "wird besiegt.@"
-
-FurySwipesDescription:
-	db   "Trifft bis zu"
-	next "5mal.@"
 
 BonemerangDescription:
 	db   "Trifft 2mal.@"
@@ -883,14 +763,6 @@ BonemerangDescription:
 RestDescription:
 	db   "2 Runden pausieren"
 	next "für Erholung.@"
-
-RockSlideDescription:
-	db   "Gegner schreckt"
-	next "evtl. zurück.@"
-
-HyperFangDescription:
-	db   "Gegner schreckt"
-	next "evtl. zurück.@"
 
 SharpenDescription:
 	db   "Hebt den ANGR-Wert"
@@ -909,6 +781,11 @@ SuperFangDescription:
 	next "des Gegners.@"
 
 SlashDescription:
+KarateChopDescription:
+RazorLeafDescription:
+CrabhammerDescription:
+AeroblastDescription:
+CrossChopDescription:
 	db   "Hohe Volltreffer-"
 	next "quote.@"
 
@@ -933,20 +810,18 @@ ThiefDescription:
 	next "getragenes Item.@"
 
 SpiderWebDescription:
+MeanLookDescription:
 	db   "Verhindert Flucht"
 	next "oder Wechsel.@"
 
 MindReaderDescription:
+LockOnDescription:
 	db   "Treffergarantie"
 	next "beim Angriff.@"
 
 NightmareDescription:
 	db   "1/4 KP-Abzug für"
 	next "schlafende Gegner.@"
-
-FlameWheelDescription:
-	db   "Gegner erleidet"
-	next "evtl. Verbrennung.@"
 
 SnoreDescription:
 	db   "Attacke nur bei"
@@ -957,6 +832,7 @@ CurseDescription:
 	next "Geist-#MON.@"
 
 FlailDescription:
+ReversalDescription:
 	db   "Effektiver, wenn "
 	next "selbst geschwächt.@"
 
@@ -964,27 +840,17 @@ Conversion2Description:
 	db   "Elementwechsel bei"
 	next "Angreifer.@"
 
-AeroblastDescription:
-	db   "Hohe Volltreffer-"
-	next "quote.@"
-
 CottonSporeDescription:
+ScaryFaceDescription:
 	db   "Senkt INIT-Wert"
 	next "des Gegners enorm.@"
-
-ReversalDescription:
-	db   "Effektiver, wenn"
-	next "selbst geschwächt.@"
 
 SpiteDescription:
 	db   "Senkt AP der letz-"
 	next "ten Gegnerattacke.@"
 
-PowderSnowDescription:
-	db   "Gegner wird evtl."
-	next "eingefroren.@"
-
 ProtectDescription:
+DetectDescription:
 	db   "1 Runde Schutz."
 	next "Wdh. fraglich.@"
 
@@ -992,29 +858,13 @@ MachPunchDescription:
 	db   "Punch mit Erst-"
 	next "schlaggarantie.@"
 
-ScaryFaceDescription:
-	db   "Senkt INIT-Wert"
-	next "des Gegners enorm.@"
-
-FaintAttackDescription:
-	db   "Attacke mit"
-	next "Treffergarantie.@"
-
 SweetKissDescription:
 	db   "Verwirrt den"
 	next "Gegner.@"
 
 BellyDrumDescription:
-	db   "Senkt KP + maxi- "
+	db   "Senkt KP + maxi-"
 	next "miert ANGR-Wert.@"
-
-SludgeBombDescription:
-	db   "Gegner wird evtl."
-	next "vergiftet.@"
-
-MudSlapDescription:
-	db   "Senkt Genauigkeit"
-	next "des Gegners.@"
 
 OctazookaDescription:
 	db   "Senkt evtl. die"
@@ -1033,40 +883,16 @@ ForesightDescription:
 	next "Präzisionssenkung.@"
 
 DestinyBondDescription:
-	db   "Beide werden"
-	next "besiegt.@"
+	db   "Geht Angreifer KO,"
+	next "beide besiegt.@"
 
 PerishSongDescription:
 	db   "Beide werden in 3"
 	next "Runden besiegt.@"
 
-IcyWindDescription:
-	db   "Senkt INIT-Wert"
-	next "des Gegners.@"
-
-DetectDescription:
-	db   "1 Runde Schutz."
-	next "Wdh. fraglich.@"
-
-BoneRushDescription:
-	db   "Trifft bis zu"
-	next "5mal.@"
-
-LockOnDescription:
-	db   "Treffergarantie"
-	next "beim Angriff.@"
-
-OutrageDescription:
-	db   "Wirkt 2-3 Runden."
-	next "Verwir. Angreifer.@"
-
 SandstormDescription:
 	db   "Fügt in jeder"
 	next "Runde Schaden zu.@"
-
-GigaDrainDescription:
-	db   "Erhält Hälfte des"
-	next "Schadens.@"
 
 EndureDescription:
 	db   "Mindestens 1 KP"
@@ -1088,14 +914,6 @@ SwaggerDescription:
 	db   "Verwirrt und hebt"
 	next "ANGR-Wert.@"
 
-MilkDrinkDescription:
-	db   "Füllt KP zur"
-	next "Hälfte auf.@"
-
-SparkDescription:
-	db   "Gegner wird evtl."
-	next "paralysiert.@"
-
 FuryCutterDescription:
 	db   "Eine Treffer-Folge"
 	next "erhöht die Kraft.@"
@@ -1103,10 +921,6 @@ FuryCutterDescription:
 SteelWingDescription:
 	db   "Harte Flügel tref-"
 	next "fen den Gegner.@"
-
-MeanLookDescription:
-	db   "Verhindert Flucht"
-	next "oder Tausch.@"
 
 AttractDescription:
 	db   "Schutz, da Gegner"
@@ -1140,10 +954,6 @@ PainSplitDescription:
 	db   "Addiert alle KP"
 	next "und halbiert sie.@"
 
-SacredFireDescription:
-	db   "Gegner erleidet"
-	next "evtl. Verbrennung.@"
-
 MagnitudeDescription:
 	db   "Boden-Angriff,"
 	next "Intensität Zufall.@"
@@ -1153,8 +963,6 @@ DynamicpunchDescription:
 	next "verwirrt.@"
 
 MegahornDescription:
-	db   "Starke Attacke.@"
-
 DragonbreathDescription:
 	db   "Starke Attacke.@"
 
@@ -1178,10 +986,6 @@ SweetScentDescription:
 	db   "Fluchtwert des"
 	next "Gegners sinkt.@"
 
-IronTailDescription:
-	db   "Senkt evtl. VERT-"
-	next "Wert des Gegners.@"
-
 MetalClawDescription:
 	db   "Hebt evtl. den"
 	next "ANGR-Wert.@"
@@ -1191,13 +995,7 @@ VitalThrowDescription:
 	next "Treffergarantie.@"
 
 MorningSunDescription:
-	db   "Füllt KP auf."
-	next "(Anzahl zufällig)@"
-
 SynthesisDescription:
-	db   "Füllt KP auf."
-	next "(Anzahl zufällig)@"
-
 MoonlightDescription:
 	db   "Füllt KP auf."
 	next "(Anzahl zufällig)@"
@@ -1205,10 +1003,6 @@ MoonlightDescription:
 HiddenPowerDescription:
 	db   "Effekt hängt"
 	next "vom #MON ab.@"
-
-CrossChopDescription:
-	db   "Hohe Volltreffer-"
-	next "quote.@"
 
 TwisterDescription:
 	db   "Erzeugt zum An-"
@@ -1223,6 +1017,7 @@ SunnyDayDescription:
 	next "Attacken 5 Runden.@"
 
 CrunchDescription:
+ShadowBallDescription:
 	db   "Senkt evtl."
 	next "SPEZ. VER.@"
 
@@ -1242,10 +1037,6 @@ AncientpowerDescription:
 	db   "Hebt evtl. alle"
 	next "Statuswerte an.@"
 
-ShadowBallDescription:
-	db   "Senkt evtl."
-	next "SPEZ. VER.@"
-
 FutureSightDescription:
 	db   "Attacke trifft"
 	next "in Runde 3.@"
@@ -1254,10 +1045,6 @@ RockSmashDescription:
 	db   "Senkt evtl."
 	next "VERT-Wert.@"
 
-WhirlpoolDescription:
-	db   "Trifft Gegner bis"
-	next "zu 5mal.@"
-
 BeatUpDescription:
 	db   "#MON vom Team"
 	next "greifen auch an.@"
@@ -1265,11 +1052,3 @@ BeatUpDescription:
 DisguiseDescription:
 	db   "Schafft Ablenkung"
 	next "und erschreckt.@"
-
-PlayRoughDescription:
-	db   "Angriff, der evtl."
-	next "ANGR senkt.@"
-
-ShadowSneakDescription:
-	db   "Erstschlaggarantie"
-	next "für den Angreifer.@"
