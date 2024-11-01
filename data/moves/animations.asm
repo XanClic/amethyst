@@ -284,6 +284,7 @@ BattleAnimations::
 	dw BattleAnim_ShadowSneak
 	dw BattleAnim_ShadowClaw
 	dw BattleAnim_Moonblast
+	dw BattleAnim_HoneClaws
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -1536,6 +1537,24 @@ BattleAnim_FurySwipes:
 	anim_obj BATTLE_ANIM_OBJ_CUT_DOWN_RIGHT, 128, 40, $0
 	anim_sound 0, 1, SFX_SCRATCH
 	anim_wait 32
+	anim_ret
+
+BattleAnim_HoneClaws:
+	anim_1gfx BATTLE_ANIM_GFX_CUT
+.loop
+	anim_sound 0, 1, SFX_SCRATCH
+	anim_obj BATTLE_ANIM_OBJ_CUT_DOWN_LEFT, 56,  8, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_DOWN_LEFT, 52,  4, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_DOWN_LEFT, 48,  0, $0
+	anim_sound 0, 1, SFX_SCRATCH
+	anim_wait 16
+	anim_sound 0, 1, SFX_SCRATCH
+	anim_obj BATTLE_ANIM_OBJ_CUT_DOWN_RIGHT, 32,  8, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_DOWN_RIGHT, 36,  4, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_DOWN_RIGHT, 40,  0, $0
+	anim_sound 0, 1, SFX_SCRATCH
+	anim_wait 16
+	anim_loop 2, .loop
 	anim_ret
 
 BattleAnim_Cut:

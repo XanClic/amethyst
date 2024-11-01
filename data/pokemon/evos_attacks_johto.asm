@@ -927,14 +927,16 @@ SneaselEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, SCRATCH
 	dbw 1, LEER
-	dbw 9, QUICK_ATTACK
-	dbw 17, SCREECH
-	dbw 25, FAINT_ATTACK
-	dbw 33, FURY_SWIPES
-	dbw 41, AGILITY
-	dbw 49, SLASH
-	dbw 57, BEAT_UP
-	dbw 65, METAL_CLAW
+	dbw 8, QUICK_ATTACK
+	dbw 10, SCREECH
+	dbw 14, FAINT_ATTACK
+	dbw 21, FURY_SWIPES
+	dbw 24, AGILITY
+	dbw 28, ICY_WIND
+	dbw 32, HONE_CLAWS
+	dbw 35, SLASH
+	dbw 38, BEAT_UP
+	dbw 42, METAL_CLAW
 	db 0 ; no more level-up moves
 
 TeddiursaEvosAttacks:

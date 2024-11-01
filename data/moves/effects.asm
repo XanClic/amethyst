@@ -2085,3 +2085,18 @@ Disguise:
 	substitute
 	flinchtarget
 	endmove
+
+AccuracyAttackUp:
+	checkobedience
+	usedmovetext
+	doturn
+	lowersub
+	statupanim
+	raisesub
+	accuracyup
+	statupmessage
+	statupfailtext
+	attackup
+	statupmessage
+	statupfailtext
+	endmove

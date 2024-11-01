@@ -261,6 +261,7 @@ MoveDescriptions1:
 	dw ShadowSneakDescription
 	dw ShadowClawDescription
 	dw MoonblastDescription
+	dw HoneClawsDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1059,3 +1060,7 @@ DisguiseDescription:
 MoonblastDescription:
 	db   "Senkt evtl. SPEZ.-"
 	next "ANGR des Gegners.@"
+
+HoneClawsDescription:
+	db   "Erhöht Genauigkeit"
+	next "und ANGR-Wert.@"

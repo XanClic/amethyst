@@ -262,6 +262,7 @@
 	const SHADOW_SNEAK ; fe
 	const SHADOW_CLAW  ; fd
 	const MOONBLAST    ; fe
+	const HONE_CLAWS   ; ff
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff
