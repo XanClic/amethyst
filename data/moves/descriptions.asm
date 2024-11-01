@@ -467,6 +467,7 @@ DisableDescription:
 
 AcidDescription:
 IronTailDescription:
+CrunchDescription:
 	db   "Senkt evtl. VERT-"
 	next "Wert des Gegners.@"
 
@@ -1018,7 +1019,6 @@ SunnyDayDescription:
 	db   "Verstärkt Feuer-"
 	next "Attacken 5 Runden.@"
 
-CrunchDescription:
 ShadowBallDescription:
 	db   "Senkt evtl."
 	next "SPEZ. VER.@"

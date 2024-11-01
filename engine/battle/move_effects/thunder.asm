@@ -1,7 +1,7 @@
 BattleCommand_ThunderAccuracy:
-	ld a, BATTLE_VARS_MOVE_TYPE
+	ld a, BATTLE_VARS_MOVE_TYPE_AND_CAT
 	call GetBattleVarAddr
-	inc hl
+	inc hl ; goes to MoveAccuracy
 	ld a, [wBattleWeather]
 	cp WEATHER_RAIN
 	jr z, .rain

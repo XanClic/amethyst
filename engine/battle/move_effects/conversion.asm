@@ -21,8 +21,7 @@ BattleCommand_Conversion:
 	push hl
 	push bc
 	ld l, a
-	ld a, MOVE_TYPE
-	call GetMoveAttribute
+	call GetMoveType
 	ld [de], a
 	inc de
 	pop bc

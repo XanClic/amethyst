@@ -1255,21 +1255,45 @@ PlaceMoveData:
 	hlcoord 0, 11
 	ld de, String_MoveType_Bottom
 	call PlaceString
-if !DEF(_CRYSTAL_EU)
-	hlcoord 12, 12
-else
-	hlcoord 11, 12
-endc
-	ld de, String_MoveAtk
-	call PlaceString
 	ld a, [wCurSpecies]
 	ld b, a
 	hlcoord 2, 12
 	predef PrintMoveType
+
 	ld a, [wCurSpecies]
 	ld l, a
 	ld a, MOVE_POWER
 	call GetMoveAttribute
+	and a
+	jr nz, .non_status
+
+	hlcoord 11, 12
+	ld de, String_MoveStatus
+	call PlaceString
+	jr .description
+
+.non_status:
+	push af ; power
+
+	ld a, [wCurSpecies]
+	ld l, a
+	ld a, MOVE_TYPE_AND_CAT
+	call GetMoveAttribute
+	sra a
+	jr nc, .special
+
+	ld de, String_MovePhysical
+	jr .print_category_and_power
+
+.special:
+	ld de, String_MoveSpecial
+	; fall through
+
+.print_category_and_power:
+	hlcoord 11, 12
+	call PlaceString
+	pop af ; power
+
 	hlcoord 16, 12
 	cp 2
 	jr c, .no_power
@@ -1295,18 +1319,30 @@ String_MoveType_Top:
 if !DEF(_CRYSTAL_EU)
 String_MoveType_Bottom:
 	db "│TYPE/└@"
-String_MoveAtk:
-	db "ATK/@"
+String_MoveStatus:
+	db "(STATUS)@"
+String_MovePhysical:
+	db "PHYS/@"
+String_MoveSpecial:
+	db "SPCL/@"
 elif DEF(_CRYSTAL_DE)
 String_MoveType_Bottom:
 	db "│TYP/ └@"
-String_MoveAtk:
-	db "ANGR/@"
+String_MoveStatus:
+	db "(STATUS)@"
+String_MovePhysical:
+	db "PHYS/@"
+String_MoveSpecial:
+	db "SPEZ/@"
 elif DEF(_CRYSTAL_ES)
 String_MoveType_Bottom:
 	db "│TIPO/└@"
-String_MoveAtk:
-	db "ATAQ/@"
+String_MoveStatus:
+	db "(ESTADO)@"
+String_MovePhysical:
+	db " FÍS/@"
+String_MoveSpecial:
+	db " ESP/@"
 endc
 String_MoveNoPower:
 	db "---@"

@@ -3368,15 +3368,31 @@ IsThePlayerMonTypesEffectiveAgainstOTMon:
 	ld de, wEnemyMonType
 	ld c, BASE_CATCH_RATE - BASE_TYPES
 	call FarCopyBytes
+
+	; I think it’s fair to drop physical/special info here because this just
+	; makes the last used move virtually have the Pokémon’s type, because
+	; BattleCheckTypeMatchup checks the matchup of that move against the OT
+	; Pokémon; I assume the type is refreshed when another move is used.
+	; Still, no harm in retaining physical/special info.
+	ld a, [wPlayerMoveStruct + MOVE_TYPE_AND_CAT]
+        sra a
 	ld a, [wBattleMonType1]
-	ld [wPlayerMoveStruct + MOVE_TYPE], a
+	rla ; restore lowest (phys/spcl) bit from carry
+
+	ld [wPlayerMoveStruct + MOVE_TYPE_AND_CAT], a
 	call SetPlayerTurn
 	callfar BattleCheckTypeMatchup
 	ld a, [wTypeMatchup]
 	cp EFFECTIVE + 1
 	jr nc, .super_effective
+
+	; As above.
+	ld a, [wPlayerMoveStruct + MOVE_TYPE_AND_CAT]
+        sra a
 	ld a, [wBattleMonType2]
-	ld [wPlayerMoveStruct + MOVE_TYPE], a
+        rla
+
+	ld [wPlayerMoveStruct + MOVE_TYPE_AND_CAT], a
 	callfar BattleCheckTypeMatchup
 	ld a, [wTypeMatchup]
 	cp EFFECTIVE + 1

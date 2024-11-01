@@ -269,7 +269,7 @@ MACRO move_struct
 \1Animation::    db
 \1Effect::       db
 \1Power::        db
-\1Type::         db
+\1TypeAndCat::   db
 \1Accuracy::     db
 \1PP::           db
 \1EffectChance:: db

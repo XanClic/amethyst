@@ -192,7 +192,8 @@ AI_Types:
 	push hl
 	push de
 	push bc
-	ld a, [wEnemyMoveStruct + MOVE_TYPE]
+	ld a, [wEnemyMoveStruct + MOVE_TYPE_AND_CAT]
+	sra a
 	ld d, a
 	ld hl, wEnemyMonMoves
 	ld b, NUM_MOVES + 1
@@ -206,7 +207,8 @@ AI_Types:
 	jr z, .movesdone
 
 	call AIGetEnemyMove
-	ld a, [wEnemyMoveStruct + MOVE_TYPE]
+	ld a, [wEnemyMoveStruct + MOVE_TYPE_AND_CAT]
+	sra a
 	cp d
 	jr z, .checkmove2
 	ld a, [wEnemyMoveStruct + MOVE_POWER]
@@ -1356,8 +1358,8 @@ AI_Smart_Counter:
 	and a
 	jr z, .skipmove
 
-	ld a, [wEnemyMoveStruct + MOVE_TYPE]
-	cp SPECIAL
+	ld a, [wEnemyMoveStruct + MOVE_TYPE_AND_CAT]
+	sra a
 	jr nc, .skipmove
 
 	inc b
@@ -1384,8 +1386,8 @@ AI_Smart_Counter:
 	and a
 	jr z, .done
 
-	ld a, [wEnemyMoveStruct + MOVE_TYPE]
-	cp SPECIAL
+	ld a, [wEnemyMoveStruct + MOVE_TYPE_AND_CAT]
+	sra a
 	jr nc, .done
 
 .encourage
@@ -1417,7 +1419,8 @@ AI_Smart_Encore:
 	jr z, .weakmove
 
 	push hl
-	ld a, [wEnemyMoveStruct + MOVE_TYPE]
+	ld a, [wEnemyMoveStruct + MOVE_TYPE_AND_CAT]
+	sra a
 	ld hl, wEnemyMonType1
 	predef CheckTypeMatchup
 
@@ -1680,9 +1683,9 @@ AI_Smart_Conversion2:
 
 	push hl
 	ld l, a
-	ld a, MOVE_TYPE
+	ld a, MOVE_TYPE_AND_CAT
 	call GetMoveAttribute
-	ld [wPlayerMoveStruct + MOVE_TYPE], a
+	ld [wPlayerMoveStruct + MOVE_TYPE_AND_CAT], a
 
 	xor a
 	ldh [hBattleTurn], a
@@ -2546,8 +2549,8 @@ AI_Smart_MirrorCoat:
 	and a
 	jr z, .skipmove
 
-	ld a, [wEnemyMoveStruct + MOVE_TYPE]
-	cp SPECIAL
+	ld a, [wEnemyMoveStruct + MOVE_TYPE_AND_CAT]
+	sra a
 	jr c, .skipmove
 
 	inc b
@@ -2574,8 +2577,8 @@ AI_Smart_MirrorCoat:
 	and a
 	jr z, .done
 
-	ld a, [wEnemyMoveStruct + MOVE_TYPE]
-	cp SPECIAL
+	ld a, [wEnemyMoveStruct + MOVE_TYPE_AND_CAT]
+	sra a
 	jr c, .done
 
 .encourage

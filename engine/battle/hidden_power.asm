@@ -93,9 +93,10 @@ HiddenPowerDamage:
 
 ; Overwrite the current move type.
 	push af
-	ld a, BATTLE_VARS_MOVE_TYPE
+	ld a, BATTLE_VARS_MOVE_TYPE_AND_CAT
 	call GetBattleVarAddr
 	pop af
+	sla a ; SPECIAL
 	ld [hl], a
 
 ; Get the rest of the damage formula variables

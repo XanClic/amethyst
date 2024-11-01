@@ -45,7 +45,8 @@ PrintMoveType:
 	ld a, b
 	ld de, wStringBuffer1
 	call GetMoveData
-	ld a, [wStringBuffer1 + MOVE_TYPE]
+	ld a, [wStringBuffer1 + MOVE_TYPE_AND_CAT]
+	sra a
 	pop hl
 
 	ld b, a

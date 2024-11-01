@@ -29,8 +29,8 @@ BattleCommand_Counter:
 	and a
 	ret z
 
-	ld a, [wStringBuffer1 + MOVE_TYPE]
-	cp SPECIAL
+	ld a, [wStringBuffer1 + MOVE_TYPE_AND_CAT]
+	sra a
 	ret nc
 
 ; BUG: Counter and Mirror Coat still work if the opponent uses an item (see docs/bugs_and_glitches.md)

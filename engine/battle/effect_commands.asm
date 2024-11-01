@@ -1294,8 +1294,7 @@ BattleCommand_Stab:
 	ld e, [hl]
 
 .go
-	ld a, BATTLE_VARS_MOVE_TYPE
-	call GetBattleVarAddr
+	call GetBattleMoveType
 	ld [wCurType], a
 
 	push hl
@@ -1341,8 +1340,7 @@ BattleCommand_Stab:
 	set 7, [hl]
 
 .SkipStab:
-	ld a, BATTLE_VARS_MOVE_TYPE
-	call GetBattleVar
+	call GetBattleMoveType
 	ld b, a
 	ld hl, TypeMatchups
 
@@ -1452,16 +1450,14 @@ BattleCheckTypeMatchup:
 	ld hl, wEnemyMonType1
 	ldh a, [hBattleTurn]
 	and a
-	jr z, CheckTypeMatchup
+	jr z, .get_type
 	ld hl, wBattleMonType1
-	; fallthrough
+.get_type:
+	call GetBattleMoveType ; preserves hl, dl, and bc
 CheckTypeMatchup:
-; BUG: AI makes a false assumption about CheckTypeMatchup (see docs/bugs_and_glitches.md)
 	push hl
 	push de
 	push bc
-	ld a, BATTLE_VARS_MOVE_TYPE
-	call GetBattleVar
 	ld d, a
 	ld b, [hl]
 	inc hl
@@ -2606,7 +2602,7 @@ PlayerAttackDamage:
 	ret z
 
 	ld a, [hl]
-	cp SPECIAL
+	sra a
 	jr nc, .special
 
 ; physical
@@ -2737,8 +2733,8 @@ CheckDamageStatsCritical:
 	ldh a, [hBattleTurn]
 	and a
 	jr nz, .enemy
-	ld a, [wPlayerMoveStructType]
-	cp SPECIAL
+	ld a, [wPlayerMoveStructTypeAndCat]
+	sra a
 ; special
 	ld a, [wPlayerSAtkLevel]
 	ld b, a
@@ -2751,8 +2747,8 @@ CheckDamageStatsCritical:
 	jr .end
 
 .enemy
-	ld a, [wEnemyMoveStructType]
-	cp SPECIAL
+	ld a, [wEnemyMoveStructTypeAndCat]
+	sra a
 ; special
 	ld a, [wEnemySAtkLevel]
 	ld b, a
@@ -2861,7 +2857,7 @@ EnemyAttackDamage:
 	ret z
 
 	ld a, [hl]
-	cp SPECIAL
+	sra a
 	jr nc, .special
 
 ; physical
@@ -3077,8 +3073,7 @@ BattleCommand_DamageCalc:
 
 ; Type
 	ld b, a
-	ld a, BATTLE_VARS_MOVE_TYPE
-	call GetBattleVar
+	call GetBattleMoveType
 	cp b
 	jr nz, .DoneItem
 
@@ -6007,8 +6002,7 @@ CheckMoveTypeMatchesTarget:
 	ld hl, wBattleMonType1
 .ok
 
-	ld a, BATTLE_VARS_MOVE_TYPE
-	call GetBattleVar
+	call GetBattleMoveType
 	cp NORMAL
 	jr z, .normal
 
