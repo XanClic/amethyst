@@ -70,4 +70,7 @@ Cries:
 	dba Cry_Dunsparce
 	dba Cry_Donphan
 	dba Cry_Mimikyu
+	dba Cry_Litwick
+	dba Cry_Lampent
+	dba Cry_Chandelure
 	assert_table_length NUM_CRIES

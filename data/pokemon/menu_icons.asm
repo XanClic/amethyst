@@ -254,4 +254,7 @@ MonMenuIcons:
 	db ICON_HO_OH       ; HO_OH
 	db ICON_HUMANSHAPE  ; CELEBI
 	db ICON_PIKACHU     ; MIMIKYU
+	db ICON_GHOST       ; LITWICK
+	db ICON_GHOST       ; LAMPENT
+	db ICON_GHOST       ; CHANDELURE
 	assert_table_length NUM_POKEMON

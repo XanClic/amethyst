@@ -279,4 +279,7 @@ INCLUDE "data/pokemon/base_stats/lugia.asm"
 INCLUDE "data/pokemon/base_stats/ho_oh.asm"
 INCLUDE "data/pokemon/base_stats/celebi.asm"
 INCLUDE "data/pokemon/base_stats/mimikyu.asm"
+INCLUDE "data/pokemon/base_stats/litwick.asm"
+INCLUDE "data/pokemon/base_stats/lampent.asm"
+INCLUDE "data/pokemon/base_stats/chandelure.asm"
 .IndirectEnd::

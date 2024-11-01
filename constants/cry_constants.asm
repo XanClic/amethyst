@@ -75,5 +75,8 @@
 
 ; gen 3+
 	const CRY_MIMIKYU
+	const CRY_LITWICK
+	const CRY_LAMPENT
+	const CRY_CHANDELURE
 
 DEF NUM_CRIES EQU const_value

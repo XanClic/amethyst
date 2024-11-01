@@ -333,8 +333,8 @@ JohtoGrassWildMons:
 	dbw 14, KOFFING
 	dbw 16, KOFFING
 	dbw 15, ZUBAT
-	dbw 12, KOFFING
-	dbw 16, KOFFING
+	dbw 15, LITWICK
+	dbw 16, LITWICK
 	dbw 16, WEEZING
 	end_grass_wildmons
 

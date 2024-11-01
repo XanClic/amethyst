@@ -253,4 +253,7 @@ FirstEvoStages::
 	dw HO_OH
 	dw CELEBI
 	dw MIMIKYU
+	dw LITWICK
+	dw LITWICK
+	dw LITWICK
 	assert_table_length NUM_POKEMON

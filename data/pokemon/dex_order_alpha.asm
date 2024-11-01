@@ -112,10 +112,12 @@ AlphabeticalPokedexOrder:
 	dw LAPRAS
 	dw LARVITAR
 	dw SLOWKING
+	dw LAMPENT
 	dw MOLTRES
 	dw LEDIAN
 	dw LEDYBA
 	dw ELECTRODE
+	dw LITWICK
 	dw BAYLEEF
 	dw LUGIA
 	dw MACHOP
@@ -207,6 +209,7 @@ AlphabeticalPokedexOrder:
 	dw SCYTHER
 	dw ALAKAZAM
 	dw HERACROSS
+	dw CHANDELURE
 	dw GLIGAR
 	dw GRIMER
 	dw MUK

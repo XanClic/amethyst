@@ -543,8 +543,8 @@ Function17042c:
 	; If a == 0 and b >= $fc, overwrite the current trainer's data with
 	; Unknown_17047e, and exit the inner loop.
 	ld a, b
-	cp NUM_POKEMON + 1
-	jr nc, .copy_data
+	; cp NUM_POKEMON + 1
+	; jr nc, .copy_data
 
 .next_iteration
 	dec c

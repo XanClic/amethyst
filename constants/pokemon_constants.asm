@@ -273,6 +273,9 @@ DEF JOHTO_POKEMON EQU const_value
 	const CELEBI     ; fb
 DEF MORE_POKEMON EQU const_value
 	const MIMIKYU    ; fc
+	const LITWICK    ; fd
+	const LAMPENT    ; fe
+	const CHANDELURE ; ff
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3
