@@ -260,6 +260,7 @@ MoveDescriptions1:
 	dw PlayRoughDescription
 	dw ShadowSneakDescription
 	dw ShadowClawDescription
+	dw MoonblastDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1054,3 +1055,7 @@ BeatUpDescription:
 DisguiseDescription:
 	db   "Schafft Ablenkung"
 	next "und erschreckt.@"
+
+MoonblastDescription:
+	db   "Senkt evtl. SPEZ.-"
+	next "ANGR des Gegners.@"

@@ -283,6 +283,7 @@ BattleAnimations::
 	dw BattleAnim_PlayRough
 	dw BattleAnim_ShadowSneak
 	dw BattleAnim_ShadowClaw
+	dw BattleAnim_Moonblast
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -4361,6 +4362,29 @@ BattleAnim_Moonlight:
 	anim_wait 63
 	anim_if_param_equal $3, .three
 	anim_call BattleAnimSub_Glimmer
+	anim_ret
+
+.three
+	anim_call BattleAnimSub_Glimmer2
+	anim_ret
+
+BattleAnim_Moonblast:
+	anim_2gfx BATTLE_ANIM_GFX_SHINE, BATTLE_ANIM_GFX_HIT
+	anim_bgp $1b
+	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_MID_OBPALS_GRAY_AND_YELLOW, $0, $0, $0
+	anim_obj BATTLE_ANIM_OBJ_MOONLIGHT, 128 + 0, 24, $0
+	anim_obj BATTLE_ANIM_OBJ_MOONLIGHT, 128 + 16, 40, $0
+	anim_obj BATTLE_ANIM_OBJ_MOONLIGHT, 128 + 32, 56, $0
+	anim_obj BATTLE_ANIM_OBJ_MOONLIGHT, 128 + 48, 72, $0
+	anim_obj BATTLE_ANIM_OBJ_MOONLIGHT, 128 + 64, 88, $0
+	anim_wait 1
+	anim_sound 0, 0, SFX_MOONLIGHT
+	anim_wait 63
+.loop
+	anim_sound 0, 1, SFX_MEGA_PUNCH
+	anim_obj BATTLE_ANIM_OBJ_HIT_BIG_YFIX, 136, 56, $0
+	anim_wait 12
+	anim_loop 3, .loop
 	anim_ret
 
 .three

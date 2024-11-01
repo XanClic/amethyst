@@ -270,8 +270,9 @@ HoothootEvosAttacks:
 	dbw 11, PECK
 	dbw 16, HYPNOSIS
 	dbw 22, REFLECT
-	dbw 28, TAKE_DOWN
-	dbw 34, CONFUSION
+	dbw 27, TAKE_DOWN
+	dbw 30, CONFUSION
+	dbw 33, MOONBLAST
 	dbw 48, DREAM_EATER
 	db 0 ; no more level-up moves
 
@@ -286,7 +287,8 @@ NoctowlEvosAttacks:
 	dbw 16, HYPNOSIS
 	dbw 25, REFLECT
 	dbw 33, TAKE_DOWN
-	dbw 41, CONFUSION
+	dbw 39, CONFUSION
+	dbw 43, MOONBLAST
 	dbw 57, DREAM_EATER
 	db 0 ; no more level-up moves
 
@@ -514,6 +516,7 @@ BellossomEvosAttacks:
 	dbw 1, SWEET_SCENT
 	dbw 1, STUN_SPORE
 	dbw 1, PETAL_DANCE
+	dbw 1, MOONBLAST
 	dbw 55, SOLARBEAM
 	db 0 ; no more level-up moves
 

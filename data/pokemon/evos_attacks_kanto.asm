@@ -613,7 +613,8 @@ ClefairyEvosAttacks:
 	dbw 19, MINIMIZE
 	dbw 26, DEFENSE_CURL
 	dbw 34, METRONOME
-	dbw 43, MOONLIGHT
+	dbw 39, MOONLIGHT
+	dbw 44, MOONBLAST
 	dbw 53, LIGHT_SCREEN
 	db 0 ; no more level-up moves
 
@@ -623,6 +624,7 @@ ClefableEvosAttacks:
 	dbw 1, DOUBLESLAP
 	dbw 1, METRONOME
 	dbw 1, MOONLIGHT
+	dbw 1, MOONBLAST
 	db 0 ; no more level-up moves
 
 VulpixEvosAttacks:
@@ -704,6 +706,7 @@ OddishEvosAttacks:
 	dbw 16, STUN_SPORE
 	dbw 18, SLEEP_POWDER
 	dbw 23, ACID
+	dbw 28, MOONBLAST
 	dbw 32, MOONLIGHT
 	dbw 39, PETAL_DANCE
 	db 0 ; no more level-up moves
@@ -720,6 +723,7 @@ GloomEvosAttacks:
 	dbw 16, STUN_SPORE
 	dbw 18, SLEEP_POWDER
 	dbw 24, ACID
+	dbw 32, MOONBLAST
 	dbw 35, MOONLIGHT
 	dbw 44, PETAL_DANCE
 	db 0 ; no more level-up moves
@@ -730,6 +734,7 @@ VileplumeEvosAttacks:
 	dbw 1, SWEET_SCENT
 	dbw 1, STUN_SPORE
 	dbw 1, PETAL_DANCE
+	dbw 1, MOONBLAST
 	db 0 ; no more level-up moves
 
 ParasEvosAttacks:

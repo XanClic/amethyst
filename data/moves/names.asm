@@ -255,4 +255,5 @@ MoveNames::
 	li "KNUDDLER"
 	li "SCHATTENSTOß"
 	li "DUNKELKLAUE"
+	li "MONDGEWALT"
 	assert_list_length NUM_ATTACKS
