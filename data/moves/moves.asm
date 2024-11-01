@@ -300,4 +300,9 @@ Moves1:
 	move EFFECT_SP_ATK_DOWN_HIT,    95,  SPECIAL + MT_FAIRY,    100, 15,  30      ;MOONBLAST
 	move EFFECT_ACC_ATK_UP,          0,   STATUS + MT_DARK,     100, 15,   0      ;HONE_CLAWS
 	move EFFECT_BURN,                0,   STATUS + MT_FIRE,      85, 15,   0      ;WILL_O_WISP
+	move EFFECT_FLINCH_HIT,         30, PHYSICAL + MT_GHOST,    100, 15,  30      ;ASTONISH
+	move EFFECT_HEX,                65,  SPECIAL + MT_GHOST,    100, 10,   0      ;HEX
+	move EFFECT_NORMAL_HIT,         70,  SPECIAL + MT_FIRE,     100, 15,   0      ;FLAME_BURST
+	move EFFECT_BURN_HIT,          100,  SPECIAL + MT_FIRE,      50,  5, 100      ;INFERNO
+	move EFFECT_SHELL_SMASH,         0,   STATUS + MT_NORMAL,   100, 15,   0      ;SHELL_SMASH
 .IndirectEnd::

@@ -161,4 +161,6 @@ MoveEffectsPointers:
 	dw Disguise
 	dw AccuracyAttackUp
 	dw DoBurn
+	dw Hex
+	dw ShellSmash
 	assert_table_length NUM_MOVE_EFFECTS

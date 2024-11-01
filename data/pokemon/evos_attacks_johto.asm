@@ -359,6 +359,7 @@ CrobatEvosAttacks:
 	dbw 1, LEECH_LIFE
 	dbw 1, SUPERSONIC
 	dbw 6, SUPERSONIC
+	dbw 9, ASTONISH
 	dbw 12, BITE
 	dbw 19, CONFUSE_RAY
 	dbw 30, WING_ATTACK
@@ -624,6 +625,7 @@ AipomEvosAttacks:
 	dbw 1, SCRATCH
 	dbw 1, TAIL_WHIP
 	dbw 6, SAND_ATTACK
+	dbw 8, ASTONISH
 	dbw 12, BATON_PASS
 	dbw 19, FURY_SWIPES
 	dbw 27, SWIFT
@@ -722,6 +724,7 @@ UmbreonEvosAttacks:
 MurkrowEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, PECK
+	dbw 1, ASTONISH
 	dbw 11, PURSUIT
 	dbw 16, HAZE
 	dbw 26, NIGHT_SHADE
@@ -747,10 +750,13 @@ MisdreavusEvosAttacks:
 	dbw 1, GROWL
 	dbw 1, PSYWAVE
 	dbw 6, SPITE
+	dbw 10, ASTONISH
 	dbw 12, CONFUSE_RAY
 	dbw 19, MEAN_LOOK
+	dbw 23, HEX
 	dbw 27, PSYBEAM
 	dbw 36, PAIN_SPLIT
+	dbw 41, SHADOW_BALL
 	dbw 46, PERISH_SONG
 	db 0 ; no more level-up moves
 
@@ -771,7 +777,7 @@ GirafarigEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, GROWL
-	dbw 1, CONFUSION
+	dbw 1, ASTONISH
 	dbw 1, STOMP
 	dbw 7, CONFUSION
 	dbw 13, STOMP
@@ -907,6 +913,7 @@ ShuckleEvosAttacks:
 	dbw 14, ENCORE
 	dbw 23, SAFEGUARD
 	dbw 28, BIDE
+	dbw 34, SHELL_SMASH
 	dbw 37, REST
 	db 0 ; no more level-up moves
 
@@ -972,10 +979,13 @@ SlugmaEvosAttacks:
 	dbbw EVOLVE_LEVEL, 38, MAGCARGO
 	db 0 ; no more evolutions
 	dbw 1, SMOG
-	dbw 8, EMBER
-	dbw 15, ROCK_THROW
-	dbw 22, HARDEN
-	dbw 29, AMNESIA
+	dbw 5, EMBER
+	dbw 10, ROCK_THROW
+	dbw 14, HARDEN
+	dbw 19, RECOVER
+	dbw 23, FLAME_BURST
+	dbw 28, ANCIENTPOWER
+	dbw 32, AMNESIA
 	dbw 36, FLAMETHROWER
 	dbw 43, ROCK_SLIDE
 	dbw 50, BODY_SLAM
@@ -986,13 +996,17 @@ MagcargoEvosAttacks:
 	dbw 1, SMOG
 	dbw 1, EMBER
 	dbw 1, ROCK_THROW
-	dbw 8, EMBER
-	dbw 15, ROCK_THROW
-	dbw 22, HARDEN
-	dbw 29, AMNESIA
+	dbw 5, EMBER
+	dbw 10, ROCK_THROW
+	dbw 14, HARDEN
+	dbw 19, RECOVER
+	dbw 23, FLAME_BURST
+	dbw 28, ANCIENTPOWER
+	dbw 32, AMNESIA
 	dbw 36, FLAMETHROWER
-	dbw 48, ROCK_SLIDE
-	dbw 60, BODY_SLAM
+	dbw 38, SHELL_SMASH
+	dbw 44, ROCK_SLIDE
+	dbw 52, BODY_SLAM
 	db 0 ; no more level-up moves
 
 SwinubEvosAttacks:
@@ -1169,6 +1183,7 @@ StantlerEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 8, LEER
+	dbw 13, ASTONISH
 	dbw 15, HYPNOSIS
 	dbw 23, STOMP
 	dbw 31, SAND_ATTACK

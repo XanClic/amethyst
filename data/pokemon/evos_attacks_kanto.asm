@@ -215,6 +215,7 @@ CharmanderEvosAttacks:
 	dbw 13, SMOKESCREEN
 	dbw 19, RAGE
 	dbw 25, SCARY_FACE
+	dbw 28, FLAME_BURST
 	dbw 31, FLAMETHROWER
 	dbw 37, SLASH
 	dbw 43, DRAGON_RAGE
@@ -231,6 +232,7 @@ CharmeleonEvosAttacks:
 	dbw 13, SMOKESCREEN
 	dbw 20, RAGE
 	dbw 27, SCARY_FACE
+	dbw 32, FLAME_BURST
 	dbw 34, FLAMETHROWER
 	dbw 41, SLASH
 	dbw 48, DRAGON_RAGE
@@ -247,6 +249,7 @@ CharizardEvosAttacks:
 	dbw 13, SMOKESCREEN
 	dbw 20, RAGE
 	dbw 27, SCARY_FACE
+	dbw 32, FLAME_BURST
 	dbw 34, FLAMETHROWER
 	dbw 36, WING_ATTACK
 	dbw 44, SLASH
@@ -265,6 +268,7 @@ SquirtleEvosAttacks:
 	dbw 18, BITE
 	dbw 23, RAPID_SPIN
 	dbw 28, PROTECT
+	dbw 30, SHELL_SMASH
 	dbw 33, RAIN_DANCE
 	dbw 40, SKULL_BASH
 	dbw 47, HYDRO_PUMP
@@ -283,6 +287,7 @@ WartortleEvosAttacks:
 	dbw 19, BITE
 	dbw 25, RAPID_SPIN
 	dbw 31, PROTECT
+	dbw 33, SHELL_SMASH
 	dbw 37, RAIN_DANCE
 	dbw 45, SKULL_BASH
 	dbw 53, HYDRO_PUMP
@@ -301,6 +306,7 @@ BlastoiseEvosAttacks:
 	dbw 19, BITE
 	dbw 25, RAPID_SPIN
 	dbw 31, PROTECT
+	dbw 33, SHELL_SMASH
 	dbw 42, RAIN_DANCE
 	dbw 55, SKULL_BASH
 	dbw 68, HYDRO_PUMP
@@ -632,13 +638,18 @@ VulpixEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, EMBER
 	dbw 1, TAIL_WHIP
-	dbw 7, QUICK_ATTACK
-	dbw 13, ROAR
-	dbw 19, CONFUSE_RAY
-	dbw 24, WILL_O_WISP
+	dbw 7, ROAR
+	dbw 11, QUICK_ATTACK
+	dbw 14, FIRE_SPIN
+	dbw 17, CONFUSE_RAY
+	dbw 20, FAINT_ATTACK
+	dbw 24, FLAME_BURST
 	dbw 27, SAFEGUARD
-	dbw 31, FLAMETHROWER
-	dbw 37, FIRE_SPIN
+	dbw 31, WILL_O_WISP
+	dbw 34, HEX
+	dbw 37, FLAMETHROWER
+	dbw 44, INFERNO
+	dbw 54, FIRE_BLAST
 	db 0 ; no more level-up moves
 
 NinetalesEvosAttacks:
@@ -677,6 +688,7 @@ ZubatEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, LEECH_LIFE
 	dbw 6, SUPERSONIC
+	dbw 9, ASTONISH
 	dbw 12, BITE
 	dbw 19, CONFUSE_RAY
 	dbw 27, WING_ATTACK
@@ -691,6 +703,7 @@ GolbatEvosAttacks:
 	dbw 1, LEECH_LIFE
 	dbw 1, SUPERSONIC
 	dbw 6, SUPERSONIC
+	dbw 9, ASTONISH
 	dbw 12, BITE
 	dbw 19, CONFUSE_RAY
 	dbw 30, WING_ATTACK
@@ -803,6 +816,7 @@ DiglettEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, SCRATCH
 	dbw 5, GROWL
+	dbw 7, ASTONISH
 	dbw 9, MAGNITUDE
 	dbw 17, DIG
 	dbw 25, SAND_ATTACK
@@ -818,6 +832,7 @@ DugtrioEvosAttacks:
 	dbw 1, GROWL
 	dbw 1, MAGNITUDE
 	dbw 5, GROWL
+	dbw 7, ASTONISH
 	dbw 9, MAGNITUDE
 	dbw 17, DIG
 	dbw 25, SAND_ATTACK
@@ -920,6 +935,7 @@ GrowlitheEvosAttacks:
 	dbw 9, EMBER
 	dbw 18, LEER
 	dbw 26, TAKE_DOWN
+	dbw 31, FLAME_BURST
 	dbw 34, FLAME_WHEEL
 	dbw 42, AGILITY
 	dbw 50, FLAMETHROWER
@@ -1104,7 +1120,8 @@ TentacoolEvosAttacks:
 	dbw 25, BUBBLEBEAM
 	dbw 30, WRAP
 	dbw 36, BARRIER
-	dbw 43, SCREECH
+	dbw 40, SCREECH
+	dbw 43, HEX
 	dbw 49, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
@@ -1119,7 +1136,8 @@ TentacruelEvosAttacks:
 	dbw 25, BUBBLEBEAM
 	dbw 30, WRAP
 	dbw 38, BARRIER
-	dbw 47, SCREECH
+	dbw 43, SCREECH
+	dbw 47, HEX
 	dbw 55, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
@@ -1363,15 +1381,16 @@ ShellderEvosAttacks:
 	dbw 25, PROTECT
 	dbw 33, LEER
 	dbw 41, CLAMP
+	dbw 44, SHELL_SMASH
 	dbw 49, ICE_BEAM
 	db 0 ; no more level-up moves
 
 CloysterEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, WITHDRAW
-	dbw 1, SUPERSONIC
 	dbw 1, AURORA_BEAM
 	dbw 1, PROTECT
+	dbw 1, SHELL_SMASH
 	dbw 33, SPIKES
 	dbw 41, SPIKE_CANNON
 	db 0 ; no more level-up moves
@@ -1381,13 +1400,16 @@ GastlyEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, HYPNOSIS
 	dbw 1, LICK
-	dbw 8, SPITE
-	dbw 13, MEAN_LOOK
-	dbw 16, CURSE
-	dbw 21, NIGHT_SHADE
-	dbw 28, CONFUSE_RAY
+	dbw 7, SPITE
+	dbw 10, MEAN_LOOK
+	dbw 14, CURSE
+	dbw 19, NIGHT_SHADE
+	dbw 24, CONFUSE_RAY
+	dbw 29, SHADOW_BALL
 	dbw 33, DREAM_EATER
 	dbw 36, DESTINY_BOND
+	dbw 43, HEX
+	dbw 47, NIGHTMARE
 	db 0 ; no more level-up moves
 
 HaunterEvosAttacks:
@@ -1396,13 +1418,17 @@ HaunterEvosAttacks:
 	dbw 1, HYPNOSIS
 	dbw 1, LICK
 	dbw 1, SPITE
-	dbw 8, SPITE
-	dbw 13, MEAN_LOOK
-	dbw 16, CURSE
-	dbw 21, NIGHT_SHADE
-	dbw 31, CONFUSE_RAY
+	dbw 7, SPITE
+	dbw 10, MEAN_LOOK
+	dbw 14, CURSE
+	dbw 19, NIGHT_SHADE
+	dbw 24, CONFUSE_RAY
+	dbw 25, SHADOW_SNEAK
+	dbw 33, SHADOW_BALL
 	dbw 39, DREAM_EATER
-	dbw 48, DESTINY_BOND
+	dbw 50, DESTINY_BOND
+	dbw 55, HEX
+	dbw 61, NIGHTMARE
 	db 0 ; no more level-up moves
 
 GengarEvosAttacks:
@@ -1410,13 +1436,17 @@ GengarEvosAttacks:
 	dbw 1, HYPNOSIS
 	dbw 1, LICK
 	dbw 1, SPITE
-	dbw 8, SPITE
-	dbw 13, MEAN_LOOK
-	dbw 16, CURSE
-	dbw 21, NIGHT_SHADE
-	dbw 31, CONFUSE_RAY
+	dbw 7, SPITE
+	dbw 10, MEAN_LOOK
+	dbw 14, CURSE
+	dbw 19, NIGHT_SHADE
+	dbw 24, CONFUSE_RAY
+	dbw 25, SHADOW_SNEAK
+	dbw 33, SHADOW_BALL
 	dbw 39, DREAM_EATER
-	dbw 48, DESTINY_BOND
+	dbw 50, DESTINY_BOND
+	dbw 55, HEX
+	dbw 61, NIGHTMARE
 	db 0 ; no more level-up moves
 
 OnixEvosAttacks:
@@ -1864,6 +1894,7 @@ MagmarEvosAttacks:
 	dbw 7, LEER
 	dbw 13, SMOG
 	dbw 19, FIRE_PUNCH
+	dbw 22, FLAME_BURST
 	dbw 25, SMOKESCREEN
 	dbw 33, SUNNY_DAY
 	dbw 41, FLAMETHROWER
@@ -2020,6 +2051,7 @@ OmanyteEvosAttacks:
 	dbw 31, LEER
 	dbw 37, PROTECT
 	dbw 49, ANCIENTPOWER
+	dbw 52, SHELL_SMASH
 	dbw 55, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
@@ -2034,6 +2066,7 @@ OmastarEvosAttacks:
 	dbw 37, PROTECT
 	dbw 40, SPIKE_CANNON
 	dbw 54, ANCIENTPOWER
+	dbw 60, SHELL_SMASH
 	dbw 65, HYDRO_PUMP
 	db 0 ; no more level-up moves
 

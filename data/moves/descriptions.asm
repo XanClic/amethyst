@@ -263,6 +263,11 @@ MoveDescriptions1:
 	dw MoonblastDescription
 	dw HoneClawsDescription
 	dw WillOWispDescription
+	dw AstonishDescription
+	dw HexDescription
+	dw FlameBurstDescription
+	dw InfernoDescription
+	dw ShellSmashDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -363,6 +368,7 @@ LowKickDescription:
 BoneClubDescription:
 RockSlideDescription:
 HyperFangDescription:
+AstonishDescription:
 	db   "Gegner schreckt"
 	next "evtl. zurück.@"
 
@@ -1066,3 +1072,19 @@ MoonblastDescription:
 HoneClawsDescription:
 	db   "Erhöht Genauigkeit"
 	next "und ANGR-Wert.@"
+
+HexDescription:
+	db   "2× Schaden bei"
+	next "gegn. Statusänd.@"
+
+FlameBurstDescription:
+	db   "Wirft berstende"
+	next "Feuerblasen.@"
+
+InfernoDescription:
+	db   "Verbrennt bei"
+	next "Treffer immer.@"
+
+ShellSmashDescription:
+	db   "Opfert VERT für"
+	next "hohe Offensive.@"

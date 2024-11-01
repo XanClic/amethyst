@@ -258,4 +258,9 @@ MoveNames::
 	li "MONDGEWALT"
 	li "KLAUENWETZER"
 	li "IRRLICHT"
+	li "ERSTAUNER"
+	li "BÜRDE"
+	li "FUNKENFLUG"
+	li "INFERNO"
+	li "HAUSBRUCH"
 	assert_list_length NUM_ATTACKS

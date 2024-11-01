@@ -264,6 +264,11 @@
 	const MOONBLAST    ; fe
 	const HONE_CLAWS   ; ff
 	const WILL_O_WISP  ; 100
+	const ASTONISH     ; 101
+	const HEX          ; 102
+	const FLAME_BURST  ; 103
+	const INFERNO      ; 104
+	const SHELL_SMASH  ; 105
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

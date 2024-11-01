@@ -4722,6 +4722,41 @@ BattleCommand_AllStatsUp:
 	call BattleCommand_SpecialDefenseUp
 	jp   BattleCommand_StatUpMessage
 
+BattleCommand_ShellSmash:
+	call BattleCommand_SwitchTurn
+
+; Defense
+	call BattleCommand_DefenseDown
+        call .stat_down_msg
+
+; Special Defense
+	call BattleCommand_SpecialDefenseDown
+        call .stat_down_msg
+
+	call BattleCommand_SwitchTurn
+
+; Attack
+	call BattleCommand_AttackUp2
+        call .stat_up_msg
+
+; Special Attack
+	call BattleCommand_SpecialAttackUp2
+        call .stat_up_msg
+
+; Speed
+	call BattleCommand_SpeedUp2
+        ; fall through
+
+.stat_up_msg:
+	call BattleCommand_StatUpMessage
+	call BattleCommand_StatUpFailText
+        jp   ResetMiss
+
+.stat_down_msg:
+	call BattleCommand_StatDownMessage
+	call BattleCommand_StatDownFailText
+        jp   ResetMiss
+
 ResetMiss:
 	xor a
 	ld [wAttackMissed], a
@@ -5683,6 +5718,8 @@ BattleCommand_Charge:
 
 BattleCommand_Unused3C:
 ; effect0x3c
+BattleCommand_Unused5D:
+; effect0x5d
 	ret
 
 BattleCommand_TrapTarget:
@@ -6435,10 +6472,6 @@ INCLUDE "engine/battle/move_effects/sandstorm.asm"
 
 INCLUDE "engine/battle/move_effects/rollout.asm"
 
-BattleCommand_Unused5D:
-; effect0x5d
-	ret
-
 INCLUDE "engine/battle/move_effects/fury_cutter.asm"
 
 INCLUDE "engine/battle/move_effects/attract.asm"
@@ -6871,3 +6904,5 @@ CheckMoveInList:
 	pop de
 	pop bc
 	ret
+
+INCLUDE "engine/battle/move_effects/hex_damage.asm"
