@@ -272,4 +272,5 @@ Moves1:
 	move EFFECT_DISGUISE,            0, GHOST,         100,  5, 100      ;DISGUISE
 	move EFFECT_ATTACK_DOWN_HIT,    90, FAIRY,          90, 10,  10      ;PLAY_ROUGH
 	move EFFECT_PRIORITY_HIT,       40, GHOST,         100, 30,   0      ;SHADOW_SNEAK
+	move EFFECT_NORMAL_HIT,         70, GHOST,         100, 15,   0      ;SHADOW_CLAW
 .IndirectEnd::

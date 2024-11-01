@@ -260,6 +260,7 @@
 	const DISGUISE     ; fc
 	const PLAY_ROUGH   ; fd
 	const SHADOW_SNEAK ; fe
+	const SHADOW_CLAW  ; fd
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

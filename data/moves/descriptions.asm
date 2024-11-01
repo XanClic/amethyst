@@ -259,6 +259,7 @@ MoveDescriptions1:
 	dw DisguiseDescription
 	dw PlayRoughDescription
 	dw ShadowSneakDescription
+	dw ShadowClawDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -786,6 +787,7 @@ RazorLeafDescription:
 CrabhammerDescription:
 AeroblastDescription:
 CrossChopDescription:
+ShadowClawDescription:
 	db   "Hohe Volltreffer-"
 	next "quote.@"
 

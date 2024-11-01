@@ -16,7 +16,7 @@ MimikyuEvosAttacks:
 	dbw 23, FAINT_ATTACK
 	dbw 28, CHARM
 	dbw 32, SLASH
-	dbw 37, METAL_CLAW
+	dbw 37, SHADOW_CLAW
 	dbw 41, SWORDS_DANCE
 	dbw 46, PLAY_ROUGH
 	dbw 50, PAIN_SPLIT

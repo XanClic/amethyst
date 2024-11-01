@@ -282,6 +282,7 @@ BattleAnimations::
 	dw BattleAnim_Disguise
 	dw BattleAnim_PlayRough
 	dw BattleAnim_ShadowSneak
+	dw BattleAnim_ShadowClaw
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -2195,6 +2196,17 @@ BattleAnim_ShadowSneak:
 	anim_obp0 $00
 	anim_bgeffect BATTLE_BG_EFFECT_SHOW_MON, $0, BG_EFFECT_USER, $0
 	anim_wait 4
+	anim_ret
+
+BattleAnim_ShadowClaw:
+	anim_1gfx BATTLE_ANIM_GFX_CUT
+	anim_bgp $1b
+	anim_obp0 $c0
+	anim_wait 32
+	anim_sound 0, 1, SFX_CUT
+	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 152, 40, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 148, 36, $0
+	anim_wait 32
 	anim_ret
 
 BattleAnim_Whirlwind:
