@@ -32,10 +32,8 @@ GoldenrodCityFlypointAndFloriaCallback:
 	endcallback
 
 GoldenrodCityMoveTutorCallback:
-	checkevent EVENT_BEAT_ELITE_FOUR
-	iffalse .MoveTutorDone
-	checkitem COIN_CASE
-	iffalse .MoveTutorDisappear
+	;checkevent EVENT_BEAT_ELITE_FOUR
+	;iffalse .MoveTutorDone
 	readvar VAR_WEEKDAY
 	ifequal WEDNESDAY, .MoveTutorAppear
 	ifequal SATURDAY, .MoveTutorAppear
@@ -56,13 +54,12 @@ MoveTutorScript:
 	writetext GoldenrodCityMoveTutorAskTeachAMoveText
 	yesorno
 	iffalse .Refused
-	special DisplayCoinCaseBalance
-	writetext GoldenrodCityMoveTutorAsk4000CoinsOkayText
+	special PlaceMoneyTopRight
+	writetext GoldenrodCityMoveTutorAskPriceOkayText
 	yesorno
 	iffalse .Refused2
-	checkcoins 4000
+	checkmoney YOUR_MONEY, 4000
 	ifequal HAVE_LESS, .NotEnoughMoney
-	writetext GoldenrodCityMoveTutorWhichMoveShouldITeachText
 	loadmenu .MoveMenuHeader
 	verticalmenu
 	closewindow
@@ -121,10 +118,10 @@ MoveTutorScript:
 .TeachMove:
 	writetext GoldenrodCityMoveTutorIfYouUnderstandYouveMadeItText
 	promptbutton
-	takecoins 4000
+	takemoney YOUR_MONEY, 4000
 	waitsfx
 	playsound SFX_TRANSACTION
-	special DisplayCoinCaseBalance
+	special PlaceMoneyTopRight
 	writetext GoldenrodCityMoveTutorFarewellKidText
 	waitbutton
 	closetext
@@ -150,7 +147,7 @@ MoveTutorScript:
 	end
 
 .NotEnoughMoney:
-	writetext GoldenrodCityMoveTutorYouDontHaveEnoughCoinsText
+	writetext GoldenrodCityMoveTutorYouDontHaveEnoughMoneyText
 	waitbutton
 	closetext
 	end
@@ -512,9 +509,9 @@ GoldenrodCityMoveTutorAskTeachAMoveText:
 	line "machen?"
 	done
 
-GoldenrodCityMoveTutorAsk4000CoinsOkayText:
+GoldenrodCityMoveTutorAskPriceOkayText:
 	text "Das kostet dich"
-	line "4000 Münzen. Okay?"
+	line "¥4000. Okay?"
 	done
 
 GoldenrodCityMoveTutorAwwButTheyreAmazingText:
@@ -556,9 +553,9 @@ GoldenrodCityMoveTutorBButText:
 	text "A-aber…"
 	done
 
-GoldenrodCityMoveTutorYouDontHaveEnoughCoinsText:
+GoldenrodCityMoveTutorYouDontHaveEnoughMoneyText:
 	text "…Du hast nicht"
-	line "genügend Münzen"
+	line "genügend Geld"
 	cont "dabei…"
 	done
 
