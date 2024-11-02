@@ -160,6 +160,7 @@ DEF SLP_MASK EQU %111 ; 0-7 turns
 	const BRN
 	const FRZ
 	const PAR
+	const BUSTED
 
 DEF ALL_STATUS EQU (1 << PSN) | (1 << BRN) | (1 << FRZ) | (1 << PAR) | SLP_MASK
 

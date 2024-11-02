@@ -1189,3 +1189,16 @@ BattleText_NoTimeLeftToday: ; unreferenced
 	text "Du hast heute"
 	line "keine Zeit mehr!"
 	done
+
+BattleText_DisguisePreventedDamage:
+	text "<TARGET>s"
+	line "Verkleidung hat"
+	cont "den Schaden"
+	cont "absorbiert!"
+	prompt
+
+BattleText_DisguiseBroken:
+	text "<TARGET>s"
+	line "Verkleidung ist"
+	cont "dahin!"
+	prompt

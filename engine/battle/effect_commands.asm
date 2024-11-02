@@ -1,3 +1,5 @@
+SECTION "Effect Commands", ROMX
+
 DoPlayerTurn:
 	call SetPlayerTurn
 
@@ -1261,8 +1263,6 @@ INCLUDE "data/moves/critical_hit_moves.asm"
 
 INCLUDE "data/battle/critical_hit_chances.asm"
 
-INCLUDE "engine/battle/move_effects/triple_kick.asm"
-
 BattleCommand_Stab:
 ; STAB = Same Type Attack Bonus
 	ld a, BATTLE_VARS_MOVE_ANIM
@@ -2150,6 +2150,8 @@ BattleCommand_FailureText:
 	dw -1
 
 BattleCommand_ApplyDamage:
+	call CheckMimikyu
+
 	ld a, BATTLE_VARS_SUBSTATUS1_OPP
 	call GetBattleVar
 	bit SUBSTATUS_ENDURE, a
@@ -6621,8 +6623,6 @@ INCLUDE "engine/battle/move_effects/rain_dance.asm"
 
 INCLUDE "engine/battle/move_effects/sunny_day.asm"
 
-INCLUDE "engine/battle/move_effects/belly_drum.asm"
-
 INCLUDE "engine/battle/move_effects/psych_up.asm"
 
 INCLUDE "engine/battle/move_effects/mirror_coat.asm"
@@ -6654,8 +6654,6 @@ BattleCommand_SkipSunCharge:
 	ret nz
 	ld b, charge_command
 	jp SkipToBattleCommand
-
-INCLUDE "engine/battle/move_effects/future_sight.asm"
 
 INCLUDE "engine/battle/move_effects/thunder.asm"
 
@@ -6905,4 +6903,11 @@ CheckMoveInList:
 	pop bc
 	ret
 
+INCLUDE "engine/battle/move_effects/mimikyu.asm"
+
+SECTION "Effect Commands Overflow", ROMX
+
 INCLUDE "engine/battle/move_effects/hex_damage.asm"
+INCLUDE "engine/battle/move_effects/belly_drum.asm"
+INCLUDE "engine/battle/move_effects/triple_kick.asm"
+INCLUDE "engine/battle/move_effects/future_sight.asm"

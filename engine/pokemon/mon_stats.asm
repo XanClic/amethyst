@@ -455,6 +455,9 @@ PlaceNonFaintStatus:
 	ld de, ParString
 	bit PAR, a
 	jr nz, .place
+	ld de, BustedString
+	bit BUSTED, a
+	jr nz, .place
 	ld de, SlpString
 	and SLP_MASK
 	jr z, .no_status
@@ -474,18 +477,21 @@ PsnString: db "PSN@"
 BrnString: db "BRN@"
 FrzString: db "FRZ@"
 ParString: db "PAR@"
+BustedString: db "BST@"
 elif DEF(_CRYSTAL_DE)
 SlpString: db "SLF@"
 PsnString: db "GIF@"
 BrnString: db "BRT@"
 FrzString: db "GFR@"
 ParString: db "PAR@"
+BustedString: db "AGF@"
 elif DEF(_CRYSTAL_ES)
 SlpString: db "DOR@"
 PsnString: db "ENV@"
 BrnString: db "QUE@"
 FrzString: db "CON@"
 ParString: db "PAR@"
+BustedString: db "DCB@"
 endc
 
 ListMoves:

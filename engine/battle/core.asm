@@ -153,6 +153,7 @@ WildFled_EnemyFled_LinkBattleCanceled:
 
 .skip_sfx
 	call SetPlayerTurn
+	call ClearBusted
 	ld a, 1
 	ld [wBattleEnded], a
 	ret
@@ -317,6 +318,7 @@ CheckFaint_PlayerThenEnemy:
 	ret
 
 .BattleIsOver:
+	call ClearBusted
 	scf
 	ret
 
@@ -1948,25 +1950,6 @@ GetMaxHP:
 	ld c, a
 	ret
 
-GetHalfHP: ; unreferenced
-	ld hl, wBattleMonHP
-	ldh a, [hBattleTurn]
-	and a
-	jr z, .ok
-	ld hl, wEnemyMonHP
-.ok
-	ld a, [hli]
-	ld b, a
-	ld a, [hli]
-	ld c, a
-	srl b
-	rr c
-	ld a, [hli]
-	ld [wHPBuffer1 + 1], a
-	ld a, [hl]
-	ld [wHPBuffer1], a
-	ret
-
 CheckUserHasEnoughHP:
 	ld hl, wBattleMonHP + 1
 	ldh a, [hBattleTurn]
@@ -2072,6 +2055,7 @@ HandleEnemyMonFaint:
 	dec a
 	jr nz, .trainer
 
+	call ClearBusted
 	ld a, 1
 	ld [wBattleEnded], a
 	ret
@@ -2088,6 +2072,7 @@ HandleEnemyMonFaint:
 	call AskUseNextPokemon
 	jr nc, .dont_flee
 
+	call ClearBusted
 	ld a, 1
 	ld [wBattleEnded], a
 	ret
@@ -2391,6 +2376,7 @@ EnemyPartyMonEntrance:
 WinTrainerBattle:
 ; Player won the battle
 	call StopDangerSound
+	call ClearBusted
 	ld a, $1
 	ld [wBattleLowHealthAlarm], a
 	ld [wBattleEnded], a
@@ -2665,6 +2651,7 @@ HandlePlayerMonFaint:
 	ld a, [wBattleMode]
 	dec a
 	jr nz, .trainer
+	call ClearBusted
 	ld a, $1
 	ld [wBattleEnded], a
 	ret
@@ -2676,6 +2663,7 @@ HandlePlayerMonFaint:
 .notfainted
 	call AskUseNextPokemon
 	jr nc, .switch
+	call ClearBusted
 	ld a, $1
 	ld [wBattleEnded], a
 	ret
@@ -2953,6 +2941,7 @@ ForcePickSwitchMonInBattle:
 	ret
 
 LostBattle:
+	call ClearBusted
 	ld a, 1
 	ld [wBattleEnded], a
 
@@ -8154,6 +8143,8 @@ CallDoBattle: ; unreferenced
 	ret
 
 BattleIntro:
+	call ClearBusted
+
 	farcall StubbedTrainerRankings_Battles ; mobile
 	call LoadTrainerOrWildMonPic
 	xor a
@@ -9295,4 +9286,19 @@ BattleStartMessage:
 	ld c, $2 ; start
 	farcall Mobile_PrintOpponentBattleMessage
 
+	ret
+
+ClearBusted:
+	ld a, [wPartyCount]
+	ld e, a
+	ld hl, wPartyMon1Status
+	ld bc, PARTYMON_STRUCT_LENGTH - 1
+	ld d, ~(1 << BUSTED)
+.loop
+	ld a, [hl]
+	and a, d
+	ld [hl], a
+	add hl, bc
+	dec e
+	jr nz, .loop
 	ret
