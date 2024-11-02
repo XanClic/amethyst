@@ -23,14 +23,10 @@ CheckMimikyu:
 
 	ld a, BATTLE_VARS_STATUS_OPP
 	call GetBattleVarAddr
-	ld b, (1 << BUSTED)
-	ld c, a
-	and b
+	bit BUSTED, a
 	ret nz
 
-	ld a, c
-	or b
-	ld [hl], a ; busted
+	set BUSTED, [hl]
 
 	ld hl, BattleText_DisguisePreventedDamage
 	call StdBattleTextbox

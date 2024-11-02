@@ -3657,7 +3657,7 @@ BattleCommand_SleepTarget:
 	call GetBattleVarAddr
 	ld d, h
 	ld e, l
-	ld a, [de]
+	; ld a, [de]
 	and SLP_MASK
 	ld hl, AlreadyAsleepText
 	jr nz, .fail
@@ -3742,7 +3742,7 @@ BattleCommand_PoisonTarget:
 	ret nz
 	ld a, BATTLE_VARS_STATUS_OPP
 	call GetBattleVarAddr
-	and a
+	and ALL_STATUS
 	ret nz
 	ld a, [wTypeModifier]
 	and $7f
@@ -3800,7 +3800,7 @@ BattleCommand_Poison:
 	ld hl, DidntAffect1Text
 	ld a, BATTLE_VARS_STATUS_OPP
 	call GetBattleVar
-	and a
+	and ALL_STATUS
 	jr nz, .failed
 
 	ldh a, [hBattleTurn]
@@ -4006,7 +4006,7 @@ BattleCommand_BurnTarget:
 	ret nz
 	ld a, BATTLE_VARS_STATUS_OPP
 	call GetBattleVarAddr
-	and a
+	and ALL_STATUS
 	jp nz, Defrost
 	ld a, [wTypeModifier]
 	and $7f
@@ -4070,7 +4070,7 @@ BattleCommand_FreezeTarget:
 	ret nz
 	ld a, BATTLE_VARS_STATUS_OPP
 	call GetBattleVarAddr
-	and a
+	and ALL_STATUS
 	ret nz
 	ld a, [wTypeModifier]
 	and $7f
@@ -4121,7 +4121,7 @@ BattleCommand_ParalyzeTarget:
 	ret nz
 	ld a, BATTLE_VARS_STATUS_OPP
 	call GetBattleVarAddr
-	and a
+	and ALL_STATUS
 	ret nz
 	ld a, [wTypeModifier]
 	and $7f
@@ -4729,35 +4729,35 @@ BattleCommand_ShellSmash:
 
 ; Defense
 	call BattleCommand_DefenseDown
-        call .stat_down_msg
+	call .stat_down_msg
 
 ; Special Defense
 	call BattleCommand_SpecialDefenseDown
-        call .stat_down_msg
+	call .stat_down_msg
 
 	call BattleCommand_SwitchTurn
 
 ; Attack
 	call BattleCommand_AttackUp2
-        call .stat_up_msg
+	call .stat_up_msg
 
 ; Special Attack
 	call BattleCommand_SpecialAttackUp2
-        call .stat_up_msg
+	call .stat_up_msg
 
 ; Speed
 	call BattleCommand_SpeedUp2
-        ; fall through
+	; fall through
 
 .stat_up_msg:
 	call BattleCommand_StatUpMessage
 	call BattleCommand_StatUpFailText
-        jp   ResetMiss
+	jp   ResetMiss
 
 .stat_down_msg:
 	call BattleCommand_StatDownMessage
 	call BattleCommand_StatDownFailText
-        jp   ResetMiss
+	jp   ResetMiss
 
 ResetMiss:
 	xor a
@@ -5992,7 +5992,7 @@ BattleCommand_Paralyze:
 .dont_sample_failure
 	ld a, BATTLE_VARS_STATUS_OPP
 	call GetBattleVarAddr
-	and a
+	and ALL_STATUS
 	jr nz, .failed
 	ld a, [wAttackMissed]
 	and a
@@ -6185,10 +6185,14 @@ BattleCommand_Heal:
 	res SUBSTATUS_TOXIC, [hl]
 	ld a, BATTLE_VARS_STATUS
 	call GetBattleVarAddr
+	and ALL_STATUS
+	push af
 	ld a, [hl]
-	and a
-	ld [hl], REST_SLEEP_TURNS + 1
+	and ~ALL_STATUS
+	or REST_SLEEP_TURNS + 1
+	ld [hl], a
 	ld hl, WentToSleepText
+	pop af
 	jr z, .no_status_to_heal
 	ld hl, RestedText
 .no_status_to_heal

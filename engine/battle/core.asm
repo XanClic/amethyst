@@ -9293,11 +9293,8 @@ ClearBusted:
 	ld e, a
 	ld hl, wPartyMon1Status
 	ld bc, PARTYMON_STRUCT_LENGTH - 1
-	ld d, ~(1 << BUSTED)
 .loop
-	ld a, [hl]
-	and a, d
-	ld [hl], a
+	res BUSTED, [hl]
 	add hl, bc
 	dec e
 	jr nz, .loop
