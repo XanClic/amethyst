@@ -7,7 +7,9 @@
 	const BURNEDTOWERB1F_ENTEI2
 	const BURNEDTOWERB1F_SUICUNE2
 	const BURNEDTOWERB1F_POKE_BALL
+	const BURNEDTOWERB1F_SMASHABLE_ROCK
 	const BURNEDTOWERB1F_EUSINE
+	const BURNEDTOWERB1F_LITWICK
 
 BurnedTowerB1F_MapScripts:
 	def_scene_scripts
@@ -16,6 +18,7 @@ BurnedTowerB1F_MapScripts:
 
 	def_callbacks
 	callback MAPCALLBACK_TILES, BurnedTowerB1FLadderCallback
+	callback MAPCALLBACK_OBJECTS, BurnedTowerB1FLitwickCallback
 
 BurnedTowerB1FNoop1Scene:
 	end
@@ -28,6 +31,13 @@ BurnedTowerB1FLadderCallback:
 	iftrue .HideLadder
 	changeblock 6, 14, $02 ; floor
 .HideLadder:
+	endcallback
+
+BurnedTowerB1FLitwickCallback:
+	checkevent EVENT_RELEASED_THE_BEASTS
+	iftrue .NoHide
+	disappear BURNEDTOWERB1F_LITWICK
+.NoHide:
 	endcallback
 
 ReleaseTheBeasts:
@@ -90,6 +100,7 @@ ReleaseTheBeasts:
 	setevent EVENT_BURNED_TOWER_MORTY
 	setevent EVENT_BURNED_TOWER_1F_EUSINE
 	appear BURNEDTOWERB1F_EUSINE
+	appear BURNEDTOWERB1F_LITWICK
 	reanchormap
 	changeblock 6, 14, $1b ; ladder
 	refreshmap
@@ -190,6 +201,24 @@ BurnedTowerB1FEusineMovement1:
 	step DOWN
 	step_end
 
+BurnedTowerB1FShinyLitwick:
+	opentext
+	writetext BurnedTowerB1FLitwickCryText
+	pause 15
+	cry LITWICK
+	closetext
+	loadwildmon LITWICK, 23
+	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCESHINY
+	startbattle
+	ifequal LOSE, .NotBeaten
+	disappear BURNEDTOWERB1F_LITWICK
+.NotBeaten:
+	reloadmapafterbattle
+	end
+
+BurnedTowerB1FRock:
+	jumpstd SmashRockScript
+
 BurnedTowerB1FEusineText:
 	text "EUSIN: Ich habe"
 	line "hier auch ein Loch"
@@ -239,6 +268,10 @@ BurnedTowerB1FEusineText:
 	para "Leb wohl!"
 	done
 
+BurnedTowerB1FLitwickCryText:
+	text "LICHTEL: Fuiuu!"
+	done
+
 BurnedTowerB1F_MapEvents:
 	db 0, 0 ; filler
 
@@ -263,5 +296,7 @@ BurnedTowerB1F_MapEvents:
 	object_event  7,  3, SPRITE_RAIKOU, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_EMOTE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_BURNED_TOWER_B1F_BEASTS_2
 	object_event 12,  3, SPRITE_ENTEI, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_EMOTE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_BURNED_TOWER_B1F_BEASTS_2
 	object_event 10,  4, SPRITE_SUICUNE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_EMOTE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_BURNED_TOWER_B1F_BEASTS_2
-	object_event 16,  4, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, BurnedTowerB1FTMEndure, EVENT_BURNED_TOWER_B1F_TM_ENDURE
+	object_event 14,  2, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, BurnedTowerB1FTMEndure, EVENT_BURNED_TOWER_B1F_TM_ENDURE
+	object_event 14,  3, SPRITE_ROCK, SPRITEMOVEDATA_SMASHABLE_ROCK, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BurnedTowerB1FRock, -1
 	object_event 10, 12, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, BurnedTowerB1FEusine, EVENT_EUSINE_IN_BURNED_TOWER
+	object_event 16,  4, SPRITE_LITWICK, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_OW_GREEN, OBJECTTYPE_SCRIPT, 0, BurnedTowerB1FShinyLitwick, EVENT_SHINY_LITWICK

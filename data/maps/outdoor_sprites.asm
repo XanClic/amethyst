@@ -408,6 +408,7 @@ VioletGroupSprites:
 	db SPRITE_FRUIT_TREE
 
 EcruteakGroupSprites:
+	db SPRITE_LITWICK
 	db SPRITE_SUICUNE
 	db SPRITE_SILVER_TROPHY
 	db SPRITE_FAMICOM
