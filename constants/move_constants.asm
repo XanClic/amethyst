@@ -257,7 +257,7 @@
 	const ROCK_SMASH   ; f9
 	const WHIRLPOOL    ; fa
 	const BEAT_UP      ; fb
-	const DISGUISE     ; fc
+	const_skip         ; fc, used to be DISGUISE
 	const PLAY_ROUGH   ; fd
 	const SHADOW_SNEAK ; fe
 	const SHADOW_CLAW  ; fd

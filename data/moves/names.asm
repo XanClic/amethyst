@@ -251,7 +251,7 @@ MoveNames::
 	li "ZERTRÜMMERER"
 	li "WHIRLPOOL"
 	li "PRÜGLER"
-	li "KOSTÜMSPUK"
+	li "---" ; used to be KOSTÜMSPUK
 	li "KNUDDLER"
 	li "SCHATTENSTOß"
 	li "DUNKELKLAUE"

@@ -12,7 +12,6 @@ MimikyuEvosAttacks:
 	dbw 1, SPLASH
 	dbw 1, SCRATCH
 	dbw 1, LICK
-	dbw 1, DISGUISE
 	dbw 5, DOUBLE_TEAM
 	dbw 14, SHADOW_SNEAK
 	dbw 19, MIMIC

@@ -2096,6 +2096,7 @@ BattleAnim_AcidArmor:
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
+BattleAnim_Disguise:
 BattleAnim_Splash:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_sound 0, 0, SFX_VICEGRIP
@@ -2692,7 +2693,6 @@ BattleAnim_Flash:
 	anim_ret
 
 BattleAnim_Substitute:
-BattleAnim_Disguise:
 	anim_sound 0, 0, SFX_SURF
 	anim_if_param_equal $3, .dropsub2
 	anim_if_param_equal $2, .raisesub

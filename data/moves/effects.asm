@@ -2088,14 +2088,6 @@ DefenseCurl:
 	statupfailtext
 	endmove
 
-Disguise:
-	checkobedience
-	usedmovetext
-	doturn
-	substitute
-	flinchtarget
-	endmove
-
 AccuracyAttackUp:
 	checkobedience
 	usedmovetext

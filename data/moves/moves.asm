@@ -293,7 +293,7 @@ Moves1:
 	move EFFECT_DEFENSE_DOWN_HIT,   20, PHYSICAL + MT_FIGHTING, 100, 15,  50      ;ROCK_SMASH
 	move EFFECT_TRAP_TARGET,        15,  SPECIAL + MT_WATER,     70, 15,   0      ;WHIRLPOOL
 	move EFFECT_BEAT_UP,            10, PHYSICAL + MT_DARK,     100, 10,   0      ;BEAT_UP
-	move EFFECT_DISGUISE,            0,   STATUS + MT_GHOST,    100,  5, 100      ;DISGUISE
+	move EFFECT_SPLASH,              0,   STATUS + MT_GHOST,    100,  5,   0      ;[used to be DISGUISE]
 	move EFFECT_ATTACK_DOWN_HIT,    90, PHYSICAL + MT_FAIRY,     90, 10,  10      ;PLAY_ROUGH
 	move EFFECT_PRIORITY_HIT,       40, PHYSICAL + MT_GHOST,    100, 30,   0      ;SHADOW_SNEAK
 	move EFFECT_NORMAL_HIT,         70, PHYSICAL + MT_GHOST,    100, 15,   0      ;SHADOW_CLAW
