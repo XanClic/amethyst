@@ -35,10 +35,9 @@ DoBurn:
 	checkobedience
 	usedmovetext
 	doturn
-	moveanim
 	checkhit
 	checksafeguard
-	burntarget
+	pureburn
 	endmove
 
 PoisonHit:
