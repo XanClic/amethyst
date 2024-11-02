@@ -411,7 +411,7 @@ DEF gamecornercoinvendor  EQUS "GameCornerCoinVendorScript"
 DEF happinesschecknpc     EQUS "HappinessCheckScript"
 
 ; constants/charmap.asm
-charmap "%", "<BSP>"
+; charmap "%", "<BSP>"
 charmap "¯", "<WBR>"
 
 ; constants/sprite_constants.asm
