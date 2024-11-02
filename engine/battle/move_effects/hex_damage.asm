@@ -1,4 +1,4 @@
-BattleCommand_HexDamage:
+Do_BattleCommand_HexDamage:
 	ld a, BATTLE_VARS_STATUS_OPP
 	call GetBattleVar
 	and ALL_STATUS

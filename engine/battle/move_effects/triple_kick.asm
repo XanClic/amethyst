@@ -1,4 +1,4 @@
-BattleCommand_TripleKick:
+Do_BattleCommand_TripleKick:
 	ld a, [wBattleAnimParam]
 	ld b, a
 	inc b

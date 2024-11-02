@@ -6909,6 +6909,22 @@ CheckMoveInList:
 
 INCLUDE "engine/battle/move_effects/mimikyu.asm"
 
+BattleCommand_HexDamage:
+	callfar Do_BattleCommand_HexDamage
+	ret
+
+BattleCommand_BellyDrum:
+	callfar Do_BattleCommand_BellyDrum
+	ret
+
+BattleCommand_TripleKick:
+	callfar Do_BattleCommand_TripleKick
+	ret
+
+BattleCommand_CheckFutureSight:
+	callfar Do_BattleCommand_CheckFutureSight
+	ret
+
 SECTION "Effect Commands Overflow", ROMX
 
 INCLUDE "engine/battle/move_effects/hex_damage.asm"

@@ -1,4 +1,4 @@
-BattleCommand_CheckFutureSight:
+Do_BattleCommand_CheckFutureSight:
 	ld hl, wPlayerFutureSightCount
 	ld de, wPlayerFutureSightDamage
 	ldh a, [hBattleTurn]

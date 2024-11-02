@@ -1,4 +1,4 @@
-BattleCommand_BellyDrum:
+Do_BattleCommand_BellyDrum:
 ; BUG: Belly Drum sharply boosts Attack even with under 50% HP (see docs/bugs_and_glitches.md)
 	callfar BattleCommand_AttackUp2
 	ld a, [wAttackMissed]
