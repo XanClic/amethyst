@@ -9292,8 +9292,8 @@ ClearBusted:
 	ld a, [wPartyCount]
 	ld e, a
 	ld hl, wPartyMon1Status
-	ld bc, PARTYMON_STRUCT_LENGTH - 1
-.loop
+	ld bc, PARTYMON_STRUCT_LENGTH
+.loop:
 	res BUSTED, [hl]
 	add hl, bc
 	dec e
