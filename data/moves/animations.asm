@@ -291,6 +291,7 @@ BattleAnimations::
 	dw BattleAnim_FlameBurst
 	dw BattleAnim_Inferno
 	dw BattleAnim_ShellSmash
+	dw BattleAnim_StoredPower
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -4496,6 +4497,7 @@ BattleAnim_Moonblast:
 	anim_call BattleAnimSub_Glimmer2
 	anim_ret
 
+BattleAnim_StoredPower:
 BattleAnim_HiddenPower:
 	anim_1gfx BATTLE_ANIM_GFX_CHARGE
 	anim_call BattleAnim_TargetObj_1Row

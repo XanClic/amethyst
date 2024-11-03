@@ -6929,6 +6929,10 @@ BattleCommand_PureBurn:
 	callfar Do_BattleCommand_PureBurn
 	ret
 
+BattleCommand_StoredPowerDamage:
+	callfar Do_BattleCommand_StoredPowerDamage
+	ret
+
 SECTION "Effect Commands Overflow", ROMX
 
 INCLUDE "engine/battle/move_effects/hex_damage.asm"
@@ -6936,3 +6940,4 @@ INCLUDE "engine/battle/move_effects/belly_drum.asm"
 INCLUDE "engine/battle/move_effects/triple_kick.asm"
 INCLUDE "engine/battle/move_effects/future_sight.asm"
 INCLUDE "engine/battle/move_effects/burn.asm"
+INCLUDE "engine/battle/move_effects/stored_power.asm"

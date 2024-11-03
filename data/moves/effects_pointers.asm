@@ -162,4 +162,5 @@ MoveEffectsPointers:
 	dw DoBurn
 	dw Hex
 	dw ShellSmash
+	dw StoredPower
 	assert_table_length NUM_MOVE_EFFECTS

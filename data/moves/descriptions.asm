@@ -268,6 +268,7 @@ MoveDescriptions1:
 	dw FlameBurstDescription
 	dw InfernoDescription
 	dw ShellSmashDescription
+	dw StoredPowerDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1088,3 +1089,7 @@ InfernoDescription:
 ShellSmashDescription:
 	db   "Opfert VERT für"
 	next "hohe Offensive.@"
+
+StoredPowerDescription:
+	db   "Stärke steigt mit"
+	next "Statuswerten.@"

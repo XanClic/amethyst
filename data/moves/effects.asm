@@ -2132,3 +2132,24 @@ Hex:
 	buildopponentrage
 	kingsrock
 	endmove
+
+StoredPower:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	storedpowerdamage
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	checkfaint
+	buildopponentrage
+	kingsrock
+	endmove

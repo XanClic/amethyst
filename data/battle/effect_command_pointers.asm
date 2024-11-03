@@ -183,4 +183,5 @@ BattleCommandPointers:
 	dw BattleCommand_HexDamage
 	dw BattleCommand_ShellSmash
 	dw BattleCommand_PureBurn
+	dw BattleCommand_StoredPowerDamage
 	assert_table_length NUM_EFFECT_COMMANDS

@@ -263,4 +263,5 @@ MoveNames::
 	li "FUNKENFLUG"
 	li "INFERNO"
 	li "HAUSBRUCH"
+	li "KRAFTVORRAT"
 	assert_list_length NUM_ATTACKS
