@@ -4,3 +4,4 @@
 	dw ChandelureBitmasks
 	dw DrifloonBitmasks
 	dw DrifblimBitmasks
+	dw SinisteaBitmasks

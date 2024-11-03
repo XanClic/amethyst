@@ -262,3 +262,46 @@ Drifblim:
       51: Explosion
       59: Aeroblast
     tmhm: [Toxic, HiddenPower, SunnyDay, Protect, RainDance, Frustration, Thunder, Return, Psychic, ShadowBall, DoubleTeam, Rest, Attract, Thief, Endure, Flash, SleepTalk, Cut, Fly, Swagger]
+
+Sinistea:
+  name: Fatalitee
+  type: Ghost
+  icon: Ghost
+  stats:
+    hp: 40
+    atk: 45
+    def: 45
+    sat: 74
+    sdf: 54
+    spd: 50
+  catchrate: 120
+  baseexp: 62
+  female_ratio: Unknown
+  hatch_cycles: 20
+  leveling: MediumFast
+  egg_groups: [Amorphous, Mineral]
+  dex:
+    species: Schwarztee
+    height: 0.1
+    weight: 0.2
+    text: |-
+      Es heißt, eine
+      einsame Seele
+      habe Besitz von
+      einer abgestell-
+      ten kalten Tasse
+      Tee ergriffen.
+    footprint: Misdreavus
+  moves:
+    level:
+      1: [Astonish, Withdraw]
+      6: SweetScent
+      12: MegaDrain
+      18: Protect
+      24: RazorLeaf
+      29: Mist
+      34: GigaDrain
+      39: StoredPower
+      44: ShadowBall
+      49: ShellSmash
+    tmhm: [Rest, Snore, Protect, GigaDrain, Psychic, Endure, SleepTalk, ShadowBall, Return, Frustration]

@@ -4,3 +4,4 @@
 	db "SKELABRA@@"
 	db "DRIFTLON@@"
 	db "DRIFZEPELI"
+	db "FATALITEE@"

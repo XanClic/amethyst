@@ -1509,7 +1509,7 @@ JohtoGrassWildMons:
 	dbw 16, RATICATE
 	dbw 16, MAGNEMITE
 	dbw 16, NOCTOWL
-	dbw 16, MEOWTH
+	dbw 16, SINISTEA
 	dbw 16, MEOWTH
 	dbw 16, MEOWTH
 	end_grass_wildmons

@@ -1824,6 +1824,9 @@ BeautyGroup:
 	db 17
 	dw SKIPLOOM
 	dw SYNTHESIS, TAIL_WHIP, TACKLE, STUN_SPORE
+	db 18
+	dw SINISTEA
+	dw MEGA_DRAIN, ASTONISH, PROTECT, HEX
 	db -1 ; end
 
 	next_list_item ; BEAUTY (17)

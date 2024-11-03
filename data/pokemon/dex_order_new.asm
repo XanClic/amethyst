@@ -222,6 +222,7 @@ NewPokedexOrder:
 	dw CHANDELURE
 	dw DRIFLOON
 	dw DRIFBLIM
+	dw SINISTEA
 	dw PORYGON
 	dw PORYGON2
 	dw CHANSEY

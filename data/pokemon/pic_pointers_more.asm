@@ -10,3 +10,5 @@
 	dba DrifloonBackpic
 	dba DrifblimFrontpic
 	dba DrifblimBackpic
+	dba SinisteaFrontpic
+	dba SinisteaBackpic

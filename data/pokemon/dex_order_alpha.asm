@@ -50,6 +50,7 @@ AlphabeticalPokedexOrder:
 	dw GOLDUCK
 	dw EEVEE
 	dw SMEARGLE
+	dw SINISTEA
 	dw WOOPER
 	dw CYNDAQUIL
 	dw FLAREON

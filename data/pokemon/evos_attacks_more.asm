@@ -7,6 +7,7 @@ EvosAttacksPointers3::
 	dw ChandelureEvosAttacks
 	dw DrifloonEvosAttacks
 	dw DrifblimEvosAttacks
+	dw SinisteaEvosAttacks
 .IndirectEnd::
 
 MimikyuEvosAttacks:
@@ -109,4 +110,19 @@ DrifblimEvosAttacks:
 	dbw 44, SHADOW_BALL
 	dbw 51, EXPLOSION
 	dbw 59, AEROBLAST
+	db 0 ; no more level-up moves
+
+SinisteaEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, ASTONISH
+	dbw 1, WITHDRAW
+	dbw 6, SWEET_SCENT
+	dbw 12, MEGA_DRAIN
+	dbw 18, PROTECT
+	dbw 24, RAZOR_LEAF
+	dbw 29, MIST
+	dbw 34, GIGA_DRAIN
+	dbw 39, STORED_POWER
+	dbw 44, SHADOW_BALL
+	dbw 49, SHELL_SMASH
 	db 0 ; no more level-up moves

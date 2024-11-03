@@ -4,3 +4,4 @@
 	dba ChandelurePokedexEntry
 	dba DrifloonPokedexEntry
 	dba DrifblimPokedexEntry
+	dba SinisteaPokedexEntry

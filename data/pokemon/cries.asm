@@ -263,4 +263,5 @@ PokemonCries::
 	mon_cry CRY_CHANDELURE, 3050,  300 ; CHANDELURE
 	mon_cry CRY_VOLTORB,    3400,  128 ; DRIFLOON
 	mon_cry CRY_KRABBY,      200,  352 ; DRIFBLIM
+	mon_cry CRY_METAPOD,     152,   50 ; SINISTEA
 	assert_table_length NUM_POKEMON

@@ -4,3 +4,4 @@
 	dw ChandelureAnimationIdle
 	dw DrifloonAnimationIdle
 	dw DrifblimAnimationIdle
+	dw SinisteaAnimationIdle

@@ -4,3 +4,4 @@
 	dw LITWICK
 	dw DRIFLOON   ;100
 	dw DRIFLOON
+	dw SINISTEA

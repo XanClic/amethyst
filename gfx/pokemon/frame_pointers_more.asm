@@ -4,3 +4,4 @@
 	dba ChandelureFrames
 	dba DrifloonFrames
 	dba DrifblimFrames
+	dba SinisteaFrames
