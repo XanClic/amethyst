@@ -8,4 +8,4 @@
 
 	page "schlingt die"
 	next "entweichende"
-	next "Seele sofort."
+	next "Seele sofort.@"

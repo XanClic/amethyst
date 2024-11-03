@@ -251,10 +251,5 @@ FramesPointers:
 	dba LugiaFrames
 	dba HoOhFrames
 	dba CelebiFrames
-	dba MimikyuFrames
-	dba LitwickFrames
-	dba LampentFrames
-	dba ChandelureFrames
-	dba DrifloonFrames
-	dba DrifblimFrames
+	INCLUDE "gfx/pokemon/frame_pointers_more.asm"
 	assert_table_length NUM_POKEMON

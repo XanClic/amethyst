@@ -251,10 +251,5 @@ BitmasksPointers:
 	dw LugiaBitmasks
 	dw HoOhBitmasks
 	dw CelebiBitmasks
-	dw MimikyuBitmasks
-	dw LitwickBitmasks
-	dw LampentBitmasks
-	dw ChandelureBitmasks
-	dw DrifloonBitmasks
-	dw DrifblimBitmasks
+	INCLUDE "gfx/pokemon/bitmask_pointers_more.asm"
 	assert_table_length NUM_POKEMON

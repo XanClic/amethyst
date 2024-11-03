@@ -1,7 +1,7 @@
 	db MIMIKYU ; 252
 
 	db  55,  90,  80,  96,  50, 105
-	;   hp  atk  def  spd  sat  sdf
+	;   hp, atk, def, spd, sat, sdf
 
 	db FAIRY, GHOST
 	db 45 ; catch rate

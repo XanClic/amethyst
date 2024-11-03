@@ -711,15 +711,4 @@ ArticunoFrontpic:    INCBIN "gfx/pokemon/articuno/front.animated.2bpp.lz"
 
 SECTION "Pics 19", ROMX
 
-MimikyuFrontpic:     INCBIN "gfx/pokemon/mimikyu/front.animated.2bpp.lz"
-MimikyuBackpic:      INCBIN "gfx/pokemon/mimikyu/back.2bpp.lz"
-LitwickFrontpic:     INCBIN "gfx/pokemon/litwick/front.animated.2bpp.lz"
-LitwickBackpic:      INCBIN "gfx/pokemon/litwick/back.2bpp.lz"
-LampentFrontpic:     INCBIN "gfx/pokemon/lampent/front.animated.2bpp.lz"
-LampentBackpic:      INCBIN "gfx/pokemon/lampent/back.2bpp.lz"
-ChandelureFrontpic:  INCBIN "gfx/pokemon/chandelure/front.animated.2bpp.lz"
-ChandelureBackpic:   INCBIN "gfx/pokemon/chandelure/back.2bpp.lz"
-DrifloonFrontpic:    INCBIN "gfx/pokemon/drifloon/front.animated.2bpp.lz"
-DrifloonBackpic:     INCBIN "gfx/pokemon/drifloon/back.2bpp.lz"
-DrifblimFrontpic:    INCBIN "gfx/pokemon/drifblim/front.animated.2bpp.lz"
-DrifblimBackpic:     INCBIN "gfx/pokemon/drifblim/back.2bpp.lz"
+INCLUDE "gfx/pics_more.asm"

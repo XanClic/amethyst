@@ -1,0 +1,6 @@
+	dw MIMIKYU
+	dw LITWICK
+	dw LITWICK
+	dw LITWICK
+	dw DRIFLOON   ;100
+	dw DRIFLOON

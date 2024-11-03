@@ -1,7 +1,7 @@
 	db LAMPENT ; 254
 
 	db  60,  40,  60,  55,  95,  60
-	;   hp  atk  def  spd  sat  sdf
+	;   hp, atk, def, spd, sat, sdf
 
 	db GHOST, FIRE
 	db 90 ; catch rate

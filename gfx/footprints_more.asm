@@ -1,0 +1,6 @@
+INCBIN "gfx/footprints/misdreavus.1bpp"
+INCBIN "gfx/footprints/misdreavus.1bpp"
+INCBIN "gfx/footprints/misdreavus.1bpp"
+INCBIN "gfx/footprints/misdreavus.1bpp"
+INCBIN "gfx/footprints/misdreavus.1bpp"
+INCBIN "gfx/footprints/misdreavus.1bpp"

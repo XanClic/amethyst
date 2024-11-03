@@ -536,17 +536,6 @@ INCLUDE "gfx/pokemon/ho_oh/shiny.pal"
 INCBIN "gfx/pokemon/celebi/normal.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/celebi/shiny.pal"
 
-INCBIN "gfx/pokemon/mimikyu/normal.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/mimikyu/shiny.pal"
-INCBIN "gfx/pokemon/litwick/normal.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/litwick/shiny.pal"
-INCBIN "gfx/pokemon/lampent/normal.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/lampent/shiny.pal"
-INCBIN "gfx/pokemon/chandelure/normal.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/chandelure/shiny.pal"
-INCBIN "gfx/pokemon/drifloon/normal.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/drifloon/shiny.pal"
-INCBIN "gfx/pokemon/drifblim/normal.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/drifblim/shiny.pal"
+INCLUDE "data/pokemon/palettes_more.asm"
 
 	assert_table_length NUM_POKEMON + 1

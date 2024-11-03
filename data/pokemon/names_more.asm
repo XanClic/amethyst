@@ -1,0 +1,6 @@
+	db "MIMIGMA@@@"
+	db "LICHTEL@@@"
+	db "LATERNECTO"
+	db "SKELABRA@@"
+	db "DRIFTLON@@"
+	db "DRIFZEPELI"

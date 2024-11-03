@@ -251,10 +251,5 @@ AnimationPointers:
 	dw LugiaAnimation
 	dw HoOhAnimation
 	dw CelebiAnimation
-	dw MimikyuAnimation
-	dw LitwickAnimation
-	dw LampentAnimation
-	dw ChandelureAnimation
-	dw DrifloonAnimation
-	dw DrifblimAnimation
+	INCLUDE "gfx/pokemon/anim_pointers_more.asm"
 	assert_table_length NUM_POKEMON

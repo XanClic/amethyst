@@ -255,10 +255,5 @@ PokemonNames::
 	db "LUGIA@@@@@"
 	db "HO-OH@@@@@"
 	db "CELEBI@@@@"
-	db "MIMIGMA@@@"
-	db "LICHTEL@@@"
-	db "LATERNECTO"
-	db "SKELABRA@@"
-	db "DRIFTLON@@"
-	db "DRIFZEPELI"
+	INCLUDE "data/pokemon/names_more.asm"
 	assert_table_length NUM_POKEMON

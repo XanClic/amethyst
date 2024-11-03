@@ -251,10 +251,5 @@ AnimationIdlePointers:
 	dw LugiaAnimationIdle
 	dw HoOhAnimationIdle
 	dw CelebiAnimationIdle
-	dw MimikyuAnimationIdle
-	dw LitwickAnimationIdle
-	dw LampentAnimationIdle
-	dw ChandelureAnimationIdle
-	dw DrifloonAnimationIdle
-	dw DrifblimAnimationIdle
+	INCLUDE "gfx/pokemon/idle_pointers_more.asm"
 	assert_table_length NUM_POKEMON

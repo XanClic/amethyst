@@ -252,10 +252,5 @@ PokedexDataPointerTable:
 	dba LugiaPokedexEntry
 	dba HoOhPokedexEntry
 	dba CelebiPokedexEntry
-	dba MimikyuPokedexEntry
-	dba LitwickPokedexEntry
-	dba LampentPokedexEntry
-	dba ChandelurePokedexEntry
-	dba DrifloonPokedexEntry
-	dba DrifblimPokedexEntry
+	INCLUDE "data/pokemon/dex_entry_pointers_more.asm"
 	assert_table_length NUM_POKEMON

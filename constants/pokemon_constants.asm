@@ -271,13 +271,7 @@ DEF JOHTO_POKEMON EQU const_value
 	const LUGIA      ; f9
 	const HO_OH      ; fa
 	const CELEBI     ; fb
-DEF MORE_POKEMON EQU const_value
-	const MIMIKYU    ; fc
-	const LITWICK    ; fd
-	const LAMPENT    ; fe
-	const CHANDELURE ; ff
-	const DRIFLOON   ; 100
-	const DRIFBLIM   ; 101
+	INCLUDE "constants/pokemon_constants_more.asm"
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

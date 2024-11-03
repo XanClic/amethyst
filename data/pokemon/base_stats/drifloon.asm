@@ -1,7 +1,7 @@
 	db 0 ; 256 -- FIXME
 
 	db  90,  50,  34,  70,  60,  44
-	;   hp  atk  def  spd  sat  sdf
+	;   hp, atk, def, spd, sat, sdf
 
 	db GHOST, FLYING
 	db 125 ; catch rate

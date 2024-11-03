@@ -1,7 +1,7 @@
 	db LITWICK ; 253
 
 	db  50,  30,  55,  20,  65,  55
-	;   hp  atk  def  spd  sat  sdf
+	;   hp, atk, def, spd, sat, sdf
 
 	db GHOST, FIRE
 	db 190 ; catch rate

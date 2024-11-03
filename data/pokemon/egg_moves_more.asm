@@ -27,6 +27,6 @@ DrifloonEggMoves:
 	dw DESTINY_BOND
 	dw DISABLE
 	dw HAZE
-	dW HYPNOSIS
+	dw HYPNOSIS
 NoEggMoves3:
 	dw -1 ; end

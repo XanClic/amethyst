@@ -253,10 +253,5 @@ Pokered_MonIndices:
 	db QWILFISH
 	db WOBBUFFET
 	db WOBBUFFET
-	db WOBBUFFET
-	db WOBBUFFET
-	db WOBBUFFET
-	db WOBBUFFET
-	db WOBBUFFET
-	db WOBBUFFET
+	INCLUDE "data/pokemon/gen1_order_more.asm"
 	assert_table_length NUM_POKEMON + 1

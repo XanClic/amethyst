@@ -1,0 +1,264 @@
+Mimikyu:
+  name: Mimigma
+  types: [Fairy, Ghost]
+  icon: Pikachu
+  stats:
+    hp: 55
+    atk: 90
+    def: 80
+    sat: 50
+    sdf: 105
+    spd: 96
+  catchrate: 45
+  baseexp: 167
+  items: [NoItem, MintBerry]
+  female_ratio: 0.5
+  hatch_cycles: 20
+  leveling: MediumFast
+  egg_group: Amorphous
+  dex:
+    species: Kostümspuk
+    height: 0.2
+    weight: 0.7
+    text: |-
+      Oft einsam, ver-
+      steckt es seine
+      grausige Gestalt
+      unter Lumpen, um
+      sich Menschen und
+      #MON zu nähern.
+    footprint: Misdreavus
+  moves:
+    level: 
+      1: [Splash, Scratch, Lick]
+      5: DoubleTeam
+      14: ShadowSneak
+      19: Mimic
+      23: FaintAttack
+      28: Charm
+      32: Slash
+      37: ShadowClaw
+      41: HoneClaws
+      46: PlayRough
+      50: PainSplit
+    egg: [DestinyBond, Curse, Nightmare]
+    tmhm: [Toxic, HiddenPower, HyperBeam, Protect, Frustration, Thunderbolt, Thunder, Return, Psychic, ShadowBall, DoubleTeam, Rest, Attract, Thief, DreamEater, Swagger, SleepTalk]
+Litwick:
+  name: Lichtel
+  types: [Ghost, Fire]
+  evolutions:
+    41: Lampent
+  icon: Ghost
+  stats:
+    hp: 50
+    atk: 30
+    def: 55
+    sat: 65
+    sdf: 55
+    spd: 20
+  catchrate: 190
+  baseexp: 55
+  female_ratio: 0.5
+  hatch_cycles: 20
+  leveling: MediumSlow
+  egg_group: Amorphous
+  dex:
+    species: Kerze
+    height: 0.3
+    weight: 3.1
+    text: |-
+      Es entfacht eine
+      Flamme, die von
+      der Lebensenergie
+      eines Menschen
+      oder eines #MON
+      zehrt.
+    footprint: Misdreavus
+  moves:
+    level:
+      1: [Ember, Astonish]
+      3: Minimize
+      5: Smog
+      7: FireSpin
+      10: ConfuseRay
+      13: NightShade
+      16: WillOWisp
+      24: Hex
+      28: FlameBurst
+      33: DestinyBond
+      38: Inferno
+      43: Curse
+      49: ShadowBall
+      55: PainSplit
+      61: FireBlast
+    egg: [Haze, AcidArmor, Endure, Acid]
+    tmhm: [Toxic, HiddenPower, SunnyDay, Protect, Frustration, Solarbeam, Return, Psychic, ShadowBall, DoubleTeam, Flamethrower, FireBlast, Rest, Attract, Thief, Flash, DreamEater, SleepTalk, Swagger]
+Lampent:
+  name: Laternecto
+  types: [Ghost, Fire]
+  evolutions: 
+    55: Chandelure
+  icon: Ghost
+  stats:
+    hp: 60
+    atk: 40
+    def: 60
+    sat: 95
+    sdf: 60
+    spd: 55
+  catchrate: 90
+  baseexp: 130
+  female_ratio: 0.5
+  hatch_cycles: 20
+  leveling: MediumSlow
+  egg_group: Amorphous
+  dex:
+    species: Lampe
+    height: 0.6
+    weight: 13.0
+    text: |-
+      Es erscheint im
+      Augenblick des
+      Todes und ver-
+      schlingt die
+      entweichende
+      Seele sofort.
+    footprint: Misdreavus
+  moves:
+    level:
+      1: [Ember, Astonish, Minimize, Smog]
+      3: Minimize
+      5: Smog
+      7: FireSpin
+      10: ConfuseRay
+      13: NightShade
+      16: WillOWisp
+      24: Hex
+      28: FlameBurst
+      33: DestinyBond
+      38: Inferno
+      45: Curse
+      53: ShadowBall
+      61: PainSplit
+      69: FireBlast
+    tmhm: [Toxic, HiddenPower, SunnyDay, Protect, Frustration, Solarbeam, Return, Psychic, ShadowBall, DoubleTeam, Flamethrower, FireBlast, Rest, Attract, Thief, Flash, DreamEater, SleepTalk, Swagger]
+Chandelure:
+  name: Skelabra
+  types: [Ghost, Fire]
+  icon: Ghost
+  stats:
+    hp: 60
+    atk: 55
+    def: 90
+    sat: 145
+    sdf: 90
+    spd: 80
+  catchrate: 45
+  baseexp: 234
+  female_ratio: 0.5
+  hatch_cycles: 20
+  leveling: MediumSlow
+  egg_group: Amorphous
+  dex:
+    species: Geleit
+    height: 1.0
+    weight: 34.3
+    text: |-
+      Es saugt die See-
+      len aller auf, die
+      in seinen Feuer-
+      kranz geraten.
+      Zurück bleiben
+      nur leere Hüllen.
+    footprint: Misdreavus
+  moves:
+    level:
+      1: [Smog, ConfuseRay, FlameBurst, Hex]
+    tmhm: [Toxic, HiddenPower, SunnyDay, Protect, Frustration, Solarbeam, Return, Psychic, ShadowBall, DoubleTeam, Flamethrower, FireBlast, Rest, Attract, Thief, Flash, DreamEater, SleepTalk, Swagger]
+Drifloon:
+  name: Driftlon
+  types: [Ghost, Flying]
+  evolutions:
+    28: Drifblim
+  icon: Jellyfish
+  stats:
+    hp: 90
+    atk: 50
+    def: 34
+    sat: 60
+    sdf: 44
+    spd: 70
+  catchrate: 125
+  baseexp: 70
+  female_ratio: 0.5
+  hatch_cycles: 30
+  leveling: Fluctuating
+  egg_group: Amorphous
+  dex:
+    species: Ballon
+    height: 0.4
+    weight: 1.2
+    text: |-
+      Es zieht Kinder
+      an den Händen, um
+      sie mitzunehmen.
+      Doch stets wird
+      es dann durch die
+      Gegend gezogen.
+    footprint: Misdreavus
+  moves:
+    level:
+      1: [Constrict, Minimize]
+      6: Astonish
+      11: Gust
+      14: FocusEnergy
+      22: Hex
+      29: Selfdestruct
+      33: BatonPass
+      38: ShadowBall
+      43: Explosion
+      48: Aeroblast
+    egg: [BodySlam, DestinyBond, Disable, Haze, Hypnosis]
+    tmhm: [Toxic, HiddenPower, SunnyDay, Protect, RainDance, Frustration, Thunder, Return, Psychic, ShadowBall, DoubleTeam, Rest, Attract, Thief, Endure, Flash, SleepTalk, Cut, Swagger]
+Drifblim:
+  name: Drifzepeli
+  types: [Ghost, Flying]
+  icon: Jellyfish
+  stats:
+    hp: 150
+    atk: 80
+    def: 44
+    sat: 90
+    sdf: 54
+    spd: 80
+  catchrate: 60
+  baseexp: 174
+  female_ratio: 0.5
+  hatch_cycles: 30
+  leveling: Fluctuating
+  egg_group: Amorphous
+  dex:
+    species: Luftschiff
+    height: 1.2
+    weight: 15.0
+    text: |-
+      In der Dämmerung
+      steigen ganze
+      Schwärme in die
+      Lüfte, verschwin-
+      den aber, wenn
+      man sie bemerkt.
+    footprint: Misdreavus
+  moves:
+    level:
+      1: [Constrict, Minimize, Astonish, Gust]
+      6: Astonish
+      11: Gust
+      14: FocusEnergy
+      22: Hex
+      31: Selfdestruct
+      36: BatonPass
+      44: ShadowBall
+      51: Explosion
+      59: Aeroblast
+    tmhm: [Toxic, HiddenPower, SunnyDay, Protect, RainDance, Frustration, Thunder, Return, Psychic, ShadowBall, DoubleTeam, Rest, Attract, Thief, Endure, Flash, SleepTalk, Cut, Fly, Swagger]

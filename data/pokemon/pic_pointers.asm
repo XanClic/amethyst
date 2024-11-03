@@ -518,17 +518,5 @@ PokemonPicPointers::
 	dba HoOhBackpic
 	dba CelebiFrontpic
 	dba CelebiBackpic
-
-	dba MimikyuFrontpic
-	dba MimikyuBackpic
-	dba LitwickFrontpic
-	dba LitwickBackpic
-	dba LampentFrontpic
-	dba LampentBackpic
-	dba ChandelureFrontpic
-	dba ChandelureBackpic
-	dba DrifloonFrontpic
-	dba DrifloonBackpic
-	dba DrifblimFrontpic
-	dba DrifblimBackpic
+	INCLUDE "data/pokemon/pic_pointers_more.asm"
 	assert_table_length NUM_POKEMON + 1

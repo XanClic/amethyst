@@ -252,10 +252,5 @@ FirstEvoStages::
 	dw LUGIA
 	dw HO_OH
 	dw CELEBI
-	dw MIMIKYU
-	dw LITWICK
-	dw LITWICK
-	dw LITWICK
-	dw DRIFLOON   ;100
-	dw DRIFLOON
+	INCLUDE "data/pokemon/first_stages_more.asm"
 	assert_table_length NUM_POKEMON

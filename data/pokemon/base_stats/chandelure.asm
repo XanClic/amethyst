@@ -1,7 +1,7 @@
 	db CHANDELURE ; 255
 
 	db  60,  55,  90,  80, 145,  90
-	;   hp  atk  def  spd  sat  sdf
+	;   hp, atk, def, spd, sat, sdf
 
 	db GHOST, FIRE
 	db 45 ; catch rate

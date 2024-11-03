@@ -1,0 +1,12 @@
+	dba MimikyuFrontpic
+	dba MimikyuBackpic
+	dba LitwickFrontpic
+	dba LitwickBackpic
+	dba LampentFrontpic
+	dba LampentBackpic
+	dba ChandelureFrontpic
+	dba ChandelureBackpic
+	dba DrifloonFrontpic
+	dba DrifloonBackpic
+	dba DrifblimFrontpic
+	dba DrifblimBackpic
