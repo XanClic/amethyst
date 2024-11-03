@@ -527,4 +527,8 @@ PokemonPicPointers::
 	dba LampentBackpic
 	dba ChandelureFrontpic
 	dba ChandelureBackpic
+	dba DrifloonFrontpic
+	dba DrifloonBackpic
+	dba DrifblimFrontpic
+	dba DrifblimBackpic
 	assert_table_length NUM_POKEMON + 1

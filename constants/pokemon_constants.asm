@@ -276,6 +276,8 @@ DEF MORE_POKEMON EQU const_value
 	const LITWICK    ; fd
 	const LAMPENT    ; fe
 	const CHANDELURE ; ff
+	const DRIFLOON   ; 100
+	const DRIFBLIM   ; 101
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

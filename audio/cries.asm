@@ -2108,29 +2108,3 @@ Cry_Rattata_Ch8:
 	noise_note 1, 10, 2, 57
 	noise_note 8, 9, 1, 73
 	sound_ret
-
-Cry_Mimikyu:
-	channel_count 1
-	channel 5, Cry_Mimikyu_Ch6
-
-Cry_Mimikyu_Ch6:
-	duty_cycle_pattern 0, 1, 1, 1
-	square_note 20, 15, -5, 1935
-	square_note 20, 5, -5, 1935
-	square_note 10, 0, 0, 0
-	duty_cycle_pattern 0, 2, 0, 1
-	square_note 10, 5, 7, 1895
-	square_note 10, 10, -7, 1895
-	square_note 10, 5, -7, 1895
-	square_note 40, 0, 0, 0
-	square_note 5, 10, -2, 1890
-	square_note 5, 10, -2, 1895
-	square_note 5, 9, -2, 1900
-	square_note 5, 9, -2, 1890
-	duty_cycle_pattern 1, 1, 1, 1
-	square_note 5, 8, -2, 1880
-	square_note 5, 7, -2, 1865
-	square_note 5, 6, -2, 1850
-	square_note 5, 5, -2, 1835
-	square_note 5, 4, -2, 1820
-	sound_ret

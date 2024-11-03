@@ -220,6 +220,8 @@ NewPokedexOrder:
 	dw LITWICK
 	dw LAMPENT
 	dw CHANDELURE
+	dw DRIFLOON
+	dw DRIFBLIM
 	dw PORYGON
 	dw PORYGON2
 	dw CHANSEY

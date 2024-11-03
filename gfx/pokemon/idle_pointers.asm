@@ -255,4 +255,6 @@ AnimationIdlePointers:
 	dw LitwickAnimationIdle
 	dw LampentAnimationIdle
 	dw ChandelureAnimationIdle
+	dw DrifloonAnimationIdle
+	dw DrifblimAnimationIdle
 	assert_table_length NUM_POKEMON

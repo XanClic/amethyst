@@ -179,7 +179,6 @@ ROMX $3d
 	"Songs 4"
 ROMX $3e
 	"bank3E"
-	"More Cries"
 ROMX $3f
 	"bank3F"
 ROMX $40
@@ -247,6 +246,7 @@ ROMX $5b
 	"bank5B"
 ROMX $5c
 	"mobile5C"
+	"More Cries"
 ROMX $5d
 	"Crystal Phone Text 2"
 ROMX $5e

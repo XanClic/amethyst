@@ -38,6 +38,8 @@ AlphabeticalPokedexOrder:
 	dw DRAGONAIR
 	dw DRAGONITE
 	dw DRATINI
+	dw DRIFLOON
+	dw DRIFBLIM
 	dw GLOOM
 	dw DUNSPARCE
 	dw ELEKID

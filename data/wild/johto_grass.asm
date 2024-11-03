@@ -360,7 +360,7 @@ JohtoGrassWildMons:
 	dbw 12, PSYDUCK
 	dbw 13, HOOTHOOT
 	dbw 14, SPINARAK
-	dbw 15, HOOTHOOT
+	dbw 12, DRIFLOON
 	dbw 10, VENONAT
 	dbw 12, VENONAT
 	dbw 12, VENONAT

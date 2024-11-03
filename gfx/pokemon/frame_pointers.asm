@@ -255,4 +255,6 @@ FramesPointers:
 	dba LitwickFrames
 	dba LampentFrames
 	dba ChandelureFrames
+	dba DrifloonFrames
+	dba DrifblimFrames
 	assert_table_length NUM_POKEMON

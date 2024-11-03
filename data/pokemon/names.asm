@@ -259,4 +259,6 @@ PokemonNames::
 	db "LICHTEL@@@"
 	db "LATERNECTO"
 	db "SKELABRA@@"
+	db "DRIFTLON@@"
+	db "DRIFZEPELI"
 	assert_table_length NUM_POKEMON

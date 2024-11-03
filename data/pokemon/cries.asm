@@ -261,4 +261,6 @@ PokemonCries::
 	mon_cry CRY_LITWICK,      40,  150 ; LITWICK
 	mon_cry CRY_LAMPENT,      40,  150 ; LAMPENT
 	mon_cry CRY_CHANDELURE, 3050,  300 ; CHANDELURE
+	mon_cry CRY_VOLTORB,    3400,  128 ; DRIFLOON
+	mon_cry CRY_KRABBY,      200,  352 ; DRIFBLIM
 	assert_table_length NUM_POKEMON

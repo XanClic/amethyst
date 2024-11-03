@@ -255,4 +255,6 @@ AnimationPointers:
 	dw LitwickAnimation
 	dw LampentAnimation
 	dw ChandelureAnimation
+	dw DrifloonAnimation
+	dw DrifblimAnimation
 	assert_table_length NUM_POKEMON

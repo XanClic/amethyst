@@ -5,6 +5,8 @@ EvosAttacksPointers3::
 	dw LitwickEvosAttacks
 	dw LampentEvosAttacks
 	dw ChandelureEvosAttacks
+	dw DrifloonEvosAttacks
+	dw DrifblimEvosAttacks
 .IndirectEnd::
 
 MimikyuEvosAttacks:
@@ -74,4 +76,37 @@ ChandelureEvosAttacks:
 	dbw 1, CONFUSE_RAY
 	dbw 1, FLAME_BURST
 	dbw 1, HEX
+	db 0 ; no more level-up moves
+
+DrifloonEvosAttacks:
+	dbbw EVOLVE_LEVEL, 28, DRIFBLIM
+	db 0 ; no more evolutions
+	dbw 1, CONSTRICT
+	dbw 1, MINIMIZE
+	dbw 6, ASTONISH
+	dbw 11, GUST
+	dbw 14, FOCUS_ENERGY
+	dbw 22, HEX
+	dbw 29, SELFDESTRUCT
+	dbw 33, BATON_PASS
+	dbw 38, SHADOW_BALL
+	dbw 43, EXPLOSION
+	dbw 48, AEROBLAST
+	db 0 ; no more level-up moves
+
+DrifblimEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, CONSTRICT
+	dbw 1, MINIMIZE
+	dbw 1, ASTONISH
+	dbw 1, GUST
+	dbw 6, ASTONISH
+	dbw 11, GUST
+	dbw 14, FOCUS_ENERGY
+	dbw 22, HEX
+	dbw 31, SELFDESTRUCT
+	dbw 36, BATON_PASS
+	dbw 44, SHADOW_BALL
+	dbw 51, EXPLOSION
+	dbw 59, AEROBLAST
 	db 0 ; no more level-up moves

@@ -256,4 +256,6 @@ FirstEvoStages::
 	dw LITWICK
 	dw LITWICK
 	dw LITWICK
+	dw DRIFLOON   ;100
+	dw DRIFLOON
 	assert_table_length NUM_POKEMON

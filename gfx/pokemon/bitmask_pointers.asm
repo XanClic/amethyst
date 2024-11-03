@@ -255,4 +255,6 @@ BitmasksPointers:
 	dw LitwickBitmasks
 	dw LampentBitmasks
 	dw ChandelureBitmasks
+	dw DrifloonBitmasks
+	dw DrifblimBitmasks
 	assert_table_length NUM_POKEMON

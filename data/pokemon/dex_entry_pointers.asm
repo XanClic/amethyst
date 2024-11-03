@@ -256,4 +256,6 @@ PokedexDataPointerTable:
 	dba LitwickPokedexEntry
 	dba LampentPokedexEntry
 	dba ChandelurePokedexEntry
+	dba DrifloonPokedexEntry
+	dba DrifblimPokedexEntry
 	assert_table_length NUM_POKEMON
