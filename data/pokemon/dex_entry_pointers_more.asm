@@ -5,3 +5,4 @@
 	dba DrifloonPokedexEntry
 	dba DrifblimPokedexEntry
 	dba SinisteaPokedexEntry
+	dba PolteageistPokedexEntry

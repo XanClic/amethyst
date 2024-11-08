@@ -8,6 +8,7 @@ EvosAttacksPointers3::
 	dw DrifloonEvosAttacks
 	dw DrifblimEvosAttacks
 	dw SinisteaEvosAttacks
+	dw PolteageistEvosAttacks
 .IndirectEnd::
 
 MimikyuEvosAttacks:
@@ -113,6 +114,7 @@ DrifblimEvosAttacks:
 	db 0 ; no more level-up moves
 
 SinisteaEvosAttacks:
+	dbbw EVOLVE_LEVEL, 28, POLTEAGEIST
 	db 0 ; no more evolutions
 	dbw 1, ASTONISH
 	dbw 1, WITHDRAW
@@ -125,4 +127,21 @@ SinisteaEvosAttacks:
 	dbw 39, STORED_POWER
 	dbw 44, SHADOW_BALL
 	dbw 49, SHELL_SMASH
+	db 0 ; no more level-up moves
+
+PolteageistEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, ASTONISH
+	dbw 1, WITHDRAW
+	dbw 1, MEGA_DRAIN
+	dbw 6, SWEET_SCENT
+	dbw 12, MEGA_DRAIN
+	dbw 18, PROTECT
+	dbw 24, MEGA_DRAIN
+	dbw 30, MIST
+	dbw 36, GIGA_DRAIN
+	dbw 42, STORED_POWER
+	dbw 48, SHADOW_BALL
+	dbw 54, SHELL_SMASH
+	dbw 60, CURSE
 	db 0 ; no more level-up moves

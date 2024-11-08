@@ -8,6 +8,7 @@ EggMovePointers3::
 	dw DrifloonEggMoves
 	dw NoEggMoves3
 	dw NoEggMoves3
+	dw NoEggMoves3
 .IndirectEnd::
 
 MimikyuEggMoves:

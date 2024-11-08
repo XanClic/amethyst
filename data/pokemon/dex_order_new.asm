@@ -223,6 +223,7 @@ NewPokedexOrder:
 	dw DRIFLOON
 	dw DRIFBLIM
 	dw SINISTEA
+	dw POLTEAGEIST
 	dw PORYGON
 	dw PORYGON2
 	dw CHANSEY

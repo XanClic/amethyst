@@ -266,6 +266,8 @@ Drifblim:
 Sinistea:
   name: Fatalitee
   type: Ghost
+  evolutions:
+    28: Polteageist
   icon: Ghost
   stats:
     hp: 40
@@ -305,3 +307,47 @@ Sinistea:
       44: ShadowBall
       49: ShellSmash
     tmhm: [Rest, Snore, Protect, GigaDrain, Psychic, Endure, SleepTalk, ShadowBall, Return, Frustration]
+
+Polteageist:
+  name: Mortipot
+  type: Ghost
+  icon: Ghost
+  stats:
+    hp: 60
+    atk: 65
+    def: 65
+    sat: 134
+    sdf: 114
+    spd: 70
+  catchrate: 60
+  baseexp: 178
+  female_ratio: Unknown
+  hatch_cycles: 20
+  leveling: MediumFast
+  egg_groups: [Amorphous, Mineral]
+  dex:
+    species: Schwarztee
+    height: 0.2
+    weight: 0.4
+    text: |-
+      Wenn es seinem
+      Trainer vertraut,
+      lässt es ihn
+      manchmal einen
+      kleinen Schluck
+      Tee probieren.
+    footprint: Misdreavus
+  moves:
+    level:
+      1: [Astonish, Withdraw, MegaDrain]
+      6: SweetScent
+      12: MegaDrain
+      18: Protect
+      24: MegaDrain
+      30: Mist
+      36: GigaDrain
+      42: StoredPower
+      48: ShadowBall
+      54: ShellSmash
+      60: Curse
+    tmhm: [HyperBeam, Rest, Snore, Protect, GigaDrain, Psychic, Endure, SleepTalk, ShadowBall, Return, Frustration]

@@ -5,3 +5,4 @@
 	dw DrifloonAnimation
 	dw DrifblimAnimation
 	dw SinisteaAnimation
+	dw PolteageistAnimation

@@ -6,3 +6,4 @@ DEF MORE_POKEMON EQU const_value
 	const DRIFLOON   ; 100
 	const DRIFBLIM   ; 101
 	const SINISTEA   ; 102
+	const POLTEAGEIST ; 103

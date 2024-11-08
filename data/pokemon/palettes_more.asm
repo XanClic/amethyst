@@ -12,3 +12,5 @@ INCBIN "gfx/pokemon/drifblim/normal.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/drifblim/shiny.pal"
 INCBIN "gfx/pokemon/sinistea/normal.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/sinistea/shiny.pal"
+INCBIN "gfx/pokemon/polteageist/normal.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/polteageist/shiny.pal"

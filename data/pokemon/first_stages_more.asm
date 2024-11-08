@@ -5,3 +5,4 @@
 	dw DRIFLOON   ;100
 	dw DRIFLOON
 	dw SINISTEA
+	dw SINISTEA

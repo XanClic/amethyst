@@ -142,6 +142,7 @@ AlphabeticalPokedexOrder:
 	dw MIMIKYU
 	dw SUDOWOODO
 	dw QUAGSIRE
+	dw POLTEAGEIST
 	dw SHELLDER
 	dw ODDISH
 	dw UMBREON

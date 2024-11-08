@@ -5,3 +5,4 @@
 	dba DrifloonFrames
 	dba DrifblimFrames
 	dba SinisteaFrames
+	dba PolteageistFrames

@@ -12,3 +12,5 @@
 	dba DrifblimBackpic
 	dba SinisteaFrontpic
 	dba SinisteaBackpic
+	dba PolteageistFrontpic
+	dba PolteageistBackpic

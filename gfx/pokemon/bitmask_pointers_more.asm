@@ -5,3 +5,4 @@
 	dw DrifloonBitmasks
 	dw DrifblimBitmasks
 	dw SinisteaBitmasks
+	dw PolteageistBitmasks
