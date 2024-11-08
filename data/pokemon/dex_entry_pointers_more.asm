@@ -6,3 +6,4 @@
 	dba DrifblimPokedexEntry
 	dba SinisteaPokedexEntry
 	dba PolteageistPokedexEntry
+	dba MismagiusPokedexEntry

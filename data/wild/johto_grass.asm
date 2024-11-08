@@ -1118,8 +1118,8 @@ JohtoGrassWildMons:
 	dbw 46, GOLBAT
 	dbw 46, PARASECT
 	dbw 48, PARASECT
-	dbw 45, MISDREAVUS
-	dbw 45, MISDREAVUS
+	dbw 45, MISMAGIUS
+	dbw 45, MISMAGIUS
 	end_grass_wildmons
 
 	def_grass_wildmons SILVER_CAVE_ROOM_3
@@ -1169,7 +1169,7 @@ JohtoGrassWildMons:
 	dbw 50, PARASECT
 	dbw 52, PARASECT
 	; nite
-	dbw 45, MISDREAVUS
+	dbw 45, MISMAGIUS
 	dbw 48, GOLBAT
 	dbw 50, GOLBAT
 	dbw 46, PARASECT
@@ -1201,7 +1201,7 @@ JohtoGrassWildMons:
 	dbw 2, ZUBAT
 	dbw 2, GEODUDE
 	dbw 4, GEODUDE
-	dbw 2, ZUBAT
+	dbw 2, MISDREAVUS
 	dbw 4, ZUBAT
 	dbw 4, DUNSPARCE
 	end_grass_wildmons
@@ -1229,7 +1229,7 @@ JohtoGrassWildMons:
 	dbw 23, ZUBAT
 	dbw 25, GRAVELER
 	dbw 20, WOBBUFFET
-	dbw 25, WOBBUFFET
+	dbw 25, MISDREAVUS
 	dbw 23, GOLBAT
 	dbw 23, GOLBAT
 	end_grass_wildmons

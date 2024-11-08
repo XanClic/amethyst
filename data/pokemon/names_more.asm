@@ -6,3 +6,4 @@
 	db "DRIFZEPELI"
 	db "FATALITEE@"
 	db "MORTIPOT@@"
+	db "TRAUNMAGIL"

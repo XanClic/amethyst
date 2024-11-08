@@ -265,4 +265,5 @@ PokemonCries::
 	mon_cry CRY_KRABBY,      200,  352 ; DRIFBLIM
 	mon_cry CRY_METAPOD,     152,   50 ; SINISTEA
 	mon_cry CRY_METAPOD,     132,   50 ; POLTEAGEIST
+	mon_cry CRY_DUNSPARCE,   750,  350 ; MISMAGIUS
 	assert_table_length NUM_POKEMON

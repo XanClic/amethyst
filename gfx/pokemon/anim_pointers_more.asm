@@ -6,3 +6,4 @@
 	dw DrifblimAnimation
 	dw SinisteaAnimation
 	dw PolteageistAnimation
+	dw MismagiusAnimation

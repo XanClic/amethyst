@@ -7,3 +7,4 @@ DEF MORE_POKEMON EQU const_value
 	const DRIFBLIM   ; 101
 	const SINISTEA   ; 102
 	const POLTEAGEIST ; 103
+	const MISMAGIUS  ; 104

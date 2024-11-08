@@ -6,3 +6,4 @@
 	dba DrifblimFrames
 	dba SinisteaFrames
 	dba PolteageistFrames
+	dba MismagiusFrames

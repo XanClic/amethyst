@@ -216,6 +216,7 @@ NewPokedexOrder:
 	dw MAGCARGO
 	dw SNEASEL
 	dw MISDREAVUS
+	dw MISMAGIUS
 	dw MIMIKYU
 	dw LITWICK
 	dw LAMPENT

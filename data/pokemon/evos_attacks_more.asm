@@ -9,6 +9,7 @@ EvosAttacksPointers3::
 	dw DrifblimEvosAttacks
 	dw SinisteaEvosAttacks
 	dw PolteageistEvosAttacks
+	dw MismagiusEvosAttacks
 .IndirectEnd::
 
 MimikyuEvosAttacks:
@@ -144,4 +145,21 @@ PolteageistEvosAttacks:
 	dbw 48, SHADOW_BALL
 	dbw 54, SHELL_SMASH
 	dbw 60, CURSE
+	db 0 ; no more level-up moves
+
+MismagiusEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, GROWL
+	dbw 1, PSYWAVE
+	dbw 1, SPITE
+	dbw 1, ASTONISH
+	dbw 6, SPITE
+	dbw 10, ASTONISH
+	dbw 12, CONFUSE_RAY
+	dbw 19, MEAN_LOOK
+	dbw 23, HEX
+	dbw 27, PSYBEAM
+	dbw 36, PAIN_SPLIT
+	dbw 41, SHADOW_BALL
+	dbw 48, PERISH_SONG
 	db 0 ; no more level-up moves

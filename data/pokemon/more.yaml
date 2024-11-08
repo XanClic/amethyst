@@ -351,3 +351,47 @@ Polteageist:
       54: ShellSmash
       60: Curse
     tmhm: [HyperBeam, Rest, Snore, Protect, GigaDrain, Psychic, Endure, SleepTalk, ShadowBall, Return, Frustration]
+
+Mismagius:
+  name: Traunmagil
+  type: Ghost
+  base: Misdreavus
+  icon: Ghost
+  stats:
+    hp: 60
+    atk: 60
+    def: 60
+    sat: 105
+    sdf: 105
+    spd: 105
+  catchrate: 45
+  baseexp: 173
+  female_ratio: 0.5
+  hatch_cycles: 25
+  leveling: Fast
+  egg_group: Amorphous
+  dex:
+    species: Magisch
+    height: 0.9
+    weight: 4.4
+    text: |-
+      Es spricht Zau-
+      berformeln aus,
+      die Gegnern nicht
+      nur schaden, son-
+      dern auch Glück
+      bringen können.
+    footprint: Misdreavus
+  moves:
+    level:
+      1: [Growl, Psywave, Spite, Astonish]
+      6: Spite
+      10: Astonish
+      12: ConfuseRay
+      19: MeanLook
+      23: Hex
+      27: Psybeam
+      36: PainSplit
+      41: ShadowBall
+      48: PerishSong
+    tmhm: [Headbutt, Curse, Toxic, ZapCannon, PsychUp, HiddenPower, SunnyDay, Snore, Protect, RainDance, Endure, Frustration, Thunder, Return, Psychic, ShadowBall, DoubleTeam, Swagger, SleepTalk, Swift, DefenseCurl, DreamEater, Rest, Attract, Thief, Nightmare, Flash, Thunderbolt]

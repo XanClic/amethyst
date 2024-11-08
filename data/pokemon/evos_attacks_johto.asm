@@ -746,6 +746,7 @@ SlowkingEvosAttacks:
 	db 0 ; no more level-up moves
 
 MisdreavusEvosAttacks:
+	dbbw EVOLVE_LEVEL, 41, MISMAGIUS
 	db 0 ; no more evolutions
 	dbw 1, GROWL
 	dbw 1, PSYWAVE

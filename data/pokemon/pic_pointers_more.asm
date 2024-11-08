@@ -14,3 +14,5 @@
 	dba SinisteaBackpic
 	dba PolteageistFrontpic
 	dba PolteageistBackpic
+	dba MismagiusFrontpic
+	dba MismagiusBackpic

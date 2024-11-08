@@ -6,3 +6,4 @@
 	dw DrifblimBitmasks
 	dw SinisteaBitmasks
 	dw PolteageistBitmasks
+	dw MismagiusBitmasks

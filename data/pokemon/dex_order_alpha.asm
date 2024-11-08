@@ -244,6 +244,7 @@ AlphabeticalPokedexOrder:
 	dw CUBONE
 	dw DROWZEE
 	dw MISDREAVUS
+	dw MISMAGIUS
 	dw BLASTOISE
 	dw CROCONAW
 	dw WEEPINBELL
