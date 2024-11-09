@@ -488,3 +488,96 @@ Palossand:
       47: EarthPower
       52: Sandstorm
     tmhm: [Toxic, HiddenPower, Protect, Frustration, Earthquake, Return, Psychic, ShadowBall, DoubleTeam, Sandstorm, Rest, Attract, Swagger, SleepTalk, Solarbeam]
+
+Zorua:
+  name: Zorua
+  types: [Normal, Ghost]
+  evolutions:
+    30: Zoroark
+  icon: Fox
+  stats:
+    hp: 35
+    atk: 60
+    def: 40
+    sat: 85
+    sdf: 40
+    spd: 70
+  catchrate: 75
+  baseexp: 66
+  female_ratio: 0.125
+  hatch_cycles: 25
+  leveling: MediumSlow
+  egg_group: Ground
+  dex:
+    species: Grollfuchs
+    height: 0.7
+    weight: 12.5
+    text: |-
+      Eine verstorbene
+      Seele, deren
+      Groll aus seinem
+      Kopf quillt und
+      ihm seine Kraft
+      verleiht.
+    footprint: Flaaffy
+  moves:
+    level:
+      1: [Scratch, Leer]
+      4: HoneClaws
+      7: ShadowSneak
+      11: Swift
+      15: Curse
+      19: Thief
+      23: Slash
+      27: Spite
+      32: Agility
+      34: BodySlam
+      37: ShadowBall
+      41: TakeDown
+    tmhm: [HiddenPower, Protect, Frustration, Return, Thief, Swift, Endure, RainDance, Dig, SleepTalk, Rest, ShadowBall, SludgeBomb, Curse]
+
+Zoroark:
+  name: Zoroark
+  types: [Normal, Ghost]
+  icon: Fox
+  stats:
+    hp: 55
+    atk: 100
+    def: 60
+    sat: 125
+    sdf: 60
+    spd: 110
+  catchrate: 45
+  baseexp: 179
+  female_ratio: 0.125
+  hatch_cycles: 25
+  leveling: MediumSlow
+  egg_group: Ground
+  dex:
+    species: Fluchfuchs
+    height: 1.6
+    weight: 73.0
+    text: |-
+      Getrieben von
+      bitterem Groll
+      streckt es Feinde
+      ohne Rücksicht
+      auf das eigene
+      Leben nieder.
+    footprint: Dragonite
+  moves:
+    level:
+      1: [Scratch, Leer]
+      4: HoneClaws
+      7: ShadowSneak
+      11: Swift
+      15: Curse
+      19: Thief
+      23: Slash
+      27: Spite
+      30: ShadowClaw
+      34: Agility
+      37: BodySlam
+      40: ShadowBall
+      46: TakeDown
+    tmhm: [HiddenPower, Protect, Frustration, Return, Thief, Swift, IcyWind, Endure, RainDance, Dig, SleepTalk, Rest, ShadowBall, Psychic, Flamethrower, SludgeBomb, HyperBeam, Curse]

@@ -9,3 +9,5 @@
 	dba MismagiusPokedexEntry
 	dba SandygastPokedexEntry
 	dba PalossandPokedexEntry
+	dba ZoruaPokedexEntry
+	dba ZoroarkPokedexEntry

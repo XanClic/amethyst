@@ -263,5 +263,7 @@ AlphabeticalPokedexOrder:
 	dw XATU
 	dw YANMA
 	dw ZAPDOS
+	dw ZOROARK
+	dw ZORUA
 	dw ZUBAT
 	assert_table_length NUM_POKEMON

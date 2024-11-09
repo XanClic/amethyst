@@ -12,6 +12,8 @@ EvosAttacksPointers3::
 	dw MismagiusEvosAttacks
 	dw SandygastEvosAttacks
 	dw PalossandEvosAttacks
+	dw ZoruaEvosAttacks
+	dw ZoroarkEvosAttacks
 .IndirectEnd::
 
 MimikyuEvosAttacks:
@@ -201,4 +203,40 @@ PalossandEvosAttacks:
 	dbw 41, SHADOW_BALL
 	dbw 47, EARTH_POWER
 	dbw 52, SANDSTORM
+	db 0 ; no more level-up moves
+
+ZoruaEvosAttacks:
+	dbbw EVOLVE_LEVEL, 30, ZOROARK
+	db 0 ; no more evolutions
+	dbw 1, SCRATCH
+	dbw 1, LEER
+	dbw 4, HONE_CLAWS
+	dbw 7, SHADOW_SNEAK
+	dbw 11, SWIFT
+	dbw 15, CURSE
+	dbw 19, THIEF
+	dbw 23, SLASH
+	dbw 27, SPITE
+	dbw 32, AGILITY
+	dbw 34, BODY_SLAM
+	dbw 37, SHADOW_BALL
+	dbw 41, TAKE_DOWN
+	db 0 ; no more level-up moves
+
+ZoroarkEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, SCRATCH
+	dbw 1, LEER
+	dbw 4, HONE_CLAWS
+	dbw 7, SHADOW_SNEAK
+	dbw 11, SWIFT
+	dbw 15, CURSE
+	dbw 19, THIEF
+	dbw 23, SLASH
+	dbw 27, SPITE
+	dbw 30, SHADOW_CLAW
+	dbw 34, AGILITY
+	dbw 37, BODY_SLAM
+	dbw 40, SHADOW_BALL
+	dbw 46, TAKE_DOWN
 	db 0 ; no more level-up moves

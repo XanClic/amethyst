@@ -9,3 +9,5 @@
 	db "TRAUNMAGIL"
 	db "SANKABUH@@"
 	db "COLOSSAND@"
+	db "ZORUA@@@@@"
+	db "ZOROARK@@@"

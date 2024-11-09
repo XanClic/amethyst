@@ -10,3 +10,5 @@ DEF MORE_POKEMON EQU const_value
 	const MISMAGIUS  ; 104
 	const SANDYGAST  ; 105
 	const PALOSSAND  ; 106
+	const ZORUA      ; 107
+	const ZOROARK    ; 108

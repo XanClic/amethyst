@@ -9,3 +9,5 @@
 	dw MismagiusAnimation
 	dw SandygastAnimation
 	dw PalossandAnimation
+	dw ZoruaAnimation
+	dw ZoroarkAnimation

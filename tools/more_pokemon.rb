@@ -101,7 +101,7 @@ pokemon.each do |p, data|
     db #{data['catchrate']} ; catch rate
     db #{data['baseexp']} ; base exp
     db #{data['items'] ? data['items'].map { |i| itemname(i) } * ', ' : 'NO_ITEM, NO_ITEM'} ; items
-    db GENDER_#{data['female_ratio'].kind_of?(String) ? split_upcase(data['female_ratio']) : 'F%i' % (data['female_ratio'] * 100.0)} ; gender ratio
+    db GENDER_#{data['female_ratio'].kind_of?(String) ? split_upcase(data['female_ratio']) : ('F%.1f' % (data['female_ratio'] * 100.0)).sub(/\.0$/, '').sub('.', '_')} ; gender ratio
     db 100 ; unknown 1
     db #{data['hatch_cycles']} ; step cycles to hatch
     db 5 ; unknown 2

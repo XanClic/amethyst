@@ -9,3 +9,5 @@
 	dw MismagiusBitmasks
 	dw SandygastBitmasks
 	dw PalossandBitmasks
+	dw ZoruaBitmasks
+	dw ZoroarkBitmasks

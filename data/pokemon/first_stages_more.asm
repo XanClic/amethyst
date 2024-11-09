@@ -9,3 +9,5 @@
 	dw MISDREAVUS
 	dw SANDYGAST
 	dw SANDYGAST
+	dw ZORUA
+	dw ZORUA      ;108

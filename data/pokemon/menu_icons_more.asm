@@ -9,3 +9,5 @@
 	db ICON_GHOST       ; MISMAGIUS
 	db ICON_BLOB        ; SANDYGAST
 	db ICON_BLOB        ; PALOSSAND
+	db ICON_FOX         ; ZORUA
+	db ICON_FOX         ; ZOROARK

@@ -268,4 +268,6 @@ PokemonCries::
 	mon_cry CRY_DUNSPARCE,   750,  350 ; MISMAGIUS
 	mon_cry CRY_DUNSPARCE,   500,  400 ; SANDYGAST
 	mon_cry CRY_DUNSPARCE,  -300,  400 ; PALOSSAND
+	mon_cry CRY_LEDYBA,      -50,  200 ; ZORUA
+	mon_cry CRY_BLASTOISE,  -300,  400 ; ZOROARK
 	assert_table_length NUM_POKEMON

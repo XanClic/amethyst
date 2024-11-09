@@ -227,6 +227,8 @@ NewPokedexOrder:
 	dw POLTEAGEIST
 	dw SANDYGAST
 	dw PALOSSAND
+	dw ZORUA
+	dw ZOROARK
 	dw PORYGON
 	dw PORYGON2
 	dw CHANSEY

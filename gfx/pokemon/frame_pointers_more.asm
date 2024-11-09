@@ -9,3 +9,5 @@
 	dba MismagiusFrames
 	dba SandygastFrames
 	dba PalossandFrames
+	dba ZoruaFrames
+	dba ZoroarkFrames

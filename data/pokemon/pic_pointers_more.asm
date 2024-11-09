@@ -20,3 +20,7 @@
 	dba SandygastBackpic
 	dba PalossandFrontpic
 	dba PalossandBackpic
+	dba ZoruaFrontpic
+	dba ZoruaBackpic
+	dba ZoroarkFrontpic
+	dba ZoroarkBackpic

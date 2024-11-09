@@ -20,3 +20,7 @@ INCBIN "gfx/pokemon/sandygast/normal.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/sandygast/shiny.pal"
 INCBIN "gfx/pokemon/palossand/normal.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/palossand/shiny.pal"
+INCBIN "gfx/pokemon/zorua/normal.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/zorua/shiny.pal"
+INCBIN "gfx/pokemon/zoroark/normal.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/zoroark/shiny.pal"
