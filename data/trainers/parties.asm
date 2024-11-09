@@ -57,9 +57,9 @@ MortyGroup:
 	db 21
 	dw LITWICK
 	dw WILL_O_WISP, HEX, CONFUSE_RAY, FIRE_SPIN
-	db 21
-	dw HAUNTER
-	dw HYPNOSIS, MEAN_LOOK, CURSE, NIGHT_SHADE
+	db 23
+	dw MISDREAVUS
+	dw CONFUSE_RAY, MEAN_LOOK, CURSE, HEX
 	db 25
 	dw GENGAR
 	dw HYPNOSIS, SHADOW_BALL, MEAN_LOOK, DREAM_EATER
@@ -445,8 +445,8 @@ KarenGroup:
 	dw VILEPLUME
 	dw STUN_SPORE, MOONBLAST, MOONLIGHT, PETAL_DANCE
 	db 46
-	dw MIMIKYU
-	dw PLAY_ROUGH, SHADOW_SNEAK, SWORDS_DANCE, SHADOW_CLAW
+	dw MISMAGIUS
+	dw WILL_O_WISP, HEX, PAIN_SPLIT, PERISH_SONG
 	db 44
 	dw MURKROW
 	dw QUICK_ATTACK, WHIRLWIND, PURSUIT, FAINT_ATTACK
@@ -657,6 +657,8 @@ YoungsterGroup:
 	db "EINAR@", TRAINERTYPE_NORMAL
 	db 10
 	dw WOOPER
+	db 9
+	dw DRIFLOON
 	db -1 ; end
 
 	next_list_item ; YOUNGSTER (5)
@@ -977,6 +979,8 @@ BirdKeeperGroup:
 	db "LEO@", TRAINERTYPE_NORMAL
 	db 9
 	dw SPEAROW
+	db 11
+	dw DRIFLOON
 	db -1 ; end
 
 	next_list_item ; BIRD_KEEPER (3)
@@ -1041,6 +1045,8 @@ BirdKeeperGroup:
 	db "CHRIS@", TRAINERTYPE_NORMAL
 	db 29
 	dw FEAROW
+	db 31
+	dw DRIFBLIM
 	db 35
 	dw FEAROW
 	db -1 ; end
@@ -1109,7 +1115,7 @@ BirdKeeperGroup:
 	db 32
 	dw PIDGEOTTO
 	db 32
-	dw PIDGEOTTO
+	dw DRIFBLIM
 	db -1 ; end
 
 	next_list_item ; BIRD_KEEPER (19)
@@ -1752,6 +1758,8 @@ BeautyGroup:
 	dw VILEPLUME
 	db 34
 	dw BUTTERFREE
+	db 33
+	dw POLTEAGEIST
 	db -1 ; end
 
 	next_list_item ; BEAUTY (7)
@@ -1808,6 +1816,8 @@ BeautyGroup:
 	dw EXEGGCUTE
 	db 35
 	dw PARASECT
+	db 33
+	dw POLTEAGEIST
 	db -1 ; end
 
 	next_list_item ; BEAUTY (15)
@@ -4926,9 +4936,15 @@ PokefanMGroup:
 
 	next_list_item ; POKEFANM (11)
 	db "SÖNCKE@", TRAINERTYPE_ITEM
+	db 30
+	dw PICHU
+	db BERRY
 	db 36
 	dw PIKACHU
 	db BERRY
+	db 38
+	dw MIMIKYU
+	db GOLD_BERRY
 	db -1 ; end
 
 	next_list_item ; POKEFANM (12)
@@ -5105,7 +5121,7 @@ PokefanFGroup:
 	next_list_item ; POKEFANF (2)
 	db "RUTH@", TRAINERTYPE_ITEM
 	db 17
-	dw PIKACHU
+	dw MIMIKYU
 	db BERRY
 	db -1 ; end
 
