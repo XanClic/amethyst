@@ -610,6 +610,7 @@ BlackthornGroupSprites:
 
 DungeonsGroupSprites:
 	db SPRITE_LITWICK
+	db SPRITE_GROWLITHE
 	db SPRITE_SUICUNE
 	db SPRITE_SILVER_TROPHY
 	db SPRITE_FAMICOM

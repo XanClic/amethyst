@@ -1,6 +1,7 @@
 	object_const_def
 	const MOUNTMORTAR1FOUTSIDE_POKE_BALL1
 	const MOUNTMORTAR1FOUTSIDE_POKE_BALL2
+	const MOUNTMORTAR1FOUTSIDE_ZORUA
 
 MountMortar1FOutside_MapScripts:
 	def_scene_scripts
@@ -15,6 +16,24 @@ MountMortar1FOutsideRevive:
 
 MountMortar1FOutsideHiddenHyperPotion:
 	hiddenitem HYPER_POTION, EVENT_MOUNT_MORTAR_1F_OUTSIDE_HIDDEN_HYPER_POTION
+
+MountMortar1FOutsideZorua:
+	opentext
+	writetext MountMortar1FZoruaCryText
+	cry ZORUA
+	closetext
+	loadwildmon ZORUA, 25
+	loadvar VAR_BATTLETYPE, BATTLETYPE_ZORUA
+	startbattle
+	ifequal LOSE, .NotBeaten
+	disappear MOUNTMORTAR1FOUTSIDE_ZORUA
+.NotBeaten:
+	reloadmapafterbattle
+	end
+
+MountMortar1FZoruaCryText:
+	text "ZORUA: Wiff-wiff!"
+	done
 
 MountMortar1FOutside_MapEvents:
 	db 0, 0 ; filler
@@ -38,3 +57,4 @@ MountMortar1FOutside_MapEvents:
 	def_object_events
 	object_event 13, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, MountMortar1FOutsideEther, EVENT_MOUNT_MORTAR_1F_OUTSIDE_ETHER
 	object_event 31, 18, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, MountMortar1FOutsideRevive, EVENT_MOUNT_MORTAR_1F_OUTSIDE_REVIVE
+	object_event 18,  6, SPRITE_GROWLITHE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, MountMortar1FOutsideZorua, EVENT_ZORUA
