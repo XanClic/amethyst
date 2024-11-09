@@ -967,25 +967,25 @@ UnknownText_0x1c55d6::
 	text "  :"
 	done
 
-_PasswordAskResetText::
-	text "Passwort O.K."
-	line "Wähle Fortfahren"
-	cont "& verwirf die"
-	cont "Einstellungen."
-	prompt
+;_PasswordAskResetText::
+;	text "Passwort O.K."
+;	line "Wähle Fortfahren"
+;	cont "& verwirf die"
+;	cont "Einstellungen."
+;	prompt
 
-_PasswordWrongText::
-	text "Passwort falsch!"
-	prompt
+;_PasswordWrongText::
+;	text "Passwort falsch!"
+;	prompt
 
 _PasswordAskResetClockText::
 	text "Uhr neu stellen?"
 	done
 
-_PasswordAskEnterText::
-	text "Gib das Passwort"
-	line "ein."
-	done
+;_PasswordAskEnterText::
+;	text "Gib das Passwort"
+;	line "ein."
+;	done
 
 _ClearAllSaveDataText::
 	text "Spielstand"
