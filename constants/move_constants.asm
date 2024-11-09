@@ -270,6 +270,7 @@
 	const INFERNO      ; 104
 	const SHELL_SMASH  ; 105
 	const STORED_POWER ; 106
+	const EARTH_POWER  ; 107
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

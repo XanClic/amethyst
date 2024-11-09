@@ -292,6 +292,7 @@ BattleAnimations::
 	dw BattleAnim_Inferno
 	dw BattleAnim_ShellSmash
 	dw BattleAnim_StoredPower
+	dw BattleAnim_EarthPower
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -1921,6 +1922,7 @@ BattleAnim_Earthquake:
 	anim_loop 4, .loop
 	anim_ret
 
+BattleAnim_EarthPower:
 BattleAnim_Fissure:
 	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $40
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $60, $4, $0

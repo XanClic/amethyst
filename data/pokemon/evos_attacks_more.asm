@@ -180,7 +180,7 @@ SandygastEvosAttacks:
 	dbw 32, ANCIENTPOWER
 	dbw 36, GIGA_DRAIN
 	dbw 41, SHADOW_BALL
-	dbw 45, EARTHQUAKE
+	dbw 45, EARTH_POWER
 	dbw 50, SANDSTORM
 	db 0 ; no more level-up moves
 
@@ -199,6 +199,6 @@ PalossandEvosAttacks:
 	dbw 32, ANCIENTPOWER
 	dbw 36, GIGA_DRAIN
 	dbw 41, SHADOW_BALL
-	dbw 47, EARTHQUAKE
+	dbw 47, EARTH_POWER
 	dbw 52, SANDSTORM
 	db 0 ; no more level-up moves

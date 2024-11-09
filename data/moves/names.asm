@@ -264,4 +264,5 @@ MoveNames::
 	li "INFERNO"
 	li "HAUSBRUCH"
 	li "KRAFTVORRAT"
+	li "ERDKRÄFTE"
 	assert_list_length NUM_ATTACKS

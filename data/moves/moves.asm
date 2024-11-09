@@ -306,4 +306,5 @@ Moves1:
 	move EFFECT_BURN_HIT,          100,  SPECIAL + MT_FIRE,      50,  5, 100      ;INFERNO
 	move EFFECT_SHELL_SMASH,         0,   STATUS + MT_NORMAL,   100, 15,   0      ;SHELL_SMASH
 	move EFFECT_STORED_POWER,       20,  SPECIAL + MT_PSYCHIC,  100, 10,   0      ;STORED_POWER
+	move EFFECT_SP_DEF_DOWN_HIT,    90,  SPECIAL + MT_GROUND,   100, 10,  10      ;EARTH_POWER
 .IndirectEnd::

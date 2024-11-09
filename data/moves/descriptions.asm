@@ -269,6 +269,7 @@ MoveDescriptions1:
 	dw InfernoDescription
 	dw ShellSmashDescription
 	dw StoredPowerDescription
+	dw EarthPowerDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1031,6 +1032,7 @@ SunnyDayDescription:
 	next "Attacken 5 Runden.@"
 
 ShadowBallDescription:
+EarthPowerDescription:
 	db   "Senkt evtl."
 	next "SPEZ. VER.@"
 

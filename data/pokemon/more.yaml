@@ -439,7 +439,7 @@ Sandygast:
       32: Ancientpower
       36: GigaDrain
       41: ShadowBall
-      45: Earthquake
+      45: EarthPower
       50: Sandstorm
     tmhm: [Toxic, HiddenPower, Protect, Frustration, Earthquake, Return, Psychic, ShadowBall, DoubleTeam, Sandstorm, Rest, Attract, Swagger, SleepTalk]
     egg: [Curse, DestinyBond, Amnesia]
@@ -485,6 +485,6 @@ Palossand:
       32: Ancientpower
       36: GigaDrain
       41: ShadowBall
-      47: Earthquake
+      47: EarthPower
       52: Sandstorm
     tmhm: [Toxic, HiddenPower, Protect, Frustration, Earthquake, Return, Psychic, ShadowBall, DoubleTeam, Sandstorm, Rest, Attract, Swagger, SleepTalk, Solarbeam]
