@@ -8,3 +8,4 @@
 	dw PolteageistAnimationIdle
 	dw MismagiusAnimationIdle
 	dw SandygastAnimationIdle
+	dw PalossandAnimationIdle

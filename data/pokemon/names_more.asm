@@ -8,3 +8,4 @@
 	db "MORTIPOT@@"
 	db "TRAUNMAGIL"
 	db "SANKABUH@@"
+	db "COLOSSAND@"

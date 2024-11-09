@@ -399,6 +399,8 @@ Mismagius:
 Sandygast:
   name: Sankabuh
   types: [Ghost, Ground]
+  evolutions:
+    42: Palossand
   icon: Blob
   stats:
     hp: 55
@@ -441,3 +443,48 @@ Sandygast:
       50: Sandstorm
     tmhm: [Toxic, HiddenPower, Protect, Frustration, Earthquake, Return, Psychic, ShadowBall, DoubleTeam, Sandstorm, Rest, Attract, Swagger, SleepTalk]
     egg: [Curse, DestinyBond, Amnesia]
+
+Palossand:
+  name: Colossand
+  types: [Ghost, Ground]
+  icon: Blob
+  stats:
+    hp: 85
+    atk: 75
+    def: 110
+    sat: 100
+    sdf: 75
+    spd: 35
+  catchrate: 60
+  baseexp: 168
+  female_ratio: 0.5
+  hatch_cycles: 15
+  leveling: MediumFast
+  egg_group: Amorphous
+  dex:
+    species: Sandschloss
+    height: 1.3
+    weight: 250.0
+    text: |-
+      Unter ihm liegen
+      die Knochen qual-
+      voll Verstorbener
+      denen die Lebens-
+      kraft ausgesaugt
+      wurde.
+    footprint: Misdreavus
+  moves:
+    level:
+      1: [Harden, Absorb, Astonish, MudSlap]
+      5: Astonish
+      9: SandAttack
+      14: MudSlap
+      18: MegaDrain
+      23: Magnitude
+      27: Hypnosis
+      32: Ancientpower
+      36: GigaDrain
+      41: ShadowBall
+      47: Earthquake
+      52: Sandstorm
+    tmhm: [Toxic, HiddenPower, Protect, Frustration, Earthquake, Return, Psychic, ShadowBall, DoubleTeam, Sandstorm, Rest, Attract, Swagger, SleepTalk, Solarbeam]

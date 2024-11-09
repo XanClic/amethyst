@@ -8,3 +8,4 @@
 	dba PolteageistPokedexEntry
 	dba MismagiusPokedexEntry
 	dba SandygastPokedexEntry
+	dba PalossandPokedexEntry

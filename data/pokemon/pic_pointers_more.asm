@@ -18,3 +18,5 @@
 	dba MismagiusBackpic
 	dba SandygastFrontpic
 	dba SandygastBackpic
+	dba PalossandFrontpic
+	dba PalossandBackpic

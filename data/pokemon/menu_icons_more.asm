@@ -8,3 +8,4 @@
 	db ICON_GHOST       ; POLTEAGEIST
 	db ICON_GHOST       ; MISMAGIUS
 	db ICON_BLOB        ; SANDYGAST
+	db ICON_BLOB        ; PALOSSAND

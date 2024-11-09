@@ -267,4 +267,5 @@ PokemonCries::
 	mon_cry CRY_METAPOD,     132,   50 ; POLTEAGEIST
 	mon_cry CRY_DUNSPARCE,   750,  350 ; MISMAGIUS
 	mon_cry CRY_DUNSPARCE,   500,  400 ; SANDYGAST
+	mon_cry CRY_DUNSPARCE,  -300,  400 ; PALOSSAND
 	assert_table_length NUM_POKEMON

@@ -8,3 +8,4 @@
 	dba PolteageistFrames
 	dba MismagiusFrames
 	dba SandygastFrames
+	dba PalossandFrames

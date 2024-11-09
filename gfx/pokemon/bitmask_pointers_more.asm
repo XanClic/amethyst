@@ -8,3 +8,4 @@
 	dw PolteageistBitmasks
 	dw MismagiusBitmasks
 	dw SandygastBitmasks
+	dw PalossandBitmasks

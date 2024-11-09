@@ -27,6 +27,7 @@ AlphabeticalPokedexOrder:
 	dw CELEBI
 	dw CHANSEY
 	dw CORSOLA
+	dw PALOSSAND
 	dw STANTLER
 	dw TYRANITAR
 	dw DIGLETT

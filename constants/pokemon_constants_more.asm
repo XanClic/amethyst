@@ -9,3 +9,4 @@ DEF MORE_POKEMON EQU const_value
 	const POLTEAGEIST ; 103
 	const MISMAGIUS  ; 104
 	const SANDYGAST  ; 105
+	const PALOSSAND  ; 106

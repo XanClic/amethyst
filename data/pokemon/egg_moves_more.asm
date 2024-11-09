@@ -11,6 +11,7 @@ EggMovePointers3::
 	dw NoEggMoves3
 	dw NoEggMoves3
 	dw SandygastEggMoves
+	dw NoEggMoves3
 .IndirectEnd::
 
 MimikyuEggMoves:

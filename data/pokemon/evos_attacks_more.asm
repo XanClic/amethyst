@@ -11,6 +11,7 @@ EvosAttacksPointers3::
 	dw PolteageistEvosAttacks
 	dw MismagiusEvosAttacks
 	dw SandygastEvosAttacks
+	dw PalossandEvosAttacks
 .IndirectEnd::
 
 MimikyuEvosAttacks:
@@ -166,6 +167,7 @@ MismagiusEvosAttacks:
 	db 0 ; no more level-up moves
 
 SandygastEvosAttacks:
+	dbbw EVOLVE_LEVEL, 42, PALOSSAND
 	db 0 ; no more evolutions
 	dbw 1, HARDEN
 	dbw 1, ABSORB
@@ -180,4 +182,23 @@ SandygastEvosAttacks:
 	dbw 41, SHADOW_BALL
 	dbw 45, EARTHQUAKE
 	dbw 50, SANDSTORM
+	db 0 ; no more level-up moves
+
+PalossandEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, HARDEN
+	dbw 1, ABSORB
+	dbw 1, ASTONISH
+	dbw 1, MUD_SLAP
+	dbw 5, ASTONISH
+	dbw 9, SAND_ATTACK
+	dbw 14, MUD_SLAP
+	dbw 18, MEGA_DRAIN
+	dbw 23, MAGNITUDE
+	dbw 27, HYPNOSIS
+	dbw 32, ANCIENTPOWER
+	dbw 36, GIGA_DRAIN
+	dbw 41, SHADOW_BALL
+	dbw 47, EARTHQUAKE
+	dbw 52, SANDSTORM
 	db 0 ; no more level-up moves
