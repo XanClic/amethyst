@@ -1,4 +1,4 @@
-	db 5 ; 261 -- FIXME
+	db 5 ; 261 -- Is ignored anyway; used to be the basis for deriving the Pokédex bank index, which is no longer true
 
 	db  55,  55,  80,  15,  70,  45
 	;   hp, atk, def, spd, sat, sdf

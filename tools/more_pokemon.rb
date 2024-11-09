@@ -92,7 +92,7 @@ IO.write(
 
 pokemon.each do |p, data|
     stats = <<EOF
-    db #{data['index'] < 256 ? "#{p.upcase} ; #{data['index']}" : "#{data['index'] % 256} ; #{data['index']} -- FIXME"}
+    db #{data['index'] < 256 ? "#{p.upcase} ; #{data['index']}" : "#{data['index'] % 256} ; #{data['index']} -- Is ignored anyway; used to be the basis for deriving the Pokédex bank index, which is no longer true"}
 
     db #{'%3i' % data['stats']['hp']}, #{'%3i' % data['stats']['atk']}, #{'%3i' % data['stats']['def']}, #{'%3i' % data['stats']['spd']}, #{'%3i' % data['stats']['sat']}, #{'%3i' % data['stats']['sdf']}
     ;   hp, atk, def, spd, sat, sdf

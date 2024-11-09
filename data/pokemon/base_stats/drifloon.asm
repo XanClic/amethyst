@@ -1,4 +1,4 @@
-	db 0 ; 256 -- FIXME
+	db 0 ; 256 -- Is ignored anyway; used to be the basis for deriving the Pokédex bank index, which is no longer true
 
 	db  90,  50,  34,  70,  60,  44
 	;   hp, atk, def, spd, sat, sdf
