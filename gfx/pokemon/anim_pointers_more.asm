@@ -7,3 +7,4 @@
 	dw SinisteaAnimation
 	dw PolteageistAnimation
 	dw MismagiusAnimation
+	dw SandygastAnimation

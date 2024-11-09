@@ -3068,7 +3068,7 @@ SailorGroup:
 	db 17
 	dw POLIWHIRL
 	db 17
-	dw RATICATE
+	dw SANDYGAST
 	db 19
 	dw KRABBY
 	db -1 ; end
@@ -3102,7 +3102,7 @@ SailorGroup:
 	db 18
 	dw MACHOP
 	db 18
-	dw MACHOP
+	dw SANDYGAST
 	db 18
 	dw POLIWHIRL
 	db -1 ; end
@@ -3154,7 +3154,7 @@ SailorGroup:
 	db 28
 	dw POLIWHIRL
 	db 28
-	dw POLIWHIRL
+	dw SANDYGAST
 	db -1 ; end
 
 	next_list_item ; SAILOR (12)
@@ -3163,6 +3163,8 @@ SailorGroup:
 	dw POLIWHIRL
 	db 34
 	dw POLIWRATH
+	db 34
+	dw SANDYGAST
 	db -1 ; end
 
 	next_list_item ; SAILOR (13)
@@ -3173,6 +3175,9 @@ SailorGroup:
 	db 38
 	dw POLIWRATH
 	dw SURF, STRENGTH, ICE_PUNCH, SUBMISSION
+	db 38
+	dw SANDYGAST
+	dw GIGA_DRAIN, SHADOW_BALL, EARTHQUAKE, HYPNOSIS
 	db -1 ; end
 
 	end_list_items

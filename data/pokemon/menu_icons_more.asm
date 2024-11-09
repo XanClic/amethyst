@@ -7,3 +7,4 @@
 	db ICON_GHOST       ; SINISTEA
 	db ICON_GHOST       ; POLTEAGEIST
 	db ICON_GHOST       ; MISMAGIUS
+	db ICON_BLOB        ; SANDYGAST

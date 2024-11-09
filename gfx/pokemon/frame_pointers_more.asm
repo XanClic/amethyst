@@ -7,3 +7,4 @@
 	dba SinisteaFrames
 	dba PolteageistFrames
 	dba MismagiusFrames
+	dba SandygastFrames

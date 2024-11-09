@@ -8,3 +8,4 @@ DEF MORE_POKEMON EQU const_value
 	const SINISTEA   ; 102
 	const POLTEAGEIST ; 103
 	const MISMAGIUS  ; 104
+	const SANDYGAST  ; 105

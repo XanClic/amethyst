@@ -395,3 +395,49 @@ Mismagius:
       41: ShadowBall
       48: PerishSong
     tmhm: [Headbutt, Curse, Toxic, ZapCannon, PsychUp, HiddenPower, SunnyDay, Snore, Protect, RainDance, Endure, Frustration, Thunder, Return, Psychic, ShadowBall, DoubleTeam, Swagger, SleepTalk, Swift, DefenseCurl, DreamEater, Rest, Attract, Thief, Nightmare, Flash, Thunderbolt]
+
+Sandygast:
+  name: Sankabuh
+  types: [Ghost, Ground]
+  icon: Blob
+  stats:
+    hp: 55
+    atk: 55
+    def: 80
+    sat: 70
+    sdf: 45
+    spd: 15
+  catchrate: 140
+  baseexp: 64
+  female_ratio: 0.5
+  hatch_cycles: 15
+  leveling: MediumFast
+  egg_group: Amorphous
+  dex:
+    species: Sandhaufen
+    height: 0.5
+    weight: 70.0
+    text: |-
+      Wer die Hand in
+      sein Maul steckt,
+      den überkommt der
+      Drang, unbedingt
+      Sand auf SANKABUH
+      aufzuhäufen.
+    footprint: Misdreavus
+  moves:
+    level:
+      1: [Harden, Absorb]
+      5: Astonish
+      9: SandAttack
+      14: MudSlap
+      18: MegaDrain
+      23: Magnitude
+      27: Hypnosis
+      32: Ancientpower
+      36: GigaDrain
+      41: ShadowBall
+      45: Earthquake
+      50: Sandstorm
+    tmhm: [Toxic, HiddenPower, Protect, Frustration, Earthquake, Return, Psychic, ShadowBall, DoubleTeam, Sandstorm, Rest, Attract, Swagger, SleepTalk]
+    egg: [Curse, DestinyBond, Amnesia]

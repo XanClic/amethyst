@@ -16,3 +16,5 @@
 	dba PolteageistBackpic
 	dba MismagiusFrontpic
 	dba MismagiusBackpic
+	dba SandygastFrontpic
+	dba SandygastBackpic

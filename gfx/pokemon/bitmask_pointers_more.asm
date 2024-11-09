@@ -7,3 +7,4 @@
 	dw SinisteaBitmasks
 	dw PolteageistBitmasks
 	dw MismagiusBitmasks
+	dw SandygastBitmasks

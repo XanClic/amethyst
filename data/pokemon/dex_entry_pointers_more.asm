@@ -7,3 +7,4 @@
 	dba SinisteaPokedexEntry
 	dba PolteageistPokedexEntry
 	dba MismagiusPokedexEntry
+	dba SandygastPokedexEntry

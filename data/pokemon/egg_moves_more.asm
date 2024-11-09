@@ -10,6 +10,7 @@ EggMovePointers3::
 	dw NoEggMoves3
 	dw NoEggMoves3
 	dw NoEggMoves3
+	dw SandygastEggMoves
 .IndirectEnd::
 
 MimikyuEggMoves:
@@ -31,5 +32,11 @@ DrifloonEggMoves:
 	dw DISABLE
 	dw HAZE
 	dw HYPNOSIS
+	dw -1 ; end
+
+SandygastEggMoves:
+	dw CURSE
+	dw DESTINY_BOND
+	dw AMNESIA
 NoEggMoves3:
 	dw -1 ; end

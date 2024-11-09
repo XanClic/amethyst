@@ -7,3 +7,4 @@
 	db "FATALITEE@"
 	db "MORTIPOT@@"
 	db "TRAUNMAGIL"
+	db "SANKABUH@@"

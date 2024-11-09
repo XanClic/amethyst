@@ -7,3 +7,4 @@
 	dw SinisteaAnimationIdle
 	dw PolteageistAnimationIdle
 	dw MismagiusAnimationIdle
+	dw SandygastAnimationIdle

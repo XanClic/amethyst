@@ -201,6 +201,7 @@ AlphabeticalPokedexOrder:
 	dw METAPOD
 	dw SANDSLASH
 	dw SANDSHREW
+	dw SANDYGAST
 	dw VICTREEBEL
 	dw SCIZOR
 	dw SQUIRTLE
