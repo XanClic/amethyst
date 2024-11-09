@@ -74,6 +74,7 @@ ROMX $10
 ROMX $11
 	"bank11"
 	"Effect Commands Overflow"
+	"Battle Core Overflow"
 ROMX $12
 	"Crystal Features 1"
 	"Egg Moves 2"

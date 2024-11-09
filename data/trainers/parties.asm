@@ -5172,6 +5172,8 @@ PokefanFGroup:
 
 	end_list_items
 
+SECTION "Enemy Trainer Parties 3", ROMX
+
 RedGroup:
 	next_list_item ; RED (1)
 	db "ROT@", TRAINERTYPE_MOVES
@@ -5196,8 +5198,6 @@ RedGroup:
 	db -1 ; end
 
 	end_list_items
-
-SECTION "Enemy Trainer Parties 3", ROMX
 
 BlueGroup:
 	next_list_item ; BLUE (1)
