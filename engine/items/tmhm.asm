@@ -529,25 +529,26 @@ VerboseReceiveTMHM: ; unreferenced
 	ret
 
 ConsumeTM:
-	call ConvertCurItemIntoCurTMHM
-	ld a, [wTempTMHM]
-	dec a
-	ld hl, wTMsHMs
-	ld b, 0
-	ld c, a
-	add hl, bc
-	ld a, [hl]
-	and a
-	ret z
-	dec a
-	ld [hl], a
-	ret nz
-	ld a, [wTMHMPocketScrollPosition]
-	and a
-	ret z
-	dec a
-	ld [wTMHMPocketScrollPosition], a
 	ret
+;	call ConvertCurItemIntoCurTMHM
+;	ld a, [wTempTMHM]
+;	dec a
+;	ld hl, wTMsHMs
+;	ld b, 0
+;	ld c, a
+;	add hl, bc
+;	ld a, [hl]
+;	and a
+;	ret z
+;	dec a
+;	ld [hl], a
+;	ret nz
+;	ld a, [wTMHMPocketScrollPosition]
+;	and a
+;	ret z
+;	dec a
+;	ld [wTMHMPocketScrollPosition], a
+;	ret
 
 CountTMsHMs:
 	ld b, 0
