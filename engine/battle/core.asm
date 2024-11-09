@@ -8128,6 +8128,9 @@ StartBattle:
 	and a
 	ret z
 
+	xor a
+	ld [wWildMonCaught], a
+
 	ld a, [wTimeOfDayPal]
 	push af
 	call BattleIntro

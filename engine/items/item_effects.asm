@@ -422,6 +422,9 @@ PokeBallEffect:
 	jp z, .shake_and_break_free
 
 .caught
+	ld a, 1
+	ld [wWildMonCaught], a
+
 	ld hl, wEnemyMonStatus
 	ld a, [hli]
 	push af

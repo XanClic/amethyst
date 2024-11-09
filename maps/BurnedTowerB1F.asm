@@ -34,10 +34,15 @@ BurnedTowerB1FLadderCallback:
 	endcallback
 
 BurnedTowerB1FLitwickCallback:
-	checkevent EVENT_RELEASED_THE_BEASTS
-	iftrue .NoHide
+	checkevent EVENT_SHINY_LITWICK
+	iffalse .Hide
+	readvar VAR_TIMEOFDAY
+	ifnotequal NITE_F, .Hide
+	appear BURNEDTOWERB1F_LITWICK
+	endcallback
+
+.Hide:
 	disappear BURNEDTOWERB1F_LITWICK
-.NoHide:
 	endcallback
 
 ReleaseTheBeasts:
@@ -91,6 +96,7 @@ ReleaseTheBeasts:
 	special RestartMapMusic
 	setscene SCENE_BURNEDTOWERB1F_NOOP
 	setevent EVENT_RELEASED_THE_BEASTS
+	setevent EVENT_SHINY_LITWICK
 	special InitRoamMons
 	setmapscene ECRUTEAK_GYM, SCENE_ECRUTEAKGYM_NOOP
 	setmapscene CIANWOOD_CITY, SCENE_CIANWOODCITY_SUICUNE_AND_EUSINE
@@ -100,7 +106,6 @@ ReleaseTheBeasts:
 	setevent EVENT_BURNED_TOWER_MORTY
 	setevent EVENT_BURNED_TOWER_1F_EUSINE
 	appear BURNEDTOWERB1F_EUSINE
-	appear BURNEDTOWERB1F_LITWICK
 	reanchormap
 	changeblock 6, 14, $1b ; ladder
 	refreshmap
@@ -212,8 +217,21 @@ BurnedTowerB1FShinyLitwick:
 	startbattle
 	ifequal LOSE, .NotBeaten
 	disappear BURNEDTOWERB1F_LITWICK
+	clearevent EVENT_SHINY_LITWICK
 .NotBeaten:
 	reloadmapafterbattle
+	readvar VAR_WILDMONCAUGHT
+	iffalse .NotCaught
+	opentext
+	giveitem GS_BALL
+	waitsfx
+	writetext BurnedTowerB1FGotGSBallText
+	playsound SFX_ITEM
+	waitsfx
+	itemnotify
+	setevent EVENT_CAN_GIVE_GS_BALL_TO_KURT
+	closetext
+.NotCaught:
 	end
 
 BurnedTowerB1FRock:
@@ -270,6 +288,11 @@ BurnedTowerB1FEusineText:
 
 BurnedTowerB1FLitwickCryText:
 	text "LICHTEL: Fuiuu!"
+	done
+
+BurnedTowerB1FGotGSBallText:
+	text "<PLAYER> erhält"
+	line "GS-BALL."
 	done
 
 BurnedTowerB1F_MapEvents:

@@ -2376,7 +2376,7 @@ wSpriteFlags:: db
 
 wHandlePlayerStep:: db
 
-	ds 1
+wWildMonCaught:: db
 
 wPartyMenuActionText:: db
 
