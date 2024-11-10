@@ -2280,10 +2280,11 @@ GetFailureResultText:
 	ld hl, wCurDamage
 	ld a, [hli]
 	ld b, [hl]
-rept 3
+; changed in damage (85 -> 130), so change the recoil, too (1/8 -> 1/2)
+;rept 3
 	srl a
 	rr b
-endr
+;endr
 	ld [hl], b
 	dec hl
 	ld [hli], a

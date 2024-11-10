@@ -1,6 +1,6 @@
 MoveNames::
 	list_start MoveNames
-	li "PFUND"
+	li "KLAPS"
 	li "KARATESCHLAG"
 	li "DUPLEXHIEB"
 	li "KOMETENHIEB"
@@ -108,7 +108,7 @@ MoveNames::
 	li "HÄRTNER"
 	li "KOMPRIMATOR"
 	li "RAUCHWOLKE"
-	li "KONFUSTRAHL"
+	li "KONFUSSTRAHL"
 	li "PANZERSCHUTZ"
 	li "EINIGLER"
 	li "BARRIERE"
@@ -225,7 +225,7 @@ MoveNames::
 	li "WUCHTSCHLAG"
 	li "VIELENDER"
 	li "FEUERODEM"
-	li "STAFFETTE"
+	li "STAFETTE"
 	li "ZUGABE"
 	li "VERFOLGUNG"
 	li "TURBODREHER"
