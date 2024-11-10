@@ -1,6 +1,16 @@
 ; Valid sprite IDs for each map group.
 ; Maps with environment ROUTE or TOWN can only use these sprites.
 
+; Can have at most 23 (MAX_OUTDOOR_SPRITES) sprites per map.  In fact, will
+; always load exactly 23, so if you have less, it will load those from the next
+; map, which isn’t terrible.  In practice, though, all already have exactly 23
+; entries, so if you want to add some, you need to remove other entries.
+; Luckily, most entries are basically unused, i.e. point to sprites that are
+; never used in those areas, e.g. the SILVER_TROPHY, FAMICOM, POKEDEX, WILL,
+; KAREN, BIG_*, you get the idea.
+;
+; See constants/map_constants.asm for which group a map belongs to (“newgroup”).
+
 OutdoorSprites:
 ; entries correspond to MAPGROUP_* constants
 	table_width 2, OutdoorSprites
@@ -408,7 +418,6 @@ VioletGroupSprites:
 	db SPRITE_FRUIT_TREE
 
 EcruteakGroupSprites:
-	db SPRITE_LITWICK
 	db SPRITE_SUICUNE
 	db SPRITE_SILVER_TROPHY
 	db SPRITE_FAMICOM
@@ -609,13 +618,10 @@ BlackthornGroupSprites:
 	db SPRITE_POKE_BALL
 
 DungeonsGroupSprites:
-	db SPRITE_LITWICK
-	db SPRITE_GROWLITHE
 	db SPRITE_SUICUNE
 	db SPRITE_SILVER_TROPHY
 	db SPRITE_FAMICOM
 	db SPRITE_POKEDEX
-	db SPRITE_WILL
 	db SPRITE_KAREN
 	db SPRITE_NURSE
 	db SPRITE_OLD_LINK_RECEPTIONIST
@@ -634,6 +640,7 @@ DungeonsGroupSprites:
 	db SPRITE_SCIENTIST
 	db SPRITE_POKE_BALL
 	db SPRITE_BOULDER
+	db SPRITE_LITWICK
 
 FastShipGroupSprites:
 	db SPRITE_SUICUNE
