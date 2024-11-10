@@ -4,7 +4,7 @@ Do_BattleCommand_PureBurn:
 	ld a, BATTLE_VARS_STATUS_OPP
 	call GetBattleVarAddr
 	and ALL_STATUS
-	jp nz, .defrost
+	jr nz, .defrost
 	ld a, [wTypeModifier]
 	and $7f
 	jr z, .no_effect
@@ -43,7 +43,6 @@ Do_BattleCommand_PureBurn:
 	callfar AnimateFailedMove
 	pop hl
 	jp StdBattleTextbox
-	ret
 
 .defrost:
 	ld a, [hl]

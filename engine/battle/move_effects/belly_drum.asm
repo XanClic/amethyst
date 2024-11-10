@@ -28,4 +28,5 @@ Do_BattleCommand_BellyDrum:
 .failed
 	pop bc
 	callfar AnimateFailedMove
-	jp PrintButItFailed
+	callfar PrintButItFailed
+	ret

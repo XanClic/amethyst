@@ -21,9 +21,10 @@ Do_BattleCommand_CheckFutureSight:
 	ld a, [de]
 	ld [wCurDamage + 1], a
 	ld b, futuresight_command
-	jp SkipToBattleCommand
+	callfar SkipToBattleCommand
+	ret
 
-BattleCommand_FutureSight:
+Do_BattleCommand_FutureSight:
 	callfar CheckUserIsCharging
 	jr nz, .AlreadyChargingFutureSight
 	ld a, BATTLE_VARS_MOVE_ANIM
@@ -67,11 +68,13 @@ BattleCommand_FutureSight:
 	ld a, [hl]
 	ld [de], a
 	ld [hl], 0
-	jp EndMoveEffect
+	callfar EndMoveEffect
+	ret
 
 .failed
 	pop bc
 	call ResetDamage
 	callfar AnimateFailedMove
 	callfar PrintButItFailed
-	jp EndMoveEffect
+	callfar EndMoveEffect
+	ret

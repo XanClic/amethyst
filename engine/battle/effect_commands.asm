@@ -6962,6 +6962,10 @@ BattleCommand_CheckFutureSight:
 	callfar Do_BattleCommand_CheckFutureSight
 	ret
 
+BattleCommand_FutureSight:
+	callfar Do_BattleCommand_FutureSight
+	ret
+
 BattleCommand_PureBurn:
 	callfar Do_BattleCommand_PureBurn
 	ret
