@@ -963,9 +963,9 @@ BattleAnim_Inferno:
 	anim_incobj 10
 	anim_wait 2
 .loop3
-	anim_obj BATTLE_ANIM_OBJ_FLAMETHROWER, 128, 64, $15
+	anim_obj BATTLE_ANIM_OBJ_FLAMETHROWER, 128, 54, $15
 	anim_wait 16
-	anim_obj BATTLE_ANIM_OBJ_FLAMETHROWER, 126, 66, $10
+	anim_obj BATTLE_ANIM_OBJ_FLAMETHROWER, 126, 56, $10
 	anim_wait 16
 	anim_loop 3, .loop3
 	anim_ret
@@ -1135,9 +1135,9 @@ BattleAnim_Hex:
 	anim_obp0 $f
 	anim_sound 6, 2, SFX_CURSE
 .loop:
-	anim_obj BATTLE_ANIM_OBJ_FLAMETHROWER, 128, 64, $15
+	anim_obj BATTLE_ANIM_OBJ_FLAMETHROWER, 128, 54, $15
 	anim_wait 8
-	anim_obj BATTLE_ANIM_OBJ_FLAMETHROWER, 126, 66, $10
+	anim_obj BATTLE_ANIM_OBJ_FLAMETHROWER, 126, 56, $10
 	anim_wait 8
 	anim_loop 3, .loop
 	anim_obj BATTLE_ANIM_OBJ_NIGHTMARE, 132, 40, $0
@@ -1149,19 +1149,19 @@ BattleAnim_Hex:
 BattleAnim_FlameBurst:
 	anim_1gfx BATTLE_ANIM_GFX_FIRE
 	anim_sound 6, 2, SFX_EGG_BOMB
-	anim_obj BATTLE_ANIM_OBJ_FIRE_SPIN, 64, 92, $3
+	anim_obj BATTLE_ANIM_OBJ_FIRE_SPIN, 64, 82, $3
 	anim_wait 8
 	anim_sound 6, 2, SFX_EGG_BOMB
-	anim_obj BATTLE_ANIM_OBJ_FIRE_SPIN, 64, 92, $4
+	anim_obj BATTLE_ANIM_OBJ_FIRE_SPIN, 64, 82, $4
 	anim_wait 8
 	anim_sound 6, 2, SFX_EGG_BOMB
-	anim_obj BATTLE_ANIM_OBJ_FIRE_SPIN, 64, 92, $3
+	anim_obj BATTLE_ANIM_OBJ_FIRE_SPIN, 64, 82, $3
 	anim_wait 8
 	anim_sound 6, 2, SFX_EMBER
 .loop:
-	anim_obj BATTLE_ANIM_OBJ_FLAMETHROWER, 128, 64, $15
+	anim_obj BATTLE_ANIM_OBJ_FLAMETHROWER, 128, 54, $15
 	anim_wait 16
-	anim_obj BATTLE_ANIM_OBJ_FLAMETHROWER, 126, 66, $10
+	anim_obj BATTLE_ANIM_OBJ_FLAMETHROWER, 126, 56, $10
 	anim_wait 16
 	anim_loop 3, .loop
 	anim_ret
@@ -1617,15 +1617,15 @@ BattleAnim_HoneClaws:
 	anim_1gfx BATTLE_ANIM_GFX_CUT
 .loop
 	anim_sound 0, 1, SFX_SCRATCH
-	anim_obj BATTLE_ANIM_OBJ_CUT_DOWN_LEFT, 56,  8, $0
-	anim_obj BATTLE_ANIM_OBJ_CUT_DOWN_LEFT, 52,  4, $0
-	anim_obj BATTLE_ANIM_OBJ_CUT_DOWN_LEFT, 48,  0, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_SELF_LEFT, 58, 88, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_SELF_LEFT, 54, 84, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_SELF_LEFT, 50, 80, $0
 	anim_sound 0, 1, SFX_SCRATCH
 	anim_wait 16
 	anim_sound 0, 1, SFX_SCRATCH
-	anim_obj BATTLE_ANIM_OBJ_CUT_DOWN_RIGHT, 32,  8, $0
-	anim_obj BATTLE_ANIM_OBJ_CUT_DOWN_RIGHT, 36,  4, $0
-	anim_obj BATTLE_ANIM_OBJ_CUT_DOWN_RIGHT, 40,  0, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_SELF_RIGHT, 50, 88, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_SELF_RIGHT, 54, 84, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_SELF_RIGHT, 58, 80, $0
 	anim_sound 0, 1, SFX_SCRATCH
 	anim_wait 16
 	anim_loop 2, .loop
@@ -2813,11 +2813,11 @@ BattleAnim_Withdraw:
 BattleAnim_ShellSmash:
 	anim_2gfx BATTLE_ANIM_GFX_REFLECT, BATTLE_ANIM_GFX_HIT
 	anim_sound 0, 0, SFX_SHINE
-	anim_obj BATTLE_ANIM_OBJ_WITHDRAW, 48, 96, $0
+	anim_obj BATTLE_ANIM_OBJ_WITHDRAW, 48, 88, $0
 	anim_wait 64
         anim_clearobjs
 	anim_sound 0, 1, SFX_EGG_BOMB
-	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 48, -12, $0
+	anim_obj BATTLE_ANIM_OBJ_HIT, 44, 96, $0
 	anim_wait 16
 	anim_ret
 

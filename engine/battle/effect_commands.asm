@@ -4476,6 +4476,9 @@ BattleCommand_StatDown:
 	call GetBattleVar
 	cp EFFECT_ACCURACY_DOWN_HIT
 	jr z, .DidntMiss
+; Shell smash only virtually takes the opponent’s turn
+	cp EFFECT_SHELL_SMASH
+	jr z, .DidntMiss
 
 	call BattleRandom
 	cp 25 percent + 1 ; 25% chance AI fails
