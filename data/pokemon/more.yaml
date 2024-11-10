@@ -534,7 +534,7 @@ Zorua:
       34: BodySlam
       37: ShadowBall
       41: TakeDown
-    tmhm: [HiddenPower, Protect, Frustration, Return, Thief, Swift, Endure, RainDance, Dig, SleepTalk, Rest, ShadowBall, SludgeBomb, Curse]
+    tmhm: [HiddenPower, Protect, Frustration, Return, Thief, Swift, Endure, RainDance, Dig, SleepTalk, Rest, ShadowBall, SludgeBomb, Curse, Cut]
 
 Zoroark:
   name: Zoroark
@@ -580,4 +580,4 @@ Zoroark:
       37: BodySlam
       40: ShadowBall
       46: TakeDown
-    tmhm: [HiddenPower, Protect, Frustration, Return, Thief, Swift, IcyWind, Endure, RainDance, Dig, SleepTalk, Rest, ShadowBall, Psychic, Flamethrower, SludgeBomb, HyperBeam, Curse]
+    tmhm: [HiddenPower, Protect, Frustration, Return, Thief, Swift, IcyWind, Endure, RainDance, Dig, SleepTalk, Rest, ShadowBall, Psychic, Flamethrower, SludgeBomb, HyperBeam, Curse, Cut, Strength]
