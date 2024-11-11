@@ -1486,6 +1486,34 @@ JohtoGrassWildMons:
 	dbw 15, ARIADOS
 	end_grass_wildmons
 
+	def_grass_wildmons ECRUTEAK_GYM
+	db 5 percent, 3 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	dbw 18, MIMIKYU
+	dbw 19, MIMIKYU
+	dbw 20, MIMIKYU
+	dbw 19, LITWICK
+	dbw 19, SINISTEA
+	dbw 20, SINISTEA
+	dbw 20, LITWICK
+	; day
+	dbw 18, MIMIKYU
+	dbw 19, MIMIKYU
+	dbw 20, MIMIKYU
+	dbw 19, LITWICK
+	dbw 19, SINISTEA
+	dbw 20, SINISTEA
+	dbw 20, LITWICK
+	; nite
+	dbw 18, MIMIKYU
+	dbw 19, MIMIKYU
+	dbw 20, MIMIKYU
+	dbw 19, LITWICK
+	dbw 19, SINISTEA
+	dbw 20, SINISTEA
+	dbw 20, LITWICK
+	end_grass_wildmons
+
 	def_grass_wildmons ROUTE_38
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn

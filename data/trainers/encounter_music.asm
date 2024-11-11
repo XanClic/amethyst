@@ -7,7 +7,7 @@ TrainerEncounterMusic::
 	db MUSIC_YOUNGSTER_ENCOUNTER   ; falkner
 	db MUSIC_LASS_ENCOUNTER        ; whitney
 	db MUSIC_YOUNGSTER_ENCOUNTER   ; bugsy
-	db MUSIC_OFFICER_ENCOUNTER     ; morty
+	db MUSIC_LASS_ENCOUNTER        ; sophie
 	db MUSIC_OFFICER_ENCOUNTER     ; pryce
 	db MUSIC_LASS_ENCOUNTER        ; jasmine
 	db MUSIC_OFFICER_ENCOUNTER     ; chuck

@@ -163,6 +163,13 @@ JohtoWaterWildMons:
 	dbw 20, GOLDUCK
 	end_water_wildmons
 
+	def_water_wildmons ECRUTEAK_GYM
+	db 5 percent ; encounter rate
+	dbw 18, DRIFLOON
+	dbw 19, DRIFLOON
+	dbw 20, DRIFLOON
+	end_water_wildmons
+
 	def_water_wildmons ROUTE_40
 	db 6 percent ; encounter rate
 	dbw 20, TENTACOOL

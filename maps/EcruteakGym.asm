@@ -1,5 +1,5 @@
 	object_const_def
-	const ECRUTEAKGYM_MORTY
+	const ECRUTEAKGYM_SOPHIE
 	const ECRUTEAKGYM_SAGE1
 	const ECRUTEAKGYM_SAGE2
 	const ECRUTEAKGYM_GRANNY1
@@ -21,19 +21,21 @@ EcruteakGymForcedToLeaveScene:
 EcruteakGymNoopScene:
 	end
 
-EcruteakGymMortyScript:
+EcruteakGymSophieScript:
 	faceplayer
 	opentext
-	checkevent EVENT_BEAT_MORTY
+	checkevent EVENT_BEAT_ELITE_FOUR
+	iftrue .Rematch
+	checkevent EVENT_BEAT_SOPHIE
 	iftrue .FightDone
-	writetext MortyIntroText
+	writetext SophieIntroText
 	waitbutton
 	closetext
-	winlosstext MortyWinLossText, 0
-	loadtrainer MORTY, MORTY1
+	winlosstext SophieWinLossText, 0
+	loadtrainer SOPHIE, SOPHIE1
 	startbattle
 	reloadmapafterbattle
-	setevent EVENT_BEAT_MORTY
+	setevent EVENT_BEAT_SOPHIE
 	opentext
 	writetext Text_ReceivedFogBadge
 	playsound SFX_GET_BADGE
@@ -47,22 +49,52 @@ EcruteakGymMortyScript:
 .FightDone:
 	checkevent EVENT_GOT_TM30_SHADOW_BALL
 	iftrue .GotShadowBall
-	setevent EVENT_BEAT_SAGE_JEFFREY
-	setevent EVENT_BEAT_SAGE_PING
-	setevent EVENT_BEAT_MEDIUM_MARTHA
-	setevent EVENT_BEAT_MEDIUM_GRACE
-	writetext MortyText_FogBadgeSpeech
+	setevent EVENT_BEAT_SAGE_CHRISTIAN
+	setevent EVENT_BEAT_SAGE_BLIH
+	setevent EVENT_BEAT_MEDIUM_FINE
+	setevent EVENT_BEAT_MEDIUM_CLARA
+	writetext SophieText_FogBadgeSpeech
 	promptbutton
 	verbosegiveitem TM_SHADOW_BALL
 	iffalse .NoRoomForShadowBall
 	setevent EVENT_GOT_TM30_SHADOW_BALL
-	writetext MortyText_ShadowBallSpeech
+	writetext SophieText_ShadowBallSpeech
+	waitbutton
+	closetext
+	end
+
+.Rematch:
+	checkflag ENGINE_SOPHIE_DAILY_REMATCH
+	iftrue .RematchAlreadyDone
+	writetext SophieRematchText
+	yesorno
+	iffalse .RematchLater
+	closetext
+	setflag ENGINE_SOPHIE_DAILY_REMATCH
+	winlosstext SophieRematchWinLossText, 0
+	loadtrainer SOPHIE, SOPHIE2
+	startbattle
+	reloadmapafterbattle
+	opentext
+	writetext SophiePostRematchText
+	waitbutton
+	closetext
+	end
+
+.RematchAlreadyDone:
+	writetext SophieRematchTomorrowText
+	waitbutton
+	closetext
+	end
+
+.RematchLater:
+	writetext SophieLaterRematchText
 	waitbutton
 	closetext
 	end
 
 .GotShadowBall:
-	writetext MortyFightDoneText
+	writetext SophieFightDoneText
 	waitbutton
 .NoRoomForShadowBall:
 	closetext
@@ -95,46 +127,46 @@ EcruteakGymClosed:
 	warp ECRUTEAK_CITY, 6, 27
 	end
 
-TrainerSageJeffrey:
-	trainer SAGE, JEFFREY, EVENT_BEAT_SAGE_JEFFREY, SageJeffreySeenText, SageJeffreyBeatenText, 0, .Script
+TrainerSageChristian:
+	trainer SAGE, CHRISTIAN, EVENT_BEAT_SAGE_CHRISTIAN, SageChristianSeenText, SageChristianBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
 	opentext
-	writetext SageJeffreyAfterBattleText
+	writetext SageChristianAfterBattleText
 	waitbutton
 	closetext
 	end
 
-TrainerSagePing:
-	trainer SAGE, PING, EVENT_BEAT_SAGE_PING, SagePingSeenText, SagePingBeatenText, 0, .Script
+TrainerSageBlih:
+	trainer SAGE, BLIH, EVENT_BEAT_SAGE_BLIH, SageBlihSeenText, SageBlihBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
 	opentext
-	writetext SagePingAfterBattleText
+	writetext SageBlihAfterBattleText
 	waitbutton
 	closetext
 	end
 
-TrainerMediumMartha:
-	trainer MEDIUM, MARTHA, EVENT_BEAT_MEDIUM_MARTHA, MediumMarthaSeenText, MediumMarthaBeatenText, 0, .Script
+TrainerMediumFine:
+	trainer MEDIUM, FINE, EVENT_BEAT_MEDIUM_FINE, MediumFineSeenText, MediumFineBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
 	opentext
-	writetext MediumMarthaAfterBattleText
+	writetext MediumFineAfterBattleText
 	waitbutton
 	closetext
 	end
 
-TrainerMediumGrace:
-	trainer MEDIUM, GRACE, EVENT_BEAT_MEDIUM_GRACE, MediumGraceSeenText, MediumGraceBeatenText, 0, .Script
+TrainerMediumClara:
+	trainer MEDIUM, CLARA, EVENT_BEAT_MEDIUM_CLARA, MediumClaraSeenText, MediumClaraBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
 	opentext
-	writetext MediumGraceAfterBattleText
+	writetext MediumClaraAfterBattleText
 	waitbutton
 	closetext
 	end
@@ -142,7 +174,7 @@ TrainerMediumGrace:
 EcruteakGymGuideScript:
 	faceplayer
 	opentext
-	checkevent EVENT_BEAT_MORTY
+	checkevent EVENT_BEAT_SOPHIE
 	iftrue .EcruteakGymGuideWinScript
 	writetext EcruteakGymGuideText
 	waitbutton
@@ -160,8 +192,19 @@ EcruteakGymStatue:
 	iftrue .Beaten
 	jumpstd GymStatue1Script
 .Beaten:
-	gettrainername STRING_BUFFER_4, MORTY, MORTY1
+	gettrainername STRING_BUFFER_4, SOPHIE, SOPHIE1
 	jumpstd GymStatue2Script
+
+EcruteakGymMimikyu:
+	opentext
+	writetext EcruteakGymMimikyuCryText
+	pause 5
+	cry MIMIKYU
+	waitbutton
+	writetext EcruteakGymMimikyuCryContText
+	waitbutton
+	closetext
+	end
 
 EcruteakGymPlayerStepUpMovement:
 	step UP
@@ -177,58 +220,65 @@ EcruteakGymGrampsSlowStepDownMovement:
 	slow_step DOWN
 	step_end
 
-MortyIntroText:
-	text "Gut, dass du ge-"
-	line "kommen bist."
+SophieIntroText:
+	text "Schön, dass du"
+	line "gekommen bist!"
 
-	para "Hier in TEAK CITY"
-	line "werden #MON"
-	cont "verehrt."
+	para "Ich bin SOPHIE!"
+	line "Mein Herz schlägt"
+	cont "für Geist-#MON."
 
-	para "Man sagt, dass le-"
-	line "gendäre #MON"
+	para "Wusstest du, dass"
+	line "sie sehr effektiv"
+	cont "gegeneinander"
+	cont "sind?"
 
-	para "nur wahrlich star-"
-	line "ken Trainern er-"
-	cont "scheinen werden."
+	para "Je mehr Geister in"
+	line "einem Kampf sind,"
+	cont "desto besser ist"
+	cont "es also!"
 
-	para "Ich glaube an die-"
-	line "se Legende. Daher"
+	para "…Finde ich jeden-"
+	line "falls."
 
-	para "habe ich mein gan-"
-	line "zes Leben lang im"
+	para "Aber genug davon."
 
-	para "Geheimen trai-"
-	line "niert."
+	para "Dass du in der"
+	line "Turmruine einfach"
+	cont "so durch den Boden"
+	cont "gebrochen bist,"
 
-	para "Als Resultat kann"
-	line "ich nun Dinge"
+	para "war schon richtig"
+	line "großes Pech!"
 
-	para "sehen, die andere"
-	line "nicht sehen kön-"
-	cont "nen."
+	para "…Oder war es rich-"
+	line "tig großes Glück?"
 
-	para "Noch ein wenig…"
+	para "Oder aber…"
 
-	para "Mit ein wenig Mehr"
-	line "könnte ich eine"
+	para "Man sagt, legen-"
+	line "däre #MON er-"
+	cont "scheinen nur wirk-"
+	cont "lich starken"
+	cont "Trainern."
 
-	para "Zukunft sehen, in"
-	line "der ich das legen-"
-	cont "däre regenbogen-"
-	cont "farbene #MON"
-	cont "treffe."
+	para "…"
 
-	para "Du könntest mir"
-	line "dabei helfen!"
+	para "Ich glaube nicht"
+	line "an Zufälle."
+
+	para "Und du?"
 	done
 
-MortyWinLossText:
-	text "Ich bin noch nicht"
-	line "gut genug…"
+SophieWinLossText:
+	text "Ich verstehe."
 
-	para "Dieser ORDEN soll"
-	line "dir gehören."
+	para "Wirklich"
+	line "beeindruckend!"
+
+	para "Du bist dieses"
+	line "ORDENs mehr als"
+	cont "würdig!"
 	done
 
 Text_ReceivedFogBadge:
@@ -236,54 +286,84 @@ Text_ReceivedFogBadge:
 	line "PHANTOMORDEN."
 	done
 
-MortyText_FogBadgeSpeech:
+SophieText_FogBadgeSpeech:
 	text "Durch den PHANTOM-"
 	line "ORDEN gehorchen"
 
 	para "dir #MON bis zu"
-	line "LV 50."
+	line "LV 50!"
 
-	para "Außerdem können"
-	line "#MON, die SUR-"
-	cont "FER beherrschen,"
+	para "Außerdem kannst du"
+	line "damit SURFER auch"
+	cont "außerhalb eines"
+	cont "Kampfes einsetzen."
 
-	para "diesen auch außer-"
-	line "halb eines Kampfes"
-	cont "einsetzen."
-
-	para "Bitte nimm auch"
-	line "dies an."
+	para "Bitte, nimm auch"
+	line "dies."
 	done
 
-MortyText_ShadowBallSpeech:
-	text "Das ist SPUKBALL."
-	line "Er verursacht"
+SophieText_ShadowBallSpeech:
+	text "Das ist SPUKBALL!"
 
-	para "Schaden und ver-"
-	line "ringert die SPE-"
+	para "Er verursacht"
+	line "Schaden und ver-"
+	cont "ringert die SPE-"
 	cont "ZIAL-VERT."
 
-	para "Setze ihn ein,"
-	line "wenn er dir ge-"
-	cont "fällt."
+	para "Eine feine Sache"
+	line "für fast jedes"
+	cont "Geister-#MON!"
 	done
 
-MortyFightDoneText:
-	text "Ich verstehe…"
+SophieFightDoneText:
+	text "Ich hoffe, das"
+	line "war nicht das"
 
-	para "Deine Reise hat"
-	line "dich an die ent-"
-	cont "legensten Orte ge-"
-	cont "führt."
+	para "letzte Mal, dass"
+	line "wir uns begegnet"
+	cont "sind."
 
-	para "Du hast viel mehr"
-	line "gesehen als ich."
+	para "Komm doch noch"
+	line "einmal vorbei,"
 
-	para "Dafür beneide ich"
-	line "dich…"
+	para "wenn du die TOP"
+	line "VIER besiegt hast!"
 	done
 
-SageJeffreySeenText:
+SophieRematchText:
+	text "Schön, dass du es"
+	line "dir einrichten"
+	cont "konntest!"
+
+	para "Ich sehe, du hast"
+	line "viel erlebt."
+
+	para "Bist du bereit?"
+	done
+
+SophieRematchWinLossText:
+	text "Wow!"
+	done
+
+SophiePostRematchText:
+	text "Das hat echt Spaß"
+	line "gemacht."
+
+	para "Komm doch wieder"
+	line "vorbei!"
+	done
+
+SophieRematchTomorrowText:
+	text "Komm doch bald"
+	line "wieder vorbei!"
+	done
+
+SophieLaterRematchText:
+	text "Na gut, aber"
+	line "später!"
+	done
+
+SageChristianSeenText:
 	text "Ich habe den Früh-"
 	line "ling mit meinen"
 
@@ -301,71 +381,63 @@ SageJeffreySeenText:
 	cont "bracht."
 	done
 
-SageJeffreyBeatenText:
+SageChristianBeatenText:
 	text "Siege und Nieder-"
 	line "lagen - ich hatte"
 	cont "beides."
 	done
 
-SageJeffreyAfterBattleText:
+SageChristianAfterBattleText:
 	text "Woher kommen"
 	line "#MON?"
 	done
 
-SagePingSeenText:
-	text "Hältst du unseren"
-	line "#MON stand?"
+SageBlihSeenText:
+	text "Wie wärs mit"
+	line "einem Kaffee?"
 	done
 
-SagePingBeatenText:
-	text "Ah! Gut gemacht!"
+SageBlihBeatenText:
+	text "Ach, wär ich"
+	line "jetzt gern zu"
+	cont "Hause…"
 	done
 
-SagePingAfterBattleText:
-	text "Wir setzen nur"
-	line "Geist-#MON ein."
-
-	para "Normal-Attacken"
-	line "zeigen bei ihnen"
-	cont "keine Wirkung!"
+SageBlihAfterBattleText:
+	text "Neben meiner Ar-"
+	line "beit hier bin ich"
+	cont "auch Barista!"
 	done
 
-MediumMarthaSeenText:
+MediumFineSeenText:
 	text "Ich werde siegen!"
 	done
 
-MediumMarthaBeatenText:
+MediumFineBeatenText:
 	text "I-I-Ich habe"
 	line "verloren!"
 	done
 
-MediumMarthaAfterBattleText:
+MediumFineAfterBattleText:
 	text "Wer siegen will,"
 	line "wird es auch tun!"
 	done
 
-MediumGraceSeenText:
-	text "Verwirrt dich un-"
-	line "ser unsichtbarer"
-
-	para "Boden? Besiege"
-	line "mich und ich gebe"
-	cont "dir einen Tipp!"
+MediumClaraSeenText:
+	text "Pass bloß auf!"
 	done
 
-MediumGraceBeatenText:
+MediumClaraBeatenText:
 	text "W-Was?"
 	done
 
-MediumGraceAfterBattleText:
-	text "Gut, ich verrate"
-	line "dir das Geheimnis"
+MediumClaraAfterBattleText:
+	text "Pass auf, wo du"
+	line "hin trittst!"
 
-	para "des unsichtbaren"
-	line "Bodens."
-
-	para "Der Weg liegt vor"
-	line "unseren Augen!"
+	para "Im Dunkeln kann"
+	line "man leicht etwas"
+	cont "übersehen…"
 	done
 
 EcruteakGymGuideText:
@@ -392,8 +464,8 @@ EcruteakGymGuideWinText:
 	done
 
 EcruteakGymClosedText:
-	text "JENS, der ARENA-"
-	line "LEITER ist nicht"
+	text "SOPHIE, die ARENA-"
+	line "LEITERIN ist nicht"
 	cont "hier."
 
 	para "Du musst leider"
@@ -402,55 +474,34 @@ EcruteakGymClosedText:
 	para "Hohohoho."
 	done
 
+EcruteakGymMimikyuCryText:
+	text "MIMIGMA: Pi-gma!"
+	done
+
+EcruteakGymMimikyuCryContText:
+	text "Es ist wohl etwas"
+	line "schüchtern…"
+	done
+
 EcruteakGym_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
 	warp_event  4, 17, ECRUTEAK_CITY, 10
 	warp_event  5, 17, ECRUTEAK_CITY, 10
-	warp_event  4, 14, ECRUTEAK_GYM, 4
-	warp_event  2,  4, ECRUTEAK_GYM, 3
-	warp_event  3,  4, ECRUTEAK_GYM, 3
-	warp_event  4,  4, ECRUTEAK_GYM, 3
-	warp_event  4,  5, ECRUTEAK_GYM, 3
-	warp_event  6,  7, ECRUTEAK_GYM, 3
-	warp_event  7,  4, ECRUTEAK_GYM, 3
-	warp_event  2,  6, ECRUTEAK_GYM, 3
-	warp_event  3,  6, ECRUTEAK_GYM, 3
-	warp_event  4,  6, ECRUTEAK_GYM, 3
-	warp_event  5,  6, ECRUTEAK_GYM, 3
-	warp_event  7,  6, ECRUTEAK_GYM, 3
-	warp_event  7,  7, ECRUTEAK_GYM, 3
-	warp_event  4,  8, ECRUTEAK_GYM, 3
-	warp_event  5,  8, ECRUTEAK_GYM, 3
-	warp_event  6,  8, ECRUTEAK_GYM, 3
-	warp_event  7,  8, ECRUTEAK_GYM, 3
-	warp_event  2,  8, ECRUTEAK_GYM, 3
-	warp_event  2,  9, ECRUTEAK_GYM, 3
-	warp_event  2, 10, ECRUTEAK_GYM, 3
-	warp_event  2, 11, ECRUTEAK_GYM, 3
-	warp_event  4, 10, ECRUTEAK_GYM, 3
-	warp_event  5, 10, ECRUTEAK_GYM, 3
-	warp_event  2, 12, ECRUTEAK_GYM, 3
-	warp_event  3, 12, ECRUTEAK_GYM, 3
-	warp_event  4, 12, ECRUTEAK_GYM, 3
-	warp_event  5, 12, ECRUTEAK_GYM, 3
-	warp_event  7, 10, ECRUTEAK_GYM, 3
-	warp_event  7, 11, ECRUTEAK_GYM, 3
-	warp_event  7, 12, ECRUTEAK_GYM, 3
-	warp_event  7, 13, ECRUTEAK_GYM, 3
 
 	def_coord_events
 
 	def_bg_events
 	bg_event  3, 15, BGEVENT_READ, EcruteakGymStatue
 	bg_event  6, 15, BGEVENT_READ, EcruteakGymStatue
+	bg_event  3, 0, BGEVENT_READ, EcruteakGymMimikyu
 
 	def_object_events
-	object_event  5,  1, SPRITE_MORTY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, EcruteakGymMortyScript, -1
-	object_event  2,  7, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 1, TrainerSageJeffrey, -1
-	object_event  3, 13, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerSagePing, -1
-	object_event  7,  5, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 1, TrainerMediumMartha, -1
-	object_event  7,  9, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 1, TrainerMediumGrace, -1
+	object_event  5,  1, SPRITE_SOPHIE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, EcruteakGymSophieScript, -1
+	object_event  2,  7, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 1, TrainerSageChristian, -1
+	object_event  3, 13, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerSageBlih, -1
+	object_event  7,  5, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 1, TrainerMediumFine, -1
+	object_event  7,  9, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 1, TrainerMediumClara, -1
 	object_event  7, 15, SPRITE_GYM_GUIDE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, EcruteakGymGuideScript, -1
 	object_event  4, 14, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ECRUTEAK_GYM_GRAMPS

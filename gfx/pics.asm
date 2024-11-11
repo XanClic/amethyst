@@ -526,7 +526,7 @@ SECTION "Pics 16", ROMX
 
 HoothootBackpic:     INCBIN "gfx/pokemon/hoothoot/back.2bpp.lz"
 NoctowlBackpic:      INCBIN "gfx/pokemon/noctowl/back.2bpp.lz"
-MortyPic:            INCBIN "gfx/trainers/morty.2bpp.lz"
+SophiePic:           INCBIN "gfx/trainers/sophie.2bpp.lz"
 SlugmaBackpic:       INCBIN "gfx/pokemon/slugma/back.2bpp.lz"
 KabutoBackpic:       INCBIN "gfx/pokemon/kabuto/back.2bpp.lz"
 VictreebelBackpic:   INCBIN "gfx/pokemon/victreebel/back.2bpp.lz"

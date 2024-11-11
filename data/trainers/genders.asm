@@ -6,7 +6,7 @@ BTTrainerClassGenders:
 	db MALE   ; FALKNER
 	db FEMALE ; WHITNEY
 	db FEMALE ; BUGSY
-	db MALE   ; MORTY
+	db FEMALE ; SOPHIE
 	db MALE   ; PRYCE
 	db FEMALE ; JASMINE
 	db MALE   ; CHUCK

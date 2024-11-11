@@ -256,10 +256,11 @@ TinTowerSignText:
 EcruteakGymSignText:
 	text "PKMN-ARENA von"
 	line "TEAK CITY"
-	cont "LEITUNG: JENS"
+	cont "LEITUNG: SOPHIE"
 
-	para "Der mystische Se-"
-	line "her der Zukunft"
+	para "Findet funkelnde"
+	line "Phantome gar"
+	cont "famos!"
 	done
 
 EcruteakDanceTheaterSignText:

@@ -6,7 +6,7 @@ TrainerPicPointers::
 	dba FalknerPic
 	dba WhitneyPic
 	dba BugsyPic
-	dba MortyPic
+	dba SophiePic
 	dba PrycePic
 	dba JasminePic
 	dba ChuckPic

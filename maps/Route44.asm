@@ -480,13 +480,13 @@ CooltrainermAllenAfterBattleText:
 	line "du so stark bist."
 
 	para "Ich frage mich,"
-	line "ob JENS, der"
+	line "ob SOPHIE, die"
 
-	para "ARENALEITER von"
+	para "ARENALEITERIN von"
 	line "TEAK CITY, noch"
 	cont "immer trainiert?"
 
-	para "Er hat mich"
+	para "Sie hat mich"
 	line "wirklich fertig"
 	cont "gemacht."
 	done

@@ -37,8 +37,9 @@ DEF KRIS EQU __trainer_class__
 	trainerclass BUGSY ; 3
 	const BUGSY1
 
-	trainerclass MORTY ; 4
-	const MORTY1
+	trainerclass SOPHIE ; 4
+	const SOPHIE1
+	const SOPHIE2
 
 	trainerclass PRYCE ; 5
 	const PRYCE1
@@ -616,8 +617,8 @@ DEF KRIS EQU __trainer_class__
 	const NICO
 	const JIN
 	const TROY
-	const JEFFREY
-	const PING
+	const CHRISTIAN
+	const BLIH
 	const EDMOND
 	const NEAL
 	const LI
@@ -626,8 +627,8 @@ DEF KRIS EQU __trainer_class__
 	const KOJI
 
 	trainerclass MEDIUM ; 39
-	const MARTHA
-	const GRACE
+	const FINE
+	const CLARA
 	const BETHANY ; unused
 	const MARGRET ; unused
 	const ETHEL ; unused

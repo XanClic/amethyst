@@ -8,7 +8,7 @@ GymLeaders:
 	db FALKNER
 	db WHITNEY
 	db BUGSY
-	db MORTY
+	db SOPHIE
 	db PRYCE
 	db JASMINE
 	db CHUCK

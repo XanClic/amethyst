@@ -1775,7 +1775,7 @@ wOBP1:: db
 
 wNumHits:: db
 
-	ds 1
+wCandleAnimationTimer:: db
 
 wOptions::
 ; bit 0-2: number of frames to delay when printing text

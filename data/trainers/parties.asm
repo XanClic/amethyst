@@ -51,21 +51,49 @@ BugsyGroup:
 
 	end_list_items
 
-MortyGroup:
-	next_list_item ; MORTY (1)
-	db "JENS@", TRAINERTYPE_MOVES
+SophieGroup:
+	next_list_item ; SOPHIE (1)
+	db "SOPHIE@", TRAINERTYPE_MOVES
 	db 21
 	dw LITWICK
 	dw WILL_O_WISP, HEX, CONFUSE_RAY, FIRE_SPIN
 	db 23
-	dw MISDREAVUS
-	dw CONFUSE_RAY, MEAN_LOOK, CURSE, HEX
+	dw DRIFLOON
+	dw HEX, GUST, ASTONISH, MINIMIZE
 	db 25
 	dw GENGAR
 	dw HYPNOSIS, SHADOW_BALL, MEAN_LOOK, DREAM_EATER
 	db 23
 	dw MIMIKYU
 	dw DOUBLE_TEAM, FAINT_ATTACK, SWORDS_DANCE, SHADOW_SNEAK
+	db -1 ; end
+
+	next_list_item ; SOPHIE (2)
+	db "SOPHIE@", TRAINERTYPE_ITEM_MOVES
+	db 51
+	dw ZOROARK
+	db PINK_BOW
+	dw SLUDGE_BOMB, HYPER_BEAM, CURSE, BODY_SLAM
+	db 54
+	dw POLTEAGEIST
+	db FOCUS_BAND
+	dw SHADOW_BALL, GIGA_DRAIN, SHELL_SMASH, STORED_POWER
+	db 52
+	dw DRIFBLIM
+	db LEFTOVERS
+	dw TOXIC, FLY, DOUBLE_TEAM, PROTECT
+	db 52
+	dw MISMAGIUS
+	db SPELL_TAG
+	dw PERISH_SONG, MEAN_LOOK, THUNDERBOLT, PSYCHIC_M
+	db 55
+	dw CHANDELURE
+	db CHARCOAL
+	dw FLAMETHROWER, HEX, WILL_O_WISP, HIDDEN_POWER
+	db 56
+	dw MIMIKYU
+	db GOLD_BERRY
+	dw PLAY_ROUGH, SHADOW_CLAW, SHADOW_SNEAK, SWORDS_DANCE
 	db -1 ; end
 
 	end_list_items
@@ -4684,23 +4712,29 @@ SageGroup:
 	db -1 ; end
 
 	next_list_item ; SAGE (5)
-	db "HERIBERT@", TRAINERTYPE_NORMAL
-	db 22
-	dw HAUNTER
+	db "CHRISTIAN@", TRAINERTYPE_ITEM_MOVES
+	db 23
+	dw MISMAGIUS
+	db BERRY
+	dw HEX, WILL_O_WISP, CONFUSE_RAY, SWIFT
+	db 23
+	dw KINGLER
+	db MINT_BERRY
+	dw CRABHAMMER, STOMP, METAL_CLAW, ICE_PUNCH
 	db -1 ; end
 
 	next_list_item ; SAGE (6)
-	db "MONTY@", TRAINERTYPE_NORMAL
+	db "BLIH@", TRAINERTYPE_NORMAL
 	db 16
 	dw GASTLY
 	db 16
-	dw GASTLY
+	dw LITWICK
 	db 16
-	dw GASTLY
+	dw MISDREAVUS
 	db 16
-	dw GASTLY
+	dw SANDYGAST
 	db 16
-	dw GASTLY
+	dw SINISTEA
 	db -1 ; end
 
 	next_list_item ; SAGE (7)
@@ -4757,21 +4791,21 @@ SageGroup:
 
 MediumGroup:
 	next_list_item ; MEDIUM (1)
-	db "ZENOBIA@", TRAINERTYPE_NORMAL
+	db "FINE@", TRAINERTYPE_NORMAL
 	db 18
-	dw GASTLY
+	dw SINISTEA
 	db 20
-	dw HAUNTER
+	dw DRIFLOON
 	db 20
-	dw GASTLY
+	dw MISDREAVUS
 	db -1 ; end
 
 	next_list_item ; MEDIUM (2)
-	db "DOROTHEA@", TRAINERTYPE_NORMAL
+	db "CLARA@", TRAINERTYPE_NORMAL
 	db 20
-	dw HAUNTER
+	dw GASTLY
 	db 20
-	dw HAUNTER
+	dw TEDDIURSA
 	db -1 ; end
 
 	next_list_item ; MEDIUM (3)

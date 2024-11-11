@@ -64,13 +64,13 @@ TilesetParkAnim:
 	dw NULL,  DoneTileAnimation
 
 TilesetForestAnim:
-	dw NULL,  ForestTreeLeftAnimation
-	dw NULL,  ForestTreeRightAnimation
+	dw NULL,  EventForestTreeLeftAnimation
+	dw NULL,  EventForestTreeRightAnimation
 	dw NULL,  WaitTileAnimation
 	dw NULL,  WaitTileAnimation
 	dw NULL,  WaitTileAnimation
-	dw NULL,  ForestTreeLeftAnimation2
-	dw NULL,  ForestTreeRightAnimation2
+	dw NULL,  EventForestTreeLeftAnimation2
+	dw NULL,  EventForestTreeRightAnimation2
 	dw NULL,  AnimateFlowerTile
 	dw vTiles2 tile $14, AnimateWaterTile
 	dw NULL,  AnimateWaterPalette
@@ -198,6 +198,23 @@ TilesetDarkCaveAnim:
 	dw NULL,  FlickeringCaveEntrancePalette
 	dw NULL,  DoneTileAnimation
 
+TilesetEcruteakGymAnim:
+	dw NULL,  CandleAnimation
+	dw NULL,  StarAnimation
+	dw vTiles2 tile $13, ReadTileToAnimBuffer
+	dw wTileAnimBuffer,  ScrollStarsDiagonal
+	dw vTiles2 tile $13, WriteTileFromAnimBuffer
+	dw NULL,  CandleAnimation
+	dw NULL,  ForestTreeLeftAnimation
+	dw NULL,  ForestTreeRightAnimation
+	dw NULL,  StandingTileFrame8
+	;dw NULL,  WaitTileAnimation
+	dw NULL,  CandleAnimation
+	dw NULL,  ForestTreeLeftAnimation2
+	dw NULL,  ForestTreeRightAnimation2
+	dw NULL,  WaitTileAnimation
+	dw NULL,  DoneTileAnimation
+
 TilesetIcePathAnim:
 	dw vTiles2 tile $35, ReadTileToAnimBuffer
 	dw NULL,  FlickeringCaveEntrancePalette
@@ -270,7 +287,6 @@ TilesetBattleTowerInsideAnim:
 TilesetRuinsOfAlphAnim:
 TilesetRadioTowerAnim:
 TilesetUndergroundAnim:
-TilesetBetaWordRoomAnim:
 TilesetHoOhWordRoomAnim:
 TilesetKabutoWordRoomAnim:
 TilesetOmanyteWordRoomAnim:
@@ -475,20 +491,19 @@ AnimateWaterTile:
 .WaterTileFrames:
 	INCBIN "gfx/tilesets/water/water.2bpp"
 
+
+EventForestTreeLeftAnimation:
+; Only animate this during the Celebi event
+	ld a, [wCelebiEvent]
+	bit CELEBIEVENT_FOREST_IS_RESTLESS_F, a
+	ret z
+
 ForestTreeLeftAnimation:
 ; Save the stack pointer in bc for WriteTile to restore
 	ld hl, sp+0
 	ld b, h
 	ld c, l
 
-; Only animate this during the Celebi event
-	ld a, [wCelebiEvent]
-	bit CELEBIEVENT_FOREST_IS_RESTLESS_F, a
-	jr nz, .do_animation
-	ld hl, ForestTreeLeftFrames
-	jr .got_frames
-
-.do_animation
 ; A cycle of 2 frames, updating every tick
 	ld a, [wTileAnimationTimer]
 	call GetForestTreeFrame
@@ -518,20 +533,18 @@ ForestTreeRightFrames:
 	INCBIN "gfx/tilesets/forest-tree/3.2bpp"
 	INCBIN "gfx/tilesets/forest-tree/4.2bpp"
 
+EventForestTreeRightAnimation:
+; Only animate this during the Celebi event
+	ld a, [wCelebiEvent]
+	bit CELEBIEVENT_FOREST_IS_RESTLESS_F, a
+	ret z
+
 ForestTreeRightAnimation:
 ; Save the stack pointer in bc for WriteTile to restore
 	ld hl, sp+0
 	ld b, h
 	ld c, l
 
-; Only animate this during the Celebi event
-	ld a, [wCelebiEvent]
-	bit CELEBIEVENT_FOREST_IS_RESTLESS_F, a
-	jr nz, .do_animation
-	ld hl, ForestTreeRightFrames
-	jr .got_frames
-
-.do_animation
 ; A cycle of 2 frames, updating every tick
 	ld a, [wTileAnimationTimer]
 	call GetForestTreeFrame
@@ -557,20 +570,18 @@ ForestTreeRightAnimation:
 	ld hl, vTiles2 tile $0f
 	jp WriteTile
 
+EventForestTreeLeftAnimation2:
+; Only animate this during the Celebi event
+	ld a, [wCelebiEvent]
+	bit CELEBIEVENT_FOREST_IS_RESTLESS_F, a
+	ret z
+
 ForestTreeLeftAnimation2:
 ; Save the stack pointer in bc for WriteTile to restore
 	ld hl, sp+0
 	ld b, h
 	ld c, l
 
-; Only animate this during the Celebi event
-	ld a, [wCelebiEvent]
-	bit CELEBIEVENT_FOREST_IS_RESTLESS_F, a
-	jr nz, .do_animation
-	ld hl, ForestTreeLeftFrames
-	jr .got_frames
-
-.do_animation
 ; A cycle of 2 frames, updating every tick
 	ld a, [wTileAnimationTimer]
 	call GetForestTreeFrame
@@ -595,20 +606,18 @@ ForestTreeLeftAnimation2:
 	ld hl, vTiles2 tile $0c
 	jp WriteTile
 
+EventForestTreeRightAnimation2:
+; Only animate this during the Celebi event
+	ld a, [wCelebiEvent]
+	bit CELEBIEVENT_FOREST_IS_RESTLESS_F, a
+	ret z
+
 ForestTreeRightAnimation2:
 ; Save the stack pointer in bc for WriteTile to restore
 	ld hl, sp+0
 	ld b, h
 	ld c, l
 
-; Only animate this during the Celebi event
-	ld a, [wCelebiEvent]
-	bit CELEBIEVENT_FOREST_IS_RESTLESS_F, a
-	jr nz, .do_animation
-	ld hl, ForestTreeRightFrames
-	jr .got_frames
-
-.do_animation
 ; A cycle of 2 frames, updating every tick
 	ld a, [wTileAnimationTimer]
 	call GetForestTreeFrame
@@ -1029,3 +1038,83 @@ WhirlpoolTiles1: INCBIN "gfx/tilesets/whirlpool/1.2bpp"
 WhirlpoolTiles2: INCBIN "gfx/tilesets/whirlpool/2.2bpp"
 WhirlpoolTiles3: INCBIN "gfx/tilesets/whirlpool/3.2bpp"
 WhirlpoolTiles4: INCBIN "gfx/tilesets/whirlpool/4.2bpp"
+
+CandleAnimation:
+; Save the stack pointer in bc for WriteTile to restore
+	ld hl, sp+0
+	ld b, h
+	ld c, l
+
+	ld hl, wCandleAnimationTimer
+	ld a, [hl]
+	inc a
+	ld [hl], a
+	and 3
+
+; hl = CandleFrames + a * 8
+; (a was pre-multiplied by 2 from GetForestTreeFrame)
+	add a
+	add a
+	add a
+	add a
+	add LOW(CandleFrames)
+	ld l, a
+	ld a, 0
+	adc HIGH(CandleFrames)
+	ld h, a
+
+.got_frames
+; Write the tile graphic from hl (now sp) to tile $06 (now hl)
+	ld sp, hl
+	ld hl, vTiles2 tile $06
+	jp WriteTile
+
+CandleFrames:
+	INCBIN "gfx/tilesets/candle/1.2bpp"
+	INCBIN "gfx/tilesets/candle/2.2bpp"
+	INCBIN "gfx/tilesets/candle/3.2bpp"
+	INCBIN "gfx/tilesets/candle/4.2bpp"
+
+StarAnimation:
+; Save the stack pointer in bc for WriteTile to restore
+	ld hl, sp+0
+	ld b, h
+	ld c, l
+
+	ld a, [wCandleAnimationTimer]
+	and %110000
+
+; hl = StarFrames + a * 8
+; (a was pre-multiplied by 2 from GetForestTreeFrame)
+	add LOW(StarFrames)
+	ld l, a
+	ld a, 0
+	adc HIGH(StarFrames)
+	ld h, a
+
+.got_frames:
+; Write the tile graphic from hl (now sp) to tile $13 (now hl)
+	ld sp, hl
+	ld hl, vTiles2 tile $13
+	jp WriteTile
+
+ScrollStarsDiagonal:
+	ld a, [wCandleAnimationTimer]
+	and a, %111
+	ret z
+	.loop:
+	push af
+	push de
+	call ScrollTileRight
+	call ScrollTileDown
+	pop de
+	pop af
+	dec a
+	jr nz, .loop
+	ret
+
+StarFrames:
+	INCBIN "gfx/tilesets/stars/1.2bpp"
+	INCBIN "gfx/tilesets/stars/2.2bpp"
+	INCBIN "gfx/tilesets/stars/3.2bpp"
+	INCBIN "gfx/tilesets/stars/4.2bpp"

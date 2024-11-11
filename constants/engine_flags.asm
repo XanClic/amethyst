@@ -115,6 +115,7 @@
 ; wSwarmFlags
 	const ENGINE_BUENAS_PASSWORD_2
 	const ENGINE_GOLDENROD_DEPT_STORE_SALE_IS_ON
+	const ENGINE_SOPHIE_DAILY_REMATCH
 ; wGameTimerPaused
 	const ENGINE_62
 ; wPlayerGender

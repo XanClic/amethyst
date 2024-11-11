@@ -223,10 +223,11 @@ IrwinCalledRightAwayText:
 IrwinFogBadgeGossipText:
 	text "Ich sah, ich sah…"
 
-	para "Du hast JENS, den"
-	line "ARENALEITER von"
+	para "Du hast SOPHIE,"
+	line "die ARENALEITERIN"
+	cont "von TEAK CITY"
 
-	para "TEAK CITY besiegt!"
+	para "besiegt!"
 	line "Das ist unfassbar!"
 
 	para "Ich bin zur PKMN-"

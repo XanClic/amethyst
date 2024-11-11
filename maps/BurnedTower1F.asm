@@ -2,7 +2,7 @@
 	const BURNEDTOWER1F_ROCK
 	const BURNEDTOWER1F_EUSINE
 	const BURNEDTOWER1F_RIVAL
-	const BURNEDTOWER1F_MORTY
+	const BURNEDTOWER1F_SOPHIE
 	const BURNEDTOWER1F_POKE_BALL
 
 BurnedTower1F_MapScripts:
@@ -122,8 +122,8 @@ BurnedTowerRivalBattleScript:
 BurnedTower1FEusineScript:
 	jumptextfaceplayer BurnedTower1FEusineText
 
-BurnedTower1FMortyScript:
-	jumptextfaceplayer BurnedTower1FMortyText
+BurnedTower1FSophieScript:
+	jumptextfaceplayer BurnedTower1FSophieText
 
 BurnedTower1FRock:
 	jumpstd SmashRockScript
@@ -264,24 +264,27 @@ BurnedTower1FEusineText:
 	line "es?"
 	done
 
-BurnedTower1FMortyText:
-	text "JENS: Der ARENA-"
-	line "LEITER von TEAK"
-
-	para "CITY, muss die"
-	line "sogenannten"
+BurnedTower1FSophieText:
+	text "SOPHIE: EUSIN ist"
+	line "gekommen, um die"
+	cont "sogenannten"
 
 	para "legendären #MON"
 	line "- SUICUNE, ENTEI"
 	cont "und RAIKOU -"
-	cont "studieren."
+	cont "zu studieren."
 
-	para "EUSIN ist ge-"
-	line "kommen, also habe"
+	para "Als ARENALEITERIN"
+	line "von TEAK CITY"
 
-	para "ich beschlossen,"
-	line "den TURM mit ihm"
-	cont "zu untersuchen."
+	para "lasse ich mir das"
+	line "natürlich nicht"
+	cont "entgehen!"
+
+	para "…?"
+
+	para "Da ist noch eine"
+	line "andere Präsenz…"
 	done
 
 BurnedTower1F_MapEvents:
@@ -314,5 +317,5 @@ BurnedTower1F_MapEvents:
 	object_event 15,  4, SPRITE_ROCK, SPRITEMOVEDATA_SMASHABLE_ROCK, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BurnedTower1FRock, -1
 	object_event 12, 12, SPRITE_SUPER_NERD, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, BurnedTower1FEusineScript, EVENT_BURNED_TOWER_1F_EUSINE
 	object_event  8,  9, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, ObjectEvent, EVENT_RIVAL_BURNED_TOWER
-	object_event 14, 14, SPRITE_MORTY, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, BurnedTower1FMortyScript, EVENT_BURNED_TOWER_MORTY
+	object_event 14, 14, SPRITE_SOPHIE, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, BurnedTower1FSophieScript, EVENT_BURNED_TOWER_SOPHIE
 	object_event 14,  2, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, BurnedTower1FHPUp, EVENT_BURNED_TOWER_1F_HP_UP

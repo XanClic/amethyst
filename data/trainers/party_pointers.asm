@@ -6,7 +6,7 @@ TrainerGroups:
 	dba FalknerGroup
 	dba WhitneyGroup
 	dba BugsyGroup
-	dba MortyGroup
+	dba SophieGroup
 	dba PryceGroup
 	dba JasmineGroup
 	dba ChuckGroup

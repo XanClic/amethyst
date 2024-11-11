@@ -197,11 +197,11 @@ EcruteakPokecenter1FPokefanMTextMobile:
 	done
 
 EcruteakPokecenter1FCooltrainerFText:
-	text "JENS, der ARENA-"
-	line "LEITER, ist soooo"
+	text "SOPHIE, die ARENA-"
+	line "LEITERIN, ist sooo"
 	cont "cool."
 
-	para "Auch seine #MON"
+	para "Auch ihre #MON"
 	line "sind sehr stark."
 	done
 
