@@ -1,5 +1,6 @@
 	object_const_def
 	const ROUTE43MAHOGANYGATE_OFFICER
+	const ROUTE43MAHOGANYGATE_IDA
 
 Route43MahoganyGate_MapScripts:
 	def_scene_scripts
@@ -18,6 +19,14 @@ Route43MahoganyGateOfficer:
 
 .RocketsCleared:
 	writetext Route43MahoganyGateOfficerRocketsClearedText
+	waitbutton
+	closetext
+	end
+
+Route43MahoganyGateIda:
+	faceplayer
+	opentext
+	trade NPC_TRADE_IDA
 	waitbutton
 	closetext
 	end
@@ -52,3 +61,4 @@ Route43MahoganyGate_MapEvents:
 
 	def_object_events
 	object_event  0,  4, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Route43MahoganyGateOfficer, -1
+	object_event  7,  4, SPRITE_LASS,    SPRITEMOVEDATA_WANDER,         2, 2, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, Route43MahoganyGateIda, -1

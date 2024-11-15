@@ -19,4 +19,5 @@ NPCTrades:
 	npctrade TRADE_DIALOGSET_NEWBIE,    HAUNTER,    XATU,       "AVIO@@@@@@@", $96, $86, MYSTERYBERRY, 15616, "PAUL@@@@", TRADE_GENDER_EITHER
 	npctrade TRADE_DIALOGSET_GIRL,      CHANSEY,    AERODACTYL, "AEROY@@@@@@", $96, $66, GOLD_BERRY,   26491, "KIM@@@@@", TRADE_GENDER_EITHER
 	npctrade TRADE_DIALOGSET_COLLECTOR, DUGTRIO,    MAGNETON,   "LORETTA@@@@", $96, $66, METAL_COAT,   50082, "WALDO@@@", TRADE_GENDER_EITHER
+	npctrade TRADE_DIALOGSET_IDENTITY,  0,          0,          "IDA@@@@@@@@",   0,   0, 0,                0, "IDA@@@@@", TRADE_GENDER_EITHER
 	assert_table_length NUM_NPC_TRADES

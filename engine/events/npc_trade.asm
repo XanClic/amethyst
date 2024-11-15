@@ -2,6 +2,11 @@ NPCTrade::
 	ld a, e
 	ld [wJumptableIndex], a
 
+	call Trade_GetDialog
+
+	call CheckIdentityTrade
+	jr z, .skip_mon_locking_and_gate
+
 	ld e, NPCTRADE_GIVEMON
 	call GetTradeAttr
 	ld a, [hli]
@@ -20,18 +25,19 @@ NPCTrade::
 	ld l, LOCKED_MON_ID_TRADE_RECEIVE
 	call LockPokemonID
 
-	call Trade_GetDialog
 	ld b, CHECK_FLAG
 	call TradeFlagAction
 	ld a, TRADE_DIALOG_AFTER
-	jr nz, .done
+	jp nz, .done
 
+.skip_mon_locking_and_gate:
+	call Trade_GetDialog
 	ld a, TRADE_DIALOG_INTRO
 	call PrintTradeText
 
 	call YesNoBox
 	ld a, TRADE_DIALOG_CANCEL
-	jr c, .done
+	jp c, .done
 
 ; Select givemon from party
 	ld b, PARTYMENUACTION_GIVE_MON
@@ -39,6 +45,18 @@ NPCTrade::
 	ld a, TRADE_DIALOG_CANCEL
 	jr c, .done
 
+	call CheckIdentityTrade
+	jr nz, .do_checks
+
+	ld a, [wCurPartySpecies]
+	ld l, LOCKED_MON_ID_TRADE_SEND
+	call LockPokemonID
+	ld l, LOCKED_MON_ID_TRADE_RECEIVE
+	call LockPokemonID
+
+	jr .skip_checks_and_gate
+
+.do_checks:
 	ld a, LOCKED_MON_ID_TRADE_SEND
 	call GetLockedPokemonID
 	ld hl, wCurPartySpecies
@@ -52,15 +70,42 @@ NPCTrade::
 
 	ld b, SET_FLAG
 	call TradeFlagAction
+.skip_checks_and_gate:
 
+	call CheckIdentityTrade
 	ld hl, NPCTradeCableText
+	jr nz, .use_cable
+	ld hl, NPCIdentityTradeText
+.use_cable:
 	call PrintText
 
 	call DoNPCTrade
 	call .TradeAnimation
-	call GetTradeMonNames
 
+	call CheckIdentityTrade
+	jr z, .thats_my_pokemon
+	call GetTradeMonNames
 	ld hl, TradedForText
+	jr .print_traded_for
+.thats_my_pokemon:
+	ld hl, wPartyMonNicknames
+	ld bc, MON_NAME_LENGTH
+	call Trade_GetAttributeOfLastPartymon
+	ld de, wMonOrItemNameBuffer
+	ld c, MON_NAME_LENGTH
+	call CopyStringWithTerminator
+
+	call ChooseLastMon
+	xor a
+	ld [wMonType], a
+	farcall GetGender
+	ld hl, NPCIdentityTradeDoneText_NonFemale
+	jr c, .non_female
+	jr nz, .non_female
+	ld hl, NPCIdentityTradeDoneText_Female
+.non_female:
+.print_traded_for
+
 	call PrintText
 
 	call RestartMapMusic
@@ -84,11 +129,25 @@ NPCTrade::
 	ld a, [wTradeDialog]
 	push af
 	predef TradeAnimation
+
+	; Allow trade evolutions
+	ld a, LINK_TRADECENTER
+	ld [wLinkMode], a
+	call ChooseLastMon
+	callfar EvolvePokemon
+	xor a
+	ld [wLinkMode], a
+
 	pop af
 	ld [wTradeDialog], a
 	pop af
 	ld [wJumptableIndex], a
 	call ReturnToMapWithSpeechTextbox
+	ret
+
+CheckIdentityTrade:
+	ld a, [wTradeDialog]
+	cp TRADE_DIALOGSET_IDENTITY
 	ret
 
 CheckTradeGender:
@@ -156,6 +215,13 @@ DoNPCTrade:
 	ld c, MON_NAME_LENGTH
 	call CopyStringWithTerminator
 
+	ld hl, wPartyMonNicknames
+	ld bc, MON_NAME_LENGTH
+	call Trade_GetAttributeOfCurrentPartymon
+	ld de, wPlayerTrademonNickname
+	ld c, MON_NAME_LENGTH
+	call CopyStringWithTerminator
+
 	ld hl, wPartyMonOTs
 	ld bc, NAME_LENGTH
 	call Trade_GetAttributeOfCurrentPartymon
@@ -189,6 +255,8 @@ DoNPCTrade:
 	ld a, c
 	ld [wPlayerTrademonCaughtData], a
 
+	call CheckIdentityTrade
+	jr z, .okay
 	ld e, NPCTRADE_DIALOG
 	call GetTradeAttr
 	ld a, [hl]
@@ -206,6 +274,10 @@ DoNPCTrade:
 	ld [wCurPartyLevel], a
 	ld a, [wOTTrademonSpecies]
 	ld [wCurPartySpecies], a
+
+	call CheckIdentityTrade
+	jr z, .just_shuffle_no_trade
+
 	xor a
 	ld [wMonType], a ; PARTYMON
 	ld [wPokemonWithdrawDepositParameter], a ; REMOVE_PARTY
@@ -222,8 +294,26 @@ DoNPCTrade:
 .incomplete
 	farcall SetGiftPartyMonCaughtData
 
+	jr .got_new_mon
+.just_shuffle_no_trade:
+
+	ld a, [wCurPartyMon]
+	ld [wSwitchMonFrom], a
+	ld a, [wPartyCount]
+	dec a
+	jr z, .got_new_mon ; only one pokémon in party
+	ld [wSwitchMonTo], a
+	farcall _SwapMonAndMail
+
+.got_new_mon:
+	call CheckIdentityTrade
+	jr z, .identity_nick
 	ld e, NPCTRADE_NICKNAME
 	call GetTradeAttr
+	jr .copy_nick
+.identity_nick:
+	ld hl, wPlayerTrademonNickname
+.copy_nick:
 	ld de, wOTTrademonNickname
 	ld c, MON_NAME_LENGTH
 	call CopyStringWithTerminator
@@ -238,6 +328,10 @@ DoNPCTrade:
 	ld e, NPCTRADE_OT_NAME
 	call GetTradeAttr
 	push hl
+	call CheckIdentityTrade
+	jr nz, .sender_is_ot
+	ld hl, wPlayerTrademonSenderName
+.sender_is_ot:
 	ld de, wOTTrademonOTName
 	ld c, NAME_LENGTH
 	call CopyStringWithTerminator
@@ -253,8 +347,14 @@ DoNPCTrade:
 	ld c, NAME_LENGTH
 	call CopyStringWithTerminator
 
+	call CheckIdentityTrade
+	jr z, .identity_dvs
 	ld e, NPCTRADE_DVS
 	call GetTradeAttr
+	jr .copy_dvs
+.identity_dvs:
+	ld hl, wPlayerTrademonDVs
+.copy_dvs:
 	ld de, wOTTrademonDVs
 	call Trade_CopyTwoBytes
 
@@ -264,16 +364,27 @@ DoNPCTrade:
 	ld hl, wOTTrademonDVs
 	call Trade_CopyTwoBytes
 
+	call CheckIdentityTrade
+	jr z, .identity_ot_id
 	ld e, NPCTRADE_OT_ID
 	call GetTradeAttr
 	ld de, wOTTrademonID + 1
 	call Trade_CopyTwoBytesReverseEndian
+	jr .copy_ot_id
+.identity_ot_id:
+	ld hl, wPlayerID
+	ld de, wOTTrademonID
+	call Trade_CopyTwoBytes
+.copy_ot_id:
 
 	ld hl, wPartyMon1ID
 	ld bc, PARTYMON_STRUCT_LENGTH
 	call Trade_GetAttributeOfLastPartymon
 	ld hl, wOTTrademonID
 	call Trade_CopyTwoBytes
+
+	call CheckIdentityTrade
+	ret z
 
 	ld e, NPCTRADE_ITEM
 	call GetTradeAttr
@@ -291,9 +402,7 @@ DoNPCTrade:
 	push hl
 	ld a, [wCurPartyMon]
 	push af
-	ld a, [wPartyCount]
-	dec a
-	ld [wCurPartyMon], a
+	call ChooseLastMon
 	farcall ComputeNPCTrademonStats
 	pop af
 	ld [wCurPartyMon], a
@@ -329,6 +438,12 @@ Trade_GetAttributeOfLastPartymon:
 	call AddNTimes
 	ld e, l
 	ld d, h
+	ret
+
+ChooseLastMon:
+	ld a, [wPartyCount]
+	dec a
+	ld [wCurPartyMon], a
 	ret
 
 GetTradeMonName:
@@ -416,7 +531,7 @@ PrintTradeText:
 	push af
 	call GetTradeMonNames
 	pop af
-	ld bc, 2 * 4
+	ld bc, 2 * NUM_TRADE_DIALOGSETS
 	ld hl, TradeTexts
 	call AddNTimes
 	ld a, [wTradeDialog]
@@ -436,29 +551,46 @@ TradeTexts:
 	dw NPCTradeIntroText2
 	dw NPCTradeIntroText2
 	dw NPCTradeIntroText3
+	dw NPCTradeIntroTextId
 ; TRADE_DIALOG_CANCEL
 	dw NPCTradeCancelText1
 	dw NPCTradeCancelText2
 	dw NPCTradeCancelText2
 	dw NPCTradeCancelText3
+	dw NPCTradeCancelTextId
 ; TRADE_DIALOG_WRONG
 	dw NPCTradeWrongText1
 	dw NPCTradeWrongText2
 	dw NPCTradeWrongText2
 	dw NPCTradeWrongText3
+	dw NPCTradeWrongText1
 ; TRADE_DIALOG_COMPLETE
 	dw NPCTradeCompleteText1
 	dw NPCTradeCompleteText2
 	dw NPCTradeCompleteText4
 	dw NPCTradeCompleteText3
+	dw NPCTradeCompleteTextId
 ; TRADE_DIALOG_AFTER
 	dw NPCTradeAfterText1
 	dw NPCTradeAfterText2
 	dw NPCTradeAfterText4
 	dw NPCTradeAfterText3
+	dw NPCTradeAfterText1
 
 NPCTradeCableText:
 	text_far _NPCTradeCableText
+	text_end
+
+NPCIdentityTradeText:
+	text_far _NPCIdentityTradeText
+	text_end
+
+NPCIdentityTradeDoneText_Female:
+	text_far Text_IDTraded_Female
+	text_end
+
+NPCIdentityTradeDoneText_NonFemale:
+	text_far Text_IDTraded_NonFemale
 	text_end
 
 TradedForText:
@@ -541,4 +673,16 @@ NPCTradeCompleteText4:
 
 NPCTradeAfterText4:
 	text_far _NPCTradeAfterText4
+	text_end
+
+NPCTradeIntroTextId:
+	text_far _NPCTradeIntroTextId
+	text_end
+
+NPCTradeCancelTextId:
+	text_far _NPCTradeCancelTextId
+	text_end
+
+NPCTradeCompleteTextId:
+	text_far _NPCTradeCompleteTextId
 	text_end

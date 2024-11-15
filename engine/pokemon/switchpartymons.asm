@@ -8,7 +8,7 @@ _SwitchPartyMons:
 	ld [wSwitchMonTo], a
 	cp b
 	jr z, .skip
-	call .SwapMonAndMail
+	call _SwapMonAndMail
 	ld a, [wSwitchMonFrom]
 	call .ClearSprite
 	ld a, [wSwitchMonTo]
@@ -39,7 +39,7 @@ _SwitchPartyMons:
 	call WaitPlaySFX
 	ret
 
-.SwapMonAndMail:
+_SwapMonAndMail:
 	push hl
 	push de
 	push bc

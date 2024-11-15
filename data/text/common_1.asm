@@ -1408,6 +1408,10 @@ _NPCTradeCableText::
 	line "Game Link-Kabel."
 	prompt
 
+_NPCIdentityTradeText::
+	text "So ein Zufall!"
+	prompt
+
 Text_NPCTraded::
 	text "<PLAYER> tauscht"
 	line "@"
@@ -1417,13 +1421,35 @@ Text_NPCTraded::
 	text_ram wStringBuffer2
 	text ".@"
 	text_end
+	sound_dex_fanfare_80_109
+	text_pause
+	text_end
+
+Text_IDTraded_Female::
+	text "Nanu?"
+
+	para "Das ist ja meine"
+	line "@"
+	text_ram wMonOrItemNameBuffer
+	text "..."
+	text_end
+	sound_dex_fanfare_80_109
+	text_pause
+	text_end
+
+Text_IDTraded_NonFemale::
+	text "Nanu?"
+
+	para "Das ist ja mein"
+	line "@"
+	text_ram wMonOrItemNameBuffer
+	text "..."
+	text_end
 
 _NPCTradeFanfareText::
 	sound_dex_fanfare_80_109
 	text_pause
 	text_end
-
-	text_end ; unused
 
 _NPCTradeIntroText1::
 	text "Ich sammle #-"
@@ -1467,6 +1493,22 @@ _NPCTradeAfterText1::
 	line "meinem @"
 	text_ram wStringBuffer2
 	text "?"
+	done
+
+_NPCTradeIntroTextId::
+	text "Komm, lass uns"
+	line "#MON tauschen!"
+	done
+
+_NPCTradeCancelTextId::
+	text "Du möchtest nicht"
+	line "tauschen? Schade…"
+	done
+
+_NPCTradeCompleteTextId::
+	text "Danke! Lass uns"
+	line "doch mal wieder"
+	cont "tauschen."
 	done
 
 _NPCTradeIntroText2::
