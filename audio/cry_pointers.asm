@@ -73,4 +73,13 @@ Cries:
 	dba Cry_Litwick
 	dba Cry_Lampent
 	dba Cry_Chandelure
+	dba Cry_Drifloon
+	dba Cry_Drifblim
+	dba Cry_Sinistea
+	dba Cry_Polteageist
+	dba Cry_Mismagius
+	dba Cry_Sandygast
+	dba Cry_Palossand
+	dba Cry_Zorua
+	dba Cry_Zoroark
 	assert_table_length NUM_CRIES

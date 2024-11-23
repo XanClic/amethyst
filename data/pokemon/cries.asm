@@ -257,17 +257,17 @@ PokemonCries::
 	mon_cry CRY_TYPHLOSION,    0,  256 ; LUGIA
 	mon_cry CRY_AIPOM,         0,  384 ; HO_OH
 	mon_cry CRY_ENTEI,       330,  273 ; CELEBI
-	mon_cry CRY_MIMIKYU,      59,   56 ; MIMIKYU
+	mon_cry CRY_MIMIKYU,       0,   56 ; MIMIKYU
 	mon_cry CRY_LITWICK,      40,  150 ; LITWICK
-	mon_cry CRY_LAMPENT,      40,  150 ; LAMPENT
-	mon_cry CRY_CHANDELURE, 3050,  300 ; CHANDELURE
-	mon_cry CRY_VOLTORB,    3400,  128 ; DRIFLOON
-	mon_cry CRY_KRABBY,      200,  352 ; DRIFBLIM
-	mon_cry CRY_METAPOD,     152,   50 ; SINISTEA
-	mon_cry CRY_METAPOD,     132,   50 ; POLTEAGEIST
-	mon_cry CRY_DUNSPARCE,   750,  350 ; MISMAGIUS
-	mon_cry CRY_DUNSPARCE,   500,  400 ; SANDYGAST
-	mon_cry CRY_DUNSPARCE,  -300,  400 ; PALOSSAND
-	mon_cry CRY_LEDYBA,      -50,  200 ; ZORUA
-	mon_cry CRY_BLASTOISE,  -300,  400 ; ZOROARK
+	mon_cry CRY_LAMPENT,      40,  200 ; LAMPENT
+	mon_cry CRY_CHANDELURE,    0,  300 ; CHANDELURE
+	mon_cry CRY_DRIFLOON,      0,  256 ; DRIFLOON
+	mon_cry CRY_DRIFBLIM,      0,  270 ; DRIFBLIM
+	mon_cry CRY_SINISTEA,      0,  100 ; SINISTEA
+	mon_cry CRY_POLTEAGEIST,   0,  200 ; POLTEAGEIST
+	mon_cry CRY_MISMAGIUS,     0,  256 ; MISMAGIUS
+	mon_cry CRY_SANDYGAST,     0,  400 ; SANDYGAST
+	mon_cry CRY_PALOSSAND,     0,  256 ; PALOSSAND
+	mon_cry CRY_ZORUA,         0,  256 ; ZORUA
+	mon_cry CRY_ZOROARK,       0,  256 ; ZOROARK
 	assert_table_length NUM_POKEMON
