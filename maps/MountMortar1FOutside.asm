@@ -23,7 +23,7 @@ MountMortar1FOutsideZorua:
 	cry ZORUA
 	closetext
 	loadwildmon ZORUA, 25
-	loadvar VAR_BATTLETYPE, BATTLETYPE_ZORUA
+	loadvar VAR_BATTLETYPE, BATTLETYPE_GENERIC_LEGENDARY
 	startbattle
 	ifequal LOSE, .NotBeaten
 	disappear MOUNTMORTAR1FOUTSIDE_ZORUA

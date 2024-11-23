@@ -47,7 +47,7 @@ PlayBattleMusic:
 	jp z, .done
 	cp BATTLETYPE_ROAMING
 	jp z, .done
-	cp BATTLETYPE_ZORUA
+	cp BATTLETYPE_GENERIC_LEGENDARY
 	jp z, .done
 
 	; Are we fighting a trainer?

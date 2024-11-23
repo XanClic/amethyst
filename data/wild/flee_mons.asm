@@ -19,9 +19,6 @@ SometimesFleeMons:
 
 OftenFleeMons:
 	dw CUBONE
-	dw ARTICUNO
-	dw ZAPDOS
-	dw MOLTRES
 	dw QUAGSIRE
 	dw DELIBIRD
 	dw PHANPY

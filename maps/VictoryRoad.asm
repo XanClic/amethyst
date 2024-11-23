@@ -5,6 +5,7 @@
 	const VICTORYROAD_POKE_BALL3
 	const VICTORYROAD_POKE_BALL4
 	const VICTORYROAD_POKE_BALL5
+	const VICTORYROAD_MOLTRES
 
 VictoryRoad_MapScripts:
 	def_scene_scripts
@@ -161,6 +162,19 @@ VictoryRoadRivalBattleExitMovement2:
 	step DOWN
 	step_end
 
+VictoryRoadMoltres:
+	opentext
+	writetext VictoryRoadMoltresCryText
+	pause 15
+	cry MOLTRES
+	closetext
+	loadwildmon MOLTRES, 40
+	loadvar VAR_BATTLETYPE, BATTLETYPE_GENERIC_LEGENDARY
+	startbattle
+	disappear VICTORYROAD_MOLTRES
+	reloadmapafterbattle
+	end
+
 VictoryRoadRivalBeforeText:
 	text "Moment."
 
@@ -245,6 +259,10 @@ VictoryRoadRivalVictoryText:
 	line "nicht."
 	done
 
+VictoryRoadMoltresCryText:
+	text "LAVADOS: Rivii!"
+	done
+
 VictoryRoad_MapEvents:
 	db 0, 0 ; filler
 
@@ -275,3 +293,4 @@ VictoryRoad_MapEvents:
 	object_event 18, 29, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VictoryRoadFullRestore, EVENT_VICTORY_ROAD_FULL_RESTORE
 	object_event 15, 48, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VictoryRoadFullHeal, EVENT_VICTORY_ROAD_FULL_HEAL
 	object_event  7, 38, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VictoryRoadHPUp, EVENT_VICTORY_ROAD_HP_UP
+	object_event  6, 28, SPRITE_MOLTRES, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, VictoryRoadMoltres, EVENT_MOLTRES

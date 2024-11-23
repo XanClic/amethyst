@@ -205,7 +205,7 @@ KantoGrassWildMons:
 	dbw 3, LEDYBA
 	dbw 5, PIDGEY
 	dbw 7, BUTTERFREE
-	dbw 7, LEDIAN
+	dbw 4, BULBASAUR
 	dbw 4, PIKACHU
 	dbw 4, PIKACHU
 	; day
@@ -400,7 +400,7 @@ KantoGrassWildMons:
 	dbw 15, RATTATA
 	dbw 15, SPEAROW
 	dbw 15, RATICATE
-	dbw 15, FEAROW
+	dbw 15, MANKEY
 	dbw 15, FEAROW
 	dbw 18, MAROWAK
 	dbw 18, MAROWAK
@@ -408,7 +408,7 @@ KantoGrassWildMons:
 	dbw 15, RATTATA
 	dbw 15, SPEAROW
 	dbw 15, RATICATE
-	dbw 15, FEAROW
+	dbw 15, MANKEY
 	dbw 15, FEAROW
 	dbw 18, MAROWAK
 	dbw 18, MAROWAK
@@ -653,7 +653,7 @@ KantoGrassWildMons:
 	dbw 25, RATTATA
 	dbw 35, TANGELA
 	dbw 20, RATICATE
-	dbw 30, MR__MIME
+	dbw 5, SQUIRTLE
 	dbw 28, MR__MIME
 	dbw 28, MR__MIME
 	; day
@@ -840,6 +840,34 @@ KantoGrassWildMons:
 	dbw 42, GOLBAT
 	dbw 42, GOLBAT
 	dbw 42, GOLBAT
+	end_grass_wildmons
+
+	def_grass_wildmons CINNABAR_ISLAND
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	dbw 25, VULPIX
+	dbw 26, GROWLITHE
+	dbw 28, GRIMER
+	dbw 25, SLUGMA
+	dbw 5, CHARMANDER
+	dbw 28, MAGMAR
+	dbw 29, MAGMAR
+	; day
+	dbw 25, VULPIX
+	dbw 26, GROWLITHE
+	dbw 28, GRIMER
+	dbw 25, SLUGMA
+	dbw 25, PONYTA
+	dbw 28, MAGMAR
+	dbw 29, MAGMAR
+	; nite
+	dbw 27, KOFFING
+	dbw 27, GRIMER
+	dbw 28, HOUNDOUR
+	dbw 24, GASTLY
+	dbw 27, HAUNTER
+	dbw 36, WEEZING
+	dbw 38, MUK
 	end_grass_wildmons
 
 	db -1 ; end

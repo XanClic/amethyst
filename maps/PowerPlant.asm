@@ -6,6 +6,7 @@
 	const POWERPLANT_GYM_GUIDE3
 	const POWERPLANT_MANAGER
 	const POWERPLANT_FOREST
+	const POWERPLANT_ZAPDOS
 
 PowerPlant_MapScripts:
 	def_scene_scripts
@@ -212,6 +213,19 @@ PowerPlantOfficer1ReturnToPostMovement:
 	turn_head DOWN
 	step_end
 
+PowerPlantZapdos:
+	opentext
+	writetext PowerPlantZapdosCryText
+	pause 15
+	cry ZAPDOS
+	closetext
+	loadwildmon ZAPDOS, 40
+	loadvar VAR_BATTLETYPE, BATTLETYPE_GENERIC_LEGENDARY
+	startbattle
+	disappear POWERPLANT_ZAPDOS
+	reloadmapafterbattle
+	end
+
 PowerPlantOfficer1AThiefBrokeInText:
 	text "Ein Dieb ist in"
 	line "das KRAFTWERK"
@@ -396,6 +410,10 @@ PowerPlantManagerMyBelovedGeneratorText:
 	line "viel Energie!"
 	done
 
+PowerPlantZapdosCryText:
+	text "ZAPDOS: Zagiridi!"
+	done
+
 PowerPlant_MapEvents:
 	db 0, 0 ; filler
 
@@ -418,3 +436,4 @@ PowerPlant_MapEvents:
 	object_event  7,  2, SPRITE_GYM_GUIDE, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, PowerPlantGymGuide4Script, -1
 	object_event 14, 10, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, PowerPlantManager, -1
 	object_event  5,  5, SPRITE_GYM_GUIDE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Forest, -1
+	object_event 19,  1, SPRITE_MOLTRES, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, PowerPlantZapdos, EVENT_ZAPDOS

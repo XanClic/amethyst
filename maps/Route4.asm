@@ -3,6 +3,7 @@
 	const ROUTE4_LASS1
 	const ROUTE4_LASS2
 	const ROUTE4_POKE_BALL
+	const ROUTE4_MEWTWO
 
 Route4_MapScripts:
 	def_scene_scripts
@@ -50,6 +51,19 @@ Route4HPUp:
 
 Route4HiddenUltraBall:
 	hiddenitem ULTRA_BALL, EVENT_ROUTE_4_HIDDEN_ULTRA_BALL
+
+Route4Mewtwo:
+	opentext
+	writetext Route4MewtwoCryText
+	pause 15
+	cry MEWTWO
+	closetext
+	loadwildmon MEWTWO, 60
+	loadvar VAR_BATTLETYPE, BATTLETYPE_GENERIC_LEGENDARY
+	startbattle
+	disappear ROUTE4_MEWTWO
+	reloadmapafterbattle
+	end
 
 BirdKeeperHankSeenText:
 	text "Ich trainiere"
@@ -120,6 +134,10 @@ MtMoonSquareSignText:
 	line "hinauf"
 	done
 
+Route4MewtwoCryText:
+	text "MEWTU: Garara!"
+	done
+
 Route4_MapEvents:
 	db 0, 0 ; filler
 
@@ -137,3 +155,4 @@ Route4_MapEvents:
 	object_event  9,  8, SPRITE_LASS, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 4, TrainerPicnickerHope, -1
 	object_event 21,  6, SPRITE_LASS, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 4, TrainerPicnickerSharon, -1
 	object_event 26,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route4HPUp, EVENT_ROUTE_4_HP_UP
+	object_event 34,  2, SPRITE_JYNX, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, Route4Mewtwo, EVENT_MEWTWO

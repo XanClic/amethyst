@@ -8,7 +8,7 @@ BattleCommand_Teleport:
 	jr z, .failed
 	cp BATTLETYPE_SUICUNE
 	jr z, .failed
-	cp BATTLETYPE_ZORUA
+	cp BATTLETYPE_GENERIC_LEGENDARY
 	jr z, .failed
 
 	ld a, BATTLE_VARS_SUBSTATUS5_OPP

@@ -306,8 +306,8 @@ JohtoGrassWildMons:
 	dbw 15, RATTATA
 	dbw 14, ZUBAT
 	dbw 15, RATTATA
-	dbw 15, RATICATE
-	dbw 15, RATICATE
+	dbw 14, HOUNDOUR
+	dbw 15, HOUNDOUR
 	end_grass_wildmons
 
 	def_grass_wildmons BURNED_TOWER_B1F
@@ -331,8 +331,8 @@ JohtoGrassWildMons:
 	; nite
 	dbw 14, RATTATA
 	dbw 14, KOFFING
-	dbw 16, KOFFING
-	dbw 15, ZUBAT
+	dbw 16, ZUBAT
+	dbw 15, HOUNDOUR
 	dbw 15, LITWICK
 	dbw 16, LITWICK
 	dbw 16, WEEZING
@@ -390,8 +390,8 @@ JohtoGrassWildMons:
 	dbw 18, NATU
 	dbw 24, NATU
 	dbw 22, WOOPER
-	dbw 22, QUAGSIRE
-	dbw 22, QUAGSIRE
+	dbw 22, MURKROW
+	dbw 23, MURKROW
 	end_grass_wildmons
 
 	def_grass_wildmons RUINS_OF_ALPH_INNER_CHAMBER
@@ -1520,7 +1520,7 @@ JohtoGrassWildMons:
 	dbw 16, RATTATA
 	dbw 16, RATICATE
 	dbw 16, MAGNEMITE
-	dbw 16, PIDGEOTTO
+	dbw 14, CHIKORITA
 	dbw 13, TAUROS
 	dbw 13, MILTANK
 	dbw 13, MILTANK
@@ -1528,7 +1528,7 @@ JohtoGrassWildMons:
 	dbw 16, RATTATA
 	dbw 16, RATICATE
 	dbw 16, MAGNEMITE
-	dbw 16, PIDGEOTTO
+	dbw 14, MAREEP
 	dbw 13, TAUROS
 	dbw 13, MILTANK
 	dbw 13, MILTANK
@@ -1575,16 +1575,16 @@ JohtoGrassWildMons:
 	; morn
 	dbw 13, EKANS
 	dbw 14, SPEAROW
-	dbw 15, RATTATA
-	dbw 16, RATICATE
+	dbw 15, MANKEY
+	dbw 16, RATTATA
 	dbw 15, ARBOK
 	dbw 16, FEAROW
 	dbw 16, FEAROW
 	; day
 	dbw 13, EKANS
 	dbw 14, SPEAROW
-	dbw 15, RATTATA
-	dbw 16, RATICATE
+	dbw 15, MANKEY
+	dbw 16, RATTATA
 	dbw 15, ARBOK
 	dbw 16, FEAROW
 	dbw 16, FEAROW
@@ -1605,7 +1605,7 @@ JohtoGrassWildMons:
 	dbw 16, PIDGEOTTO
 	dbw 16, FARFETCH_D
 	dbw 15, FURRET
-	dbw 17, RATICATE
+	dbw 17, GIRAFARIG
 	dbw 17, FURRET
 	dbw 17, FURRET
 	; day
@@ -1613,7 +1613,7 @@ JohtoGrassWildMons:
 	dbw 16, PIDGEOTTO
 	dbw 16, FARFETCH_D
 	dbw 15, FURRET
-	dbw 17, RATICATE
+	dbw 17, GIRAFARIG
 	dbw 17, FURRET
 	dbw 17, FURRET
 	; nite
@@ -1621,7 +1621,7 @@ JohtoGrassWildMons:
 	dbw 16, NOCTOWL
 	dbw 16, RATICATE
 	dbw 17, VENONAT
-	dbw 17, RATICATE
+	dbw 17, GIRAFARIG
 	dbw 17, VENOMOTH
 	dbw 17, VENOMOTH
 	end_grass_wildmons
@@ -1669,7 +1669,7 @@ JohtoGrassWildMons:
 	dbw 23, GRAVELER
 	dbw 24, GLIGAR
 	dbw 25, DONPHAN
-	dbw 30, DONPHAN
+	dbw 13, CYNDAQUIL
 	dbw 27, SKARMORY
 	dbw 27, SKARMORY
 	; nite
@@ -1678,8 +1678,8 @@ JohtoGrassWildMons:
 	dbw 24, GLIGAR
 	dbw 25, GRAVELER
 	dbw 27, GRAVELER
-	dbw 27, GRAVELER
-	dbw 27, GRAVELER
+	dbw 27, LARVITAR
+	dbw 28, LARVITAR
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_46

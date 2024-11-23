@@ -3779,7 +3779,7 @@ TryToRunAwayFromBattle:
 	jp z, .cant_escape
 	cp BATTLETYPE_SUICUNE
 	jp z, .cant_escape
-	cp BATTLETYPE_ZORUA
+	cp BATTLETYPE_GENERIC_LEGENDARY
 	jp z, .cant_escape
 
 	ld a, [wLinkMode]

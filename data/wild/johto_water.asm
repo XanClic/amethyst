@@ -88,9 +88,9 @@ JohtoWaterWildMons:
 
 	def_water_wildmons WHIRL_ISLAND_LUGIA_CHAMBER
 	db 4 percent ; encounter rate
-	dbw 20, HORSEA
-	dbw 20, TENTACRUEL
 	dbw 20, SEADRA
+	dbw 20, OMANYTE
+	dbw 20, KABUTO
 	end_water_wildmons
 
 	def_water_wildmons SILVER_CAVE_ROOM_2
@@ -215,8 +215,8 @@ JohtoWaterWildMons:
 	def_water_wildmons NEW_BARK_TOWN
 	db 6 percent ; encounter rate
 	dbw 20, TENTACOOL
-	dbw 15, TENTACOOL
 	dbw 20, TENTACRUEL
+	dbw 15, TOTODILE
 	end_water_wildmons
 
 	def_water_wildmons CHERRYGROVE_CITY

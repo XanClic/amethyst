@@ -1461,6 +1461,11 @@
 	const EVENT_BATTLE_TOWER_OPEN_CIVILIANS
 	const EVENT_SHINY_LITWICK
 	const EVENT_ZORUA
+	const EVENT_ARTICUNO
+	const EVENT_ZAPDOS
+	const EVENT_MOLTRES
+	const EVENT_MEWTWO
+	const EVENT_MEW
 ; Unused: next 48 events
 
 	const_next 2048

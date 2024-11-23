@@ -4,6 +4,7 @@
 	const ICEPATHB1F_BOULDER3
 	const ICEPATHB1F_BOULDER4
 	const ICEPATHB1F_POKE_BALL
+	const ICEPATHB1F_ARTICUNO
 
 IcePathB1F_MapScripts:
 	def_scene_scripts
@@ -68,9 +69,26 @@ IcePathB1FIron:
 IcePathB1FHiddenMaxPotion:
 	hiddenitem MAX_POTION, EVENT_ICE_PATH_B1F_HIDDEN_MAX_POTION
 
+IcePathB1FArticuno:
+	opentext
+	writetext IcePathB1FArticunoCryText
+	pause 15
+	cry ARTICUNO
+	closetext
+	loadwildmon ARTICUNO, 40
+	loadvar VAR_BATTLETYPE, BATTLETYPE_GENERIC_LEGENDARY
+	startbattle
+	disappear ICEPATHB1F_ARTICUNO
+	reloadmapafterbattle
+	end
+
 IcePathBoulderFellThroughText:
 	text "Der Fels ist"
 	line "heruntergefallen."
+	done
+
+IcePathB1FArticunoCryText:
+	text "ARKTOS: A-ge!"
 	done
 
 IcePathB1F_MapEvents:
@@ -97,3 +115,4 @@ IcePathB1F_MapEvents:
 	object_event  8,  9, SPRITE_BOULDER, SPRITEMOVEDATA_STRENGTH_BOULDER, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, IcePathB1FBoulder, EVENT_BOULDER_IN_ICE_PATH_3
 	object_event 17,  7, SPRITE_BOULDER, SPRITEMOVEDATA_STRENGTH_BOULDER, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, IcePathB1FBoulder, EVENT_BOULDER_IN_ICE_PATH_4
 	object_event  5, 35, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, IcePathB1FIron, EVENT_ICE_PATH_B1F_IRON
+	object_event  4, 32, SPRITE_MOLTRES, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, IcePathB1FArticuno, EVENT_ARTICUNO
