@@ -2630,14 +2630,14 @@ PlayerAttackDamage:
 .physicalcrit
 	ld hl, wBattleMonAttack
 	call CheckDamageStatsCritical
-	jr c, .thickclub
+	jr c, .attack_boost_item
 
 	ld hl, wEnemyDefense
 	ld a, [hli]
 	ld b, a
 	ld c, [hl]
 	ld hl, wPlayerAttack
-	jr .thickclub
+	jr .attack_boost_item
 
 .special
 	ld hl, wEnemyMonSpclDef
@@ -2654,7 +2654,7 @@ PlayerAttackDamage:
 .specialcrit
 	ld hl, wBattleMonSpclAtk
 	call CheckDamageStatsCritical
-	jr c, .lightball
+	jr c, .spatk_boost_item
 
 	ld hl, wEnemySpDef
 	ld a, [hli]
@@ -2662,14 +2662,14 @@ PlayerAttackDamage:
 	ld c, [hl]
 	ld hl, wPlayerSpAtk
 
-.lightball
+.spatk_boost_item
 ; Note: Returns player special attack at hl in hl.
-	call LightBallBoost
+	call SpAtkBoostItem
 	jr .done
 
-.thickclub
+.attack_boost_item
 ; Note: Returns player attack at hl in hl.
-	call ThickClubBoost
+	call AttackBoostItem
 
 .done
 	push hl
@@ -2772,50 +2772,49 @@ CheckDamageStatsCritical:
 	pop hl
 	ret
 
-ThickClubBoost:
+AttackBoostItem:
 ; Return in hl the stat value at hl.
 
 ; If the attacking monster is Cubone or Marowak and
 ; it's holding a Thick Club, double it.
+; If the attacking monster is Pikachu or Mimikyu and
+; it's holding a Light Ball, double it.
 	push bc
 	push de
+	ld a, [hli]
+	ld l, [hl]
+	ld h, a
 	ld bc, CUBONE
 	ld d, THICK_CLUB
-	call SpeciesItemBoost
+	call DoubleStatIfSpeciesHoldingItem
 	if MAROWAK == (CUBONE + 1)
 		inc bc
 	else
 		ld bc, MAROWAK
 	endc
 	call DoubleStatIfSpeciesHoldingItem
-	pop de
-	pop bc
-	ret
+	jr SpAtkDoBoostItem
 
-LightBallBoost:
+SpAtkBoostItem:
 ; Return in hl the stat value at hl.
 
-; If the attacking monster is Pikachu and it's
-; holding a Light Ball, double it.
+; If the attacking monster is Pikachu or Mimikyu and
+; it's holding a Light Ball, double it.
 	push bc
 	push de
-	ld bc, PIKACHU
-	ld d, LIGHT_BALL
-	call SpeciesItemBoost
-	pop de
-	pop bc
-	ret
-
-SpeciesItemBoost:
-; Return in hl the stat value at hl.
-
-; If the attacking monster is species bc and
-; it's holding item d, double it.
-
+	; load from hli
 	ld a, [hli]
 	ld l, [hl]
 	ld h, a
-	; fallthrough
+SpAtkDoBoostItem:
+	ld bc, PIKACHU
+	ld d, LIGHT_BALL
+	call DoubleStatIfSpeciesHoldingItem
+	ld bc, MIMIKYU
+	call DoubleStatIfSpeciesHoldingItem
+	pop de
+	pop bc
+	ret
 
 DoubleStatIfSpeciesHoldingItem:
 ; If the attacking monster is species bc and
@@ -2893,14 +2892,14 @@ EnemyAttackDamage:
 .physicalcrit
 	ld hl, wEnemyMonAttack
 	call CheckDamageStatsCritical
-	jr c, .thickclub
+	jr c, .attack_boost_item
 
 	ld hl, wPlayerDefense
 	ld a, [hli]
 	ld b, a
 	ld c, [hl]
 	ld hl, wEnemyAttack
-	jr .thickclub
+	jr .attack_boost_item
 
 .special
 	ld hl, wBattleMonSpclDef
@@ -2917,19 +2916,19 @@ EnemyAttackDamage:
 .specialcrit
 	ld hl, wEnemyMonSpclAtk
 	call CheckDamageStatsCritical
-	jr c, .lightball
+	jr c, .spatk_boost_item
 	ld hl, wPlayerSpDef
 	ld a, [hli]
 	ld b, a
 	ld c, [hl]
 	ld hl, wEnemySpAtk
 
-.lightball
-	call LightBallBoost
+.spatk_boost_item
+	call SpAtkBoostItem
 	jr .done
 
-.thickclub
-	call ThickClubBoost
+.attack_boost_item
+	call AttackBoostItem
 
 .done
 	push hl
