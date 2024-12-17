@@ -163,4 +163,6 @@ MoveEffectsPointers:
 	dw Hex
 	dw ShellSmash
 	dw StoredPower
+	dw AttackSpeedUp
+	dw LeechBurnHit
 	assert_table_length NUM_MOVE_EFFECTS

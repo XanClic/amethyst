@@ -15,7 +15,6 @@ EcruteakGym_MapScripts:
 	def_callbacks
 
 EcruteakGymForcedToLeaveScene:
-	sdefer EcruteakGymClosed
 	end
 
 EcruteakGymNoopScene:
@@ -49,10 +48,10 @@ EcruteakGymSophieScript:
 .FightDone:
 	checkevent EVENT_GOT_TM30_SHADOW_BALL
 	iftrue .GotShadowBall
-	setevent EVENT_BEAT_SAGE_CHRISTIAN
+	setevent EVENT_BEAT_WITCHER_CHRISTIAN
 	setevent EVENT_BEAT_SAGE_BLIH
-	setevent EVENT_BEAT_MEDIUM_FINE
-	setevent EVENT_BEAT_MEDIUM_CLARA
+	setevent EVENT_BEAT_HEX_MANIAC_FINE
+	setevent EVENT_BEAT_HEX_MANIAC_CLARA
 	writetext SophieText_FogBadgeSpeech
 	promptbutton
 	verbosegiveitem TM_SHADOW_BALL
@@ -127,13 +126,13 @@ EcruteakGymClosed:
 	warp ECRUTEAK_CITY, 6, 27
 	end
 
-TrainerSageChristian:
-	trainer SAGE, CHRISTIAN, EVENT_BEAT_SAGE_CHRISTIAN, SageChristianSeenText, SageChristianBeatenText, 0, .Script
+TrainerWitcherChristian:
+	trainer WITCHER, CHRISTIAN, EVENT_BEAT_WITCHER_CHRISTIAN, WitcherChristianSeenText, WitcherChristianBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
 	opentext
-	writetext SageChristianAfterBattleText
+	writetext WitcherChristianAfterBattleText
 	waitbutton
 	closetext
 	end
@@ -149,24 +148,24 @@ TrainerSageBlih:
 	closetext
 	end
 
-TrainerMediumFine:
-	trainer MEDIUM, FINE, EVENT_BEAT_MEDIUM_FINE, MediumFineSeenText, MediumFineBeatenText, 0, .Script
+TrainerHexManiacFine:
+	trainer HEX_MANIAC, FINE, EVENT_BEAT_HEX_MANIAC_FINE, HexManiacFineSeenText, HexManiacFineBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
 	opentext
-	writetext MediumFineAfterBattleText
+	writetext HexManiacFineAfterBattleText
 	waitbutton
 	closetext
 	end
 
-TrainerMediumClara:
-	trainer MEDIUM, CLARA, EVENT_BEAT_MEDIUM_CLARA, MediumClaraSeenText, MediumClaraBeatenText, 0, .Script
+TrainerHexManiacClara:
+	trainer HEX_MANIAC, CLARA, EVENT_BEAT_HEX_MANIAC_CLARA, HexManiacClaraSeenText, HexManiacClaraBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
 	opentext
-	writetext MediumClaraAfterBattleText
+	writetext HexManiacClaraAfterBattleText
 	waitbutton
 	closetext
 	end
@@ -203,6 +202,16 @@ EcruteakGymMimikyu:
 	waitbutton
 	writetext EcruteakGymMimikyuCryContText
 	waitbutton
+	checkevent EVENT_BEAT_SOPHIE
+	iffalse .End
+	checkevent EVENT_GOT_LIGHT_BALL
+	iftrue .End
+	writetext EcruteakGymMimikyuGiveLightBallText
+	promptbutton
+	verbosegiveitem LIGHT_BALL
+	iffalse .End
+	setevent EVENT_GOT_LIGHT_BALL
+.End:
 	closetext
 	end
 
@@ -363,33 +372,25 @@ SophieLaterRematchText:
 	line "später!"
 	done
 
-SageChristianSeenText:
-	text "Ich habe den Früh-"
-	line "ling mit meinen"
+WitcherChristianSeenText:
+	text "Ich mag Hexen-"
+	line "hüte!"
 
-	para "#MON verbracht."
-	line "Dann den Sommer,"
-
-	para "den Herbst und den"
-	line "Winter…"
-
-	para "Dann kam wieder"
-	line "der Frühling. Wir"
-
-	para "haben viel Zeit"
-	line "miteinander ver-"
-	cont "bracht."
+	para "Sie sind bequem"
+	line "und einfach"
+	cont "schick."
 	done
 
-SageChristianBeatenText:
-	text "Siege und Nieder-"
-	line "lagen - ich hatte"
-	cont "beides."
+WitcherChristianBeatenText:
+	text "Normalisiert"
+	line "Männer mit"
+	cont "Hexenhüten!"
 	done
 
-SageChristianAfterBattleText:
-	text "Woher kommen"
-	line "#MON?"
+WitcherChristianAfterBattleText:
+	text "Nur leider rutscht"
+	line "mein Hut mir"
+	cont "immer vom Kopf…"
 	done
 
 SageBlihSeenText:
@@ -409,29 +410,29 @@ SageBlihAfterBattleText:
 	cont "auch Barista!"
 	done
 
-MediumFineSeenText:
+HexManiacFineSeenText:
 	text "Ich werde siegen!"
 	done
 
-MediumFineBeatenText:
+HexManiacFineBeatenText:
 	text "I-I-Ich habe"
 	line "verloren!"
 	done
 
-MediumFineAfterBattleText:
+HexManiacFineAfterBattleText:
 	text "Wer siegen will,"
 	line "wird es auch tun!"
 	done
 
-MediumClaraSeenText:
+HexManiacClaraSeenText:
 	text "Pass bloß auf!"
 	done
 
-MediumClaraBeatenText:
+HexManiacClaraBeatenText:
 	text "W-Was?"
 	done
 
-MediumClaraAfterBattleText:
+HexManiacClaraAfterBattleText:
 	text "Pass auf, wo du"
 	line "hin trittst!"
 
@@ -449,8 +450,7 @@ EcruteakGymGuideText:
 	line "verraten sie dir"
 
 	para "vielleicht ein"
-	line "paar Geheimnisse"
-	cont "über TEAK CITY."
+	line "paar Weisheiten."
 	done
 
 EcruteakGymGuideWinText:
@@ -483,6 +483,11 @@ EcruteakGymMimikyuCryContText:
 	line "schüchtern…"
 	done
 
+EcruteakGymMimikyuGiveLightBallText:
+	text "Es möchte dir"
+	line "etwas geben!"
+	done
+
 EcruteakGym_MapEvents:
 	db 0, 0 ; filler
 
@@ -499,9 +504,9 @@ EcruteakGym_MapEvents:
 
 	def_object_events
 	object_event  5,  1, SPRITE_SOPHIE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, EcruteakGymSophieScript, -1
-	object_event  2,  7, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 1, TrainerSageChristian, -1
+	object_event  2,  7, SPRITE_HEX_MANIAC, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 1, TrainerWitcherChristian, -1
 	object_event  3, 13, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerSageBlih, -1
-	object_event  7,  5, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 1, TrainerMediumFine, -1
-	object_event  7,  9, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 1, TrainerMediumClara, -1
+	object_event  6,  4, SPRITE_HEX_MANIAC, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 1, TrainerHexManiacFine, -1
+	object_event  3, 10, SPRITE_HEX_MANIAC, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 1, TrainerHexManiacClara, -1
 	object_event  7, 15, SPRITE_GYM_GUIDE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, EcruteakGymGuideScript, -1
 	object_event  4, 14, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ECRUTEAK_GYM_GRAMPS

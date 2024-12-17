@@ -8,6 +8,7 @@
 	const ROUTE36_ARTHUR
 	const ROUTE36_FLORIA
 	const ROUTE36_SUICUNE
+	const ROUTE36_TREVENANT
 
 Route36_MapScripts:
 	def_scene_scripts
@@ -15,7 +16,7 @@ Route36_MapScripts:
 	scene_script Route36Noop2Scene, SCENE_ROUTE36_SUICUNE
 
 	def_callbacks
-	callback MAPCALLBACK_OBJECTS, Route36ArthurCallback
+	callback MAPCALLBACK_OBJECTS, Route36ObjCallbacks
 
 Route36Noop1Scene:
 	end
@@ -23,14 +24,35 @@ Route36Noop1Scene:
 Route36Noop2Scene:
 	end
 
-Route36ArthurCallback:
+Route36ObjCallbacks:
 	readvar VAR_WEEKDAY
 	ifequal THURSDAY, .ArthurAppears
 	disappear ROUTE36_ARTHUR
-	endcallback
-
+	sjump .TrevenantCheck
 .ArthurAppears:
 	appear ROUTE36_ARTHUR
+
+.TrevenantCheck:
+	checkflag ENGINE_ROUTE36_TREVENANT
+	iftrue .Hide
+	readvar VAR_WEEKDAY
+	ifequal SATURDAY, .Saturday
+	ifequal SUNDAY, .Sunday
+	disappear ROUTE36_TREVENANT
+	endcallback
+
+.Saturday:
+	readvar VAR_HOUR
+	ifless NITE_HOUR, .Hide
+.Show:
+	appear ROUTE36_TREVENANT
+	endcallback
+
+.Sunday:
+	readvar VAR_HOUR
+	ifless MORN_HOUR, .Show
+.Hide:
+	disappear ROUTE36_TREVENANT
 	endcallback
 
 Route36SuicuneScript:
@@ -80,6 +102,17 @@ WateredWeirdTreeScript:: ; export (for when you use Squirtbottle from pack)
 	ifequal DRAW, DidntCatchSudowoodo
 	disappear ROUTE36_WEIRD_TREE
 	variablesprite SPRITE_WEIRD_TREE, SPRITE_TWIN
+	reloadmapafterbattle
+	end
+
+TrevenantScript:
+	cry TREVENANT
+	showemote EMOTE_SHOCK, PLAYER, 15
+	pause 15
+	loadwildmon TREVENANT, 20
+	startbattle
+	disappear ROUTE36_TREVENANT
+	setflag ENGINE_ROUTE36_TREVENANT
 	reloadmapafterbattle
 	end
 
@@ -723,3 +756,4 @@ Route36_MapEvents:
 	object_event 46,  6, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ArthurScript, EVENT_ROUTE_36_ARTHUR_OF_THURSDAY
 	object_event 33, 12, SPRITE_LASS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Route36FloriaScript, EVENT_FLORIA_AT_SUDOWOODO
 	object_event 21,  6, SPRITE_SUICUNE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_SAW_SUICUNE_ON_ROUTE_36
+	object_event 32,  9, SPRITE_WEIRD_TREE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TrevenantScript, EVENT_TREVENANT

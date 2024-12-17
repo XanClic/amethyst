@@ -82,6 +82,28 @@ LeechHit:
 	kingsrock
 	endmove
 
+LeechBurnHit:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	effectchance
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	draintarget
+	checkfaint
+	buildopponentrage
+	burntarget
+	endmove
+
 BurnHit:
 	checkobedience
 	usedmovetext
@@ -2097,6 +2119,21 @@ AccuracyAttackUp:
 	statupmessage
 	statupfailtext
 	attackup
+	statupmessage
+	statupfailtext
+	endmove
+
+AttackSpeedUp:
+	checkobedience
+	usedmovetext
+	doturn
+	lowersub
+	statupanim
+	raisesub
+	attackup
+	statupmessage
+	statupfailtext
+	speedup
 	statupmessage
 	statupfailtext
 	endmove

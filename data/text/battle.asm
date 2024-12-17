@@ -1202,3 +1202,15 @@ BattleText_DisguiseBroken:
 	line "Verkleidung ist"
 	cont "dahin!"
 	prompt
+
+BattleText_ShieldForm:
+	text "<USER>"
+	line "wechselt in die"
+	cont "Schildform!"
+	prompt
+
+BattleText_BladeForm:
+	text "<USER>"
+	line "wechselt in die"
+	cont "Klingenform!"
+	prompt

@@ -11,3 +11,25 @@
 	dw PalossandBitmasks
 	dw ZoruaBitmasks
 	dw ZoroarkBitmasks
+	dw PhantumpBitmasks
+	dw TrevenantBitmasks
+	dw DreepyBitmasks
+	dw DrakloakBitmasks
+	dw DragapultBitmasks
+	dw HonedgeBitmasks
+	dw DoubladeBitmasks
+	dw AegislashBitmasks
+	dw SnoruntBitmasks
+	dw FroslassBitmasks
+	dw GreavardBitmasks
+	dw HoundstoneBitmasks
+	dw MarshadowBitmasks
+	dw RotomBitmasks
+	dw GolettBitmasks
+	dw GolurkBitmasks
+	dw FrillishBitmasks
+	dw JellicentBitmasks
+	dw PumpkabooBitmasks
+	dw GourgeistBitmasks
+	dw PoltchageistBitmasks
+	dw SinistchaBitmasks

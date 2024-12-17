@@ -617,7 +617,6 @@ DEF KRIS EQU __trainer_class__
 	const NICO
 	const JIN
 	const TROY
-	const CHRISTIAN
 	const BLIH
 	const EDMOND
 	const NEAL
@@ -626,7 +625,7 @@ DEF KRIS EQU __trainer_class__
 	const MASA
 	const KOJI
 
-	trainerclass MEDIUM ; 39
+	trainerclass HEX_MANIAC ; 39
 	const FINE
 	const CLARA
 	const BETHANY ; unused
@@ -703,5 +702,8 @@ DEF KRIS EQU __trainer_class__
 
 	trainerclass MYSTICALMAN ; 43
 	const EUSINE
+
+	trainerclass WITCHER ; 44
+	const CHRISTIAN
 
 DEF NUM_TRAINER_CLASSES EQU __trainer_class__ - 1

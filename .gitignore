@@ -55,3 +55,6 @@ used_space.png
 
 # macos files
 .DS_STORE
+
+# GIMP source files
+*.xcf

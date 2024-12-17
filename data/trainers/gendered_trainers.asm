@@ -26,10 +26,11 @@ MaleTrainers:
 	db SAGE
 	db BIKER
 	db SCIENTIST
+	db WITCHER
 .End
 
 FemaleTrainers:
-	db MEDIUM
+	db HEX_MANIAC
 	db LASS
 	db BEAUTY
 	db SKIER

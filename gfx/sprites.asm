@@ -107,3 +107,8 @@ EnteiSpriteGFX::               INCBIN "gfx/sprites/entei.2bpp"
 RaikouSpriteGFX::              INCBIN "gfx/sprites/raikou.2bpp"
 StandingYoungsterSpriteGFX::   INCBIN "gfx/sprites/standing_youngster.2bpp"
 LitwickSpriteGFX::             INCBIN "gfx/sprites/litwick.2bpp"
+
+
+SECTION "Sprites 3", ROMX
+
+HexManiacSpriteGFX::           INCBIN "gfx/sprites/hex_maniac.2bpp"

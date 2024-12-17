@@ -1,4 +1,6 @@
 BattleCommand_Protect:
+	farcall Aegislash_ShieldForm
+
 	call ProtectChance
 	ret c
 

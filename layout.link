@@ -169,13 +169,12 @@ ROMX $39
 	"bank39"
 ROMX $3a
 	"Audio"
-	"Songs 1"
+	"Sprites 3"
 ROMX $3b
 	"Songs 2"
 ROMX $3c
 	"Songs 3"
 	"Sound Effects"
-	"Cries"
 ROMX $3d
 	"Songs 4"
 ROMX $3e
@@ -183,7 +182,8 @@ ROMX $3e
 ROMX $3f
 	"bank3F"
 ROMX $40
-	"mobile40"
+	; "mobile40"
+	"More pics 1"
 ROMX $41
 	"bank41"
 	"Enemy Trainer Parties 1"
@@ -193,8 +193,10 @@ ROMX $42
 	"Credits"
 ROMX $43
 	"Title"
+	"Cries"
 ROMX $44
-	"Mobile Adapter SDK"
+	; "Mobile Adapter SDK"
+	"Songs 1"
 ROMX $45
 	"Mobile Adapter SDK Mail"
 	"mobile45"
@@ -242,7 +244,7 @@ ROMX $58
 ROMX $59
 	"Pics 18"
 ROMX $5a
-	"Pics 19"
+	"More pics 0"
 ROMX $5b
 	"bank5B"
 ROMX $5c

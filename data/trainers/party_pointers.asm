@@ -59,7 +59,7 @@ TrainerGroups:
 	dba CamperGroup
 	dba ExecutiveFGroup
 	dba SageGroup
-	dba MediumGroup
+	dba HexManiacGroup
 	dba BoarderGroup
 	dba PokefanMGroup
 	dba KimonoGirlGroup
@@ -70,4 +70,5 @@ TrainerGroups:
 	dba OfficerGroup
 	dba GruntFGroup
 	dba MysticalmanGroup
+	dba WitcherGroup
 	assert_table_length NUM_TRAINER_CLASSES

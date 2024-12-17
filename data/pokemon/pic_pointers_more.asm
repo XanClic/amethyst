@@ -24,3 +24,47 @@
 	dba ZoruaBackpic
 	dba ZoroarkFrontpic
 	dba ZoroarkBackpic
+	dba PhantumpFrontpic
+	dba PhantumpBackpic
+	dba TrevenantFrontpic
+	dba TrevenantBackpic
+	dba DreepyFrontpic
+	dba DreepyBackpic
+	dba DrakloakFrontpic
+	dba DrakloakBackpic
+	dba DragapultFrontpic
+	dba DragapultBackpic
+	dba HonedgeFrontpic
+	dba HonedgeBackpic
+	dba DoubladeFrontpic
+	dba DoubladeBackpic
+	dba AegislashFrontpic
+	dba AegislashBackpic
+	dba SnoruntFrontpic
+	dba SnoruntBackpic
+	dba FroslassFrontpic
+	dba FroslassBackpic
+	dba GreavardFrontpic
+	dba GreavardBackpic
+	dba HoundstoneFrontpic
+	dba HoundstoneBackpic
+	dba MarshadowFrontpic
+	dba MarshadowBackpic
+	dba RotomFrontpic
+	dba RotomBackpic
+	dba GolettFrontpic
+	dba GolettBackpic
+	dba GolurkFrontpic
+	dba GolurkBackpic
+	dba FrillishFrontpic
+	dba FrillishBackpic
+	dba JellicentFrontpic
+	dba JellicentBackpic
+	dba PumpkabooFrontpic
+	dba PumpkabooBackpic
+	dba GourgeistFrontpic
+	dba GourgeistBackpic
+	dba PoltchageistFrontpic
+	dba PoltchageistBackpic
+	dba SinistchaFrontpic
+	dba SinistchaBackpic

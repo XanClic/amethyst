@@ -7398,12 +7398,21 @@ GiveExperiencePoints:
 	ld bc, PARTYMON_STRUCT_LENGTH - MON_ATK
 	call CopyBytes
 
+	ld a, [wPlayerSubStatus4]
+	bit SUBSTATUS_BLADE_FORM, a
+	jr z, .no_blade_form
+
+	farcall Aegislash_DoBladeForm
+	jr .skip_stat_modifiers
+
+.no_blade_form
 .transformed
 	xor a ; FALSE
 	ld [wApplyStatLevelMultipliersToEnemy], a
 	call ApplyStatLevelMultiplierOnAllStats
 	callfar ApplyStatusEffectOnPlayerStats
 	callfar BadgeStatBoosts
+.skip_stat_modifiers
 	callfar UpdatePlayerHUD
 	call EmptyBattleTextbox
 	call LoadTilemapToTempTilemap
@@ -8109,6 +8118,19 @@ DropPlayerSub:
 	predef GetUnownLetter
 	ld de, vTiles2 tile $31
 	predef GetMonBackpic
+
+	ld a, [wBattleMonStatus]
+	bit BUSTED, a
+	jr z, .no_busted_mimikyu
+	farcall Mimikyu_ShowBusted_Player
+.no_busted_mimikyu:
+
+	ld a, [wPlayerSubStatus4]
+	bit SUBSTATUS_BLADE_FORM, a
+	jr z, .no_blade_aegislash
+	farcall Aegislash_ShowBladeForm_Player
+.no_blade_aegislash:
+
 	pop af
 	ld [wCurPartySpecies], a
 	ret
@@ -8146,6 +8168,19 @@ DropEnemySub:
 	predef GetUnownLetter
 	ld de, vTiles2
 	predef GetAnimatedFrontpic
+
+	ld a, [wEnemyMonStatus]
+	bit BUSTED, a
+	jr z, .no_busted_mimikyu
+	farcall Mimikyu_ShowBusted_Enemy
+.no_busted_mimikyu:
+
+	ld a, [wPlayerSubStatus4]
+	bit SUBSTATUS_BLADE_FORM, a
+	jr z, .no_blade_aegislash
+	farcall Aegislash_ShowBladeForm_Enemy
+.no_blade_aegislash:
+
 	pop af
 	ld [wCurPartySpecies], a
 	ret

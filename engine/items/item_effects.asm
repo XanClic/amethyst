@@ -1411,7 +1411,8 @@ UseStatusHealer:
 	ret nc
 	ld b, PARTYMENUTEXT_HEAL_CONFUSION
 .good
-	xor a
+    ld a, [hl]
+    and 1 << BUSTED
 	ld [hl], a
 	ld a, b
 	ld [wPartyMenuActionText], a

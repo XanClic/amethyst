@@ -57,7 +57,7 @@ TrainerClassNames::
 	li "CAMPER"
 	li "ROCKET"
 	li "WEISER"
-	li "MEDIUM"
+	li "HEXE"
 	li "SNOWBOARDER"
 	li "#FAN"
 	li "KIMONO-GIRL"
@@ -68,4 +68,5 @@ TrainerClassNames::
 	li "WÄCHTER"
 	li "ROCKET"
 	li "MYSTIKER"
+	li "HEXER"
 	assert_list_length NUM_TRAINER_CLASSES

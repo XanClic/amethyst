@@ -251,7 +251,7 @@ MoveNames::
 	li "ZERTRÜMMERER"
 	li "WHIRLPOOL"
 	li "PRÜGLER"
-	li "---" ; used to be KOSTÜMSPUK
+	li "HOLZHAMMER"
 	li "KNUDDLER"
 	li "SCHATTENSTOß"
 	li "DUNKELKLAUE"
@@ -265,4 +265,9 @@ MoveNames::
 	li "HAUSBRUCH"
 	li "KRAFTVORRAT"
 	li "ERDKRÄFTE"
+	li "HOLZGEWEIH"
+	li "QUIRLSCHUSS"
+	li "DRACHENTANZ"
+	li "DRACHENSTOSS"
+	li "DRACHENPFEIL"
 	assert_list_length NUM_ATTACKS

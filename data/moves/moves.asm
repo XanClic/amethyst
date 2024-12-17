@@ -42,6 +42,7 @@ Moves::
 	indirect_table_end
 
 Moves1:
+	;    effect		    damage  category   type         acc  pp  sec. %
 	move EFFECT_NORMAL_HIT,         40, PHYSICAL + MT_NORMAL,   100, 35,   0      ;POUND
 	move EFFECT_NORMAL_HIT,         50, PHYSICAL + MT_FIGHTING, 100, 25,   0      ;KARATE_CHOP
 	move EFFECT_MULTI_HIT,          15, PHYSICAL + MT_NORMAL,    85, 10,   0      ;DOUBLESLAP
@@ -293,7 +294,7 @@ Moves1:
 	move EFFECT_DEFENSE_DOWN_HIT,   40, PHYSICAL + MT_FIGHTING, 100, 15,  50      ;ROCK_SMASH
 	move EFFECT_TRAP_TARGET,        35,  SPECIAL + MT_WATER,     85, 15,   0      ;WHIRLPOOL
 	move EFFECT_BEAT_UP,            10, PHYSICAL + MT_DARK,     100, 10,   0      ;BEAT_UP
-	move EFFECT_SPLASH,              0,   STATUS + MT_GHOST,    100,  5,   0      ;[used to be DISGUISE]
+	move EFFECT_RECOIL_HIT,	       120, PHYSICAL + MT_GRASS,    100, 15,   0      ;WOOD_HAMMER
 	move EFFECT_ATTACK_DOWN_HIT,    90, PHYSICAL + MT_FAIRY,     90, 10,  10      ;PLAY_ROUGH
 	move EFFECT_PRIORITY_HIT,       40, PHYSICAL + MT_GHOST,    100, 30,   0      ;SHADOW_SNEAK
 	move EFFECT_NORMAL_HIT,         70, PHYSICAL + MT_GHOST,    100, 15,   0      ;SHADOW_CLAW
@@ -307,4 +308,9 @@ Moves1:
 	move EFFECT_SHELL_SMASH,         0,   STATUS + MT_NORMAL,   100, 15,   0      ;SHELL_SMASH
 	move EFFECT_STORED_POWER,       20,  SPECIAL + MT_PSYCHIC,  100, 10,   0      ;STORED_POWER
 	move EFFECT_SP_DEF_DOWN_HIT,    90,  SPECIAL + MT_GROUND,   100, 10,  10      ;EARTH_POWER
+	move EFFECT_LEECH_HIT,	        75, PHYSICAL + MT_GRASS,    100, 10,   0      ;HORN_LEECH
+	move EFFECT_LEECH_BURN_HIT,     80,  SPECIAL + MT_GRASS,     90, 15,  20      ;MATCHA_GOTCHA
+	move EFFECT_ATK_SPD_UP,	         0,   STATUS + MT_DRAGON,   100, 20,   0      ;DRAGON_DANCE
+	move EFFECT_FLINCH_HIT,        100, PHYSICAL + MT_DRAGON,    75, 10,  20      ;DRAGON_RUSH
+	move EFFECT_DOUBLE_HIT,         50, PHYSICAL + MT_DRAGON,   100, 10,   0      ;DRAGON_DARTS
 .IndirectEnd::

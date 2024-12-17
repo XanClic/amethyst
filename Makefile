@@ -156,7 +156,9 @@ gfx/pokemon/%/frames.asm: gfx/pokemon/%/front.animated.tilemap gfx/pokemon/%/fro
 ### Misc file-specific graphics rules
 
 gfx/pokemon/%/back.2bpp: rgbgfx += -Z -c embedded
+gfx/pokemon/%/back-alt.2bpp: rgbgfx += -Z -c embedded
 gfx/pokemon/%/front.2bpp: rgbgfx += -c embedded
+gfx/pokemon/%/front-alt.2bpp: rgbgfx += -Z -c embedded
 
 gfx/trainers/%.2bpp: rgbgfx += -Z -c embedded
 

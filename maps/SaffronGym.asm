@@ -24,8 +24,8 @@ SaffronGymSabrinaScript:
 	startbattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_SABRINA
-	setevent EVENT_BEAT_MEDIUM_REBECCA
-	setevent EVENT_BEAT_MEDIUM_DORIS
+	setevent EVENT_BEAT_HEX_MANIAC_REBECCA
+	setevent EVENT_BEAT_HEX_MANIAC_DORIS
 	setevent EVENT_BEAT_PSYCHIC_FRANKLIN
 	setevent EVENT_BEAT_PSYCHIC_JARED
 	opentext
@@ -44,13 +44,13 @@ SaffronGymSabrinaScript:
 	closetext
 	end
 
-TrainerMediumRebecca:
-	trainer MEDIUM, REBECCA, EVENT_BEAT_MEDIUM_REBECCA, MediumRebeccaSeenText, MediumRebeccaBeatenText, 0, .Script
+TrainerHexManiacRebecca:
+	trainer HEX_MANIAC, REBECCA, EVENT_BEAT_HEX_MANIAC_REBECCA, HexManiacRebeccaSeenText, HexManiacRebeccaBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
 	opentext
-	writetext MediumRebeccaAfterBattleText
+	writetext HexManiacRebeccaAfterBattleText
 	waitbutton
 	closetext
 	end
@@ -66,13 +66,13 @@ TrainerPsychicFranklin:
 	closetext
 	end
 
-TrainerMediumDoris:
-	trainer MEDIUM, DORIS, EVENT_BEAT_MEDIUM_DORIS, MediumDorisSeenText, MediumDorisBeatenText, 0, .Script
+TrainerHexManiacDoris:
+	trainer HEX_MANIAC, DORIS, EVENT_BEAT_HEX_MANIAC_DORIS, HexManiacDorisSeenText, HexManiacDorisBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
 	opentext
-	writetext MediumDorisAfterBattleText
+	writetext HexManiacDorisAfterBattleText
 	waitbutton
 	closetext
 	end
@@ -205,7 +205,7 @@ SabrinaFightDoneText:
 	cont "Psychostärke…"
 	done
 
-MediumRebeccaSeenText:
+HexManiacRebeccaSeenText:
 	text "Die Kraft all"
 	line "derer, die du"
 	cont "besiegt hast,"
@@ -213,12 +213,12 @@ MediumRebeccaSeenText:
 	cont "mir!"
 	done
 
-MediumRebeccaBeatenText:
+HexManiacRebeccaBeatenText:
 	text "Stark…"
 	line "Viel zu stark…"
 	done
 
-MediumRebeccaAfterBattleText:
+HexManiacRebeccaAfterBattleText:
 	text "Woher kommt deine"
 	line "Kraft?"
 	done
@@ -241,7 +241,7 @@ PsychicFranklinAfterBattleText:
 	cont "Fähigkeiten."
 	done
 
-MediumDorisSeenText:
+HexManiacDorisSeenText:
 	text "Hehehehe…"
 	line "Ich habe es"
 	cont "deutlich vor mir."
@@ -250,13 +250,13 @@ MediumDorisSeenText:
 	line "Seele blicken!"
 	done
 
-MediumDorisBeatenText:
+HexManiacDorisBeatenText:
 	text "Obwohl ich in dir"
 	line "lesen kann, habe"
 	cont "ich verloren…"
 	done
 
-MediumDorisAfterBattleText:
+HexManiacDorisAfterBattleText:
 	text "Mist! Ich habe"
 	line "vergessen, dass"
 	cont "ich meine Nieder-"
@@ -356,8 +356,8 @@ SaffronGym_MapEvents:
 
 	def_object_events
 	object_event  9,  8, SPRITE_SABRINA, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, SaffronGymSabrinaScript, -1
-	object_event 17, 16, SPRITE_GRANNY, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 3, TrainerMediumRebecca, -1
+	object_event 17, 16, SPRITE_HEX_MANIAC, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 3, TrainerHexManiacRebecca, -1
 	object_event  3, 16, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerPsychicFranklin, -1
-	object_event  3,  4, SPRITE_GRANNY, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 2, TrainerMediumDoris, -1
+	object_event  3,  4, SPRITE_HEX_MANIAC, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 2, TrainerHexManiacDoris, -1
 	object_event 17,  4, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 2, TrainerPsychicJared, -1
 	object_event  9, 14, SPRITE_GYM_GUIDE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, SaffronGymGuideScript, -1

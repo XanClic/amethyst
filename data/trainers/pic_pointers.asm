@@ -59,7 +59,7 @@ TrainerPicPointers::
 	dba CamperPic
 	dba ExecutivefPic
 	dba SagePic
-	dba MediumPic
+	dba HexManiacPic
 	dba BoarderPic
 	dba PokefanmPic
 	dba KimonoGirlPic
@@ -70,4 +70,5 @@ TrainerPicPointers::
 	dba OfficerPic
 	dba GruntfPic
 	dba MysticalmanPic
+	dba WitcherPic
 	assert_table_length NUM_TRAINER_CLASSES

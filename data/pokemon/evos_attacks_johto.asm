@@ -553,6 +553,7 @@ SudowoodoEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, ROCK_THROW
 	dbw 1, MIMIC
+	dbw 1, WOOD_HAMMER
 	dbw 10, FLAIL
 	dbw 19, LOW_KICK
 	dbw 28, ROCK_SLIDE
@@ -1139,6 +1140,7 @@ KingdraEvosAttacks:
 	dbw 29, TWISTER
 	dbw 40, AGILITY
 	dbw 51, HYDRO_PUMP
+	dbw 62, DRAGON_DANCE
 	db 0 ; no more level-up moves
 
 PhanpyEvosAttacks:
@@ -1188,7 +1190,8 @@ StantlerEvosAttacks:
 	dbw 15, HYPNOSIS
 	dbw 23, STOMP
 	dbw 31, SAND_ATTACK
-	dbw 40, TAKE_DOWN
+	dbw 37, TAKE_DOWN
+	dbw 44, HORN_LEECH
 	dbw 49, CONFUSE_RAY
 	db 0 ; no more level-up moves
 

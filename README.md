@@ -1,83 +1,127 @@
-# 16-bit index expansion for Crystal
+# Summary
 
-This repository is a modernized and rebased version of [AX6](https://github.com/aaaaaa123456789)'s work found at https://github.com/aaaaaa123456789/pokecrystal16.
-It includes additional features such as the new `expand-item-ID` branch and the `newbox`/`item-newbox` branches.
+This is a version of PKMN Crystal with stuff that I’d like to have in it (i.e. more Ghost types).  It isn’t a
+complete overhaul or anything close to it, these are just a couple of things that I liked to have added, so I did.
 
-This repository contains a modified Pokémon Crystal game, updated to handle 16-bit indexes. The main goal of this
-project is to create a reusable system that ROM hacks can use to bring 16-bit indexes into their games.  
-It is *not* within scope to create a new game, or to add additional features beyond 16-bit indexes.
+The `main` branch is in German, but there’s also an `english` branch.
 
-The `master` branch of this repository is intended to perform identically to the original Pokémon Crystal, with
-minimal changes to support further development on it. Other branches will implement more features on top of it; the
-intention is that the necessary changes can be readily seen by comparing said branches to `master` (or between each
-other). Therefore, these other branches will never be merged into `master`, even though they will always be directly
-descended from it (i.e., in Git terminology, a merge would be a fast-forward).
+Based on the 16-bit monster and move index patches from https://github.com/vulcandth/pokecrystal16 (I rebased
+https://github.com/pret/pokecrystal on top of that); I got the data for the German version from
+https://github.com/mid-kid/pokecrystal (with a lot of manual fix-up, and I definitely missed some stuff).
 
-Since this repository is intended to be used as a reference, the commit history is intentionally kept clean to make
-changes clearly visible. Therefore, modifications (such as bug fixes) will often be merged into whichever commit is
-more suitable for them, with the remainder of the commit tree rebased on top of the updated commit. **Please do not
-fork this repository to build a new game on top** (unless you intend to contribute to it), as the publicly-visible
-history will be repeatedly rewritten, making merges impossible. If you do want to contribute to the repository, let
-me know in advance so I can notify you of history rewrites.
+# Added Mons
 
-For update notifications, discussions, bug reports, and feedback, join our Discord server: [Fellowship of the Roms (Public)](https://discord.gg/dvpf6wcqMn). 
-Once there, navigate to the `#reaction-roles` channel and react to pokecrystal16 to gain access to the `#pokecrystal16` channels.
+|Name|Back|Front|How to obtain|Notes|
+|:-:|:-:|:-:|:-|:-|
+|252<br />Mimikyu|![back](readme/mon/mimikyu-back.png)<br />![back, disguise broken](readme/mon/mimikyu-alt-back.png)|![front](readme/mon/mimikyu.gif) ![shiny](readme/mon/mimikyu-shiny.gif)<br />![front, disguise broken](readme/mon/mimikyu-alt.png) ![shiny, disguise broken](readme/mon/mimikyu-alt-shiny.png)|<ul><li>Route 46, at night</li><li>Ecruteak City gym</li></ul>|Has Disguise|
+|253<br />Litwick|![back](readme/mon/litwick-back.png)|![front](readme/mon/litwick.gif) ![shiny](readme/mon/litwick-shiny.gif)|<ul><li>Ecruteak City gym</li><li>Burned tower’s basement, at night</li><li>Overworld in the burned tower’s basement, at night (shiny, level 23)</li></ul>||
+|254<br />Lampent|![back](readme/mon/lampent-back.png)|![front](readme/mon/lampent.gif) ![shiny](readme/mon/lampent-shiny.gif)|<ul><li>Evolves from Litwick at level 41</li></ul>||
+|255<br />Chandelure|![back](readme/mon/chandelure-back.png)|![front](readme/mon/chandelure.gif) ![shiny](readme/mon/chandelure-shiny.gif)|<ul><li>Evolves from Lampent at level 55</li></ul>||
+|256<br />Drifloon|![back](readme/mon/drifloon-back.png)|![front](readme/mon/drifloon.gif) ![shiny](readme/mon/drifloon-shiny.gif)|<ul><li>National park, at night</li><li>Ecruteak City gym (surfing)</li></ul>||
+|257<br />Drifblim|![back](readme/mon/drifblim-back.png)|![front](readme/mon/drifblim.gif) ![shiny](readme/mon/drifblim-shiny.gif)|<ul><li>Evolves from Drifloon at level 28</li></ul>||
+|258<br />Sinistea|![back](readme/mon/sinistea-back.png)|![front](readme/mon/sinistea.gif) ![shiny](readme/mon/sinistea-shiny.gif)|<ul><li>Ecruteak City gym</li><li>Route 38, at night</li>||
+|259<br />Polteageist|![back](readme/mon/polteageist-back.png)|![front](readme/mon/polteageist.gif) ![shiny](readme/mon/polteageist-shiny.gif)|<ul><li>Evolves from Sinistea at level 28</li></ul>||
+|260<br />Mismagius|![back](readme/mon/mismagius-back.png)|![front](readme/mon/mismagius.gif) ![shiny](readme/mon/mismagius-shiny.gif)|<ul><li>Evolves from Misdreavus at level 41</li><li>Mt. Silver Cave’s 2F and item rooms, at night</li></ul>||
+|261<br />Sandygast|![back](readme/mon/sandygast-back.png)|![front](readme/mon/sandygast.gif) ![shiny](readme/mon/sandygast-shiny.gif)|<ul><li>Under smashable rocks</li></ul>
+|262<br />Palossand|![back](readme/mon/palossand-back.png)|![front](readme/mon/palossand.gif) ![shiny](readme/mon/palossand-shiny.gif)|<ul><li>Evolves from Sandygast at level 42</li></ul>||
+|263<br />Zorua|![back](readme/mon/zorua-back.png)|![front](readme/mon/zorua.gif) ![shiny](readme/mon/zorua-shiny.gif)|<ul><li>Overworld in Mt. Mortar (level 25)</li></ul>||
+|264<br />Zoroark|![back](readme/mon/zoroark-back.png)|![front](readme/mon/zoroark.gif) ![shiny](readme/mon/zoroark-shiny.gif)|<ul><li>Evolves from Zorua at level 30</li></ul>||
+|265<br />Phantump|![back](readme/mon/phantump-back.png)|![front](readme/mon/phantump.gif) ![shiny](readme/mon/phantump-shiny.gif)|<ul><li>Can be bred from Trevenant</li></ul>||
+|266<br />Trevenant|![back](readme/mon/trevenant-back.png)|![front](readme/mon/trevenant.gif) ![shiny](readme/mon/trevenant-shiny.gif)|<ul><li>Evolves from Phantump by trading</li><li>Overworld on Route 36, on Saturday night</li></ul>||
+|267<br />Dreepy|![back](readme/mon/dreepy-back.png)|![front](readme/mon/dreepy.gif) ![shiny](readme/mon/dreepy-shiny.gif)|<ul><li>Dragon’s Den (surfing)</li></ul>||
+|268<br />Drakloak|![back](readme/mon/drakloak-back.png)|![front](readme/mon/drakloak.gif) ![shiny](readme/mon/drakloak-shiny.gif)|<ul><li>Evolves from Dreepy at level 50</li></ul>||
+|269<br />Dragapult|![back](readme/mon/dragapult-back.png)|![front](readme/mon/dragapult.gif) ![shiny](readme/mon/dragapult-shiny.gif)|<ul><li>Evolves from Drakloak at level 60</li></ul>||
+|270<br />Honedge|![back](readme/mon/honedge-back.png)|![front](readme/mon/honedge.gif) ![shiny](readme/mon/honedge-shiny.gif)|<ul><li>Route 37, at night</li></ul>||
+|271<br />Doublade|![back](readme/mon/doublade-back.png)|![front](readme/mon/doublade.gif) ![shiny](readme/mon/doublade-shiny.gif)|<ul><li>Evolves from Honedge at level 35</li></ul>||
+|272<br />Aegislash|![back](readme/mon/aegislash-back.png)<br />![back, blade form](readme/mon/aegislash-alt-back.png)|![front](readme/mon/aegislash.gif) ![shiny](readme/mon/aegislash-shiny.gif)<br />![front, blade form](readme/mon/aegislash-alt.png) ![shiny, blade form](readme/mon/aegislash-alt-shiny.png)|<ul><li>Evolves from Aegislash at level 48</li></ul>|Has Stance Change|
+|273<br />Snorunt|![back](readme/mon/snorunt-back.png)|![front](readme/mon/snorunt.gif) ![shiny](readme/mon/snorunt-shiny.gif)|<ul><li>Ice Path, at night</li></ul>|Female only|
+|274<br />Froslass|![back](readme/mon/froslass-back.png)|![front](readme/mon/froslass.gif) ![shiny](readme/mon/froslass-shiny.gif)|<ul><li>Evolves from Snorunt at level 42</li></ul>||
+|275<br />Greavard|![back](readme/mon/greavard-back.png)|![front](readme/mon/greavard.gif) ![shiny](readme/mon/greavard-shiny.gif)|<ul><li>Route 34, at night</li></ul>||
+|276<br />Houndstone|![back](readme/mon/houndstone-back.png)|![front](readme/mon/houndstone.gif) ![shiny](readme/mon/houndstone-shiny.gif)|<ul><li>Evolves from Greavard at level 30</li></ul>||
+|277<br />Marshadow|![back](readme/mon/marshadow-back.png)|![front](readme/mon/marshadow.gif) ![shiny](readme/mon/marshadow-shiny.gif)|<ul><li>Overworld in Cianwood City, at night</li></ul>||
+|278<br />Rotom|![back](readme/mon/rotom-back.png)|![front](readme/mon/rotom.gif) ![shiny](readme/mon/rotom-shiny.gif)|<ul><li>Route 35, at night</li><li>Route 10 (outside of the Power Plant), at night</li></ul>||
+|279<br />Golett|![back](readme/mon/golett-back.png)|![front](readme/mon/golett.gif) ![shiny](readme/mon/golett-shiny.gif)|<ul><li>Union Cave, at night</li><li>Route 45, at night</li></ul>||
+|280<br />Golurk|![back](readme/mon/golurk-back.png)|![front](readme/mon/golurk.gif) ![shiny](readme/mon/golurk-shiny.gif)|<ul><li>Evolves from Golett at level 43</li></ul>||
+|281<br />Frillish|![back](readme/mon/frillish-back.png)|![front](readme/mon/frillish.gif) ![shiny](readme/mon/frillish-shiny.gif)|<ul><li>Ecruteak City gym (surfing)</li></ul>|Male only|
+|282<br />Jellicent|![back](readme/mon/jellicent-back.png)|![front](readme/mon/jellicent.gif) ![shiny](readme/mon/jellicent-shiny.gif)|<ul><li>Evolves from Frillish at level 40</li></ul>||
+|283<br />Pumpkaboo|![back](readme/mon/pumpkaboo-back.png)|![front](readme/mon/pumpkaboo.gif) ![shiny](readme/mon/pumpkaboo-shiny.gif)|<ul><li>Ilex Forest, at night</li></ul>||
+|284<br />Gourgeist|![back](readme/mon/gourgeist-back.png)|![front](readme/mon/gourgeist.gif) ![shiny](readme/mon/gourgeist-shiny.gif)|<ul><li>Evolves from Pumpkaboo by trading</li></ul>||
+|285<br />Poltchageist|![back](readme/mon/poltchageist-back.png)|![front](readme/mon/poltchageist.gif) ![shiny](readme/mon/poltchageist-shiny.gif)|<ul><li>Gift in Ecruteak City</li></ul>||
+|286<br />Sinistcha|![back](readme/mon/sinistcha-back.png)|![front](readme/mon/sinistcha.gif) ![shiny](readme/mon/sinistcha-shiny.gif)|<ul><li>Evolves from Poltchageist at level 28</li></ul>||
 
-For further documentation, check out the [wiki].
+# Added Moves
 
-## Branches
+* Astonish
+* Earth Power
+* Flame Burst
+* Hex
+* Hone Claws
+* Inferno
+* Moonblast
+* Play Rough
+* Shadow Claw
+* Shadow Sneak
+* Shell Smash
+* Stored Power
+* Will-O-Wisp
+* Wood Hammer
+* Horn Leech
+* Matcha Gotcha
+* Dragon Dance
+* Dragon Rush
+* Dragon Darts
 
-Last PC16 rebase: **2024-06-28**
+# Gym Leader Changes
 
-* `master`: (status: **stable**, last update: **2024-01-13**) Base branch. This branch contains a slightly modified
-  version of Pokémon Crystal, with some quality-of-life improvements intended to make development easier. These
-  improvements have been taken from the documentation in the [main disassembly repository][pokecrystal]. This branch
-  contains no 16-bit features and it is only intended as a reference.
-* `base-components`: (status: **stable**, last update: **2023-07-18**) This branch defines the basic components that
-  will comprise the 16-bit index table system, on top of which the remaining branches will be built. Since it only
-  defines macros (and a handful of WRAM locations to be shared by all index tables), it should build the same ROM as
-  `master`.
-* `expand-mon-ID`: (status: **stable**, last update: **2023-07-18**) This branch implements 16-bit indexes for Pokémon
-  species, thus allowing more than 253 species to be included in a single game.
-* `expand-move-ID`: (status: **stable**, last update: **2023-09-18**) This branch implements 16-bit indexes for moves,
-  on top of the existing 16-bit support for Pokémon species from the previous branch. (Interaction between the
-  branches is kept to a minimum, though.)
-* `newbox`: (status: **experimental**, last update: **2024-01-13**) This branch ports Rangi & FIQ's "newbox" from
-  Polished Crystal. Newbox is a complete overhaul to Bill's PC, and this branch ports the functionality on
-  top of the previous branches.
-* `expand-item-ID`: (status: **very experimental - use at on RISK!**, last update: **2024-06-28**) This branch implements 16-bit
-  indexes for items, on top of the existing 16-bit support for Pokémon moves from the `expand-move-ID` branch.
-* `item-newbox` : (status: **very experimental - use at on RISK!**, last update: **2024-01-15**) This branch is the same
-  as the `newbox` branch, but it builds on top of `expand-item-ID`.
-* `pokecrystal`: (status: **N/A**, last update **2024-06-28**) This branch contains pret's vanilla pokecrystal and
-  should only be used to compare with the previous branches to view pokecrystal16 changes. **DO NOT USE THIS BRANCH!**
+All gym leaders, all elite four member, and the champ have at least one ghost type.  In addition, I supposed if I was
+already this far, I might as well help myself to a gym; so I took over Ecruteak City’s gym.
 
-To view the differences between any two branches (or any two commits in the repository), you can use GitHub's [tree
-comparison][compare] tool.
+![Inside of Ecruteak Gym](readme/ecruteak-gym.png)
 
-## FAQs
+# All Mon Obtainable
 
-**Q1:** Will this engine include \<insert additional feature here\>?  
-**A1:** Unless the feature is specifically related to 16-bit indexing (or otherwise extending the range of possible
-index values), the answer is almost certainly "no". This repository's scope is limited to 16-bit indexes. If you
-already have a ROM hack that includes the features you like and you'd want it to have 16-bit indexes, the right course
-of action would be to port this engine to it. Otherwise, you can use this engine as a base to make your own ROM hack
-with all the features you want.
+* Ida in the guardhouse north of Mahagony City will trade any mon, just returning what you gave her; this allows
+  evolving trade-only evolutions.
+* The Celadon City department store again stocks the evolution stones, including Moon Stones.
+* Bulbasaur can be caught on Route 2, in the morning.
+* Charmander can be caught on Cinnabar Island, in the morning.
+* Squirtle can be caught on Route 21, in the morning.
+* Vulpix can be caught on Cinnabar Island, during the morning and day.
+* Mankey can be caught on Route 9 and 42, during the morning and day.
+* Omanyte can be caught surfing in the Lugia’s chamber in the Whirl Islands.
+* Kabuto can be caught surfing in the Lugia’s chamber in the Whirl Islands.
+* Articuno is in the Ice Path.
+* Zapdos is in the Power Plant.
+* Moltres is in Victory Road.
+* Mewtwo is near the entrance of its old cave.
+* Mew is in Mount Silver.
+* Chikorita can be caught on Route 38, in the morning.
+* Cyndaquil can be caught on Route 45, during the day.
+* Totodile can be found by surfing in New Bark Town.
+* Mareep can be caught on Route 38, during the day.
+* Girafarig can be caught on Route 43.
+* Remoraid can be caught with the Super Rod on Route 44.
+* Catching the shiny Litwick in the burned tower’s basement yields the GS ball.
 
-**Q2:** Can I use this engine for my own ROM hack?  
-**A2:** Of course; that's what it was made for. I will try make it as easy as possible to port to existing or new ROM
-hacks; instructions to do so will be in the [wiki]. All I can ask you for is that, just like this engine was openly
-available for you to use, you make your hack's code openly available as well — quoting some of the text in
-[SQLite](https://sqlite.org)'s copyright disclaimer, "may you share freely, never taking more than you give".
+Also simply changed some catch locations so they are available more early on:
 
-**Q3:** What's this engine's new limit on indexes?  
-**A3:** The theoretical limit is 65,534, minus a couple of "special" indexes used by the game for specific purposes
-(such as the value that indicates that a Pokémon is inside an egg). However, there are several limitations that will
-probably prevent you from ever reaching that limit. For starters, you can't fit 65,534 of _anything_ inside a ROM
-bank! The index work is done, and I'll try to remove any hurdles that would render that work useless; however, if you
-want to push the limits of the hardware and add 20,000 new Pokémon, you'll find yourself against a technical challenge
-that will go beyond indexes.
+* Murkrow can be caught outside of the Ruins of Alph, at night.
+* Misdreavus can be caught in the Dark Cave, at night.  It no longer appears in the Mt. Silver Cave.
+* Houndour can be caught in the Burned Tower, at night.
+* Larvitar can be caught on Route 45, at night.
 
-[compare]: https://github.com/vulcandth/pokecrystal16/compare
-[pokecrystal]: https://github.com/pret/pokecrystal/
-[wiki]: https://github.com/vulcandth/pokecrystal16/wiki
+# Miscellaneous
+
+* “New game+”: Professor Elm’s PC in New Bark Town allows storing eggs; those
+  eggs will remain there even when starting a new game
+* Per-move physical/special split
+* Fairy type
+* Bug fixes suggested by the pokecrystal documentation
+* Light ball raises both attack and special attack; also works on Mimikyu (yes, me liking Mimikyu is the whole reason
+  for this whole thing)
+* Move tutor now costs 4000 PKMN Dollars instead of coins, and appears before beating the elite four
+* TMs have infinite uses
+* Added “Reset Clock” main menu item, and remove the password requirement
+* Removed Steel’s resistance against Ghost and Dark
+* Updated move stats (power, priority)
+* Removed Flash requirement from Mt. Silver Cave

@@ -11,3 +11,25 @@
 	dba PalossandFrames
 	dba ZoruaFrames
 	dba ZoroarkFrames
+	dba PhantumpFrames
+	dba TrevenantFrames
+	dba DreepyFrames
+	dba DrakloakFrames
+	dba DragapultFrames
+	dba HonedgeFrames
+	dba DoubladeFrames
+	dba AegislashFrames
+	dba SnoruntFrames
+	dba FroslassFrames
+	dba GreavardFrames
+	dba HoundstoneFrames
+	dba MarshadowFrames
+	dba RotomFrames
+	dba GolettFrames
+	dba GolurkFrames
+	dba FrillishFrames
+	dba JellicentFrames
+	dba PumpkabooFrames
+	dba GourgeistFrames
+	dba PoltchageistFrames
+	dba SinistchaFrames

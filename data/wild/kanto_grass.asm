@@ -445,7 +445,7 @@ KantoGrassWildMons:
 	dbw 17, VOLTORB
 	dbw 15, RATICATE
 	dbw 15, VENOMOTH
-	dbw 15, ZUBAT
+	dbw 15, ROTOM
 	dbw 16, ELECTABUZZ
 	dbw 16, ELECTABUZZ
 	end_grass_wildmons

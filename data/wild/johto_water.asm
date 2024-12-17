@@ -117,7 +117,7 @@ JohtoWaterWildMons:
 	def_water_wildmons DRAGONS_DEN_B1F
 	db 4 percent ; encounter rate
 	dbw 15, MAGIKARP
-	dbw 10, MAGIKARP
+	dbw 10, DREEPY
 	dbw 10, DRATINI
 	end_water_wildmons
 
@@ -166,7 +166,7 @@ JohtoWaterWildMons:
 	def_water_wildmons ECRUTEAK_GYM
 	db 5 percent ; encounter rate
 	dbw 18, DRIFLOON
-	dbw 19, DRIFLOON
+	dbw 19, FRILLISH
 	dbw 20, DRIFLOON
 	end_water_wildmons
 

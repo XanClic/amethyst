@@ -1,13 +1,9 @@
 CheckMimikyu:
 	ldh a, [hBattleTurn]
 	and a
-	jr z, .check_enemy_mimikyu
-
-; opp. turn, check own mimikyu
 	ld a, [wBattleMonSpecies]
-	jr .check_mimikyu
+	jr nz, .check_mimikyu
 
-.check_enemy_mimikyu:
 ; own turn, check opp. mimikyu
 	ld a, [wEnemyMonSpecies]
 
@@ -17,6 +13,7 @@ CheckMimikyu:
 	cp MIMIKYU
 	ret nz
 
+	assert MIMIKYU >> 8 == 0
 	ld a, h
 	and a
 	ret nz
@@ -36,8 +33,33 @@ CheckMimikyu:
 	callfar SubtractHPFromTarget
 	call BattleCommand_SwitchTurn
 
+	ld de, SFX_BONE_CLUB
+	call WaitPlaySFX
+	call Mimikyu_ShowBusted
+
 	ld hl, BattleText_DisguiseBroken
 	call StdBattleTextbox
 
 	pop hl ; discard actual ret pc
 	ret ; skip further damage taking
+
+Mimikyu_ShowBusted:
+	ldh a, [hBattleTurn]
+	and a
+	jr z, Mimikyu_ShowBusted_Enemy ; always that whose turn it is not
+
+Mimikyu_ShowBusted_Player::
+	ld b, BANK(MimikyuAltBackpic)
+	ld hl, MimikyuAltBackpic
+	ld de, vTiles2 tile $31
+	ld c, 6 * 6
+	predef DecompressGet2bpp
+	ret
+
+Mimikyu_ShowBusted_Enemy::
+	ld b, BANK(MimikyuAltFrontpic)
+	ld hl, MimikyuAltFrontpic
+	ld de, vTiles2
+	ld c, 7 * 7 ; if this were not this size, we’d have to pad (which isn’t easily accessible)
+	predef DecompressGet2bpp
+	ret

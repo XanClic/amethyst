@@ -960,6 +960,7 @@ IgnoreSleepOnly:
 	dw -1
 
 BattleCommand_UsedMoveText:
+	farcall Aegislash_BladeForm
 	farcall DisplayUsedMoveText
 	ret
 
@@ -6981,3 +6982,4 @@ INCLUDE "engine/battle/move_effects/triple_kick.asm"
 INCLUDE "engine/battle/move_effects/future_sight.asm"
 INCLUDE "engine/battle/move_effects/burn.asm"
 INCLUDE "engine/battle/move_effects/stored_power.asm"
+INCLUDE "engine/battle/move_effects/aegislash.asm"

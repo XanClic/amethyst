@@ -11,3 +11,25 @@
 	dw PalossandAnimation
 	dw ZoruaAnimation
 	dw ZoroarkAnimation
+	dw PhantumpAnimation
+	dw TrevenantAnimation
+	dw DreepyAnimation
+	dw DrakloakAnimation
+	dw DragapultAnimation
+	dw HonedgeAnimation
+	dw DoubladeAnimation
+	dw AegislashAnimation
+	dw SnoruntAnimation
+	dw FroslassAnimation
+	dw GreavardAnimation
+	dw HoundstoneAnimation
+	dw MarshadowAnimation
+	dw RotomAnimation
+	dw GolettAnimation
+	dw GolurkAnimation
+	dw FrillishAnimation
+	dw JellicentAnimation
+	dw PumpkabooAnimation
+	dw GourgeistAnimation
+	dw PoltchageistAnimation
+	dw SinistchaAnimation

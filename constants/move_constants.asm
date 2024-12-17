@@ -257,7 +257,7 @@
 	const ROCK_SMASH   ; f9
 	const WHIRLPOOL    ; fa
 	const BEAT_UP      ; fb
-	const_skip         ; fc, used to be DISGUISE
+	const WOOD_HAMMER  ; fc
 	const PLAY_ROUGH   ; fd
 	const SHADOW_SNEAK ; fe
 	const SHADOW_CLAW  ; fd
@@ -271,6 +271,11 @@
 	const SHELL_SMASH  ; 105
 	const STORED_POWER ; 106
 	const EARTH_POWER  ; 107
+	const HORN_LEECH   ; 108
+	const MATCHA_GOTCHA ; 109
+	const DRAGON_DANCE ; 10a
+	const DRAGON_RUSH  ; 10b
+	const DRAGON_DARTS ; 10c
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

@@ -1571,6 +1571,7 @@ ExeggutorEvosAttacks:
 	dbw 1, CONFUSION
 	dbw 19, STOMP
 	dbw 31, EGG_BOMB
+	dbw 37, WOOD_HAMMER
 	db 0 ; no more level-up moves
 
 CuboneEvosAttacks:
@@ -1757,6 +1758,7 @@ HorseaEvosAttacks:
 	dbw 29, TWISTER
 	dbw 36, AGILITY
 	dbw 43, HYDRO_PUMP
+	dbw 50, DRAGON_DANCE
 	db 0 ; no more level-up moves
 
 SeadraEvosAttacks:
@@ -1772,6 +1774,7 @@ SeadraEvosAttacks:
 	dbw 29, TWISTER
 	dbw 40, AGILITY
 	dbw 51, HYDRO_PUMP
+	dbw 62, DRAGON_DANCE
 	db 0 ; no more level-up moves
 
 GoldeenEvosAttacks:
@@ -1942,8 +1945,9 @@ GyaradosEvosAttacks:
 	dbw 25, DRAGON_RAGE
 	dbw 30, LEER
 	dbw 35, TWISTER
-	dbw 40, HYDRO_PUMP
-	dbw 45, RAIN_DANCE
+	dbw 39, RAIN_DANCE
+	dbw 43, HYDRO_PUMP
+	dbw 47, DRAGON_DANCE
 	dbw 50, HYPER_BEAM
 	db 0 ; no more level-up moves
 
@@ -2167,8 +2171,9 @@ DratiniEvosAttacks:
 	dbw 8, THUNDER_WAVE
 	dbw 15, TWISTER
 	dbw 22, DRAGON_RAGE
-	dbw 29, SLAM
-	dbw 36, AGILITY
+	dbw 27, SLAM
+	dbw 32, DRAGON_RUSH
+	dbw 37, AGILITY
 	dbw 43, SAFEGUARD
 	dbw 50, OUTRAGE
 	dbw 57, HYPER_BEAM
@@ -2185,7 +2190,8 @@ DragonairEvosAttacks:
 	dbw 15, TWISTER
 	dbw 22, DRAGON_RAGE
 	dbw 29, SLAM
-	dbw 38, AGILITY
+	dbw 36, DRAGON_RUSH
+	dbw 42, AGILITY
 	dbw 47, SAFEGUARD
 	dbw 56, OUTRAGE
 	dbw 65, HYPER_BEAM
@@ -2201,7 +2207,8 @@ DragoniteEvosAttacks:
 	dbw 15, TWISTER
 	dbw 22, DRAGON_RAGE
 	dbw 29, SLAM
-	dbw 38, AGILITY
+	dbw 36, DRAGON_RUSH
+	dbw 42, AGILITY
 	dbw 47, SAFEGUARD
 	dbw 55, WING_ATTACK
 	dbw 61, OUTRAGE

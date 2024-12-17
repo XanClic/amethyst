@@ -82,4 +82,26 @@ Cries:
 	dba Cry_Palossand
 	dba Cry_Zorua
 	dba Cry_Zoroark
+	dba Cry_Phantump
+	dba Cry_Trevenant
+	dba Cry_Dreepy
+	dba Cry_Drakloak
+	dba Cry_Dragapult
+	dba Cry_Honedge
+	dba Cry_Doublade
+	dba Cry_Aegislash
+	dba Cry_Snorunt
+	dba Cry_Froslass
+	dba Cry_Greavard
+	dba Cry_Houndstone
+	dba Cry_Marshadow
+	dba Cry_Rotom
+	dba Cry_Golett
+	dba Cry_Golurk
+	dba Cry_Frillish
+	dba Cry_Jellicent
+	dba Cry_Pumpkaboo
+	dba Cry_Gourgeist
+	dba Cry_Poltchageist
+	dba Cry_Sinistcha
 	assert_table_length NUM_CRIES

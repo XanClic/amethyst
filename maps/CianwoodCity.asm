@@ -11,6 +11,7 @@
 	const CIANWOODCITY_POKEFAN_F
 	const CIANWOODCITY_EUSINE
 	const CIANWOODCITY_SUICUNE
+	const CIANWOODCITY_MARSHADOW
 
 CianwoodCity_MapScripts:
 	def_scene_scripts
@@ -19,6 +20,7 @@ CianwoodCity_MapScripts:
 
 	def_callbacks
 	callback MAPCALLBACK_NEWMAP, CianwoodCityFlypointAndSuicuneCallback
+	callback MAPCALLBACK_OBJECTS, CianwoodCityMarshadowCallback
 
 CianwoodCityNoop1Scene:
 	end
@@ -32,6 +34,13 @@ CianwoodCityFlypointAndSuicuneCallback:
 	checkevent EVENT_FOUGHT_EUSINE
 	iffalse .Done
 	disappear CIANWOODCITY_EUSINE
+.Done:
+	endcallback
+
+CianwoodCityMarshadowCallback:
+	readvar VAR_TIMEOFDAY
+	ifequal NITE_F, .Done
+	disappear CIANWOODCITY_MARSHADOW
 .Done:
 	endcallback
 
@@ -178,6 +187,50 @@ CianwoodCityEusineDepartMovement:
 	step DOWN
 	step DOWN
 	step_end
+
+CianwoodCityMarshadow:
+	opentext
+	writetext CianwoodCityMarshadow_Question
+	yesorno
+	iffalse .Done
+	closetext
+	loadwildmon MARSHADOW, 25
+	startbattle
+	ifequal DRAW, .DidntCatch
+	disappear CIANWOODCITY_MARSHADOW
+	reloadmapafterbattle
+	end
+
+.Done:
+	closetext
+	end
+
+.DidntCatch:
+	disappear CIANWOODCITY_MARSHADOW
+	reloadmapafterbattle
+	opentext
+	writetext CianwoodCityMarshadow_Disappeared
+	waitbutton
+	closetext
+	end
+
+CianwoodCityMarshadow_Question:
+	text "Ein MARSHADOW!"
+
+	para "Es schaut traurig"
+	line "zur ARENA hin."
+
+	para "Es scheint sich"
+	line "einsam zu fühlen…"
+
+	para "Vielleicht möchte"
+	line "es ja kämpfen?"
+	done
+
+CianwoodCityMarshadow_Disappeared:
+	text "Es ist verschwun-"
+	line "den…"
+	done
 
 ChucksWifeEasierToFlyText:
 	text "Du hast das Meer"
@@ -441,3 +494,4 @@ CianwoodCity_MapEvents:
 	object_event 10, 46, SPRITE_POKEFAN_F, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CianwoodCityChucksWife, -1
 	object_event 11, 21, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_CIANWOOD_CITY_EUSINE
 	object_event 10, 14, SPRITE_SUICUNE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_SAW_SUICUNE_AT_CIANWOOD_CITY
+	object_event  8, 39, SPRITE_GENGAR, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_EMOTE, OBJECTTYPE_SCRIPT, 0, CianwoodCityMarshadow, EVENT_MARSHADOW

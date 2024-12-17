@@ -165,7 +165,8 @@ ENDM
 	map_const ECRUTEAK_MART,                                6,  4 ;  6
 	map_const ECRUTEAK_GYM,                                 5,  9 ;  7
 	map_const ECRUTEAK_ITEMFINDER_HOUSE,                    4,  4 ;  8
-	map_const ECRUTEAK_CITY,                               20, 18 ;  9
+	map_const ECRUTEAK_POLTCHAGEIST_HOUSE,			4,  4 ;  9
+	map_const ECRUTEAK_CITY,                               20, 18 ; 10
 	endgroup
 
 	newgroup BLACKTHORN                                           ;  5

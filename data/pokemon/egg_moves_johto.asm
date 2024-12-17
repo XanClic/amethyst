@@ -466,5 +466,6 @@ LarvitarEggMoves:
 	dw OUTRAGE
 	dw FOCUS_ENERGY
 	dw ANCIENTPOWER
+	dw DRAGON_DANCE
 NoEggMoves2:
 	dw -1 ; end

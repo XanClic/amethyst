@@ -126,6 +126,7 @@ EngineFlags:
 	engine_flag wSwarmFlags, SWARMFLAGS_BUENAS_PASSWORD_F
 	engine_flag wSwarmFlags, SWARMFLAGS_GOLDENROD_DEPT_STORE_SALE_F
 	engine_flag wSwarmFlags, SWARMFLAGS_SOPHIE_DAILY_REMATCH
+	engine_flag wSwarmFlags, SWARMFLAGS_ROUTE36_TREVENANT
 
 	engine_flag wGameTimerPaused, GAME_TIMER_MOBILE_F
 

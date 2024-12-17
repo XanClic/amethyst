@@ -70,8 +70,23 @@ def growthrate(t)
 end
 
 def egggroup(t)
-    if t == 'Amorphous'
+    case t
+    when 'Amphibian'
+        t = 'Water_1'
+    when 'Field'
+        t = 'Ground'
+    when 'Grass'
+        t = 'Plant'
+    when 'Human-Like'
+        t = 'Humanshape'
+    when 'Invertebrate'
+        t = 'Water_3'
+    when 'Amorphous'
         t = 'Indeterminate'
+    when 'Fish'
+        t = 'Water_2'
+    when 'Undiscovered'
+        t = 'None'
     end
 
     split_upcase("Egg#{t}")
@@ -213,7 +228,15 @@ pokemon.each do |p, data|
 
     if data['evolutions']
         data['evolutions'].each do |level, to|
-            evo_attacks << "    dbbw EVOLVE_LEVEL, #{level}, #{to.upcase}"
+            if level.kind_of?(Integer)
+                evo_attacks << "    dbbw EVOLVE_LEVEL, #{level}, #{to.upcase}"
+            elsif level == 'trade'
+                evo_attacks << "    dbbw EVOLVE_TRADE, -1, #{to.upcase}"
+            elsif level.start_with?('trade_with')
+                evo_attacks << "    dbbw EVOLVE_TRADE, #{itemname(level.sub(/^trade_with\s*/, ''))}, #{to.upcase}"
+            else
+                evo_attacks << "    dbbw EVOLVE_ITEM, #{itemname(level)}, #{to.upcase}"
+            end
         end
     end
     evo_attacks << "    db 0 ; no more evolutions"
@@ -282,12 +305,39 @@ IO.write('data/pokemon/palettes_more.asm', palettes.gsub(/^ +/, "\t"))
 # pics
 # ----
 
+size = 0
+sec_idx = 0
 IO.write(
     'gfx/pics_more.asm',
-    pokemon.map { |p, _| [
-        "#{'%-21s' % "#{p.capitalize}Frontpic:"}INCBIN \"gfx/pokemon/#{p.downcase}/front.animated.2bpp.lz\"",
-        "#{'%-21s' % "#{p.capitalize}Backpic:"}INCBIN \"gfx/pokemon/#{p.downcase}/back.2bpp.lz\"",
-    ]}.flatten * $/ + $/
+    'SECTION "More pics 0", ROMX' + $/ + $/ +
+    pokemon.map { |p, _|
+        dir = "gfx/pokemon/#{p.downcase}"
+        files = {
+            Frontpic: 'front.animated.2bpp.lz',
+            Backpic: 'back.2bpp.lz',
+        }
+        if File.file?("#{dir}/front-alt.png")
+            files[:AltFrontpic] = 'front-alt.2bpp.lz'
+        end
+        if File.file?("#{dir}/back-alt.png")
+            files[:AltBackpic] = 'back-alt.2bpp.lz'
+        end
+
+        a = []
+        files.each { |key, file|
+            file = "#{dir}/#{file}"
+            size += File.file?(file) ? File.size(file) : 0
+
+            if size > 16384
+                sec_idx += 1
+                a += ['', "SECTION \"More pics #{sec_idx}\", ROMX", '']
+                size -= 16384
+            end
+
+            a << "#{'%-22s' % "#{p.capitalize}#{key.to_s}::"}INCBIN \"#{file}\""
+        }
+        a
+    }.flatten * $/ + $/
 )
 
 IO.write(

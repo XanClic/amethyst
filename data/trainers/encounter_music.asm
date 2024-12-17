@@ -60,7 +60,7 @@ TrainerEncounterMusic::
 	db MUSIC_YOUNGSTER_ENCOUNTER   ; camper
 	db MUSIC_ROCKET_ENCOUNTER      ; executivef
 	db MUSIC_SAGE_ENCOUNTER        ; sage
-	db MUSIC_SAGE_ENCOUNTER        ; medium
+	db MUSIC_SAGE_ENCOUNTER        ; hex_maniac
 	db MUSIC_HIKER_ENCOUNTER       ; boarder
 	db MUSIC_HIKER_ENCOUNTER       ; pokefanm
 	db MUSIC_KIMONO_ENCOUNTER      ; kimono_girl
@@ -71,7 +71,7 @@ TrainerEncounterMusic::
 	db MUSIC_HIKER_ENCOUNTER       ; officer
 	db MUSIC_ROCKET_ENCOUNTER      ; gruntf
 	db MUSIC_HIKER_ENCOUNTER       ; mysticalman
+	db MUSIC_SAGE_ENCOUNTER        ; witcher
 	assert_table_length NUM_TRAINER_CLASSES + 1
-	db MUSIC_HIKER_ENCOUNTER       ; unused
 	db MUSIC_HIKER_ENCOUNTER       ; unused
 	db MUSIC_HIKER_ENCOUNTER       ; unused

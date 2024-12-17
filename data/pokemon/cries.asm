@@ -270,4 +270,26 @@ PokemonCries::
 	mon_cry CRY_PALOSSAND,     0,  256 ; PALOSSAND
 	mon_cry CRY_ZORUA,         0,  256 ; ZORUA
 	mon_cry CRY_ZOROARK,       0,  256 ; ZOROARK
+	mon_cry CRY_PHANTUMP,	   0,  512 ; PHANTUMP
+	mon_cry CRY_TREVENANT,	   0,  256 ; TREVENANT
+	mon_cry CRY_DREEPY,        0,  256 ; DREEPY
+	mon_cry CRY_DRAKLOAK,      0,  256 ; DRAKLOAK
+	mon_cry CRY_DRAGAPULT,     0,  256 ; DRAGAPULT
+	mon_cry CRY_HONEDGE,       0,  256 ; HONEDGE
+	mon_cry CRY_DOUBLADE,      0,  256 ; DOUBLADE
+	mon_cry CRY_AEGISLASH,     0,  256 ; AEGISLASH
+	mon_cry CRY_SNORUNT,       0,  256 ; SNORUNT
+	mon_cry CRY_FROSLASS,      0,  256 ; FROSLASS
+	mon_cry CRY_GREAVARD,      0,  256 ; GREAVARD
+	mon_cry CRY_HOUNDSTONE, -496,  384 ; HOUNDSTONE
+	mon_cry CRY_MARSHADOW,     0,  256 ; MARSHADOW
+	mon_cry CRY_ROTOM,         0,  256 ; ROTOM
+	mon_cry CRY_GOLETT,        0,  256 ; GOLETT
+	mon_cry CRY_GOLURK,        0,  256 ; GOLURK
+	mon_cry CRY_FRILLISH,      0,  256 ; FRILLISH
+	mon_cry CRY_JELLICENT,     0,  256 ; JELLICENT
+	mon_cry CRY_PUMPKABOO,     0,  256 ; PUMPKABOO
+	mon_cry CRY_GOURGEIST,     0,  256 ; GOURGEIST
+	mon_cry CRY_POLTCHAGEIST,  0,  256 ; POLTCHAGEIST
+	mon_cry CRY_SINISTCHA,     0,  256 ; SINISTCHA
 	assert_table_length NUM_POKEMON

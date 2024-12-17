@@ -8,6 +8,7 @@ AlphabeticalPokedexOrder:
 	dw OMANYTE
 	dw OMASTAR
 	dw AMPHAROS
+	dw JELLICENT
 	dw VAPOREON
 	dw ARBOK
 	dw ARIADOS
@@ -43,6 +44,8 @@ AlphabeticalPokedexOrder:
 	dw DRIFBLIM
 	dw GLOOM
 	dw DUNSPARCE
+	dw DOUBLADE
+	dw AEGISLASH
 	dw ELEKID
 	dw ELECTABUZZ
 	dw CHIKORITA
@@ -51,6 +54,7 @@ AlphabeticalPokedexOrder:
 	dw GOLDUCK
 	dw EEVEE
 	dw SMEARGLE
+	dw SINISTCHA
 	dw SINISTEA
 	dw WOOPER
 	dw CYNDAQUIL
@@ -58,6 +62,8 @@ AlphabeticalPokedexOrder:
 	dw SLOWPOKE
 	dw IGGLYBUFF
 	dw FORRETRESS
+	dw HOUNDSTONE
+	dw FROSLASS
 	dw GROWLITHE
 	dw RAPIDASH
 	dw GYARADOS
@@ -70,10 +76,15 @@ AlphabeticalPokedexOrder:
 	dw CHARIZARD
 	dw CHARMELEON
 	dw GOLBAT
+	dw GOLETT
 	dw GOLDEEN
+	dw GOLURK
 	dw SEAKING
+	dw HONEDGE
 	dw GRANBULL
 	dw AIPOM
+	dw DREEPY
+	dw GREAVARD
 	dw SPEAROW
 	dw BLISSEY
 	dw HO_OH
@@ -89,12 +100,14 @@ AlphabeticalPokedexOrder:
 	dw QUILAVA
 	dw CROBAT
 	dw FERALIGATR
+	dw PUMPKABOO
 	dw DEWGONG
 	dw SEEL
 	dw KABUTO
 	dw KABUTOPS
 	dw KADABRA
 	dw KANGASKHAN
+	dw DRAGAPULT
 	dw HITMONTOP
 	dw TOTODILE
 	dw MAGIKARP
@@ -133,6 +146,7 @@ AlphabeticalPokedexOrder:
 	dw MAGNETON
 	dw MANTINE
 	dw MARILL
+	dw MARSHADOW
 	dw MACHOKE
 	dw MEOWTH
 	dw MEGANIUM
@@ -143,6 +157,7 @@ AlphabeticalPokedexOrder:
 	dw MIMIKYU
 	dw SUDOWOODO
 	dw QUAGSIRE
+	dw POLTCHAGEIST
 	dw POLTEAGEIST
 	dw SHELLDER
 	dw ODDISH
@@ -164,8 +179,10 @@ AlphabeticalPokedexOrder:
 	dw MR__MIME
 	dw SKARMORY
 	dw JUMPLUFF
+	dw PHANTUMP
 	dw PARAS
 	dw PARASECT
+	dw DRAKLOAK
 	dw PHANPY
 	dw PICHU
 	dw CLEFAIRY
@@ -180,11 +197,13 @@ AlphabeticalPokedexOrder:
 	dw SHUCKLE
 	dw ESPEON
 	dw JIGGLYPUFF
+	dw GOURGEIST
 	dw PUPITAR
 	dw POLIWRATH
 	dw POLIWAG
 	dw POLIWHIRL
 	dw POLITOED
+	dw FRILLISH
 	dw SWINUB
 	dw TYROGUE
 	dw RAICHU
@@ -199,6 +218,7 @@ AlphabeticalPokedexOrder:
 	dw RHYHORN
 	dw RHYDON
 	dw JYNX
+	dw ROTOM
 	dw METAPOD
 	dw SANDSLASH
 	dw SANDSHREW
@@ -209,6 +229,7 @@ AlphabeticalPokedexOrder:
 	dw WARTORTLE
 	dw LICKITUNG
 	dw SLUGMA
+	dw SNORUNT
 	dw KINGDRA
 	dw SEADRA
 	dw HORSEA
@@ -247,6 +268,7 @@ AlphabeticalPokedexOrder:
 	dw DROWZEE
 	dw MISDREAVUS
 	dw MISMAGIUS
+	dw TREVENANT
 	dw BLASTOISE
 	dw CROCONAW
 	dw WEEPINBELL

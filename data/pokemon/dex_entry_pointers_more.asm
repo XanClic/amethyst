@@ -11,3 +11,25 @@
 	dba PalossandPokedexEntry
 	dba ZoruaPokedexEntry
 	dba ZoroarkPokedexEntry
+	dba PhantumpPokedexEntry
+	dba TrevenantPokedexEntry
+	dba DreepyPokedexEntry
+	dba DrakloakPokedexEntry
+	dba DragapultPokedexEntry
+	dba HonedgePokedexEntry
+	dba DoubladePokedexEntry
+	dba AegislashPokedexEntry
+	dba SnoruntPokedexEntry
+	dba FroslassPokedexEntry
+	dba GreavardPokedexEntry
+	dba HoundstonePokedexEntry
+	dba MarshadowPokedexEntry
+	dba RotomPokedexEntry
+	dba GolettPokedexEntry
+	dba GolurkPokedexEntry
+	dba FrillishPokedexEntry
+	dba JellicentPokedexEntry
+	dba PumpkabooPokedexEntry
+	dba GourgeistPokedexEntry
+	dba PoltchageistPokedexEntry
+	dba SinistchaPokedexEntry

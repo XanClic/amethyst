@@ -11,3 +11,25 @@
 	dw PalossandAnimationIdle
 	dw ZoruaAnimationIdle
 	dw ZoroarkAnimationIdle
+	dw PhantumpAnimationIdle
+	dw TrevenantAnimationIdle
+	dw DreepyAnimationIdle
+	dw DrakloakAnimationIdle
+	dw DragapultAnimationIdle
+	dw HonedgeAnimationIdle
+	dw DoubladeAnimationIdle
+	dw AegislashAnimationIdle
+	dw SnoruntAnimationIdle
+	dw FroslassAnimationIdle
+	dw GreavardAnimationIdle
+	dw HoundstoneAnimationIdle
+	dw MarshadowAnimationIdle
+	dw RotomAnimationIdle
+	dw GolettAnimationIdle
+	dw GolurkAnimationIdle
+	dw FrillishAnimationIdle
+	dw JellicentAnimationIdle
+	dw PumpkabooAnimationIdle
+	dw GourgeistAnimationIdle
+	dw PoltchageistAnimationIdle
+	dw SinistchaAnimationIdle

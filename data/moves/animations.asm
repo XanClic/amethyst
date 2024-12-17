@@ -279,7 +279,7 @@ BattleAnimations::
 	dw BattleAnim_RockSmash
 	dw BattleAnim_Whirlpool
 	dw BattleAnim_BeatUp
-	dw BattleAnim_Disguise
+	dw BattleAnim_WoodHammer
 	dw BattleAnim_PlayRough
 	dw BattleAnim_ShadowSneak
 	dw BattleAnim_ShadowClaw
@@ -293,6 +293,11 @@ BattleAnimations::
 	dw BattleAnim_ShellSmash
 	dw BattleAnim_StoredPower
 	dw BattleAnim_EarthPower
+	dw BattleAnim_HornLeech
+	dw BattleAnim_MatchaGotcha
+	dw BattleAnim_DragonDance
+	dw BattleAnim_DragonRush
+	dw BattleAnim_DragonDarts
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -2225,6 +2230,7 @@ BattleAnim_TakeDown:
 	anim_ret
 
 BattleAnim_DoubleEdge:
+BattleAnim_DragonRush:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_call BattleAnim_TargetObj_1Row
 	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $4, $10
@@ -2440,6 +2446,7 @@ BattleAnim_PoisonSting:
 	anim_ret
 
 BattleAnim_Twineedle:
+BattleAnim_DragonDarts:
 	anim_2gfx BATTLE_ANIM_GFX_HORN, BATTLE_ANIM_GFX_HIT
 	anim_sound 0, 1, SFX_POISON_STING
 	anim_obj BATTLE_ANIM_OBJ_NEEDLE, 64, 92, $14
@@ -2584,6 +2591,7 @@ BattleAnim_Swift:
 	anim_ret
 
 BattleAnim_Crabhammer:
+BattleAnim_WoodHammer:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0
 	anim_wait 48
@@ -2593,6 +2601,19 @@ BattleAnim_Crabhammer:
 	anim_obj BATTLE_ANIM_OBJ_HIT_BIG_YFIX, 136, 56, $0
 	anim_wait 12
 	anim_loop 3, .loop
+	anim_ret
+
+BattleAnim_HornLeech:
+BattleAnim_MatchaGotcha:
+	anim_2gfx BATTLE_ANIM_GFX_HIT, BATTLE_ANIM_GFX_CHARGE
+	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $3
+.loop
+	anim_sound 0, 1, SFX_MEGA_PUNCH
+	anim_obj BATTLE_ANIM_OBJ_HIT_BIG_YFIX, 136, 56, $0
+	anim_obj BATTLE_ANIM_OBJ_ABSORB, 128, 64, $2
+	anim_wait 12
+	anim_loop 3, .loop
+	anim_1gfx BATTLE_ANIM_GFX_CHARGE
 	anim_ret
 
 BattleAnim_SkullBash:
@@ -2963,6 +2984,7 @@ BattleAnim_Strength:
 	anim_ret
 
 BattleAnim_SwordsDance:
+BattleAnim_DragonDance:
 	anim_1gfx BATTLE_ANIM_GFX_WHIP
 	anim_sound 0, 0, SFX_SWORDS_DANCE
 	anim_obj BATTLE_ANIM_OBJ_SWORDS_DANCE, 48, 108, $0

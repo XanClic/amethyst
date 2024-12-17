@@ -29,8 +29,8 @@ Mimikyu:
       #MON zu nähern.
     footprint: Misdreavus
   moves:
-    level: 
-      1: [Splash, Scratch, Lick]
+    level:
+      1: [WoodHammer, Splash, Scratch, Astonish]
       5: DoubleTeam
       14: ShadowSneak
       19: Mimic
@@ -42,7 +42,8 @@ Mimikyu:
       46: PlayRough
       50: PainSplit
     egg: [DestinyBond, Curse, Nightmare]
-    tmhm: [Toxic, HiddenPower, HyperBeam, Protect, Frustration, Thunderbolt, Thunder, Return, Psychic, ShadowBall, DoubleTeam, Rest, Attract, Thief, DreamEater, Swagger, SleepTalk]
+    tmhm: [Toxic, HiddenPower, HyperBeam, Protect, Frustration, Thunderbolt, Thunder, Return, Psychic, ShadowBall, DoubleTeam, Rest, Attract, Thief, DreamEater, Swagger, SleepTalk, PsychUp]
+
 Litwick:
   name: Lichtel
   types: [Ghost, Fire]
@@ -92,11 +93,12 @@ Litwick:
       55: PainSplit
       61: FireBlast
     egg: [Haze, AcidArmor, Endure, Acid]
-    tmhm: [Toxic, HiddenPower, SunnyDay, Protect, Frustration, Solarbeam, Return, Psychic, ShadowBall, DoubleTeam, Flamethrower, FireBlast, Rest, Attract, Thief, Flash, DreamEater, SleepTalk, Swagger]
+    tmhm: [Toxic, HiddenPower, SunnyDay, Protect, Frustration, Solarbeam, Return, Psychic, ShadowBall, DoubleTeam, Flamethrower, FireBlast, Rest, Attract, Thief, Flash, DreamEater, SleepTalk, Swagger, PsychUp]
+
 Lampent:
   name: Laternecto
   types: [Ghost, Fire]
-  evolutions: 
+  evolutions:
     55: Chandelure
   icon: Ghost
   stats:
@@ -141,7 +143,8 @@ Lampent:
       53: ShadowBall
       61: PainSplit
       69: FireBlast
-    tmhm: [Toxic, HiddenPower, SunnyDay, Protect, Frustration, Solarbeam, Return, Psychic, ShadowBall, DoubleTeam, Flamethrower, FireBlast, Rest, Attract, Thief, Flash, DreamEater, SleepTalk, Swagger]
+    tmhm: [Toxic, HiddenPower, SunnyDay, Protect, Frustration, Solarbeam, Return, Psychic, ShadowBall, DoubleTeam, Flamethrower, FireBlast, Rest, Attract, Thief, Flash, DreamEater, SleepTalk, Swagger, PsychUp]
+
 Chandelure:
   name: Skelabra
   types: [Ghost, Fire]
@@ -174,7 +177,8 @@ Chandelure:
   moves:
     level:
       1: [Smog, ConfuseRay, FlameBurst, Hex]
-    tmhm: [Toxic, HiddenPower, SunnyDay, Protect, Frustration, Solarbeam, Return, Psychic, ShadowBall, DoubleTeam, Flamethrower, FireBlast, Rest, Attract, Thief, Flash, DreamEater, SleepTalk, Swagger]
+    tmhm: [Toxic, HiddenPower, SunnyDay, Protect, Frustration, Solarbeam, Return, Psychic, ShadowBall, DoubleTeam, Flamethrower, FireBlast, Rest, Attract, Thief, Flash, DreamEater, SleepTalk, Swagger, PsychUp]
+
 Drifloon:
   name: Driftlon
   types: [Ghost, Flying]
@@ -219,7 +223,8 @@ Drifloon:
       43: Explosion
       48: Aeroblast
     egg: [BodySlam, DestinyBond, Disable, Haze, Hypnosis]
-    tmhm: [Toxic, HiddenPower, SunnyDay, Protect, RainDance, Frustration, Thunder, Return, Psychic, ShadowBall, DoubleTeam, Rest, Attract, Thief, Endure, Flash, SleepTalk, Cut, Swagger]
+    tmhm: [Toxic, HiddenPower, SunnyDay, Protect, RainDance, Frustration, Thunder, Return, Psychic, ShadowBall, DoubleTeam, Rest, Attract, Thief, Endure, Flash, SleepTalk, Cut, Swagger, PsychUp]
+
 Drifblim:
   name: Drifzepeli
   types: [Ghost, Flying]
@@ -261,7 +266,7 @@ Drifblim:
       44: ShadowBall
       51: Explosion
       59: Aeroblast
-    tmhm: [Toxic, HiddenPower, SunnyDay, Protect, RainDance, Frustration, Thunder, Return, Psychic, ShadowBall, DoubleTeam, Rest, Attract, Thief, Endure, Flash, SleepTalk, Cut, Fly, Swagger]
+    tmhm: [Toxic, HiddenPower, SunnyDay, Protect, RainDance, Frustration, Thunder, Return, Psychic, ShadowBall, DoubleTeam, Rest, Attract, Thief, Endure, Flash, SleepTalk, Cut, Fly, Swagger, PsychUp]
 
 Sinistea:
   name: Fatalitee
@@ -534,7 +539,8 @@ Zorua:
       34: BodySlam
       37: ShadowBall
       41: TakeDown
-    tmhm: [HiddenPower, Protect, Frustration, Return, Thief, Swift, Endure, RainDance, Dig, SleepTalk, Rest, ShadowBall, SludgeBomb, Curse, Cut]
+    tmhm: [HiddenPower, Protect, Frustration, Return, Thief, Swift, Endure, RainDance, Dig, SleepTalk, Rest, ShadowBall, SludgeBomb, Curse, Cut, PsychUp]
+    egg: [Counter, Detect]
 
 Zoroark:
   name: Zoroark
@@ -580,4 +586,1025 @@ Zoroark:
       37: BodySlam
       40: ShadowBall
       46: TakeDown
-    tmhm: [HiddenPower, Protect, Frustration, Return, Thief, Swift, IcyWind, Endure, RainDance, Dig, SleepTalk, Rest, ShadowBall, Psychic, Flamethrower, SludgeBomb, HyperBeam, Curse, Cut, Strength]
+    tmhm: [HiddenPower, Protect, Frustration, Return, Thief, Swift, IcyWind, Endure, RainDance, Dig, SleepTalk, Rest, ShadowBall, Psychic, Flamethrower, SludgeBomb, HyperBeam, Curse, Cut, Strength, PsychUp]
+
+Phantump:
+  name: Paragoni
+  types: [Ghost, Grass]
+  evolutions:
+    trade: Trevenant
+  icon: Sudowoodo
+  stats:
+    hp: 43
+    atk: 70
+    def: 48
+    sat: 50
+    sdf: 60
+    spd: 38
+  catchrate: 120
+  baseexp: 62
+  female_ratio: 0.5
+  hatch_cycles: 20
+  leveling: MediumFast
+  egg_groups: [Grass, Amorphous]
+  dex:
+    species: Baumstumpf
+    height: 0.4
+    weight: 7.0
+    text: |-
+      Es imitiert das
+      Schluchzen eines
+      Meschenkindes, um
+      Erwachsene tief
+      in den Wald zu
+      locken.
+    footprint: Misdreavus
+  moves:
+    level:
+      1: [Tackle, ConfuseRay]
+      5: Astonish
+      8: Growth
+      13: Moonlight
+      19: FaintAttack
+      23: LeechSeed
+      28: Curse
+      31: WillOWisp
+      35: Disable
+      39: DestinyBond
+      45: ShadowClaw
+      49: WoodHammer
+      54: HornLeech
+    tmhm: [Toxic, HiddenPower, SunnyDay, Protect, Frustration, Solarbeam, Return, Psychic, ShadowBall, DoubleTeam, Rest, Attract, Thief, DreamEater, Swagger, SleepTalk, Cut, Strength, RockSmash]
+
+Trevenant:
+  name: Trombork
+  types: [Ghost, Grass]
+  icon: Sudowoodo
+  stats:
+    hp: 85
+    atk: 110
+    def: 76
+    sat: 65
+    sdf: 82
+    spd: 56
+  catchrate: 60
+  baseexp: 166
+  female_ratio: 0.5
+  hatch_cycles: 20
+  leveling: MediumFast
+  egg_groups: [Grass, Amorphous]
+  dex:
+    species: Urgehölz
+    height: 1.5
+    weight: 71.0
+    text: |-
+      TROMBORK schützen
+      alte Wälder mit
+      allen Mitteln.
+      Kein Holzfäller
+      geht ohne Feuer-
+      #MON hinein.
+    footprint: Misdreavus
+  moves:
+    level:
+      1: [Tackle, ConfuseRay]
+      5: Astonish
+      8: Growth
+      13: Moonlight
+      19: FaintAttack
+      23: LeechSeed
+      28: Curse
+      31: WillOWisp
+      35: Disable
+      39: DestinyBond
+      45: ShadowClaw
+      49: WoodHammer
+      54: HornLeech
+    tmhm: [Toxic, HiddenPower, SunnyDay, Protect, Frustration, Solarbeam, Return, Psychic, ShadowBall, DoubleTeam, Rest, Attract, Thief, DreamEater, Swagger, SleepTalk, Cut, Strength, RockSmash]
+
+Dreepy:
+  name: Grolldra
+  types: [Dragon, Ghost]
+  evolutions:
+    50: Drakloak
+  icon: Caterpillar
+  stats:
+    hp: 28
+    atk: 60
+    def: 30
+    sat: 40
+    sdf: 30
+    spd: 82
+  catchrate: 45
+  baseexp: 54
+  female_ratio: 0.5
+  hatch_cycles: 40
+  leveling: Slow
+  egg_groups: [Amorphous, Dragon]
+  dex:
+    species: Missgunst
+    height: 0.5
+    weight: 2.0
+    text: |-
+      Es lebte einst im
+      Meer. Dann ist es
+      als Geist wieder-
+      erwacht und irrt
+      dort nun rastlos
+      umher.
+    footprint: Misdreavus
+  moves:
+    level:
+      1: [Astonish, Whirlpool, QuickAttack, Bite]
+      6: LockOn
+      12: Pursuit
+      18: Hex
+      24: Agility
+      30: Doubleslap
+      36: FalseSwipe
+      42: DragonDance
+      48: ShadowClaw
+      54: TakeDown
+      61: DragonRush
+      66: DoubleEdge
+      72: Outrage
+    tmhm: [Rest, Snore, Protect, Attract, Swift, Endure, SleepTalk, Protect, Frustration, HiddenPower, Snore, Protect, SteelWing, Flamethrower, Surf, Thunderbolt, Thunder, FireBlast, ShadowBall]
+    egg: [ConfuseRay, Curse, Disable, DoubleTeam]
+
+Drakloak:
+  name: Phandra
+  types: [Dragon, Ghost]
+  evolutions:
+    60: Dragapult
+  icon: Serpent
+  stats:
+    hp: 68
+    atk: 80
+    def: 50
+    sat: 60
+    sdf: 50
+    spd: 102
+  catchrate: 45
+  baseexp: 144
+  female_ratio: 0.5
+  hatch_cycles: 40
+  leveling: Slow
+  egg_groups: [Amorphous, Dragon]
+  dex:
+    species: Betreuer
+    height: 1.4
+    weight: 11.0
+    text: |-
+      Ohne GROLLDRA auf
+      dem Kopf wird es
+      nervös und ver-
+      sucht sich andere
+      #MON auf seinen
+      Kopf zu setzen.
+    footprint: Misdreavus
+  moves:
+    level:
+      1: [Dragonbreath, Astonish, QuickAttack, Bite]
+      6: LockOn
+      12: Pursuit
+      18: Hex
+      24: Agility
+      30: Doubleslap
+      36: FalseSwipe
+      42: DragonDance
+      48: ShadowClaw
+      50: Dragonbreath
+      54: TakeDown
+      61: DragonRush
+      66: DoubleEdge
+      72: Outrage
+    tmhm: [Rest, Snore, Protect, Attract, Swift, Endure, SleepTalk, Protect, Frustration, HiddenPower, Snore, Protect, SteelWing, Flamethrower, Surf, Thunderbolt, Thunder, FireBlast, ShadowBall]
+
+Dragapult:
+  name: Katapuldra
+  types: [Dragon, Ghost]
+  icon: Bigmon
+  stats:
+    hp: 88
+    atk: 120
+    def: 75
+    sat: 100
+    sdf: 75
+    spd: 142
+  catchrate: 45
+  baseexp: 255
+  female_ratio: 0.5
+  hatch_cycles: 40
+  leveling: Slow
+  egg_groups: [Amorphous, Dragon]
+  dex:
+    species: Tarnkünstler
+    height: 3.0
+    weight: 50.0
+    text: |-
+      Konzentriert es
+      sich stark, kann
+      es sich unsicht-
+      bar machen; auch
+      die GROLLDRA in
+      seinen Hörnern.
+    footprint: Misdreavus
+  moves:
+    level:
+      1: [DragonDarts, Dragonbreath, Astonish, QuickAttack]
+      6: LockOn
+      12: Pursuit
+      18: Hex
+      24: Agility
+      30: Doubleslap
+      36: FalseSwipe
+      42: DragonDance
+      48: ShadowClaw
+      54: TakeDown
+      60: Dragonbreath
+      63: DragonRush
+      70: DoubleEdge
+      78: Outrage
+    tmhm: [Rest, Snore, Protect, Attract, Swift, Endure, SleepTalk, Protect, Frustration, HiddenPower, Snore, Protect, SteelWing, Flamethrower, Surf, Thunderbolt, Thunder, FireBlast, ShadowBall, Fly, HyperBeam, Solarbeam]
+
+Honedge:
+  name: Gramokles
+  types: [Steel, Ghost]
+  evolutions:
+    35: Doublade
+  icon: Ghost
+  stats:
+    hp: 45
+    atk: 80
+    def: 100
+    sat: 35
+    sdf: 37
+    spd: 28
+  catchrate: 180
+  baseexp: 65
+  female_ratio: 0.5
+  hatch_cycles: 20
+  leveling: MediumFast
+  egg_group: Mineral
+  dex:
+    species: Klingenkraft
+    height: 0.8
+    weight: 2.0
+    text: |-
+      Es wickelt ein
+      blaues Tuch um
+      den Arm derer,
+      die es ergrei-
+      fen, und zehrt
+      von ihnen.
+    footprint: Misdreavus
+  moves:
+    level:
+      1: [Tackle, SwordsDance]
+      5: FuryCutter
+      8: Screech
+      13: Pursuit
+      18: Agility
+      20: ShadowSneak
+      26: Counter
+      29: Slash
+      35: ShadowClaw
+      39: IronTail
+      42: CrossChop
+    tmhm: [Toxic, HiddenPower, Protect, RainDance, Frustration, Return, DoubleTeam, Rest, Attract, Swagger, SleepTalk, Cut, RockSmash]
+    egg: [DestinyBond]
+
+Doublade:
+  name: Duokles
+  types: [Steel, Ghost]
+  evolutions:
+    48: Aegislash
+  icon: Ghost
+  stats:
+    hp: 59
+    atk: 110
+    def: 150
+    sat: 45
+    sdf: 49
+    spd: 35
+  catchrate: 90
+  baseexp: 157
+  female_ratio: 0.5
+  hatch_cycles: 20
+  leveling: MediumFast
+  egg_group: Mineral
+  dex:
+    species: Klingenkraft
+    height: 0.8
+    weight: 4.5
+    text: |-
+      Es koordiniert
+      seine Klingen
+      telepathisch.
+      Im Schwertkampf
+      unterliegt es
+      keinem Menschen.
+    footprint: Misdreavus
+  moves:
+    level:
+      1: [Tackle, SwordsDance]
+      5: FuryCutter
+      8: Screech
+      13: Pursuit
+      18: Agility
+      20: ShadowSneak
+      26: Counter
+      29: Slash
+      36: ShadowClaw
+      41: IronTail
+      45: CrossChop
+    tmhm: [Toxic, HiddenPower, Protect, RainDance, Frustration, Return, DoubleTeam, Rest, Attract, Swagger, SleepTalk, Cut, RockSmash]
+
+Aegislash:
+  name: Durengard
+  types: [Steel, Ghost]
+  icon: Ghost
+  stats:
+    hp: 60
+    atk: 50
+    def: 140
+    sat: 50
+    sdf: 140
+    spd: 60
+  catchrate: 45
+  baseexp: 234
+  female_ratio: 0.5
+  hatch_cycles: 20
+  leveling: MediumFast
+  egg_group: Mineral
+  dex:
+    species: Königsklinge
+    height: 1.7
+    weight: 53.0
+    text: |-
+      Generationen von
+      Königen glaubten
+      dieses #MON an
+      ihrer Seite; doch
+      in Wahrheit be-
+      herrschte es sie.
+    footprint: Misdreavus
+  moves:
+    level:
+      1: [Tackle, SwordsDance, Protect]
+      5: FuryCutter
+      8: Screech
+      13: Pursuit
+      18: Agility
+      20: ShadowSneak
+      26: Counter
+      29: Slash
+      36: ShadowClaw
+      41: IronTail
+      45: CrossChop
+      48: Protect
+    tmhm: [Toxic, HiddenPower, Protect, RainDance, Frustration, Return, DoubleTeam, Rest, Attract, Swagger, SleepTalk, Cut, RockSmash, HyperBeam]
+
+Snorunt:
+  name: Schneppke
+  types: [Ice]
+  evolutions:
+    42: Froslass
+  icon: Humanshape
+  stats:
+    hp: 50
+    atk: 50
+    def: 50
+    sat: 50
+    sdf: 50
+    spd: 50
+  catchrate: 190
+  baseexp: 60
+  female_ratio: 1.0
+  hatch_cycles: 20
+  leveling: MediumFast
+  egg_groups: [Fairy, Mineral]
+  dex:
+    species: Schneehut
+    height: 0.7
+    weight: 16.8
+    text: |-
+      Eine Legende im
+      Land des Schnees
+      besagt, dass in
+      jedes Haus, das
+      es besucht, Wohl-
+      stand einzieht.
+    footprint: Bayleef
+  moves:
+    level:
+      1: [PowderSnow, Leer]
+      7: DoubleTeam
+      10: Bite
+      16: IcyWind
+      19: Headbutt
+      25: Protect
+      28: Crunch
+      34: AuroraBeam
+      37: IceBeam
+      43: Blizzard
+    tmhm: [Toxic, HiddenPower, IceBeam, Protect, Frustration, Return, ShadowBall, DoubleTeam, Rest, Attract, Endure, Flash, SleepTalk, Swagger, Headbutt, Blizzard]
+    egg: [Bide, Disable, Rollout, Spikes, Hex]
+
+Froslass:
+  name: Frosdedje
+  types: [Ice, Ghost]
+  icon: Humanshape
+  stats:
+    hp: 70
+    atk: 80
+    def: 70
+    sat: 80
+    sdf: 70
+    spd: 110
+  catchrate: 75
+  baseexp: 168
+  female_ratio: 1.0
+  hatch_cycles: 20
+  leveling: MediumFast
+  egg_groups: [Fairy, Mineral]
+  dex:
+    species: Schneegebiet
+    height: 1.3
+    weight: 26.6
+    text: |-
+      Friert Beute mit
+      ihrem eiskalten
+      Atem ein, nimmt
+      sie in seinen Bau
+      und stellt sie
+      dann dort aus.
+    footprint: Misdreavus
+  moves:
+    level:
+      1: [PowderSnow, Leer]
+      7: DoubleTeam
+      10: Bite
+      16: IcyWind
+      19: Headbutt
+      25: Protect
+      28: Crunch
+      34: AuroraBeam
+      37: IceBeam
+      43: Blizzard
+      48: Attract
+      53: LovelyKiss
+      59: DestinyBond
+    tmhm: [Toxic, HiddenPower, IceBeam, Protect, Frustration, Return, ShadowBall, DoubleTeam, Rest, Attract, Endure, Flash, SleepTalk, Swagger, Headbutt, Blizzard, HyperBeam, Thunderbolt, Thunder, Psychic, Thief, DreamEater, PsychUp]
+
+Greavard:
+  name: Gruff
+  type: Ghost
+  evolutions:
+    30: Houndstone
+  icon: Fox
+  stats:
+    hp: 50
+    atk: 61
+    def: 60
+    sat: 30
+    sdf: 55
+    spd: 34
+  catchrate: 120
+  baseexp: 58
+  female_ratio: 0.5
+  hatch_cycles: 20
+  leveling: MediumSlow
+  egg_group: Field
+  dex:
+    species: Geisterhund
+    height: 0.6
+    weight: 35.0
+    text: |-
+      Auch wenn man
+      sich nur kurz um
+      dieses #MON
+      kümmert, läuft es
+      einem auf ewig
+      nach.
+    footprint: Houndour
+  moves:
+    level:
+      1: [Tackle, Growl, TailWhip]
+      3: Lick
+      6: Bite
+      9: Roar
+      12: Headbutt
+      16: Dig
+      24: Rest
+      28: Crunch
+      32: PlayRough
+      37: PainSplit
+      41: ShadowClaw
+      46: Charm
+      52: DoubleEdge
+    tmhm: [MudSlap, Protect, Thief, Endure, SunnyDay, RainDance, Sandstorm, Dig, SleepTalk, Rest, ShadowBall, Roar, Return, Frustration, SleepTalk, HiddenPower]
+    egg: [DestinyBond, Disable]
+
+Houndstone:
+  name: Friedwuff
+  type: Ghost
+  icon: Fox
+  stats:
+    hp: 72
+    atk: 101
+    def: 100
+    sat: 50
+    sdf: 97
+    spd: 68
+  catchrate: 60
+  baseexp: 171
+  female_ratio: 0.5
+  hatch_cycles: 20
+  leveling: MediumSlow
+  egg_group: Field
+  dex:
+    species: Geisterhund
+    height: 2.0
+    weight: 15.0
+    text: |-
+      Die Reinkarnation
+      eines liebevoll
+      betrauerten
+      #MON. Es wird
+      nur ungern am
+      Kopf berührt.
+    footprint: Houndoom
+  moves:
+    level:
+      1: [Tackle, Growl, TailWhip]
+      3: Lick
+      6: Bite
+      9: Roar
+      12: Headbutt
+      16: Dig
+      24: Rest
+      28: Crunch
+      36: PlayRough
+      41: PainSplit
+      46: ShadowClaw
+      51: Charm
+      58: DoubleEdge
+    tmhm: [MudSlap, Protect, Thief, Endure, SunnyDay, RainDance, Sandstorm, Dig, SleepTalk, Rest, ShadowBall, Roar, Return, Frustration, SleepTalk, HyperBeam, HiddenPower]
+
+Marshadow:
+  name: Marshadow
+  types: [Fighting, Ghost]
+  icon: Ghost
+  stats:
+    hp: 99
+    atk: 125
+    def: 80
+    sat: 90
+    sdf: 90
+    spd: 125
+  catchrate: 3
+  baseexp: 255
+  female_ratio: Unknown
+  hatch_cycles: 120
+  leveling: Slow
+  egg_group: None
+  dex:
+    species: Dunkelwesen
+    height: 0.7
+    weight: 22.2
+    text: |-
+      Da es in der Lage
+      ist, mit jedem
+      Schatten zu ver-
+      schmelzen, ist es
+      lange Zeit unent-
+      deckt geblieben.
+    footprint: Sudowoodo
+  moves:
+    level:
+      1: [FirePunch, Thunderpunch, IcePunch, ShadowSneak]
+      11: FaintAttack
+      15: RollingKick
+      20: MachPunch
+      26: ShadowClaw
+      30: VitalThrow
+      35: JumpKick
+      41: PsychUp
+      45: CrossChop
+      50: TripleKick
+      56: Pursuit
+      60: HiJumpKick
+    tmhm: [Toxic, HiddenPower, Protect, Frustration, Return, SleepTalk, ShadowBall, DoubleTeam, Rest, Thief, Swagger, Strength, Endure, FirePunch, IcePunch, Thunderpunch, HyperBeam, PsychUp]
+
+Rotom:
+  name: Rotom
+  types: [Electric, Ghost]
+  icon: Ghost
+  stats:
+    hp: 50
+    atk: 50
+    def: 77
+    sat: 95
+    sdf: 77
+    spd: 91
+  catchrate: 45
+  baseexp: 154
+  female_ratio: Unknown
+  hatch_cycles: 20
+  leveling: MediumFast
+  egg_group: Amorphous
+  dex:
+    species: Plasma
+    height: 0.3
+    weight: 0.3
+    text: |-
+      Es dringt mit
+      seinem Plasma-
+      körper gern in
+      elektrische Ge-
+      räte ein und
+      sorgt für Chaos.
+    footprint: Misdreavus
+  moves:
+    level:
+      1: [Astonish, DoubleTeam]
+      5: Thundershock
+      10: ConfuseRay
+      15: Spark
+      20: Conversion
+      25: ThunderWave
+      35: Hex
+      40: Substitute
+      45: Thief
+      50: Conversion2
+      55: Thunderbolt
+    tmhm: [Toxic, HiddenPower, SunnyDay, Protect, RainDance, Frustration, Thunderbolt, Thunder, Return, ShadowBall, DoubleTeam, Rest, Thief, ZapCannon, Endure, Flash, PsychUp, SleepTalk, DreamEater, Swagger]
+
+Golett:
+  name: Golbit
+  types: [Ground, Ghost]
+  evolutions:
+    43: Golurk
+  icon: Geodude
+  stats:
+    hp: 59
+    atk: 74
+    def: 50
+    sat: 35
+    sdf: 50
+    spd: 35
+  catchrate: 190
+  baseexp: 61
+  female_ratio: Unknown
+  hatch_cycles: 25
+  leveling: MediumFast
+  egg_group: Mineral
+  dex:
+    species: Urgolem
+    height: 1.0
+    weight: 92.0
+    text: |-
+      Es wurde von ei-
+      ner uralten Kul-
+      tur aus Lehm er-
+      schaffen und kann
+      Jahrtausende in
+      Bewegung bleiben.
+    footprint: Aipom
+  moves:
+    level:
+      1: [Pound, Astonish, DefenseCurl]
+      5: MudSlap
+      9: Rollout
+      13: ShadowSneak
+      17: Barrier
+      21: MegaPunch
+      25: Magnitude
+      30: Dynamicpunch
+      35: NightShade
+      40: Curse
+      45: Earthquake
+      50: CrossChop
+    tmhm: [Toxic, HiddenPower, IceBeam, Protect, RainDance, Frustration, Return, Earthquake, Psychic, ShadowBall, DoubleTeam, Rest, Thief, SleepTalk, Flash, Swagger, Strength, RockSmash, IcyWind, FirePunch, IcePunch, Thunderpunch, Dig, Snore, Endure]
+
+Golurk:
+  name: Golgantes
+  types: [Ground, Ghost]
+  icon: Geodude
+  stats:
+    hp: 89
+    atk: 124
+    def: 80
+    sat: 55
+    sdf: 80
+    spd: 55
+  catchrate: 90
+  baseexp: 169
+  female_ratio: Unknown
+  hatch_cycles: 25
+  leveling: MediumFast
+  egg_group: Mineral
+  dex:
+    species: Urgolem
+    height: 2.8
+    weight: 330.0
+    text: |-
+      Löst sich das
+      Siegel auf seiner
+      Brust, gerät es
+      außer Kontrolle
+      und zerstört
+      ganze Städte.
+    footprint: Nidoking
+  moves:
+    level:
+      1: [Pound, Astonish, DefenseCurl]
+      5: MudSlap
+      9: Rollout
+      13: ShadowSneak
+      17: Barrier
+      21: MegaPunch
+      25: Magnitude
+      30: Dynamicpunch
+      35: NightShade
+      40: Curse
+      43: MetalClaw
+      50: Earthquake
+      60: CrossChop
+    tmhm: [Toxic, HiddenPower, IceBeam, Protect, RainDance, Frustration, Return, Earthquake, Psychic, ShadowBall, DoubleTeam, Rest, Thief, SleepTalk, Flash, Swagger, Strength, RockSmash, IcyWind, FirePunch, IcePunch, Thunderpunch, Dig, Snore, Endure, Solarbeam, HyperBeam, Thunderbolt]
+
+Frillish:
+  name: Quabbel
+  types: [Water, Ghost]
+  evolutions:
+    40: Jellicent
+  icon: Jellyfish
+  stats:
+    hp: 55
+    atk: 40
+    def: 50
+    sat: 65
+    sdf: 85
+    spd: 40
+  catchrate: 190
+  baseexp: 67
+  female_ratio: 0.0
+  hatch_cycles: 20
+  leveling: MediumFast
+  egg_group: Amorphous
+  dex:
+    species: Gleit
+    height: 1.2
+    weight: 33.0
+    text: |-
+      Schlingt seine
+      dünnen, schleier-
+      artigen Arme um
+      seine Gegner und
+      sinkt mit ihnen
+      zum Meeresgrund.
+    footprint: Misdreavus
+  moves:
+    level:
+      1: [Bubble]
+      5: Absorb
+      9: NightShade
+      13: Bubblebeam
+      17: Recover
+      22: Wrap
+      27: Acid
+      32: Reflect
+      37: RainDance
+      43: Hex
+      49: HydroPump
+    tmhm: [Toxic, HiddenPower, IceBeam, Blizzard, Protect, RainDance, Frustration, Return, Psychic, ShadowBall, DoubleTeam, SludgeBomb, Rest, Attract, Flash, PsychUp, DreamEater, Swagger, Surf, Waterfall, IcyWind, GigaDrain, Snore, SleepTalk, Endure, Whirlpool]
+    egg: [AcidArmor, ConfuseRay, PainSplit, Constrict]
+
+Jellicent:
+  name: Apoquallyp
+  types: [Water, Ghost]
+  icon: Jellyfish
+  stats:
+    hp: 100
+    atk: 60
+    def: 70
+    sat: 85
+    sdf: 105
+    spd: 60
+  catchrate: 60
+  baseexp: 168
+  female_ratio: 0.0
+  hatch_cycles: 20
+  leveling: MediumFast
+  egg_group: Amorphous
+  dex:
+    species: Gleit
+    height: 2.2
+    weight: 135.0
+    text: |-
+      Bei Vollmond
+      treiben sie in
+      Schwärmen an die
+      Meeresoberfläche
+      und lauern dort
+      ihrer Beute auf.
+    footprint: Misdreavus
+  moves:
+    level:
+      1: [Bubble]
+      5: Absorb
+      9: NightShade
+      13: Bubblebeam
+      17: Recover
+      22: Wrap
+      27: Acid
+      32: Reflect
+      37: RainDance
+      45: Hex
+      53: HydroPump
+    tmhm: [Toxic, HiddenPower, IceBeam, Blizzard, Protect, RainDance, Frustration, Return, Psychic, ShadowBall, DoubleTeam, SludgeBomb, Rest, Attract, Flash, PsychUp, DreamEater, Swagger, Surf, Waterfall, IcyWind, GigaDrain, Snore, SleepTalk, Endure, Whirlpool, HyperBeam]
+
+Pumpkaboo:
+  name: Irrbis
+  types: [Ghost, Grass]
+  evolutions:
+    trade: Gourgeist
+  icon: Oddish
+  stats:
+    hp: 59
+    atk: 66
+    def: 70
+    sat: 44
+    sdf: 55
+    spd: 41
+  catchrate: 120
+  baseexp: 67
+  female_ratio: 0.5
+  hatch_cycles: 20
+  leveling: MediumFast
+  egg_group: Amorphous
+  dex:
+    species: Kürbis
+    height: 0.8
+    weight: 15.0
+    text: |-
+      Im Diesseits ge-
+      fangene verlorene
+      Seelen finden in
+      ihm Platz, um ins
+      Jenseits zu
+      reisen.
+    footprint: Corsola
+  moves:
+    level:
+      1: [Astonish, ConfuseRay]
+      4: ScaryFace
+      6: WillOWisp
+      11: Growth
+      16: VineWhip
+      20: LeechSeed
+      26: RazorLeaf
+      30: ShadowSneak
+      36: Hex
+      40: PainSplit
+      44: Flamethrower
+      48: Selfdestruct
+    egg: [Curse, DestinyBond, Disable]
+    tmhm: [Toxic, HiddenPower, SunnyDay, Protect, Frustration, Return, Solarbeam, Psychic, ShadowBall, DoubleTeam, Flamethrower, SludgeBomb, FireBlast, Rest, Attract, Thief, DreamEater, Swagger, SleepTalk, RockSmash, GigaDrain, Endure]
+
+Gourgeist:
+  name: Pumpdjinn
+  types: [Ghost, Grass]
+  icon: Oddish
+  stats:
+    hp: 85
+    atk: 100
+    def: 122
+    sat: 58
+    sdf: 75
+    spd: 54
+  catchrate: 60
+  baseexp: 173
+  female_ratio: 0.5
+  hatch_cycles: 20
+  leveling: MediumFast
+  egg_group: Amorphous
+  dex:
+    species: Kürbis
+    height: 1.7
+    weight: 39.0
+    text: |-
+      In Neumondnächten
+      streift es durch
+      die Dörfer. Wer
+      seinen unheilvol-
+      len Gesang hört,
+      wird verflucht.
+    footprint: Corsola
+  moves:
+    level:
+      1: [Astonish, ConfuseRay]
+      4: ScaryFace
+      6: WillOWisp
+      11: Growth
+      16: VineWhip
+      20: LeechSeed
+      26: RazorLeaf
+      30: ShadowSneak
+      36: Hex
+      40: PainSplit
+      44: Flamethrower
+      48: Explosion
+    tmhm: [Toxic, HiddenPower, SunnyDay, Protect, Frustration, Return, Solarbeam, Psychic, ShadowBall, DoubleTeam, Flamethrower, SludgeBomb, FireBlast, Rest, Attract, Thief, DreamEater, Swagger, SleepTalk, RockSmash, GigaDrain, Endure, HyperBeam]
+
+Poltchageist:
+  name: Mortcha
+  types: [Grass, Ghost]
+  evolutions:
+    28: Sinistcha
+  icon: Ghost
+  stats:
+    hp: 40
+    atk: 45
+    def: 45
+    sat: 74
+    sdf: 54
+    spd: 50
+  catchrate: 120
+  baseexp: 62
+  female_ratio: Unknown
+  hatch_cycles: 20
+  leveling: MediumFast
+  egg_groups: [Mineral, Amorphous]
+  dex:
+    species: Matcha
+    height: 0.1
+    weight: 1.1
+    text: |-
+      In ihm steckt die
+      Seele eines Tee-
+      meisters, der
+      starb, bevor er
+      sein Handwerk
+      vollendete.
+    footprint: Misdreavus
+  moves:
+    level:
+      1: [Astonish, Withdraw, StunSpore]
+      6: Absorb
+      12: MilkDrink
+      18: ShadowSneak
+      24: MegaDrain
+      29: Hex
+      34: Protect
+      39: GigaDrain
+      44: ShadowBall
+      49: PerishSong
+      54: PetalDance
+    tmhm: [Protect, Endure, SleepTalk, Rest, Return, Frustration, GigaDrain, ShadowBall, Solarbeam, PsychUp, Curse, Toxic, Headbutt]
+
+Sinistcha:
+  name: Fatalitcha
+  types: [Grass, Ghost]
+  icon: Ghost
+  stats:
+    hp: 71
+    atk: 60
+    def: 106
+    sat: 121
+    sdf: 80
+    spd: 70
+  catchrate: 60
+  baseexp: 178
+  female_ratio: Unknown
+  hatch_cycles: 20
+  leveling: MediumFast
+  egg_groups: [Mineral, Amorphous]
+  dex:
+    species: Matcha
+    height: 0.2
+    weight: 2.2
+    text: |-
+      Es rührt sich
+      selbst gern mit
+      dem Teebesen auf
+      einem Kopf um.
+      So tankt es
+      Energie.
+    footprint: Misdreavus
+  moves:
+    level:
+      1: [Astonish, Withdraw, StunSpore]
+      6: Absorb
+      12: MilkDrink
+      18: ShadowSneak
+      24: MegaDrain
+      28: MatchaGotcha
+      30: Hex
+      36: Protect
+      42: GigaDrain
+      48: ShadowBall
+      54: PerishSong
+      60: PetalDance
+    tmhm: [Protect, Endure, SleepTalk, Rest, Return, Frustration, GigaDrain, ShadowBall, Solarbeam, PsychUp, Curse, Toxic]

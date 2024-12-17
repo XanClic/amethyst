@@ -169,6 +169,8 @@ CharmanderEggMoves:
 	dw BITE
 	dw OUTRAGE
 	dw BEAT_UP
+	dw DRAGON_DANCE
+	dw DRAGON_RUSH
 	dw -1 ; end
 
 SquirtleEggMoves:
@@ -482,6 +484,7 @@ RhyhornEggMoves:
 	dw PURSUIT
 	dw COUNTER
 	dw MAGNITUDE
+	dw DRAGON_RUSH
 	dw -1 ; end
 
 ChanseyEggMoves:
@@ -544,6 +547,7 @@ PinsirEggMoves:
 LaprasEggMoves:
 	dw AURORA_BEAM
 	dw FORESIGHT
+	dw DRAGON_DANCE
 	dw -1 ; end
 
 EeveeEggMoves:
@@ -582,5 +586,7 @@ DratiniEggMoves:
 	dw MIST
 	dw HAZE
 	dw SUPERSONIC
+	dw DRAGON_DANCE
+	dw DRAGON_RUSH
 NoEggMoves1:
 	dw -1 ; end

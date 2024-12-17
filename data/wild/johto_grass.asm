@@ -444,7 +444,7 @@ JohtoGrassWildMons:
 	dbw 6, GEODUDE
 	dbw 6, RATTATA
 	dbw 5, WOOPER
-	dbw 4, RATTATA
+	dbw 4, GOLETT
 	dbw 7, ZUBAT
 	dbw 6, ONIX
 	dbw 6, ONIX
@@ -473,9 +473,9 @@ JohtoGrassWildMons:
 	dbw 6, ZUBAT
 	dbw 8, WOOPER
 	dbw 8, ONIX
-	dbw 6, RATTATA
-	dbw 8, RATTATA
-	dbw 8, RATTATA
+	dbw 6, GOLETT
+	dbw 8, GOLETT
+	dbw 8, GOLETT
 	end_grass_wildmons
 
 	def_grass_wildmons UNION_CAVE_B2F
@@ -500,7 +500,7 @@ JohtoGrassWildMons:
 	dbw 22, ZUBAT
 	dbw 22, GOLBAT
 	dbw 22, QUAGSIRE
-	dbw 21, RATICATE
+	dbw 21, GOLETT
 	dbw 20, GEODUDE
 	dbw 23, ONIX
 	dbw 23, ONIX
@@ -586,8 +586,8 @@ JohtoGrassWildMons:
 	dbw 7, ODDISH
 	dbw 7, PSYDUCK
 	dbw 7, HOOTHOOT
-	dbw 6, PARAS
-	dbw 6, PARAS
+	dbw 6, GOURGEIST
+	dbw 6, GOURGEIST
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MORTAR_1F_OUTSIDE
@@ -723,7 +723,7 @@ JohtoGrassWildMons:
 	; nite
 	dbw 21, DELIBIRD
 	dbw 22, ZUBAT
-	dbw 22, GOLBAT
+	dbw 22, SNORUNT
 	dbw 23, DELIBIRD
 	dbw 24, GOLBAT
 	dbw 22, GOLBAT
@@ -1393,9 +1393,9 @@ JohtoGrassWildMons:
 	dbw 10, DITTO
 	dbw 10, DITTO
 	; nite
-	dbw 12, DROWZEE
+	dbw 12, GREAVARD
 	dbw 11, RATTATA
-	dbw 12, HOOTHOOT
+	dbw 12, DROWZEE
 	dbw 10, ABRA
 	dbw 12, JIGGLYPUFF
 	dbw 10, DITTO
@@ -1422,10 +1422,10 @@ JohtoGrassWildMons:
 	dbw 12, YANMA
 	; nite
 	dbw 12, DROWZEE
-	dbw 14, HOOTHOOT
+	dbw 12, JIGGLYPUFF
 	dbw 13, PSYDUCK
 	dbw 10, ABRA
-	dbw 12, JIGGLYPUFF
+	dbw 12, ROTOM
 	dbw 10, DITTO
 	dbw 12, YANMA
 	end_grass_wildmons
@@ -1480,8 +1480,8 @@ JohtoGrassWildMons:
 	dbw 13, SPINARAK
 	dbw 14, STANTLER
 	dbw 15, HOOTHOOT
-	dbw 16, STANTLER
-	dbw 15, NOCTOWL
+	dbw 16, NOCTOWL
+	dbw 15, HONEDGE
 	dbw 15, ARIADOS
 	dbw 15, ARIADOS
 	end_grass_wildmons
@@ -1677,7 +1677,7 @@ JohtoGrassWildMons:
 	dbw 23, GRAVELER
 	dbw 24, GLIGAR
 	dbw 25, GRAVELER
-	dbw 27, GRAVELER
+	dbw 27, GOLETT
 	dbw 27, LARVITAR
 	dbw 28, LARVITAR
 	end_grass_wildmons

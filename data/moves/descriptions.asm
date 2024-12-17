@@ -256,7 +256,7 @@ MoveDescriptions1:
 	dw RockSmashDescription
 	dw WhirlpoolDescription
 	dw BeatUpDescription
-	dw DisguiseDescription
+	dw WoodHammerDescription
 	dw PlayRoughDescription
 	dw ShadowSneakDescription
 	dw ShadowClawDescription
@@ -270,6 +270,11 @@ MoveDescriptions1:
 	dw ShellSmashDescription
 	dw StoredPowerDescription
 	dw EarthPowerDescription
+	dw HornLeechDescription
+	dw MatchaGotchaDescription
+	dw DragonDanceDescription
+	dw DragonRushDescription
+	dw DragonDartsDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -403,6 +408,7 @@ HornDrillDescription:
 	next "Bohr-Attacke.@"
 
 TackleDescription:
+DragonRushDescription:
 	db   "Attacke mit vollem"
 	next "Körpereinsatz.@"
 
@@ -423,6 +429,7 @@ WhirlpoolDescription:
 	next "zu 5mal.@"
 
 TakeDownDescription:
+DoubleEdgeDescription:
 	db   "Tackle! Angreifer"
 	next "wird verletzt.@"
 
@@ -431,10 +438,6 @@ PetalDanceDescription:
 OutrageDescription:
 	db   "Hält 2-3 Runden."
 	next "Verwir. Angreifer.@"
-
-DoubleEdgeDescription:
-	db   "Tackle! Angreifer"
-	next "wird verletzt.@"
 
 TailWhipDescription:
 LeerDescription:
@@ -561,6 +564,8 @@ AbsorbDescription:
 MegaDrainDescription:
 GigaDrainDescription:
 LeechLifeDescription:
+HornLeechDescription:
+MatchaGotchaDescription:
 	db   "Erhält Hälfte des"
 	next "Schadens als KP.@"
 
@@ -1064,9 +1069,9 @@ BeatUpDescription:
 	db   "#MON vom Team"
 	next "greifen auch an.@"
 
-DisguiseDescription:
-	db   "Schafft Ablenkung"
-	next "und erschreckt.@"
+WoodHammerDescription:
+	db   "Angreifer wird"
+	next "verletzt.@"
 
 MoonblastDescription:
 	db   "Senkt evtl. SPEZ.-"
@@ -1095,3 +1100,11 @@ ShellSmashDescription:
 StoredPowerDescription:
 	db   "Stärke steigt mit"
 	next "Statuswerten.@"
+
+DragonDanceDescription:
+	db   "Erhöht ANGR- und"
+	next "INIT-Wert.@"
+
+DragonDartsDescription:
+	db   "Feuert 2 GROLLDRA"
+	next "auf den Gegner.@"
