@@ -1,10 +1,10 @@
-	db "STICHKLAUE@" ; species name
-	dbw 9, 280 ; height, weight
+	db "SHARP CLAW@" ; species name
+	dw 211, 620 ; height, weight
 
-	db   "Dieses hinterlis-"
-	next "tige #MON"
-	next "nutzt den Schutz"
+	db   "This cunning"
+	next "#MON hides"
+	next "under the cover"
 
-	page "der Dunkelheit, um"
-	next "ahnungsloser Beute"
-	next "aufzulauern.@"
+	page "of darkness,"
+	next "waiting to attack"
+	next "its prey.@"

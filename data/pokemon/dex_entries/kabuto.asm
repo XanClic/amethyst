@@ -1,10 +1,10 @@
-	db "SCHALTIER@" ; species name
-	dbw 5, 115 ; height, weight
+	db "SHELLFISH@" ; species name
+	dw 108, 250 ; height, weight
 
-	db   "Vor 300 Mio."
-	next "Jahren versteckte"
-	next "es sich auf dem"
+	db   "Three hundred"
+	next "million years ago,"
+	next "it hid on the sea"
 
-	page "Meeresgrund. Seine"
-	next "Augen auf dem"
-	next "Rücken leuchten.@"
+	page "floor. It also has"
+	next "eyes on its back"
+	next "that glow.@"

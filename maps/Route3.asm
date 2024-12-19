@@ -57,84 +57,77 @@ Route3MtMoonSquareSign:
 	jumptext Route3MtMoonSquareSignText
 
 FirebreatherOtisSeenText:
-	text "Ah! Das Wetter"
-	line "ist so schön"
-	cont "wie immer."
+	text "Ah! The weather's"
+	line "as fine as ever."
 	done
 
 FirebreatherOtisBeatenText:
-	text "Die Sonne scheint,"
-	line "dennoch bin ich"
-	cont "nass…"
+	text "It's sunny, but"
+	line "I'm all wet…"
 	done
 
 FirebreatherOtisAfterBattleText:
-	text "Bei Regen ist"
-	line "eine Zündung sehr"
-	cont "schwierig…"
+	text "When it rains,"
+	line "it's hard to get"
+	cont "ignition…"
 	done
 
 YoungsterWarrenSeenText:
-	text "Hmmm… Ich weiß"
-	line "nicht, was ich"
-	cont "tun soll…"
+	text "Hmmm… I don't know"
+	line "what to do…"
 	done
 
 YoungsterWarrenBeatenText:
-	text "Ich wusste es…"
+	text "I knew I'd lose…"
 	done
 
 YoungsterWarrenAfterBattleText:
-	text "Du hast gleich"
-	line "einen starken"
-	cont "Eindruck gemacht."
+	text "You looked strong."
 
-	para "Ich hatte Angst,"
-	line "gegen dich zu"
-	cont "kämpfen…"
+	para "I was afraid to"
+	line "take you on…"
 	done
 
 YoungsterJimmySeenText:
-	text "Ich bin schnell"
-	line "wie der Wind!"
+	text "I can run like the"
+	line "wind!"
 	done
 
 YoungsterJimmyBeatenText:
-	text "Hinfortgeweht!"
+	text "Blown away!"
 	done
 
 YoungsterJimmyAfterBattleText:
-	text "Ich trage das"
-	line "ganze Jahr Shorts."
+	text "I wear shorts the"
+	line "whole year round."
 
-	para "Das ist meine"
-	line "Auffassung von"
-	cont "Mode."
+	para "That's my fashion"
+	line "policy."
 	done
 
 FirebreatherBurtSeenText:
-	text "Komm schnell her"
-	line "und schau!"
+	text "Step right up and"
+	line "take a look!"
 	done
 
 FirebreatherBurtBeatenText:
-	text "Wow! Das ist heiß!"
+	text "Yow! That's hot!"
 	done
 
 FirebreatherBurtAfterBattleText:
-	text "Ich bin der beste"
-	line "Feuerspucker"
-	cont "in KANTO."
+	text "The greatest fire-"
+	line "breather in KANTO,"
+	cont "that's me."
 
-	para "Aber nicht der"
-	line "beste Trainer…"
+	para "But not the best"
+	line "trainer…"
 	done
 
 Route3MtMoonSquareSignText:
-	text "MONDBERGPLATZ"
+	text "MT.MOON SQUARE"
 
-	para "Geh einfach die"
-	line "Treppe hoch"
+	para "Just go up the"
+	line "stairs."
 	done
 
 Route3_MapEvents:

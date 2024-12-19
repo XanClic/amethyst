@@ -21,20 +21,17 @@ VermilionMartBeautyScript:
 	jumptextfaceplayer VermilionMartBeautyText
 
 VermilionMartSuperNerdText:
-	text "TEAM ROCKET ist"
-	line "nicht mehr in"
-	cont "KANTO."
+	text "TEAM ROCKET is no"
+	line "longer in KANTO."
 
-	para "Das allein ist"
-	line "schon ein Grund"
-	cont "zum Feiern."
+	para "That alone makes"
+	line "me happy."
 	done
 
 VermilionMartBeautyText:
-	text "Ich habe vor, in"
-	line "SAFFRONIA CITY"
-	cont "einkaufen zu"
-	cont "gehen."
+	text "I'm thinking about"
+	line "going shopping in"
+	cont "SAFFRON."
 	done
 
 VermilionMart_MapEvents:

@@ -1,75 +1,73 @@
 JoseAskNumber1Text:
-	text "Sieht @"
+	text "If my @"
 	text_ram wStringBuffer4
 	text_start
-	line "etwas Schönes,"
+	line "sees anything"
 
-	para "geht es los und"
-	line "holt es."
+	para "pretty, it goes"
+	line "and gets it."
 
-	para "Magst du schöne"
-	line "Dinge?"
+	para "Do you like pretty"
+	line "things?"
 
-	para "Wenn du magst,"
-	line "teile ich mit dir."
+	para "I could share if"
+	line "it gets some more."
 
-	para "Wie lautet deine"
-	line "Telefonnummer?"
+	para "What's your phone"
+	line "number? I'll call."
 
-	para "Aber erwarte nicht"
-	line "zu viel, hörst du?"
+	para "Don't expect a"
+	line "whole lot, OK?"
 	done
 
 JoseAskNumber2Text:
-	text "Magst du schöne"
-	line "Dinge?"
+	text "Do you like pretty"
+	line "things?"
 
-	para "Ich teile mit dir,"
-	line "wenn PORENTA noch"
-	cont "mehr bringt."
+	para "I could share if"
+	line "FARFETCH'D goes"
+	cont "and gets more."
 
-	para "Wie lautet deine"
-	line "Telefonnummer?"
+	para "What's your phone"
+	line "number? I'll call."
 	done
 
 JoseNumberAcceptedText:
-	text "Ich melde mich,"
-	line "sobald ich etwas"
-	cont "für dich habe."
+	text "I'll call you as"
+	line "soon as I get"
+	cont "something pretty."
 	done
 
 JoseNumberDeclinedText:
-	text "Oh? Gib Bescheid,"
-	line "wenn du deine"
-	cont "Meinung änderst."
+	text "You sure? Well,"
+	line "tell me if you"
+	cont "change your mind."
 	done
 
 JosePhoneFullText:
-	text "Äh! Dein Nummern-"
-	line "speicher ist voll."
+	text "Huh? Your phone"
+	line "list is full."
 	done
 
 JoseRematchText:
-	text "Kwak! Kwak! Kwak!"
+	text "Tweet! Tweeeet!"
 
-	para "Lass mich nicht"
-	line "warten!"
-	cont "Los, PORENTA!"
+	para "Kept me waiting!"
+	line "Go, FARFETCH'D!"
 	done
 
 JoseGiftText:
-	text "Ich will nicht"
-	line "warten! Sieh, das"
-	cont "ist es!"
+	text "Kept me waiting!"
+	line "Look, this is it!"
 
-	para "Schau! Ist das"
-	line "nicht schön?"
+	para "See? Isn't it some"
+	line "kind of pretty?"
 	done
 
 JosePackFullText:
-	text "Häh? Du kannst das"
-	line "nicht verstauen."
+	text "Huh? You don't"
+	line "have anywhere to"
 
-	para "Hole es dir später"
-	line "ab."
+	para "put this. Better"
+	line "come back for it."
 	done

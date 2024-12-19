@@ -321,171 +321,153 @@ Route38FruitTree:
 	fruittree FRUITTREE_ROUTE_38
 
 BirdKeeperTobySeenText:
-	text "Fliege hoch in die"
-	line "Luft, mein"
-	cont "herrliches"
-	cont "Vogel-#MON!"
+	text "Fly high into the"
+	line "sky, my beloved"
+	cont "bird #MON!"
 	done
 
 BirdKeeperTobyBeatenText:
-	text "Ich fühle mich,"
-	line "als würde ich mich"
-	cont "selbst in die"
-	cont "Lüfte erheben."
+	text "I feel like just"
+	line "flying away now."
 	done
 
 BirdKeeperTobyAfterBattleText:
-	text "Ich habe vor,"
-	line "in ANEMONIA CITY"
+	text "I plan to train in"
+	line "CIANWOOD CITY to"
 
-	para "zu trainieren und"
-	line "meinen #MON"
-	cont "das Fliegen"
-	cont "beizubringen."
+	para "teach my #MON"
+	line "how to FLY."
 	done
 
 SchoolboyChad1SeenText:
-	text "Jetzt probiere ich"
-	line "etwas aus, das ich"
-	cont "heute gelernt"
-	cont "habe."
+	text "Let me try some-"
+	line "thing I learned"
+	cont "today."
 	done
 
 SchoolboyChad1BeatenText:
-	text "Ich fürchte, ich"
-	line "habe noch nicht"
-	cont "genug gelernt."
+	text "I didn't study"
+	line "enough, I guess."
 	done
 
 SchoolboyChadSoManyTestsText:
-	text "Ich habe so viele"
-	line "Prüfungen, dass"
+	text "I have to take so"
+	line "many tests, I"
 
-	para "ich nicht viel"
-	line "Zeit für #MON"
-	cont "habe."
+	para "don't have much"
+	line "time for #MON."
 
-	para "Wenn ich also mal"
-	line "Zeit zum Spielen"
-	cont "habe, dann konzen-"
-	cont "triere ich mich."
+	para "So when I do get"
+	line "to play, I really"
+	cont "concentrate."
 	done
 
 LassDana1SeenText:
-	text "Du scheinst dich"
-	line "mit #MON"
-	cont "auszukennen."
+	text "You seem to be"
+	line "good at #MON."
 
-	para "Gibst du mir bitte"
-	line "einige Ratschläge?"
+	para "If you are, how"
+	line "about giving me"
+	cont "some advice?"
 	done
 
 LassDana1BeatenText:
-	text "Ich verstehe. So"
-	line "kämpfst du also."
+	text "I see. So you can"
+	line "battle that way."
 	done
 
 LassDanaMoomooMilkText:
-	text "Ich kenne etwas"
-	line "sehr Bekömmliches!"
+	text "I know something"
+	line "good!"
 
-	para "Die Milch von der"
-	line "KUHMUH-FARM ist"
-	cont "bekannt für ihren"
-	cont "guten Geschmack."
+	para "MOOMOO FARM's milk"
+	line "is famous for its"
+	cont "flavor."
 	done
 
 BeautyValerieSeenText:
-	text "Hallo! Du bist"
-	line "bestimmt so nett"
+	text "Hi! Aren't you a"
+	line "cute trainer!"
 
-	para "und zeigst mir"
-	line "deine #MON?"
+	para "May I see your"
+	line "#MON?"
 	done
 
 BeautyValerieBeatenText:
-	text "Ich bin froh, dass"
-	line "ich deine #MON"
-	cont "sehen durfte!"
+	text "I'm glad I got to"
+	line "see your #MON!"
 	done
 
 BeautyValerieAfterBattleText:
-	text "Wenn ich #-"
-	line "MON sehe, scheint"
-	cont "mich das zu"
-	cont "entspannen."
+	text "When I see #-"
+	line "MON, it seems to"
+	cont "soothe my nerves."
 	done
 
 SailorHarrySeenText:
-	text "Ich war im Aus-"
-	line "land. Deswegen"
+	text "I've been over-"
+	line "seas, so I know"
 
-	para "kenne ich alle"
-	line "#MON-Arten!"
+	para "about all sorts of"
+	line "#MON!"
 	done
 
 SailorHarryBeatenText:
-	text "Deine Fähigkeiten"
-	line "sind Spitzen-"
-	cont "klasse!"
+	text "Your skill is"
+	line "world class!"
 	done
 
 SailorHarryAfterBattleText:
-	text "Alle Menschen auf"
-	line "der ganzen Welt"
+	text "All kinds of peo-"
+	line "ple around the"
 
-	para "leben glücklich"
-	line "zusammen mit den"
-	cont "#MON."
+	para "world live happily"
+	line "with #MON."
 	done
 
 BeautyOliviaSeenText:
-	text "Meine #MON und"
-	line "ich sind wunder-"
-	cont "schön, nicht wahr?"
+	text "Don't you think my"
+	line "#MON and I are"
+	cont "beautiful?"
 	done
 
 BeautyOliviaBeatenText:
-	text "Wir trinken täg-"
-	line "lich KUHMUH-MILCH."
+	text "We drink MOOMOO"
+	line "MILK every day."
 	done
 
 BeautyOliviaAfterBattleText:
-	text "KUHMUH-MLCH ist"
-	line "gut für Schönheit"
+	text "MOOMOO MILK is"
+	line "good for beauty"
 
-	para "und Gesundheit,"
-	line "aber leider kann"
+	para "and health, but"
+	line "inconveniently,"
 
-	para "man immer nur eine"
-	line "Flasche kaufen."
+	para "they only sell a"
+	line "bottle at a time."
 	done
 
 Route38SignText:
 	text "ROUTE 38"
 
-	para "OLIVIANA CITY -"
-	line "TEAK CITY"
+	para "OLIVINE CITY -"
+	line "ECRUTEAK CITY"
 	done
 
 Route38TrainerTipsText:
-	text "TIPPS für TRAINER"
-	line "Wenn sich ein"
+	text "TRAINER TIPS"
 
-	para "#MON weiter-"
-	line "entwickelt, kannst"
+	para "If a #MON is"
+	line "trying to evolve,"
+	cont "you can stop it."
 
-	para "du diesen Prozess"
-	line "aufhalten."
+	para "Press the B But-"
+	line "ton during evolu-"
+	cont "tion."
 
-	para "Drücke während"
-	line "der Entwicklung"
-	cont "den B-Knopf."
-
-	para "So wird das #-"
-	line "MON erschreckt und"
-	cont "es bricht die"
-	cont "Entwicklung ab."
+	para "That startles the"
+	line "#MON and stops"
+	cont "its evolution."
 	done
 
 Route38_MapEvents:

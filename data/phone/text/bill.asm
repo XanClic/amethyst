@@ -1,103 +1,101 @@
 BillPhoneMornGreetingText:
-	text "Guten Morgen!"
+	text "Good morning!"
 
-	para "Dies ist der VER-"
-	line "WALTUNGSSERVICE"
+	para "This is the #-"
+	line "MON STORAGE SYSTEM"
 
-	para "DES #MON-LAGE-"
-	line "RUNGS-SYSTEMs."
+	para "ADMINISTRATION"
+	line "SERVICE."
 	done
 
 BillPhoneDayGreetingText:
-	text "Guten Tag!"
+	text "Good day!"
 
-	para "Dies ist der VER-"
-	line "WALTUNGSSERVICE"
+	para "This is the #-"
+	line "MON STORAGE SYSTEM"
 
-	para "DES #MON-LAGE-"
-	line "RUNGS-SYSTEMs."
+	para "ADMINISTRATION"
+	line "SERVICE."
 	done
 
 BillPhoneNiteGreetingText:
-	text "Guten Abend!"
+	text "Good evening!"
 
-	para "Dies ist der VER-"
-	line "WALTUNGSSERVICE"
+	para "This is the #-"
+	line "MON STORAGE SYSTEM"
 
-	para "DES #MON-LAGE-"
-	line "RUNGS-SYSTEMs."
+	para "ADMINISTRATION"
+	line "SERVICE."
 	done
 
 BillPhoneGenericText:
-	text "Wer ist dran?"
+	text "Who's calling?"
 
-	para "<PLAY_G>, oder?"
-	line "Moment noch…"
+	para "<PLAY_G>, is it?"
+	line "Hang on a sec…"
 
 	para "<……>"
 	line "<……>"
 	done
 
 BillPhoneNotFullText:
-	text "Danke, dass du"
-	line "gewartet hast!"
+	text "Thanks for"
+	line "waiting!"
 
-	para "<PLAY_G>, in der"
-	line "BOX ist noch Platz"
-	cont "für @"
+	para "<PLAY_G>, your BOX"
+	line "has room for @"
 	text_ram wStringBuffer3
-	text " #MON."
+	text_start
+	cont "more #MON."
 
-	para "Schwing die Hufe"
-	line "und mach sie voll!"
+	para "Get out there and"
+	line "fill it up!"
 	done
 
 BillPhoneNearlyFullText:
-	text "Danke, dass du"
-	line "gewartet hast!"
+	text "Thanks for"
+	line "waiting!"
 
-	para "<PLAY_G>, in der"
-	line "BOX ist noch Platz"
-	cont "für @"
+	para "<PLAY_G>, your BOX"
+	line "has room for only"
+	cont "@"
 	text_ram wStringBuffer3
-	text " #MON."
+	text " more #MON."
 
-	para "Wechsle doch die"
-	line "BOX."
+	para "Maybe you should"
+	line "switch your BOX."
 	done
 
 BillPhoneFullText:
-	text "Danke, dass du"
-	line "gewartet hast!"
+	text "Thanks for"
+	line "waiting!"
 
-	para "<PLAY_G>, deine"
-	line "BOX ist voll!"
+	para "<PLAY_G>, your BOX"
+	line "is full!"
 
-	para "Wenn du mehr #-"
-	line "MON fangen möch-"
-	cont "test, musst du die"
-	cont "BOX wechseln."
+	para "You'll have to"
+	line "switch BOXES if"
+
+	para "you want to catch"
+	line "more #MON."
 	done
 
 BillPhoneNewlyFullText:
 	text "Hi, <PLAY_G>?"
-	line "Ich bin's, BILL!"
+	line "It's me, BILL!"
 
-	para "Danke, dass du das"
-	line "LAGERUNGS-SYSTEM"
-	cont "benutzt."
+	para "Thanks for using"
+	line "my STORAGE SYSTEM."
 
-	para "Deine aktuelle BOX"
-	line "ist voll und kann"
+	para "That last #MON"
+	line "you sent filled"
+	cont "your BOX up."
 
-	para "keine #MON"
-	line "mehr aufnehmen."
+	para "You'll have to"
+	line "switch BOXES if"
 
-	para "Du musst die BOX"
-	line "wechseln, wenn du"
+	para "you want to catch"
+	line "more #MON."
 
-	para "mehr #MON fan-"
-	line "gen willst."
-
-	para "Bis dann!"
+	para "Bye now!"
 	done

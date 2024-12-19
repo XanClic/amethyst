@@ -33,61 +33,56 @@ ElmsHouseBookshelf:
 	jumpstd DifficultBookshelfScript
 
 ElmsWifeText:
-	text "Hi, <PLAY_G>! Mein"
-	line "Mann ist immer so"
+	text "Hi, <PLAY_G>! My"
+	line "husband's always"
 
-	para "beschäftigt. Ich"
-	line "hoffe, es geht ihm"
-	cont "gut."
+	para "so busy--I hope"
+	line "he's OK."
 
-	para "Wenn er sich in"
-	line "seine #MON-"
-	cont "Forschungen ver-"
-	cont "tieft, vergisst er"
-	cont "sogar zu essen."
+	para "When he's caught"
+	line "up in his #MON"
+
+	para "research, he even"
+	line "forgets to eat."
 	done
 
 ElmsSonText:
-	text "Wenn ich groß bin,"
-	line "helfe ich meinem"
-	cont "Papa!"
+	text "When I grow up,"
+	line "I'm going to help"
+	cont "my dad!"
 
-	para "Ich werde ein"
-	line "großartiger #-"
-	cont "MON-Professor!"
+	para "I'm going to be a"
+	line "great #MON"
+	cont "professor!"
 	done
 
 ElmsHouseLabFoodText: ; unreferenced
-; unused
-	text "Hier ist etwas zu"
-	line "essen. Es muss für"
-	cont "das LABOR sein."
+	text "There's some food"
+	line "here. It must be"
+	cont "for the LAB."
 	done
 
 ElmsHousePokemonFoodText: ; unreferenced
-; unused
-	text "Hier ist etwas zu"
-	line "essen. Es muss für"
-	cont "die #MON sein."
+	text "There's some food"
+	line "here. This must be"
+	cont "for #MON."
 	done
 
 ElmsHousePCText:
-	text "Da klebt ein"
-	line "Zettel am Bild-"
-	cont "schirm:"
+	text "There's a note"
+	line "on the screen:"
 
-	para "NICHT FÜR #MON!"
+	para "NOT FOR #MON!"
 
-	para "Trotzdem benutzen?"
+	para "Use anyway?"
 	done
 
 ElmsHousePCText_WhoWouldnt:
-	text "Wer würde es nicht"
-	line "tun?"
+	text "Who wouldn't?"
 	done
 
 ElmsHousePCText_RatherNot:
-	text "Lieber nicht!"
+	text "Rather not!"
 	done
 
 ElmsHouse_MapEvents:

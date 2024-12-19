@@ -1,84 +1,80 @@
 HueyAskNumber1Text:
-	text "Cool! Ich habe"
-	line "schon lange nicht"
-	cont "mehr verloren!"
+	text "Cool! That's the"
+	line "first time I've"
+	cont "lost in a while!"
 
-	para "Heh, gib mir deine"
-	line "Telefonnummer."
+	para "Hey, give me your"
+	line "phone number."
 
-	para "Es macht Spaß,"
-	line "dich herauszufor-"
-	cont "dern. Ich rufe an,"
+	para "You'd be fun to"
+	line "battle, so I'll"
 
-	para "wenn ich stärker"
-	line "geworden bin!"
+	para "call you when I"
+	line "get stronger!"
 	done
 
 HueyAskNumber2Text:
-	text "Heh, gib mir deine"
-	line "Telefonnummer."
+	text "Hey, give me your"
+	line "phone number."
 
-	para "Es macht Spaß,"
-	line "dich herauszufor-"
+	para "You'd be fun to"
+	line "battle, so I'll"
 
-	para "dern. Ich rufe an,"
-	line "wenn ich stärker"
-	cont "geworden bin!"
+	para "call you when I"
+	line "get stronger!"
 	done
 
 HueyNumberAcceptedText:
-	text "Lass uns wieder"
-	line "kämpfen!"
+	text "Hey, let's battle"
+	line "again!"
 	done
 
 HueyNumberDeclinedText:
-	text "Du bist wohl ein"
-	line "Feigling…"
+	text "Looks like you're"
+	line "a wimp…"
 	done
 
 HueyPhoneFullText:
-	text "Oh, dein Nummern-"
-	line "speicher ist voll!"
+	text "Hey! Your phone's"
+	line "already full!"
 	done
 
 HueyRematchText:
-	text "Ich habe dich"
-	line "bereits erwartet!"
+	text "Hey! I'm tired of"
+	line "waiting for you!"
 	done
 
 HueyPackFullText:
-	text "Oh… Dein BEUTEL"
-	line "ist voll. Ich gebe"
-	cont "es dir später."
+	text "Oh… Your PACK's"
+	line "full. I'll give it"
+	cont "to you later."
 	done
 
 HueyRematchGiftText:
-	text "Wow! Du bist stark"
-	line "wie noch nie!"
+	text "Man! You're as"
+	line "tough as ever!"
 
-	para "Ich habe immer"
-	line "wieder gegen dich"
+	para "I've battled you"
+	line "over and over, but"
 
-	para "gekämpft, <PLAYER>,"
-	line "doch nie gewonnen."
+	para "<PLAYER>, I haven't"
+	line "won once."
 
-	para "Ich kaufte unzäh-"
-	line "lige Items, um"
+	para "I bought tons of"
+	line "items to toughen"
 
-	para "meine #MON zu"
-	line "stärken, aber al-"
-	cont "les war vergebens…"
+	para "up my #MON, but"
+	line "to no avail…"
 
-	para "Items alleine sind"
-	line "nicht der Schlüs-"
-	cont "sel zum Erfolg."
+	para "Items alone aren't"
+	line "the answer."
 
-	para "Das muss es wohl"
-	line "sein…"
+	para "That must be what"
+	line "it is…"
 
-	para "Bitte nimm das,"
+	para "Here, take this,"
 	line "<PLAYER>."
 
-	para "Ich benötige es"
-	line "nicht mehr…"
+	para "I won't be needing"
+	line "it anymore…"
 	done

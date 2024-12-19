@@ -1,10 +1,10 @@
-	db "BLUBBLASE@" ; species name
-	dbw 10, 290 ; height, weight
+	db "BUBBLE JET@" ; species name
+	dw 303, 640 ; height, weight
 
-	db   "Da es die Flossen"
-	next "an seinem Schwanz-"
-	next "ende zum Schwimmen"
+	db   "As it uses the"
+	next "fins on the tip"
+	next "of its tail to"
 
-	page "einsetzt, ver-"
-	next "schmilzt es mit"
-	next "dem Wasser.@"
+	page "swim, it blends"
+	next "with the water"
+	next "perfectly.@"

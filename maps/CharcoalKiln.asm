@@ -76,83 +76,74 @@ CharcoalKilnRadio:
 	jumpstd Radio2Script
 
 CharcoalKilnBossText1:
-	text "Alle FLEGMON sind"
-	line "aus der Stadt ver-"
-	cont "schwunden."
+	text "All the SLOWPOKE"
+	line "have disappeared"
+	cont "from the town."
 
-	para "Vielleicht ist der"
-	line "Patron des Waldes"
-	cont "zornig auf uns…"
+	para "The forest's pro-"
+	line "tector may be"
+	cont "angry with us…"
 
-	para "Es kann ein böses"
-	line "Omen sein. Besser,"
-	cont "wir bleiben zu"
-	cont "Hause."
+	para "It may be a bad"
+	line "omen. We should"
+	cont "stay in."
 	done
 
 CharcoalKilnBossText2:
-	text "Die FLEGMON sind"
-	line "zurückgekehrt…"
+	text "The SLOWPOKE have"
+	line "returned…"
 
-	para "Aber mein LEHRLING"
-	line "kam noch nicht aus"
-	cont "dem STEINEICHEN-"
-	cont "WALD zurück."
+	para "But my APPRENTICE"
+	line "hasn't come back"
+	cont "from ILEX FOREST."
 
-	para "Wo in aller Welt"
-	line "steckt der faule"
-	cont "Kerl?"
+	para "Where in the world"
+	line "is that lazy guy?"
 	done
 
 CharcoalKilnBossText3:
-	text "Du hast TEAM"
-	line "ROCKET vertrieben"
+	text "You chased off"
+	line "TEAM ROCKET and"
 
-	para "und bist allein in"
-	line "den STEINEICHEN-"
-	cont "WALD gegangen?"
+	para "went to ILEX"
+	line "FOREST alone?"
 
-	para "Du hast ja Mut!"
-	line "Das mag ich! Komm,"
-	cont "trainiere mit uns."
+	para "That takes guts!"
+	line "I like that. Come"
+	cont "train with us."
 	done
 
 CharcoalKilnApprenticeText1:
-	text "Wo sind nur all"
-	line "die FLEGMON hin?"
+	text "Where have all the"
+	line "SLOWPOKE gone?"
 
-	para "Sind sie irgendwo"
-	line "zum Spielen hinge-"
-	cont "gangen?"
+	para "Are they out play-"
+	line "ing somewhere?"
 	done
 
 CharcoalKilnApprenticeText2:
-	text "Es tut mir Leid."
-	line "Ich habe dir noch"
-	cont "nicht gedankt."
+	text "I'm sorry--I for-"
+	line "got to thank you."
 
-	para "Das ist HOLZKOHLE,"
-	line "die ich selbst ge-"
-	cont "macht habe."
+	para "This is CHARCOAL"
+	line "that I made."
 
-	para "Feuer-#MON"
-	line "wären froh, so et-"
-	cont "was halten zu"
-	cont "dürfen."
+	para "Fire-type #MON"
+	line "would be happy to"
+	cont "hold that."
 	done
 
 CharcoalKilnApprenticeText3:
-	text "Die FLEGMON sind"
-	line "wieder da, und du"
-	cont "hast auch PORENTA"
-	cont "gefunden."
+	text "The SLOWPOKE came"
+	line "back, and you even"
+	cont "found FARFETCH'D."
 
-	para "Du bist der"
-	line "Coolste!"
+	para "You're the cool-"
+	line "est, man!"
 	done
 
 FarfetchdText:
-	text "PORENTA: Kwaa!"
+	text "FARFETCH'D: Kwaa!"
 	done
 
 CharcoalKiln_MapEvents:

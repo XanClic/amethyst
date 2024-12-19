@@ -1,10 +1,10 @@
-	db "RATTE@" ; species name
-	dbw 3, 35 ; height, weight
+	db "RAT@" ; species name
+	dw 100, 80 ; height, weight
 
-	db   "Seine Anpassungs-"
-	next "fähigkeit ermög-"
-	next "licht es ihm,"
+	db   "This #MON's"
+	next "impressive vital-"
+	next "ity allows it to"
 
-	page "überall zu leben."
-	next "Es vermehrt sich"
-	next "rasch.@"
+	page "live anywhere. It"
+	next "also multiplies"
+	next "very quickly.@"

@@ -1,11 +1,11 @@
-	db "GROLLFUCHS@" ; species name
-	dbw 7, 125 ; height, weight
+	db "SPITEFUL FOX@" ; species name
+	dw 204, 2800 ; height, weight
 
 	;  "| ----------------- |"
-	db   "Eine verstorbene"
-	next "Seele, deren"
-	next "Groll aus seinem"
+	db   "A once-departed"
+	next "soul whose re-"
+	next "sentment takes"
 
-	page "Kopf quillt und"
-	next "ihm seine Kraft"
-	next "verleiht.@"
+	page "form to rise from"
+	next "its head and give"
+	next "it its energy.@"

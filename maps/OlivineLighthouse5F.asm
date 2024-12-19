@@ -45,53 +45,47 @@ OlivineLighthouse5FHiddenHyperPotion:
 	hiddenitem HYPER_POTION, EVENT_OLIVINE_LIGHTHOUSE_5F_HIDDEN_HYPER_POTION
 
 SailorErnestSeenText:
-	text "Ich hatte vor,"
-	line "gegen JASMIN zu"
+	text "I wanted to battle"
+	line "JASMINE, but she's"
 
-	para "kämpfen, aber sie"
-	line "ist nicht da. Wie"
-	cont "wäre es mit dir?"
+	para "not up to it now."
+	line "So, how about you?"
 	done
 
 SailorErnestBeatenText:
-	text "Wow, du hast mich"
-	line "überwältigt!"
+	text "Whoa, whoa. You're"
+	line "overwhelming!"
 	done
 
 SailorErnestAfterBattleText:
-	text "Ein ARENALEITER"
-	line "muss nicht nur"
+	text "A GYM LEADER isn't"
+	line "just about being"
 
-	para "stark sein. Auch"
-	line "Mitgefühl"
-	cont "zeichnet ihn aus."
+	para "strong. A LEADER"
+	line "also needs to be"
+	cont "compassionate."
 	done
 
 BirdKeeperDenisSeenText:
-	text "Wir fliegen"
-	line "ziemlich hoch."
+	text "We're pretty high"
+	line "up here. My bird"
 
-	para "Meine Vogel-#-"
-	line "MON sind in"
-	cont "Bestform."
+	para "#MON are in"
+	line "prime form."
 	done
 
 BirdKeeperDenisBeatenText:
-	text "Ups… Sie"
-	line "sind abgestürzt…"
+	text "Oops…They crashed…"
 	done
 
 BirdKeeperDenisAfterBattleText:
-	text "Mein #MON hat"
-	line "das FLIEGEN in"
-	cont "ANEMONIA CITY"
-	cont "gelernt."
+	text "My #MON learned"
+	line "how to use FLY in"
+	cont "CIANWOOD."
 
-	para "Da ich ein"
-	line "Verlierer bin,"
-	cont "fliege ich nun"
-	cont "fort, über das"
-	cont "Meer…"
+	para "Well, since I'm a"
+	line "loser, I'll FLY"
+	cont "across the sea…"
 	done
 
 OlivineLighthouse5F_MapEvents:

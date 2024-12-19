@@ -144,7 +144,7 @@ pokemon.each do |p, data|
     text = data['dex']['text'].split($/)
     dex = <<EOF
     db "#{data['dex']['species'].upcase}@" ; species name
-    dbw #{'%i' % (data['dex']['height'] * 10.0)}, #{'%i' % (data['dex']['weight'] * 10.0)} ; height, weight
+    dw #{'%i' % (data['dex']['height'] * 100.0)}, #{'%i' % (data['dex']['weight'] * 100.0)} ; height, weight
 
     ;  "| ----------------- |"
     db   #{text[0].inspect}

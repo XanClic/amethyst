@@ -1,10 +1,10 @@
-	db "SCHNARCHER@" ; species name
-	dbw 12, 360 ; height, weight
+	db "DOPEY@" ; species name
+	dw 311, 790 ; height, weight
 
-	db   "Es ist stets geis-"
-	next "tig abwesend. Da-"
-	next "her reagiert es"
+	db   "It is always so"
+	next "absent-minded that"
+	next "it won't react,"
 
-	page "nicht, wenn es in"
-	next "seine leckere Rute"
-	next "gebissen wird.@"
+	page "even if its"
+	next "flavorful tail is"
+	next "bitten.@"

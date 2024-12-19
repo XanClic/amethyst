@@ -50,55 +50,56 @@ EcruteakPoltchageistHouseRadio:
 	jumpstd Radio2Script
 
 EcruteakPoltchageistHouseGirl_Explain:
-	text "Was soll ich nur"
-	line "machen?"
+	text "What ever shall"
+	line "I do?"
 
-	para "Meine Großmutter"
-	line "hat mir diese Tee-"
-	cont "dose vermacht,"
+	para "Grandmother be-"
+	line "queathed this tea"
+	cont "caddy to me,"
 
-	para "aber irgendwie ist"
-	line "sie mir unheim-"
-	cont "lich…"
+	para "but there's some-"
+	line "thing eerie about"
+	cont "it…"
 	done
 
 EcruteakPoltchageistHouseGirl_AskKeepSafe:
-	text "Manchmal ist sie"
-	line "morgens nicht mehr"
+	text "Sometimes in the"
+	line "morning I find it"
 
-	para "da, wo ich sie am"
-	line "Abend hingestellt"
-	cont "hatte!"
+	para "in a different"
+	line "place than where I"
+	cont "put it at night!"
 
-	para "…Würdest du sie"
-	line "vielleicht nehmen?"
+	para "…Would you perhaps"
+	line "like to take it?"
 	done
 
 EcruteakPoltchageistHouseGirl_ReceivedPoltchageist:
-	text "<PLAYER> erhält"
-	line "MORTCHA!"
+	text "<PLAYER> received"
+	line "POLTCHAGEIST!"
 	done
 
 EcruteakPoltchageistHouseGirl_Thanks:
-	text "Danke, dass du"
-	line "dich um Groß-"
+	text "Thanks you so"
+	line "much for taking"
 
-	para "mutters Teedose"
-	line "kümmerst!"
+	para "grandmother's tea"
+	line "caddy into your"
+	cont "care!"
 	done
 
 EcruteakPoltchageistHouseGirl_Refused:
-	text "Aber ich kann doch"
-	line "Großmutters Tee-"
+	text "But I can't just"
+	line "dispose of grand-"
 
-	para "dose nicht einfach"
-	line "wegwerfen…"
+	para "mother's tea"
+	line "caddy…"
 	done
 
 EcruteakPoltchageistHouseGirl_NoRoom:
-	text "Bist du sicher?"
-	line "Du scheinst keinen"
-	cont "Platz zu haben…"
+	text "Are you sure?"
+	line "You don't seem to"
+	cont "have room for it…"
 	done
 
 EcruteakPoltchageistHouse_MapEvents:

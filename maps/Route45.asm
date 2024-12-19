@@ -313,248 +313,220 @@ Route45HiddenPpUp:
 	hiddenitem PP_UP, EVENT_ROUTE_45_HIDDEN_PP_UP
 
 HikerErikSeenText:
-	text "Sei auf alles"
-	line "vorbereitet!"
+	text "Be prepared for"
+	line "anything!"
 
-	para "Lass mich mal"
-	line "sehen, wie gut"
-	cont "deine #MON"
-	cont "trainiert sind!"
+	para "Let me see if your"
+	line "#MON have been"
+	cont "raised properly!"
 	done
 
 HikerErikBeatenText:
-	text "Oh, ich habe"
-	line "verloren!"
+	text "Oh, I lost that!"
 	done
 
 HikerErikAfterBattleText:
-	text "Ich gehe zum"
-	line "EISPFAD bei"
+	text "I'll head back to"
+	line "BLACKTHORN's ICE"
 
-	para "EBENHOLZ CITY,"
-	line "um etwas mehr"
-	cont "zu trainieren."
+	para "PATH and train"
+	line "some more."
 	done
 
 HikerMichaelSeenText:
-	text "He! Du hast Mumm"
-	line "in den Knochen!"
-	cont "Aber weißt du was?"
+	text "Yo! You're spunky!"
+	line "But you know what?"
 
-	para "Wenn es um echte"
-	line "Courage geht, bin"
-	cont "ich der Mann!"
+	para "When it comes to"
+	line "sheer spunkiness,"
+	cont "I'm the man!"
 	done
 
 HikerMichaelBeatenText:
-	text "Meine #MON"
-	line "waren leider nicht"
-	cont "couragiert genug!"
+	text "My #MON weren't"
+	line "spunky enough!"
 	done
 
 HikerMichaelAfterBattleText:
-	text "Mensch, wie ich"
-	line "diese KP-PLUS"
-	cont "liebe! Mm, lecker!"
+	text "Boy, do I love"
+	line "HP UP! Mmmm, yum!"
 
-	para "Ich trinke immer"
-	line "die von meinen"
-	cont "#MON!"
+	para "I keep drinking my"
+	line "#MON's!"
 
-	para "Ich kann nichts"
-	line "dagegen tun!"
+	para "I can't help it!"
 	done
 
 HikerParry3SeenText:
-	text "Meine #MON"
-	line "sind voller"
-	cont "Energie!"
+	text "My #MON are"
+	line "power packed!"
 	done
 
 HikerParry3BeatenText:
-	text "Ojemine! Ich bin"
-	line "der große"
-	cont "Verlierer!"
+	text "Wahahah! I'm the"
+	line "big loser!"
 	done
 
 HikerParryAfterBattleText:
-	text "Ich bin eher"
-	line "langsam, was das"
-	cont "Denken betrifft,"
-	cont "weißt du?"
+	text "I'm not much good"
+	line "at thinking, see?"
 
-	para "Deswegen setze ich"
-	line "alles auf Kraft."
+	para "So, I just plow"
+	line "ahead with power!"
 	done
 
 HikerTimothySeenText:
-	text "Warum ich auf"
-	line "Berge klettere?"
+	text "Why do I climb"
+	line "mountains?"
 
-	para "Weil es sie"
-	line "gibt."
+	para "Because they're"
+	line "there."
 
-	para "Warum ich"
-	line "#MON trainiere?"
+	para "Why do I train"
+	line "#MON?"
 
-	para "Weil es sie"
-	line "gibt!"
+	para "Because they're"
+	line "there!"
 	done
 
 HikerTimothyBeatenText:
-	text "Niederlagen…"
-	line "Die gibt es auch!"
+	text "Losses…"
+	line "They're there too!"
 	done
 
 HikerTimothyAfterBattleText:
-	text "#MON zu"
-	line "entdecken, war das"
+	text "The best thing to"
+	line "ever happen to me"
 
-	para "Beste, was mir"
-	line "passieren konnte."
+	para "was discovering"
+	line "#MON."
 	done
 
 HikerParryGivesIronText:
-	text "Ich weiß nicht,"
-	line "wie ich gewinnen"
-	cont "kann!"
+	text "I just can't find"
+	line "a way to win!"
 
-	para "Mach weiter!"
+	para "Keep it up!"
 
-	para "Oh, und nimm dies"
-	line "- dies ist das"
+	para "Oh, and take this"
+	line "--it's the gift"
 
-	para "Geschenk, das du"
-	line "beim letzten Mal"
-
-	para "nicht mitnehmen"
-	line "konntest."
+	para "you couldn't take"
+	line "when we last met."
 	done
 
 BlackbeltKenji3SeenText:
-	text "Ich habe hier"
-	line "ganz allein"
-	cont "trainiert."
+	text "I was training"
+	line "here alone."
 
-	para "Sieh die Früchte"
-	line "meiner Arbeit!"
+	para "Behold the fruits"
+	line "of my labor!"
 	done
 
 BlackbeltKenji3BeatenText:
-	text "Aahh!"
+	text "Waaaargh!"
 	done
 
 BlackbeltKenjiAfterBattleText:
-	text "Das schreit nach"
-	line "extremen"
-	cont "Maßnahmen."
+	text "This calls for"
+	line "extreme measures."
 
-	para "Ich ziehe mich"
-	line "zurück in die"
-	cont "Berge, um mich im"
-	cont "Alleinsein zu"
-	cont "üben."
+	para "I must take to the"
+	line "hills and train in"
+	cont "solitude."
 	done
 
 BlackbeltKenjiMorningText:
-	text "Ich trainiere noch"
-	line "ein wenig bis zur"
-	cont "Mittagspause."
+	text "I'm going to train"
+	line "a bit more before"
+	cont "I break for lunch."
 	done
 
 BlackbeltKenjiNightText:
-	text "Wir hatten alle"
-	line "eine ausgedehnte"
+	text "We had plenty of"
+	line "rest at lunch, so"
 
-	para "Mittagspause und"
-	line "sind wieder fit!"
+	para "now we're all"
+	line "ready to go again!"
 
-	para "Wir setzen das"
-	line "Training fort!"
+	para "We're going to"
+	line "train again!"
 	done
 
 CooltrainermRyanSeenText:
-	text "Was hältst du vom"
-	line "#MON-Training?"
+	text "What are your"
+	line "thoughts on rais-"
+	cont "ing #MON?"
 	done
 
 CooltrainermRyanBeatenText:
-	text "Du verdienst meine"
-	line "ganze Hochachtung."
+	text "You've won my"
+	line "respect."
 	done
 
 CooltrainermRyanAfterBattleText:
-	text "Wie ich sehe,"
-	line "ziehst du deine"
-	cont "#MON mit"
-	cont "Sorgfalt auf."
+	text "I see you're rais-"
+	line "ing your #MON"
+	cont "with care."
 
-	para "Die Gemeinschaft,"
-	line "die du bildest,"
-	cont "wird dich in"
-	cont "gefährlichen"
-	cont "Situationen"
-	cont "retten."
+	para "The bond you build"
+	line "will save you in"
+	cont "tough situations."
 	done
 
 CooltrainerfKellySeenText:
-	text "Welche Kampf-"
-	line "technik verwendest"
-	cont "du?"
+	text "What is your"
+	line "battle strategy?"
 
-	para "Setze starke"
-	line "Attacken nicht"
-	cont "völlig willkürlich"
-	cont "ein!"
+	para "It is foolish to"
+	line "use strong moves"
+	cont "indiscriminately."
 	done
 
 CooltrainerfKellyBeatenText:
-	text "Gut. Dann habe ich"
-	line "eben verloren."
+	text "Fine. I lost."
 	done
 
 CooltrainerfKellyAfterBattleText:
-	text "Ich mag keine"
-	line "übermäßig starken"
-	cont "Attacken."
+	text "I'm not in favor"
+	line "of overly power-"
+	cont "ful moves."
 
-	para "Ich will gewinnen,"
-	line "aber ich möchte"
-	cont "dabei keine #-"
-	cont "MON verletzen."
+	para "I want to win, but"
+	line "I also don't want"
+	cont "to harm #MON."
 	done
 
 Route45DummyText:
-	text "Ich bin wirklich"
-	line "stark!"
+	text "I'm really, really"
+	line "tough!"
 
-	para "Gibt es hier"
-	line "die Möglichkeit"
-	cont "meine Stärke zu"
-	cont "beweisen?"
+	para "Is there anywhere"
+	line "I can prove how"
+	cont "tough I really am?"
 	done
 
 CamperQuentinSeenText:
-	text "Ich bin wirklich"
-	line "stark!"
+	text "I'm really, really"
+	line "tough!"
 	done
 
 CamperQuentinBeatenText:
-	text "Ich habe im DUELL-"
-	line "TURM gut gekämpft…"
+	text "I was tough at the"
+	line "BATTLE TOWER…"
 	done
 
 CamperQuentinAfterBattleText:
-	text "Warst du schon im"
-	line "DUELLTURM?"
+	text "Have you been to"
+	line "the BATTLE TOWER?"
 
-	para "Ich verliere dort"
-	line "niemals, aber…"
+	para "I never, ever lose"
+	line "there, but…"
 	done
 
 Route45SignText:
 	text "ROUTE 45"
-	line "BERGWEG VORAUS"
+	line "MOUNTAIN RD. AHEAD"
 	done
 
 Route45_MapEvents:

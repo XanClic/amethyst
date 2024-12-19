@@ -1,10 +1,10 @@
-	db "FEE@" ; species name
-	dbw 13, 400 ; height, weight
+	db "FAIRY@" ; species name
+	dw 403, 880 ; height, weight
 
-	db   "Man sagt, es lebe"
-	next "in ruhigen, ab-"
-	next "gelegenen Berg-"
+	db   "Said to live in"
+	next "quiet, remote"
+	next "mountains, this"
 
-	page "regionen. Diese"
-	next "Feenart hasst es,"
-	next "gesehen zu werden.@"
+	page "type of fairy has"
+	next "a strong aversion"
+	next "to being seen.@"

@@ -1,10 +1,10 @@
-	db "DRACHE@" ; species name
-	dbw 12, 250 ; height, weight
+	db "DRAGON@" ; species name
+	dw 311, 550 ; height, weight
 
-	db   "Der Vater zieht"
-	next "das Junge auf."
-	next "Bemerkt es einen"
+	db   "The male raises"
+	next "the young. If it"
+	next "is approached, it"
 
-	page "Fremden, setzt es"
-	next "Giftstacheln ein,"
-	next "um ihn abzuwehren.@"
+	page "uses its toxic"
+	next "spikes to fend off"
+	next "the intruder.@"

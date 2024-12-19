@@ -1,11 +1,11 @@
-	db "KLINGENKRAFT@" ; species name
-	dbw 8, 20 ; height, weight
+	db "SWORD@" ; species name
+	dw 206, 400 ; height, weight
 
 	;  "| ----------------- |"
-	db   "Es wickelt ein"
-	next "blaues Tuch um"
-	next "den Arm derer,"
+	db   "It wraps a blue"
+	next "cloth around the"
+	next "arm of anyone who"
 
-	page "die es ergrei-"
-	next "fen, und zehrt"
-	next "von ihnen.@"
+	page "dares to grab its"
+	next "hilt, draining"
+	next "their life force.@"

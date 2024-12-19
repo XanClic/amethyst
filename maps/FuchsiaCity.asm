@@ -51,83 +51,75 @@ FuchsiaCityFruitTree:
 	fruittree FRUITTREE_FUCHSIA_CITY
 
 FuchsiaCityYoungsterText:
-	text "Einer der TOP VIER"
-	line "war früher einmal"
+	text "One of the ELITE"
+	line "FOUR used to be"
 
-	para "der ARENALEITER in"
-	line "FUCHSANIA CITY."
+	para "the LEADER of"
+	line "FUCHSIA's GYM."
 	done
 
 FuchsiaCityPokefanMText:
-	text "KOGAs Tochter ist"
-	line "jetzt ARENA-"
-	cont "LEITERIN, nachdem"
+	text "KOGA's daughter"
+	line "succeeded him as"
 
-	para "ihr Vater den TOP"
-	line "VIER beigetreten"
-	cont "ist."
+	para "the GYM LEADER"
+	line "after he joined"
+	cont "the ELITE FOUR."
 	done
 
 FuchsiaCityTeacherText:
-	text "Schade, dass die"
-	line "SAFARI-ZONE"
+	text "The SAFARI ZONE is"
+	line "closed… It's sad,"
 
-	para "geschlossen ist…"
-	line "Das ist schließ-"
-	cont "lich FUCHSANIAs"
-	cont "Hauptattraktion."
+	para "considering it's"
+	line "FUCHSIA's main"
+	cont "attraction."
 	done
 
 FuchsiaCitySignText:
-	text "FUCHSANIA CITY"
+	text "FUCHSIA CITY"
 
-	para "Sieh nur! Die"
-	line "Rosarote"
-	cont "Lieblichkeit!"
+	para "Behold! It's"
+	line "Passion Pink!"
 	done
 
 FuchsiaGymSignText:
-	text "PKMN-ARENA von"
-	line "FUCHSANIA CITY"
-	cont "LEITUNG: JANINA"
+	text "FUCHSIA CITY"
+	line "#MON GYM"
+	cont "LEADER: JANINE"
 
-	para "Die Giftige"
-	line "Ninja-Meisterin"
+	para "The Poisonous"
+	line "Ninja Master"
 	done
 
 SafariZoneOfficeSignText:
-	text "Hier ist eine"
-	line "Nachricht…"
+	text "There's a notice"
+	line "here…"
 
-	para "Bis auf weiteres"
-	line "bleibt das BÜRO"
-
-	para "der SAFARI-ZONE"
-	line "geschlossen."
+	para "SAFARI ZONE OFFICE"
+	line "is closed until"
+	cont "further notice."
 	done
 
 WardensHomeSignText:
-	text "SAFARI-ZONE"
-	line "HAUS DES WÄRTERs"
+	text "SAFARI ZONE"
+	line "WARDEN'S HOME"
 	done
 
 SafariZoneClosedSignText:
-	text "Der WÄRTER ist"
-	line "verreist. Deshalb"
+	text "The WARDEN is"
+	line "traveling abroad."
 
-	para "ist die SAFARI-"
-	line "ZONE"
-	cont "geschlossen."
+	para "Therefore, the"
+	line "SAFARI ZONE is"
+	cont "closed."
 	done
 
 NoLitteringSignText:
-	text "Verunreinigung des"
-	line "Parks ist"
-	cont "verboten."
+	text "No littering."
 
-	para "Hinterlasse"
-	line "bitte keinen"
-	cont "Abfall."
+	para "Please take your"
+	line "waste with you."
 	done
 
 FuchsiaCity_MapEvents:

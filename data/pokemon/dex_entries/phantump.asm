@@ -1,11 +1,11 @@
-	db "BAUMSTUMPF@" ; species name
-	dbw 4, 70 ; height, weight
+	db "STUMP@" ; species name
+	dw 104, 1500 ; height, weight
 
 	;  "| ----------------- |"
-	db   "Es imitiert das"
-	next "Schluchzen eines"
-	next "Meschenkindes, um"
+	db   "It imitates a"
+	next "human child's"
+	next "wailing to lure"
 
-	page "Erwachsene tief"
-	next "in den Wald zu"
-	next "locken.@"
+	page "adults deep into"
+	next "the forest, get-"
+	next "ting them lost.@"

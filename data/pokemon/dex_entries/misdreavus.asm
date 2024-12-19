@@ -1,10 +1,10 @@
-	db "KREISCHER@" ; species name
-	dbw 7, 10 ; height, weight
+	db "SCREECH@" ; species name
+	dw 204, 20 ; height, weight
 
-	db   "Es liebt die Men-"
-	next "schen zu beobach-"
-	next "ten, die es durch"
+	db   "It loves to watch"
+	next "people it's scar-"
+	next "ed. It frightens"
 
-	page "Schreie oder jähes"
-	next "Auftreten er-"
-	next "schreckt hat.@"
+	page "them by screaming"
+	next "loudly or appear-"
+	next "ing suddenly.@"

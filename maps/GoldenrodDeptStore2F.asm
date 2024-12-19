@@ -40,65 +40,60 @@ GoldenrodDeptStore2FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodDeptStore2FUnusedText1: ; unreferenced
-; unused
-	text "Wir wollen Items"
-	line "verkaufen, die von"
-	cont "#MON getragen"
-	cont "werden können."
+	text "We intend to sell"
+	line "items for #MON"
+	cont "to hold."
 
-	para "Das ist ein Werbe-"
-	line "Geschenk. Lass ein"
-	cont "#MON es tragen."
+	para "This is a free"
+	line "gift. Have a #-"
+	cont "MON hold it."
 	done
 
 GoldenrodDeptStore2FUnusedText2: ; unreferenced
-; unused
-	text "Trägt ein #MON"
-	line "ein Item, könnte"
-	cont "das einen Kampf zu"
-	cont "deinen Gunsten"
-	cont "entscheiden."
+	text "By giving #MON"
+	line "items to hold, I"
+
+	para "bet trainers will"
+	line "develop new battle"
+	cont "techniques."
 	done
 
 GoldenrodDeptStore2FYoungsterText:
-	text "Der #COM kann"
-	line "bis zu zehn Num-"
-	cont "mern speichern."
+	text "#GEAR can store"
+	line "up to ten phone"
+	cont "numbers."
 
-	para "Es ist schwer zu"
-	line "entscheiden, wel-"
-	cont "che Nummer man be-"
-	cont "halten soll."
+	para "It's hard to de-"
+	line "cide which numbers"
+	cont "to keep."
 	done
 
 GoldenrodDeptStore2FCooltrainerFText:
-	text "Ich habe mein ABRA"
-	line "in der SPIELHALLE"
+	text "I got my ABRA at"
+	line "the GAME CORNER."
 
-	para "gewonnen. Jetzt"
-	line "ist es mein bester"
-
-	para "Partner."
+	para "Now it's my best"
+	line "partner."
 	done
 
 GoldenrodDeptStore2FGentlemanText:
-	text "Dieses KAUFHAUS"
-	line "zeigt mir, dass"
+	text "This DEPT.STORE"
+	line "makes me realize"
 
-	para "DUKATIA CITY eine"
-	line "sehr große Stadt"
-	cont "ist."
+	para "that GOLDENROD is"
+	line "a big city."
 
-	para "Dieses Angebot ist"
-	line "unübertrefflich!"
+	para "The selection here"
+	line "is unmatched any-"
+	cont "where else."
 	done
 
 GoldenrodDeptStore2FDirectoryText:
-	text "Ihr Reise-"
-	line "begleiter"
+	text "Your Travel"
+	line "Companion"
 
-	para "1S TRAINER-"
-	line "   MARKT"
+	para "2F TRAINER'S"
+	line "   MARKET"
 	done
 
 GoldenrodDeptStore2F_MapEvents:

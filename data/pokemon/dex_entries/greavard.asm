@@ -1,11 +1,11 @@
-	db "GEISTERHUND@" ; species name
-	dbw 6, 350 ; height, weight
+	db "GHOST DOG@" ; species name
+	dw 200, 7700 ; height, weight
 
 	;  "| ----------------- |"
-	db   "Auch wenn man"
-	next "sich nur kurz um"
-	next "dieses #MON"
+	db   "Even if you only"
+	next "pay the slightest"
+	next "bit of attention"
 
-	page "kümmert, läuft es"
-	next "einem auf ewig"
-	next "nach.@"
+	page "to this #MON, it"
+	next "will follow you"
+	next "forever.@"

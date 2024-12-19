@@ -79,55 +79,48 @@ TrainerCooltrainerfFran:
 	end
 
 CooltrainermCodySeenText:
-	text "Es ist nicht so,"
-	line "als würden wir"
-	cont "alle Drachen-"
-	cont "#MON einsetzen."
+	text "It's not as if we"
+	line "all use dragon-"
+	cont "type #MON."
 	done
 
 CooltrainermCodyBeatenText:
-	text "Mist! Wenn ich"
-	line "doch nur einen"
-	cont "Drachen hätte!"
+	text "Rats! If only I"
+	line "had a dragon!"
 	done
 
 CooltrainermCodyAfterBattleText:
-	text "Mitglieder unseres"
-	line "Drachenklans"
+	text "Members of our"
+	line "dragon-user clan"
 
-	para "dürfen Drachen-"
-	line "#MON erst"
+	para "can use dragon"
+	line "#MON only after"
 
-	para "einsetzen, wenn es"
-	line "unser MEISTER"
-	cont "erlaubt."
+	para "our MASTER allows"
+	line "it."
 	done
 
 CooltrainerfFranSeenText:
-	text "Ich kann es nicht"
-	line "zulassen, dass ein"
+	text "I can't allow a"
+	line "nameless trainer"
+	cont "past me!"
 
-	para "unwichtiger Trai-"
-	line "ner an mir vorbei-"
-	cont "kommt!"
-
-	para "SANDRA wäre außer"
-	line "sich, wenn ich"
-	cont "dies zulasse!"
+	para "CLAIR would be"
+	line "livid if I did!"
 	done
 
 CooltrainerfFranBeatenText:
-	text "Awww… verloren…"
+	text "Awww… I lost…"
 	done
 
 CooltrainerfFranAfterBattleText:
-	text "Oh-oh… SANDRA"
-	line "wird durchdrehen…"
+	text "Uh-oh… CLAIR is"
+	line "going to be mad…"
 	done
 
 BlackthornGym2FBoulderFellText:
-	text "Der Felsen fiel"
-	line "hindurch!"
+	text "The boulder fell"
+	line "through!"
 	done
 
 BlackthornGym2F_MapEvents:

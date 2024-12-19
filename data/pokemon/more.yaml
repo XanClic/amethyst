@@ -1,5 +1,5 @@
 Mimikyu:
-  name: Mimigma
+  name: Mimikyu
   types: [Fairy, Ghost]
   icon: Pikachu
   stats:
@@ -17,16 +17,16 @@ Mimikyu:
   leveling: MediumFast
   egg_group: Amorphous
   dex:
-    species: Kostümspuk
-    height: 0.2
-    weight: 0.7
+    species: Disguise
+    height: 0.08
+    weight: 2
     text: |-
-      Oft einsam, ver-
-      steckt es seine
-      grausige Gestalt
-      unter Lumpen, um
-      sich Menschen und
-      #MON zu nähern.
+      A lonely #MON,
+      it hides its ter-
+      rifying appearance
+      under a rag to get
+      closer to people
+      and other #MON.
     footprint: Misdreavus
   moves:
     level:
@@ -45,7 +45,7 @@ Mimikyu:
     tmhm: [Toxic, HiddenPower, HyperBeam, Protect, Frustration, Thunderbolt, Thunder, Return, Psychic, ShadowBall, DoubleTeam, Rest, Attract, Thief, DreamEater, Swagger, SleepTalk, PsychUp]
 
 Litwick:
-  name: Lichtel
+  name: Litwick
   types: [Ghost, Fire]
   evolutions:
     41: Lampent
@@ -64,16 +64,16 @@ Litwick:
   leveling: MediumSlow
   egg_group: Amorphous
   dex:
-    species: Kerze
-    height: 0.3
-    weight: 3.1
+    species: Candle
+    height: 1.00
+    weight: 7
     text: |-
-      Es entfacht eine
-      Flamme, die von
-      der Lebensenergie
-      eines Menschen
-      oder eines #MON
-      zehrt.
+      It shines a light
+      that absorbs the
+      life energy of
+      people and #MON,
+      which becomes the
+      fuel it burns.
     footprint: Misdreavus
   moves:
     level:
@@ -96,7 +96,7 @@ Litwick:
     tmhm: [Toxic, HiddenPower, SunnyDay, Protect, Frustration, Solarbeam, Return, Psychic, ShadowBall, DoubleTeam, Flamethrower, FireBlast, Rest, Attract, Thief, Flash, DreamEater, SleepTalk, Swagger, PsychUp]
 
 Lampent:
-  name: Laternecto
+  name: Lampent
   types: [Ghost, Fire]
   evolutions:
     55: Chandelure
@@ -115,16 +115,16 @@ Lampent:
   leveling: MediumSlow
   egg_group: Amorphous
   dex:
-    species: Lampe
-    height: 0.6
-    weight: 13.0
+    species: Lamp
+    height: 2.00
+    weight: 29
     text: |-
-      Es erscheint im
-      Augenblick des
-      Todes und ver-
-      schlingt die
-      entweichende
-      Seele sofort.
+      It arrives near
+      the moment of
+      death and imme-
+      diately devours
+      the passing
+      soul.
     footprint: Misdreavus
   moves:
     level:
@@ -146,7 +146,7 @@ Lampent:
     tmhm: [Toxic, HiddenPower, SunnyDay, Protect, Frustration, Solarbeam, Return, Psychic, ShadowBall, DoubleTeam, Flamethrower, FireBlast, Rest, Attract, Thief, Flash, DreamEater, SleepTalk, Swagger, PsychUp]
 
 Chandelure:
-  name: Skelabra
+  name: Chandelure
   types: [Ghost, Fire]
   icon: Ghost
   stats:
@@ -163,16 +163,16 @@ Chandelure:
   leveling: MediumSlow
   egg_group: Amorphous
   dex:
-    species: Geleit
-    height: 1.0
-    weight: 34.3
+    species: Luring
+    height: 3.03
+    weight: 76
     text: |-
-      Es saugt die See-
-      len aller auf, die
-      in seinen Feuer-
-      kranz geraten.
-      Zurück bleiben
-      nur leere Hüllen.
+      It consumes the
+      souls of all
+      those who enter
+      its firy reach.
+      Only their empty
+      husks remain.
     footprint: Misdreavus
   moves:
     level:
@@ -180,7 +180,7 @@ Chandelure:
     tmhm: [Toxic, HiddenPower, SunnyDay, Protect, Frustration, Solarbeam, Return, Psychic, ShadowBall, DoubleTeam, Flamethrower, FireBlast, Rest, Attract, Thief, Flash, DreamEater, SleepTalk, Swagger, PsychUp]
 
 Drifloon:
-  name: Driftlon
+  name: Drifloon
   types: [Ghost, Flying]
   evolutions:
     28: Drifblim
@@ -199,16 +199,16 @@ Drifloon:
   leveling: Fluctuating
   egg_group: Amorphous
   dex:
-    species: Ballon
-    height: 0.4
-    weight: 1.2
+    species: Balloon
+    height: 1.04
+    weight: 3
     text: |-
-      Es zieht Kinder
-      an den Händen, um
-      sie mitzunehmen.
-      Doch stets wird
-      es dann durch die
-      Gegend gezogen.
+      It tugs on the
+      hands of children
+      to steal them
+      away. However, 
+      instead, it gets
+      pulled around.
     footprint: Misdreavus
   moves:
     level:
@@ -226,7 +226,7 @@ Drifloon:
     tmhm: [Toxic, HiddenPower, SunnyDay, Protect, RainDance, Frustration, Thunder, Return, Psychic, ShadowBall, DoubleTeam, Rest, Attract, Thief, Endure, Flash, SleepTalk, Cut, Swagger, PsychUp]
 
 Drifblim:
-  name: Drifzepeli
+  name: Drifblim
   types: [Ghost, Flying]
   icon: Jellyfish
   stats:
@@ -243,16 +243,16 @@ Drifblim:
   leveling: Fluctuating
   egg_group: Amorphous
   dex:
-    species: Luftschiff
-    height: 1.2
-    weight: 15.0
+    species: Blimp
+    height: 3.11
+    weight: 33
     text: |-
-      In der Dämmerung
-      steigen ganze
-      Schwärme in die
-      Lüfte, verschwin-
-      den aber, wenn
-      man sie bemerkt.
+      At dusk, big
+      groups of them
+      rise up into the
+      air, though they
+      vanish when one
+      notices them.
     footprint: Misdreavus
   moves:
     level:
@@ -269,7 +269,7 @@ Drifblim:
     tmhm: [Toxic, HiddenPower, SunnyDay, Protect, RainDance, Frustration, Thunder, Return, Psychic, ShadowBall, DoubleTeam, Rest, Attract, Thief, Endure, Flash, SleepTalk, Cut, Fly, Swagger, PsychUp]
 
 Sinistea:
-  name: Fatalitee
+  name: Sinistea
   type: Ghost
   evolutions:
     28: Polteageist
@@ -288,16 +288,16 @@ Sinistea:
   leveling: MediumFast
   egg_groups: [Amorphous, Mineral]
   dex:
-    species: Schwarztee
-    height: 0.1
-    weight: 0.2
+    species: Black Tea
+    height: 0.04
+    weight: 1
     text: |-
-      Es heißt, eine
-      einsame Seele
-      habe Besitz von
-      einer abgestell-
-      ten kalten Tasse
-      Tee ergriffen.
+      This #MON is
+      said to have been
+      born by a lonely
+      soul possessing a
+      cold forgotten
+      cup of tea.
     footprint: Misdreavus
   moves:
     level:
@@ -314,7 +314,7 @@ Sinistea:
     tmhm: [Rest, Snore, Protect, GigaDrain, Psychic, Endure, SleepTalk, ShadowBall, Return, Frustration]
 
 Polteageist:
-  name: Mortipot
+  name: Polteagst
   type: Ghost
   icon: Ghost
   stats:
@@ -331,16 +331,16 @@ Polteageist:
   leveling: MediumFast
   egg_groups: [Amorphous, Mineral]
   dex:
-    species: Schwarztee
-    height: 0.2
-    weight: 0.4
+    species: Black Tea
+    height: 0.08
+    weight: 1
     text: |-
-      Wenn es seinem
-      Trainer vertraut,
-      lässt es ihn
-      manchmal einen
-      kleinen Schluck
-      Tee probieren.
+      When it trusts
+      its trainer, it
+      may let them try
+      a sip of its
+      delicious tea
+      once in a while.
     footprint: Misdreavus
   moves:
     level:
@@ -358,7 +358,7 @@ Polteageist:
     tmhm: [HyperBeam, Rest, Snore, Protect, GigaDrain, Psychic, Endure, SleepTalk, ShadowBall, Return, Frustration]
 
 Mismagius:
-  name: Traunmagil
+  name: Mismagius
   type: Ghost
   base: Misdreavus
   icon: Ghost
@@ -376,16 +376,16 @@ Mismagius:
   leveling: Fast
   egg_group: Amorphous
   dex:
-    species: Magisch
-    height: 0.9
-    weight: 4.4
+    species: Magical
+    height: 2.11
+    weight: 10
     text: |-
-      Es spricht Zau-
-      berformeln aus,
-      die Gegnern nicht
-      nur schaden, son-
-      dern auch Glück
-      bringen können.
+      Some of the in-
+      cantations it
+      chants torment
+      its targets,
+      others bring
+      happiness.
     footprint: Misdreavus
   moves:
     level:
@@ -402,7 +402,7 @@ Mismagius:
     tmhm: [Headbutt, Curse, Toxic, ZapCannon, PsychUp, HiddenPower, SunnyDay, Snore, Protect, RainDance, Endure, Frustration, Thunder, Return, Psychic, ShadowBall, DoubleTeam, Swagger, SleepTalk, Swift, DefenseCurl, DreamEater, Rest, Attract, Thief, Nightmare, Flash, Thunderbolt]
 
 Sandygast:
-  name: Sankabuh
+  name: Sandygast
   types: [Ghost, Ground]
   evolutions:
     42: Palossand
@@ -421,16 +421,16 @@ Sandygast:
   leveling: MediumFast
   egg_group: Amorphous
   dex:
-    species: Sandhaufen
-    height: 0.5
-    weight: 70.0
+    species: Sand Heap
+    height: 1.08
+    weight: 154
     text: |-
-      Wer die Hand in
-      sein Maul steckt,
-      den überkommt der
-      Drang, unbedingt
-      Sand auf SANKABUH
-      aufzuhäufen.
+      Whoever sticks
+      their hand in its
+      jaws is overcome
+      by an intense
+      urge to pile sand
+      onto SANDYGAST.
     footprint: Misdreavus
   moves:
     level:
@@ -450,7 +450,7 @@ Sandygast:
     egg: [Curse, DestinyBond, Amnesia]
 
 Palossand:
-  name: Colossand
+  name: Palossand
   types: [Ghost, Ground]
   icon: Blob
   stats:
@@ -467,16 +467,16 @@ Palossand:
   leveling: MediumFast
   egg_group: Amorphous
   dex:
-    species: Sandschloss
-    height: 1.3
-    weight: 250.0
+    species: Sand Castle
+    height: 4.03
+    weight: 551
     text: |-
-      Unter ihm liegen
-      die Knochen qual-
-      voll Verstorbener
-      denen die Lebens-
-      kraft ausgesaugt
-      wurde.
+      Underneath lie
+      the dried-up
+      bones of its
+      wretched victims
+      whose life force
+      it drained.
     footprint: Misdreavus
   moves:
     level:
@@ -514,16 +514,16 @@ Zorua:
   leveling: MediumSlow
   egg_group: Ground
   dex:
-    species: Grollfuchs
-    height: 0.7
-    weight: 12.5
+    species: Spiteful Fox
+    height: 2.04
+    weight: 28
     text: |-
-      Eine verstorbene
-      Seele, deren
-      Groll aus seinem
-      Kopf quillt und
-      ihm seine Kraft
-      verleiht.
+      A once-departed
+      soul whose re-
+      sentment takes
+      form to rise from
+      its head and give
+      it its energy.
     footprint: Flaaffy
   moves:
     level:
@@ -560,16 +560,16 @@ Zoroark:
   leveling: MediumSlow
   egg_group: Ground
   dex:
-    species: Fluchfuchs
+    species: Baneful Fox
     height: 1.6
     weight: 73.0
     text: |-
-      Getrieben von
-      bitterem Groll
-      streckt es Feinde
-      ohne Rücksicht
-      auf das eigene
-      Leben nieder.
+      Recklessly driven
+      by bitter resent-
+      ment, it fells
+      its foes with
+      utter disregard
+      for its own life.
     footprint: Dragonite
   moves:
     level:
@@ -589,7 +589,7 @@ Zoroark:
     tmhm: [HiddenPower, Protect, Frustration, Return, Thief, Swift, IcyWind, Endure, RainDance, Dig, SleepTalk, Rest, ShadowBall, Psychic, Flamethrower, SludgeBomb, HyperBeam, Curse, Cut, Strength, PsychUp]
 
 Phantump:
-  name: Paragoni
+  name: Phantump
   types: [Ghost, Grass]
   evolutions:
     trade: Trevenant
@@ -608,16 +608,16 @@ Phantump:
   leveling: MediumFast
   egg_groups: [Grass, Amorphous]
   dex:
-    species: Baumstumpf
-    height: 0.4
-    weight: 7.0
+    species: Stump
+    height: 1.04
+    weight: 15
     text: |-
-      Es imitiert das
-      Schluchzen eines
-      Meschenkindes, um
-      Erwachsene tief
-      in den Wald zu
-      locken.
+      It imitates a
+      human child's
+      wailing to lure
+      adults deep into
+      the forest, get-
+      ting them lost.
     footprint: Misdreavus
   moves:
     level:
@@ -637,7 +637,7 @@ Phantump:
     tmhm: [Toxic, HiddenPower, SunnyDay, Protect, Frustration, Solarbeam, Return, Psychic, ShadowBall, DoubleTeam, Rest, Attract, Thief, DreamEater, Swagger, SleepTalk, Cut, Strength, RockSmash]
 
 Trevenant:
-  name: Trombork
+  name: Trevenant
   types: [Ghost, Grass]
   icon: Sudowoodo
   stats:
@@ -654,16 +654,16 @@ Trevenant:
   leveling: MediumFast
   egg_groups: [Grass, Amorphous]
   dex:
-    species: Urgehölz
-    height: 1.5
-    weight: 71.0
+    species: Elder Tree
+    height: 4.11
+    weight: 157
     text: |-
-      TROMBORK schützen
-      alte Wälder mit
-      allen Mitteln.
-      Kein Holzfäller
-      geht ohne Feuer-
-      #MON hinein.
+      TREVENANT protect
+      old forests with
+      absolute force.
+      Lumberjacks dare
+      only enter them
+      with fire #MON.
     footprint: Misdreavus
   moves:
     level:
@@ -683,7 +683,7 @@ Trevenant:
     tmhm: [Toxic, HiddenPower, SunnyDay, Protect, Frustration, Solarbeam, Return, Psychic, ShadowBall, DoubleTeam, Rest, Attract, Thief, DreamEater, Swagger, SleepTalk, Cut, Strength, RockSmash]
 
 Dreepy:
-  name: Grolldra
+  name: Dreepy
   types: [Dragon, Ghost]
   evolutions:
     50: Drakloak
@@ -702,16 +702,16 @@ Dreepy:
   leveling: Slow
   egg_groups: [Amorphous, Dragon]
   dex:
-    species: Missgunst
-    height: 0.5
-    weight: 2.0
+    species: Lingering
+    height: 1.08
+    weight: 4
     text: |-
-      Es lebte einst im
-      Meer. Dann ist es
-      als Geist wieder-
-      erwacht und irrt
-      dort nun rastlos
-      umher.
+      It used to live
+      in the sea. Its
+      spirit rose and
+      now roams its old
+      habitat aimlessly
+      and without rest.
     footprint: Misdreavus
   moves:
     level:
@@ -732,7 +732,7 @@ Dreepy:
     egg: [ConfuseRay, Curse, Disable, DoubleTeam]
 
 Drakloak:
-  name: Phandra
+  name: Drakloak
   types: [Dragon, Ghost]
   evolutions:
     60: Dragapult
@@ -751,16 +751,16 @@ Drakloak:
   leveling: Slow
   egg_groups: [Amorphous, Dragon]
   dex:
-    species: Betreuer
-    height: 1.4
-    weight: 11.0
+    species: Caretaker
+    height: 4.07
+    weight: 24
     text: |-
-      Ohne GROLLDRA auf
-      dem Kopf wird es
-      nervös und ver-
-      sucht sich andere
-      #MON auf seinen
-      Kopf zu setzen.
+      Without DREEPY on
+      its head, it gets
+      nervous and tries
+      to snatch other
+      #MON to put on
+      its head.
     footprint: Misdreavus
   moves:
     level:
@@ -781,7 +781,7 @@ Drakloak:
     tmhm: [Rest, Snore, Protect, Attract, Swift, Endure, SleepTalk, Protect, Frustration, HiddenPower, Snore, Protect, SteelWing, Flamethrower, Surf, Thunderbolt, Thunder, FireBlast, ShadowBall]
 
 Dragapult:
-  name: Katapuldra
+  name: Dragapult
   types: [Dragon, Ghost]
   icon: Bigmon
   stats:
@@ -798,16 +798,16 @@ Dragapult:
   leveling: Slow
   egg_groups: [Amorphous, Dragon]
   dex:
-    species: Tarnkünstler
-    height: 3.0
-    weight: 50.0
+    species: Stealth
+    height: 9.10
+    weight: 110
     text: |-
-      Konzentriert es
-      sich stark, kann
-      es sich unsicht-
-      bar machen; auch
-      die GROLLDRA in
-      seinen Hörnern.
+      By clearing its
+      mind, it can make
+      its whole body
+      transparent. Even
+      the DREEPY in its
+      horns vanish.
     footprint: Misdreavus
   moves:
     level:
@@ -828,7 +828,7 @@ Dragapult:
     tmhm: [Rest, Snore, Protect, Attract, Swift, Endure, SleepTalk, Protect, Frustration, HiddenPower, Snore, Protect, SteelWing, Flamethrower, Surf, Thunderbolt, Thunder, FireBlast, ShadowBall, Fly, HyperBeam, Solarbeam]
 
 Honedge:
-  name: Gramokles
+  name: Honedge
   types: [Steel, Ghost]
   evolutions:
     35: Doublade
@@ -847,16 +847,16 @@ Honedge:
   leveling: MediumFast
   egg_group: Mineral
   dex:
-    species: Klingenkraft
-    height: 0.8
-    weight: 2.0
+    species: Sword
+    height: 2.07
+    weight: 4
     text: |-
-      Es wickelt ein
-      blaues Tuch um
-      den Arm derer,
-      die es ergrei-
-      fen, und zehrt
-      von ihnen.
+      It wraps a blue
+      cloth around the
+      arm of anyone who
+      dares to grab its
+      hilt, draining
+      their life force.
     footprint: Misdreavus
   moves:
     level:
@@ -875,7 +875,7 @@ Honedge:
     egg: [DestinyBond]
 
 Doublade:
-  name: Duokles
+  name: Doublade
   types: [Steel, Ghost]
   evolutions:
     48: Aegislash
@@ -894,16 +894,16 @@ Doublade:
   leveling: MediumFast
   egg_group: Mineral
   dex:
-    species: Klingenkraft
-    height: 0.8
-    weight: 4.5
+    species: Sword
+    height: 2.07
+    weight: 10
     text: |-
-      Es koordiniert
-      seine Klingen
-      telepathisch.
-      Im Schwertkampf
-      unterliegt es
-      keinem Menschen.
+      It telepathically
+      coordinates the
+      movements of its
+      blades. It will
+      not lose a sword
+      fight to a human.
     footprint: Misdreavus
   moves:
     level:
@@ -921,7 +921,7 @@ Doublade:
     tmhm: [Toxic, HiddenPower, Protect, RainDance, Frustration, Return, DoubleTeam, Rest, Attract, Swagger, SleepTalk, Cut, RockSmash]
 
 Aegislash:
-  name: Durengard
+  name: Aegislash
   types: [Steel, Ghost]
   icon: Ghost
   stats:
@@ -938,16 +938,16 @@ Aegislash:
   leveling: MediumFast
   egg_group: Mineral
   dex:
-    species: Königsklinge
-    height: 1.7
-    weight: 53.0
+    species: Royal Sword
+    height: 5.07
+    weight: 117
     text: |-
-      Generationen von
-      Königen glaubten
-      dieses #MON an
-      ihrer Seite; doch
-      in Wahrheit be-
-      herrschte es sie.
+      Generations of
+      kings believed
+      this #MON at
+      their side; but
+      in truth, it
+      controlled them.
     footprint: Misdreavus
   moves:
     level:
@@ -966,7 +966,7 @@ Aegislash:
     tmhm: [Toxic, HiddenPower, Protect, RainDance, Frustration, Return, DoubleTeam, Rest, Attract, Swagger, SleepTalk, Cut, RockSmash, HyperBeam]
 
 Snorunt:
-  name: Schneppke
+  name: Snorunt
   types: [Ice]
   evolutions:
     42: Froslass
@@ -985,16 +985,16 @@ Snorunt:
   leveling: MediumFast
   egg_groups: [Fairy, Mineral]
   dex:
-    species: Schneehut
-    height: 0.7
-    weight: 16.8
+    species: Snow Hat
+    height: 2.04
+    weight: 37
     text: |-
-      Eine Legende im
-      Land des Schnees
-      besagt, dass in
-      jedes Haus, das
-      es besucht, Wohl-
-      stand einzieht.
+      Folklore of the
+      land of snow says
+      that any house it
+      visits is sure to
+      prosper for many
+      generations.
     footprint: Bayleef
   moves:
     level:
@@ -1012,7 +1012,7 @@ Snorunt:
     egg: [Bide, Disable, Rollout, Spikes, Hex]
 
 Froslass:
-  name: Frosdedje
+  name: Froslass
   types: [Ice, Ghost]
   icon: Humanshape
   stats:
@@ -1029,16 +1029,16 @@ Froslass:
   leveling: MediumFast
   egg_groups: [Fairy, Mineral]
   dex:
-    species: Schneegebiet
-    height: 1.3
-    weight: 26.6
+    species: Snow Land
+    height: 4.03
+    weight: 59
     text: |-
-      Friert Beute mit
-      ihrem eiskalten
-      Atem ein, nimmt
-      sie in seinen Bau
-      und stellt sie
-      dann dort aus.
+      It freezes prey
+      with its ice-cold
+      breath, takes it
+      into its chilly
+      den and displays
+      it there.
     footprint: Misdreavus
   moves:
     level:
@@ -1058,7 +1058,7 @@ Froslass:
     tmhm: [Toxic, HiddenPower, IceBeam, Protect, Frustration, Return, ShadowBall, DoubleTeam, Rest, Attract, Endure, Flash, SleepTalk, Swagger, Headbutt, Blizzard, HyperBeam, Thunderbolt, Thunder, Psychic, Thief, DreamEater, PsychUp]
 
 Greavard:
-  name: Gruff
+  name: Greavard
   type: Ghost
   evolutions:
     30: Houndstone
@@ -1077,16 +1077,16 @@ Greavard:
   leveling: MediumSlow
   egg_group: Field
   dex:
-    species: Geisterhund
-    height: 0.6
-    weight: 35.0
+    species: Ghost Dog
+    height: 2.00
+    weight: 77
     text: |-
-      Auch wenn man
-      sich nur kurz um
-      dieses #MON
-      kümmert, läuft es
-      einem auf ewig
-      nach.
+      Even if you only
+      pay the slightest
+      bit of attention
+      to this #MON, it
+      will follow you
+      forever.
     footprint: Houndour
   moves:
     level:
@@ -1107,7 +1107,7 @@ Greavard:
     egg: [DestinyBond, Disable]
 
 Houndstone:
-  name: Friedwuff
+  name: Houndstone
   type: Ghost
   icon: Fox
   stats:
@@ -1124,16 +1124,16 @@ Houndstone:
   leveling: MediumSlow
   egg_group: Field
   dex:
-    species: Geisterhund
-    height: 2.0
-    weight: 15.0
+    species: Ghost Dog
+    height: 6.07
+    weight: 33
     text: |-
-      Die Reinkarnation
-      eines liebevoll
-      betrauerten
-      #MON. Es wird
-      nur ungern am
-      Kopf berührt.
+      The reincarnation
+      of a lovingly
+      mourned #MON. It
+      dislikes its head
+      protuberance be-
+      ing touched.
     footprint: Houndoom
   moves:
     level:
@@ -1170,16 +1170,16 @@ Marshadow:
   leveling: Slow
   egg_group: None
   dex:
-    species: Dunkelwesen
-    height: 0.7
-    weight: 22.2
+    species: Gloomdweller
+    height: 2.04
+    weight: 49
     text: |-
-      Da es in der Lage
-      ist, mit jedem
-      Schatten zu ver-
-      schmelzen, ist es
-      lange Zeit unent-
-      deckt geblieben.
+      Because it can
+      sink into any
+      shadow, it has
+      remained undis-
+      covered for a
+      long time.
     footprint: Sudowoodo
   moves:
     level:
@@ -1216,15 +1216,15 @@ Rotom:
   egg_group: Amorphous
   dex:
     species: Plasma
-    height: 0.3
-    weight: 0.3
+    height: 1.00
+    weight: 1
     text: |-
-      Es dringt mit
-      seinem Plasma-
-      körper gern in
-      elektrische Ge-
-      räte ein und
-      sorgt für Chaos.
+      This mischievous
+      #MON likes to
+      enter electric
+      devices with its
+      plasma body and
+      wreak heavoc.
     footprint: Misdreavus
   moves:
     level:
@@ -1242,7 +1242,7 @@ Rotom:
     tmhm: [Toxic, HiddenPower, SunnyDay, Protect, RainDance, Frustration, Thunderbolt, Thunder, Return, ShadowBall, DoubleTeam, Rest, Thief, ZapCannon, Endure, Flash, PsychUp, SleepTalk, DreamEater, Swagger]
 
 Golett:
-  name: Golbit
+  name: Golett
   types: [Ground, Ghost]
   evolutions:
     43: Golurk
@@ -1261,16 +1261,16 @@ Golett:
   leveling: MediumFast
   egg_group: Mineral
   dex:
-    species: Urgolem
-    height: 1.0
-    weight: 92.0
+    species: Automaton
+    height: 3.03
+    weight: 203
     text: |-
-      Es wurde von ei-
-      ner uralten Kul-
-      tur aus Lehm er-
-      schaffen und kann
-      Jahrtausende in
-      Bewegung bleiben.
+      Ancient science
+      fashioned this
+      #MON from clay.
+      It's been active
+      for thousands of
+      years. 
     footprint: Aipom
   moves:
     level:
@@ -1289,7 +1289,7 @@ Golett:
     tmhm: [Toxic, HiddenPower, IceBeam, Protect, RainDance, Frustration, Return, Earthquake, Psychic, ShadowBall, DoubleTeam, Rest, Thief, SleepTalk, Flash, Swagger, Strength, RockSmash, IcyWind, FirePunch, IcePunch, Thunderpunch, Dig, Snore, Endure]
 
 Golurk:
-  name: Golgantes
+  name: Golurk
   types: [Ground, Ghost]
   icon: Geodude
   stats:
@@ -1306,16 +1306,16 @@ Golurk:
   leveling: MediumFast
   egg_group: Mineral
   dex:
-    species: Urgolem
-    height: 2.8
-    weight: 330.0
+    species: Automaton
+    height: 9.02
+    weight: 655
     text: |-
-      Löst sich das
-      Siegel auf seiner
-      Brust, gerät es
-      außer Kontrolle
-      und zerstört
-      ganze Städte.
+      Removing the seal
+      on its chest
+      makes it go out
+      of control and
+      raze whole cities
+      to the ground.
     footprint: Nidoking
   moves:
     level:
@@ -1335,7 +1335,7 @@ Golurk:
     tmhm: [Toxic, HiddenPower, IceBeam, Protect, RainDance, Frustration, Return, Earthquake, Psychic, ShadowBall, DoubleTeam, Rest, Thief, SleepTalk, Flash, Swagger, Strength, RockSmash, IcyWind, FirePunch, IcePunch, Thunderpunch, Dig, Snore, Endure, Solarbeam, HyperBeam, Thunderbolt]
 
 Frillish:
-  name: Quabbel
+  name: Frillish
   types: [Water, Ghost]
   evolutions:
     40: Jellicent
@@ -1354,16 +1354,16 @@ Frillish:
   leveling: MediumFast
   egg_group: Amorphous
   dex:
-    species: Gleit
-    height: 1.2
-    weight: 33.0
+    species: Floating
+    height: 3.11
+    weight: 73
     text: |-
-      Schlingt seine
-      dünnen, schleier-
-      artigen Arme um
-      seine Gegner und
-      sinkt mit ihnen
-      zum Meeresgrund.
+      It wraps its thin
+      veil-like arms
+      around the body
+      of its opponents,
+      dragging them to
+      the ocean floor.
     footprint: Misdreavus
   moves:
     level:
@@ -1382,7 +1382,7 @@ Frillish:
     egg: [AcidArmor, ConfuseRay, PainSplit, Constrict]
 
 Jellicent:
-  name: Apoquallyp
+  name: Jellicent
   types: [Water, Ghost]
   icon: Jellyfish
   stats:
@@ -1399,16 +1399,16 @@ Jellicent:
   leveling: MediumFast
   egg_group: Amorphous
   dex:
-    species: Gleit
-    height: 2.2
-    weight: 135.0
+    species: Floating
+    height: 7.03
+    weight: 298
     text: |-
-      Bei Vollmond
-      treiben sie in
-      Schwärmen an die
-      Meeresoberfläche
-      und lauern dort
-      ihrer Beute auf.
+      In full-moon
+      nights, schools
+      of JELLICENT
+      gather near the
+      sea's surface,
+      waiting for prey.
     footprint: Misdreavus
   moves:
     level:
@@ -1426,7 +1426,7 @@ Jellicent:
     tmhm: [Toxic, HiddenPower, IceBeam, Blizzard, Protect, RainDance, Frustration, Return, Psychic, ShadowBall, DoubleTeam, SludgeBomb, Rest, Attract, Flash, PsychUp, DreamEater, Swagger, Surf, Waterfall, IcyWind, GigaDrain, Snore, SleepTalk, Endure, Whirlpool, HyperBeam]
 
 Pumpkaboo:
-  name: Irrbis
+  name: Pumpkaboo
   types: [Ghost, Grass]
   evolutions:
     trade: Gourgeist
@@ -1445,16 +1445,16 @@ Pumpkaboo:
   leveling: MediumFast
   egg_group: Amorphous
   dex:
-    species: Kürbis
-    height: 0.8
-    weight: 15.0
+    species: Pumpkin
+    height: 2.07
+    weight: 33
     text: |-
-      Im Diesseits ge-
-      fangene verlorene
-      Seelen finden in
-      ihm Platz, um ins
-      Jenseits zu
-      reisen.
+      It is said to
+      carry wandering
+      spirits to the
+      place where they
+      belong so they
+      can move on. 
     footprint: Corsola
   moves:
     level:
@@ -1474,7 +1474,7 @@ Pumpkaboo:
     tmhm: [Toxic, HiddenPower, SunnyDay, Protect, Frustration, Return, Solarbeam, Psychic, ShadowBall, DoubleTeam, Flamethrower, SludgeBomb, FireBlast, Rest, Attract, Thief, DreamEater, Swagger, SleepTalk, RockSmash, GigaDrain, Endure]
 
 Gourgeist:
-  name: Pumpdjinn
+  name: Gourgeist
   types: [Ghost, Grass]
   icon: Oddish
   stats:
@@ -1491,16 +1491,16 @@ Gourgeist:
   leveling: MediumFast
   egg_group: Amorphous
   dex:
-    species: Kürbis
-    height: 1.7
-    weight: 39.0
+    species: Pumpkin
+    height: 5.07
+    weight: 86
     text: |-
-      In Neumondnächten
-      streift es durch
-      die Dörfer. Wer
-      seinen unheilvol-
-      len Gesang hört,
-      wird verflucht.
+      In the night of
+      the new moon, it
+      wanders through
+      villages, cursing
+      anyone who hears
+      its eerie song.
     footprint: Corsola
   moves:
     level:
@@ -1519,7 +1519,7 @@ Gourgeist:
     tmhm: [Toxic, HiddenPower, SunnyDay, Protect, Frustration, Return, Solarbeam, Psychic, ShadowBall, DoubleTeam, Flamethrower, SludgeBomb, FireBlast, Rest, Attract, Thief, DreamEater, Swagger, SleepTalk, RockSmash, GigaDrain, Endure, HyperBeam]
 
 Poltchageist:
-  name: Mortcha
+  name: Poltchagst
   types: [Grass, Ghost]
   evolutions:
     28: Sinistcha
@@ -1539,15 +1539,15 @@ Poltchageist:
   egg_groups: [Mineral, Amorphous]
   dex:
     species: Matcha
-    height: 0.1
-    weight: 1.1
+    height: 0.04
+    weight: 2
     text: |-
-      In ihm steckt die
-      Seele eines Tee-
-      meisters, der
-      starb, bevor er
-      sein Handwerk
-      vollendete.
+      It was born from
+      regrets of a tea
+      master who died
+      before perfecting
+      his craft linger-
+      ing in matcha.
     footprint: Misdreavus
   moves:
     level:
@@ -1565,7 +1565,7 @@ Poltchageist:
     tmhm: [Protect, Endure, SleepTalk, Rest, Return, Frustration, GigaDrain, ShadowBall, Solarbeam, PsychUp, Curse, Toxic, Headbutt]
 
 Sinistcha:
-  name: Fatalitcha
+  name: Sinistcha
   types: [Grass, Ghost]
   icon: Ghost
   stats:
@@ -1583,15 +1583,15 @@ Sinistcha:
   egg_groups: [Mineral, Amorphous]
   dex:
     species: Matcha
-    height: 0.2
-    weight: 2.2
+    height: 0.08
+    weight: 5
     text: |-
-      Es rührt sich
-      selbst gern mit
-      dem Teebesen auf
-      einem Kopf um.
-      So tankt es
-      Energie.
+      The more stirring
+      it does with the
+      tea whisk on its
+      head, the more
+      energy it builds
+      up for battles.
     footprint: Misdreavus
   moves:
     level:

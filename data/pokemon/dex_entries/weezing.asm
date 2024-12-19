@@ -1,10 +1,10 @@
-	db "GIFTWOLKE@" ; species name
-	dbw 12, 95 ; height, weight
+	db "POISON GAS@" ; species name
+	dw 311, 210 ; height, weight
 
-	db   "Atmet es Giftgase"
-	next "von Abfällen ein,"
-	next "bläht es sich auf"
+	db   "When it inhales"
+	next "poisonous gases"
+	next "from garbage, its"
 
-	page "und seine"
-	next "Innereien riechen"
-	next "noch schlimmer.@"
+	page "body expands, and"
+	next "its insides smell"
+	next "much worse.@"

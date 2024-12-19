@@ -83,12 +83,12 @@ IcePathB1FArticuno:
 	end
 
 IcePathBoulderFellThroughText:
-	text "Der Fels ist"
-	line "heruntergefallen."
+	text "The boulder fell"
+	line "through."
 	done
 
 IcePathB1FArticunoCryText:
-	text "ARKTOS: A-ge!"
+	text "ARTICUNO: A-ge!"
 	done
 
 IcePathB1F_MapEvents:

@@ -14,25 +14,24 @@ Route29Route46GateYoungsterScript:
 	jumptextfaceplayer Route29Route46GateYoungsterText
 
 Route29Route46GateOfficerText:
-	text "Du kannst die"
-	line "Stufen nicht"
-	cont "hinaufklettern."
+	text "You can't climb"
+	line "ledges."
 
-	para "Du kannst sie aber"
-	line "hinabspringen und"
-	cont "sie als Abkürzung"
-	cont "benutzen."
+	para "But you can jump"
+	line "down from them to"
+	cont "take a shortcut."
 	done
 
 Route29Route46GateYoungsterText:
-	text "Verschiedene"
-	line "#MON tauchen"
-	cont "hier auf."
+	text "Different kinds of"
+	line "#MON appear"
+	cont "past here."
 
-	para "Wenn du alle"
-	line "schnappen möch-"
-	cont "test, dann musst"
-	cont "du überall suchen."
+	para "If you want to"
+	line "catch them all,"
+
+	para "you have to look"
+	line "everywhere."
 	done
 
 Route29Route46Gate_MapEvents:

@@ -1,11 +1,11 @@
-	db "GLEIT@" ; species name
-	dbw 22, 1350 ; height, weight
+	db "FLOATING@" ; species name
+	dw 703, 29800 ; height, weight
 
 	;  "| ----------------- |"
-	db   "Bei Vollmond"
-	next "treiben sie in"
-	next "Schwärmen an die"
+	db   "In full-moon"
+	next "nights, schools"
+	next "of JELLICENT"
 
-	page "Meeresoberfläche"
-	next "und lauern dort"
-	next "ihrer Beute auf.@"
+	page "gather near the"
+	next "sea's surface,"
+	next "waiting for prey.@"

@@ -27,19 +27,11 @@ DisplayCaughtContestMonStats:
 	ld de, .This
 	call PlaceString
 
-if !DEF(_CRYSTAL_EU)
 	hlcoord 5, 4
-else
-	hlcoord 4, 4
-endc
 	ld de, .Health
 	call PlaceString
 
-if !DEF(_CRYSTAL_EU)
 	hlcoord 5, 10
-else
-	hlcoord 4, 10
-endc
 	ld de, .Health
 	call PlaceString
 
@@ -66,20 +58,12 @@ endc
 	ld [wTempMonLevel], a
 	call PrintLevel
 
-if !DEF(_CRYSTAL_EU)
 	hlcoord 11, 4
-else
-	hlcoord 10, 4
-endc
 	ld de, wContestMonMaxHP
 	lb bc, 2, 3
 	call PrintNum
 
-if !DEF(_CRYSTAL_EU)
 	hlcoord 11, 10
-else
-	hlcoord 10, 10
-endc
 	ld de, wEnemyMonMaxHP
 	call PrintNum
 
@@ -95,19 +79,12 @@ endc
 	call SetDefaultBGPAndOBP
 	ret
 
-if !DEF(_CRYSTAL_EU)
-.Health: db "HEALTH@"
-.Stock:  db " STOCK <PKMN> @"
-.This:   db " THIS <PKMN>  @"
-elif DEF(_CRYSTAL_DE)
-.Health: db "  GESU@"
-.Stock:  db " <PKMN> lagern @"
-.This:   db " Dieses <PKMN> @"
-elif DEF(_CRYSTAL_ES)
-.Health: db " SALUD@"
-.Stock:  db " GUARDA <PKMN> @"
-.This:   db " ESTE <PKMN> @"
-endc
+.Health:
+	db "HEALTH@"
+.Stock:
+	db " STOCK <PKMN> @"
+.This:
+	db " THIS <PKMN>  @"
 
 ContestAskSwitchText:
 	text_far _ContestAskSwitchText

@@ -148,73 +148,68 @@ RuinsOfAlphOutsidePlayerEnterLabMovement:
 	step_end
 
 RuinsOfAlphOutsideScientistText:
-	text "Hm? Das ist doch"
-	line "ein #DEX, nicht"
-	cont "wahr? Darf ich"
-	cont "ihn sehen?"
+	text "Hm? That's a #-"
+	line "DEX, isn't it?"
+	cont "May I see it?"
 
-	para "Es gibt so viele"
-	line "unterschiedliche"
-	cont "#MON."
+	para "There are so many"
+	line "kinds of #MON."
 
-	para "Hm? Was ist das?"
+	para "Hm? What's this?"
 
-	para "Was ist das für"
-	line "ein #MON?"
+	para "What is this"
+	line "#MON?"
 
-	para "Es sieht aus wie"
-	line "die merkwürdigen"
+	para "It looks like the"
+	line "strange writing on"
 
-	para "Zeichen an den"
-	line "Wänden in den"
-	cont "RUINEN."
+	para "the walls of the"
+	line "RUINS."
 
-	para "Falls diese Zei-"
-	line "chen tatsächlich "
-	cont "#MON sind, dann"
-	cont "gibt es noch"
-	cont "viel mehr davon."
+	para "If those drawings"
+	line "are really #-"
+	cont "MON, there should"
+	cont "be many more."
 
-	para "Ich weiß! Lass"
-	line "mich deinen #-"
-	cont "DEX erweitern."
-	cont "Mir nach!"
+	para "I know! Let me up-"
+	line "grade your #-"
+	cont "DEX. Follow me."
 	done
 
 SuperNerdStanSeenText:
-	text "Was willst du?"
-	line "Ich lerne--"
-	cont "stör mich nicht!"
+	text "What do you want?"
+	line "I'm studying--"
+	cont "don't disturb me!"
 	done
 
 SuperNerdStanBeatenText:
-	text "Entschuldigung…"
-	line "Unser Mangel an"
+	text "Sorry…"
+	line "I'm frustrated by"
 
-	para "Verständnis"
-	line "frustriert mich…"
+	para "our lack of real"
+	line "understanding…"
 	done
 
 SuperNerdStanAfterBattleText:
-	text "Die RUINEN"
-	line "sind ungefähr"
-	cont "1500 Jahre alt."
+	text "The RUINS are from"
+	line "about 1500 years"
+	cont "ago."
 
-	para "Niemand weiß,"
-	line "wer sie erbaute."
+	para "Nobody knows who"
+	line "built them."
 
-	para "Die Bedeutung der "
-	line "#MON-Statuen"
-	cont "ist auch noch"
-	cont "nicht geklärt."
+	para "It's also not"
+	line "known if the #-"
+	cont "MON statues have"
+	cont "any meaning."
 
-	para "Das Ganze ist ein"
-	line "großes Rätsel…"
+	para "It's all one big"
+	line "mystery…"
 	done
 
 PsychicNathanSeenText:
-	text "Hm… Dies ist ein"
-	line "merkwürdiger Ort."
+	text "Hmmm… This is a"
+	line "strange place."
 	done
 
 PsychicNathanBeatenText:
@@ -222,69 +217,65 @@ PsychicNathanBeatenText:
 	done
 
 PsychicNathanAfterBattleText:
-	text "Ich komme oft"
-	line "hierher, um nach-"
-	cont "zudenken."
+	text "I like thinking"
+	line "here."
 	done
 
 RuinsOfAlphOutsideMysteryChamberSignText:
-	text "RÄTSELSTEIN"
-	line "PUZZLEKAMMER"
+	text "MYSTERY STONE"
+	line "PANEL CHAMBER"
 	done
 
 RuinsOfAlphSignText:
-	text "ALPH-RUINEN"
-	line "Fremde willkommen!"
+	text "RUINS OF ALPH"
+	line "VISITORS WELCOME"
 	done
 
 RuinsOfAlphResearchCenterSignText:
-	text "ALPH-RUINEN"
-	line "FORSCHUNGSZENTRUM"
+	text "RUINS OF ALPH"
+	line "RESEARCH CENTER"
 
-	para "DIE AUTORITÄT IN"
-	line "SACHEN ALPH-RUINEN"
+	para "THE AUTHORITY ON"
+	line "THE RUINS OF ALPH"
 	done
 
 RuinsOfAlphOutsideFisherText1:
-	text "Beim Erkunden der"
-	line "RUINEN haben wir"
+	text "While exploring"
+	line "the RUINS, we"
 
-	para "plötzlich eine"
-	line "seltsame Gegenwart"
-	cont "gespürt."
+	para "suddenly noticed"
+	line "an odd presence."
 
-	para "Alle hatten Angst"
-	line "und liefen davon."
+	para "We all got scared"
+	line "and ran away."
 
-	para "Du solltest auch"
-	line "vorsichtig sein."
+	para "You should be"
+	line "careful too."
 	done
 
 RuinsOfAlphOutsideFisherText2:
-	text "Den RUINEN wohnt"
-	line "ein großes"
-	cont "Geheimnis inne!"
+	text "The RUINS hide a"
+	line "huge secret!"
 
-	para "…Ich denke…"
+	para "…I think…"
 	done
 
 RuinsOfAlphOutsideYoungster1Text:
-	text "Es gibt viele un-"
-	line "terschiedliche"
+	text "There are many"
+	line "kinds of UNOWN, so"
 
-	para "ICOGNITO, die wir"
-	line "für unsere Geheim-"
-	cont "codes benötigen."
+	para "we use them for"
+	line "our secret codes."
 	done
 
 RuinsOfAlphOutsideYoungster2Text:
-	text "V… O… R… A… U… S…"
+	text "A… H… E… A… D…"
 	line "Hmm…"
 
-	para "Wie?"
+	para "What?"
 
-	para "Ich dechiffriere"
-	line "diese Nachricht!"
+	para "I'm decoding this"
+	line "message!"
 	done
 
 RuinsOfAlphOutside_MapEvents:

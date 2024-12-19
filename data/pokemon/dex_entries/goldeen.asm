@@ -1,10 +1,10 @@
-	db "GOLDFISCH@" ; species name
-	dbw 6, 150 ; height, weight
+	db "GOLDFISH@" ; species name
+	dw 200, 330 ; height, weight
 
-	db   "Während der Laich-"
-	next "zeit schwimmen sie"
-	next "grazil im Wasser"
+	db   "During spawning"
+	next "season, they swim"
+	next "gracefully in the"
 
-	page "und sind auf der"
-	next "Suche nach dem"
-	next "perfekten Partner.@"
+	page "water, searching"
+	next "for their perfect"
+	next "mate.@"

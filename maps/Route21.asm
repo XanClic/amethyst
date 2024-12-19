@@ -42,51 +42,49 @@ TrainerFisherArnold:
 	end
 
 SwimmermSethSeenText:
-	text "Mach weiter so!"
+	text "Land ho! Gotta"
+	line "keep going!"
 	done
 
 SwimmermSethBeatenText:
-	text "Gluck…"
+	text "Glug…"
 	done
 
 SwimmermSethAfterBattleText:
-	text "Dieser arrogante"
-	line "Typ war beim"
-	cont "Vulkan auf der"
-	cont "ZINNOBERINSEL."
+	text "This arrogant guy"
+	line "was at CINNABAR's"
+	cont "volcano."
 	done
 
 SwimmerfNikkiSeenText:
-	text "Falls ich gewinne,"
-	line "musst du mich mit"
-	cont "der Sonnencreme"
-	cont "einreiben!"
+	text "If I win, you have"
+	line "to help me with my"
+	cont "suntan lotion!"
 	done
 
 SwimmerfNikkiBeatenText:
-	text "Ich habe Angst vor"
-	line "einem Sonnenbrand…"
+	text "I'm worried about"
+	line "sunburn…"
 	done
 
 SwimmerfNikkiAfterBattleText:
-	text "Ich muss mich"
-	line "vor Hautreizungen"
-	cont "in Acht nehmen."
+	text "I have to watch"
+	line "out for blemishes"
+	cont "caused by the sun."
 	done
 
 FisherArnoldSeenText:
-	text "Angeln langweilt"
-	line "mich. Lass uns"
-	cont "kämpfen!"
+	text "I'm bored by fish-"
+	line "ing. Let's battle!"
 	done
 
 FisherArnoldBeatenText:
-	text "Total versagt…"
+	text "Utter failure…"
 	done
 
 FisherArnoldAfterBattleText:
-	text "Ich gehe zurück"
-	line "zum Angeln…"
+	text "I'll just go back"
+	line "to fishing…"
 	done
 
 Route21_MapEvents:

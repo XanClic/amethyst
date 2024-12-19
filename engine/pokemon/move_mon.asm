@@ -1254,13 +1254,7 @@ GiveEgg::
 	ret
 
 String_Egg:
-if !DEF(_CRYSTAL_EU)
 	db "EGG@"
-elif DEF(_CRYSTAL_DE)
-	db "EI@"
-elif DEF(_CRYSTAL_ES)
-	db "HUEVO@"
-endc
 
 RemoveMonFromPartyOrBox:
 	ld hl, wPartyCount

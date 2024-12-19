@@ -238,61 +238,55 @@ BurnedTowerB1FRock:
 	jumpstd SmashRockScript
 
 BurnedTowerB1FEusineText:
-	text "EUSIN: Ich habe"
-	line "hier auch ein Loch"
-	cont "gegraben…"
+	text "EUSINE: I dug a"
+	line "hole here, too…"
 
-	para "Ich war geschockt!"
+	para "I was shocked!"
 
-	para "SUICUNE rannte an"
-	line "mir vorbei wie ein"
+	para "SUICUNE raced by"
+	line "like a blur, right"
 
-	para "Blitz, direkt vor"
-	line "meinen Augen!"
+	para "in front of my"
+	line "eyes!"
 
-	para "Zehn Jahre habe"
-	line "ich SUICUNE ver-"
-	cont "folgt und endlich"
+	para "For ten years I"
+	line "chased SUICUNE,"
 
-	para "habe ich es ge-"
-	line "sehen!"
+	para "and I finally got"
+	line "to see it."
 
-	para "Ich bin"
-	line "überwältigt!"
+	para "I'm all choked up!"
 
-	para "<PLAYER>, all das"
-	line "verdanke ich dir!"
+	para "<PLAYER>, I owe"
+	line "this all to you!"
 
-	para "Vielen Dank!"
+	para "Thank you!"
 
-	para "Ich hörte, dass"
-	line "die legendären"
+	para "I heard that the"
+	line "legendary #MON"
 
-	para "#MON von TEAK"
-	line "CITY Auserwählte"
+	para "of ECRUTEAK test"
+	line "chosen humans by"
 
-	para "testen, indem sie"
-	line "zulassen, dass sie"
-	cont "ihnen nahe kommen."
+	para "allowing them to"
+	line "get close."
 
-	para "Ich begebe mich"
-	line "auf die Suche nach"
-	cont "SUICUNE."
+	para "I'm going to track"
+	line "SUICUNE."
 
-	para "<PLAYER>, wir"
-	line "müssen uns wieder"
-	cont "treffen!"
+	para "<PLAYER>, let's"
+	line "meet again!"
 
-	para "Leb wohl!"
+	para "Farewell!"
 	done
 
 BurnedTowerB1FLitwickCryText:
-	text "LICHTEL: Fuiuu!"
+	text "LITWICK: Fuyuu!"
 	done
 
 BurnedTowerB1FGotGSBallText:
-	text "<PLAYER> erhält"
-	line "GS-BALL."
+	text "<PLAYER> received"
+	line "GS BALL."
 	done
 
 BurnedTowerB1F_MapEvents:

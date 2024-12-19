@@ -1,10 +1,10 @@
-	db "SPÄHER@" ; species name
-	dbw 8, 60 ; height, weight
+	db "SCOUT@" ; species name
+	dw 207, 130 ; height, weight
 
-	db   "Wenn es Wache hat,"
-	next "warnt es seine"
-	next "Artgenossen, indem"
+	db   "When acting as a"
+	next "lookout, it warns"
+	next "others of danger"
 
-	page "es schreit und mit"
-	next "dem Schwanz auf"
-	next "den Boden schlägt.@"
+	page "by screeching and"
+	next "hitting the ground"
+	next "with its tail.@"

@@ -1,10 +1,10 @@
-	db "SCHLÄFER@" ; species name
-	dbw 18, 1258 ; height, weight
+	db "HIBERNANT@" ; species name
+	dw 511, 2770 ; height, weight
 
-	db   "Trotz seines"
-	next "riesigen Körpers"
-	next "ist es ein guter"
+	db   "Although it has a"
+	next "large body, it is"
+	next "quite skilled at"
 
-	page "Kletterer. Es"
-	next "frisst und schläft"
-	next "in Baumkronen.@"
+	page "climbing trees. It"
+	next "eats and sleeps in"
+	next "the treetops.@"

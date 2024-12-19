@@ -1,109 +1,103 @@
 TullyMonHasGrownText:
-	text "Mein @"
+	text "My @"
 	text_ram wStringBuffer4
-	text_start
-	line "ist erneut"
-	cont "gewachsen."
+	text " has"
+	line "grown again."
 
-	para "Es war groß, als"
-	line "ich es fing, aber"
+	para "It was only about"
+	line "so big when I"
 
-	para "jetzt ist es noch"
-	line "größer."
+	para "caught it, but now"
+	line "it's way bigger."
 	done
 
 TullyDefeatedMonText:
-	text "Oh yo, ich schlug"
-	line "ein wildes"
-	cont "@"
-	text_ram wStringBuffer4
-	text " K.O."
-
-	para "Es war riesig,"
-	line "ungefähr soo groß."
-
-	para "He, ich glaube, "
-	line "man kann das am"
-	cont "Telefon nicht"
-	cont "beschreiben…"
-	done
-
-TullyLostAMonText:
-	text "Oh yo, ich verlor"
-	line "gegen ein wildes"
-	cont "@"
+	text "Oh yeah, I KO'd a"
+	line "wild @"
 	text_ram wStringBuffer4
 	text "."
 
-	para "Es war riesig,"
-	line "ungefähr soo groß."
+	para "It was huge, like"
+	line "this big even."
 
-	para "He, ich glaube, "
-	line "man kann das am"
-	cont "Telefon nicht"
-	cont "beschreiben…"
+	para "Heh, I guess you"
+	line "can't tell over"
+	cont "the phone…"
+	done
+
+TullyLostAMonText:
+	text "Oh yeah, I lost a"
+	line "wild @"
+	text_ram wStringBuffer4
+	text "."
+
+	para "It was huge, like"
+	line "this big even."
+
+	para "Heh, I guess you"
+	line "can't tell over"
+	cont "the phone…"
 	done
 
 TullyBattleRematchText:
-	text "Wir sollten end-"
-	line "lich kämpfen!"
+	text "We should get a"
+	line "battle going!"
 
-	para "Ich angle hier:"
+	para "I'll be fishing on"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "Schau mal vorbei,"
-	line "wenn du Zeit hast."
+	para "Swing by if you"
+	line "have the time."
 	done
 
 TullyHangUpText:
-	text "Nun, ich werde"
-	line "dich treffen."
+	text "Well, I'll be"
+	line "seeing you."
 	done
 
 TullyFoundItemText:
-	text "Ich fand etwas"
-	line "Kleines am Ufer."
+	text "I picked up a good"
+	line "little thing at"
+	cont "the water's edge."
 
-	para "Wie versprochen,"
-	line "es gehört dir."
+	para "Like I promised,"
+	line "it's yours."
 
-	para "Ich warte hier:"
+	para "I'll be waiting on"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 	done
 
 TullyNoItemText:
-	text "Ob ich etwas Gutes"
-	line "gefunden habe?"
+	text "Have I found"
+	line "anything good?"
 
-	para "Nö, noch nicht."
+	para "Nope, not yet."
 
-	para "Es ist wie beim"
-	line "Angeln, du"
-	cont "brauchst Geduld."
+	para "It's like fishing,"
+	line "you need patience."
 	done
 
 TullyForwardText:
-	text "Yo, AMADEUS hier…"
+	text "Yup, TULLY here…"
 
-	para "<PLAY_G>? Was?"
-	line "Du hast dich"
-	cont "verirrt?"
+	para "<PLAY_G>? What?"
+	line "You're lost?"
 
-	para "Wir kämpfen hier:"
-	line "@"
+	para "Our battle will be"
+	line "on @"
 	text_ram wStringBuffer5
 	text "."
 	done
 
 TullyHurryText:
-	text "Ich habe etwas"
-	line "Tolles für dich."
+	text "I've got something"
+	line "good for you."
 
-	para "Ich bin hier:"
+	para "Hustle over to"
 	line "@"
 	text_ram wStringBuffer5
 	text "."

@@ -115,16 +115,8 @@ NamingScreen:
 	ret
 
 .NicknameStrings:
-if !DEF(_CRYSTAL_EU)
 	db "'S@"
 	db "NICKNAME?@"
-elif DEF(_CRYSTAL_DE)
-	db "@"
-	db "ALIAS?@"
-elif DEF(_CRYSTAL_ES)
-	db "@"
-	db "¿APODO?@"
-endc
 
 .Player:
 	farcall GetPlayerIcon
@@ -136,13 +128,7 @@ endc
 	ret
 
 .PlayerNameString:
-if !DEF(_CRYSTAL_EU)
 	db "YOUR NAME?@"
-elif DEF(_CRYSTAL_DE)
-	db "DEIN NAME?@"
-elif DEF(_CRYSTAL_ES)
-	db "¿TU NOMBRE?@"
-endc
 
 .Rival:
 	ld de, RivalSpriteGFX
@@ -155,13 +141,7 @@ endc
 	ret
 
 .RivalNameString:
-if !DEF(_CRYSTAL_EU)
 	db "RIVAL'S NAME?@"
-elif DEF(_CRYSTAL_DE)
-	db "GEGNER-NAME?@"
-elif DEF(_CRYSTAL_ES)
-	db "¿NOMBRE RIVAL?@"
-endc
 
 .Mom:
 	ld de, MomSpriteGFX
@@ -174,13 +154,7 @@ endc
 	ret
 
 .MomNameString:
-if !DEF(_CRYSTAL_EU)
 	db "MOTHER'S NAME?@"
-elif DEF(_CRYSTAL_DE)
-	db "MAMAs NAME?@"
-elif DEF(_CRYSTAL_ES)
-	db "¿NOMBRE MATERNO?@"
-endc
 
 .Box:
 	ld de, PokeBallSpriteGFX
@@ -204,13 +178,7 @@ endc
 	ret
 
 .BoxNameString:
-if !DEF(_CRYSTAL_EU)
 	db "BOX NAME?@"
-elif DEF(_CRYSTAL_DE)
-	db "BOX NAME?@"
-elif DEF(_CRYSTAL_ES)
-	db "¿NOMBRE CAJA?@"
-endc
 
 .Tomodachi:
 	hlcoord 3, 2

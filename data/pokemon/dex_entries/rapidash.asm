@@ -1,10 +1,10 @@
-	db "FEUERPFERD@" ; species name
-	dbw 17, 950 ; height, weight
+	db "FIRE HORSE@" ; species name
+	dw 507, 2090 ; height, weight
 
-	db   "Es liebt zu ga-"
-	next "loppieren. Je"
-	next "schneller es ist,"
+	db   "It just loves to"
+	next "gallop. The faster"
+	next "it goes, the long-"
 
-	page "desto länger sind"
-	next "die Flammen in"
-	next "seiner Mähne.@"
+	page "er the swaying"
+	next "flames of its mane"
+	next "will become.@"

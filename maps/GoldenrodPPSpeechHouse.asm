@@ -23,31 +23,30 @@ GoldenrodPPSpeechHouseRadio:
 	jumpstd Radio2Script
 
 GoldenrodPPSpeechHouseFisherText:
-	text "Als ich einmal"
-	line "kämpfte, konnte"
+	text "Once while I was"
+	line "battling, my"
 
-	para "mein #MON kei-"
-	line "ne Attacken mehr"
-	cont "ausführen."
+	para "#MON couldn't"
+	line "make any moves."
 
-	para "Die ANGRIFFSPUNK-"
-	line "TE, oder AP, sei-"
-	cont "ner Attacken waren"
-	cont "verbraucht."
+	para "The POWER POINTS,"
+	line "or PP, of its"
+
+	para "moves were all"
+	line "gone."
 	done
 
 GoldenrodPPSpeechHouseLassText:
-	text "Manchmal kann auch"
-	line "ein gesundes"
+	text "Sometimes, a"
+	line "healthy #MON"
 
-	para "#MON nicht mehr"
-	line "angreifen."
+	para "may be unable to"
+	line "use its moves."
 
-	para "In diesem Fall"
-	line "musst du es in ei-"
-	cont "nem #MON-CENTER"
-	cont "oder mit einem"
-	cont "Item heilen."
+	para "If that happens,"
+	line "heal it at a #-"
+	cont "MON CENTER or use"
+	cont "an item."
 	done
 
 GoldenrodPPSpeechHouse_MapEvents:

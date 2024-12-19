@@ -64,16 +64,16 @@ RandyScript:
 
 GiftSpearowMail:
 	db FLOWER_MAIL
-	db   "DUNKELHÖHLE    "
-	next "ist ein Pfad   @"
+	db   "DARK CAVE leads"
+	next "to another road@"
 
 GiftSpearowName:
-	db "HABSI@"
+	db "KENYA@"
 
 GiftSpearowOTName:
-	db "HARALD@"
+	db "RANDY@"
 
-	db 0, "EG@", 0 ; filler
+	db 0 ; unused
 
 Route35GoldenrodGatePokefanFScript:
 	faceplayer
@@ -95,132 +95,104 @@ Route35GoldenrodGateFisherScript:
 	jumptextfaceplayer Route35GoldenrodGateFisherText
 
 Route35GoldenrodGateRandyAskTakeThisMonToMyFriendText:
-	text "Entschuldige,"
-	line "bitte!"
-	cont "Könntest du mir"
-	cont "einen Gefallen"
-	cont "tun?"
+	text "Excuse me, kid!"
+	line "Can you do a guy"
+	cont "a favor?"
 
-	para "Könntest du dieses"
-	line "#MON, das einen"
-	cont "BRIEF trägt,"
-	cont "zu meinem Freund"
-	cont "bringen?"
+	para "Can you take this"
+	line "#MON with MAIL"
+	cont "to my friend?"
 
-	para "Du findest ihn"
-	line "auf ROUTE 31."
+	para "He's on ROUTE 31."
 	done
 
 Route35GoldenrodGateRandyThanksText:
-	text "Das würdest du"
-	line "tun? Super!"
-	cont "Vielen Dank!"
+	text "You will? Perfect!"
+	line "Thanks, kid!"
 
-	para "Mein Freund ist"
-	line "ein Flegel!"
-	cont "Er schläft die"
-	cont "ganze Zeit."
+	para "My pal's a chubby"
+	line "guy who snoozes"
+	cont "all the time."
 
-	para "Du wirst ihn"
-	line "sofort erkennen!"
+	para "You'll recognize"
+	line "him right away!"
 	done
 
 Route35GoldenrodGatePlayerReceivedAMonWithMailText:
-	text "<PLAYER> hat ein"
-	line "#MON, das einen"
-
-	para "BRIEF trägt,"
-	line "erhalten."
+	text "<PLAYER> received a"
+	line "#MON with MAIL."
 	done
 
 Route35GoldenrodGateRandyWeirdTreeBlockingRoadText:
-	text "Du darfst ihn le-"
-	line "sen, aber verliere"
-	cont "ihn nicht!"
+	text "You can read it,"
+	line "but don't lose it!"
 	cont "ROUTE 31!"
 
-	para "Stimmt! Ein"
-	line "merkwürdiger"
-	cont "Baum hat die"
-	cont "Straße blockiert."
+	para "Oh, yeah. There"
+	line "was a weird tree"
+	cont "blocking the road."
 
-	para "Ich frage mich,"
-	line "ob die Straße"
-	cont "jetzt frei ist."
+	para "I wonder if it's"
+	line "been cleared?"
 	done
 
 Route35GoldenrodGateRandyCantCarryAnotherMonText:
-	text "Du kannst kein"
-	line "weiteres #MON"
-	cont "mehr tragen…"
+	text "You can't carry"
+	line "another #MON…"
 	done
 
 Route35GoldenrodGateRandyOhNeverMindThenText:
-	text "Oh… Dann"
-	line "geht das in"
-	cont "Ordnung…"
+	text "Oh… Never mind,"
+	line "then…"
 	done
 
 Route35GoldenrodGateRandySomethingForYourTroubleText:
-	text "Ich danke dir!"
-	line "Du hast die"
-	cont "Lieferung für mich"
-	cont "erledigt!"
+	text "Thanks, kid! You"
+	line "made the delivery"
+	cont "for me!"
 
-	para "Ich habe hier"
-	line "etwas für dich"
-	cont "wegen der Un-"
-	cont "annehmlichkeiten!"
+	para "Here's something"
+	line "for your trouble!"
 	done
 
 Route35GoldenrodGateRandyMyPalWasSnoozingRightText:
-	text "Mein Freund hat"
-	line "geschlafen, nicht"
-	cont "wahr? Na, was"
-	cont "habe ich dir"
-	cont "gesagt?"
+	text "My pal was snooz-"
+	line "ing, right? Heh,"
+	cont "what'd I say?"
 	done
 
 Route35GoldenrodGatePokefanFText:
-	text "Ein merkwürdiger"
-	line "Baum blockiert die"
-	cont "Straße."
+	text "A strange tree is"
+	line "blocking the road."
 
-	para "Er fängt an zu"
-	line "zappeln, wenn man"
-	cont "ihn anspricht."
+	para "It wriggles around"
+	line "if you talk to it."
 
-	para "Ich habe gehört,"
-	line "dass er rasend"
-	cont "wurde, als ihn"
+	para "I heard it became"
+	line "wild when someone"
 
-	para "jemand mit Wasser"
-	line "aus einer"
-	cont "SCHIGGYKANNE"
-	cont "begossen hat."
+	para "watered it with a"
+	line "SQUIRTBOTTLE."
 	done
 
 Route35GoldenrodGatePokefanFText_FoughtSudowoodo:
-	text "Ich mag das #-"
-	line "MON-Schlaflied,"
-	cont "das im Radio"
-	cont "gespielt wird."
+	text "I like the #MON"
+	line "Lullaby they play"
+	cont "on the radio."
 	done
 
 Route35GoldenrodGateFisherText:
-	text "Ich frage mich,"
-	line "wie viele Arten"
+	text "I wonder how many"
+	line "kinds of #MON"
 
-	para "von #MON es"
-	line "wohl geben mag."
+	para "there are in the"
+	line "world."
 
-	para "Vor drei Jahren"
-	line "hat PROF. EICH"
+	para "Three years ago,"
+	line "PROF.OAK said that"
 
-	para "verlautbart, dass"
-	line "es 150 verschie-"
-	cont "dene Arten geben"
-	cont "soll."
+	para "there were 150"
+	line "different kinds."
 	done
 
 Route35GoldenrodGate_MapEvents:
