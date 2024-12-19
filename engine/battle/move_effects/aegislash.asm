@@ -164,10 +164,13 @@ DoRecalcStats:
 	push de
 	; Cannot store to wPlayerStats or wEnemyStats: Neither have an HP field,
 	; but CalcMonStats will write it
-	ld de, wBufferMonMaxHP
+	; Must not use wBufferMon, that shares its memory space with stuff like
+	; wWinTextPointer, which must be preserved through battles.  wTempMon
+	; however has exclusive memory space.
+	ld de, wTempMonMaxHP
 	predef CalcMonStats
 	pop de
-	ld hl, wBufferMonAttack
+	ld hl, wTempMonAttack
 	ld bc, 5 * 2 ; 5 stats (atk, def, spd, sat, sdf)
 	call CopyBytes
 	ret
