@@ -35,111 +35,104 @@ TrainerHouseIllegibleBook:
 	jumptext TrainerHouseIllegibleText
 
 TrainerHouse1FReceptionistText:
-	text "Willkommen im"
-	line "TRAINER-HAUS, dem"
+	text "Welcome to TRAINER"
+	line "HOUSE, the newest"
 
-	para "neuesten und"
-	line "erlebnisreichsten"
-	cont "Ort von VERTANIA"
-	cont "CITY."
+	para "and most happening"
+	line "place in VIRIDIAN."
 
-	para "Nur Trainer haben"
-	line "hier Zutritt."
+	para "We're open to"
+	line "trainers only."
 
-	para "Du kannst gegen"
-	line "die Besten der"
+	para "You can battle"
+	line "against the best"
 
-	para "Besten antreten!"
-	line "Geh nur die Treppe"
-	cont "hinunter."
+	para "of the best right"
+	line "downstairs."
 	done
 
 TrainerHouse1FCooltrainerMText:
-	text "VERTANIA CITY ist"
-	line "dem INDIGO PLATEAU"
-	cont "am nächsten."
+	text "VIRIDIAN is the"
+	line "town closest to"
+	cont "INDIGO PLATEAU."
 
-	para "Man hat diesen Ort"
-	line "erbaut, weil ihn"
+	para "They built this"
+	line "place because so"
 
-	para "so viele Trainer"
-	line "auf ihrem Weg zum"
+	para "many trainers pass"
+	line "through on their"
 
-	para "INDIGO PLATEAU "
-	line "passieren."
+	para "way up to INDIGO"
+	line "PLATEAU."
 	done
 
 TrainerHouse1FCooltrainerFText:
-	text "Hier unten werden"
-	line "Übungskämpfe"
-	cont "abgehalten."
+	text "They hold practice"
+	line "battles downstairs"
+	cont "here."
 
-	para "Ich würde liebend"
-	line "gerne sehen, wie"
+	para "I would love to"
+	line "see how well a"
 
-	para "Trainer aus JOHTO"
-	line "kämpfen."
+	para "trainer from JOHTO"
+	line "battles."
 	done
 
 TrainerHouse1FYoungsterText:
-	text "Ich nehme an, du"
-	line "kannst nur dann"
+	text "I guess you can't"
+	line "become the CHAMP"
 
-	para "CHAMP werden, wenn"
-	line "du viel herum-"
-	cont "kommst und so"
+	para "unless you go all"
+	line "over the place and"
 
-	para "viele Kämpfe wie"
-	line "möglich austrägst."
+	para "battle all kinds"
+	line "of people."
 
-	para "Der CHAMP von"
-	line "ALABASTIA bereiste"
+	para "The CHAMPION from"
+	line "PALLET traveled to"
 
-	para "alle großen und"
-	line "kleinen Städte"
-	cont "in KANTO."
+	para "all the cities and"
+	line "towns in KANTO."
 	done
 
 TrainerHouse1FGentlemanText:
-	text "Puh… Ich höre"
-	line "eine Zeit lang auf"
-	cont "mit Kämpfen."
+	text "Whew… I'm taking a"
+	line "rest from #MON"
+	cont "battles."
 	done
 
 TrainerHouseSign1Text:
-	text "Übungskämpfe"
-	line "werden unten in"
+	text "Practice battles"
+	line "are held in the"
 
-	para "der ÜBUNGSHALLE"
-	line "abgehalten."
+	para "TRAINING HALL"
+	line "downstairs."
 
-	para "Auch erfahrene"
-	line "Trainer können"
-	cont "gerne teilnehmen."
+	para "Skilled trainers"
+	line "are invited to"
+	cont "participate."
 	done
 
 TrainerHouseSign2Text:
-	text "Bei den Trainings-"
-	line "kämpfen gelten"
+	text "There are no rules"
+	line "or regulations for"
 
-	para "keine Regeln oder"
-	line "Vorgaben. Wie bei"
+	para "practice matches."
+	line "Just like in field"
 
-	para "den Feldkämpfen"
-	line "ist alles erlaubt!"
+	para "battles, anything"
+	line "goes!"
 	done
 
 TrainerHouseIllegibleText:
-	text "…Was ist das?"
-	line "Eine strategische"
-	cont "Notiz?"
+	text "…What's this?"
+	line "A strategy memo?"
 
-	para "Dieses Schrift-"
-	line "stück sieht aus"
+	para "This writing looks"
+	line "like ONIX tracks…"
 
-	para "wie die Spur eines"
-	line "ONIX…"
-	cont "Völlig unlesbar…"
+	para "It's completely"
+	line "illegible…"
 	done
 
 TrainerHouse1F_MapEvents:

@@ -1,71 +1,70 @@
 WadeAskNumber1Text:
-	text "Eh, du bist gut!"
-	line "Das mag ich!"
+	text "You're awesome!"
+	line "I like you!"
 
-	para "Ich such hier täg-"
-	line "lich nach #MON."
+	para "I look for #MON"
+	line "here every day."
 
-	para "Im Gras finde ich"
-	line "alle Arten von"
-	cont "BEEREN."
+	para "When I'm in the"
+	line "grass, I find all"
+	cont "kinds of BERRIES."
 
-	para "Wenn du möchtest,"
-	line "teile ich mit dir."
+	para "If you'd like,"
+	line "I'll share some."
 
-	para "Gibst du mir deine"
-	line "Telefonnummer?"
+	para "Could I get your"
+	line "phone number?"
 	done
 
 WadeAskNumber2Text:
-	text "Im Gras finde ich"
-	line "alle Arten von"
-	cont "BEEREN."
+	text "When I'm in the"
+	line "grass, I find all"
+	cont "kinds of BERRIES."
 
-	para "Wenn du möchtest,"
-	line "teile ich mit dir."
+	para "If you'd like,"
+	line "I'll share some."
 
-	para "Gibst du mir deine"
-	line "Telefonnummer?"
+	para "Could I get your"
+	line "phone number?"
 	done
 
 WadeNumberAcceptedText:
-	text "Ich melde mich,"
-	line "sobald ich etwas"
+	text "You'll hear from"
+	line "me as soon as I"
 
-	para "finde, das dir ge-"
-	line "fallen könnte."
+	para "find anything that"
+	line "you might like."
 	done
 
 WadeNumberDeclinedText:
-	text "Du kannst mich"
-	line "gerne nach meiner"
-	cont "Nummer fragen."
+	text "Oh well. Don't be"
+	line "shy if you want to"
+	cont "get my number."
 	done
 
 WadePhoneFullText:
-	text "In deinem Nummern-"
-	line "speicher ist kein"
-	cont "Platz mehr."
+	text "Your phone list"
+	line "has no room for my"
+	cont "number."
 	done
 
 WadeRematchText:
-	text "Ich habe schon auf"
-	line "dich gewartet."
-	cont "Los geht's!"
+	text "I was waiting for"
+	line "you. Let's battle!"
 	done
 
 WadeGiftText:
-	text "Schön dich zu se-"
-	line "hen! Hier, das"
+	text "Good to see you!"
+	line "See? This is what"
 
-	para "habe ich gefunden."
-	line "Nimm es bitte!"
+	para "I found."
+	line "It's for you!"
 	done
 
 WadePackFullText:
-	text "Dein BEUTEL ist"
-	line "voll. Schade!"
+	text "Oops, your PACK's"
+	line "full. Too bad."
 
-	para "Hole es dir"
-	line "später ab."
+	para "You should come"
+	line "back for it later."
 	done

@@ -1,10 +1,10 @@
 	db "BALL@" ; species name
-	dbw 5, 104 ; height, weight
+	dw 108, 230 ; height, weight
 
-	db   "Als man dieses"
-	next "#MON er-"
-	next "forschte, fand man"
+	db   "During the study"
+	next "of this #MON,"
+	next "it was discovered"
 
-	page "heraus, dass seine"
-	next "Teile nicht"
-	next "natürlich sind.@"
+	page "that its compo-"
+	next "nents are not"
+	next "found in nature.@"

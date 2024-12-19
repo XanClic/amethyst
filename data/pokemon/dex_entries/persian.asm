@@ -1,10 +1,10 @@
-	db "RASSEKATZE@" ; species name
-	dbw 10, 320 ; height, weight
+	db "CLASSY CAT@" ; species name
+	dw 303, 710 ; height, weight
 
-	db   "Hinter seiner ele-"
-	next "ganten Fassade"
-	next "liegt ein brutales"
+	db   "Behind its lithe,"
+	next "elegant appearance"
+	next "lies a barbaric"
 
-	page "Wesen. Es zerfetzt"
-	next "seine Beute ein-"
-	next "fach aus Spaß.@"
+	page "side. It will tear"
+	next "apart its prey on"
+	next "a mere whim.@"

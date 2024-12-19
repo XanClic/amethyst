@@ -90,120 +90,116 @@ MagikarpHouseBookshelf:
 	jumpstd DifficultBookshelfScript
 
 MagikarpLengthRaterText_LakeOfRageHistory:
-	text "Der SEE DES ZORNS"
-	line "ist eigentlich ein"
+	text "LAKE OF RAGE is"
+	line "actually a crater"
 
-	para "Krater, der durch"
-	line "wütende GARADOS"
-	cont "erschaffen wurde."
+	para "made by rampaging"
+	line "GYARADOS."
 
-	para "Der Krater füllte"
-	line "sich mit Regenwas-"
-	cont "ser und so ent-"
-	cont "stand der See."
+	para "The crater filled"
+	line "up with rainwater"
 
-	para "Diese Geschichte"
-	line "erzählte schon"
+	para "and the LAKE was"
+	line "formed."
 
-	para "der Ur-Urgroßvater"
-	line "meines Großvaters."
+	para "That's the story"
+	line "passed on from my"
 
-	para "Früher konnte man"
-	line "hier quicklebendi-"
-	cont "ge KARPADOR fan-"
-	cont "gen, aber…"
+	para "Grandpa's great-"
+	line "great-grandpa."
 
-	para "Ich verstehe"
-	line "nicht, was hier"
-	cont "geschieht."
+	para "It used to be that"
+	line "you could catch"
+
+	para "lively MAGIKARP"
+	line "there, but…"
+
+	para "I don't understand"
+	line "what's happening."
 	done
 
 MagikarpLengthRaterText_MenInBlack:
-	text "Der SEE hat sich"
-	line "verändert, seit"
+	text "The LAKE hasn't"
+	line "been normal since"
 
-	para "diese Männer in"
-	line "Schwarz hier sind."
+	para "those men wearing"
+	line "black arrived."
 	done
 
 MagikarpLengthRaterText_WorldsLargestMagikarp:
-	text "Der SEE DES ZORNS"
-	line "ist wieder normal."
+	text "LAKE OF RAGE is"
+	line "back to normal."
 
-	para "Die KARPADOR sind"
-	line "wieder zurück."
+	para "The MAGIKARP have"
+	line "returned."
 
-	para "Vielleicht geht"
-	line "nun mein Traum in"
-	cont "Erfüllung, das"
-	cont "größte KARPADOR"
-	cont "der Welt zu sehen!"
+	para "I may yet realize"
+	line "my dream of see-"
+	cont "ing the world's"
+	cont "largest MAGIKARP."
 
-	para "Hast du eine"
-	line "ANGEL? Wenn ja,"
-	cont "dann hilf mir"
-	cont "bitte!"
+	para "Do you have a ROD?"
+	line "Please help me if"
+	cont "you do."
 	done
 
 MagikarpLengthRaterText_YouHaveAMagikarp:
-	text "Ah, du hast ein"
-	line "KARPADOR! Lass uns"
+	text "Ah, you have a"
+	line "MAGIKARP! Let's"
 
-	para "sehen, wie groß"
-	line "das Kleine ist."
+	para "see how big that"
+	line "baby is."
 	done
 
 MagikarpLengthRaterText_Memento:
-	text "Wow! Das ist ja"
-	line "riesig!"
+	text "Wow! This one is"
+	line "outstanding!"
 
-	para "Ich ziehe meinen"
-	line "Hut vor dir!"
+	para "I tip my hat to"
+	line "you!"
 
-	para "Nimm das als An-"
-	line "denken!"
+	para "Take this as a"
+	line "memento!"
 	done
 
 MagikarpLengthRaterText_Bonus:
-	text "Wichtig ist nur"
-	line "die Erinnerung."
+	text "The record is the"
+	line "important thing."
 
-	para "Sieh es als eine"
-	line "Art Bonus!"
+	para "Think of that as"
+	line "a bonus!"
 	done
 
 MagikarpLengthRaterText_TooShort:
-	text "Wow! Das ist ja"
-	line "riesig!"
+	text "Wow! This one is"
+	line "outstanding!"
 
-	para "…Zumindest würde"
-	line "ich das gerne sa-"
-	cont "gen, aber ich habe"
+	para "…I wish I could"
+	line "say that, but I've"
 
-	para "schon größere ge-"
-	line "sehen."
+	para "seen a bigger one"
+	line "before."
 	done
 
 MagikarpLengthRaterText_NotMagikarp:
-	text "Was? Das ist kein"
-	line "KARPADOR!"
+	text "What? That's not a"
+	line "MAGIKARP!"
 	done
 
 MagikarpLengthRaterText_Refused:
-	text "Oh… Du hast also"
-	line "keines, das es"
+	text "Oh… So you didn't"
+	line "get one good"
 
-	para "wert wäre, mir zu"
-	line "zeigen? Vielleicht"
-	cont "beim nächsten Mal."
+	para "enough to show me?"
+	line "Maybe next time."
 	done
 
 LakeOfRageMagikarpHouseUnusedRecordText:
-	text "Aktueller Rekord"
+	text "CURRENT RECORD"
 
 	para "@"
 	text_ram wStringBuffer3
-	text " von"
+	text " caught by"
 	line "@"
 	text_ram wStringBuffer4
 	text_end

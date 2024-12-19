@@ -1,11 +1,11 @@
 	db "MATCHA@" ; species name
-	dbw 1, 11 ; height, weight
+	dw 4, 200 ; height, weight
 
 	;  "| ----------------- |"
-	db   "In ihm steckt die"
-	next "Seele eines Tee-"
-	next "meisters, der"
+	db   "It was born from"
+	next "regrets of a tea"
+	next "master who died"
 
-	page "starb, bevor er"
-	next "sein Handwerk"
-	next "vollendete.@"
+	page "before perfecting"
+	next "his craft linger-"
+	next "ing in matcha.@"

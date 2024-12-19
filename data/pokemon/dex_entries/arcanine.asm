@@ -1,10 +1,10 @@
-	db "LEGENDÄR@" ; species name
-	dbw 19, 1550 ; height, weight
+	db "LEGENDARY@" ; species name
+	dw 603, 3420 ; height, weight
 
-	db   "Eine alte Schrift-"
-	next "rolle zeigt, dass"
-	next "die Menschen von"
+	db   "An ancient picture"
+	next "scroll shows that"
+	next "people were"
 
-	page "ihm fasziniert"
-	next "waren, als es über"
-	next "das Land rannte.@"
+	page "attracted to its"
+	next "movement as it ran"
+	next "through prairies.@"

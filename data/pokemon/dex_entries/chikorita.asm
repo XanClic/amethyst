@@ -1,10 +1,10 @@
-	db "LAUB@" ; species name
-	dbw 9, 64 ; height, weight
+	db "LEAF@" ; species name
+	dw 211, 140 ; height, weight
 
-	db   "Es liegt gerne in"
-	next "der Sonne. Mit"
-	next "Hilfe des Blattes"
+	db   "It loves to bask"
+	next "in the sunlight."
+	next "It uses the leaf"
 
-	page "auf seinem Kopf"
-	next "findet es"
-	next "warme Orte.@"
+	page "on its head to"
+	next "seek out warm"
+	next "places.@"

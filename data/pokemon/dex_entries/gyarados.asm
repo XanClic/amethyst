@@ -1,10 +1,10 @@
-	db "GRAUSAM@" ; species name
-	dbw 65, 2350 ; height, weight
+	db "ATROCIOUS@" ; species name
+	dw 2104, 5180 ; height, weight
 
-	db   "Es taucht auf,"
-	next "wenn es eine welt-"
-	next "weite Krise gibt"
+	db   "It appears when-"
+	next "ever there is"
+	next "world conflict,"
 
-	page "und brennt jeden"
-	next "Ort nieder, den"
-	next "es passiert.@"
+	page "burning down any"
+	next "place it travels"
+	next "through.@"

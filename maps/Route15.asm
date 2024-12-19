@@ -85,132 +85,118 @@ Route15PPUp:
 	itemball PP_UP
 
 TeacherColetteSeenText:
-	text "Hast du etwas"
-	line "vergessen?"
+	text "Have you forgotten"
+	line "anything?"
 	done
 
 TeacherColetteBeatenText:
-	text "Uah!"
+	text "Kyaaah!"
 	done
 
 TeacherColetteAfterBattleText:
-	text "Ehe ich Lehrer"
-	line "wurde, vergaß ich"
+	text "Before I became a"
+	line "teacher, I used to"
 
-	para "immer eine Menge"
-	line "Dinge."
+	para "forget a lot of"
+	line "things."
 	done
 
 TeacherHillarySeenText:
-	text "Bei schönem Wetter"
-	line "würden die Kinder"
+	text "On sunny days, I"
+	line "think that the"
 
-	para "lieber im Schulhof"
-	line "spielen, als in"
+	para "kids would rather"
+	line "be playing in the"
 
-	para "den Klassenzimmern"
-	line "zu lernen."
+	para "schoolyard than"
+	line "studying in class."
 	done
 
 TeacherHillaryBeatenText:
-	text "Ich wollte nicht"
-	line "verlieren…"
+	text "I didn't want to"
+	line "lose…"
 	done
 
 TeacherHillaryAfterBattleText:
-	text "Lernen ist sehr"
-	line "wichtig, aber"
-	cont "Bewegung ist"
-	cont "genauso essen-"
-	cont "tiell."
+	text "Studying is impor-"
+	line "tant, but exercise"
+	cont "is just as vital."
 	done
 
 SchoolboyKippSeenText:
-	text "Warte! Ich muss"
-	line "meine Mutter"
-	cont "anrufen."
+	text "Hang on. I have to"
+	line "phone my mom."
 	done
 
 SchoolboyKippBeatenText:
-	text "Tut mir Leid,"
-	line "Mutter!"
-	cont "Ich wurde besiegt!"
+	text "Sorry, Mom!"
+	line "I was beaten!"
 	done
 
 SchoolboyKippAfterBattleText:
-	text "Meine Mutter macht"
-	line "sich immer große"
+	text "My mom worries so"
+	line "much about me, I"
 
-	para "Sorgen um mich."
-	line "Ständig muss ich"
-	cont "sie anrufen."
+	para "have to phone her"
+	line "all the time."
 	done
 
 SchoolboyTommySeenText:
-	text "Lass uns kämpfen."
-	line "Ich werde nicht"
-	cont "verlieren!"
+	text "Let's battle."
+	line "I won't lose!"
 	done
 
 SchoolboyTommyBeatenText:
-	text "Ich hätte meine"
-	line "Hausaufgaben"
-	cont "machen sollen!"
+	text "I forgot to do my"
+	line "homework!"
 	done
 
 SchoolboyTommyAfterBattleText:
-	text "Sayonara! Das habe"
-	line "ich in meinem"
-	cont "Japanischkurs"
-	cont "gelernt."
+	text "Sayonara! I just"
+	line "learned that in my"
+	cont "Japanese class."
 	done
 
 SchoolboyJohnnySeenText:
-	text "Wir machen einen"
-	line "Ausflug zum RADIO-"
-	cont "TURM in LAVANDIA,"
+	text "We're on a field"
+	line "trip to LAVENDER"
 
-	para "um dort etwas in"
-	line "Sozialkunde zu"
-	cont "lernen."
+	para "RADIO TOWER for"
+	line "social studies."
 	done
 
 SchoolboyJohnnyBeatenText:
-	text "Du bist unheimlich"
-	line "stark!"
+	text "You're wickedly"
+	line "tough!"
 	done
 
 SchoolboyJohnnyAfterBattleText:
-	text "Ich bin müde vom"
-	line "Laufen. Ich muss"
-	cont "eine Pause machen."
+	text "I'm tired of walk-"
+	line "ing. I need to"
+	cont "take a break."
 	done
 
 SchoolboyBillySeenText:
-	text "Sport ist mein"
-	line "Lieblingsfach!"
+	text "My favorite class"
+	line "is gym!"
 	done
 
 SchoolboyBillyBeatenText:
-	text "Oh, nein!"
-	line "Wie konnte ich nur"
-
-	para "verlieren?"
+	text "Oh, no!"
+	line "How could I lose?"
 	done
 
 SchoolboyBillyAfterBattleText:
-	text "Wenn #MON ein"
-	line "Unterrichtsfach"
-	cont "wäre, dann wäre"
-	cont "ich bestimmt der"
-	cont "Beste!"
+	text "If #MON were a"
+	line "subject at school,"
+	cont "I'd be the best!"
 	done
 
 Route15SignText:
 	text "ROUTE 15"
 
-	para "FUCHSANIA CITY -"
-	line "LAVANDIA"
+	para "FUCHSIA CITY -"
+	line "LAVENDER TOWN"
 	done
 
 Route15_MapEvents:

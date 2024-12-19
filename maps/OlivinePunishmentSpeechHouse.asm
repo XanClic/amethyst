@@ -20,23 +20,21 @@ OlivinePunishmentSpeechHouseBookshelf1:
 	jumpstd MagazineBookshelfScript
 
 OlivinePunishmentSpeechHouseDadText:
-	text "Auf dem Weg nach"
-	line "ANEMONIA CITY"
+	text "Along the way to"
+	line "CIANWOOD, there"
 
-	para "siehst du vier"
-	line "verlassene Inseln."
+	para "are four deserted"
+	line "islands."
 
-	para "Ungezogene Kinder"
-	line "werden zur Bestra-"
-	cont "fung auf diese In-"
-	cont "seln geschickt!"
+	para "Bad kids are taken"
+	line "to the islands as"
+	cont "punishment!"
 	done
 
 OlivinePunishmentSpeechHouseDaughterText:
-	text "Wenn ich ungezogen"
-	line "bin, macht mir Pa-"
-	cont "pa mit gruseligen"
-	cont "Geschichten Angst."
+	text "Whenever I get in"
+	line "trouble, Daddy"
+	cont "always scares me."
 	done
 
 OlivinePunishmentSpeechHouse_MapEvents:

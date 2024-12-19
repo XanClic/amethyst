@@ -21,45 +21,42 @@ CianwoodLugiaSpeechHouseBookshelf:
 	jumpstd PictureBookshelfScript
 
 CianwoodLugiaSpeechHouseTeacherText:
-	text "Du kommst von"
-	line "OLIVIANA CITY?"
+	text "You came from"
+	line "OLIVINE?"
 
-	para "Hast du auf dem"
-	line "Weg hierher die"
-	cont "vier Inseln ge-"
-	cont "sehen?"
+	para "Do you remember"
+	line "the four islands"
+	cont "along the way?"
 
-	para "Ich habe gehört,"
-	line "dass sich dort ein"
-	cont "mythisches Wesen"
-	cont "verstecken soll."
+	para "I heard that a "
+	line "mythical sea crea-"
+	cont "ture is hiding in"
+	cont "them."
 	done
 
 CianwoodLugiaSpeechHouseLassText:
-	text "Man sagt auch,"
-	line "dass man es nur"
+	text "I heard that you"
+	line "can only see it if"
 
-	para "sehen kann, wenn"
-	line "man einen SILBER-"
-	cont "FLÜGEL hat."
+	para "you have a SILVER"
+	line "WING."
 
-	para "Er muss denselben"
-	line "Geruch wie diese"
-	cont "Kreatur haben."
+	para "It must have the"
+	line "same scent as the"
+	cont "creature."
 	done
 
 CianwoodLugiaSpeechHouseTwinText:
-	text "Ich hörte, dass"
-	line "die Strudel um die"
+	text "I've heard that"
+	line "the whirlpools"
 
-	para "Inseln von der"
-	line "Meereskreatur"
-	cont "verursacht werden."
+	para "around the islands"
+	line "are caused by the"
+	cont "sea creature."
 
-	para "Es könnte einer"
-	line "Spezialattacke be-"
-	cont "dürfen, um sie"
-	cont "zu passieren."
+	para "You might need a"
+	line "special move to"
+	cont "get past them."
 	done
 
 CianwoodLugiaSpeechHouse_MapEvents:

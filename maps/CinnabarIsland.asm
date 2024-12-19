@@ -40,103 +40,89 @@ CinnabarIslandBlueTeleport:
 	step_end
 
 CinnabarIslandBlueText:
-	text "Wer bist du?"
+	text "Who are you?"
 
-	para "Na, du bist"
-	line "augenscheinlich"
-	cont "ein Trainer…"
+	para "Well, it's plain"
+	line "to see that you're"
+	cont "a trainer…"
 
-	para "Ich heiße BLAU."
+	para "My name's BLUE."
 
-	para "Ich war einmal ein"
-	line "CHAMP, wenn auch"
+	para "I was once the"
+	line "CHAMPION, although"
 
-	para "nur für kurze"
-	line "Zeit…"
+	para "it was for only a"
+	line "short time…"
 
-	para "Dieser nervige ROT"
-	line "hat mich ganz"
+	para "That meddling RED"
+	line "did me in…"
 
-	para "schön fertig-"
-	line "gemacht…"
+	para "Anyway, what do"
+	line "you want? You want"
 
-	para "Wie dem auch sei,"
-	line "was willst du?"
+	para "to challenge me or"
+	line "something?"
 
-	para "Willst du gegen"
-	line "mich kämpfen?"
+	para "…I hate to say"
+	line "it, but I'm not in"
 
-	para "…Ich sage es nur"
-	line "ungern, aber ich"
+	para "the mood for a"
+	line "battle now."
 
-	para "habe gar keine"
-	line "Lust zu kämpfen."
+	para "Take a good look"
+	line "around you…"
 
-	para "Sieh dich gut"
-	line "um…"
+	para "A volcano erupts,"
+	line "and just like"
 
-	para "Ein Vulkan bricht"
-	line "aus und vernichtet"
+	para "that, a whole town"
+	line "disappears."
 
-	para "auf einen Schlag"
-	line "eine ganze Stadt."
+	para "We can go on win-"
+	line "ning and losing in"
 
-	para "Wir werden weiter-"
-	line "hin mit unseren"
+	para "#MON. But if"
+	line "nature so much as"
 
-	para "#MON siegen"
-	line "oder verlieren."
-
-	para "Aber wenn sich die"
-	line "Natur erhebt, ist"
-	cont "alles im Nu dahin."
+	para "twitches, we can"
+	line "lose in a second."
 
 	para "…"
 
-	para "So ist das"
-	line "eben…"
+	para "That's the way it"
+	line "is…"
 
-	para "Trotz allem bin"
-	line "ich immer noch ein"
-	cont "Trainer."
+	para "But, anyway, I'm"
+	line "still a trainer."
 
-	para "Wenn ich einen"
-	line "starken Gegner"
-	cont "treffe, möchte ich"
-	cont "gegen ihn kämpfen."
+	para "If I see a strong"
+	line "opponent, it makes"
+	cont "me want to battle."
 
-	para "Wenn du gegen mich"
-	line "kämpfen möchtest,"
+	para "If you want to"
+	line "battle me, come to"
+	cont "the VIRIDIAN GYM."
 
-	para "dann besuche die"
-	line "PKMN-ARENA in"
-	cont "VERTANIA CITY."
-
-	para "Dort werde ich"
-	line "mich deiner"
-	cont "annehmen."
+	para "I'll take you on"
+	line "then."
 	done
 
 CinnabarIslandGymSignText:
-	text "Hier ist eine"
-	line "Nachricht…"
+	text "There's a notice"
+	line "here…"
 
-	para "Die PKMN-ARENA der"
-	line "ZINNOBERINSEL"
+	para "CINNABAR GYM has"
+	line "relocated to SEA-"
+	cont "FOAM ISLANDS."
 
-	para "wurde auf die"
-	line "SEESCHAUMINSELN"
-	cont "verlegt."
-
-	para "PYRO"
+	para "BLAINE"
 	done
 
 CinnabarIslandSignText:
-	text "ZINNOBERINSEL"
+	text "CINNABAR ISLAND"
 
-	para "Die Feurige Stadt"
-	line "Brennender"
-	cont "Begierde"
+	para "The Fiery Town of"
+	line "Burning Desire"
 	done
 
 CinnabarIsland_MapEvents:

@@ -1,67 +1,64 @@
 DerekAnswerPhoneText:
 	text "Hi, <PLAY_G>?"
 
-	para "Guten Morgen pika."
-	line "Was ist los pika?"
+	para "Good morning pika."
+	line "What's up pika?"
 	done
 
 DerekAnswerPhoneDayText:
 	text "Hi, <PLAY_G>?"
 
-	para "Guten Tag pika."
-	line "Was ist los pika?"
+	para "Good day pika,"
+	line "what's up pika?"
 	done
 
 DerekAnswerPhoneNiteText:
 	text "Hi, <PLAY_G>?"
 
-	para "Guten Abend pika."
-	line "Was ist los pika?"
+	para "Good evening pika,"
+	line "what's up pika?"
 	done
 
 DerekGreetText:
-	text "<PLAY_G> pika,"
-	line "guten Morgen!"
+	text "<PLAY_G> pika, good"
+	line "morning!"
 
-	para "@"
+	para "It's @"
 	text_ram wStringBuffer3
-	text " hier,"
-	line "wie pika bist du?"
+	text ", how"
+	line "pika are you?"
 	done
 
 DerekGreetDayText:
-	text "<PLAY_G> pika,"
-	line "guten pika Tag!"
+	text "<PLAY_G> pika, good"
+	line "pika day!"
 
-	para "@"
+	para "It's @"
 	text_ram wStringBuffer3
-	text " hier,"
-	line "wie pika bist du?"
+	text ", how"
+	line "pika are you?"
 	done
 
 DerekGreetNiteText:
-	text "<PLAY_G> pika,"
-	line "guten Abend!"
+	text "<PLAY_G> pika, good"
+	line "evening!"
 
-	para "@"
+	para "It's @"
 	text_ram wStringBuffer3
-	text " hier."
-	line "Warst du wach?"
+	text ". Were"
+	line "you pika awake?"
 	done
 
 DerekGenericText:
-	text "Das musst du"
-	line "hören! Mein lie-"
-	cont "benswürdiges"
+	text "You have to hear"
+	line "this! My lovable"
 
 	para "@"
 	text_ram wStringBuffer4
-	text " sah"
-	line "mich an und"
-	cont "lachte!"
+	text " looked"
+	line "at me and grinned!"
 
-	para "Es muss daran lie-"
-	line "gen, weil unsere"
-	cont "Herzen im Einklang"
-	cont "schlagen!"
+	para "It must be because"
+	line "our hearts beat"
+	cont "together as one!"
 	done

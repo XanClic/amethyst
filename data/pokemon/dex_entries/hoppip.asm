@@ -1,10 +1,10 @@
-	db "LÖWENZAHN@" ; species name
-	dbw 4, 5 ; height, weight
+	db "COTTONWEED@" ; species name
+	dw 104, 10 ; height, weight
 
-	db   "Eine kleine Brise"
-	next "reicht aus, um es"
-	next "wegzuwehen. Es"
+	db   "It can be carried"
+	next "away on even the"
+	next "gentlest breeze."
 
-	page "kann sogar bis in"
-	next "den nächsten Ort"
-	next "getragen werden.@"
+	page "It may even float"
+	next "all the way to the"
+	next "next town.@"

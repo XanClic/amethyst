@@ -1,11 +1,11 @@
-	db "KLINGENKRAFT@" ; species name
-	dbw 8, 45 ; height, weight
+	db "SWORD@" ; species name
+	dw 206, 1000 ; height, weight
 
 	;  "| ----------------- |"
-	db   "Es koordiniert"
-	next "seine Klingen"
-	next "telepathisch."
+	db   "It telepathically"
+	next "coordinates the"
+	next "movements of its"
 
-	page "Im Schwertkampf"
-	next "unterliegt es"
-	next "keinem Menschen.@"
+	page "blades. It will"
+	next "not lose a sword"
+	next "fight to a human.@"

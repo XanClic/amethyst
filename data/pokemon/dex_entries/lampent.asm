@@ -1,11 +1,11 @@
-	db "LAMPE@" ; species name
-	dbw 6, 130 ; height, weight
+	db "LAMP@" ; species name
+	dw 200, 2900 ; height, weight
 
 	;  "| ----------------- |"
-	db   "Es erscheint im"
-	next "Augenblick des"
-	next "Todes und ver-"
+	db   "It arrives near"
+	next "the moment of"
+	next "death and imme-"
 
-	page "schlingt die"
-	next "entweichende"
-	next "Seele sofort.@"
+	page "diately devours"
+	next "the passing"
+	next "soul.@"

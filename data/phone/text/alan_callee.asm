@@ -1,60 +1,59 @@
 AlanAnswerPhoneText:
-	text "Ich, @"
+	text "Yup, it's @"
 	text_ram wStringBuffer3
 	text "!"
 
-	para "<PLAY_G>, oder?"
-	line "Guten Morgen!"
+	para "Is this <PLAY_G>?"
+	line "Good morning!"
 	done
 
 AlanAnswerPhoneDayText:
-	text "Ich, @"
+	text "Yup, it's @"
 	text_ram wStringBuffer3
 	text "!"
 
-	para "<PLAY_G>, oder?"
+	para "Is that <PLAY_G>?"
 	done
 
 AlanAnswerPhoneNiteText:
-	text "Ich, @"
+	text "Yup, it's @"
 	text_ram wStringBuffer3
 	text "!"
 
-	para "<PLAY_G>, oder?"
-	line "Guten Abend!"
+	para "Is that <PLAY_G>?"
+	line "Good evening!"
 	done
 
 AlanGreetText:
-	text "Hallo! Ich bin's,"
+	text "Hello! It's me,"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 AlanGreetDayText:
-	text "Hallo! Ich bin's,"
+	text "Hello! It's me,"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 AlanGreetNiteText:
-	text "Hallo! Ich bin's,"
+	text "Hello! It's me,"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 AlanGenericText:
-	text "<PLAY_G>, trai-"
-	line "nierst du deine"
-	cont "#MON richtig?"
+	text "<PLAY_G>, are you"
+	line "raising your"
+	cont "#MON properly?"
 
-	para "Ich habe gelesen,"
-	line "dass man die #-"
-	cont "MON, die man fängt"
-	cont "mit Liebe und"
+	para "I read in a book"
+	line "that you should"
 
-	para "Umsicht trainieren"
-	line "soll."
+	para "raise any #MON"
+	line "you catch with"
+	cont "love and care."
 	done

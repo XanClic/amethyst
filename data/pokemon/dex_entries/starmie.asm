@@ -1,10 +1,10 @@
-	db "MYSTERIÖS@" ; species name
-	dbw 11, 800 ; height, weight
+	db "MYSTERIOUS@" ; species name
+	dw 307, 1760 ; height, weight
 
-	db   "Man sagt, es setzt"
-	next "den 7farbigen Kern"
-	next "seines Körpers"
+	db   "It is said that it"
+	next "uses the seven-"
+	next "colored core of"
 
-	page "ein, um Elektrizi-"
-	next "tätswellen ins All"
-	next "zu senden.@"
+	page "its body to send"
+	next "electric waves"
+	next "into outer space.@"

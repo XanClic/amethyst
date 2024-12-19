@@ -1,59 +1,59 @@
 RalphAnswerPhoneText:
-	text "Ja? Ah, <PLAY_G>."
+	text "Yes? Ah, <PLAY_G>."
 
-	para "Du bist wenigstens"
-	line "so höflich und"
+	para "You're courteous"
+	line "enough to state"
 
-	para "meldest dich mit"
-	line "deinem Namen."
+	para "your name when you"
+	line "call on the phone."
 	done
 
 RalphAnswerPhoneDayText:
-	text "Ja? Ah, <PLAY_G>."
+	text "Yes? Ah, <PLAY_G>."
 
-	para "Du bist wenigstens"
-	line "so höflich und"
+	para "You're courteous"
+	line "enough to state"
 
-	para "meldest dich mit"
-	line "deinem Namen."
+	para "your name when you"
+	line "call on the phone."
 	done
 
 RalphAnswerPhoneNiteText:
-	text "Ja? Ah, <PLAY_G>."
+	text "Yes? Ah, <PLAY_G>."
 
-	para "Du bist wenigstens"
-	line "so höflich und"
+	para "You're courteous"
+	line "enough to state"
 
-	para "meldest dich mit"
-	line "deinem Namen."
+	para "your name when you"
+	line "call on the phone."
 	done
 
 RalphGreetText:
-	text "Hier ist Onkel"
+	text "Hiya, it's Uncle"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 	done
 
 RalphGreetDayText:
-	text "Hier ist Onkel"
+	text "Hiya, it's Uncle"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 	done
 
 RalphGreetNiteText:
-	text "Hier ist Onkel"
+	text "Hiya, it's Uncle"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 	done
 
 RalphGenericText:
-	text "Versorgst du deine"
-	line "#MON auch gut?"
+	text "Are you taking"
+	line "good care of your"
 
-	para "Behandle sie gut,"
-	line "sie sind deine"
-	cont "Kameraden!"
+	para "#MON? You have"
+	line "to be good to your"
+	cont "partners!"
 	done

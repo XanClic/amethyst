@@ -1,10 +1,10 @@
-	db "LANGSCHWEIF@" ; species name
-	dbw 8, 115 ; height, weight
+	db "LONG TAIL@" ; species name
+	dw 207, 250 ; height, weight
 
-	db   "Es setzt seinen"
-	next "Schwanz ein, um"
-	next "sich an Äste zu"
+	db   "It uses its tail"
+	next "to hang on to tree"
+	next "branches. It uses"
 
-	page "hängen. Dann"
-	next "schwingt es sich"
-	next "von Ast zu Ast.@"
+	page "its momentum to"
+	next "swing from one"
+	next "branch to another.@"

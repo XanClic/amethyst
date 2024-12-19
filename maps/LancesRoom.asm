@@ -205,145 +205,134 @@ LancesRoomMovementData_MaryRunsBackAndForth:
 	step_end
 
 LanceBattleIntroText:
-	text "SIEGFRIED: Ich"
-	line "habe dich"
-	cont "erwartet."
+	text "LANCE: I've been"
+	line "waiting for you."
 
 	para "<PLAY_G>!"
 
-	para "Ich wusste, dass"
-	line "du mir aufgrund"
+	para "I knew that you,"
+	line "with your skills,"
 
-	para "deiner Fähigkeiten"
-	line "eines Tages"
-	cont "gegenüberstehen"
-	cont "würdest."
+	para "would eventually"
+	line "reach me here."
 
-	para "Worte sind hier"
-	line "fehl am Platze."
+	para "There's no need"
+	line "for words now."
 
-	para "Ein Kampf wird"
-	line "zeigen, wer"
+	para "We will battle to"
+	line "determine who is"
 
-	para "der Stärkere von"
-	line "uns beiden ist."
+	para "the stronger of"
+	line "the two of us."
 
-	para "Ich, der beste"
-	line "aller Trainer und"
+	para "As the most power-"
+	line "ful trainer and as"
 
-	para "CHAMP der"
-	line "#MON LIGA…"
+	para "the #MON LEAGUE"
+	line "CHAMPION…"
 
-	para "Ich, SIEGFRIED"
-	line "der Drachenmeis-"
-	cont "ter, nehme deine"
-
-	para "Herausforderung"
-	line "an!"
+	para "I, LANCE the drag-"
+	line "on master, accept"
+	cont "your challenge!"
 	done
 
 LanceBattleWinText:
-	text "Das ist ein"
-	line "seltsames Gefühl."
+	text "…It's over."
 
-	para "Ich bin nicht"
-	line "wütend, dass ich"
-	cont "verloren habe. Ich"
-	cont "bin glücklich."
+	para "But it's an odd"
+	line "feeling."
 
-	para "Glücklich, dass"
-	line "ich den Aufstieg"
+	para "I'm not angry that"
+	line "I lost. In fact, I"
+	cont "feel happy."
 
-	para "eines neuen"
-	line "CHAMPs miterleben"
-	cont "durfte."
+	para "Happy that I"
+	line "witnessed the rise"
+
+	para "of a great new"
+	line "CHAMPION!"
 	done
 
 LanceBattleAfterText:
-	text "…Woa."
+	text "…Whew."
 
-	para "Du bist sehr"
-	line "stark geworden,"
+	para "You have become"
+	line "truly powerful,"
 	cont "<PLAY_G>."
 
-	para "Deine #MON"
-	line "haben deine starke"
+	para "Your #MON have"
+	line "responded to your"
 
-	para "und aufrechte"
-	line "Persönlichkeit"
-	cont "akzeptiert."
+	para "strong and up-"
+	line "standing nature."
 
-	para "Auch du wirst"
-	line "zusammen mit"
+	para "As a trainer, you"
+	line "will continue to"
 
-	para "deinen #MON"
-	line "stärker werden."
+	para "grow strong with"
+	line "your #MON."
 	done
 
 LancesRoomMaryOhNoOakText:
-	text "MARGIT: Oh, nein!"
-	line "Alles ist vorbei!"
+	text "MARY: Oh, no!"
+	line "It's all over!"
 
-	para "PROF. EICH, wenn"
-	line "du nicht so lang-"
-	cont "sam wärest…"
+	para "PROF.OAK, if you"
+	line "weren't so slow…"
 	done
 
 LancesRoomOakCongratulationsText:
-	text "PROF. EICH: Ah,"
+	text "PROF.OAK: Ah,"
 	line "<PLAY_G>!"
 
-	para "Es ist schon"
-	line "lange her."
+	para "It's been a long"
+	line "while."
 
-	para "Du siehst"
-	line "erhabener aus."
+	para "You certainly look"
+	line "more impressive."
 
-	para "Dein Sieg in der"
-	line "LIGA ist einfach"
-	cont "fantastisch!"
+	para "Your conquest of"
+	line "the LEAGUE is just"
+	cont "fantastic!"
 
-	para "Deine Hingabe, das"
-	line "Vertrauen und die"
+	para "Your dedication,"
+	line "trust and love for"
 
-	para "Liebe zu deinen"
-	line "#MON haben"
-	cont "dir dies er-"
-	cont "möglicht."
+	para "your #MON made"
+	line "this happen."
 
-	para "Auch deine #-"
-	line "MON waren super."
+	para "Your #MON were"
+	line "outstanding too."
 
-	para "Ihr Glaube an dich"
-	line "hat sie all das"
+	para "Because they be-"
+	line "lieved in you as a"
 
-	para "durchstehen"
-	line "lassen."
+	para "trainer, they per-"
+	line "severed."
 
-	para "Glückwunsch,"
-	line "<PLAYER>!"
+	para "Congratulations,"
+	line "<PLAY_G>!"
 	done
 
 LancesRoomMaryInterviewText:
-	text "MARGIT: Ein"
-	line "Interview mit dem"
-	cont "neuen CHAMP!"
+	text "MARY: Let's inter-"
+	line "view the brand new"
+	cont "CHAMPION!"
 	done
 
 LancesRoomNoisyText:
-	text "SIEGFRIED: Das"
-	line "wird mir alles"
-	cont "ein wenig zu laut…"
+	text "LANCE: This is"
+	line "getting to be a"
+	cont "bit too noisy…"
 
-	para "<PLAY_G>, kommst"
-	line "du mit mir?"
+	para "<PLAY_G>, could you"
+	line "come with me?"
 	done
 
 LancesRoomMaryNoInterviewText:
-	text "MARGIT: Moment!"
-	line "Wir haben das"
-	cont "Interview fast"
-	cont "vergessen!"
+	text "MARY: Oh, wait!"
+	line "We haven't done"
+	cont "the interview!"
 	done
 
 LancesRoom_MapEvents:

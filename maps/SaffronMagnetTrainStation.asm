@@ -125,100 +125,92 @@ SaffronMagnetTrainStationPlayerLeaveTrainAndEnterStationMovement:
 	step_end
 
 SaffronMagnetTrainStationOfficerTrainIsntOperatingText:
-	text "Es tut mir Leid,"
-	line "aber der MAGNETZUG"
-	cont "ist im Moment"
-	cont "nicht in Betrieb."
+	text "I'm sorry, but the"
+	line "MAGNET TRAIN isn't"
+	cont "operating now."
 	done
 
 SaffronMagnetTrainStationOfficerAreYouComingOnBoardText:
-	text "Abfahrt nach"
-	line "DUKATIA CITY in"
-	cont "wenigen Minuten."
+	text "We'll soon depart"
+	line "for GOLDENROD."
 
-	para "Steigst du auch"
-	line "ein?"
+	para "Are you coming on"
+	line "board?"
 	done
 
 SaffronMagnetTrainStationOfficerRightThisWayText:
-	text "Darf ich bitte"
-	line "deinen FAHRSCHEIN"
-	cont "sehen?"
+	text "May I see your"
+	line "rail PASS, please?"
 
-	para "Danke sehr. Hier"
-	line "lang, bitte."
+	para "OK. Right this"
+	line "way, please."
 	done
 
 SaffronMagnetTrainStationOfficerYouDontHaveAPassText:
-	text "Es tut mir Leid,"
-	line "aber du hast"
-	cont "keinen FAHRSCHEIN."
+	text "Sorry, but you"
+	line "don't have a PASS."
 	done
 
 SaffronMagnetTrainStationOfficerHopeToSeeYouAgainText:
-	text "Beehre uns"
-	line "bald wieder."
+	text "We hope to see you"
+	line "again."
 	done
 
 SaffronMagnetTrainStationOfficerArrivedInSaffronText:
-	text "Ankunft in"
-	line "SAFFRONIA CITY."
+	text "We have arrived in"
+	line "SAFFRON."
 
-	para "Beehre uns"
-	line "bald wieder."
+	para "We hope to see you"
+	line "again."
 	done
 
 SaffronMagnetTrainStationGymGuideText:
-	text "Der MAGNETZUG"
-	line "ist mit modernster"
+	text "The MAGNET TRAIN"
+	line "is a super-modern"
 
-	para "Technik ausge-"
-	line "stattet und"
+	para "rail liner that"
+	line "uses electricity"
 
-	para "erreicht durch die"
-	line "Nutzung von Elek-"
-	cont "trizität und"
+	para "and magnets to"
+	line "attain incredible"
+	cont "speed."
 
-	para "Magneten unglaub-"
-	line "liche Geschwin-"
-	cont "digkeit."
-
-	para "Ohne Elektrizität"
-	line "allerdings…"
+	para "However, if there"
+	line "isn't any elec-"
+	cont "tricity…"
 	done
 
 SaffronMagnetTrainStationGymGuideText_ReturnedMachinePart:
-	text "Puh…"
+	text "Whew…"
 
-	para "Wie oft bin ich"
-	line "von KANTO nach"
+	para "How many times"
+	line "have I gone back"
 
-	para "JOHTO und zurück"
-	line "gefahren?"
+	para "and forth between"
+	line "KANTO and JOHTO?"
 	done
 
 SaffronMagnetTrainStationTeacherText:
-	text "Bevor der MAGNET-"
-	line "ZUG-BAHNHOF erbaut"
+	text "Before the MAGNET"
+	line "TRAIN STATION was"
 
-	para "wurde, stand dort"
-	line "ein Haus."
+	para "built, there was a"
+	line "house there."
 
-	para "Ein kleines"
-	line "Mädchen, NACH-"
-	cont "AHMERIN genannt,"
-	cont "lebte dort."
+	para "A little girl"
+	line "named COPYCAT used"
+	cont "to live there."
 	done
 
 SaffronMagnetTrainStationLassText:
-	text "Hi. Hast du einen"
-	line "FAHRSCHEIN? Ich"
+	text "Hi. Do you have a"
+	line "rail PASS? I have"
 
-	para "habe einen. Jeder"
-	line "in SAFFRONIA, der"
+	para "one. All the peo-"
+	line "ple in SAFFRON who"
 
-	para "mit dem MAGNETZUG"
-	line "fährt, hat einen."
+	para "ride the MAGNET"
+	line "TRAIN have PASSES."
 	done
 
 SaffronMagnetTrainStation_MapEvents:

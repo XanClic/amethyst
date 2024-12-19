@@ -1,11 +1,11 @@
 	db "PLASMA@" ; species name
-	dbw 3, 3 ; height, weight
+	dw 100, 100 ; height, weight
 
 	;  "| ----------------- |"
-	db   "Es dringt mit"
-	next "seinem Plasma-"
-	next "körper gern in"
+	db   "This mischievous"
+	next "#MON likes to"
+	next "enter electric"
 
-	page "elektrische Ge-"
-	next "räte ein und"
-	next "sorgt für Chaos.@"
+	page "devices with its"
+	next "plasma body and"
+	next "wreak heavoc.@"

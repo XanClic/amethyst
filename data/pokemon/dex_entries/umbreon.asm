@@ -1,10 +1,10 @@
-	db "MONDSCHEIN@" ; species name
-	dbw 10, 270 ; height, weight
+	db "MOONLIGHT@" ; species name
+	dw 303, 600 ; height, weight
 
-	db   "Bei Vollmond oder"
-	next "bei Aufregung"
-	next "leuchten die ring-"
+	db   "On the night of a"
+	next "full moon, or when"
+	next "it gets excited,"
 
-	page "förmigen Muster"
-	next "auf seinem Körper"
-	next "gelb auf.@"
+	page "the ring patterns"
+	next "on its body glow"
+	next "yellow.@"

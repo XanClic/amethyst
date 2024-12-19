@@ -1,11 +1,11 @@
-	db "SANDSCHLOSS@" ; species name
-	dbw 13, 2500 ; height, weight
+	db "SAND CASTLE@" ; species name
+	dw 403, 55100 ; height, weight
 
 	;  "| ----------------- |"
-	db   "Unter ihm liegen"
-	next "die Knochen qual-"
-	next "voll Verstorbener"
+	db   "Underneath lie"
+	next "the dried-up"
+	next "bones of its"
 
-	page "denen die Lebens-"
-	next "kraft ausgesaugt"
-	next "wurde.@"
+	page "wretched victims"
+	next "whose life force"
+	next "it drained.@"

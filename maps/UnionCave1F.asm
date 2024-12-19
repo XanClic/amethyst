@@ -85,14 +85,12 @@ UnionCave1FUnusedSign: ; unreferenced
 	jumptext UnionCave1FUnusedSignText
 
 HikerRussellSeenText:
-	text "Du bist auf dem"
-	line "Weg nach AZALEA"
-	cont "CITY, nicht wahr?"
+	text "You're headed to"
+	line "AZALEA, are you?"
 
-	para "Lass meine #MON"
-	line "entscheiden, ob"
-	cont "du eines Kampfes"
-	cont "würdig bist."
+	para "Let my #MON see"
+	line "if you are good"
+	cont "enough to battle."
 	done
 
 HikerRussellBeatenText:
@@ -100,111 +98,103 @@ HikerRussellBeatenText:
 	done
 
 HikerRussellAfterBattleText:
-	text "O.K.! Ich habe"
-	line "mich entschieden."
+	text "All right, then!"
+	line "I've decided."
 
-	para "Ich gehe erst,"
-	line "wenn meine #MON"
-	cont "stärker sind!"
+	para "I'm not leaving"
+	line "until my #MON"
+	cont "get tougher!"
 	done
 
 PokemaniacLarrySeenText:
-	text "Um #MON zu"
-	line "finden, wandere"
-	cont "ich durch das"
-	cont "Land."
+	text "I roam far and"
+	line "wide in search of"
+	cont "#MON."
 
-	para "Suchst du auch"
-	line "nach #MON?"
+	para "Are you looking"
+	line "for #MON too?"
 
-	para "Dann bist du"
-	line "mein Rivale!"
+	para "Then you're my"
+	line "collecting rival!"
 	done
 
 PokemaniacLarryBeatenText:
-	text "Uff. Mein armes"
-	line "#MON…"
+	text "Ugh. My poor #-"
+	line "MON…"
 	done
 
 PokemaniacLarryAfterBattleText:
-	text "Jeden Freitag"
-	line "kannst du #MON"
+	text "Every Friday, you"
+	line "can hear #MON"
 
-	para "in dieser Höhle"
-	line "brüllen hören."
+	para "roars from deep"
+	line "inside the cave."
 	done
 
 HikerDanielSeenText:
-	text "Whoa! Was für"
-	line "eine Überraschung!"
+	text "Whoa! What a"
+	line "surprise!"
 
-	para "Ich habe nicht"
-	line "erwartet, hier auf"
-	cont "jemanden zu"
-	cont "treffen!"
+	para "I didn't expect to"
+	line "see anyone here!"
 	done
 
 HikerDanielBeatenText:
-	text "Whoa! Du hast"
-	line "es mir gegeben!"
+	text "Whoa! I'm beaten"
+	line "big time!"
 	done
 
 HikerDanielAfterBattleText:
-	text "Ich wurde ge-"
-	line "nötigt, eine"
-	cont "FLEGMONRUTE zu"
-	cont "kaufen."
+	text "I was conned into"
+	line "buying a SLOWPOKE-"
+	cont "TAIL."
 
-	para "Mir tut das arme"
-	line "#MON Leid."
+	para "I feel sorry for"
+	line "the poor #MON."
 	done
 
 FirebreatherBillSeenText:
-	text "ZUBATs SUPERSCHALL"
-	line "verwirrt mein"
-	cont "#MON noch"
-	cont "immer."
+	text "ZUBAT's SUPERSONIC"
+	line "keeps confusing"
+	cont "my #MON."
 
-	para "Das ärgert mich"
-	line "wirklich sehr!"
+	para "I'm seriously"
+	line "upset about that!"
 	done
 
 FirebreatherBillBeatenText:
-	text "Ich bin durch!"
+	text "I flamed out!"
 	done
 
 FirebreatherBillAfterBattleText:
-	text "Am Wochenende"
-	line "kannst du #MON"
+	text "On weekends, you"
+	line "can hear strange"
 
-	para "in dieser Höhle"
-	line "brüllen hören."
+	para "roars from deep in"
+	line "the cave."
 	done
 
 FirebreatherRaySeenText:
-	text "Mit Licht jagt"
-	line "einem eine Höhle"
-	cont "keine Angst ein."
+	text "If it's light, a"
+	line "cave isn't scary."
 
-	para "Bist du stark"
-	line "genug, jagen dir"
-	cont "#MON keine"
-	cont "Angst ein."
+	para "If you're strong,"
+	line "#MON aren't"
+	cont "scary."
 	done
 
 FirebreatherRayBeatenText:
-	text "BLITZ!"
+	text "FLASH!"
 	done
 
 FirebreatherRayAfterBattleText:
-	text "Das Feuer meines"
-	line "#MON"
-	cont "erleuchtet diese"
-	cont "Höhle."
+	text "It's my #MON's"
+	line "fire that lights"
+	cont "up this cave."
 	done
 
 UnionCave1FUnusedSignText:
-	text "EINHEITSTUNNEL"
+	text "UNION CAVE"
 	done
 
 UnionCave1F_MapEvents:

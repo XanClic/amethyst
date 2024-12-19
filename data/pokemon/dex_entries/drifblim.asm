@@ -1,11 +1,11 @@
-	db "LUFTSCHIFF@" ; species name
-	dbw 12, 150 ; height, weight
+	db "BLIMP@" ; species name
+	dw 311, 3300 ; height, weight
 
 	;  "| ----------------- |"
-	db   "In der Dämmerung"
-	next "steigen ganze"
-	next "Schwärme in die"
+	db   "At dusk, big"
+	next "groups of them"
+	next "rise up into the"
 
-	page "Lüfte, verschwin-"
-	next "den aber, wenn"
-	next "man sie bemerkt.@"
+	page "air, though they"
+	next "vanish when one"
+	next "notices them.@"

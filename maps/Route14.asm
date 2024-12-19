@@ -51,72 +51,66 @@ TrainerPokefanmTrevor:
 	end
 
 PokefanmCarterSeenText:
-	text "Eines kann ich dir"
-	line "sagen! Es war"
+	text "Let me tell you,"
+	line "I had a hard time"
 
-	para "harte Arbeit, mei-"
-	line "ne prämierten"
-	cont "#MON zu fangen."
+	para "catching my prized"
+	line "#MON."
 	done
 
 PokefanmCarterBeatenText:
-	text "Uaaaah!"
+	text "Awaaah!"
 	done
 
 PokefanmCarterAfterBattleText:
-	text "SCHIGGY, GLUMANDA"
-	line "und BISASAM…"
+	text "SQUIRTLE, CHARMAN-"
+	line "DER and BULBASAUR…"
 
-	para "Ich denke, das ist"
-	line "ein ausgeglichenes"
-	cont "Team."
+	para "I think that's a"
+	line "well-balanced mix."
 	done
 
 BirdKeeperRoySeenText:
-	text "Ich träume davon,"
-	line "mit meinen ge-"
-	cont "liebten Vogel-"
-	cont "#MON zu"
-	cont "fliegen."
+	text "My dream is to fly"
+	line "with my beloved"
+	cont "bird #MON."
 	done
 
 BirdKeeperRoyBeatenText:
-	text "Ich kann träumen,"
-	line "aber ich kann"
-	cont "nicht fliegen…"
+	text "I can dream, but I"
+	line "can't ever fly…"
 	done
 
 BirdKeeperRoyAfterBattleText:
-	text "Du hast #MON,"
-	line "welche die VM"
+	text "You have #MON"
+	line "that know the HM"
 
-	para "FLIEGEN kennen?"
-	line "Ich beneide dich."
+	para "move FLY, don't"
+	line "you? I envy you."
 	done
 
 PokefanmTrevorSeenText:
-	text "Hi. Wusstest du…,"
+	text "Hi. Did you know…?"
 
-	para "dass #MON dich"
-	line "mehr mögen, wenn"
+	para "#MON get more"
+	line "friendly if you"
 
-	para "du sie an einem"
-	line "ihnen bekannten"
-	cont "Platz trainierst?"
+	para "train them in a"
+	line "place that they"
+	cont "remember."
 	done
 
 PokefanmTrevorBeatenText:
-	text "Wo traf ich dieses"
-	line "ENTON?"
+	text "Where did I meet"
+	line "this PSYDUCK?"
 	done
 
 PokefanmTrevorAfterBattleText:
-	text "Gäbe es doch einen"
-	line "einfachen Weg, um"
+	text "If only there were"
+	line "an easy way to"
 
-	para "festzustellen, wo"
-	line "ich meine"
-	cont "#MON traf…"
+	para "identify where I"
+	line "got my #MON…"
 	done
 
 Route14_MapEvents:

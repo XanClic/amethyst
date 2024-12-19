@@ -30,57 +30,50 @@ OlivineCafeSailorScript:
 	jumptextfaceplayer OlivineCafeSailorText
 
 OlivineCafeStrengthSailorText:
-	text "Ha! Deine #MON"
-	line "sind ja nur Flie-"
-	cont "gengewichte!"
+	text "Hah! Your #MON"
+	line "sure look like"
+	cont "lightweights!"
 
-	para "Sie haben nicht"
-	line "die Kraft, Felsen"
-	cont "aus dem Weg zu"
-	cont "räumen."
+	para "They don't have"
+	line "the power to move"
+	cont "boulders aside."
 
-	para "Hier, nimm das und"
-	line "bring ihnen STÄRKE"
-	cont "bei!"
+	para "Here, use this"
+	line "and teach them"
+	cont "STRENGTH!"
 	done
 
 OlivineCafeStrengthSailorText_GotStrength:
-	text "Der Einzige, auf"
-	line "den du dich auf"
+	text "On the sea, the"
+	line "only thing you can"
 
-	para "hoher See verlas-"
-	line "sen kannst, bist"
-	cont "du selbst!"
+	para "count on is your"
+	line "own good self!"
 
-	para "Ich bin so stolz"
-	line "auf mich selbst!"
+	para "I'm so proud of my"
+	line "buff bod!"
 	done
 
 OlivineCafeFishingGuruText:
-	text "Im OLIVIANA CITY-"
-	line "CAFE gibt es nur"
+	text "OLIVINE CAFE's"
+	line "menu is chock full"
 
-	para "delikate Seemanns-"
-	line "kost für MATROSEN"
-
-	para "auf dem"
-	line "Speiseplan!"
+	para "of hearty fare for"
+	line "beefy SAILORS!"
 	done
 
 OlivineCafeSailorText:
-	text "Immer wenn ich in"
-	line "diese Stadt komme,"
+	text "Whenever I roll"
+	line "into this town, I"
 
-	para "gehe ich ins"
-	line "OLIVIANA CITY-"
-	cont "CAFE."
+	para "always visit the"
+	line "OLIVINE CAFE."
 
-	para "Jedes Gericht auf"
-	line "der Karte stärkt"
+	para "Everything on the"
+	line "menu makes me feel"
 
-	para "mich. Ich kann"
-	line "nicht aufhören zu"
-	cont "essen!"
+	para "stronger. I can't"
+	line "stop eating!"
 	done
 
 OlivineCafe_MapEvents:

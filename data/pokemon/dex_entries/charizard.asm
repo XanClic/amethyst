@@ -1,10 +1,10 @@
-	db "FLAMME@" ; species name
-	dbw 17, 905 ; height, weight
+	db "FLAME@" ; species name
+	dw 507, 2000 ; height, weight
 
-	db   "Mit seinen Flügeln"
-	next "fliegt es hoch"
-	next "empor. Die Tempe-"
+	db   "It uses its wings"
+	next "to fly high. The"
+	next "temperature of its"
 
-	page "ratur seiner Flam-"
-	next "me steigt mit der"
-	next "Kampferfahrung.@"
+	page "fire increases as"
+	next "it gains exper-"
+	next "ience in battle.@"

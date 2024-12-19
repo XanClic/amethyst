@@ -76,177 +76,159 @@ CeladonCityHiddenPpUp:
 	hiddenitem PP_UP, EVENT_CELADON_CITY_HIDDEN_PP_UP
 
 CeladonCityFisherText:
-	text "Dieses QUAPPO ist"
-	line "mein Partner."
+	text "This POLIWRATH is"
+	line "my partner."
 
-	para "Ich frage mich, ob"
-	line "es sich wohl je in"
-	cont "ein Frosch-#MON"
-	cont "weiterentwickelt."
+	para "I wonder if it'll"
+	line "ever evolve into a"
+	cont "frog #MON."
 	done
 
 CeladonCityPoliwrathText:
-	text "QUAPPO: Quaak!"
+	text "POLIWRATH: Croak!"
 	done
 
 CeladonCityTeacher1Text:
-	text "Ich habe schon"
-	line "wieder bei dem"
+	text "I lost at the slot"
+	line "machines again…"
 
-	para "Spielautomaten"
-	line "verloren…"
+	para "We girls also play"
+	line "the slots now."
 
-	para "Wir Mädchen"
-	line "spielen auch an"
-
-	para "den Automaten."
-	line "Versuche es doch"
-	cont "selbst mal."
+	para "You should check"
+	line "them out too."
 	done
 
 CeladonCityGramps1Text:
-	text "Hier sind vor"
-	line "kurzem SLEIMA"
-	cont "aufgetaucht."
+	text "GRIMER have been"
+	line "appearing lately."
 
-	para "Siehst du den"
-	line "Teich da vor dem"
+	para "See that pond out"
+	line "in front of the"
 
-	para "Haus? Dort leben"
-	line "jetzt SLEIMA."
+	para "house? GRIMER live"
+	line "there now."
 
-	para "Wo kommen sie her?"
-	line "Das ist ein"
-	cont "echtes Problem…"
+	para "Where did they"
+	line "come from? This is"
+	cont "a serious problem…"
 	done
 
 CeladonCityGramps2Text:
-	text "Hihihi! Diese"
-	line "PKMN-ARENA ist"
+	text "Nihihi! This GYM"
+	line "is great! Only"
 
-	para "toll! Sie ist nur"
-	line "für Mädchen!"
+	para "girls are allowed"
+	line "here!"
 	done
 
 CeladonCityYoungster1Text:
-	text "Soll ich dir ein"
-	line "Geheimnis"
-	cont "erzählen?"
+	text "Want to know a"
+	line "secret?"
 
-	para "PRISMANIA-VILLA"
-	line "hat eine geheime"
-	cont "Hintertür."
+	para "CELADON MANSION"
+	line "has a hidden back"
+	cont "door."
 	done
 
 CeladonCityYoungster2Text:
-	text "Im Restaurant wird"
-	line "ein Wettessen ab-"
-	cont "gehalten."
+	text "They're holding an"
+	line "eating contest at"
+	cont "the restaurant."
 
-	para "Ihnen beim Essen"
-	line "nur zuzusehen,"
-	cont "bringt mich schon"
-	cont "zum Platzen…"
+	para "Just watching them"
+	line "go at it makes me"
+	cont "feel bloated…"
 	done
 
 CeladonCityTeacher2Text:
-	text "Das EINKAUFS-"
-	line "ZENTRUM in"
+	text "CELADON DEPT.STORE"
+	line "has the biggest"
 
-	para "PRISMANIA CITY"
-	line "bietet die größte"
+	para "and best selection"
+	line "of merchandise."
 
-	para "und beste Auswahl"
-	line "an Artikeln."
+	para "If you can't get"
+	line "it there, you"
 
-	para "Was du da nicht"
-	line "findest, wirst"
+	para "can't get it any-"
+	line "where."
 
-	para "du nirgends"
-	line "finden."
-
-	para "Herrje… Ich klinge"
-	line "wie ein Vertreter."
+	para "Gee… I sound like"
+	line "a sales clerk."
 	done
 
 CeladonCityLassText_Mobile: ; unreferenced
-; unused
-	text "Ich liebe es, von"
-	line "hohen Gebäuden"
-	cont "umgeben zu sein!"
+	text "I love being"
+	line "surrounded by tall"
+	cont "buildings!"
 
-	para "Stimmt es, dass"
-	line "man das #MON-"
-	cont "CENTER in DUKATIA"
-	cont "vergrößert hat?"
+	para "Isn't it true that"
+	line "GOLDENROD #MON"
 
-	para "Das ist toll! Ich"
-	line "wünschte, wir"
+	para "CENTER was made"
+	line "much, much bigger?"
 
-	para "hätten solch einen"
-	line "Ort in KANTO…"
+	para "That is so neat!"
+	line "I wish we had a"
+
+	para "place like that in"
+	line "KANTO…"
 	done
 
 CeladonCityLassText:
-	text "Mir wird ganz"
-	line "schwindelig, wenn"
+	text "Looking at the"
+	line "ground while I was"
 
-	para "ich beim Laufen"
-	line "auf den Boden"
-	cont "gucke."
+	para "walking made me"
+	line "dizzy."
 	done
 
 CeladonCitySignText:
-	text "PRISMANIA CITY"
+	text "CELADON CITY"
 
-	para "Die Stadt der"
-	line "Regenbogen-Träume"
+	para "The City of"
+	line "Rainbow Dreams"
 	done
 
 CeladonGymSignText:
-	text "PKMN-ARENA von"
-	line "PRISMANIA CITY"
+	text "CELADON CITY"
+	line "#MON GYM"
+	cont "LEADER: ERIKA"
 
-	para "LEITUNG: ERIKA"
-	line "Die Prinzessin mit"
-
-	para "Herz für die Natur"
+	para "The Nature-Loving"
+	line "Princess"
 	done
 
 CeladonCityDeptStoreSignText:
-	text "Im EINKAUFSZENTRUM"
-	line "von PRISMANIA CITY"
-	cont "Findest Du Alles,"
-	cont "was Dein Herz"
-	cont "Begehrt!"
+	text "Find What You"
+	line "Need at CELADON"
+	cont "DEPT.STORE!"
 	done
 
 CeladonCityMansionSignText:
-	text "PRISMANIA-VILLA"
+	text "CELADON MANSION"
 	done
 
 CeladonCityGameCornerSignText:
-	text "Der Spielplatz"
-	line "Für Jedermann --"
-
-	para "SPIELHALLE von"
-	line "PRISMANIA"
+	text "The Playground for"
+	line "Everybody--CELADON"
+	cont "GAME CORNER"
 	done
 
 CeladonCityTrainerTipsText:
-	text "TIPPS für TRAINER"
+	text "TRAINER TIPS"
 
-	para "Der MEGABLOCK"
-	line "schützt #MON"
+	para "GUARD SPEC."
+	line "protects #MON"
 
-	para "vor SPEZIAL-"
-	line "Attacken wie z.B."
-	cont "Feuer und Wasser."
+	para "against SPECIAL"
+	line "attacks such as"
+	cont "fire and water."
 
-	para "Hol dir deine"
-	line "Items im EINKAUFS-"
-	cont "ZENTRUM von"
-	cont "PRISMANIA CITY!"
+	para "Get your items at"
+	line "CELADON DEPT."
+	cont "STORE!"
 	done
 
 CeladonCity_MapEvents:

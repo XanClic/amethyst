@@ -1,11 +1,11 @@
-	db "URGOLEM@" ; species name
-	dbw 28, 3300 ; height, weight
+	db "AUTOMATON@" ; species name
+	dw 902, 65500 ; height, weight
 
 	;  "| ----------------- |"
-	db   "Löst sich das"
-	next "Siegel auf seiner"
-	next "Brust, gerät es"
+	db   "Removing the seal"
+	next "on its chest"
+	next "makes it go out"
 
-	page "außer Kontrolle"
-	next "und zerstört"
-	next "ganze Städte.@"
+	page "of control and"
+	next "raze whole cities"
+	next "to the ground.@"

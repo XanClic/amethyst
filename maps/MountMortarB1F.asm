@@ -75,68 +75,61 @@ MountMortarB1FHiddenMaxRevive:
 MountMortarB1FKiyoIntroText:
 	text "Hey!"
 
-	para "Ich bin der"
-	line "KARATE-MEISTER!"
+	para "I am the KARATE"
+	line "KING!"
 
-	para "Ich trainiere hier"
-	line "allein im Dunkeln!"
+	para "I train alone here"
+	line "in the dark!"
 
-	para "Du!"
-	line "Kämpfe mit mir!"
+	para "You!"
+	line "Battle with me!"
 
-	para "Arggh!"
+	para "Hwaaarggh!"
 	done
 
 MountMortarB1FKiyoWinText:
 	text "Waaaarggh!"
-	line "Ich wurde besiegt!"
+	line "I'm beaten!"
 	done
 
 MountMortarB1FTyrogueRewardText:
-	text "Ich… ich bin am"
-	line "Boden zerstört…"
+	text "I… I'm crushed…"
 
-	para "Ich habe nicht gut"
-	line "genug trainiert…"
+	para "My training is"
+	line "still not enough…"
 
-	para "Eine Niederlage"
-	line "ist nun mal eine"
-	cont "Niederlage. Das"
-	cont "gebe ich zu."
+	para "But a loss is a"
+	line "loss. I admit it."
 
-	para "Als Beweis für"
-	line "deinen Sieg gebe"
+	para "As proof that you"
+	line "defeated me, I'll"
 
-	para "ich dir dieses"
-	line "seltene Kampf-"
-	cont "#MON."
+	para "give you a rare"
+	line "fighting #MON."
 	done
 
 MountMortarB1FReceiveMonText:
-	text "<PLAYER> erhält"
-	line "RABAUZ."
+	text "<PLAYER> received"
+	line "TYROGUE."
 	done
 
 MountMortarB1FKiyoGotTyrogueText:
-	text "RABAUZ ist ein"
-	line "Kampf-#MON."
+	text "TYROGUE is a"
+	line "fighting-type."
 
-	para "Es entwickelt sich"
-	line "zu einem stärkeren"
-	cont "#MON."
+	para "It evolves into a"
+	line "tougher #MON."
 
-	para "Arbeite so hart"
-	line "weiter. Ich werde"
-	cont "auch weiterhin"
-	cont "trainieren."
+	para "Keep up the hard"
+	line "work. I'll keep"
+	cont "training too."
 
-	para "Lebe wohl!"
+	para "Farewell!"
 	done
 
 MountMortarB1FKiyoFullPartyText:
-	text "Du kannst keine"
-	line "weiteren #MON"
-	cont "mehr tragen!"
+	text "You have no room"
+	line "in your party!"
 	done
 
 MountMortarB1F_MapEvents:

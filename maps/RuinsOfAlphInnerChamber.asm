@@ -40,40 +40,38 @@ RuinsOfAlphInnerChamberStatue:
 	jumptext RuinsOfAlphInnerChamberStatueText
 
 RuinsOfAlphStrangePresenceText:
-	text "Eine seltsame"
-	line "Anwesenheit ist"
-	cont "hier zu spüren…"
+	text "There is a strange"
+	line "presence here…"
 	done
 
 RuinsOfAlphInnerChamberFisherText:
-	text "Dies ist ein"
-	line "großer Raum, aber"
-	cont "er ist leer."
+	text "This is a big"
+	line "room, but there's"
+	cont "nothing here."
 	done
 
 RuinsOfAlphInnerChamberTeacherText:
-	text "Dieser Ort strahlt"
-	line "eine eigenartige"
-	cont "Mystik aus."
+	text "This place has a"
+	line "mystical quality"
+	cont "to it."
 
-	para "Man könnte es fast"
-	line "schon als äthe-"
-	cont "risch bezeichnen."
+	para "It feels sort of"
+	line "ethereal even."
 	done
 
 RuinsOfAlphInnerChamberGrampsText:
-	text "Antike Bauten sind"
-	line "oft Grabstätten"
-	cont "für Könige."
+	text "Ancient buildings"
+	line "are often tombs of"
+	cont "kings."
 
-	para "Wie zum Beispiel"
-	line "die Pyramiden."
+	para "Like the pyramids,"
+	line "for instance."
 	done
 
 RuinsOfAlphInnerChamberStatueText:
-	text "Dies ist eine"
-	line "Nachbildung eines"
-	cont "antiken #MON."
+	text "It's a replica of"
+	line "an ancient #-"
+	cont "MON."
 	done
 
 RuinsOfAlphInnerChamber_MapEvents:

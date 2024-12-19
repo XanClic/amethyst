@@ -1,10 +1,10 @@
-	db "WURM@" ; species name
-	dbw 3, 29 ; height, weight
+	db "WORM@" ; species name
+	dw 100, 60 ; height, weight
 
-	db   "Es sucht im Laub"
-	next "Schutz und tarnt"
-	next "sich mit Blättern,"
+	db   "It crawls into"
+	next "foliage where it"
+	next "camouflages itself"
 
-	page "die der Farbe"
-	next "seines Körpers"
-	next "entsprechen.@"
+	page "among leaves that"
+	next "are the same color"
+	next "as its body.@"

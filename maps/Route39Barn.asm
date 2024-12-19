@@ -126,68 +126,64 @@ MoomooScript:
 	end
 
 Route39BarnTwinMoomooIsSickText:
-	text "MILTANK ist krank…"
+	text "MOOMOO is sick…"
 
-	para "Es braucht viele"
-	line "BEEREN."
+	para "She needs lots of"
+	line "BERRIES."
 	done
 
 Route39BarnTwinWereFeedingMoomooText:
-	text "Wir füttern"
-	line "MILTANK!"
+	text "We're feeding"
+	line "MOOMOO!"
 	done
 
 MoomooWeakMooText:
-	text "MILTANK: …Muh…"
+	text "MILTANK: …Moo…"
 	done
 
 Route39BarnItsCryIsWeakText:
-	text "Sein Ruf ist"
-	line "schwach…"
+	text "Its cry is weak…"
 	done
 
 MoomooHappyMooText:
-	text "MILTANK: MUH!"
+	text "MILTANK: Mooo!"
 	done
 
 Route39BarnAskGiveBerryText:
-	text "Gibst du MILTANK"
-	line "eine BEERE?"
+	text "Give a BERRY to"
+	line "MILTANK?"
 	done
 
 Route39BarnGaveBerryText:
-	text "<PLAYER> gibt"
-	line "MILTANK eine"
-	cont "BEERE."
+	text "<PLAYER> gave a"
+	line "BERRY to MILTANK."
 	done
 
 Route39BarnLittleHealthierText:
-	text "MILTANK ist etwas"
-	line "gesünder geworden!"
+	text "MILTANK became a"
+	line "little healthier!"
 	done
 
 Route39BarnQuiteHealthyText:
-	text "MILTANK ist viel"
-	line "gesünder geworden!"
+	text "MILTANK became"
+	line "quite healthy!"
 	done
 
 Route39BarnTotallyHealthyText:
-	text "MILTANK ist völlig"
-	line "gesund geworden!"
+	text "MILTANK became"
+	line "totally healthy!"
 	done
 
 Route39BarnNoBerriesText:
-	text "<PLAYER> hat keine"
-	line "BEEREN…"
+	text "<PLAYER> has no"
+	line "BERRIES…"
 	done
 
 Route39BarnRefusedBerryText:
-	text "<PLAYER> möchte"
-	line "keine BEERE"
-	cont "verwenden."
+	text "<PLAYER> wouldn't"
+	line "give a BERRY."
 
-	para "MILTANK sieht"
-	line "traurig aus."
+	para "MILTANK looks sad."
 	done
 
 Route39Barn_MapEvents:

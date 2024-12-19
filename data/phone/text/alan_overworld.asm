@@ -1,74 +1,71 @@
 AlanAskNumber1Text:
-	text "Hin und wieder ein"
-	line "Buch zu lesen,"
-	cont "kann helfen."
+	text "Reading textbooks"
+	line "is worthwhile"
+	cont "every so often."
 
-	para "Wenn ich während"
-	line "des Laufens lese,"
-	cont "schaue ich nach"
-	cont "unten."
+	para "When I'm reading"
+	line "and walking, I"
+	cont "have to look down."
 
-	para "Darum sehe ich"
-	line "Items am Boden."
+	para "So I notice items"
+	line "on the ground."
 
-	para "Das nächste Item,"
-	line "das ich finde,"
-	cont "gehört dir."
+	para "Next time I find"
+	line "something, I'll"
+	cont "give it to you."
 
-	para "Gibst du mir deine"
-	line "Telefonnummer?"
+	para "May I have your"
+	line "phone number?"
 	done
 
 AlanAskNumber2Text:
-	text "Finde ich etwas,"
-	line "gehört es dir."
+	text "If I find some-"
+	line "thing, it's yours."
 
-	para "Gibst du mir deine"
-	line "Telefonnummer?"
+	para "So may I have your"
+	line "phone number?"
 	done
 
 AlanNumberAcceptedText:
-	text "Ich rufe an, wenn"
-	line "ich etwas für dich"
+	text "I'll call you as"
+	line "soon as I find"
 
-	para "habe. Du kannst"
-	line "auf mich zählen!"
+	para "something. You can"
+	line "count on it!"
 	done
 
 AlanNumberDeclinedText:
-	text "Oh… ich dachte,"
-	line "ein Anruf wäre"
+	text "Oh… I thought it"
+	line "would be a good"
 
-	para "eine willkommene"
-	line "Lernpause…"
+	para "break to call you"
+	line "when I'm studying…"
 	done
 
 AlanPhoneFullText:
-	text "Du kannst meine"
-	line "Nummer nicht"
-	cont "speichern."
+	text "There's no room"
+	line "for my number."
 	done
 
 AlanRematchText:
-	text "Ich habe bereits"
-	line "auf dich gewartet!"
+	text "I waited around"
+	line "for you!"
 
-	para "Ich habe mich"
-	line "heute gründlich"
-	cont "vorbereitet!"
+	para "I'm thoroughly"
+	line "prepared today!"
 	done
 
 AlanGiftText:
-	text "Dies ist für dich!"
-	line "Nimm es! Ta-da!"
+	text "This, this! This"
+	line "is yours! Ta-da!"
 	done
 
 AlanPackFullText:
-	text "Ups!"
+	text "Whoops!"
 
-	para "Du kannst keine"
-	line "Items mehr tragen!"
+	para "You can't carry"
+	line "any more items!"
 
-	para "Ich bewahre es für"
-	line "dich auf."
+	para "I'll hold it until"
+	line "next time."
 	done

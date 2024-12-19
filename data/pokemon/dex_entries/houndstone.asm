@@ -1,11 +1,11 @@
-	db "GEISTERHUND@" ; species name
-	dbw 20, 150 ; height, weight
+	db "GHOST DOG@" ; species name
+	dw 607, 3300 ; height, weight
 
 	;  "| ----------------- |"
-	db   "Die Reinkarnation"
-	next "eines liebevoll"
-	next "betrauerten"
+	db   "The reincarnation"
+	next "of a lovingly"
+	next "mourned #MON. It"
 
-	page "#MON. Es wird"
-	next "nur ungern am"
-	next "Kopf berührt.@"
+	page "dislikes its head"
+	next "protuberance be-"
+	next "ing touched.@"

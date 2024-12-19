@@ -46,59 +46,56 @@ GoldenrodBikeShopBicycle:
 	jumptext GoldenrodBikeShopBicycleText
 
 GoldenrodBikeShopClerkIntroText:
-	text "…Seufz… Ich bin"
-	line "hierher gezogen,"
+	text "…sigh… I moved"
+	line "here, but I can't"
 
-	para "aber ich kann mei-"
-	line "ne FAHRRÄDER nicht"
+	para "sell my BICYCLES."
+	line "Why is that?"
 
-	para "verkaufen. Warum"
-	line "nur?"
-
-	para "Würdest du ein"
-	line "FAHRRAD fahren und"
-	cont "so Werbung machen?"
+	para "Could you ride a"
+	line "BICYCLE and adver-"
+	cont "tise for me?"
 	done
 
 GoldenrodBikeShopClerkAgreedText:
-	text "Ja? Großartig!"
+	text "Really? Great!"
 
-	para "Gib mir bitte"
-	line "Namen und Nummer."
+	para "Give me your name"
+	line "and phone number,"
 
-	para "Dann leihe ich dir"
-	line "ein FAHRRAD."
+	para "and I'll loan you"
+	line "a BICYCLE."
 	done
 
 BorrowedABicycleText:
-	text "<PLAYER> leiht sich"
-	line "ein FAHRRAD aus."
+	text "<PLAYER> borrowed a"
+	line "BICYCLE."
 	done
 
 GoldenrodBikeShopClerkFirstRateBikesText:
-	text "Meine FAHRRÄDER"
-	line "sind erste Klasse!"
+	text "My BICYCLES are"
+	line "first-rate! You"
 
-	para "Du kannst sie"
-	line "überall fahren."
+	para "can ride them"
+	line "anywhere."
 	done
 
 GoldenrodBikeShopClerkRefusedText:
-	text "…Seufz… Oh, für"
-	line "die Güte der"
-	cont "Menschen…"
+	text "…sigh… Oh, for"
+	line "the kindness of"
+	cont "people…"
 	done
 
 GoldenrodBikeShopJustReleasedCompactBikeText:
-	text "Brandneu!"
+	text "Just released!"
 
-	para "Erste Klasse Kom-"
-	line "pakt-FAHRRÄDER!"
+	para "First-rate compact"
+	line "BICYCLES!"
 	done
 
 GoldenrodBikeShopBicycleText:
-	text "Ein nagelneues"
-	line "FAHRRAD!"
+	text "It's a shiny new"
+	line "BICYCLE!"
 	done
 
 GoldenrodBikeShop_MapEvents:

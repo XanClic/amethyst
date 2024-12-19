@@ -1,10 +1,10 @@
-	db "QUALLE@" ; species name
-	dbw 16, 550 ; height, weight
+	db "JELLYFISH@" ; species name
+	dw 503, 1210 ; height, weight
 
-	db   "Wenn seine 80 Ten-"
-	next "takel Wasser auf-"
-	next "saugen, breiten"
+	db   "When its 80 feel-"
+	next "ers absorb water,"
+	next "it stretches to"
 
-	page "sie sich netzartig"
-	next "aus und es geht so"
-	next "auf Beutejagd.@"
+	page "become like a net"
+	next "to entangle its"
+	next "prey.@"

@@ -191,251 +191,231 @@ RadioTower5FPlayerTwoStepsLeftMovement:
 	step_end
 
 FakeDirectorTextBefore1:
-	text "D-Du! Bist du"
-	line "gekommen, um mich"
-	cont "zu retten?"
+	text "Y-you! You came to"
+	line "rescue me?"
 	done
 
 FakeDirectorTextBefore2:
-	text "Ist es das, was du"
-	line "erwartet hast?"
+	text "Is that what you"
+	line "were expecting?"
 
-	para "Falsch! Ich bin"
-	line "ein Betrüger!"
+	para "Wrong!"
+	line "I'm an imposter!"
 
-	para "Ich gebe vor, der"
-	line "Echte zu sein, um"
+	para "I pretended to be"
+	line "the real thing to"
 
-	para "unsere Übernahme"
-	line "vorzubereiten."
+	para "prepare for our"
+	line "takeover."
 
-	para "Möchtest du wis-"
-	line "sen, wo wir den"
-	cont "echten INTENDANTEN"
-	cont "versteckt haben?"
+	para "Do you want to"
+	line "know where we hid"
+	cont "the real DIRECTOR?"
 
-	para "Ich werde es dir"
-	line "verraten, wenn"
-	cont "du mich besiegst!"
+	para "Sure, I'll tell"
+	line "you. But only if"
+	cont "you can beat me!"
 	done
 
 FakeDirectorWinText:
-	text "O.K. Ich sage"
-	line "dir, wo er ist."
+	text "OK, OK. I'll tell"
+	line "you where he is."
 	done
 
 FakeDirectorTextAfter:
-	text "Wir haben den"
-	line "echten INTENDANTEN"
+	text "We stashed the"
+	line "real DIRECTOR in"
 
-	para "in das UNTERGRUND-"
-	line "LAGERHAUS"
-	cont "verschleppt."
+	para "the UNDERGROUND"
+	line "WAREHOUSE."
 
-	para "Es ist am Ende"
-	line "des UNTERGRUNDs."
+	para "It's at the far"
+	line "end of the UNDER-"
+	cont "GROUND."
 
-	para "Ich bezweifle"
-	line "aber, dass du"
-	cont "so weit kommst."
+	para "But I doubt you'll"
+	line "get that far."
 	done
 
 Executivef1SeenText:
-	text "Kennst du mich"
-	line "noch aus dem"
-	cont "VERSTECK in"
-	cont "MAHAGONIA CITY?"
+	text "Remember me from"
+	line "the HIDEOUT in"
+	cont "MAHOGANY TOWN?"
 
-	para "Damals habe ich"
-	line "verloren, aber das"
-
-	para "wird heute nicht"
-	line "passieren."
+	para "I lost then, but I"
+	line "won't this time."
 	done
 
 Executivef1BeatenText:
-	text "Das darf nicht"
-	line "wahr sein!"
+	text "This can't be"
+	line "happening!"
 
-	para "Ich habe mich so"
-	line "angestrengt und"
-	cont "dennoch verloren…"
+	para "I fought hard, but"
+	line "I still lost…"
 	done
 
 Executivef1AfterBattleText:
-	text "<PLAYER>, oder?"
+	text "<PLAYER>, isn't it?"
 
-	para "Ein Balg wie du"
-	line "weiß die Größe"
+	para "A brat like you"
+	line "won't appreciate"
 
-	para "von TEAM ROCKET"
-	line "nicht zu würdigen."
+	para "the magnificence"
+	line "of TEAM ROCKET."
 
-	para "Das ist schade."
-	line "Ich bewundere"
-	cont "deine Stärke."
+	para "That's too bad."
+	line "I really admire"
+	cont "your power."
 	done
 
 RadioTower5FRocketBossBeforeText:
-	text "Oh? Du bist"
-	line "so weit gekommen?"
+	text "Oh? You managed to"
+	line "get this far?"
 
-	para "Du musst ein aus-"
-	line "gezeichneter Trai-"
-	cont "ner sein."
+	para "You must be quite"
+	line "the trainer."
 
-	para "Wir planen, die"
-	line "RADIOSTATION zu"
+	para "We intend to take"
+	line "over this RADIO"
 
-	para "annektieren und"
-	line "unsere Rückkehr"
-	cont "bekanntzugeben."
+	para "STATION and an-"
+	line "nounce our come-"
+	cont "back."
 
-	para "Das sollte unseren"
-	line "Anführer GIOVANNI"
+	para "That should bring"
+	line "our boss GIOVANNI"
 
-	para "überzeugen, sein"
-	line "Solo-Training"
-	cont "abzubrechen und"
-	cont "zurückzukehren."
+	para "back from his solo"
+	line "training."
 
-	para "Wir werden unseren"
-	line "früheren Ruhm"
-	cont "wiedererlangen."
+	para "We are going to"
+	line "regain our former"
+	cont "glory."
 
-	para "Ich werde nicht"
-	line "zulassen, dass du"
-	cont "unsere Pläne"
-	cont "durchkreuzt."
+	para "I won't allow you"
+	line "to interfere with"
+	cont "our plans."
 	done
 
 RadioTower5FRocketBossWinText:
-	text "Nein! Vergib mir,"
+	text "No! Forgive me,"
 	line "GIOVANNI!"
 	done
 
 RadioTower5FRocketBossAfterText:
-	text "Wie kann das sein?"
+	text "How could this be?"
 
-	para "Unsere Träume wur-"
-	line "den zerschlagen."
+	para "Our dreams have"
+	line "come to naught."
 
-	para "Ich konnte meine"
-	line "Aufgabe nicht"
-	cont "erfüllen."
+	para "I wasn't up to the"
+	line "task after all."
 
-	para "Wie GIOVANNI"
-	line "werde ich TEAM"
+	para "Like GIOVANNI did"
+	line "before me, I will"
 
-	para "ROCKET hier und"
-	line "heute auflösen."
+	para "disband TEAM"
+	line "ROCKET here today."
 
-	para "Leb wohl."
+	para "Farewell."
 	done
 
 RadioTower5FDirectorThankYouText:
-	text "INTENDANT:"
-	line "<PLAY_G>!"
-	cont "Vielen Dank!"
+	text "DIRECTOR: <PLAY_G>,"
+	line "thank you!"
 
-	para "Dein couragiertes"
-	line "Handeln hat die"
+	para "Your courageous"
+	line "actions have saved"
 
-	para "#MON im ganzen"
-	line "Land gerettet."
+	para "#MON nation-"
+	line "wide."
 
-	para "Ich weiß, es ist"
-	line "nicht viel, aber"
-	cont "nimm dies bitte."
+	para "I know it's not"
+	line "much, but please"
+	cont "take this."
 	done
 
 RadioTower5FDirectorDescribeClearBellText:
-	text "Früher gab es hier"
-	line "einen Turm in"
-	cont "DUKATIA CITY."
+	text "There used to be a"
+	line "tower right here"
+	cont "in GOLDENROD CITY."
 
-	para "Aber er war alt"
-	line "und baufällig."
+	para "But it was old and"
+	line "creaky."
 
-	para "Also haben wir ihn"
-	line "durch unseren"
-	cont "RADIOTURM ersetzt."
+	para "So we replaced it"
+	line "with our RADIO"
+	cont "TOWER."
 
-	para "Beim Bau haben wir"
-	line "diese Glocke"
-	cont "gefunden."
+	para "We dug up that"
+	line "bell during"
+	cont "construction."
 
-	para "Ich hörte, dass"
-	line "früher viele ver-"
-	cont "schiedene #MON"
+	para "I heard that all"
+	line "sorts of #MON"
 
-	para "in DUKATIA CITY"
-	line "lebten."
+	para "lived in GOLDENROD"
+	line "in the past."
 
-	para "Vielleicht…"
+	para "Perhaps…"
 
-	para "…hat diese Glocke"
-	line "etwas mit dem"
+	para "That bell has some"
+	line "connection to the"
 
-	para "ZINNTURM in TEAK"
-	line "CITY zu tun…"
+	para "TIN TOWER in"
+	line "ECRUTEAK CITY…"
 
 	para "Ah!"
 
-	para "Das erinnert mich…"
+	para "That reminds me…"
 
-	para "Ich habe TEAM"
-	line "ROCKET zufällig"
-	cont "flüstern hören."
+	para "I overheard TEAM"
+	line "ROCKET whispering."
 
-	para "Es scheint, als"
-	line "führten sie etwas"
-	cont "am ZINNTURM im"
-	cont "Schilde."
+	para "Apparently, some-"
+	line "thing is going on"
+	cont "at the TIN TOWER."
 
-	para "Ich habe keine"
-	line "Ahnung, was vor"
+	para "I have no idea"
+	line "what is happening,"
 
-	para "sich geht. Viel-"
-	line "leicht solltest du"
-	cont "es überprüfen."
+	para "but you might look"
+	line "into it."
 
-	para "O.K., ich gehe in"
-	line "mein BÜRO zurück."
+	para "OK, I better go to"
+	line "my OFFICE."
 	done
 
 RadioTower5FDirectorText:
-	text "INTENDANT: Hallo,"
+	text "DIRECTOR: Hello,"
 	line "<PLAY_G>!"
 
-	para "Du weißt, ich"
-	line "liebe #MON."
+	para "You know, I love"
+	line "#MON."
 
-	para "Ich errichtete"
-	line "diesen RADIOTURM,"
+	para "I built this RADIO"
+	line "TOWER so I could"
 
-	para "um meiner Liebe zu"
-	line "#MON Ausdruck"
-	cont "zu verleihen."
+	para "express my love"
+	line "of #MON."
 
-	para "Es wäre wunderbar,"
-	line "wenn die Menschen"
-	cont "unsere Sendungen"
-	cont "liebten."
+	para "It would be nice"
+	line "if people enjoyed"
+	cont "our programs."
 	done
 
 BenText:
-	text "BEN: Hörst du dir"
-	line "unsere Musik an?"
+	text "BEN: Do you listen"
+	line "to our music?"
 	done
 
 RadioTower5FDirectorsOfficeSignText:
-	text "4S BÜRO DES"
-	line "   INTENDANTEN"
+	text "5F DIRECTOR'S"
+	line "   OFFICE"
 	done
 
 RadioTower5FStudio1SignText:
-	text "4S STUDIO 1"
+	text "5F STUDIO 1"
 	done
 
 RadioTower5F_MapEvents:

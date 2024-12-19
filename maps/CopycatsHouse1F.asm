@@ -36,43 +36,38 @@ CopycatsHouse1FBlisseyScript:
 	end
 
 CopycatsHouse1FPokefanMText:
-	text "Meine Tochter"
-	line "macht gerne"
-	cont "Menschen nach."
+	text "My daughter likes"
+	line "to mimic people."
 
-	para "Dieses Hobby hat"
-	line "ihr den Spitznamen"
+	para "Her mimicry has"
+	line "earned her the"
 
-	para "NACHAHMERIN einge-"
-	line "bracht."
+	para "nickname COPYCAT"
+	line "around here."
 	done
 
 CopycatsHouse1FPokefanFText:
-	text "Meine Tochter ist"
-	line "sehr ichbezogen…"
+	text "My daughter is so"
+	line "self-centered…"
 
-	para "Sie hat nur wenige"
-	line "Freunde."
+	para "She only has a few"
+	line "friends."
 	done
 
 CopycatsHouse1FPokefanFText_ReturnedMachinePart:
-	text "Vor kurzem hat sie"
-	line "ihre #PUPPE,"
+	text "She recently lost"
+	line "the # DOLL that"
 
-	para "die ihr ein Junge"
-	line "vor drei Jahren"
+	para "a boy gave her"
+	line "three years ago."
 
-	para "geschenkt hat,"
-	line "verloren."
-
-	para "Ihre Nachahmerei"
-	line "ist seitdem sogar"
-	cont "noch besser"
-	cont "geworden…"
+	para "Ever since then,"
+	line "she's gotten even"
+	cont "better at mimicry…"
 	done
 
 CopycatsHouse1FBlisseyText:
-	text "HEITEIRA: Teirii!"
+	text "BLISSEY: Bliisii!"
 	done
 
 CopycatsHouse1F_MapEvents:

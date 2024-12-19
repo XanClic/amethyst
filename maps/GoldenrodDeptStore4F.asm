@@ -38,41 +38,41 @@ GoldenrodDeptStore4FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodDeptStore4FCooltrainerMText:
-	text "Hey! Ich mag star-"
-	line "ke #MON."
+	text "Hey. I love strong"
+	line "#MON."
 
-	para "Ich füttere sie"
-	line "mit PROTEIN, um"
-	cont "ihren ANGR zu ver-"
-	cont "stärken."
+	para "I feed them PRO-"
+	line "TEIN to crank up"
+	cont "their ATTACK."
 	done
 
 GoldenrodDeptStore4FBugCatcherText:
-	text "EISEN verstärkt"
-	line "die VERT deiner"
-	cont "#MON."
+	text "IRON adds to your"
+	line "#MON's DEFENSE."
 	done
 
 GoldenrodDeptStore4FGameboyKidText:
-	text "Manche #MON"
-	line "entwickeln sich"
-	cont "nur durch Tausch."
+	text "Some #MON"
+	line "evolve only by"
 
-	para "Ich kenne vier:"
-	line "MASCHOCK, KADABRA,"
+	para "being traded via a"
+	line "Game Link cable."
 
-	para "ALPOLLO und"
-	line "GEOROK."
+	para "I know of four:"
+	line "MACHOKE, KADABRA,"
 
-	para "Ich hörte, es gibt"
-	line "noch weitere."
+	para "HAUNTER and, um,"
+	line "GRAVELER."
+
+	para "I heard there are"
+	line "others too."
 	done
 
 GoldenrodDeptStore4FDirectoryText:
-	text "Wir kümmern uns um"
-	line "Ihre #MON!"
+	text "Let Us Pump Up"
+	line "Your #MON!"
 
-	para "3S ARZNEI"
+	para "4F MEDICINE BOX"
 	done
 
 GoldenrodDeptStore4F_MapEvents:

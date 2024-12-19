@@ -74,7 +74,7 @@ CeladonGameCornerFisherScript:
 	end
 
 .coinname
-	db "MÜNZEN@"
+	db "COIN@"
 
 .NoCoinCase:
 	writetext CeladonGameCornerFisherNoCoinCaseText
@@ -147,145 +147,135 @@ CeladonGameCornerUnusedMovementData: ; unreferenced
 	step_end
 
 CeladonGameCornerReceptionistText:
-	text "Willkommen!"
+	text "Welcome!"
 
-	para "Du kannst deine"
-	line "Münzen nebenan"
+	para "You may exchange"
+	line "your coins for"
 
-	para "gegen fabelhafte"
-	line "Preise ein-"
-	cont "tauschen."
+	para "fabulous prizes"
+	line "next door."
 	done
 
 CeladonGameCornerPokefanMText:
-	text "Die Spielautomaten"
-	line "sind alle"
-	cont "hochmodern."
+	text "The slot machines"
+	line "are all state of"
+	cont "the art."
 	done
 
 CeladonGameCornerTeacherText:
-	text "An diesem Automa-"
-	line "ten will ich"
-	cont "spielen."
+	text "It's this machine"
+	line "I want."
 
-	para "An dem habe ich"
-	line "gestern haushoch"
+	para "It cleaned me out"
+	line "yesterday, so it"
 
-	para "verloren. Das will"
-	line "ich heute wieder-"
-	cont "haben."
+	para "should pay out"
+	line "today."
 	done
 
 CeladonGameCornerFishingGuruText:
-	text "Ich glaube, an"
-	line "diesem Automaten"
-	cont "werde ich"
-	cont "gewinnen…"
+	text "I think this slot"
+	line "machine will pay"
+	cont "out…"
 
-	para "Die Gewinnchancen"
-	line "sind bei jedem"
-	cont "Automaten anders."
+	para "The odds vary"
+	line "among machines."
 	done
 
 CeladonGameCornerFisherText1:
-	text "Guahahaha!"
+	text "Gahahaha!"
 
-	para "Die Münzen kommen"
-	line "mir entgegen!"
+	para "The coins just"
+	line "keep popping out!"
 
-	para "Hm? Was, Zwerg?"
-	line "Du willst spielen?"
+	para "Hm? What, kid? You"
+	line "want to play?"
 
-	para "Ich teile mein"
-	line "Glück mit dir!"
+	para "I'll share my luck"
+	line "with you!"
 	done
 
 CeladonGameCornerFisherText2:
-	text "Hahahaha!"
+	text "Gahahaha!"
 
-	para "Ich fühle mich"
-	line "wohl, wenn ich"
+	para "It makes me feel"
+	line "good to do nice"
 
-	para "anderen etwas"
-	line "Gutes tue!"
+	para "things for other"
+	line "people!"
 	done
 
 CeladonGameCornerFisherNoCoinCaseText:
-	text "Eh, du hast keinen"
-	line "MÜNZKORB."
+	text "Hey, you don't"
+	line "have a COIN CASE."
 
-	para "Wie soll ich dir"
-	line "denn so Münzen"
-	cont "geben, Zwerg?"
+	para "How am I supposed"
+	line "to give you any"
+	cont "coins, kid?"
 	done
 
 CeladonGameCornerFisherFullCoinCaseText:
-	text "Heh, dein MÜNZKORB"
-	line "ist voll, Wicht."
+	text "Hey, your COIN"
+	line "CASE is full, kid."
 
-	para "Du hast wohl auch"
-	line "eine Glücks-"
-	cont "strähne."
+	para "You must be riding"
+	line "a winning streak"
+	cont "too."
 	done
 
 CeladonGymGuideText:
-	text "He! Ein CHAMP"
-	line "in spe!"
+	text "Hey! CHAMP in"
+	line "making!"
 
-	para "Spielst du auch an"
-	line "den Automaten?"
+	para "Are you playing"
+	line "the slots too?"
 
-	para "Ich möchte genug"
-	line "Münzen sammeln für"
-	cont "ein prämiertes"
-	cont "#MON."
+	para "I'm trying to get"
+	line "enough coins for a"
+	cont "prize #MON."
 
-	para "Aber ich habe noch"
-	line "nicht genug"
-	cont "Münzen…"
+	para "But I don't have"
+	line "enough coins yet…"
 	done
 
 CeladonGameCornerGrampsText:
-	text "Hm… Die Chancen,"
-	line "eine PIKACHU-Reihe"
+	text "Hmmm… The odds are"
+	line "surely better for"
 
-	para "zu bekommen,"
-	line "stehen gut, aber…"
-	cont "Was nun?"
+	para "PIKACHU's line,"
+	line "but… What to do?"
 	done
 
 CeladonGameCornerPoster1Text:
-	text "He!"
+	text "Hey!"
 
-	para "Hinter diesem"
-	line "Poster…"
+	para "Underneath this"
+	line "poster…"
 
-	para "Da ist nichts!"
+	para "There's nothing!"
 	done
 
 CeladonGameCornerPoster2Text:
-	text "He!"
+	text "Hey!"
 
-	para "Hinter diesem"
-	line "Poster…"
+	para "Underneath this"
+	line "poster…"
 
-	para "Da ist nichts!"
+	para "There's nothing!"
 	done
 
 CeladonGameCornerLighterText:
-	text "Da ist ein"
-	line "Feuerzeug."
+	text "There's a lighter"
+	line "here."
 	done
 
 CeladonGameCornerSodaCanText:
-	text "Eine Wasser-"
-	line "flasche…"
+	text "A can of soda…"
 
-	para "Die muss jemandem"
-	line "gehören, der sie"
-	cont "holen wird…"
+	para "Someone must be"
+	line "coming back…"
 
-	para "Was? Sie ist leer!"
+	para "Huh? It's empty!"
 	done
 
 CeladonGameCorner_MapEvents:

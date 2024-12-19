@@ -25,19 +25,18 @@ CherrygroveEvolutionSpeechHouseBookshelf:
 	jumpstd MagazineBookshelfScript
 
 CherrygroveEvolutionSpeechHouseYoungsterText:
-	text "#MON sammeln"
-	line "in Kämpfen Erfah-"
-	cont "rung und verändern"
-	cont "ihre Gestalt."
+	text "#MON gain expe-"
+	line "rience in battle"
+
+	para "and change their"
+	line "form."
 	done
 
 CherrygroveEvolutionSpeechHouseLassText:
-	text "#MON, die die"
-	line "Gestalt wechseln?"
+	text "#MON change?"
 
-	para "Ich wäre scho-"
-	line "ckiert, wenn eines"
-	cont "das tun würde!"
+	para "I would be shocked"
+	line "if one did that!"
 	done
 
 CherrygroveEvolutionSpeechHouse_MapEvents:

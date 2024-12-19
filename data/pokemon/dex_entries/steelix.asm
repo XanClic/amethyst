@@ -1,10 +1,10 @@
-	db "STAHLBOA@" ; species name
-	dbw 92, 4000 ; height, weight
+	db "IRON SNAKE@" ; species name
+	dw 3002, 8820 ; height, weight
 
-	db   "Die vielen Metall-"
-	next "teilchen, die den"
-	next "Körper dieses"
+	db   "The many small"
+	next "metal particles"
+	next "that cover this"
 
-	page "#MON bedecken,"
-	next "reflektieren das"
-	next "Licht sehr gut.@"
+	page "#MON's body"
+	next "reflect bright"
+	next "light well.@"

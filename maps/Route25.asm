@@ -236,227 +236,195 @@ Route25MistyLeavesMovement:
 	step_end
 
 Route25MistyDateText:
-	text "MISTY: Aww! Warum"
-	line "musst du jetzt"
+	text "MISTY: Aww! Why"
+	line "did you have to"
 
-	para "auftauchen und uns"
-	line "stören?"
+	para "show up and bug us"
+	line "now?"
 
-	para "Weißt du, wie"
-	line "man Menschen wie"
-	cont "dich nennt?"
+	para "Do you know what"
+	line "they call people"
+	cont "like you?"
 
-	para "Plage! Du hast"
-	line "richtig gehört,"
-	cont "Plage!"
+	para "Pests! You heard"
+	line "me right, pest!"
 
 	para "…"
 
-	para "…Oh? Die ORDEN,"
-	line "die du hast… Sind"
-	cont "das ARENA-ORDEN"
-	cont "aus JOHTO?"
+	para "…Oh? Those BADGES"
+	line "you have… Are they"
+	cont "JOHTO GYM BADGES?"
 
-	para "Wenn du acht hast,"
-	line "musst du gut sein."
+	para "If you have eight,"
+	line "you must be good."
 
-	para "O.K. Komm in die"
-	line "PKMN-ARENA von"
-	cont "AZURIA CITY."
+	para "OK, then. Come to"
+	line "CERULEAN GYM."
 
-	para "Ich freue mich,"
-	line "gegen dich zu"
-	cont "kämpfen."
+	para "I'll be happy to"
+	line "take you on."
 
-	para "Ich bin MISTY, die"
-	line "ARENALEITERIN von"
-	cont "AZURIA CITY."
+	para "I'm MISTY, the"
+	line "GYM LEADER in"
+	cont "CERULEAN."
 	done
 
 SchoolboyDudleySeenText:
-	text "Besiege alle sechs"
-	line "Trainer und du"
-	cont "erhältst einen"
-	cont "wunderbaren Preis!"
+	text "Beat the six of us"
+	line "trainers to win a"
+	cont "fabulous prize!"
 
-	para "Glaubst du, du"
-	line "hast das Zeug"
-	cont "dazu?"
+	para "Think you've got"
+	line "what it takes?"
 	done
 
 SchoolboyDudleyBeatenText:
-	text "Wow! Gut gemacht."
+	text "Whoo! Good stuff."
 	done
 
 SchoolboyDudleyAfterBattleText:
-	text "Ich gab mein"
-	line "Bestes. Ich habe"
-	cont "mir nichts"
-	cont "vorzuwerfen."
+	text "I did my best."
+	line "I have no regrets."
 	done
 
 LassEllenSeenText:
-	text "Ich bin Numero 2!"
-	line "Jetzt wird es"
-	cont "ernst!"
+	text "I'm second."
+	line "Now it's serious!"
 	done
 
 LassEllenBeatenText:
-	text "Wie konnte ich"
-	line "nur verlieren?"
+	text "How could I lose?"
 	done
 
 LassEllenAfterBattleText:
-	text "Ich habe alles"
-	line "gegeben. Ich kann"
-	cont "mir nichts"
-	cont "vorwerfen."
+	text "I did my best."
+	line "I have no regrets."
 	done
 
 SchoolboyJoeSeenText:
-	text "Ich bin Nummer 3!"
-	line "Das wird nicht"
-	cont "leicht."
+	text "Here's No. 3!"
+	line "I won't be easy."
 	done
 
 SchoolboyJoeBeatenText:
-	text "Oh! Vermöbelt!"
+	text "Ow! Stomped flat!"
 	done
 
 SchoolboyJoeAfterBattleText:
-	text "Ich habe alles"
-	line "gegeben. Ich kann"
-	cont "mir nichts"
-	cont "vorwerfen."
+	text "I did my best."
+	line "I have no regrets."
 	done
 
 LassLauraSeenText:
-	text "Der Vierte!"
-	line "Bist du müde?"
+	text "I'm No. 4!"
+	line "Getting tired?"
 	done
 
 LassLauraBeatenText:
-	text "Auch ich habe"
-	line "verloren…"
+	text "I lost too…"
 	done
 
 LassLauraAfterBattleText:
-	text "Ich gab mein"
-	line "Bestes. Ich habe"
-	cont "mir nichts"
-	cont "vorzuwerfen."
+	text "I did my best."
+	line "I have no regrets."
 	done
 
 CamperLloydSeenText:
-	text "O.K.! Nummer 5."
-	line "Ich zermalme dich!"
+	text "OK! I'm No. 5."
+	line "I'll stomp you!"
 	done
 
 CamperLloydBeatenText:
-	text "Uff! Zu stark."
+	text "Whoa! Too much."
 	done
 
 CamperLloydAfterBattleText:
-	text "Ich gab mein"
-	line "Bestes. Ich habe"
-	cont "mir nichts"
-	cont "vorzuwerfen."
+	text "I did my best."
+	line "I have no regrets."
 	done
 
 LassShannonSeenText:
-	text "Ich bin der"
-	line "Letzte, aber ich"
-	cont "sage dir, ich bin"
-	cont "eine harte Nuss!"
+	text "I'm the last in"
+	line "line, but I tell"
+	cont "you, I'm tough!"
 	done
 
 LassShannonBeatenText:
-	text "Du machst Witze."
+	text "You're kidding."
 	done
 
 LassShannonAfterBattleText:
-	text "Ich gab mein"
-	line "Bestes. Ich habe"
-	cont "mir nichts"
-	cont "vorzuwerfen."
+	text "I did my best."
+	line "I have no regrets."
 	done
 
 SupernerdPatSeenText:
-	text "Uffuffuff…"
+	text "Mufufufu…"
 
-	para "Ich habe mit den"
-	line "sechs Trainern"
-	cont "nichts zu tun."
+	para "I have nothing to"
+	line "do with the six-"
+	cont "pack trainers."
 
-	para "Ich habe hier auf"
-	line "dich gewartet, um"
+	para "I waited here to"
+	line "beat you when you"
 
-	para "dich zu besiegen,"
-	line "da du nach den"
-	cont "vielen Kämpfen"
-	cont "müde sein musst."
+	para "were tired out by"
+	line "all the battles."
 	done
 
 SupernerdPatBeatenText:
-	text "Bist du überhaupt"
-	line "nicht müde?"
+	text "Aren't you tired"
+	line "at all?"
 	done
 
 SupernerdPatAfterBattleText:
-	text "Tut mir Leid… Ich"
-	line "werde nicht mehr"
-	cont "mogeln…"
+	text "I'm sorry… I won't"
+	line "cheat anymore…"
 	done
 
 CooltrainermKevinNuggetText:
-	text "Du hast einen"
-	line "Kampf mehr be-"
-	cont "stritten, als du"
+	text "You took on one"
+	line "more battle than"
 
-	para "erwartet hast."
-	line "Dennoch hast du"
-	cont "gewonnen."
+	para "you expected, but"
+	line "you won anyway."
 
-	para "Wie versprochen,"
-	line "hier ist der"
-	cont "Preis."
+	para "As promised, you"
+	line "win a prize."
 	done
 
 CooltrainermKevinSeenText:
-	text "Nachdem ich ge-"
-	line "sehen habe, wie"
+	text "But after seeing"
+	line "how you battle, I"
 
-	para "du kämpfst, möchte"
-	line "ich sehen, wie es"
-	cont "mir ergeht."
+	para "want to see how"
+	line "I'll fare."
 
-	para "Wie sieht's aus?"
-	line "Ich fordere dich"
-	cont "heraus."
+	para "How about it? Let"
+	line "me take you on."
 	done
 
 CooltrainermKevinBeatenText:
-	text "Das war der beste"
-	line "Kampf meines"
-	cont "Lebens!"
+	text "I've never had a"
+	line "battle this good!"
 	done
 
 CooltrainermKevinAfterBattleText:
-	text "Der Kampf war"
-	line "großartig!"
+	text "That was a great"
+	line "battle!"
 
-	para "Du und deine #-"
-	line "MON seid ein"
-	cont "perfektes Team!"
+	para "You and your #-"
+	line "MON are truly out-"
+	cont "standing!"
 	done
 
 BillsHouseSignText:
-	text "KÜSTENHAUS"
-	line "BILLs HAUS"
+	text "SEA COTTAGE"
+	line "BILL'S HOUSE"
 	done
 
-; unused
-	text "BILLs HAUS"
+UnusedBillsHouseSignText: ; unreferenced
+	text "BILL'S HOUSE"
 	done
 
 Route25_MapEvents:

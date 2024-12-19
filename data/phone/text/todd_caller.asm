@@ -1,122 +1,117 @@
 ToddLooksCuteLikeMeText:
-	text "Mein @"
+	text "My @"
 	text_ram wStringBuffer4
-	text_start
-	line "wird mir immer"
+	text " is"
+	line "looking more and"
 
-	para "ähnlicher. Es wird"
-	line "immer niedlicher!"
+	para "more like me. It's"
+	line "getting cuter!"
 	done
 
 ToddDefeatedMonText:
-	text "Und, weißt du?"
+	text "And, you know?"
 
-	para "Jetzt können wir"
+	para "Now we can KO"
 	line "@"
 	text_ram wStringBuffer4
-	text " leicht"
-	cont "K.O. schlagen."
+	text " easily."
 
-	para "Ich sollte die"
-	line "LEITERIN von"
-
-	para "DUKATIA heraus-"
-	line "fordern."
+	para "I should challenge"
+	line "the GOLDENROD GYM."
 	done
 
 ToddLostAMonText:
-	text "Und, pass auf!"
-	line "Wir haben nur"
+	text "And, you know?"
+	line "We just failed to"
 
-	para "knapp gegen"
-	line "@"
+	para "beat @"
 	text_ram wStringBuffer4
-	text_start
-	cont "verloren."
+	text " by"
+	line "a tiny margin."
 
-	para "Ich denke, die Le-"
-	line "vel meiner #MON"
+	para "I'm guessing my"
+	line "#MON's levels"
 
-	para "sind noch nicht"
-	line "hoch genug…"
+	para "aren't high enough"
+	line "yet…"
 	done
 
 ToddBattleRematchText:
-	text "Du musst jetzt"
-	line "viel besser sein?"
+	text "You must be a lot"
+	line "better now, huh?"
 
-	para "Warum zeigst du"
-	line "mir nicht deine"
+	para "How about showing"
+	line "me your technique"
 
-	para "Technik in einem"
-	line "wahren Kampf?"
+	para "in a real battle"
+	line "with me?"
 
-	para "Ich warte hier:"
+	para "I'll be waiting on"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 	done
 
 ToddHangUpText:
-	text "Bis später!"
+	text "See you later!"
 	done
 
 ToddDepartmentStoreBargainSaleText:
-	text "Jawohl, darauf"
-	line "haben wir alle"
-	cont "gewartet!"
+	text "This is it--the"
+	line "one we've all been"
+	cont "waiting for!"
 
-	para "Im KAUFHAUS"
-	line "von DUKATIA gibt"
-	cont "es jetzt Angebote!"
+	para "GOLDENROD DEPT."
+	line "STORE's bargain"
+	cont "sale is on now!"
 
-	para "Niedrige Preise?"
-	line "Große Auswahl?"
+	para "Want it cheap?"
+	line "Want it lots?"
 
-	para "Verpass nicht die"
-	line "Chance in DUKATIA!"
+	para "Don't miss this"
+	line "GOLDENROD chance!"
 
-	para "Ich klinge wie ein"
-	line "Marktschreier?"
+	para "Huh? I sound like"
+	line "a huckster?"
 
-	para "Nun, ja. Ich habe"
-	line "sie imitiert…"
+	para "Well, yeah. I was"
+	line "mimicking them…"
 
-	para "Egal, du musst"
-	line "so schnell wie"
-	cont "möglich dorthin!"
+	para "Anyway, you've got"
+	line "to get there as"
+	cont "soon as you can!"
 	done
 
 ToddSavingUpForBargainSaleText:
-	text "Ich spare schon"
-	line "für die nächsten"
+	text "I'm saving up for"
+	line "the next bargain"
 
-	para "Angebote. Wann"
-	line "kommen sie?"
+	para "sale. When's the"
+	line "next one?"
 	done
 
 ToddLookingForwardToBattleText:
-	text "Wo bist du?"
+	text "Where are you?"
 
-	para "Lass uns bald"
-	line "kämpfen!"
+	para "Let's have our"
+	line "battle soon!"
 
-	para "Ich warte hier:"
+	para "I'll be waiting on"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 	done
 
 ToddHaveYouGoneToDepartmentStoreText:
-	text "Warst du schon im"
-	line "KAUFHAUS von"
+	text "Haven't you gone"
+	line "to GOLDENROD DEPT."
 
-	para "DUKATIA CITY? Ich"
-	line "war schon dort und"
+	para "STORE? I've scoped"
+	line "it out already!"
 
-	para "habe Schnäppchen"
-	line "gemacht."
+	para "They had some real"
+	line "bargains."
 
-	para "Du musst dich"
-	line "beeilen."
+	para "You should get"
+	line "there quickly."
 	done

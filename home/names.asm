@@ -247,24 +247,12 @@ GetTMHMName::
 	ret
 
 .TMText:
-if !DEF(_CRYSTAL_EU)
 	db "TM"
-elif DEF(_CRYSTAL_DE)
-	db "TM"
-elif DEF(_CRYSTAL_ES)
-	db "MT"
-endc
 .TMTextEnd:
 	db "@"
 
 .HMText:
-if !DEF(_CRYSTAL_EU)
 	db "HM"
-elif DEF(_CRYSTAL_DE)
-	db "VM"
-elif DEF(_CRYSTAL_ES)
-	db "MO"
-endc
 .HMTextEnd:
 	db "@"
 

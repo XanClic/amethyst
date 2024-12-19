@@ -492,32 +492,16 @@ MenuData_17d272:
 
 MenuHeader_ChallengeExplanationCancel:
 	db MENU_BACKUP_TILES ; flags
-if !DEF(_CRYSTAL_EU)
 	menu_coords 0, 0, 14, 7
-elif DEF(_CRYSTAL_DE)
-	menu_coords 0, 0, 18, 7
-elif DEF(_CRYSTAL_ES)
-	menu_coords 0, 0, 15, 7
-endc
 	dw MenuData_ChallengeExplanationCancel
 	db 1 ; default option
 
 MenuData_ChallengeExplanationCancel:
 	db STATICMENU_CURSOR | STATICMENU_WRAP ; flags
 	db 3
-if !DEF(_CRYSTAL_EU)
 	db "Challenge@"
 	db "Explanation@"
 	db "Cancel@"
-elif DEF(_CRYSTAL_DE)
-	db "Herausforderung@"
-	db "Erklärung@"
-	db "Abbrechen@"
-elif DEF(_CRYSTAL_ES)
-	db "Desafío@"
-	db "Explicación@"
-	db "Cancelar@"
-endc
 
 Function17d2b6:
 	call Function17d2c0
@@ -1867,11 +1851,7 @@ Function17dc1f:
 	ld [wc709], a
 	add $4
 	ld [wc70b], a
-if !DEF(_CRYSTAL_DE)
 	ld a, $96
-else
-	ld a, $9d
-endc
 	ld [wc70d], a
 	ld a, $5c
 	ld [wc70e], a
@@ -3975,13 +3955,8 @@ Function17f220:
 	ret
 
 .Genders: dw .Boy, .Girl
-if !DEF(_CRYSTAL_EU)
 .Boy:     db "Boy@"
 .Girl:    db "Girl@"
-else
-.Boy:     db "@"
-.Girl:    db "@"
-endc
 
 Function17f27b:
 	pop hl

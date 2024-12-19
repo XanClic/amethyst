@@ -1,10 +1,10 @@
-	db "GOLDFISCH@" ; species name
-	dbw 13, 390 ; height, weight
+	db "GOLDFISH@" ; species name
+	dw 403, 860 ; height, weight
 
-	db   "Im Herbst bewachen"
-	next "die Männchen das"
-	next "Gebiet um ihren"
+	db   "When autumn comes,"
+	next "the males patrol"
+	next "the area around"
 
-	page "Laich, um den"
-	next "Nachwuchs zu"
-	next "beschützen.@"
+	page "their nests in"
+	next "order to protect"
+	next "their offspring.@"

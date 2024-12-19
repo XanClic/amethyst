@@ -1,11 +1,11 @@
-	db "GELEIT@" ; species name
-	dbw 10, 343 ; height, weight
+	db "LURING@" ; species name
+	dw 303, 7600 ; height, weight
 
 	;  "| ----------------- |"
-	db   "Es saugt die See-"
-	next "len aller auf, die"
-	next "in seinen Feuer-"
+	db   "It consumes the"
+	next "souls of all"
+	next "those who enter"
 
-	page "kranz geraten."
-	next "Zurück bleiben"
-	next "nur leere Hüllen.@"
+	page "its firy reach."
+	next "Only their empty"
+	next "husks remain.@"

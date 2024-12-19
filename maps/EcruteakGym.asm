@@ -231,124 +231,117 @@ EcruteakGymGrampsSlowStepDownMovement:
 	step_end
 
 SophieIntroText:
-	text "Schön, dass du"
-	line "gekommen bist!"
+	text "Happy to see you"
+	line "have come!"
 
-	para "Ich bin SOPHIE!"
-	line "Mein Herz schlägt"
-	cont "für Geist-#MON."
+	para "I'm SOPHIE!"
+	line "Ghost #MON are"
+	cont "very dear to me."
 
-	para "Wusstest du, dass"
-	line "sie sehr effektiv"
-	cont "gegeneinander"
-	cont "sind?"
+	para "Did you know that"
+	line "they're very"
+	cont "effective against"
+	cont "each other?"
 
-	para "Je mehr Geister in"
-	line "einem Kampf sind,"
-	cont "desto besser ist"
-	cont "es also!"
+	para "So the more ghosts"
+	line "there are in a"
+	cont "battle, the better"
+	cont "it is!"
 
-	para "…Finde ich jeden-"
-	line "falls."
+	para "…Or so I think,"
+	line "at least."
 
-	para "Aber genug davon."
+	para "But enough of"
+	line "that."
 
-	para "Dass du in der"
-	line "Turmruine einfach"
-	cont "so durch den Boden"
-	cont "gebrochen bist,"
+	para "That you just fell"
+	line "through the Burned"
 
-	para "war schon richtig"
-	line "großes Pech!"
+	para "Tower's floor was"
+	line "quite bad luck!"
 
-	para "…Oder war es rich-"
-	line "tig großes Glück?"
+	para "…Or was it actual-"
+	line "ly very good luck?"
 
-	para "Oder aber…"
+	para "Or maybe…"
 
-	para "Man sagt, legen-"
-	line "däre #MON er-"
-	cont "scheinen nur wirk-"
-	cont "lich starken"
-	cont "Trainern."
+	para "They say that"
+	line "legendary #MON"
+	cont "will only appear"
+	cont "before truly"
+	cont "strong trainers."
 
 	para "…"
 
-	para "Ich glaube nicht"
-	line "an Zufälle."
+	para "I don't believe"
+	line "in chance."
 
-	para "Und du?"
+	para "What about you?"
 	done
 
 SophieWinLossText:
-	text "Ich verstehe."
+	text "I see."
 
-	para "Wirklich"
-	line "beeindruckend!"
+	para "Quite impressive!"
 
-	para "Du bist dieses"
-	line "ORDENs mehr als"
-	cont "würdig!"
+	para "You are more than"
+	line "worthy of this"
+	cont "BADGE!"
 	done
 
 Text_ReceivedFogBadge:
-	text "<PLAYER> erhält"
-	line "PHANTOMORDEN."
+	text "<PLAYER> received"
+	line "FOGBADGE."
 	done
 
 SophieText_FogBadgeSpeech:
-	text "Durch den PHANTOM-"
-	line "ORDEN gehorchen"
+	text "By having the FOG-"
+	line "BADGE, #MON up"
 
-	para "dir #MON bis zu"
-	line "LV 50!"
+	para "to L50 will obey"
+	line "you!"
 
-	para "Außerdem kannst du"
-	line "damit SURFER auch"
-	cont "außerhalb eines"
-	cont "Kampfes einsetzen."
+	para "Also, with it, you"
+	line "can use SURF"
+	cont "outside of battle."
 
-	para "Bitte, nimm auch"
-	line "dies."
+	para "Please, take this,"
+	line "too."
 	done
 
 SophieText_ShadowBallSpeech:
-	text "Das ist SPUKBALL!"
+	text "This is SHADOW"
+	line "BALL!"
 
-	para "Er verursacht"
-	line "Schaden und ver-"
-	cont "ringert die SPE-"
-	cont "ZIAL-VERT."
+	para "It causes damage"
+	line "and reduces the"
+	cont "SPECIAL DEF."
 
-	para "Eine feine Sache"
-	line "für fast jedes"
-	cont "Geister-#MON!"
+	para "A nice thing to"
+	line "have for almost"
+	cont "any ghost #MON!"
 	done
 
 SophieFightDoneText:
-	text "Ich hoffe, das"
-	line "war nicht das"
+	text "I hope that wasn't"
+	line "the last time we"
+	cont "meet."
 
-	para "letzte Mal, dass"
-	line "wir uns begegnet"
-	cont "sind."
+	para "Why don't you come"
+	line "by another time"
 
-	para "Komm doch noch"
-	line "einmal vorbei,"
-
-	para "wenn du die TOP"
-	line "VIER besiegt hast!"
+	para "after you beat the"
+	cont "ELITE FOUR?"
 	done
 
 SophieRematchText:
-	text "Schön, dass du es"
-	line "dir einrichten"
-	cont "konntest!"
+	text "Great that you"
+	line "could make it!"
 
-	para "Ich sehe, du hast"
-	line "viel erlebt."
+	para "I see you've been"
+	line "around."
 
-	para "Bist du bereit?"
+	para "Are you ready?"
 	done
 
 SophieRematchWinLossText:
@@ -356,137 +349,129 @@ SophieRematchWinLossText:
 	done
 
 SophiePostRematchText:
-	text "Das hat echt Spaß"
-	line "gemacht."
+	text "That was really"
+	line "fun."
 
-	para "Komm doch wieder"
-	line "vorbei!"
+	para "Please, come back"
+	line "another time!"
 	done
 
 SophieRematchTomorrowText:
-	text "Komm doch bald"
-	line "wieder vorbei!"
+	para "Why don't you come"
+	line "back another day?"
 	done
 
 SophieLaterRematchText:
-	text "Na gut, aber"
-	line "später!"
+	text "All right, if you"
+	line "need some time…"
 	done
 
 WitcherChristianSeenText:
-	text "Ich mag Hexen-"
-	line "hüte!"
+	text "I like witch hats!"
 
-	para "Sie sind bequem"
-	line "und einfach"
-	cont "schick."
+	para "They're comfy and"
+	line "simply chic."
 	done
 
 WitcherChristianBeatenText:
-	text "Normalisiert"
-	line "Männer mit"
-	cont "Hexenhüten!"
+	text "Normalize men"
+	line "wearing witch"
+	cont "hats!"
 	done
 
 WitcherChristianAfterBattleText:
-	text "Nur leider rutscht"
-	line "mein Hut mir"
-	cont "immer vom Kopf…"
+	text "It's just that the"
+	line "hat keeps slipping"
+	cont "from my head…"
 	done
 
 SageBlihSeenText:
-	text "Wie wärs mit"
-	line "einem Kaffee?"
+	text "How about a"
+	line "coffee?"
 	done
 
 SageBlihBeatenText:
-	text "Ach, wär ich"
-	line "jetzt gern zu"
-	cont "Hause…"
+	text "Ah, how I wish I"
+	line "were home right"
+	cont "now…"
 	done
 
 SageBlihAfterBattleText:
-	text "Neben meiner Ar-"
-	line "beit hier bin ich"
-	cont "auch Barista!"
+	text "Besides my work"
+	line "here I'm also a"
+	cont "barista!"
 	done
 
 HexManiacFineSeenText:
-	text "Ich werde siegen!"
+	text "I shall win!"
 	done
 
 HexManiacFineBeatenText:
-	text "I-I-Ich habe"
-	line "verloren!"
+	text "I, I, I lost!"
 	done
 
 HexManiacFineAfterBattleText:
-	text "Wer siegen will,"
-	line "wird es auch tun!"
+	text "The one who wants"
+	line "to win most--will!"
 	done
 
 HexManiacClaraSeenText:
-	text "Pass bloß auf!"
+	text "Watch out!"
 	done
 
 HexManiacClaraBeatenText:
-	text "W-Was?"
+	text "Wha-what?"
 	done
 
 HexManiacClaraAfterBattleText:
-	text "Pass auf, wo du"
-	line "hin trittst!"
+	text "Watch your step!"
 
-	para "Im Dunkeln kann"
-	line "man leicht etwas"
-	cont "übersehen…"
+	para "It's easy to miss"
+	line "something in the"
+	cont "dark…"
 	done
 
 EcruteakGymGuideText:
-	text "Die Trainer hier"
-	line "haben geheime Mo-"
-	cont "tive."
+	text "The trainers here"
+	line "have secret mo-"
+	cont "tives."
 
-	para "Gewinnst du, so"
-	line "verraten sie dir"
-
-	para "vielleicht ein"
-	line "paar Weisheiten."
+	para "If you win, they"
+	line "may share a bit of"
+	cont "their wisdom."
 	done
 
 EcruteakGymGuideWinText:
-	text "Wow, <PLAYER>."
-	line "Du warst großar-"
-	cont "tig!"
+	text "Whew, <PLAYER>."
+	line "You did great!"
 
-	para "Vor lauter Angst"
-	line "habe ich mich in"
-	cont "die Ecke gekauert!"
+	para "I was cowering in"
+	line "the corner out of"
+	cont "pure terror!"
 	done
 
 EcruteakGymClosedText:
-	text "SOPHIE, die ARENA-"
-	line "LEITERIN ist nicht"
-	cont "hier."
+	text "SOPHIE, the GYM"
+	line "LEADER, is absent."
 
-	para "Du musst leider"
-	line "wieder gehen."
+	para "Sorry, but you'll"
+	line "have to leave."
 
 	para "Hohohoho."
 	done
 
 EcruteakGymMimikyuCryText:
-	text "MIMIGMA: Pi-gma!"
+	text "MIMIKYU: Pi-kyu!"
 	done
 
 EcruteakGymMimikyuCryContText:
-	text "Es ist wohl etwas"
-	line "schüchtern…"
+	text "It seems a little"
+	line "timid…"
 	done
 
 EcruteakGymMimikyuGiveLightBallText:
-	text "Es möchte dir"
-	line "etwas geben!"
+	text "It wants to give"
+	line "you something!"
 	done
 
 EcruteakGym_MapEvents:

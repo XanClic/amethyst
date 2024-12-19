@@ -148,253 +148,240 @@ BlackthornGymStatue:
 	jumpstd GymStatue2Script
 
 ClairIntroText:
-	text "Ich bin SANDRA."
+	text "I am CLAIR."
 
-	para "Der beste Drachen-"
-	line "meister der Welt."
+	para "The world's best"
+	line "dragon master."
 
-	para "Ich bestehe sogar"
-	line "gegen die TOP VIER"
-	cont "der #MON LIGA."
+	para "I can hold my own"
+	line "against even the"
 
-	para "Willst du immer"
-	line "noch gegen mich"
-	cont "antreten?"
+	para "#MON LEAGUE's"
+	line "ELITE FOUR."
 
-	para "…Gut."
-	line "Auf geht's!"
+	para "Do you still want"
+	line "to take me on?"
 
-	para "Da ich eine ARENA-"
-	line "LEITERIN bin,"
+	para "…Fine."
+	line "Let's do it!"
 
-	para "bringe ich mein"
-	line "ganzes Können ge-"
-	cont "gen jeden Gegner"
-	cont "auf!"
+	para "As a GYM LEADER,"
+	line "I will use my full"
+
+	para "power against any"
+	line "opponent!"
 	done
 
 ClairWinText:
-	text "Ich habe verloren?"
+	text "I lost?"
 
-	para "Ich kann es nicht"
-	line "glauben. Das muss"
-	cont "ein Irrtum sein…"
+	para "I don't believe"
+	line "it. There must be"
+	cont "some mistake…"
 	done
 
 ClairText_GoToDragonsDen:
-	text "Ich gestehe das"
-	line "nicht ein."
+	text "I won't admit"
+	line "this."
 
-	para "Ich mag verloren"
-	line "haben, aber du"
+	para "I may have lost,"
+	line "but you're still"
 
-	para "bist noch nicht"
-	line "reif für die"
-	cont "#MON LIGA."
+	para "not ready for the"
+	line "#MON LEAGUE."
 
-	para "Ich weiß. Stelle"
-	line "dich der Drachen-"
-	cont "Trainer-Heraus-"
-	cont "forderung."
+	para "I know. You should"
+	line "take the dragon"
+	cont "user challenge."
 
-	para "Hinter der PKMN-"
-	line "ARENA liegt die"
-	cont "DRACHENHÖHLE."
+	para "Behind this GYM is"
+	line "a place called"
+	cont "DRAGON'S DEN."
 
-	para "In deren Mitte ist"
-	line "ein Schrein. Gehe"
-	cont "dorthin."
+	para "There is a small"
+	line "shrine at its"
 
-	para "Falls du beweisen"
-	line "kannst, dass du"
+	para "center."
+	line "Go there."
 
-	para "deine faulen"
-	line "Ideale aufgegeben"
+	para "If you can prove"
+	line "that you've lost"
 
-	para "hast, werde ich"
-	line "dich als einen"
+	para "your lazy ideals,"
+	line "I will recognize"
 
-	para "Trainer ansehen,"
-	line "der würdig ist,"
-
-	para "einen ORDEN"
-	line "zu erhalten!"
+	para "you as a trainer"
+	line "worthy of a GYM"
+	cont "BADGE!"
 	done
 
 ClairText_TooMuchToExpect:
-	text "Was ist los?"
+	text "What's the matter?"
 
-	para "Erwarte ich etwa"
-	line "zu viel von dir?"
+	para "Is it too much to"
+	line "expect of you?"
 	done
 
 BlackthornGymClairText_YouKeptMeWaiting:
-	text "Du hast mich war-"
-	line "ten lassen!"
+	text "You've kept me"
+	line "waiting!"
 
-	para "Hier! Nimm dies!"
+	para "Here! Take this!"
 	done
 
 BlackthornGymText_ReceivedTM24:
-	text "<PLAYER> erhält"
+	text "<PLAYER> received"
 	line "TM24."
 	done
 
 BlackthornGymClairText_DescribeTM24:
-	text "Sie enthält"
-	line "FEUERODEM."
+	text "That contains"
+	line "DRAGONBREATH."
 
-	para "Nein, das hat"
-	line "nichts mit"
-	cont "schlechtem Atem"
-	cont "zu tun."
+	para "No, it doesn't"
+	line "have anything to"
+	cont "do with my breath."
 
-	para "Wenn du sie nicht"
-	line "willst, musst du"
-	cont "sie nicht nehmen."
+	para "If you don't want"
+	line "it, you don't have"
+	cont "to take it."
 	done
 
 BlackthornGymClairText_BagFull:
-	text "Was ist das? Du"
-	line "hast keinen Platz?"
+	text "What is this? You"
+	line "don't have room?"
 	done
 
 BlackthornGymClairText_League:
-	text "Was ist los?"
+	text "What's the matter?"
 
-	para "Gehst du nicht zur"
-	line "#MON LIGA?"
+	para "Aren't you headed"
+	line "to the #MON"
+	cont "LEAGUE?"
 
-	para "Kennst du den"
-	line "Weg nicht?"
+	para "Don't you know"
+	line "where it is?"
 
-	para "Gehe von hier nach"
-	line "NEUBORKIA."
+	para "From here, go to"
+	line "NEW BARK TOWN."
 
-	para "SURFE dann nach"
-	line "Osten. Der Weg"
+	para "Then SURF east."
+	line "The route there is"
+	cont "very tough."
 
-	para "wird dann sehr be-"
-	line "schwerlich."
+	para "Don't you dare"
+	line "lose at the #-"
+	cont "MON LEAGUE!"
 
-	para "Wage es nicht, in"
-	line "der #MON"
-	cont "LIGA zu verlieren!"
+	para "If you do, I'll"
+	line "feel even worse"
 
-	para "Das würde meine"
-	line "Niederlage gegen"
+	para "about having lost"
+	line "to you!"
 
-	para "dich noch ver-"
-	line "schlimmern!"
-
-	para "Gib dein Bestes!"
+	para "Give it every-"
+	line "thing you've got."
 	done
 
 CooltrainermPaulSeenText:
-	text "Ist das dein ers-"
-	line "ter Kampf gegen"
-	cont "Drachen?"
+	text "Your first battle"
+	line "against dragons?"
 
-	para "Ich zeige dir, wie"
-	line "stark sie sind!"
+	para "I'll show you how"
+	line "tough they are!"
 	done
 
 CooltrainermPaulBeatenText:
-	text "Mein Drachen-"
-	line "#MON hat"
-	cont "verloren?"
+	text "My dragon #MON"
+	line "lost?"
 	done
 
 CooltrainermPaulAfterBattleText:
-	text "SIEGFRIED sagte"
-	line "dir, er möchte"
+	text "LANCE told you"
+	line "that he'd like to"
 
-	para "dich noch einmal"
-	line "sehen? Das kann"
-	cont "nicht sein!"
+	para "see you again?"
+	line "Not a chance!"
 	done
 
 CooltrainermMikeSeenText:
-	text "Die Chancen, gegen"
-	line "dich zu verlieren?"
-	cont "Nicht mal ein Pro-"
-	cont "zent!"
+	text "My chance of"
+	line "losing? Not even"
+	cont "one percent!"
 	done
 
 CooltrainermMikeBeatenText:
-	text "Hm, eigenartig."
+	text "That's odd."
 	done
 
 CooltrainermMikeAfterBattleText:
-	text "Ich kenne jetzt"
-	line "meine Schwachstel-"
-	cont "len. Danke für den"
-	cont "Hinweis!"
+	text "I know my short-"
+	line "comings now."
+
+	para "Thanks for showing"
+	line "me!"
 	done
 
 CooltrainerfLolaSeenText:
-	text "Drachen sind hei-"
-	line "lige #MON."
+	text "Dragons are sacred"
+	line "#MON."
 
-	para "Sie sind voller"
-	line "Lebensenergie."
+	para "They are full of"
+	line "life energy."
 
-	para "Wenn du es nicht"
-	line "ernst meinst, dann"
+	para "If you're not"
+	line "serious, you won't"
 
-	para "wirst du sie nicht"
-	line "besiegen können."
+	para "be able to beat"
+	line "them."
 	done
 
 CooltrainerfLolaBeatenText:
-	text "Großartig!"
+	text "Way to go!"
 	done
 
 CooltrainerfLolaAfterBattleText:
-	text "Drachen sind"
-	line "schwach gegen Dra-"
-	cont "chen-Attacken."
+	text "Dragons are weak"
+	line "against dragon-"
+	cont "type moves."
 	done
 
 BlackthornGymGuideText:
-	text "Yo! CHAMP in spe!"
+	text "Yo! CHAMP in"
+	line "making!"
 
-	para "Es war eine lange"
-	line "Reise, aber bald"
+	para "It's been a long"
+	line "journey, but we"
 
-	para "sind wir da! Zähle"
-	line "auf mich!"
+	para "are almost done!"
+	line "Count on me!"
 
-	para "SANDRA setzt die"
-	line "mythischen und"
-	cont "heiligen"
-	cont "Drachen-#MON"
-	cont "ein."
+	para "CLAIR uses the"
+	line "mythical and sac-"
+	cont "red dragon-type"
+	cont "#MON."
 
-	para "So leicht sind die"
-	line "nicht zu besiegen."
+	para "You can't damage"
+	line "them very easily."
 
-	para "Aber angeblich"
-	line "sind sie anfällig"
+	para "But you know,"
+	line "they're supposed"
 
-	para "gegen Eis-"
-	line "Attacken."
+	para "to be weak against"
+	line "ice-type moves."
 	done
 
 BlackthornGymGuideWinText:
-	text "Gegen SANDRA zu"
-	line "gewinnen ist eine"
-	cont "Meisterleistung."
+	text "You were great to"
+	line "beat CLAIR!"
 
-	para "Alles was dir nun"
-	line "noch bevorsteht,"
-	cont "ist die #MON"
-	cont "LIGA."
+	para "All that's left is"
+	line "the #MON LEAGUE"
+	cont "challenge."
 
-	para "Du bist auf dem"
-	line "besten Weg, der"
-	cont "#MON-CHAMP"
-	cont "zu werden!"
+	para "You're on the way"
+	line "to becoming the"
+	cont "#MON CHAMPION!"
 	done
 
 BlackthornGym1F_MapEvents:

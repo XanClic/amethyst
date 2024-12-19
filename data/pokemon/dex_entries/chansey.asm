@@ -1,10 +1,10 @@
-	db "EI@" ; species name
-	dbw 11, 346 ; height, weight
+	db "EGG@" ; species name
+	dw 307, 760 ; height, weight
 
-	db   "Die Menschen ver-"
-	next "suchen es wegen"
-	next "seiner nahrhaften"
+	db   "People try to"
+	next "catch it for its"
+	next "extremely"
 
-	page "Eier zu fangen."
-	next "Aber es ist"
-	next "selten zu finden.@"
+	page "nutritious eggs,"
+	next "but it rarely can"
+	next "be found.@"

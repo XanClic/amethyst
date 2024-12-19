@@ -36,39 +36,34 @@ CeladonDeptStore2FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 CeladonDeptStore2FPokefanMText:
-	text "Ich bin erst vor"
-	line "kurzem Trainer"
+	text "I just recently"
+	line "became a trainer."
 
-	para "geworden. Mein"
-	line "Sohn hat mir dazu"
-	cont "geraten."
+	para "My son encouraged"
+	line "me to do it."
 
-	para "Dieses riesige"
-	line "Angebot an nütz-"
-	cont "lichen Items ist"
-	cont "überwältigend."
+	para "I'm impressed by"
+	line "the selection of"
+	cont "convenient items."
 	done
 
 CeladonDeptStore2FYoungsterText:
-	text "Mein Papa hat sich"
-	line "sehr schwer getan,"
+	text "My dad's having a"
+	line "hard time learning"
 
-	para "die Bezeichnungen"
-	line "aller Items zu"
+	para "the names of items"
+	line "and how they are"
 
-	para "lernen und zu"
-	line "unterscheiden,"
-
-	para "wann man sie"
-	line "einsetzt…"
+	para "supposed to be"
+	line "used…"
 	done
 
 CeladonDeptStore2FDirectoryText:
-	text "Nützliche Items"
-	line "für Trainer!"
+	text "Top Grade Items"
+	line "for Trainers!"
 
-	para "1S: ZUBEHÖR für"
-	line "    TRAINER"
+	para "2F: TRAINER'S"
+	line "    MARKET"
 	done
 
 CeladonDeptStore2F_MapEvents:

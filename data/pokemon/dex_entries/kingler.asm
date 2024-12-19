@@ -1,10 +1,10 @@
-	db "KNEIFER@" ; species name
-	dbw 13, 600 ; height, weight
+	db "PINCER@" ; species name
+	dw 403, 1320 ; height, weight
 
-	db   "Seine Riesenschere"
-	next "ist sehr stark,"
-	next "wenn es aber nicht"
+	db   "Its oversized claw"
+	next "is very powerful,"
+	next "but when it's not"
 
-	page "kämpft, kommt sie"
-	next "ihm häufig in die"
-	next "Quere.@"
+	page "in battle, the"
+	next "claw just gets in"
+	next "the way.@"

@@ -4,22 +4,12 @@ TownMap_ConvertLineBreakCharacters:
 	ld a, [hl]
 	cp "@"
 	jr z, .end
-	cp "%"
+	cp "<WBR>"
 	jr z, .line_feed
 	cp "<BSP>"
 	jr z, .line_feed
-if DEF(_CRYSTAL_EU)
-	cp "<WBR>"
-	jr z, .hyphen_split
-endc
 	inc hl
 	jr .loop
-
-if DEF(_CRYSTAL_EU)
-.hyphen_split
-	ld [hl], "<->"
-	jr .end
-endc
 
 .line_feed
 	ld [hl], "<LF>"
