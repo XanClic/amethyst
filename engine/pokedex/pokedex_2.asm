@@ -121,7 +121,6 @@ DisplayDexEntry:
 	inc hl
 	ld a, b
 	push af
-if !DEF(_CRYSTAL_EU)
 	push hl
 	call GetFarWord
 	ld d, l
@@ -131,16 +130,10 @@ if !DEF(_CRYSTAL_EU)
 	inc hl
 	ld a, d
 	or e
-else
-	call GetFarByte
-	inc hl
-	and a
-endc
 	jr z, .skip_height
-; Print the height, with two of the four digits in front of the decimal point
 	push hl
-if !DEF(_CRYSTAL_EU)
 	push de
+; Print the height, with two of the four digits in front of the decimal point
 	ld hl, sp+0
 	ld d, h
 	ld e, l
@@ -150,15 +143,6 @@ if !DEF(_CRYSTAL_EU)
 ; Replace the decimal point with a ft symbol
 	hlcoord 14, 7
 	ld [hl], $5e
-else
-	push af
-	ld hl, sp+1
-	ld d, h
-	ld e, l
-	hlcoord 13, 7
-	lb bc, 1, (2 << 4) | 3
-	call PrintNum
-endc
 	pop af
 	pop hl
 
@@ -179,13 +163,8 @@ endc
 	ld hl, sp+0
 	ld d, h
 	ld e, l
-if !DEF(_CRYSTAL_EU)
 	hlcoord 11, 9
 	lb bc, 2, (4 << 4) | 5
-else
-	hlcoord 12, 9
-	lb bc, 2, (3 << 4) | 4
-endc
 	call PrintNum
 	pop de
 
@@ -280,15 +259,9 @@ GetDexEntryPagePointer:
 	cp "@"
 	jr nz, .loop1
 ; skip height and weight
-if !DEF(_CRYSTAL_EU)
 rept 4
 	inc hl
 endr
-else
-rept 3
-	inc hl
-endr
-endc
 ; if c != 1: skip entry
 	dec c
 	jr z, .done

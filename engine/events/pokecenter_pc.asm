@@ -42,13 +42,7 @@ PokemonCenterPC:
 
 .TopMenu:
 	db MENU_BACKUP_TILES | MENU_NO_CLICK_SFX ; flags
-if !DEF(_CRYSTAL_EU)
 	menu_coords 0, 0, 15, 12
-elif DEF(_CRYSTAL_DE)
-	menu_coords 0, 0, 16, 12
-elif DEF(_CRYSTAL_ES)
-	menu_coords 0, 0, 15, 12
-endc
 	dw .MenuData
 	db 1 ; default option
 
@@ -67,25 +61,11 @@ endc
 	dw HallOfFamePC, .String_HallOfFame
 	dw TurnOffPC,    .String_TurnOff
 
-if !DEF(_CRYSTAL_EU)
 .String_PlayersPC:  db "<PLAYER>'s PC@"
 .String_BillsPC:    db "BILL's PC@"
 .String_OaksPC:     db "PROF.OAK's PC@"
 .String_HallOfFame: db "HALL OF FAME@"
 .String_TurnOff:    db "TURN OFF@"
-elif DEF(_CRYSTAL_DE)
-.String_PlayersPC:  db "PC VON <PLAYER>@"
-.String_BillsPC:    db "BILLs PC@"
-.String_OaksPC:     db "EICHs PC@"
-.String_HallOfFame: db "RUHMESHALLE@"
-.String_TurnOff:    db "AUSLOGGEN@"
-elif DEF(_CRYSTAL_ES)
-.String_PlayersPC:  db "PC DE <PLAYER>@"
-.String_BillsPC:    db "PC DE BILL@"
-.String_OaksPC:     db "PC PROF. OAK@"
-.String_HallOfFame: db "HALL DE FAMA@"
-.String_TurnOff:    db "DESCONEXIÓN@"
-endc
 
 .WhichPC:
 ; entries correspond to PCPC_* constants
@@ -283,13 +263,7 @@ _PlayersPC:
 
 PlayersPCMenuData:
 	db MENU_BACKUP_TILES ; flags
-if !DEF(_CRYSTAL_EU)
 	menu_coords 0, 0, 15, 12
-elif DEF(_CRYSTAL_DE)
-	menu_coords 0, 0, 16, 12
-elif DEF(_CRYSTAL_ES)
-	menu_coords 0, 0, 14, 12
-endc
 	dw .PlayersPCMenuData
 	db 1 ; default selected option
 

@@ -1,10 +1,10 @@
-	db "SCHERE@" ; species name
-	dbw 18, 1180 ; height, weight
+	db "SCISSORS@" ; species name
+	dw 511, 2600 ; height, weight
 
-	db   "Dieses #MON"
-	next "kann mit seinen"
-	next "stählernen Scheren"
+	db   "This #MON's"
+	next "pincers, which"
+	next "contain steel, can"
 
-	page "jeden harten"
-	next "Gegenstand mühelos"
-	next "zermalmen.@"
+	page "crush any hard"
+	next "object it gets a"
+	next "hold of into bits.@"

@@ -93,32 +93,31 @@ PokeDollVendingMachine:
 	jumptext PokeDollVendingMachineText
 
 GoldenrodDeptStoreRoofPokefanFText:
-	text "Puh, bin ich müde."
+	text "Whew, I'm tired."
 
-	para "Manchmal gehe ich"
-	line "auf die Dach-"
-	cont "terrasse, um eine"
+	para "I sometimes come"
+	line "up to the rooftop"
 
-	para "Einkaufspause"
-	line "einzulegen."
+	para "to take a break"
+	line "from shopping."
 	done
 
 GoldenrodDeptStoreRoofFisherText:
-	text "Bitte? Wer sagt,"
-	line "dass das nichts"
-	cont "für Erwachsene"
-	cont "ist?"
+	text "Pardon? Who says"
+	line "an adult can't get"
+	cont "into this?"
 
-	para "Ich komme jeden"
-	line "Tag, um wirklich"
+	para "I'm going to be"
+	line "back every day to"
 
-	para "alle Puppen zu"
-	line "bekommen!"
+	para "collect all the"
+	line "dolls!"
 	done
 
 GoldenrodDeptStoreRoofTwinText:
-	text "Oft gibt es hier"
-	line "Sonderangebote."
+	text "They have bargain"
+	line "sales here every"
+	cont "so often."
 	done
 
 GoldenrodDeptStoreRoofSuperNerdOhWowText:
@@ -126,94 +125,88 @@ GoldenrodDeptStoreRoofSuperNerdOhWowText:
 	done
 
 GoldenrodDeptStoreRoofSuperNerdQuitBotheringMeText:
-	text "Hörst du auf, mich"
-	line "zu belästigen?"
+	text "Will you quit"
+	line "bothering me?"
 	done
 
 GoldenrodDeptStoreRoofPokefanMText:
-	text "Es gibt etwas, das"
-	line "ich unbedingt"
+	text "There's something"
+	line "I really want, but"
 
-	para "möchte, aber mir"
-	line "fehlt das nötige"
-	cont "Kleingeld…"
+	para "I don't have the"
+	line "necessary cash…"
 
-	para "Soll ich meine"
-	line "gesammelten BEEREN"
-	cont "verkaufen…"
+	para "Maybe I'll sell"
+	line "off the BERRIES"
+	cont "I've collected…"
 	done
 
 GoldenrodDeptStoreRoofTeacherText:
-	text "Oh, alles ist so"
-	line "billig!"
+	text "Oh, everything is"
+	line "so cheap!"
 
-	para "Ich habe soviel"
-	line "gekauft, dass mein"
-	cont "BEUTEL voll ist!"
+	para "I bought so much,"
+	line "my PACK's crammed!"
 	done
 
 GoldenrodDeptStoreRoofBugCatcherText:
-	text "Meine #MON"
-	line "sind immer para-"
-	cont "lysiert oder ver-"
-	cont "giftet, wenn es"
-	cont "darauf ankommt…"
+	text "My #MON always"
+	line "get paralyzed or"
 
-	para "Daher möchte ich"
-	line "HYPERHEILER"
-	cont "kaufen."
+	para "poisoned when the"
+	line "chips are down…"
 
-	para "Hoffentlich gibt"
-	line "es noch welche?"
+	para "So I came to buy"
+	line "some FULL HEAL."
+
+	para "I wonder if"
+	line "there's any left?"
 	done
 
 Binoculars1Text:
-	text "Mit diesem Fern-"
-	line "glas kann ich weit"
+	text "These binoculars"
+	line "let me see far"
 
-	para "sehen. Vielleicht"
-	line "sogar mein Haus."
+	para "away. Maybe I can"
+	line "see my own house."
 
-	para "Ist es das mit dem"
-	line "grünen Dach?"
+	para "Is it the one with"
+	line "the green roof?"
 	done
 
 Binoculars2Text:
-	text "Heh! Einige"
-	line "Trainer kämpfen"
-	cont "auf dem Weg!"
+	text "Hey! Some trainers"
+	line "are battling on"
+	cont "the road!"
 
-	para "Ein #MON schoss"
-	line "mit Blättern!"
+	para "A #MON fired a"
+	line "flurry of leaves!"
 
-	para "Wenn ich das sehe,"
-	line "will ich sofort"
-	cont "kämpfen!"
+	para "That makes me feel"
+	line "like battling"
+	cont "right now!"
 	done
 
 Binoculars3Text:
-	text "Ein ANGLER fing"
-	line "viele KARPADOR…"
+	text "A FISHER caught a"
+	line "lot of MAGIKARP…"
 
-	para "Sie setzen alle"
-	line "gleichzeitig"
-	cont "PLATSCHER ein!"
+	para "They're SPLASHing"
+	line "at the same time!"
 
-	para "Sieh nur wie das"
-	line "Wasser überall"
-	cont "hinspritzt!"
+	para "Look at the water"
+	line "going everywhere!"
 	done
 
 PokeDollVendingMachineText:
-	text "Ein Automat, an"
-	line "dem man #MON-"
-	cont "Puppen kaufen"
-	cont "kann."
+	text "A vending machine"
+	line "for #MON dolls?"
 
-	para "Wirf Geld ein und"
-	line "dreh die Kurbel…"
+	para "Insert money, then"
+	line "turn the crank…"
 
-	para "Er ist fast leer…"
+	para "But it's almost"
+	line "empty…"
 	done
 
 GoldenrodDeptStoreRoof_MapEvents:

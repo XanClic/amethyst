@@ -1,10 +1,10 @@
-	db "HYPNOSE@" ; species name
-	dbw 10, 324 ; height, weight
+	db "HYPNOSIS@" ; species name
+	dw 303, 710 ; height, weight
 
-	db   "Wenn es mit der"
-	next "Nase zuckt, kann"
-	next "es feststellen, wo"
+	db   "When it twitches"
+	next "its nose, it can"
+	next "tell where someone"
 
-	page "jemand schläft und"
-	next "was er gerade"
-	next "träumt.@"
+	page "is sleeping and"
+	next "what that person"
+	next "is dreaming about.@"

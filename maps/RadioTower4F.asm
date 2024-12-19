@@ -104,154 +104,143 @@ RadioTower4FStudio2Sign:
 	jumptext RadioTower4FStudio2SignText
 
 RadioTower4FFisherText:
-	text "Als ich bei"
-	line "den RUINEN war,"
-	cont "hörte ich Radio."
+	text "I listened to the"
+	line "radio while I was"
+	cont "at the RUINS."
 
-	para "Ich empfing eine"
-	line "seltsame Sendung."
+	para "I heard a strange"
+	line "broadcast there."
 	done
 
 RadioTower4FDJMaryText:
-	text "MARGIT: Warum?"
-	line "Warum muss ich"
-	cont "das über mich"
-	cont "ergehen lassen?"
+	text "MARY: Why? Why do"
+	line "I have to suffer"
+	cont "through this?"
 
-	para "MAUZI, hilf mir!"
+	para "MEOWTH, help me!"
 	done
 
 RadioTower4FDJMaryText_ClearedRockets:
-	text "MARGIT: Oh! Du"
-	line "hast mich geret-"
-	cont "tet! Nimm dies als"
+	text "MARY: Oh! You're"
+	line "my little savior!"
 
-	para "Zeichen meines"
-	line "Dankes!"
+	para "Will you take this"
+	line "as my thanks?"
 	done
 
 RadioTower4FDJMaryText_GivePinkBow:
-	text "MARGIT: Für #-"
-	line "MON mit Normal-"
-	cont "attacken ist das"
+	text "MARY: It's just"
+	line "right for #MON"
 
-	para "genau das"
-	line "Richtige."
+	para "that know normal-"
+	line "type moves."
 	done
 
 RadioTower4FDJMaryText_After:
-	text "MARGIT: Wir hören"
-	line "uns in PROF."
+	text "MARY: Please tune"
+	line "into me on PROF."
 
-	para "EICHs #MON-"
-	line "TALKSHOW wieder."
+	para "OAK'S #MON TALK"
+	line "show."
 	done
 
 RadioTowerMeowthText:
-	text "MAUZI: Mauzi…"
+	text "MEOWTH: Meowth…"
 	done
 
 GruntM10SeenText:
-	text "Du hast vor, den"
-	line "INTENDANTEN zu"
-	cont "retten?"
+	text "You plan to rescue"
+	line "the DIRECTOR?"
 
-	para "Dies wird nicht"
-	line "möglich sein, da"
-	cont "ich dich besiege!"
+	para "That won't be pos-"
+	line "sible because I'm"
+	cont "going to beat you!"
 	done
 
 GruntM10BeatenText:
-	text "Nein! Unglaublich!"
+	text "No! Unbelievable!"
 	done
 
 GruntM10AfterBattleText:
-	text "Ich kann es nicht"
-	line "glauben, ich"
-	cont "wurde besiegt!"
+	text "I don't believe"
+	line "it! I was beaten!"
 	done
 
 Executivem2SeenText:
-	text "Stopp! Ich bin als"
-	line "TEAM ROCKET-"
-	cont "Festung bekannt!"
+	text "Stop! I'm known as"
+	line "the TEAM ROCKET"
+	cont "fortress!"
 
-	para "Keinen Schritt"
-	line "weiter!"
+	para "You're not taking"
+	line "another step!"
 	done
 
 Executivem2BeatenText:
-	text "Die Festung wurde"
-	line "gestürmt!"
+	text "The fortress came"
+	line "down!"
 	done
 
 Executivem2AfterBattleText:
-	text "Du hast dir meinen"
-	line "Respekt verdient."
-	cont "Hier ist ein Tipp"
-	cont "für dich."
+	text "You've earned my"
+	line "respect, so here's"
+	cont "some advice."
 
-	para "Es ist noch nicht"
-	line "zu spät. Noch"
-	cont "kannst du"
-	cont "umkehren."
+	para "It's not too late."
+	line "You can still turn"
+	cont "back."
 	done
 
 GruntF4SeenText:
-	text "Sind #MON"
-	line "nicht wirklich"
-	cont "niedlich?"
+	text "Don't I think"
+	line "#MON are cute?"
 
-	para "Ich denke, meine"
-	line "#MON sind"
+	para "I'll think my"
+	line "#MON are cute--"
 
-	para "niedlich - nachdem"
-	line "sie deine besiegt"
-	cont "haben!"
+	para "after they beat"
+	line "yours!"
 	done
 
 GruntF4BeatenText:
-	text "Oh, nein! Sie sind"
-	line "absolut unnütz!"
+	text "Oh, no! They're so"
+	line "useless!"
 	done
 
 GruntF4AfterBattleText:
-	text "Ich liebe mein"
-	line "hübsches Äußeres!"
+	text "I love my"
+	line "beautiful self!"
 
-	para "Wer schert sich"
-	line "um #MON?"
+	para "Who cares about"
+	line "#MON?"
 	done
 
 ScientistRichSeenText:
-	text "Exzellent."
+	text "Most excellent."
 
-	para "Mit dem RADIOTURM"
-	line "können wir"
-	cont "unser Vorhaben in"
-	cont "die Tat umsetzen."
+	para "This RADIO TOWER"
+	line "will fulfill our"
+	cont "grand design."
 	done
 
 ScientistRichBeatenText:
 	text "Hmmm…"
 
-	para "Jeder große Plan"
-	line "hat einen Haken."
+	para "All grand plans"
+	line "come with snags."
 	done
 
 ScientistRichAfterBattleText:
-	text "Glaubst du allen"
-	line "Ernstes, TEAM"
-	cont "ROCKET aufhalten"
-	cont "zu können?"
+	text "Do you honestly"
+	line "believe you can"
+	cont "stop TEAM ROCKET?"
 	done
 
 RadioTower4FProductionSignText:
-	text "3S PRODUKTION"
+	text "4F PRODUCTION"
 	done
 
 RadioTower4FStudio2SignText:
-	text "3S STUDIO 2"
+	text "4F STUDIO 2"
 	done
 
 RadioTower4F_MapEvents:

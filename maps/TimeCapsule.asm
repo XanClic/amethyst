@@ -47,8 +47,8 @@ TimeCapsuleFriendScript:
 	end
 
 .FriendReadyText:
-	text "Dein Kamerad ist"
-	line "bereit."
+	text "Your friend is"
+	line "ready."
 	done
 
 TimeCapsule_MapEvents:

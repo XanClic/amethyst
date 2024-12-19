@@ -46,78 +46,68 @@ OlivineLighthouse3FEther:
 	itemball ETHER
 
 BirdKeeperTheoSeenText:
-	text "Warum bist du"
-	line "gekommen? Bist du"
+	text "Why are you here?"
+	line "Are you just going"
 
-	para "zum Gaffen hier?"
-	line "Es ist besser, du"
-	cont "gehst!"
+	para "to gawk? I suggest"
+	line "that you leave!"
 	done
 
 BirdKeeperTheoBeatenText:
-	text "Du sorgst dich"
-	line "wirklich…"
+	text "You really are"
+	line "concerned…"
 	done
 
 BirdKeeperTheoAfterBattleText:
-	text "Wie, zum Geier,"
-	line "bist du hier"
-	cont "hochgekommen?"
+	text "How the heck do"
+	line "you go up?"
 
-	para "Ich möchte das"
-	line "kranke #MON"
+	para "I want to visit"
+	line "the sick #MON,"
 
-	para "besuchen, aber ich"
-	line "schaffe es nicht"
-	cont "bis nach oben…"
+	para "but I can't get up"
+	line "there…"
 	done
 
 SailorTerrellSeenText:
-	text "Matrosen sind"
-	line "nett und stark."
-	cont "Wie bist du?"
+	text "Sailors are both"
+	line "kind and strong."
+	cont "How about you?"
 	done
 
 SailorTerrellBeatenText:
-	text "Du bist auch nett"
-	line "und stark…"
+	text "You are both kind"
+	line "and strong…"
 	done
 
 SailorTerrellAfterBattleText:
-	text "Jedes Mal wenn"
-	line "ich nach OLIVIANA"
+	text "Every time I come"
+	line "back to OLIVINE, I"
+	cont "visit the GYM."
 
-	para "CITY komme, gehe"
-	line "ich in die PKMN-"
+	para "The GYM LEADER's"
+	line "#MON type has"
 
-	para "ARENA. Der #-"
-	line "MON-Typ der ARENA-"
-
-	para "LEITERIN hat sich"
-	line "geändert, ohne"
-
-	para "dass ich es"
-	line "bemerkte."
+	para "changed without me"
+	line "noticing."
 	done
 
 GentlemanPrestonSeenText:
-	text "Ich bereise die"
-	line "Welt, um meine"
-	cont "#MON zu"
-	cont "trainieren. Ich"
-	cont "möchte mit dir"
-	cont "kämpfen."
+	text "I travel the world"
+	line "to train my #-"
+	cont "MON. I wish to"
+	cont "battle with you."
 	done
 
 GentlemanPrestonBeatenText:
-	text "…Seufz… Ich muss"
-	line "mehr trainieren…"
+	text "…sigh… I must"
+	line "train some more…"
 	done
 
 GentlemanPrestonAfterBattleText:
-	text "JASMIN trainierte"
-	line "früher Gestein-"
-	cont "#MON wie ONIX."
+	text "JASMINE used to"
+	line "use rock #MON"
+	cont "like ONIX."
 	done
 
 OlivineLighthouse3F_MapEvents:

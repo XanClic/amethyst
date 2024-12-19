@@ -111,179 +111,158 @@ CeladonGymStatue:
 	jumpstd GymStatue2Script
 
 ErikaBeforeBattleText:
-	text "ERIKA: Hallo…"
-	line "Schönes Wetter,"
+	text "ERIKA: Hello…"
+	line "Lovely weather,"
 
-	para "nicht?"
-	line "Einfach herrlich…"
+	para "isn't it?"
+	line "It's so pleasant…"
 
-	para "…Ich könnte gleich"
-	line "einschlafen…"
+	para "…I'm afraid I may"
+	line "doze off…"
 
-	para "Ich heiße ERIKA."
-	line "Ich bin die ARENA-"
-	cont "LEITERIN von"
-	cont "PRISMANIA CITY."
+	para "My name is ERIKA."
+	line "I am the LEADER of"
+	cont "CELADON GYM."
 
-	para "…Wirklich? Den"
-	line "ganzen Weg von "
-	cont "JOHTO? Wie nett…"
+	para "…Oh? All the way"
+	line "from JOHTO, you"
+	cont "say? How nice…"
 
-	para "Oh, entschuldige."
-	line "Ich wusste"
+	para "Oh. I'm sorry, I"
+	line "didn't realize"
 
-	para "nicht, dass du"
-	line "gegen mich kämpfen"
-	cont "willst."
+	para "that you wished to"
+	line "challenge me."
 
-	para "Nun gut. Ich werde"
-	line "jedenfalls nicht"
-	cont "verlieren."
+	para "Very well, but I"
+	line "shall not lose."
 	done
 
 ErikaBeatenText:
 	text "ERIKA: Oh!"
-	line "Ich gebe mich"
-	cont "geschlagen…"
+	line "I concede defeat…"
 
-	para "Du bist außerge-"
-	line "wöhnlich stark…"
+	para "You are remarkably"
+	line "strong…"
 
-	para "Ich gebe dir den"
-	line "FARBORDEN…"
+	para "I shall give you"
+	line "RAINBOWBADGE…"
 	done
 
 PlayerReceivedRainbowBadgeText:
-	text "<PLAYER> erhält"
-	line "FARBORDEN."
+	text "<PLAYER> received"
+	line "RAINBOWBADGE."
 	done
 
 ErikaExplainTMText:
-	text "ERIKA: Das war ein"
-	line "herrlicher Kampf."
+	text "ERIKA: That was a"
+	line "delightful match."
 
-	para "Das spornt zu"
-	line "neuen Taten an."
+	para "I felt inspired."
+	line "Please, I wish you"
+	cont "to have this TM."
 
-	para "Nimm bitte diese"
-	line "TM an."
+	para "It is GIGA DRAIN."
 
-	para "Es ist GIGASAUGER."
+	para "It is a wonderful"
+	line "move that drains"
 
-	para "Das ist eine"
-	line "schöne Attacke."
+	para "half the damage it"
+	line "inflicts to heal"
+	cont "your #MON."
 
-	para "Die Hälfte des zu-"
-	line "gefügten Schadens"
-	cont "wird zur Heilung"
-
-	para "deines #MON"
-	line "verwendet."
-
-	para "Verwende sie,"
-	line "wann immer du"
-	cont "möchtest…"
+	para "Please use it if"
+	line "it pleases you…"
 	done
 
 ErikaAfterBattleText:
-	text "ERIKA: Eine"
-	line "Niederlage ist"
+	text "ERIKA: Losing"
+	line "leaves a bitter"
+	cont "aftertaste…"
 
-	para "nicht sehr"
-	line "angenehm…"
+	para "But knowing that"
+	line "there are strong"
 
-	para "Aber es ist ein"
-	line "Ansporn, sich"
-
-	para "mehr anzustrengen,"
-	line "wenn man weiß,"
-
-	para "dass es starke"
-	line "Trainer gibt…"
+	para "trainers spurs me"
+	line "to do better…"
 	done
 
 LassMichelleSeenText:
-	text "Glaubst du, dass"
-	line "eine PKMN-ARENA"
-	cont "nur mit Mädchen"
-	cont "selten ist?"
+	text "Do you think a"
+	line "girls-only GYM"
+	cont "is rare?"
 	done
 
 LassMichelleBeatenText:
-	text "Ach nee!"
+	text "Oh, bleah!"
 	done
 
 LassMichelleAfterBattleText:
-	text "Ich wurde nur"
-	line "unvorsichtig, das"
-	cont "ist alles!"
+	text "I just got care-"
+	line "less, that's all!"
 	done
 
 PicnickerTanyaSeenText:
-	text "Oh, ein Kampf?"
-	line "Das macht mir ein"
-	cont "bisschen Angst,"
-	cont "aber von mir aus!"
+	text "Oh, a battle?"
+	line "That's kind of"
+	cont "scary, but OK!"
 	done
 
 PicnickerTanyaBeatenText:
-	text "Ach, das war es?"
+	text "Oh, that's it?"
 	done
 
 PicnickerTanyaAfterBattleText:
-	text "Oh, sieh nur, all"
-	line "die ORDEN. Kein"
+	text "Oh, look at all"
+	line "your BADGES. No"
 
-	para "Wunder, dass ich"
-	line "verloren habe!"
+	para "wonder I couldn't"
+	line "win!"
 	done
 
 BeautyJuliaSeenText:
-	text "Hast du die"
-	line "Blumen betrachtet"
-	cont "oder mich?"
+	text "Were you looking"
+	line "at these flowers"
+	cont "or at me?"
 	done
 
 BeautyJuliaBeatenText:
-	text "Wie ärgerlich!"
+	text "How annoying!"
 	done
 
 BeautyJuliaAfterBattleText:
-	text "Wie werde ich nur"
-	line "so damenhaft"
-	cont "wie ERIKA?"
+	text "How do I go about"
+	line "becoming ladylike"
+	cont "like ERIKA?"
 	done
 
 TwinsJoAndZoe1SeenText:
-	text "Wir zeigen dir"
-	line "#MON-Attacken,"
-	cont "die ERIKA uns"
-	cont "beigebracht hat!"
+	text "We'll show you"
+	line "#MON moves that"
+	cont "ERIKA taught us!"
 	done
 
 TwinsJoAndZoe1BeatenText:
-	text "Oh… Wir haben"
-	line "verloren…"
+	text "Oh… We lost…"
 	done
 
 TwinsJoAndZoe1AfterBattleText:
-	text "ERIKA wird es dir"
-	line "heimzahlen!"
+	text "ERIKA will get you"
+	line "back for us!"
 	done
 
 TwinsJoAndZoe2SeenText:
-	text "Wir werden ERIKA"
-	line "beschützen!"
+	text "We're going to"
+	line "protect ERIKA!"
 	done
 
 TwinsJoAndZoe2BeatenText:
-	text "Wir hatten keine"
-	line "Chance…"
+	text "We couldn't win…"
 	done
 
 TwinsJoAndZoe2AfterBattleText:
-	text "ERIKA ist viel"
-	line "stärker!"
+	text "ERIKA is much,"
+	line "much stronger!"
 	done
 
 CeladonGym_MapEvents:

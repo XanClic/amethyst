@@ -716,13 +716,7 @@ DayCare_InitBreeding:
 	ret
 
 .String_EGG:
-if !DEF(_CRYSTAL_EU)
 	db "EGG@"
-elif DEF(_CRYSTAL_DE)
-	db "EI@"
-elif DEF(_CRYSTAL_ES)
-	db "HUEVO@"
-endc
 
 Daycare_CheckAlternateOffspring:
 	; returns [wCurPartySpecies] in a, unless that species may give birth to an alternate species (e.g., gender variant)

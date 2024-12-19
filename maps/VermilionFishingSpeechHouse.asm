@@ -16,43 +16,35 @@ FishingDudesHouseBookshelf: ; unreferenced
 	jumpstd PictureBookshelfScript
 
 FishingDudeText:
-	text "Ich bin der ANG-"
-	line "LER, der Ältere"
-	cont "der ANGLERBRÜDER."
+	text "I am the FISHING"
+	line "DUDE, the elder of"
+	cont "the FISHING BROS."
 
-	para "Hast du den PROFI-"
-	line "ANGLER am SEE DES"
-	cont "ZORNS getroffen?"
+	para "Have you met the"
+	line "FISHING GURU at"
+	cont "LAKE OF RAGE?"
 
-	para "Er träumt davon,"
-	line "das größte"
+	para "He dreams about"
+	line "seeing the world's"
+	cont "greatest MAGIKARP."
 
-	para "KARPADOR der Welt"
-	line "zu sehen."
+	para "If you don't mind,"
+	line "could you show him"
 
-	para "Falls es dir"
-	line "nichts ausmacht,"
+	para "any MAGIKARP you"
+	line "catch?"
 
-	para "könntest du ihm"
-	line "jedes KARPADOR"
-
-	para "zeigen, das du"
-	line "fängst?"
-
-	para "Wer weiß, viel-"
-	line "leicht fängst du"
-
-	para "das KARPADOR"
-	line "seiner Träume."
+	para "Who knows, you may"
+	line "catch the MAGIKARP"
+	cont "of his dreams."
 	done
 
 FishingDudesHousePhotoText:
-	text "Das ist ein Foto,"
-	line "auf dem Angler zu"
-	cont "sehen sind…"
+	text "It's a photo of"
+	line "people fishing…"
 
-	para "Sie haben viel"
-	line "Spaß beim Angeln…"
+	para "They're having a"
+	line "great time…"
 	done
 
 VermilionFishingSpeechHouse_MapEvents:

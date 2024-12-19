@@ -10,12 +10,11 @@ Route15FuchsiaGateOfficerScript:
 	jumptextfaceplayer Route15FuchsiaGateOfficerText
 
 Route15FuchsiaGateOfficerText:
-	text "Du arbeitest an"
-	line "einem #DEX? Das"
+	text "You're working on"
+	line "a #DEX? That's"
 
-	para "ist doch schon"
-	line "etwas."
-	cont "Gib nicht auf!"
+	para "really something."
+	line "Don't give up!"
 	done
 
 Route15FuchsiaGate_MapEvents:

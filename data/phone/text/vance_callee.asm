@@ -1,83 +1,81 @@
 VanceAnswerPhoneText:
-	text "Ja, hallo? Hier"
-	line "ist @"
+	text "Yes, hello?"
+	line "@"
 	text_ram wStringBuffer3
-	text "!"
+	text " here!"
 
-	para "Moin, <PLAY_G>!"
+	para "Morning, <PLAY_G>!"
 
-	para "Setzt du Vogel-"
-	line "#MON ein?"
+	para "Are you using bird"
+	line "#MON?"
 	done
 
 VanceAnswerPhoneDayText:
-	text "Ja, hallo? Hier"
-	line "ist @"
+	text "Yes, hello?"
+	line "@"
 	text_ram wStringBuffer3
-	text "!"
+	text " here!"
 
-	para "Moin, <PLAY_G>!"
+	para "Hi, <PLAY_G>!"
 
-	para "Fliegen deine"
-	line "Vogel-#MON?"
+	para "Are your bird"
+	line "#MON flying?"
 	done
 
 VanceAnswerPhoneNiteText:
-	text "Ja, hallo? Hier"
-	line "ist @"
+	text "Yes, hello?"
+	line "@"
 	text_ram wStringBuffer3
-	text "!"
+	text " here!"
 
-	para "N'Abend, <PLAY_G>!"
-	line "Dürfen sich deine"
+	para "Evening, <PLAY_G>!"
+	line "Are you letting"
 
-	para "Vogel-#MON wil-"
-	line "de Sachen ansehen?"
+	para "your bird #MON"
+	line "see some action?"
 	done
 
 VanceGreetText:
-	text "Guten Morgen,"
+	text "Good morning,"
 	line "<PLAY_G>!"
 
-	para "@"
+	para "It's @"
 	text_ram wStringBuffer3
-	text " hier!"
-	line "Guten Morgen!"
+	text "!"
+	line "Good morning!"
 	done
 
 VanceGreetDayText:
 	text "Hi, <PLAY_G>!"
 
-	para "@"
+	para "It's @"
 	text_ram wStringBuffer3
-	text " hier!"
-	line "Erinnerst du dich?"
+	text "!"
+	line "Remember me?"
 	done
 
 VanceGreetNiteText:
-	text "Guten Abend,"
+	text "Good evening,"
 	line "<PLAY_G>!"
 
-	para "@"
+	para "It's @"
 	text_ram wStringBuffer3
-	text " hier!"
-	line "Hast du Zeit?"
+	text "!"
+	line "Are you free now?"
 	done
 
 VanceGenericText:
-	text "Geht es dir und"
-	line "deinen #MON"
-	cont "gut?"
+	text "Are you and your"
+	line "#MON fine?"
 
-	para "Mein @"
+	para "My @"
 	text_ram wStringBuffer4
 	text_start
-	line "scheint so stark"
+	line "looks like it will"
 
-	para "werden zu wollen,"
-	line "dass es das legen-"
-	cont "däre VOGEL-#MON"
+	para "get tough enough"
+	line "to face and beat"
 
-	para "herausfordern und"
-	line "besiegen möchte!"
+	para "the legendary bird"
+	line "#MON!"
 	done

@@ -1,10 +1,10 @@
-	db "KAULQUAPPE@" ; species name
-	dbw 13, 540 ; height, weight
+	db "TADPOLE@" ; species name
+	dw 403, 1190 ; height, weight
 
-	db   "Mittels seiner"
-	next "starken Arme und"
-	next "Beine kann es für"
+	db   "It can use its"
+	next "well-developed"
+	next "arms and legs to"
 
-	page "den Bruchteil"
-	next "einer Sekunde über"
-	next "Wasser laufen.@"
+	page "run on the surface"
+	next "of the water for a"
+	next "split second.@"

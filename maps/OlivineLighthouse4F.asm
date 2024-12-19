@@ -30,62 +30,53 @@ TrainerSailorKent:
 	end
 
 SailorKentSeenText:
-	text "JASMIN muss krank"
-	line "vor Sorge um das"
-	cont "#MON hier sein."
+	text "JASMINE must be"
+	line "worried sick about"
+	cont "the #MON here."
 
-	para "Man sieht sie"
-	line "momentan nicht"
-	cont "einmal lächeln."
+	para "She won't even"
+	line "smile these days."
 	done
 
 SailorKentBeatenText:
-	text "Ich habe im"
-	line "Moment auch nichts"
-	cont "zu lachen…"
+	text "I can't manage a"
+	line "smile either…"
 	done
 
 SailorKentAfterBattleText:
-	text "Apropos krank: Mir"
-	line "ist zu Ohren"
+	text "Speaking of sick,"
+	line "I've heard there's"
 
-	para "gekommen, dass es"
-	line "in ANEMONIA CITY"
-	cont "eine gute APOTHEKE"
-	cont "geben soll."
+	para "a good PHARMACY in"
+	line "CIANWOOD."
 	done
 
 LassConnie1SeenText:
-	text "JASMIN ist die"
-	line "ARENALEITERIN in"
-	cont "dieser Stadt."
+	text "JASMINE is this"
+	line "city's GYM LEADER."
 
-	para "Ich möchte, dass"
-	line "sie mit mir"
-	cont "zurückkommt."
+	para "I mean to bring"
+	line "her back with me."
 
-	para "Es ist besser,"
-	line "niemand stellt"
-	cont "sich mir in den"
-	cont "Weg!"
+	para "Nobody had better"
+	line "get in my way!"
 	done
 
 LassConnie1BeatenText:
-	text "Uh! Meine #MON!"
+	text "Aaack! My #MON!"
 	done
 
 LassConnie1AfterBattleText:
-	text "O.K. Jeder wäre"
-	line "besorgt, wenn"
-	cont "seine #MON"
-	cont "verletzt sind."
+	text "Right. Anybody"
+	line "would be worried"
+	cont "if his or her own"
+	cont "#MON were hurt."
 
-	para "Ich werde für das"
-	line "#MON beten,"
+	para "I'll pray for the"
+	line "#MON here, so"
 
-	para "dann kann JASMIN"
-	line "in die PKMN-ARENA"
-	cont "zurückkehren."
+	para "JASMINE can come"
+	line "back to the GYM."
 	done
 
 OlivineLighthouse4F_MapEvents:

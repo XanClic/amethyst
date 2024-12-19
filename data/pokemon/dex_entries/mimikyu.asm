@@ -1,11 +1,11 @@
-	db "KOSTÜMSPUK@" ; species name
-	dbw 2, 7 ; height, weight
+	db "DISGUISE@" ; species name
+	dw 8, 200 ; height, weight
 
 	;  "| ----------------- |"
-	db   "Oft einsam, ver-"
-	next "steckt es seine"
-	next "grausige Gestalt"
+	db   "A lonely #MON,"
+	next "it hides its ter-"
+	next "rifying appearance"
 
-	page "unter Lumpen, um"
-	next "sich Menschen und"
-	next "#MON zu nähern.@"
+	page "under a rag to get"
+	next "closer to people"
+	next "and other #MON.@"

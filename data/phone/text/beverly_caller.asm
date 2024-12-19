@@ -1,86 +1,82 @@
 BeverlyMadeMonEvenCuterText:
-	text "Ich habe mein"
+	text "I fancied up my"
 	line "@"
 	text_ram wStringBuffer4
-	text " ver-"
-	cont "schönert und es"
+	text " and"
 
-	para "ist somit noch"
-	line "süßer als zuvor!"
+	para "made it even cuter"
+	line "than before!"
 	done
 
 BeverlyDefeatedMonText:
-	text "Ich habe vor"
-	line "kurzem ein wildes"
-	cont "SNUBBULL gesehen."
+	text "I happened to come"
+	line "across a wild"
+	cont "SNUBBULL recently."
 
-	para "Mein SNUBBULL, da"
-	line "bin ich sicher,"
+	para "My SNUBBULL, I"
+	line "assure you, was"
 
-	para "war viel süßer"
-	line "als das wilde."
+	para "far cuter than the"
+	line "wild one."
 	done
 
 BeverlyLostAMonText:
-	text "Ich habe neulich"
-	line "zufällig ein"
+	text "I happened to see"
+	line "a wild MARILL the"
 
-	para "wildes MARILL ge-"
-	line "sehen. Dachte ich"
-	cont "zumindest."
+	para "other day."
+	line "Or so I thought."
 
-	para "Bei näherem Hin-"
-	line "sehen, stellte ich"
+	para "A closer look"
+	line "showed it was"
 
-	para "fest, dass es ein"
-	line "@"
+	para "@"
 	text_ram wStringBuffer4
-	text " war."
-	cont "Ich war verärgert."
+	text ". I was"
+	line "quite miffed."
 	done
 
 BeverlyHangUpText:
-	text "Ich melde mich,"
-	line "versprochen."
+	text "You can expect a"
+	line "call from me."
 	done
 
 BeverlyFoundItemText:
-	text "Mein Mann hat"
-	line "einige NUGGETS."
+	text "My husband got"
+	line "some NUGGETS."
 
-	para "Wenn du möchtest,"
-	line "gebe ich dir einen"
+	para "If you'd like, you"
+	line "could have one as"
 
-	para "dafür, dass du"
-	line "mir geholfen hast."
+	para "thanks for helping"
+	line "me out."
 
-	para "Ich bin hier:"
+	para "I'll be at"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "Komm vorbei, wenn"
-	line "du möchtest."
+	para "Please come see me"
+	line "when you can."
 	done
 
 BeverlyLetsChatAboutMonAgainText:
-	text "Sind deine #-"
-	line "MON in Top-Form?"
+	text "Are your #MON"
+	line "in prime form?"
 
-	para "Lass uns mal wie-"
-	line "der über #MON"
-	cont "plaudern."
+	para "Let's chat about"
+	line "#MON again."
 	done
 
 BeverlyComePickUpText:
-	text "Wie bitte?"
-	line "Oh, der NUGGET?"
+	text "Pardon?"
+	line "Oh, the NUGGET?"
 
-	para "Nur keine Eile."
-	line "Du findest mich"
+	para "There's no need to"
+	line "hurry. Come see me"
 
-	para "hier:"
-	line "@"
+	para "in @"
 	text_ram wStringBuffer5
-	text "."
+	text_start
+	line "when you can."
 	done

@@ -1,10 +1,10 @@
-	db "GIFTWOLKE@" ; species name
-	dbw 6, 10 ; height, weight
+	db "POISON GAS@" ; species name
+	dw 200, 20 ; height, weight
 
-	db   "Ist man nahe bei"
-	next "ihm, wenn es Gift-"
-	next "gas ablässt, kann"
+	db   "If one gets close"
+	next "enough to it when"
+	next "it expels poison-"
 
-	page "man die Luftver-"
-	next "wirbelungen im"
-	next "Inneren erkennen.@"
+	page "ous gas, the gas"
+	next "swirling inside it"
+	next "can be seen.@"

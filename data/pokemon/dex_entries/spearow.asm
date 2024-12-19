@@ -1,10 +1,10 @@
-	db "KLEINVOGEL@" ; species name
-	dbw 3, 20 ; height, weight
+	db "TINY BIRD@" ; species name
+	dw 100, 40 ; height, weight
 
-	db   "Es fliegt ständig"
-	next "umher, um sein"
-	next "Habitat zu be-"
+	db   "To protect its"
+	next "territory, it"
+	next "flies around"
 
-	page "schützen. Dabei"
-	next "stößt es grelle"
-	next "Schreie aus.@"
+	page "ceaselessly,"
+	next "making high-"
+	next "pitched cries.@"

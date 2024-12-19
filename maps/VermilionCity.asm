@@ -124,159 +124,145 @@ VermilionCityHiddenFullHeal:
 	hiddenitem FULL_HEAL, EVENT_VERMILION_CITY_HIDDEN_FULL_HEAL
 
 VermilionCityTeacherText:
-	text "Der HAFEN von"
-	line "ORANIA CITY ist"
-	cont "das Tor KANTOs"
-	cont "zum Meer."
+	text "VERMILION PORT is"
+	line "KANTO's seaside"
+	cont "gateway."
 
-	para "Hier legen Luxus-"
-	line "dampfer aus aller"
-	cont "Welt an."
+	para "Luxury liners from"
+	line "around the world"
+	cont "dock here."
 	done
 
 VermilionMachopOwnerText:
-	text "Mein #MON"
-	line "ebnet das Land"
-	cont "für ein Bauwerk."
+	text "My #MON is"
+	line "preparing the land"
+	cont "for construction."
 
-	para "Aber ich habe"
-	line "nicht genug Geld"
-	cont "für das Projekt…"
+	para "But I have no"
+	line "money to start the"
+	cont "project…"
 	done
 
 VermilionMachopText1:
-	text "MACHOLLO: Guooh"
+	text "MACHOP: Guooh"
 	line "gogogoh!"
 	done
 
 VermilionMachopText2:
-	text "Ein MACHOLLO"
-	line "brüllt laut,"
-	cont "während es auf"
-	cont "den Boden stampft."
+	text "A MACHOP is growl-"
+	line "ing while stomping"
+	cont "the ground flat."
 	done
 
 VermilionCitySuperNerdText:
-	text "Es gibt acht"
-	line "ARENEN in KANTO."
+	text "There are eight"
+	line "GYMS in KANTO."
 
-	para "Das große Gebäude"
-	line "ist die PKMN-ARENA"
-	cont "von ORANIA CITY."
+	para "That big building"
+	line "is VERMILION's"
+	cont "#MON GYM."
 	done
 
 VermilionCitySnorlaxSleepingText:
-	text "RELAXO schläft"
-	line "friedlich…"
+	text "SNORLAX is snoring"
+	line "peacefully…"
 	done
 
 VermilionCityRadioNearSnorlaxText:
-	text "Der #COM wird"
-	line "in der Nähe des"
-	cont "schlafenden"
-	cont "RELAXOs platziert…"
+	text "The #GEAR was"
+	line "placed near the"
+	cont "sleeping SNORLAX…"
 
 	para "…"
 
-	para "RELAXO ist"
-	line "aufgewacht!"
+	para "SNORLAX woke up!"
 	done
 
 VermilionCityBadgeGuyTrainerText:
-	text "In KANTO treffen"
-	line "sich talentierte"
-	cont "Trainer."
+	text "Skilled trainers"
+	line "gather in KANTO."
 
-	para "ARENALEITER sind"
-	line "besonders stark."
+	para "GYM LEADERS are"
+	line "especially strong."
 
-	para "Es ist nicht"
-	line "leicht, sie zu"
-	cont "besiegen."
+	para "They won't be easy"
+	line "to defeat."
 	done
 
 VermilionCityBadgeGuySomeBadgesText:
-	text "Du sammelst ORDEN"
-	line "der ARENEN in"
-	cont "KANTO?"
+	text "You've started to"
+	line "collect KANTO GYM"
+	cont "BADGES?"
 
-	para "Findest du nicht"
-	line "auch, dass die"
-	cont "Trainer hier stark"
-	cont "sind?"
+	para "Don't you agree"
+	line "that the trainers"
+	cont "here are tough?"
 	done
 
 VermilionCityBadgeGuyMostBadgesText:
-	text "Ich schätze, du"
-	line "hast diesen Wett-"
-	cont "kampf der ARENEN"
-	cont "in KANTO bald"
-	cont "beendet."
+	text "I guess you'll be"
+	line "finished with your"
 
-	para "Lass mich wissen,"
-	line "wenn du alle acht"
-	cont "ORDEN hast."
+	para "conquest of KANTO"
+	line "GYMS soon."
+
+	para "Let me know if"
+	line "you get all eight"
+	cont "BADGES."
 	done
 
 VermilionCityBadgeGuyAllBadgesText:
-	text "Gratuliere!"
+	text "Congratulations!"
 
-	para "Du hast alle ORDEN"
-	line "der ARENEN in"
-	cont "KANTO."
+	para "You got all the"
+	line "KANTO GYM BADGES."
 
-	para "Ich habe hier eine"
-	line "Belohnung für"
-	cont "deine"
-	cont "Anstrengungen."
+	para "I've got a reward"
+	line "for your efforts."
 	done
 
 VermilionCityBadgeGuyBattleEdgeText:
-	text "Es ist vorteil-"
-	line "haft, wenn du"
+	text "Having a variety"
+	line "of #MON types"
 
-	para "#MON verschie-"
-	line "dener Elemente"
-	cont "kämpfen lässt."
+	para "should give you an"
+	line "edge in battle."
 
-	para "Ich bin sicher,"
-	line "dass die ORDEN der"
-	cont "ARENEN in KANTO"
-	cont "dir helfen werden."
+	para "I'm sure the KANTO"
+	line "GYM BADGES will"
+	cont "help you."
 	done
 
 VermilionCitySignText:
-	text "ORANIA CITY"
+	text "VERMILION CITY"
 
-	para "Der Hafen Der"
-	line "Stimmungsvollen"
-	cont "Sonnenuntergänge"
+	para "The Port of"
+	line "Exquisite Sunsets"
 	done
 
 VermilionGymSignText:
-	text "PKMN-ARENA von"
-	line "ORANIA CITY"
+	text "VERMILION CITY"
+	line "#MON GYM"
+	cont "LEADER: LT.SURGE"
 
-	para "LEITUNG: MAJOR BOB"
-	line "Der Blitzschnelle"
-
-	para "Amerikaner"
+	para "The Lightning"
+	line "American"
 	done
 
 PokemonFanClubSignText:
-	text "#MON-FANCLUB"
+	text "#MON FAN CLUB"
 
-	para "Alle #MON-Fans"
-	line "sind willkommen!"
+	para "All #MON Fans"
+	line "Welcome!"
 	done
 
 VermilionCityDiglettsCaveSignText:
-	text "DIGDAs HÖHLE"
+	text "DIGLETT'S CAVE"
 	done
 
 VermilionCityPortSignText:
-	text "EINGANG zum HAFEN"
-	line "von ORANIA CITY"
+	text "VERMILION PORT"
+	line "ENTRANCE"
 	done
 
 VermilionCity_MapEvents:

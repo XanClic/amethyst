@@ -1,69 +1,67 @@
 GinaAskNumber1Text:
-	text "Immer wenn ich auf"
-	line "einen starken"
+	text "Whenever I see a"
+	line "strong trainer, I"
 
-	para "Trainer treffe,"
-	line "möchte ich sein"
-	cont "Cheerleader sein."
+	para "want to be their"
+	line "cheerleader."
 
-	para "Manchmal finde ich"
-	line "Items bei einem"
-	cont "Spaziergang."
+	para "When I'm on my"
+	line "walk, I sometimes"
+	cont "pick up items."
 
-	para "Finde ich etwas,"
-	line "bekommst du es."
+	para "If I get anything,"
+	line "you can have it!"
 
-	para "Gibst du mir deine"
-	line "Telefonnummer?"
+	para "Want to give me"
+	line "your number?"
 
-	para "Ich rufe an, wenn"
-	line "ich etwas finde."
+	para "I'll call as soon"
+	line "as I get anything."
 	done
 
 GinaAskNumber2Text:
-	text "Falls ich ein Item"
-	line "finde, gebe ich"
-	cont "es dir!"
+	text "If I find an item,"
+	line "you can have it!"
 
-	para "Gibst du mir deine"
-	line "Telefonnummer?"
+	para "Want to give me"
+	line "your number?"
 	done
 
 GinaNumberAcceptedText:
-	text "Ich rufe an, wenn"
-	line "ich etwas habe!"
+	text "I'll call as soon"
+	line "as I get anything!"
 	done
 
 GinaNumberDeclinedText:
-	text "Stimmt das? Nun,"
-	line "ich jubele dir"
-	cont "noch immer zu!"
+	text "Is that so? Well,"
+	line "I'll still be"
+	cont "rooting for you!"
 	done
 
 GinaPhoneFullText:
-	text "Dein Nummern-"
-	line "speicher ist voll!"
+	text "But your phone is"
+	line "all filled up!"
 	done
 
 GinaRematchText:
-	text "Ich warte!"
+	text "I've been waiting!"
 
-	para "Ich habe Fort-"
-	line "schritte gemacht!"
+	para "I've gotten a bit"
+	line "better at this!"
 	done
 
 GinaGiftText:
-	text "Endlich bist du"
-	line "gekommen!"
+	text "So you're finally"
+	line "here!"
 
-	para "Ich denke, das"
-	line "wird dir gefallen."
+	para "I think this will"
+	line "make you happy."
 	done
 
 GinaPackFullText:
-	text "Dein BEUTEL ist"
-	line "randvoll."
+	text "Your PACK looks"
+	line "completely full."
 
-	para "Das muss ich wohl"
-	line "behalten."
+	para "I'll have to hold"
+	line "on to this."
 	done

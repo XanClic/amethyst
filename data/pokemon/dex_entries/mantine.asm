@@ -1,10 +1,10 @@
-	db "FLUGROCHEN@" ; species name
-	dbw 21, 2200 ; height, weight
+	db "KITE@" ; species name
+	dw 611, 4850 ; height, weight
 
-	db   "Es schwimmt frei"
-	next "umher und frisst"
-	next "alles, was ihm ins"
+	db   "It swims along"
+	next "freely, eating"
+	next "things that swim"
 
-	page "Maul schwimmt."
-	next "Sein gesamter"
-	next "Körper ist rauh.@"
+	page "into its mouth."
+	next "Its whole body is"
+	next "very coarse.@"

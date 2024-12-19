@@ -10,29 +10,26 @@ Route7LockedDoor:
 	jumptext Route7LockedDoorText
 
 Route7UndergroundPathSignText:
-	text "Was steht auf dem"
-	line "Flugblatt?"
+	text "What's this flyer?"
 
-	para "…Ruppige Trainer"
-	line "tragen auf dem"
+	para "… Uncouth trainers"
+	line "have been holding"
 
-	para "TUNNELPFAD Kämpfe"
-	line "aus."
+	para "battles in the"
+	line "UNDERGROUND PATH."
 
-	para "Da sich die"
-	line "Beschwerden der"
-	cont "Anwohner häuften,"
-	cont "wurde der"
-	cont "TUNNELPFAD auf"
-	cont "unbestimmte Zeit"
-	cont "geschlossen."
+	para "Because of rising"
+	line "complaints by lo-"
+	cont "cal residents, the"
+	cont "UNDERGROUND PATH"
+	cont "has been sealed"
+	cont "indefinitely."
 
-	para "ORDNUNGSAMT VON"
-	line "PRISMANIA CITY"
+	para "CELADON POLICE"
 	done
 
 Route7LockedDoorText:
-	text "Es ist verriegelt…"
+	text "It's locked…"
 	done
 
 Route7_MapEvents:

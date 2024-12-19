@@ -37,48 +37,45 @@ Route1FruitTree:
 	fruittree FRUITTREE_ROUTE_1
 
 SchoolboyDannySeenText:
-	text "Wenn sich zwei"
-	line "Trainer begegnen,"
-	cont "wollen sie sofort"
-	cont "kämpfen."
+	text "If trainers meet,"
+	line "the first thing to"
+	cont "do is battle."
 	done
 
 SchoolboyDannyBeatenText:
-	text "Argh… Ich"
-	line "habe erneut"
-	cont "verloren…"
+	text "Awww… I've got a"
+	line "losing record…"
 	done
 
 SchoolboyDannyAfterBattleText:
-	text "Es ist ein"
-	line "ungeschriebenes"
+	text "For trainers, it's"
+	line "a given that we'll"
 
-	para "Gesetz, dass Trai-"
-	line "ner kämpfen, wenn"
-	cont "sie sich begegnen."
+	para "battle whenever we"
+	line "meet."
 	done
 
 CooltrainerfQuinnSeenText:
-	text "Du da!"
-	line "Willst du kämpfen?"
+	text "You there!"
+	line "Want to battle?"
 	done
 
 CooltrainerfQuinnBeatenText:
-	text "Versagt und weg…"
+	text "Down and out…"
 	done
 
 CooltrainerfQuinnAfterBattleText:
-	text "Du bist stark."
+	text "You're strong."
 
-	para "Du hast offenbar"
-	line "hart trainiert."
+	para "You obviously must"
+	line "have trained hard."
 	done
 
 Route1SignText:
 	text "ROUTE 1"
 
-	para "ALABASTIA -"
-	line "VERTANIA CITY"
+	para "PALLET TOWN -"
+	line "VIRIDIAN CITY"
 	done
 
 Route1_MapEvents:

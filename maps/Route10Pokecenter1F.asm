@@ -35,51 +35,47 @@ Route10Pokecenter1FCooltrainerFScript:
 	jumptextfaceplayer Route10Pokecenter1FCooltrainerFText
 
 Route10Pokecenter1FGentlemanText:
-	text "Ein #MON-CENTER"
-	line "neben einem"
-	cont "Tunnel?"
+	text "A #MON CENTER"
+	line "near a cave?"
 
-	para "Das ist sehr"
-	line "praktisch."
+	para "That's mighty"
+	line "convenient."
 	done
 
 Route10Pokecenter1FGymGuideText:
-	text "Der DIREKTOR des"
-	line "KRAFTWERKs sucht"
+	text "The POWER PLANT's"
+	line "MANAGER is looking"
 
-	para "einen starken"
-	line "#MON-Trainer."
+	para "for a strong #-"
+	line "MON trainer."
 
-	para "Er braucht Hilfe"
-	line "bei der Suche nach"
+	para "He needs help"
+	line "getting back"
 
-	para "einem gestohlenen"
-	line "Gegenstand."
+	para "something that"
+	line "was stolen."
 	done
 
 Route10Pokecenter1FGymGuideText_ReturnedMachinePart:
-	text "Ich hörte, dass"
-	line "TEAM ROCKET sich"
+	text "I hear TEAM ROCKET"
+	line "got back together"
 
-	para "in JOHTO re-"
-	line "formierte, aber"
-	cont "kurz danach wieder"
-	cont "zerschlagen wurde."
+	para "in JOHTO but fell"
+	line "apart right away."
 
-	para "Darüber weiß ich"
-	line "leider nichts."
+	para "I didn't know any-"
+	line "thing about that."
 	done
 
 Route10Pokecenter1FCooltrainerFText:
-	text "Wenn du das"
-	line "Gebäude verlässt,"
+	text "When you go out-"
+	line "side, you can see"
 
-	para "kannst du das Dach"
-	line "eines großen"
-	cont "Hauses sehen."
+	para "the roof of a big"
+	line "building."
 
-	para "Das ist das"
-	line "KRAFTWERK."
+	para "That's the POWER"
+	line "PLANT."
 	done
 
 Route10Pokecenter1F_MapEvents:

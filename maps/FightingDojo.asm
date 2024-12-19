@@ -20,24 +20,24 @@ FightingDojoFocusBand:
 	itemball FOCUS_BAND
 
 FightingDojoBlackBeltText:
-	text "Hallo!"
+	text "Hello!"
 
-	para "Der KARATE-"
-	line "MEISTER, der"
+	para "KARATE KING, the"
+	line "FIGHTING DOJO's"
 
-	para "Leiter des KARATE"
-	line "DOJO, übt in einer"
-	cont "Höhle in JOHTO."
+	para "master, is in a"
+	line "cave in JOHTO for"
+	cont "training."
 	done
 
 FightingDojoSign1Text:
-	text "Es geschieht, was"
-	line "geschehen muss!"
+	text "What goes around"
+	line "comes around!"
 	done
 
 FightingDojoSign2Text:
-	text "Feinde, wo man"
-	line "hinsieht!"
+	text "Enemies on every"
+	line "side!"
 	done
 
 FightingDojo_MapEvents:

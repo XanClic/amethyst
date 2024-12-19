@@ -193,58 +193,56 @@ Rocket2Script_LetsYouPassNorth:
 	step_end
 
 RocketText_TollFee:
-	text "Stehengeblieben!"
+	text "Hold it there,"
+	line "kiddo!"
 
-	para "Der Wegzoll"
-	line "beträgt ¥1000."
+	para "The toll is ¥{d:ROUTE43GATE_TOLL}"
+	line "to go through."
 	done
 
 RocketText_ThankYou:
-	text "Vielen Dank!"
+	text "Thank you very"
+	line "much!"
 	done
 
 RocketText_AllYouGot:
-	text "Dann zahle bitte,"
-	line "so viel du hast."
+	text "Then pay what you"
+	line "have, please."
 	done
 
 RocketText_MakingABundle:
-	text "Ha, ha, ha. Wir"
-	line "machen viel Geld."
+	text "He-he-he. We're"
+	line "making a bundle."
 
-	para "Jeder möchte"
-	line "wissen, was los"
+	para "Everyone wants to"
+	line "see what's going"
 
-	para "ist am"
-	line "SEE DES ZORNS."
+	para "on up at LAKE OF"
+	line "RAGE."
 	done
 
 OfficerText_FoundTM:
-	text "Diese Schläger-"
-	line "typen in Schwarz"
-	cont "haben mich von"
-	cont "meinem Posten"
-	cont "verjagt."
+	text "I got chased from"
+	line "my post by these"
+	cont "thugs in black."
 
-	para "Sie haben das hier"
-	line "zurückgelassen."
+	para "They left this"
+	line "behind."
 
-	para "Ich bekomme bei"
-	line "diesem Ding eine"
-	cont "Gänsehaut. Kannst"
-	cont "du es bitte"
-	cont "mitnehmen?"
+	para "It makes me uncom-"
+	line "fortable. Could"
+	cont "you take it away?"
 	done
 
 Text_ReceivedTM30: ; unreferenced
-	text "<PLAYER> erhält"
+	text "<PLAYER> received"
 	line "TM30."
 	done
 
 OfficerText_AvoidGrass:
-	text "Gehe durch dieses"
-	line "Tor. Dann meidest"
-	cont "du das Gras."
+	text "Use this gate to"
+	line "avoid walking in"
+	cont "the grass."
 	done
 
 Route43Gate_MapEvents:

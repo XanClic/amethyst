@@ -33,34 +33,29 @@ MahoganyRedGyaradosSpeechHouseUnusedBookshelf2: ; unreferenced
 	jumpstd MagazineBookshelfScript
 
 MahoganyRedGyaradosSpeechHouseBlackBeltText:
-	text "Ich hörte, dass"
-	line "ein rotes GARADOS"
+	text "I heard that a red"
+	line "GYARADOS appeared"
+	cont "at the LAKE."
 
-	para "am SEE erschienen"
-	line "sein soll."
+	para "That's odd, since"
+	line "even ordinary"
 
-	para "Das ist seltsam,"
-	line "da schon normale"
-
-	para "GARADOS in diesem"
-	line "See sehr selten"
-
-	para "sind…"
+	para "GYARADOS are rare"
+	line "in that lake…"
 	done
 
 MahoganyRedGyaradosSpeechHouseTeacherText:
-	text "Mein Lieblingspro-"
-	line "gramm im Radio?"
-	cont "Ich würde sagen"
-	cont "#MON-MUSIK."
+	text "My favorite radio"
+	line "program? I'd say"
+	cont "#MON MUSIC."
 	done
 
 MahoganyRedGyaradosSpeechHouseTeacherText_RocketsInRadioTower:
-	text "Ich habe Gelächter"
-	line "im Radio gehört…"
+	text "I've been hearing"
+	line "laughter on the"
 
-	para "Das war unheim-"
-	line "lich."
+	para "radio…"
+	line "It's creepy."
 	done
 
 MahoganyRedGyaradosSpeechHouse_MapEvents:

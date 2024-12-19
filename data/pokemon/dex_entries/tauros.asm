@@ -1,10 +1,10 @@
-	db "WILDBULLE@" ; species name
-	dbw 14, 884 ; height, weight
+	db "WILD BULL@" ; species name
+	dw 407, 1950 ; height, weight
 
-	db   "Diese aggressiven"
-	next "#MON kämpfen"
-	next "mit anderen aus"
+	db   "These violent"
+	next "#MON fight"
+	next "with other mem-"
 
-	page "ihrer Herde, um"
-	next "ihre Stärke zu"
-	next "beweisen.@"
+	page "bers of their herd"
+	next "in order to prove"
+	next "their strength.@"

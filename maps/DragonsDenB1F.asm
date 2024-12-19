@@ -203,215 +203,204 @@ MovementDragonsDen_ClairWalksAway:
 	step_end
 
 ClairText_Wait:
-	text "Moment!"
+	text "Wait!"
 	done
 
 ClairText_GiveDragonbreathDragonDen:
-	text "SANDRA: Das tut"
-	line "mir Leid."
+	text "CLAIR: I'm sorry"
+	line "about this."
 
-	para "Hier, nimm das als"
-	line "Entschuldigung."
+	para "Here, take this as"
+	line "my apology."
 	done
 
 Text_ReceivedTM24:
-	text "<PLAYER> erhält"
+	text "<PLAYER> received"
 	line "TM24."
 	done
 
 ClairText_DescribeDragonbreathDragonDen:
-	text "Sie enthält"
-	line "FEUERODEM."
+	text "That contains"
+	line "DRAGONBREATH."
 
-	para "Nein, das hat"
-	line "nichts mit meinem"
-	cont "Atem zu tun."
+	para "No, it doesn't"
+	line "have anything to"
+	cont "do with my breath."
 
-	para "Wenn du sie nicht"
-	line "möchtest, musst du"
-	cont "sie nicht nehmen."
+	para "If you don't want"
+	line "it, you don't have"
+	cont "to take it."
 	done
 
 ClairText_NoRoom:
-	text "Oh? Du hast keinen"
-	line "Platz dafür."
+	text "Oh? You don't have"
+	line "any room for this."
 
-	para "Ich bin in der"
-	line "PKMN-ARENA, schaf-"
-	cont "fe Platz und komme"
-	cont "dann dorthin."
+	para "I'm going back to"
+	line "the GYM, so make"
+
+	para "room, then come"
+	line "see me there."
 	done
 
 ClairText_WhatsTheMatterDragonDen:
-	text "SANDRA: Was ist"
-	line "los? Willst du"
+	text "CLAIR: What's the"
+	line "matter? Aren't you"
 
-	para "nicht zur"
-	line "#MON LIGA?"
+	para "going on to the"
+	line "#MON LEAGUE?"
 
-	para "Weißt du, wie du"
-	line "dorthin gelangst?"
+	para "Do you know how to"
+	line "get there?"
 
-	para "Gehe von hier nach"
-	line "NEUBORKIA."
+	para "From here, go to"
+	line "NEW BARK TOWN."
 
-	para "SURFE dann gen"
-	line "Osten zur"
-	cont "#MON LIGA."
+	para "Then SURF east to"
+	line "#MON LEAGUE."
 
-	para "Die Route ist"
-	line "schwierig."
+	para "The route there is"
+	line "very tough."
 
-	para "Wage es nicht,"
-	line "in der #MON"
-	cont "LIGA zu verlieren!"
+	para "Don't you dare"
+	line "lose at the #-"
+	cont "MON LEAGUE!"
 
-	para "Wenn du verlierst,"
-	line "macht das meine"
+	para "If you do, I'll"
+	line "feel even worse"
 
-	para "Niederlage gegen"
-	line "dich noch härter!"
+	para "about having lost"
+	line "to you!"
 
-	para "Gib dein Bestes!"
+	para "Give it everything"
+	line "you've got."
 	done
 
 DragonShrineSignpostText:
-	text "DRACHENSCHREIN"
+	text "DRAGON SHRINE"
 
-	para "Der Schrein ehrt"
-	line "die Drachen #-"
-	cont "MON, die früher"
+	para "A shrine honoring"
+	line "the dragon #MON"
 
-	para "in der DRACHEN-"
-	line "HÖHLE gelebt haben"
-	cont "sollen."
+	para "said to have lived"
+	line "in DRAGON'S DEN."
 	done
 
 RivalText_Training1:
 	text "…"
-	line "Was? <PLAYER>?"
+	line "What? <PLAYER>?"
 
-	para "…Nein, ich"
-	line "möchte jetzt nicht"
-	cont "mit dir kämpfen…"
+	para "…No, I won't"
+	line "battle you now…"
 
-	para "Meine #MON sind"
-	line "noch nicht bereit,"
-	cont "dich zu schlagen."
+	para "My #MON aren't"
+	line "ready to beat you."
 
-	para "Ich darf sie nicht"
-	line "zu schroff"
-	cont "behandeln."
+	para "I can't push them"
+	line "too hard now."
 
-	para "Ich muss diszipli-"
-	line "nierter sein, wenn"
+	para "I have to be dis-"
+	line "ciplined to become"
 
-	para "ich der weltbeste"
-	line "#MON-Trainer"
-	cont "werden möchte…"
+	para "the greatest #-"
+	line "MON trainer…"
 	done
 
 RivalText_Training2:
 	text "…"
 
-	para "Wow…"
+	para "Whew…"
 
-	para "Du musst lernen,"
-	line "mir aus dem Weg"
-	cont "zu gehen…"
+	para "Learn to stay out"
+	line "of my way…"
 	done
 
 CooltrainermDarinSeenText:
-	text "Du! Wie kannst du"
-	line "es wagen! Niemand"
-
-	para "bat dich"
-	line "einzutreten!"
+	text "You! How dare you"
+	line "enter uninvited!"
 	done
 
 CooltrainermDarinBeatenText:
-	text "S-stark!"
+	text "S-strong!"
 	done
 
 CooltrainermDarinAfterBattleText:
-	text "In dem SCHREIN da"
-	line "vorne lebt der"
+	text "The SHRINE ahead"
+	line "is home to the"
 
-	para "MEISTER unseres"
-	line "Drachenklans. Du"
+	para "MASTER of our"
+	line "dragon-user clan."
 
-	para "darfst nicht"
-	line "einfach eintreten!"
+	para "You're not allowed"
+	line "to just go in!"
 	done
 
 CooltrainerfCaraSeenText:
-	text "Du solltest nicht"
-	line "hier sein!"
+	text "You shouldn't be"
+	line "in here!"
 	done
 
 CooltrainerfCaraBeatenText:
-	text "Mist, verloren!"
+	text "Oh yikes, I lost!"
 	done
 
 CooltrainerfCaraAfterBattleText:
-	text "Bald werde ich vom"
-	line "MEISTER eine Er-"
-	cont "laubnis für den"
-	cont "Einsatz von"
-	cont "Drachen bekommen."
+	text "Soon I'm going to"
+	line "get permission"
 
-	para "Dann werde ich ein"
-	line "bewundernswerter"
+	para "from our MASTER to"
+	line "use dragons."
 
-	para "Drachen-Trainer"
-	line "und verdiene mir"
+	para "When I do, I'm"
+	line "going to become an"
 
-	para "die Anerkennung"
-	line "unseres MEISTERs."
+	para "admirable dragon"
+	line "trainer and gain"
+
+	para "our MASTER's"
+	line "approval."
 	done
 
 TwinsLeaandpia1SeenText:
-	text "Ein Fremder, den"
-	line "wir nicht kennen."
+	text "It's a stranger we"
+	line "don't know."
 	done
 
 TwinsLeaandpia1BeatenText:
-	text "Aua!"
+	text "Ouchies."
 	done
 
 TwinsLeaandpia1AfterBattleText:
-	text "Es kam mir vor,"
-	line "als würde ich"
-	cont "gegen SIEGFRIED"
-	cont "kämpfen."
+	text "It was like having"
+	line "to battle LANCE."
 	done
 
 TwinsLeaandpia2SeenText:
-	text "Wer bist du?"
+	text "Who are you?"
 	done
 
 TwinsLeaandpia2BeatenText:
-	text "Fiesling."
+	text "Meanie."
 	done
 
 TwinsLeaandpia2AfterBattleText:
-	text "Wir verraten dich."
+	text "We'll tell on you."
 
-	para "Der MEISTER wird"
-	line "erzürnt sein."
+	para "MASTER will be"
+	line "angry with you."
 	done
 
 Text_FoundDragonFang:
-	text "<PLAYER> findet"
+	text "<PLAYER> found"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 Text_NoRoomForDragonFang:
-	text "<PLAYER> kann"
-	line "keine weiteren"
-	cont "Items mehr tragen."
+	text "But <PLAYER> can't"
+	line "carry any more"
+	cont "items."
 	done
 
 DragonsDenB1F_MapEvents:

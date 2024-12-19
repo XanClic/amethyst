@@ -1,10 +1,10 @@
-	db "KNOCHENFAN@" ; species name
-	dbw 10, 450 ; height, weight
+	db "BONEKEEPER@" ; species name
+	dw 303, 990 ; height, weight
 
-	db   "Irgendwo gibt es"
-	next "einen Friedhof nur"
-	next "für KNOGGA. Von"
+	db   "Somewhere in the"
+	next "world is a ceme-"
+	next "tery just for"
 
-	page "dort holt es sich"
-	next "immer seine"
-	next "Knochen.@"
+	page "MAROWAK. It gets"
+	next "its bones from"
+	next "those graves.@"

@@ -94,118 +94,102 @@ FarmhouseBookshelf:
 	jumpstd PictureBookshelfScript
 
 FarmerMText_SickCow:
-	text "Mein MILTANK gibt"
-	line "keine Milch"
-	cont "mehr."
+	text "My MILTANK ain't"
+	line "givin' me milk"
+	cont "n'more."
 
-	para "Diese FARM ist"
-	line "berühmt für die"
-	cont "Milch, die hier"
-	cont "produziert wird."
+	para "This here FARM's"
+	line "got famous milk."
 
-	para "Fast jeder trinkt"
-	line "sie gern."
+	para "Most everyone"
+	line "wants a drink."
 
-	para "Es würde mir viel"
-	line "Milch geben, wenn"
+	para "It'll give me lots"
+	line "o' milk if'n I"
 
-	para "ich es mit vielen"
-	line "BEEREN füttern"
-	cont "würde. Glaube ich"
-	cont "zumindest."
+	para "feed it lots o'"
+	line "BERRIES, I reckon."
 	done
 
 FarmerMText_BuyMilk:
-	text "Wie findest du"
-	line "die MILCH von"
-	cont "meinem MILTANK?"
+	text "How'd you like my"
+	line "MOOMOO MILK?"
 
-	para "Sie ist mein gan-"
-	line "zer Stolz."
+	para "It's my pride and"
+	line "joy, there."
 
-	para "Gib sie einem"
-	line "#MON, um dessen"
-	cont "KP aufzufrischen!"
+	para "Give it to #MON"
+	line "to restore HP!"
 
-	para "Ich gebe sie dir"
-	line "für nur ¥500."
+	para "I'll give it to ya"
+	line "fer just ¥{d:ROUTE39FARMHOUSE_MILK_PRICE}."
 	done
 
 FarmerMText_GotMilk:
-	text "Bitte sehr!"
-	line "Trink aus und"
-	cont "genieße es!"
+	text "Here ya go!"
+	line "Drink up'n enjoy!"
 	done
 
 FarmerMText_NoMoney:
-	text "Tut mir Leid, mein"
-	line "Kind. Wenn du kein"
-	cont "Geld hast, kann"
-	cont "ich dir nichts"
-	cont "verkaufen!"
+	text "Sorry, there."
+	line "No cash, no sale!"
 	done
 
 FarmerMText_NoRoom:
-	text "Ich schätze,"
-	line "dein BEUTEL ist"
-	cont "voll."
+	text "I reckon yer"
+	line "PACK's full."
 	done
 
 FarmerMText_NoSale:
-	text "Du hast kein"
-	line "Interesse? Komm"
-	cont "aber wieder, hörst"
-	cont "du?"
+	text "You don't want it?"
+	line "Come again, hear?"
 	done
 
 FarmerMText_Milking:
-	text "Dann melke ich"
-	line "mal weiter."
+	text "I best go do my"
+	line "milkin'."
 	done
 
 FarmerFText_InTrouble:
-	text "Unsere Milch wird"
-	line "sogar nach KANTO"
-	cont "geliefert."
+	text "Our milk even goes"
+	line "out to KANTO."
 
-	para "Wenn uns unser"
-	line "MILTANK keine"
+	para "So if our own"
+	line "MILTANK won't give"
 
-	para "Milch mehr gibt,"
-	line "haben wir echte"
-	cont "Probleme."
+	para "us any milk, we're"
+	line "in trouble."
 	done
 
 FarmerFText_HealedMiltank:
-	text "Du hast unserem"
-	line "MILTANK geholfen!"
+	text "You fixed our"
+	line "MILTANK, hon. Now"
 
-	para "Jetzt gibt es"
-	line "wieder Milch!"
+	para "it gives MOOMOO"
+	line "MILK again."
 
-	para "Hier, für deine"
-	line "Mühe."
+	para "Here's somethin'"
+	line "fer your trouble."
 	done
 
 Text_ReceivedTM13: ; unreferenced
-	text "<PLAYER> erhält"
+	text "<PLAYER> received"
 	line "TM13."
 	done
 
 FarmerFText_SnoreSpeech:
-	text "Das hier ist"
-	line "SCHNARCHER."
+	text "That there's"
+	line "SNORE."
 
-	para "Das ist eine"
-	line "seltene Attacke,"
+	para "It's a rare move"
+	line "that only works"
 
-	para "die nur ein schla-"
-	line "fendes #MON"
-	cont "einsetzen kann."
+	para "while the #MON"
+	line "is asleep."
 
-	para "Überlege dir gut,"
-	line "wie du sie"
-	cont "anwendest."
+	para "You best think how"
+	line "you ought to use"
+	cont "it, hon."
 	done
 
 Route39Farmhouse_MapEvents:

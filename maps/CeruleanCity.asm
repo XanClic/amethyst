@@ -148,53 +148,51 @@ CeruleanCityHiddenBerserkGene:
 	hiddenitem BERSERK_GENE, EVENT_FOUND_BERSERK_GENE_IN_CERULEAN_CITY
 
 CeruleanCityCooltrainerMText1:
-	text "Das KRAFTWERK von"
-	line "KANTO?"
+	text "KANTO's POWER"
+	line "PLANT?"
 
-	para "Es befindet"
-	line "sich am Ende von"
+	para "It's near the end"
+	line "of ROUTE 9, the"
 
-	para "ROUTE 9, auf der"
-	line "Straße östlich"
-	cont "von hier."
+	para "road that heads"
+	line "east from here."
 
-	para "Es muss dort einen"
-	line "Störfall gegeben"
-	cont "haben."
+	para "I think there was"
+	line "an accident of"
+	cont "some sort there."
 	done
 
 CeruleanCityCooltrainerMText2:
-	text "Sammelst du jede"
-	line "Art von #MON?"
+	text "You're collecting"
+	line "every single kind"
+	cont "of #MON?"
 
-	para "Das ist bestimmt"
-	line "sehr schwer. Aber"
-	cont "Spaß macht es"
-	cont "sicher auch."
+	para "That must be quite"
+	line "a challenge, but"
+	cont "it sounds fun too."
 	done
 
 CeruleanCitySuperNerdText:
-	text "Am KAP im Norden"
-	line "treffen sich viele"
+	text "The CAPE in the"
+	line "north is a good"
 
-	para "Pärchen. Gerade"
-	line "Mädchen gehen dort"
-	cont "gerne hin!"
+	para "place for dates."
+	line "Girls like it!"
 	done
 
 CeruleanCitySlowbroText:
-	text "LAHMUS: Jarah?"
+	text "SLOWBRO: Yarah?"
 	done
 
 CeruleanCityCooltrainerFText1:
-	text "Mein LAHMUS und"
-	line "ich sind ein un-"
-	cont "schlagbares Team!"
+	text "My SLOWBRO and I"
+	line "make an awesome"
+	cont "combination!"
 	done
 
 CeruleanCityCooltrainerFText2:
-	text "LAHMUS, mach deine"
-	line "KONFUSION vor!"
+	text "SLOWBRO, show me"
+	line "your CONFUSION!"
 	done
 
 CeruleanCityCooltrainerFText3:
@@ -202,87 +200,77 @@ CeruleanCityCooltrainerFText3:
 	done
 
 CeruleanCityFisherText:
-	text "Ich bin ein großer"
-	line "Fan von der ARENA-"
-	cont "LEITERIN in AZURIA"
-	cont "CITY. Ihr Name ist"
+	text "I'm a huge fan of"
+	line "CERULEAN GYM's"
 	cont "MISTY."
 	done
 
 CeruleanCityFisherRocketTipText:
-	text "Ich habe so einen"
-	line "zwielichtigen Typ"
-	cont "zum KAP bei AZURIA"
-	cont "CITY gehen sehen."
+	text "I saw this shady"
+	line "guy go off toward"
+	cont "CERULEAN's CAPE."
 	done
 
 CeruleanCityYoungsterText1:
-	text "Hier soll es mal"
-	line "eine Höhle gegeben"
+	text "There used to be a"
+	line "cave here that had"
 
-	para "haben, in der"
-	line "mächtige und"
-	cont "grässliche #MON"
-	cont "gehaust haben."
+	para "horribly powerful"
+	line "#MON in it."
 	done
 
 CeruleanCityYoungsterText2:
-	text "Ach ja?"
+	text "Ayuh?"
 
-	para "Mein DETEKTOR"
-	line "schlägt aus…"
+	para "My ITEMFINDER is"
+	line "responding…"
 	done
 
 CeruleanCitySignText:
-	text "AZURIA CITY"
+	text "CERULEAN CITY"
 
-	para "Umgeben Von Einer"
-	line "Mystischen Blauen"
-	cont "Aura"
+	para "A Mysterious Blue"
+	line "Aura Surrounds It"
 	done
 
 CeruleanGymSignText:
-	text "PKMN-ARENA von"
-	line "AZURIA CITY"
-	cont "LEITUNG: MISTY"
+	text "CERULEAN CITY"
+	line "#MON GYM"
+	cont "LEADER: MISTY"
 
-	para "Die Jungenhafte"
-	line "Meerjungfrau"
+	para "The Tomboyish"
+	line "Mermaid"
 	done
 
 CeruleanBikeShopSignText:
-	text "Hier ist eine"
-	line "Nachricht…"
+	text "There's a notice"
+	line "here…"
 
-	para "Der FAHRRADLADEN"
-	line "ist jetzt in"
-	cont "JOHTO, in"
-	cont "DUKATIA CITY…"
+	para "The BIKE SHOP has"
+	line "moved to GOLDENROD"
+	cont "CITY in JOHTO…"
 	done
 
 CeruleanPoliceSignText:
-	text "Hier ist eine"
-	line "Nachricht…"
+	text "There's a notice"
+	line "here…"
 
-	para "Stoppt die Krimi-"
-	line "nalität und macht"
+	para "Stamp out thievery"
+	line "and make the city"
 
-	para "aus dieser Stadt"
-	line "einen Ort, an dem"
-	cont "man sicher ist und"
-	cont "gerne lebt!"
+	para "a friendlier, more"
+	line "cheerful place!"
 
-	para "ORDNUNGSAMT VON"
-	line "AZURIA CITY"
+	para "CERULEAN POLICE"
 	done
 
 CeruleanCapeSignText:
-	text "KAP bei AZURIA"
-	line "CITY voraus"
+	text "CERULEAN CAPE"
+	line "AHEAD"
 	done
 
 CeruleanLockedDoorText:
-	text "Abgeschlossen…"
+	text "It's locked…"
 	done
 
 CeruleanCity_MapEvents:

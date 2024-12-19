@@ -93,115 +93,106 @@ OlivineGymStatue:
 	jumpstd GymStatue2Script
 
 Jasmine_SteelTypeIntro:
-	text "…Danke für deine"
-	line "Hilfe beim LEUCHT-"
-	cont "TURM…"
+	text "…Thank you for"
+	line "your help at the"
+	cont "LIGHTHOUSE…"
 
-	para "Erlaube mir, mich"
-	line "vorstellen zu dür-"
-	cont "fen!"
+	para "But this is dif-"
+	line "ferent. Please"
 
-	para "Ich bin JASMIN,"
-	line "eine ARENALEITE-"
-	cont "RIN. Ich setze"
-	cont "STAHL-#MON ein."
+	para "allow me to intro-"
+	line "duce myself."
 
-	para "…Hast du von die-"
-	line "sem Typ schon ge-"
-	cont "hört?"
+	para "I am JASMINE, a"
+	line "GYM LEADER. I use"
+	cont "the steel-type."
 
-	para "Er wurde erst vor"
-	line "kurzer Zeit ent-"
-	cont "deckt."
+	para "…Do you know about"
+	line "the steel-type?"
 
-	para "…Ähm… Darf ich be-"
-	line "ginnen?"
+	para "It's a type that"
+	line "was only recently"
+	cont "discovered."
+
+	para "…Um… May I begin?"
 	done
 
 Jasmine_BetterTrainer:
-	text "…Du bist ein bes-"
-	line "serer Trainer als"
+	text "…You are a better"
+	line "trainer than me,"
 
-	para "ich. Das betrifft"
-	line "sowohl Geschick,"
+	para "in both skill and"
+	line "kindness."
 
-	para "als auch Fein-"
-	line "gefühl."
+	para "In accordance with"
+	line "LEAGUE rules, I"
 
-	para "In Übereinstimmung"
-	line "mit den Regeln der"
-
-	para "LIGA überreiche"
-	line "ich dir diesen"
-	cont "ORDEN."
+	para "confer upon you"
+	line "this BADGE."
 	done
 
 Text_ReceivedMineralBadge:
-	text "<PLAYER> erhält"
-	line "STAHLORDEN."
+	text "<PLAYER> received"
+	line "MINERALBADGE."
 	done
 
 Jasmine_BadgeSpeech:
-	text "Der STAHLORDEN"
-	line "erhöht die VERT"
-	cont "deiner #MON."
+	text "MINERALBADGE"
+	line "raises #MON's"
+	cont "DEFENSE."
 
-	para "…Ähm… Bitte nimm"
-	line "auch das…"
+	para "…Um… Please take"
+	line "this too…"
 	done
 
 Text_ReceivedTM09: ; unreferenced
-	text "<PLAYER> erhält"
+	text "<PLAYER> received"
 	line "TM09."
 	done
 
 Jasmine_IronTailSpeech:
-	text "…Mit dieser TM"
-	line "kannst du deinen"
-	cont "#MON EISEN-"
-	cont "SCHWEIF lehren."
+	text "…You could use"
+	line "that TM to teach"
+	cont "IRON TAIL."
 	done
 
 Jasmine_GoodLuck:
-	text "Ähm… Ich weiß"
-	line "nicht, wie ich das"
-	cont "sagen soll, aber…"
-	cont "Viel Glück!"
+	text "Um… I don't know"
+	line "how to say this,"
+	cont "but good luck…"
 	done
 
 OlivineGymGuideText:
-	text "JASMIN setzt den"
-	line "neu entdeckten Typ"
-	cont "Stahl ein."
+	text "JASMINE uses the"
+	line "newly discovered"
+	cont "steel-type."
 
-	para "Ich weiß nicht"
-	line "viel darüber."
+	para "I don't know very"
+	line "much about it."
 	done
 
 OlivineGymGuideWinText:
-	text "Das war großartig!"
+	text "That was awesome."
 
-	para "Der Typ Stahl,"
-	line "was?"
+	para "The steel-type,"
+	line "huh?"
 
-	para "Das war eine un-"
-	line "heimliche Begeg-"
-	cont "nung der unbe-"
-	cont "kannten Art."
+	para "That was a close"
+	line "encounter of an"
+	cont "unknown kind!"
 	done
 
 OlivineGymGuidePreText:
-	text "JASMIN, die ARE-"
-	line "NALEITERIN, ist im"
-	cont "LEUCHTTURM."
+	text "JASMINE, the GYM"
+	line "LEADER, is at the"
+	cont "LIGHTHOUSE."
 
-	para "Sie kümmert sich"
-	line "um ein krankes"
-	cont "#MON."
+	para "She's been tending"
+	line "to a sick #MON."
 
-	para "Ein starker Trai-"
-	line "ner muss auch Mit-"
-	cont "gefühl zeigen."
+	para "A strong trainer"
+	line "has to be compas-"
+	cont "sionate."
 	done
 
 OlivineGym_MapEvents:

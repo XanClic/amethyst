@@ -28,57 +28,52 @@ GoldenrodDeptStore1FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodDeptStore1FReceptionistText:
-	text "Willkommen im"
-	line "KAUFHAUS von"
-	cont "DUKATIA CITY."
+	text "Welcome to GOLDEN-"
+	line "ROD DEPT.STORE."
 	done
 
 GoldenrodDeptStore1FGentlemanText:
-	text "Das KAUFHAUS"
-	line "bietet eine große"
-	cont "Auswahl."
+	text "The DEPT.STORE"
+	line "has a decent se-"
+	cont "lection."
 
-	para "Aber einige Items"
-	line "erhält man nur als"
+	para "But some items"
+	line "are only available"
 
-	para "Preis in der"
-	line "SPIELHALLE."
+	para "as GAME CORNER"
+	line "prizes."
 	done
 
 GoldenrodDeptStore1FPokefanFText:
-	text "Ich freue mich"
-	line "heute schon wieder"
-	cont "aufs Einkaufen!"
+	text "I'm raring to shop"
+	line "again today!"
 	done
 
 GoldenrodDeptStore1FBugCatcherText:
-	text "Mama ist sehr gut"
-	line "im Schnäppchen-"
-	cont "finden."
+	text "Mom's good at"
+	line "bargain hunting."
 
-	para "Sie kauft ständig"
-	line "Waren unter dem"
-	cont "Normalpreis."
+	para "She always buys"
+	line "stuff at lower"
+	cont "prices."
 	done
 
 GoldenrodDeptStore1FDirectoryText:
-	text "EG INFO-SCHALTER"
+	text "1F SERVICE COUNTER"
 
-	para "1S TRAINER-"
-	line "   MARKT"
+	para "2F TRAINER'S"
+	line "   MARKET"
 
-	para "2S KAMPF-"
-	line "   KOLLEKTION"
+	para "3F BATTLE"
+	line "   COLLECTION"
 
-	para "3S ARZNEI"
+	para "4F MEDICINE BOX"
 
-	para "4S TM-ECKE"
+	para "5F TM CORNER"
 
-	para "5S PLATZ DER"
-	line "   EWIGEN STILLE"
+	para "6F TRANQUIL SQUARE"
 
-	para "DACHTERRASSEN"
-	line "AUSSICHTSPLATTFORM"
+	para "ROOFTOP LOOKOUT"
 	done
 
 GoldenrodDeptStore1F_MapEvents:

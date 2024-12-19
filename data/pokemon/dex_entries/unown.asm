@@ -1,10 +1,10 @@
 	db "SYMBOL@" ; species name
-	dbw 5, 50 ; height, weight
+	dw 108, 110 ; height, weight
 
-	db   "Da es so viele"
-	next "unterschiedliche"
-	next "ICOGNITO gibt,"
+	db   "Because different"
+	next "types of UNOWN"
+	next "exist, it is said"
 
-	page "glaubt man, sie"
-	next "besäßen verschie-"
-	next "dene Fähigkeiten.@"
+	page "that they must"
+	next "have a variety of"
+	next "abilities.@"

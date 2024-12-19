@@ -1,11 +1,11 @@
-	db "TARNKÜNSTLER@" ; species name
-	dbw 30, 500 ; height, weight
+	db "STEALTH@" ; species name
+	dw 910, 11000 ; height, weight
 
 	;  "| ----------------- |"
-	db   "Konzentriert es"
-	next "sich stark, kann"
-	next "es sich unsicht-"
+	db   "By clearing its"
+	next "mind, it can make"
+	next "its whole body"
 
-	page "bar machen; auch"
-	next "die GROLLDRA in"
-	next "seinen Hörnern.@"
+	page "transparent. Even"
+	next "the DREEPY in its"
+	next "horns vanish.@"

@@ -17,33 +17,29 @@ LugiaSpeechHouseRadio:
 	jumpstd Radio2Script
 
 EcruteakLugiaSpeechHouseGrampsText:
-	text "Dies geschah, als"
-	line "ich jung war."
+	text "This happened when"
+	line "I was young."
 
-	para "Der Himmel färbte"
-	line "sich schwarz. Ein"
+	para "The sky suddenly"
+	line "turned black. A"
 
-	para "riesiges, fliegen-"
-	line "des #MON"
+	para "giant flying #-"
+	line "MON was blocking"
+	cont "out the sun."
 
-	para "verdunkelte die"
-	line "Sonne."
+	para "I wonder what that"
+	line "#MON was? "
 
-	para "Ich frage mich,"
-	line "was das für ein"
-
-	para "#MON war. Es"
-	line "war wie ein Vogel"
-	cont "und ein Drache."
+	para "It was like a bird"
+	line "and a dragon."
 	done
 
 EcruteakLugiaSpeechHouseYoungsterText:
-	text "Ob es wirklich ein"
-	line "so großes #MON"
+	text "Is there really a"
+	line "#MON that big?"
 
-	para "gibt? Wenn ja, so"
-	line "muss es unfassbar"
-	cont "mächtig sein."
+	para "If it exists, it"
+	line "must be powerful."
 	done
 
 EcruteakLugiaSpeechHouse_MapEvents:

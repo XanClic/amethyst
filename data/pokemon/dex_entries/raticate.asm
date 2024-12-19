@@ -1,10 +1,10 @@
-	db "RATTE@" ; species name
-	dbw 7, 185 ; height, weight
+	db "RAT@" ; species name
+	dw 204, 410 ; height, weight
 
-	db   "Auf der Suche nach"
-	next "Nahrung kann es"
-	next "mit den Schwimm-"
+	db   "The webs on its"
+	next "hind legs enable"
+	next "it to cross"
 
-	page "häuten an seinen"
-	next "Hinterbeinen Flüs-"
-	next "se durchqueren.@"
+	page "rivers. It search-"
+	next "es wide areas for"
+	next "food.@"

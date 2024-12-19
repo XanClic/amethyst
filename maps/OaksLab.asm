@@ -78,202 +78,180 @@ OaksLabPC:
 	jumptext OaksLabPCText
 
 OakWelcomeKantoText:
-	text "EICH: <PLAY_G>!"
-	line "Schön, dass du"
+	text "OAK: Ah, <PLAY_G>!"
+	line "It's good of you"
 
-	para "den weiten Weg"
-	line "nach KANTO gemacht"
-	cont "hast."
+	para "to come all this"
+	line "way to KANTO."
 
-	para "Was hältst du von"
-	line "den Trainern hier"
+	para "What do you think"
+	line "of the trainers"
 
-	para "draußen?"
-	line "Ziemlich stark,"
-
-	para "was?"
+	para "out here?"
+	line "Pretty tough, huh?"
 	done
 
 OakLabDexCheckText:
-	text "Wie geht es mit"
-	line "dem #DEX voran?"
+	text "How is your #-"
+	line "DEX coming?"
 
-	para "Mal sehen…"
+	para "Let's see…"
 	done
 
 OakLabGoodbyeText:
-	text "Wenn du mal wieder"
-	line "in der Gegend"
-	cont "bist, dann schau"
-	cont "doch wieder rein."
+	text "If you're in the"
+	line "area, I hope you"
+	cont "come visit again."
 	done
 
 OakOpenMtSilverText:
-	text "EICH: Wow! Das ist"
-	line "hervorragend!"
+	text "OAK: Wow! That's"
+	line "excellent!"
 
-	para "Du hast die ORDEN"
-	line "der ARENALEITER in"
-	cont "KANTO erkämpft."
-	cont "Gut gemacht!"
+	para "You collected the"
+	line "BADGES of GYMS in"
+	cont "KANTO. Well done!"
 
-	para "Ich habe dich"
-	line "richtig"
-	cont "eingeschätzt."
+	para "I was right in my"
+	line "assessment of you."
 
-	para "Weißt du was,"
-	line "<PLAY_G>? Ich"
+	para "Tell you what,"
+	line "<PLAY_G>. I'll make"
 
-	para "werde es so ein-"
-	line "richten, dass du"
-	cont "zum SILBERBERG"
-	cont "gehen kannst."
+	para "arrangements so"
+	line "that you can go to"
+	cont "MT.SILVER."
 
-	para "Der SILBERBERG ist"
-	line "ein großes Habitat"
+	para "MT.SILVER is a big"
+	line "mountain that is"
 
-	para "für viele wilde"
+	para "home to many wild"
 	line "#MON."
 
-	para "Es ist zu"
-	line "gefährlich für"
+	para "It's too dangerous"
+	line "for your average"
 
-	para "einen Durch-"
-	line "schnittstrainer."
+	para "trainer, so it's"
+	line "off limits. But"
 
-	para "Deshalb ist es"
-	line "verboten. Aber für"
-	cont "dich, <PLAY_G>,"
-	cont "können wir eine"
-	cont "Ausnahme machen."
+	para "we can make an"
+	line "exception in your"
+	cont "case, <PLAY_G>."
 
-	para "Steige auf das"
-	line "INDIGO PLATEAU."
+	para "Go up to INDIGO"
+	line "PLATEAU. You can"
 
-	para "Von dort kannst"
-	line "du den SILBERBERG"
-	cont "erreichen."
+	para "reach MT.SILVER"
+	line "from there."
 	done
 
 OakNoKantoBadgesText:
-	text "EICH: Hm? Du hast"
-	line "keine ORDEN der"
+	text "OAK: Hmm? You're"
+	line "not collecting"
+	cont "KANTO GYM BADGES?"
 
-	para "PKMN-ARENEN"
-	line "in KANTO?"
+	para "The GYM LEADERS in"
+	line "KANTO are as tough"
 
-	para "Die ARENALEITER in"
-	line "KANTO sind genauso"
-
-	para "stark wie die"
+	para "as any you battled"
 	line "in JOHTO."
 
-	para "Ich schlage vor,"
-	line "du forderst sie"
-	cont "heraus."
+	para "I recommend that"
+	line "you challenge"
+	cont "them."
 	done
 
 OakYesKantoBadgesText:
-	text "EICH: Ah, du"
-	line "sammelst ORDEN der"
-	cont "ARENALEITER von"
-	cont "KANTO."
+	text "OAK: Ah, you're"
+	line "collecting KANTO"
+	cont "GYM BADGES."
 
-	para "Ich kann mir"
-	line "vorstellen, dass"
+	para "I imagine that"
+	line "it's hard, but the"
 
-	para "es schwer für dich"
-	line "ist, aber du"
-	cont "sammelst wertvolle"
-	cont "Erfahrungen."
+	para "experience is sure"
+	line "to help you."
 
-	para "Besuche mich"
-	line "wieder, wenn du"
+	para "Come see me when"
+	line "you get them all."
 
-	para "sie alle hast."
-	line "Ich gebe dir dann"
-	cont "ein Geschenk."
+	para "I'll have a gift"
+	line "for you."
 
-	para "Streng dich weiter"
-	line "so an, <PLAYER>!"
+	para "Keep trying hard,"
+	line "<PLAY_G>!"
 	done
 
 OaksAssistant1Text:
-	text "PROF. EICHs #-"
-	line "MON-TALK wird in"
+	text "The PROF's #MON"
+	line "TALK radio program"
 
-	para "KANTO nicht im"
-	line "Radio gesendet."
+	para "isn't aired here"
+	line "in KANTO."
 
-	para "Das ist schade."
-	line "Ich würde es gerne"
-	cont "hören."
+	para "It's a shame--I'd"
+	line "like to hear it."
 	done
 
 OaksAssistant2Text:
-	text "Die Forschungen"
-	line "des PROFESSORs"
-	cont "kommen dank deiner"
+	text "Thanks to your"
+	line "work on the #-"
+	cont "DEX, the PROF's"
 
-	para "Arbeit am #DEX"
-	line "sehr gut voran."
+	para "research is coming"
+	line "along great."
 	done
 
 OaksAssistant3Text:
-	text "Erzähl es keinem,"
-	line "aber PROF. EICHs"
+	text "Don't tell anyone,"
+	line "but PROF.OAK'S"
 
-	para "#MON-TALK wird"
-	line "nicht live"
-	cont "gesendet."
+	para "#MON TALK isn't"
+	line "a live broadcast."
 	done
 
 OaksLabPoster1Text:
-	text "Drücke START, um"
-	line "das MENÜ zu"
-	cont "öffnen."
+	text "Press START to"
+	line "open the MENU."
 	done
 
 OaksLabPoster2Text:
-	text "Möchtest du deinen"
-	line "Spielstand von"
+	text "The SAVE option is"
+	line "on the MENU."
 
-	para "Zeit zu Zeit"
-	line "speichern, dann"
-	cont "wähle im MENÜ die"
-	cont "Option SICHERN."
+	para "Use it in a timely"
+	line "manner."
 	done
 
 OaksLabTrashcanText:
-	text "Hier drin ist"
-	line "nichts…"
+	text "There's nothing in"
+	line "here…"
 	done
 
 OaksLabPCText:
-	text "Auf dem PC ist"
-	line "eine E-Mail."
+	text "There's an e-mail"
+	line "message on the PC."
 
 	para "…"
 
-	para "Wie kommen Sie"
-	line "mit Ihren"
-	cont "Forschungen voran,"
-	cont "PROF. EICH?"
+	para "PROF.OAK, how is"
+	line "your research"
+	cont "coming along?"
 
-	para "Nun, ich ackere"
-	line "weiter."
+	para "I'm still plugging"
+	line "away."
 
-	para "Ich habe Gerüchte"
-	line "gehört, dass"
+	para "I heard rumors"
+	line "that <PLAY_G> is"
 
-	para "sich <PLAY_G>"
-	line "einen Namen macht."
+	para "getting quite a"
+	line "reputation."
 
-	para "Es freut mich, das"
-	line "zu hören."
+	para "I'm delighted to"
+	line "hear that."
 
-	para "PROF. LIND in"
-	line "NEUBORKIA"
+	para "ELM in NEW BARK"
+	line "TOWN 8-)"
 	done
 
 OaksLab_MapEvents:

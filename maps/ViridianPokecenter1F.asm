@@ -35,46 +35,38 @@ ViridianPokecenter1FBugCatcherScript:
 	jumptextfaceplayer ViridianPokecenter1FBugCatcherText
 
 ViridianPokecenter1FCooltrainerMText:
-	text "Wo um Himmels"
-	line "Willen ist der"
+	text "Where in the world"
+	line "is VIRIDIAN's GYM"
 
-	para "ARENALEITER von"
-	line "VERTANIA? Ich will"
-	cont "ihn herausfordern."
+	para "LEADER? I wanted"
+	line "to challenge him."
 	done
 
 ViridianPokecenter1FCooltrainerMText_BlueReturned:
-	text "In der PKMN-ARENA"
-	line "von VERTANIA gibt"
-	cont "es keine TRAINER."
+	text "There are no GYM"
+	line "TRAINERS at the"
+	cont "VIRIDIAN GYM."
 
-	para "Der ARENALEITER"
-	line "vertritt den"
+	para "The LEADER claims"
+	line "his policy is to"
 
-	para "Grundsatz, auch"
-	line "ohne die Hilfe von"
-	cont "Untergebenen"
-	cont "gewinnen"
-	cont "zu können."
+	para "win without having"
+	line "any underlings."
 	done
 
 ViridianPokecenter1FCooltrainerFText:
-	text "Ich habe gehört,"
-	line "dass die PKMN-"
-	cont "ARENA auf der"
-	cont "ZINNOBERINSEL"
-	cont "verschwunden ist."
+	text "I heard that the"
+	line "GYM in CINNABAR is"
+	cont "gone."
 
-	para "Ich frage mich,"
-	line "was aus PYRO, dem"
-	cont "ARENALEITER"
-	cont "geworden ist."
+	para "I wonder what be-"
+	line "came of BLAINE,"
+	cont "the GYM LEADER."
 	done
 
 ViridianPokecenter1FBugCatcherText:
-	text "Mein großer Traum"
-	line "ist es, ARENA-"
-	cont "LEITER zu werden."
+	text "My dream is to be-"
+	line "come a GYM LEADER."
 	done
 
 ViridianPokecenter1F_MapEvents:

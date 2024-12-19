@@ -1,10 +1,10 @@
-	db "LIEFERANT@" ; species name
-	dbw 9, 160 ; height, weight
+	db "DELIVERY@" ; species name
+	dw 211, 350 ; height, weight
 
-	db   "Es trägt immer"
-	next "Lebensmittel bei"
-	next "sich. Wird es"
+	db   "It always carries"
+	next "its food with it,"
+	next "wherever it goes."
 
-	page "attackiert, wirft"
-	next "es sie nach dem"
-	next "Angreifer.@"
+	page "If attacked, it"
+	next "throws its food at"
+	next "the opponent.@"

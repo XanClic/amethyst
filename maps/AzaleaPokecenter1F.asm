@@ -26,60 +26,52 @@ AzaleaPokecenter1FPokefanFScript:
 	jumptextfaceplayer AzaleaPokecenter1FPokefanFText
 
 AzaleaPokecenter1FGentlemanText:
-	text "Beherrschen deine"
-	line "#MON VM-"
-	cont "Attacken?"
+	text "Do your #MON"
+	line "know HM moves?"
 
-	para "Diese Attacken"
-	line "können auch einge-"
-	cont "setzt werden, wenn"
+	para "Those moves can"
+	line "be used even if"
 
-	para "dein #MON be-"
-	line "siegt worden ist."
+	para "your #MON has"
+	line "fainted."
 	done
 
-AzaleaPokecenter1FUnusedText:
-; unreferenced
-	text "Dieser BILL hat"
-	line "das #MON-"
-	cont "LAGERUNGS-SYSTEM"
-	cont "für PC entwickelt."
+AzaleaPokecenter1FUnusedText: ; unreferenced
+	text "This BILL guy"
+	line "created the system"
 
-	para "Auf BILLs PC kön-"
-	line "nen bis zu 20"
-	cont "#MON pro BOX"
-	cont "gelagert werden."
+	para "for storing"
+	line "#MON in a PC."
+
+	para "BILL's PC can"
+	line "store up to 20"
+	cont "#MON per BOX."
 	done
 
 AzaleaPokecenter1FFishingGuruText:
-	text "Auf BILLs PC kön-"
-	line "nen bis zu 20"
-
-	para "#MON pro BOX"
-	line "gelagert werden."
+	text "BILL's PC can"
+	line "store up to 20"
+	cont "#MON per BOX."
 	done
 
 AzaleaPokecenter1FPokefanFText:
-	text "Weißt du über"
-	line "APRIKOKOS Be-"
-	cont "scheid?"
+	text "Do you know about"
+	line "APRICORNS?"
 
-	para "Brich eine auf,"
-	line "höhle sie aus und"
+	para "Crack one open,"
+	line "hollow it out and"
 
-	para "verbinde sie mit"
-	line "einer speziellen"
-	cont "Vorrichtung."
+	para "fit it with a"
+	line "special device."
 
-	para "Dann kannst du"
-	line "#MON damit"
-	cont "fangen."
+	para "Then you can catch"
+	line "#MON with it."
 
-	para "Vor der Erfindung"
-	line "von #BÄLLEN hat"
+	para "Before # BALLS"
+	line "were invented,"
 
-	para "jeder APRIKOKOS"
-	line "verwendet."
+	para "everyone used"
+	line "APRICORNS."
 	done
 
 AzaleaPokecenter1F_MapEvents:

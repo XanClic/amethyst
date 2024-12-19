@@ -36,36 +36,33 @@ Chris:
 	end
 
 PewterPokecenter1FTeacherText:
-	text "…Ja, und die"
-	line "PKMN-ARENA auf der"
+	text "…Yeah, and the"
+	line "GYM in CINNABAR's"
 
-	para "ZINNOBERINSEL ist"
-	line "verschwunden. Das"
+	para "gone. I was really"
+	line "amazed."
 
-	para "finde ich"
-	line "merkwürdig."
-
-	para "…Ja? Ich"
-	line "telefoniere!"
-	cont "Lass mich in Ruhe!"
+	para "…Yes? I'm on the"
+	line "phone. Go away!"
 	done
 
 PewterJigglypuffText:
-	text "PUMMELUFF: Puu"
+	text "JIGGLYPUFF: Puu"
 	line "pupuu."
 	done
 
 PewterPokecenter1FBugCatcherText:
-	text "Die meisten #-"
-	line "MON werden"
-	cont "schläfrig, wenn"
-	cont "PUMMELUFF singt."
+	text "Most #MON get"
+	line "drowsy if they"
 
-	para "Manche Attacken"
-	line "kann man nur an-"
+	para "hear a JIGGLYPUFF"
+	line "singing."
 
-	para "wenden, wenn ein"
-	line "#MON schläft."
+	para "There are several"
+	line "moves that can be"
+
+	para "used only while a"
+	line "#MON is asleep."
 	done
 
 PewterPokecenter1F_MapEvents:

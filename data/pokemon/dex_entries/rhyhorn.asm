@@ -1,10 +1,10 @@
-	db "STACHLER@" ; species name
-	dbw 10, 1150 ; height, weight
+	db "SPIKES@" ; species name
+	dw 303, 2540 ; height, weight
 
-	db   "Es kann sich immer"
-	next "nur eine Sache"
-	next "merken. Hat es"
+	db   "It can remember"
+	next "only one thing at"
+	next "a time. Once it"
 
-	page "erst angefangen zu"
-	next "laufen, hat es"
-	next "vergessen warum.@"
+	page "starts rushing, it"
+	next "forgets why it"
+	next "started.@"

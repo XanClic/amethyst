@@ -178,115 +178,102 @@ VioletCitySpinningEarl_MovementData:
 	step_end
 
 Text_EarlAsksIfYouBeatFalkner:
-	text "Allo!"
-	line "Bist du eine"
+	text "Hello!"
+	line "You are trainer?"
 
-	para "Trainer? Ast du"
-	line "gewonnen in dem"
-
-	para "Kampf gegen den"
-	line "ARENALEITER?"
+	para "Battle GYM LEADER,"
+	line "win you did?"
 	done
 
 Text_VeryNiceIndeed:
 	text "Ooh, la la!"
-	line "Sehr übsch!"
+	line "Very indeed nice!"
 	done
 
 Text_FollowEarl:
-	text "Aja? Dann lernen"
-	line "sollst du!"
-	cont "Folge mir!"
+	text "Is that so? Then"
+	line "study shall you!"
+	cont "Follow me!"
 	done
 
 Text_HereTeacherIAm:
-	text "Isch bin eine"
-	line "Lehrer. Es ist gut"
-	cont "für disch, bei mir"
-	cont "zu lernen!"
+	text "Here, teacher I"
+	line "am. Good it is"
+	cont "you study here!"
 	done
 
 VioletCityLassText:
-	text "Man sagt, dass im"
-	line "KNOFENSA-TURM"
-	cont "Geister umgehen."
+	text "Ghosts are rumored"
+	line "to appear in"
+	cont "SPROUT TOWER."
 
-	para "#MON-Atta-"
-	line "cken des Typs Nor-"
-	cont "mal zeigen bei"
+	para "They said normal-"
+	line "type #MON moves"
 
-	para "Geistern keine"
-	line "Wirkung."
+	para "had no effect on"
+	line "ghosts."
 	done
 
 VioletCitySuperNerdText:
-	text "Hey, bist du ein"
-	line "#MON-Trainer?"
+	text "Hey, you're a"
+	line "#MON trainer?"
 
-	para "Schlägst du den"
-	line "hiesigen ARENA-"
-	cont "LEITER, dann"
-	cont "darfst du dich"
+	para "If you beat the"
+	line "GYM LEADER here,"
 
-	para "bald zur Elite"
-	line "zählen!"
+	para "you'll be ready"
+	line "for prime time!"
 	done
 
 VioletCityGrampsText:
-	text "FALK von der"
-	line "PKMN-ARENA in"
+	text "FALKNER, from the"
+	line "VIOLET #MON"
 
-	para "VIOLA CITY ist"
-	line "ein großartiger"
-	cont "Trainer!"
+	para "GYM, is a fine"
+	line "trainer!"
 
-	para "Er hat die PKMN-"
-	line "ARENA seines Va-"
-	cont "ters geerbt und"
+	para "He inherited his"
+	line "father's gym and"
 
-	para "hat dort sehr gute"
-	line "Arbeit geleistet."
+	para "has done a great"
+	line "job with it."
 	done
 
 VioletCityYoungsterText:
-	text "Ich habe einen"
-	line "wackeligen Baum"
-	cont "gesehen!"
+	text "I saw a wiggly"
+	line "tree up ahead!"
 
-	para "Wenn du ihn be-"
-	line "rührst, windet er"
-	cont "sich und tanzt!"
-	cont "Cool!"
+	para "If you touch it,"
+	line "it squirms and"
+	cont "dances! Cool!"
 	done
 
 VioletCitySignText:
-	text "VIOLA CITY"
+	text "VIOLET CITY"
 
-	para "Die Stadt der"
-	line "Nostalgie"
+	para "The City of"
+	line "Nostalgic Scents"
 	done
 
 VioletGymSignText:
-	text "PKMN-ARENA von"
-	line "VIOLA CITY"
+	text "VIOLET CITY"
+	line "#MON GYM"
+	cont "LEADER: FALKNER"
 
-	para "LEITUNG: FALK"
-	line "Der elegante"
-
-	para "Meister der Flug-"
-	line "#MON"
+	para "The Elegant Master"
+	line "of Flying #MON"
 	done
 
 SproutTowerSignText:
-	text "KNOFENSA-TURM"
+	text "SPROUT TOWER"
 
-	para "Erfahre die Art"
-	line "der #MON"
+	para "Experience the"
+	line "Way of #MON"
 	done
 
 EarlsPokemonAcademySignText:
-	text "EARLs #-"
-	line "MON-AKADEMIE"
+	text "EARL'S #MON"
+	line "ACADEMY"
 	done
 
 VioletCity_MapEvents:

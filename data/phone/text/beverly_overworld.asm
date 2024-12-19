@@ -1,65 +1,60 @@
 BeverlyAskNumber1Text:
-	text "Dein MARILL ist so"
-	line "niedlich und süß!"
+	text "Your MARILL is so"
+	line "cute and adorable!"
 
-	para "Du liebst #MON,"
-	line "genau wie ich!"
+	para "You love #MON"
+	line "just like I do!"
 
-	para "Gibst du mir deine"
-	line "Telefonnummer?"
+	para "Want to trade"
+	line "phone numbers?"
 
-	para "Dann können wir"
-	line "ein wenig plau-"
-	cont "dern! Wie spaßig!"
+	para "Let's chat! It'll"
+	line "be so much fun!"
 	done
 
 BeverlyAskNumber2Text:
-	text "Dein MARILL ist so"
-	line "niedlich und süß!"
+	text "Your MARILL is so"
+	line "cute and adorable!"
 
-	para "Wir sollten öfter"
-	line "miteinander reden,"
-	cont "das wäre toll!"
+	para "We should chat, it"
+	line "will be fun."
 
-	para "Gibst du mir deine"
-	line "Telefonnummer?"
+	para "Can I have your"
+	line "phone number?"
 	done
 
 BeverlyNumberAcceptedText:
-	text "Ehrlich gesagt,"
-	line "hätte ich gerne"
-	cont "ein MARILL."
+	text "To be honest, I"
+	line "want a MARILL."
 
-	para "Aber ich muss mit"
-	line "meinem niedlichen"
-
-	para "SNUBBULL"
-	line "auskommen."
+	para "But I make do with"
+	line "my cute SNUBBULL."
 	done
 
 BeverlyNumberDeclinedText:
-	text "Oh… Das ist"
-	line "enttäuschend…"
+	text "Oh… That's"
+	line "disappointing…"
 
-	para "Leb wohl, MARILL…"
+	para "Goodbye, MARILL…"
 	done
 
 BeverlyPhoneFullText:
-	text "Oh? Dein Nummern-"
-	line "speicher ist voll."
+	text "Oh? Your phone's"
+	line "memory is full."
 	done
 
 BeverlyGiftText:
-	text "Oh? <PLAYER>?"
-	line "Ich habe dich er-"
-	cont "wartet und dir"
-	cont "etwas mitgebracht."
+	text "Oh? <PLAYER>? "
+	line "I waited here for"
+
+	para "you. I brought you"
+	line "a little gift."
 	done
 
 BeverlyPackFullText:
-	text "Oh? Du hast"
-	line "keinen Platz."
+	text "Oh?"
+	line "You have no room."
 
-	para "Komm später"
-	line "wieder."
+	para "Please come back"
+	line "for it later."
 	done
