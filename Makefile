@@ -262,6 +262,12 @@ gfx/mobile/stadium2_n64.2bpp: tools/gfx += --trim-whitespace
 	$(if $(tools/gfx),\
 		tools/gfx $(tools/gfx) -d1 -o $@ $@)
 
+gfx/pokemon/unown/normal.gbcpal: gfx/pokemon/unown_a/front.png
+	$(RGBGFX) -c embedded -p $@ $<
+
+%/normal.gbcpal: %/front.png
+	$(RGBGFX) -c embedded -p $@ $<
+
 %.gbcpal: %.png
 	$(RGBGFX) -c embedded -p $@ $<
 
