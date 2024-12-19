@@ -852,7 +852,7 @@ SunStoneDesc:
 	next "#MON.@"
 
 PolkadotBowDesc:
-	db   "Verstärkt Normal-"
+	db   "Verstärkt Fee-"
 	next "Attacken. (TRAGEN)@"
 
 UpGradeDesc:

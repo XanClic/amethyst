@@ -48,6 +48,8 @@ GoldenrodGymWhitneyScript:
 	end
 
 .StoppedCrying:
+	checkevent EVENT_GOT_POLKADOT_BOW
+	iftrue .GotPolkadotBow
 	checkevent EVENT_GOT_TM45_ATTRACT
 	iftrue .GotAttract
 	checkflag ENGINE_PLAINBADGE
@@ -65,17 +67,23 @@ GoldenrodGymWhitneyScript:
 	writetext WhitneyPlainBadgeText
 	promptbutton
 	verbosegiveitem TM_ATTRACT
-	iffalse .NoRoomForAttract
+	iffalse .NoRoom
 	setevent EVENT_GOT_TM45_ATTRACT
 	writetext WhitneyAttractText
 	waitbutton
+.GotAttract:
+	writetext WhitneyPolkadotBowText
+	promptbutton
+	verbosegiveitem POLKADOT_BOW
+	iffalse .NoRoom
+	setevent EVENT_GOT_POLKADOT_BOW
 	closetext
 	end
 
-.GotAttract:
+.GotPolkadotBow:
 	writetext WhitneyGoodCryText
 	waitbutton
-.NoRoomForAttract:
+.NoRoom:
 	closetext
 	end
 
@@ -265,6 +273,19 @@ WhitneyAttractText:
 	line "perfekt zu einem"
 	cont "süßen Ding wie"
 	cont "mir?"
+	done
+
+WhitneyPolkadotBowText:
+	text "Ach, und das hier"
+	line "habe ich mir mal"
+
+	para "geholt, aber ir-"
+	line "gendwie passt es"
+	cont "gar nicht zu mir…"
+
+	para "Vielleicht kannst"
+	line "du es ja besser"
+	cont "gebrauchen!"
 	done
 
 WhitneyGoodCryText:
