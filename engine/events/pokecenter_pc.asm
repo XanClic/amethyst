@@ -148,6 +148,7 @@ PC_CheckPartyForPokemon:
 	const_def
 	const PLAYERSPC_NORMAL ; 0
 	const PLAYERSPC_HOUSE  ; 1
+	const ELMSPC           ; 2
 
 	; PlayersPCMenuData.PlayersPCMenuPointers indexes
 	const_def
@@ -158,6 +159,8 @@ PC_CheckPartyForPokemon:
 	const PLAYERSPCITEM_DECORATION    ; 4
 	const PLAYERSPCITEM_LOG_OFF       ; 5
 	const PLAYERSPCITEM_TURN_OFF      ; 6
+	const ELMSPC_WITHDRAW_EGG         ; 7
+	const ELMSPC_DEPOSIT_EGG          ; 8
 
 BillsPC:
 	call PC_PlayChoosePCSound
@@ -306,6 +309,8 @@ endc
 	dw PlayerDecorationMenu,   .Decoration
 	dw PlayerLogOffMenu,       .LogOff
 	dw PlayerLogOffMenu,       .TurnOff
+	dw ElmWithdrawEgg,         .WithdrawEgg
+	dw ElmDepositEgg,          .DepositEgg
 
 if !DEF(_CRYSTAL_EU)
 .WithdrawItem: db "WITHDRAW ITEM@"
@@ -315,6 +320,8 @@ if !DEF(_CRYSTAL_EU)
 .Decoration:   db "DECORATION@"
 .TurnOff:      db "TURN OFF@"
 .LogOff:       db "LOG OFF@"
+.WithdrawEgg:  db "WITHDRAW@"
+.DepositEgg:   db "DEPOSIT@"
 elif DEF(_CRYSTAL_DE)
 .WithdrawItem: db "ITEM AUFNEHMEN@"
 .DepositItem:  db "ITEM ABLEGEN@"
@@ -323,6 +330,8 @@ elif DEF(_CRYSTAL_DE)
 .Decoration:   db "DEKORATION@"
 .TurnOff:      db "AUSLOGGEN@"
 .LogOff:       db "AUSLOGGEN@"
+.WithdrawEgg:  db "ETWAS ABHOLEN@"
+.DepositEgg:   db "ETWAS ABGEBEN@"
 elif DEF(_CRYSTAL_ES)
 .WithdrawItem: db "SACAR OBJETO@"
 .DepositItem:  db "DEJAR OBJETO@"
@@ -331,6 +340,8 @@ elif DEF(_CRYSTAL_ES)
 .Decoration:   db "DECORACIÓN@"
 .TurnOff:      db "DESCONEXIÓN@"
 .LogOff:       db "DESCONEXIÓN@"
+.WithdrawEgg:  db "SACAR@"
+.DepositEgg:   db "DEJAR@"
 endc
 
 .WhichPC:
@@ -352,6 +363,13 @@ endc
 	db PLAYERSPCITEM_TOSS_ITEM
 	db PLAYERSPCITEM_MAIL_BOX
 	db PLAYERSPCITEM_DECORATION
+	db PLAYERSPCITEM_TURN_OFF
+	db -1 ; end
+
+	; ELMSPC
+	db 3
+	db ELMSPC_WITHDRAW_EGG
+	db ELMSPC_DEPOSIT_EGG
 	db PLAYERSPCITEM_TURN_OFF
 	db -1 ; end
 
@@ -721,3 +739,28 @@ PokecenterOaksPCText:
 PokecenterPCOaksClosedText:
 	text_far _PokecenterPCOaksClosedText
 	text_end
+
+_ElmsHousePC:
+	call PC_PlayBootSound
+	ld hl, PokecenterPCTurnOnText
+	call PC_DisplayText
+	ld b, ELMSPC
+	call _PlayersPC
+	call ReturnToMapFromSubmenu
+	jp PC_PlayShutdownSound
+
+ElmWithdrawEgg:
+	call EnterElmsPC
+	farcall _WithdrawEGG
+	call CloseSubmenu
+	ret
+
+ElmDepositEgg:
+	call EnterElmsPC
+	farcall _DepositEGG
+	call CloseSubmenu
+	ret
+
+EnterElmsPC:
+	call LoadStandardMenuHeader
+	jp LoadFontsBattleExtra

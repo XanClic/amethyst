@@ -654,6 +654,7 @@ SECTION "Debug Room", ROMX
 if DEF(_DEBUG)
 INCLUDE "engine/debug/debug_room.asm"
 endc
+INCLUDE "engine/pokemon/egg_bank.asm"
 
 
 SECTION "Battle Tower Text", ROMX

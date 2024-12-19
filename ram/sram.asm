@@ -440,3 +440,17 @@ s7_a001:: db
 sMobileAdapterStatus2:: db
 
 ENDSECTION
+
+SECTION "SRAM Egg Bank", SRAM
+
+
+sEggBank::
+sEggBankCount:: db
+sEggBankMons::
+	for n, 1, EGGS_PER_BANK + 1
+		sEggBankMon{d:n}:: egg_bank_struct sEggBankMon{d:n}
+	endr
+sEggEnd::
+assert(sEggEnd - sEggBank == 1 + EGGS_PER_BANK * EGGBANK_STRUCT_LENGTH)
+
+ENDSECTION

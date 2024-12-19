@@ -374,6 +374,7 @@ SRAM $00
 	"Scratch"
 	org $a600
 	"SRAM Bank 0"
+	"SRAM Egg Bank"
 	org $ae00
 	"Saved 16-bit conversion tables"
 	"Backup Save"

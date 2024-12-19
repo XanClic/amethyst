@@ -128,6 +128,10 @@ PlayersHousePC:
 	ld [wScriptVar], a
 	ret
 
+ElmsHousePC:
+	farcall _ElmsHousePC
+	ret
+
 CheckMysteryGift:
 	ld a, BANK(sMysteryGiftItem)
 	call OpenSRAM

@@ -1,7 +1,7 @@
 OpenSRAM::
 ; if invalid bank, sram is disabled
 	cp NUM_SRAM_BANKS
-	jr nc, CloseSRAM
+	jr nc, err
 
 ; switch to sram bank a
 	push af
@@ -16,6 +16,8 @@ OpenSRAM::
 	ldh [hSRAMBank], a
 	ld [MBC3SRamBank], a
 	ret
+
+err:
 
 CloseSRAM::
 	push af

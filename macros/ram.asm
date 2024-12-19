@@ -29,6 +29,23 @@ MACRO box_struct
 \1BoxEnd::
 ENDM
 
+MACRO egg_bank_struct
+\1SpeciesFull::    dw
+\1Moves::          ds NUM_MOVES * 2
+\1ID::             dw
+\1Exp::            ds 3
+\1DVs::            dw
+\1Happiness::      db
+\1PokerusStatus::  db
+\1CaughtData::
+\1CaughtTime::
+\1CaughtLevel::    db
+\1CaughtGender::
+\1CaughtLocation:: db
+\1Level::          db
+\1BoxEnd::
+ENDM
+
 MACRO party_struct
 	box_struct \1
 \1Status::         db

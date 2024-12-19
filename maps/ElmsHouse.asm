@@ -14,7 +14,20 @@ ElmsSon:
 	jumptextfaceplayer ElmsSonText
 
 ElmsHousePC:
-	jumptext ElmsHousePCText
+	opentext
+	writetext ElmsHousePCText
+	yesorno
+	iffalse .RatherNot
+	writetext ElmsHousePCText_WhoWouldnt
+	waitbutton
+	special ElmsHousePC
+	closetext
+	end
+.RatherNot:
+	writetext ElmsHousePCText_RatherNot
+	waitbutton
+	closetext
+	end
 
 ElmsHouseBookshelf:
 	jumpstd DifficultBookshelfScript
@@ -59,29 +72,22 @@ ElmsHousePokemonFoodText: ; unreferenced
 	done
 
 ElmsHousePCText:
-	text "#MON. Woher"
-	line "kommen sie?"
+	text "Da klebt ein"
+	line "Zettel am Bild-"
+	cont "schirm:"
 
-	para "Wohin gehen sie?"
+	para "NICHT FÜR #MON!"
 
-	para "Warum war noch nie"
-	line "jemand Zeuge der"
-	cont "Geburt eines"
-	cont "#MON?"
+	para "Trotzdem benutzen?"
+	done
 
-	para "Ich will es wis-"
-	line "sen. Ich werde"
+ElmsHousePCText_WhoWouldnt:
+	text "Wer würde es nicht"
+	line "tun?"
+	done
 
-	para "mein Leben in den"
-	line "Dienst der #-"
-	cont "MON-Forschung"
-	cont "stellen!"
-
-	para "…"
-
-	para "Dies ist ein Teil"
-	line "von PROF. LINDs"
-	cont "Aufzeichnungen."
+ElmsHousePCText_RatherNot:
+	text "Lieber nicht!"
 	done
 
 ElmsHouse_MapEvents:
@@ -94,7 +100,7 @@ ElmsHouse_MapEvents:
 	def_coord_events
 
 	def_bg_events
-	bg_event  0,  1, BGEVENT_READ, ElmsHousePC
+	bg_event  0,  1, BGEVENT_UP, ElmsHousePC
 	bg_event  6,  1, BGEVENT_READ, ElmsHouseBookshelf
 	bg_event  7,  1, BGEVENT_READ, ElmsHouseBookshelf
 
