@@ -1,11 +1,11 @@
-	db "GLEIT@" ; species name
-	dbw 12, 330 ; height, weight
+	db "FLOATING@" ; species name
+	dw 311, 7300 ; height, weight
 
 	;  "| ----------------- |"
-	db   "Schlingt seine"
-	next "dünnen, schleier-"
-	next "artigen Arme um"
+	db   "It wraps its thin"
+	next "veil-like arms"
+	next "around the body"
 
-	page "seine Gegner und"
-	next "sinkt mit ihnen"
-	next "zum Meeresgrund.@"
+	page "of its opponents,"
+	next "dragging them to"
+	next "the ocean floor.@"

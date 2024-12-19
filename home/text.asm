@@ -207,9 +207,6 @@ MACRO dict
 		; Replace a character with another one
 		jr nz, .not\@
 		ld a, \2
-	if DEF(_CRYSTAL_EU)
-		jr .place
-	endc
 	.not\@:
 	elif !STRCMP(STRSUB("\2", 1, 1), ".")
 		; Locals can use a short jump
@@ -249,20 +246,13 @@ ENDM
 	dict "<PKMN>",    PlacePKMN
 	dict "<POKE>",    PlacePOKE
 	dict "<WBR>",     NextChar
-	dict "%",         NextChar
 	dict "<BSP>",     " "
-	;dict "¯",         " "
-if DEF(_CRYSTAL_EU)
-        ;dict "<¯>",       NextChar
-        dict "<->",       PlaceHyphenSplit
-endc
 	dict "<DEXEND>",  PlaceDexEnd
 	dict "<TARGET>",  PlaceMoveTargetsName
 	dict "<USER>",    PlaceMoveUsersName
 	dict "<ENEMY>",   PlaceEnemysName
 	dict "<PLAY_G>",  PlaceGenderedPlayerName
 	dict "ﾟ",         .place
-if !DEF(_CRYSTAL_EU)
 	dict "ﾞ",         .place
 
 	cp FIRST_REGULAR_TEXT_CHAR
@@ -294,9 +284,6 @@ if !DEF(_CRYSTAL_EU)
 	add "は" - "ぱ"
 .place_handakuten
 	ld b, "ﾟ" ; handakuten
-else
-	jr .place
-endc
 
 .place
 	ld [hli], a
@@ -330,11 +317,6 @@ PlaceKougeki: print_name KougekiText
 SixDotsChar:  print_name SixDotsCharText
 PlacePKMN:    print_name PlacePKMNText
 PlacePOKE:    print_name PlacePOKEText
-if DEF(_CRYSTAL_EU)
-PlaceHyphenSplit:
-	ld [hl], "-"
-	jp LineFeedChar
-endc
 PlaceJPRoute: print_name PlaceJPRouteText
 PlaceWatashi: print_name PlaceWatashiText
 PlaceKokoWa:  print_name PlaceKokoWaText
@@ -417,34 +399,14 @@ PlaceCommandCharacter::
 	pop de
 	jp NextChar
 
-if !DEF(_CRYSTAL_EU)
-TMCharText:      db "TM@"
-TrainerCharText: db "TRAINER@"
-PCCharText:      db "PC@"
-RocketCharText:  db "ROCKET@"
-PlacePOKeText:   db "POKé@"
-KougekiText:     db "こうげき@"
-SixDotsCharText: db "……@"
-EnemyText:       db "Enemy @"
-elif DEF(_CRYSTAL_DE)
-TMCharText:      db "TM@"
-TrainerCharText: db "TRAINER@"
-PCCharText:      db "PC@"
-RocketCharText:  db "ROCKET@"
-PlacePOKeText:   db "POKé@"
-KougekiText:     db "こうげき@"
-SixDotsCharText: db "……@"
-EnemyText:       db "Gegn. @"
-elif DEF(_CRYSTAL_ES)
-TMCharText:      db "MT@"
-TrainerCharText: db "ENTREN.@"
-PCCharText:      db "PC@"
-RocketCharText:  db "ROCKET@"
-PlacePOKeText:   db "POKé@"
-KougekiText:     db "こうげき@"
-SixDotsCharText: db "……@"
-EnemyText:       db "Enem. @"
-endc
+TMCharText::      db "TM@"
+TrainerCharText:: db "TRAINER@"
+PCCharText::      db "PC@"
+RocketCharText::  db "ROCKET@"
+PlacePOKeText::   db "POKé@"
+KougekiText::     db "こうげき@"
+SixDotsCharText:: db "……@"
+EnemyText::       db "Enemy @"
 PlacePKMNText::   db "<PK><MN>@"
 PlacePOKEText::   db "<PO><KE>@"
 String_Space::    db " @"
@@ -1072,7 +1034,6 @@ TextCommand_DAY::
 	dw .Fri
 	dw .Satur
 
-if !DEF(_CRYSTAL_EU)
 .Sun:    db "SUN@"
 .Mon:    db "MON@"
 .Tues:   db "TUES@"
@@ -1081,22 +1042,3 @@ if !DEF(_CRYSTAL_EU)
 .Fri:    db "FRI@"
 .Satur:  db "SATUR@"
 .Day:    db "DAY@"
-elif DEF(_CRYSTAL_DE)
-.Sun:    db "SONNTAG@"
-.Mon:    db "MONTAG@"
-.Tues:   db "DIENSTAG@"
-.Wednes: db "MITTWOCH@"
-.Thurs:  db "DONNERSTAG@"
-.Fri:    db "FREITAG@"
-.Satur:  db "SAMSTAG@"
-.Day:    db "@"
-elif DEF(_CRYSTAL_ES)
-.Sun:    db "DOMINGO@"
-.Mon:    db "LUNES@"
-.Tues:   db "MARTES@"
-.Wednes: db "MIÉRCOLES@"
-.Thurs:  db "JUEVES@"
-.Fri:    db "VIERNES@"
-.Satur:  db "SÁBADO@"
-.Day:    db "@"
-endc

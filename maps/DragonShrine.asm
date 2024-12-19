@@ -272,9 +272,9 @@ DragonShrineQuestion1_MenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	db 3 ; items
-	db "Kumpel@"
-	db "Untertan@"
-	db "Kamerad@"
+	db "Pal@"
+	db "Underling@"
+	db "Friend@"
 
 DragonShrineQuestion2_MenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -285,9 +285,9 @@ DragonShrineQuestion2_MenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	db 3 ; items
-	db "Strategie@"
-	db "Training@"
-	db "Mogeln@"
+	db "Strategy@"
+	db "Raising@"
+	db "Cheating@"
 
 DragonShrineQuestion3_MenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -298,9 +298,9 @@ DragonShrineQuestion3_MenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	db 3 ; items
-	db "Schwächling@"
-	db "Muskelprotz@"
-	db "Jeder@"
+	db "Weak person@"
+	db "Tough person@"
+	db "Anybody@"
 
 DragonShrineQuestion4_MenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -311,9 +311,9 @@ DragonShrineQuestion4_MenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	db 3 ; items
-	db "Liebe@"
-	db "Gewalt@"
-	db "Wissen@"
+	db "Love@"
+	db "Violence@"
+	db "Knowledge@"
 
 DragonShrineQuestion5_MenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -324,9 +324,9 @@ DragonShrineQuestion5_MenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	db 3 ; items
-	db "Stark@"
-	db "Beides@"
-	db "Schwach@"
+	db "Tough@"
+	db "Both@"
+	db "Weak@"
 
 DragonShrinePlayerWalkInMovement:
 	slow_step UP
@@ -392,271 +392,263 @@ DragonShrineClairWalkOutMovement:
 	step_end
 
 DragonShrineElderGreetingText:
-	text "Hm… Schön, dass"
-	line "du da bist."
+	text "Hm… Good to see"
+	line "you here."
 
-	para "Du musst nicht er-"
-	line "klären, warum du"
-	cont "hier bist."
+	para "No need to explain"
+	line "why you came."
 
-	para "SANDRA hat dich"
-	line "geschickt, oder?"
+	para "CLAIR sent you"
+	line "here, didn't she?"
 
-	para "Sie ist ein"
-	line "wirklich…"
+	para "That girl is a"
+	line "handful…"
 
-	para "Tut mir Leid, aber"
-	line "ich muss dich"
-	cont "prüfen."
+	para "I am sorry, but I"
+	line "must test you."
 
-	para "Keine Angst, du"
-	line "musst nur einige"
-	cont "Fragen"
-	cont "beantworten."
+	para "Not to worry, you"
+	line "are to answer only"
+	cont "a few questions."
 
-	para "Fertig?"
+	para "Ready?"
 	done
 
 DragonShrineQuestion1Text:
-	text "Was bedeuten dir"
-	line "#MON?"
+	text "What are #MON"
+	line "to you?"
 	done
 
 DragonShrineQuestion2Text:
-	text "Was hilft dir im"
-	line "Kampf zu gewinnen?"
+	text "What helps you to"
+	line "win battles?"
 	done
 
 DragonShrineQuestion3Text:
-	text "Gegen welche Art"
-	line "Trainer möchtest"
-	cont "du kämpfen?"
+	text "What kind of"
+	line "trainer do you"
+	cont "wish to battle?"
 	done
 
 DragonShrineQuestion4Text:
-	text "Was ist beim"
-	line "Trainieren von"
-	cont "#MON am"
-	cont "wichtigsten?"
+	text "What is most"
+	line "important for"
+	cont "raising #MON?"
 	done
 
 DragonShrineQuestion5Text:
-	text "Starke #MON."
-	line "Schwache #MON."
+	text "Strong #MON."
+	line "Weak #MON."
 
-	para "Was ist wichtiger?"
+	para "Which is more"
+	line "important?"
 	done
 
 DragonShrinePassedTestText:
-	text "Hm… Ich verstehe…"
+	text "Hm… I see…"
 
-	para "Du kümmerst dich"
-	line "von Herzen um"
-	cont "#MON."
+	para "You care deeply"
+	line "for #MON."
 
-	para "Sehr löblich."
+	para "Very commendable."
 
-	para "Überzeugung ist"
-	line "wichtig!"
+	para "That conviction is"
+	line "what is important!"
 
-	para "<PLAYER>, mach"
-	line "weiter so."
+	para "<PLAYER>, don't"
+	line "lose that belief."
 
-	para "Ich treffe dich"
-	line "dann bei der"
-	cont "#MON LIGA."
+	para "It will see you"
+	line "through at the"
+	cont "#MON LEAGUE."
 	done
 
 DragonShrineMustIInformLanceText:
-	text "SANDRA!"
+	text "CLAIR!"
 
-	para "Dieses Kind ist"
-	line "tadellos, in Geist"
-	cont "und Talent!"
+	para "This child is"
+	line "impeccable, in"
+	cont "skill and spirit!"
 
-	para "Gestehe deine"
-	line "Niederlage und"
-	cont "übergib den"
-	cont "DRACHENORDEN!"
+	para "Admit defeat and"
+	line "confer the RISING-"
+	cont "BADGE!"
 
-	para "…Oder soll ich das"
-	line "SIEGFRIED"
-	cont "erzählen?"
+	para "…Or must I inform"
+	line "LANCE of this?"
 	done
 
 DragonShrineElderScoldsClairText:
-	text "SANDRA…"
+	text "CLAIR…"
 
-	para "Dieses Kind spie-"
-	line "gelt das wider,"
+	para "Reflect upon what"
+	line "it is that you"
 
-	para "was dir noch"
-	line "fehlt."
+	para "lack and this"
+	line "child has."
 	done
 
 DragonShrineComeAgainText:
-	text "Komme wieder, wenn"
-	line "du möchtest."
+	text "Come again, if you"
+	line "so desire."
 	done
 
 DragonShrineTakeThisDratiniText:
-	text "Hm… Schön, dass du"
-	line "hier bist."
+	text "Hm… Good to see"
+	line "you here."
 
-	para "Du kommst zur"
-	line "richtigen Zeit."
+	para "Your arrival is"
+	line "most fortunate."
 
-	para "Ich habe etwas für"
-	line "dich."
+	para "I have something"
+	line "for you."
 
-	para "Nimm dieses"
-	line "DRATINI als"
+	para "Take this DRATINI"
+	line "as proof that I"
 
-	para "Zeichen meiner"
-	line "Wertschätzung."
+	para "have recognized"
+	line "your worth."
 	done
 
 DragonShrinePlayerReceivedDratiniText:
-	text "<PLAYER> erhält"
+	text "<PLAYER> received"
 	line "DRATINI!"
 	done
 
 DragonShrinePartyFullText:
-	text "Hm? Dein #MON-"
-	line "Team ist voll."
+	text "Hm? Your #MON"
+	line "party is full."
 	done
 
 DragonShrineSymbolicDragonText:
-	text "Drachen-#MON"
-	line "sind das Symbol"
-	cont "unseres Klans."
+	text "Dragon #MON are"
+	line "symbolic of our"
+	cont "clan."
 
-	para "Du hast bewiesen,"
-	line "dass man dir eines"
+	para "You have shown"
+	line "that you can be"
 
-	para "anvertrauen kann."
+	para "entrusted with"
+	line "one."
 	done
 
 DragonShrineClairsGrandfatherText:
-	text "SANDRA scheint"
-	line "eine wertvolle"
+	text "CLAIR appears to"
+	line "have learned an"
 
-	para "Lektion von dir"
-	line "gelernt zu haben."
+	para "invaluable lesson"
+	line "from you."
 
-	para "Ich bin ihr Groß-"
-	line "vater und"
-	cont "danke dir dafür."
+	para "I thank you as her"
+	line "grandfather."
 	done
 
 DragonShrineRivalIsInTrainingText:
-	text "Ein Junge deines"
-	line "Alters trainiert"
-	cont "hier."
+	text "A boy close to"
+	line "your age is in"
+	cont "training here."
 
-	para "Er ähnelt SANDRA,"
-	line "als sie jünger"
+	para "He is much like"
+	line "CLAIR when she was"
 
-	para "war. Es besorgt"
-	line "mich ein wenig…"
+	para "younger. It is a"
+	line "little worrisome…"
 	done
 
 DragonShrineWrongAnswerText1:
-	text "Hah? Das habe ich"
-	line "nicht mitbekommen…"
+	text "Hah? I didn't"
+	line "quite catch that…"
 	done
 
 DragonShrineWrongAnswerText2:
-	text "Was hast du"
-	line "gesagt?"
+	text "What was it you"
+	line "said?"
 	done
 
 DragonShrineRightAnswerText:
-	text "Oh, ich verstehe…"
+	text "Oh, I understand…"
 	done
 
 DragonShrineElder2Text:
-	text "Es ist schon lange"
-	line "her, seit ein"
+	text "It's been quite"
+	line "some time since a"
 
-	para "Trainer die Aner-"
-	line "kennung unseres"
-	cont "MEISTERs bekam."
+	para "trainer has gained"
+	line "our MASTER's rare"
+	cont "approval."
 
-	para "Der letzte war"
-	line "Meister SIEGFRIED."
+	para "In fact, not since"
+	line "Master LANCE."
 	done
 
 DragonShrineElder3Text:
-	text "Kennst du den"
-	line "jungen Meister"
-	cont "SIEGFRIED?"
+	text "You know young"
+	line "Master LANCE?"
 
-	para "Er ähnelt so"
-	line "unserem MEISTER in"
-	cont "dessen Jugend."
+	para "He looks so much"
+	line "like our MASTER"
+	cont "did in his youth."
 
-	para "Es liegt ihnen im"
-	line "Blut."
+	para "It's in their"
+	line "blood."
 	done
 
 DragonShrineClairYouPassedText:
-	text "Wie ist es"
-	line "gelaufen?"
+	text "So how did it go?"
 
-	para "Ich muss nicht"
-	line "danach fragen."
+	para "I guess there's no"
+	line "point in asking."
 
-	para "Du hast versagt?"
+	para "You did fail?"
 
 	para "<……><……><……><……><……><……>"
 
-	para "…Wie? Bestanden?"
+	para "…What? You passed?"
 	done
 
 DragonShrineClairThatCantBeText:
-	text "Das kann nicht"
-	line "sein!"
+	text "That can't be!"
 	done
 
 DragonShrineClairYoureLyingText:
-	text "Du lügst!"
+	text "You're lying!"
 
-	para "Sogar ich habe es"
-	line "nicht geschafft!"
+	para "Even I haven't"
+	line "been approved!"
 	done
 
 DragonShrineIUnderstandText:
-	text "I-ich verstehe…"
+	text "I-I understand…"
 	done
 
 DragonShrineHereRisingBadgeText:
-	text "Hier das ist der"
-	line "DRACHENORDEN…"
+	text "Here, this is the"
+	line "RISINGBADGE…"
 
-	para "Jetzt nimm schon!"
+	para "Hurry up! Take it!"
 	done
 
 DragonShrinePlayerReceivedRisingBadgeText:
-	text "<PLAYER> erhält"
-	line "den DRACHENORDEN."
+	text "<PLAYER> received"
+	line "RISINGBADGE."
 	done
 
 DragonShrineRisingBadgeExplanationText:
-	text "Von nun an können"
-	line "deine #MON die"
+	text "RISINGBADGE will"
+	line "enable your"
 
-	para "Fähigkeit KASKADE"
-	line "einsetzen."
+	para "#MON to use the"
+	line "move for climbing"
+	cont "waterfalls."
 
-	para "Ferner werden"
-	line "dich alle #MON"
+	para "Also, all #MON"
+	line "will recognize you"
 
-	para "als Trainer"
-	line "anerkennen und dir"
+	para "as a trainer and"
+	line "obey your every"
 
-	para "bedingungslos"
-	line "gehorchen."
+	para "command without"
+	line "question."
 	done
 
 DragonShrineSpeechlessText:

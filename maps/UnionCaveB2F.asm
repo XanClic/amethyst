@@ -75,74 +75,68 @@ UnionCaveB2FHyperPotion:
 	itemball HYPER_POTION
 
 CooltrainermNickSeenText:
-	text "Es gibt zwei"
-	line "verschiedene Arten"
-	cont "von Menschen."
+	text "There are two"
+	line "kinds of people."
 
-	para "Jene mit Stil"
-	line "und jene ohne."
+	para "Those who have"
+	line "style, and those"
+	cont "who don't."
 
-	para "Zu welcher zählst"
-	line "du dich?"
+	para "What kind of"
+	line "person are you?"
 	done
 
 CooltrainermNickBeatenText:
-	text "Dein Stil ist"
-	line "beeindruckend!"
+	text "You've got"
+	line "dazzling style!"
 	done
 
 CooltrainermNickAfterBattleText:
-	text "Dein #MON-Stil"
-	line "ist imposant und"
-	cont "abwechslungsreich,"
-	cont "das gebe ich zu."
+	text "Your #MON style"
+	line "is stunning and"
+	cont "colorful, I admit."
 
-	para "Du wirst immer"
-	line "besser!"
+	para "You'll just keep"
+	line "getting better!"
 	done
 
 CooltrainerfGwenSeenText:
-	text "Ich trainiere"
-	line "momentan. Möchtest"
-	cont "du kämpfen?"
+	text "I'm in training."
+	line "Care for a round?"
 	done
 
 CooltrainerfGwenBeatenText:
-	text "Oh, nein! Du bist"
-	line "zu gut für mich."
+	text "Aww, no! You're"
+	line "too good for me."
 	done
 
 CooltrainerfGwenAfterBattleText:
-	text "Ich werde solange"
-	line "trainieren, bis"
-	cont "ich besser bin."
+	text "I'm going to train"
+	line "by myself until I"
+	cont "improve."
 	done
 
 CooltrainerfEmmaSeenText:
-	text "Für meine Lieb-"
-	line "lings-#MON"
-	cont "würde ich überall"
-	cont "hingehen."
+	text "If the #MON I"
+	line "liked were there,"
+	cont "I'd go anywhere."
 
-	para "Das würde jeder"
-	line "wahre Trainer tun."
+	para "That's what a real"
+	line "trainer does."
 	done
 
 CooltrainerfEmmaBeatenText:
-	text "Ich kümmere mich"
-	line "lieber um meine"
-	cont "Babys, aber…!"
+	text "I'd rather pet my"
+	line "babies than this!"
 	done
 
 CooltrainerfEmmaAfterBattleText:
-	text "Nur einmal in"
-	line "der Woche kommt"
-	cont "ein #MON"
-	cont "ans Wasser."
+	text "Just once a week,"
+	line "a #MON comes to"
+	cont "the water's edge."
 
-	para "Dieses #MON"
-	line "hätte ich gerne"
-	cont "gesehen…"
+	para "I wanted to see"
+	line "that #MON…"
 	done
 
 UnionCaveB2F_MapEvents:

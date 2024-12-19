@@ -626,22 +626,17 @@ MomJustDoWhatYouCanText:
 	text_far _MomJustDoWhatYouCanText
 	text_end
 
-if !DEF(_CRYSTAL_EU)
-Mom_SavedString:    db "SAVED@"
-Mon_WithdrawString: db "WITHDRAW@"
-Mom_DepositString:  db "DEPOSIT@"
-Mom_HeldString:     db "HELD@"
-elif DEF(_CRYSTAL_DE)
-Mom_SavedString:    db "ERSPARNISSE@"
-Mon_WithdrawString: db "ABHEBEN@"
-Mom_DepositString:  db "EINZAHLEN@"
-Mom_HeldString:     db "BESITZ@"
-elif DEF(_CRYSTAL_ES)
-Mom_SavedString:    db "GUARDADO@"
-Mon_WithdrawString: db "SACAR@"
-Mom_DepositString:  db "DEJAR@"
-Mom_HeldString:     db "TIENES@"
-endc
+Mom_SavedString:
+	db "SAVED@"
+
+Mon_WithdrawString:
+	db "WITHDRAW@"
+
+Mom_DepositString:
+	db "DEPOSIT@"
+
+Mom_HeldString:
+	db "HELD@"
 
 BankOfMom_MenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -652,19 +647,7 @@ BankOfMom_MenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-if !DEF(_CRYSTAL_EU)
 	db "GET@"
 	db "SAVE@"
 	db "CHANGE@"
 	db "CANCEL@"
-elif DEF(_CRYSTAL_DE)
-	db "ABHEBEN@"
-	db "SPAREN@"
-	db "ÄNDERN@"
-	db "ZURÜCK@"
-elif DEF(_CRYSTAL_ES)
-	db "COGER@"
-	db "GUARDA@"
-	db "CAMBIO@"
-	db "SALIR@"
-endc

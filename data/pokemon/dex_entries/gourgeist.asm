@@ -1,11 +1,11 @@
-	db "KÜRBIS@" ; species name
-	dbw 17, 390 ; height, weight
+	db "PUMPKIN@" ; species name
+	dw 507, 8600 ; height, weight
 
 	;  "| ----------------- |"
-	db   "In Neumondnächten"
-	next "streift es durch"
-	next "die Dörfer. Wer"
+	db   "In the night of"
+	next "the new moon, it"
+	next "wanders through"
 
-	page "seinen unheilvol-"
-	next "len Gesang hört,"
-	next "wird verflucht.@"
+	page "villages, cursing"
+	next "anyone who hears"
+	next "its eerie song.@"

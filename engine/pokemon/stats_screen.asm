@@ -707,32 +707,24 @@ LoadPinkPage:
 	ld [hl], a
 	ret
 
-if !DEF(_CRYSTAL_EU)
 .Status_Type:
 	db   "STATUS/"
 	next "TYPE/@"
-.OK_str:      db "OK @"
-.ExpPointStr: db "EXP POINTS@"
-.LevelUpStr:  db "LEVEL UP@"
-.ToStr:       db "TO@"
-elif DEF(_CRYSTAL_DE)
-.Status_Type:
-	db   "STATUS/"
-	next "TYP/@"
-.OK_str:      db "OK@"
-.ExpPointStr: db "EP-PUNKTE@"
-.LevelUpStr:  db "LEVEL UP@"
-.ToStr:       db "▶@"
-elif DEF(_CRYSTAL_ES)
-.Status_Type:
-	db   "ESTADO/"
-	next "TIPO/@"
-.OK_str:      db "OK@"
-.ExpPointStr: db "PUNTOS EXP@"
-.LevelUpStr:  db "MÁS NIVEL@"
-.ToStr:       db "A@"
-endc
-.PkrsStr:     db "#RUS@"
+
+.OK_str:
+	db "OK @"
+
+.ExpPointStr:
+	db "EXP POINTS@"
+
+.LevelUpStr:
+	db "LEVEL UP@"
+
+.ToStr:
+	db "TO@"
+
+.PkrsStr:
+	db "#RUS@"
 
 LoadGreenPage:
 	ld de, .Item
@@ -770,19 +762,14 @@ LoadGreenPage:
 	call GetItemName
 	ret
 
-if !DEF(_CRYSTAL_EU)
-.Item:        db "ITEM@"
-.ThreeDashes: db "---@"
-.Move:        db "MOVE@"
-elif DEF(_CRYSTAL_DE)
-.Item:        db "ITEM@"
-.ThreeDashes: db "---@"
-.Move:        db "ATTACKE@"
-elif DEF(_CRYSTAL_ES)
-.Item:        db "OBJETOS@"
-.ThreeDashes: db "---@"
-.Move:        db "MOVER@"
-endc
+.Item:
+	db "ITEM@"
+
+.ThreeDashes:
+	db "---@"
+
+.Move:
+	db "MOVE@"
 
 LoadBluePage:
 	call .PlaceOTInfo
@@ -838,16 +825,11 @@ LoadBluePage:
 	dw sBoxMonOTs
 	dw wBufferMonOT
 
-if !DEF(_CRYSTAL_EU)
-IDNoString: db "<ID>№.@"
-OTString:   db "OT/@"
-elif DEF(_CRYSTAL_DE)
-IDNoString: db "<ID>№.@"
-OTString:   db "OT/@"
-elif DEF(_CRYSTAL_ES)
-IDNoString: db "№<ID>@"
-OTString:   db "EO/@"
-endc
+IDNoString:
+	db "<ID>№.@"
+
+OTString:
+	db "OT/@"
 
 StatsScreen_PlaceFrontpic:
 	ld hl, wTempMonDVs
@@ -1093,7 +1075,6 @@ endc
 	call PlaySFX
 	ret
 
-if !DEF(_CRYSTAL_EU)
 EggString:
 	db "EGG@"
 
@@ -1120,67 +1101,6 @@ EggALotMoreTimeString:
 	db   "This EGG needs a"
 	next "lot more time to"
 	next "hatch.@"
-elif DEF(_CRYSTAL_DE)
-EggString:
-	db "EI@"
-
-FiveQMarkString:
-	db "?????@"
-
-EggSoonString:
-	db   "Es sind schon"
-	next "Laute zu hören."
-	next "Es wird bald"
-	next "schlüpfen!@"
-
-EggCloseString:
-	db   "Es bewegt sich"
-	next "manchmal."
-	next "Es könnte bald"
-	next "schlüpfen!@"
-
-EggMoreTimeString:
-	db   "Was ist in"
-	next "dem EI?"
-	next "Gedulde dich noch"
-	next "ein wenig!@"
-
-EggALotMoreTimeString:
-	db   "Das Ei braucht"
-	next "noch eine ganze"
-	next "Weile,bis"
-	next "es schlüpft!@"
-
-elif DEF(_CRYSTAL_ES)
-EggString:
-	db "HUEVO@"
-
-FiveQMarkString:
-	db "¿¿??@"
-
-EggSoonString:
-	db   "Se oyen ruidos"
-	next "dentro. ¡Pronto"
-	next "se abrirá!@"
-
-EggCloseString:
-	db   "A veces se"
-	next "mueve. Debe de"
-	next "estar a punto"
-	next "de abrirse.@"
-
-EggMoreTimeString:
-	db   "¿Qué habrá"
-	next "dentro? Tendrás"
-	next "que esperar un"
-	next "poco más.@"
-
-EggALotMoreTimeString:
-	db   "Este HUEVO"
-	next "necesita mucho"
-	next "más tiempo"
-	next "para abrirse.@"
-endc
 
 StatsScreen_AnimateEgg:
 	call StatsScreen_GetAnimationParam

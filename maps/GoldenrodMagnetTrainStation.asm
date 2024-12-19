@@ -104,69 +104,62 @@ GoldenrodMagnetTrainStationPlayerLeaveTrainAndEnterStationMovement:
 	step_end
 
 GoldenrodMagnetTrainStationOfficerTheTrainHasntComeInText:
-	text "Der Zug ist nicht"
-	line "gekommen…"
+	text "The train hasn't"
+	line "come in…"
 
-	para "Ich hab's! Ich"
-	line "werde die Passa-"
-	cont "giere auf dem"
-	cont "Rücken tragen!"
+	para "I know! I'll carry"
+	line "the passengers on"
+	cont "my back!"
 
-	para "Das wird nicht"
-	line "funktionieren."
+	para "That won't work."
 	done
 
 GoldenrodMagnetTrainStationOfficerAreYouComingAboardText:
-	text "Wir werden in Kür-"
-	line "ze nach SAFFRONIA"
-	cont "CITY abreisen."
+	text "We'll soon depart"
+	line "for SAFFRON."
 
-	para "Kommst du mit?"
-	line ""
+	para "Are you coming"
+	line "aboard?"
 	done
 
 GoldenrodMagnetTrainStationOfficerRightThisWayText:
-	text "Darf ich deinen"
-	line "FAHRSCHEIN sehen?"
+	text "May I see your"
+	line "rail PASS, please?"
 
-	para "O.K. Bitte hier"
-	line "entlang."
+	para "OK. Right this"
+	line "way, please."
 	done
 
 GoldenrodMagnetTrainStationOfficerYouDontHaveARailPassText:
-	text "Verzeihung, aber"
-	line "du hast keinen"
-	cont "FAHRSCHEIN."
+	text "Sorry. You don't"
+	line "have a rail PASS."
 	done
 
 GoldenrodMagnetTrainStationOfficerHopeToSeeYouAgainText:
-	text "Besuche uns"
-	line "wieder!"
+	text "We hope to see you"
+	line "again!"
 	done
 
 GoldenrodMagnetTrainStationOfficerArrivedInGoldenrodText:
-	text "Wir sind in DUKA-"
-	line "TIA CITY angekom-"
-	cont "men."
+	text "We have arrived in"
+	line "GOLDENROD."
 
-	para "Beehre uns bald"
-	line "wieder!"
+	para "We hope to see you"
+	line "again."
 	done
 
 GoldenrodMagnetTrainStationGentlemanText:
-	text "Ich bin der PRÄSI-"
-	line "DENT."
+	text "I'm the PRESIDENT."
 
-	para "Mein Traum war es,"
-	line "einen Zug zu bau-"
-	cont "en, der schneller"
+	para "My dream was to"
+	line "build a train that"
 
-	para "ist als jedes"
+	para "is faster than any"
 	line "#MON."
 
-	para "Dadurch würden"
-	line "JOHTO und KANTO"
-	cont "näher rücken."
+	para "It really brings"
+	line "JOHTO much closer"
+	cont "to KANTO."
 	done
 
 GoldenrodMagnetTrainStation_MapEvents:

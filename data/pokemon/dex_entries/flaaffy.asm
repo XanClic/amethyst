@@ -1,10 +1,10 @@
-	db "WOLLE@" ; species name
-	dbw 8, 133 ; height, weight
+	db "WOOL@" ; species name
+	dw 207, 290 ; height, weight
 
-	db   "Aufgrund seiner"
-	next "elektrizitätsab-"
-	next "weisenden Gummi-"
+	db   "Because of its"
+	next "rubbery, electric-"
+	next "ity-resistant"
 
-	page "haut kann es viel"
-	next "Elektrizität im"
-	next "Fell speichern.@"
+	page "skin, it can store"
+	next "lots of electric-"
+	next "ity in its fur.@"

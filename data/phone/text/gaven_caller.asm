@@ -1,101 +1,85 @@
 GavenMonGreaterThanImaginedText:
-	text "Mein @"
+	text "My @"
 	text_ram wStringBuffer4
 	text_start
-	line "könnte stärker"
-	cont "sein, als ich"
-	cont "dachte."
+	line "might be greater"
+	cont "than I imagined."
 
-	para "Ich bezweifle,"
-	line "dass ich ein"
-
-	para "@"
+	para "I doubt I'll see a"
+	line "@"
 	text_ram wStringBuffer4
-	text " sehe,"
-	line "das besser als"
-
-	para "meines ist."
+	text " that's"
+	cont "better than mine."
 	done
 
 GavenDefeatedMonText:
-	text "Oh, ich habe vor"
-	line "kurzem knapp gegen"
-
-	para "ein @"
-	text_ram wStringBuffer4
-	text_start
-	line "gewonnen."
-
-	para "Ich habe noch nie"
-	line "so ein starkes"
+	text "Oh, and I managed"
+	line "to barely defeat"
 
 	para "@"
 	text_ram wStringBuffer4
-	text_start
-	line "gesehen…"
+	text " the"
+	line "other day."
 
-	para "Du solltest deine"
-	line "Verteidigung nicht"
+	para "I've never seen a"
+	line "@"
+	text_ram wStringBuffer4
+	text " get"
+	cont "that strong…"
 
-	para "vernachlässigen,"
-	line "auch wenn du die-"
-	cont "ses #MON öfter"
-	cont "siehst."
+	para "You shouldn't let"
+	line "your guard down,"
+
+	para "even against a"
+	line "#MON you're"
+	cont "used to seeing."
 	done
 
 GavenLostAMonText:
-	text "Vor geraumer Zeit,"
-	line "versuchte ich ein"
-
-	para "wildes @"
+	text "And a while back,"
+	line "I tried to catch a"
+	cont "wild @"
 	text_ram wStringBuffer4
-	text_start
-	line "zu fangen."
+	text "."
 
-	para "Aber es ist mir"
-	line "entkommen."
+	para "But it managed to"
+	line "elude me."
 
-	para "Eine einzige fal-"
-	line "sche Entscheidung"
+	para "One wrong decision"
+	line "could mean total"
 
-	para "kann über Sieg"
-	line "oder Niederlage"
-
-	para "entscheiden…"
-	line "Auch du solltest"
-
-	para "vorsichtig sein!"
+	para "failure… You ought"
+	line "to be careful too."
 	done
 
 GavenBattleRematchText:
-	text "Auf in den Kampf!"
+	text "Let's battle!"
 
-	para "Hier warte ich:"
+	para "I'll be waiting on"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "Ruf an, wenn du in"
-	line "der Nähe bist."
+	para "Give me a shout"
+	line "when you're close."
 	done
 
 GavenHangUpText:
-	text "O.K., ich melde"
-	line "mich bald!"
+	text "OK, I'll talk to"
+	line "you soon!"
 	done
 
 GavenHangUpNotThursdayText:
-	text "Ich bin davon"
-	line "besessen, dich"
-	cont "zu besiegen."
+	text "I obsess over how"
+	line "to beat you."
 	done
 
 GavenReminderText:
-	text "<PLAY_G>, wo"
-	line "bist du?"
+	text "<PLAY_G>, why"
+	line "aren't you here?"
 
-	para "Ich mache dich auf"
-	line "@"
+	para "I'll take you down"
+	line "with @"
 	text_ram wStringBuffer5
-	text " fertig!"
+	text "!"
 	done

@@ -148,150 +148,138 @@ AzaleaGymStatue:
 	jumpstd GymStatue2Script
 
 BugsyText_INeverLose:
-	text "Ich bin KAI!"
-	line "Ich verliere nie,"
+	text "I'm BUGSY!"
+	line "I never lose when"
 
-	para "wenn es um Käfer-"
-	line "#MON geht."
+	para "it comes to bug"
+	line "#MON."
 
-	para "Meine Forschungen"
-	line "machen mich zu ei-"
-	cont "ner Autorität auf"
-	cont "diesem Gebiet!"
+	para "My research is"
+	line "going to make me"
 
-	para "Lass mich demonst-"
-	line "rieren, was ich"
-	cont "gelernt habe!"
+	para "the authority on"
+	line "bug #MON!"
+
+	para "Let me demonstrate"
+	line "what I've learned"
+	cont "from my studies."
 	done
 
 BugsyText_ResearchIncomplete:
-	text "Erstaunlich!"
-	line "Du bist ein wahrer"
-	cont "#MON-Experte!"
+	text "Whoa, amazing!"
+	line "You're an expert"
+	cont "on #MON!"
 
-	para "Meine Forschungen"
-	line "sind noch nicht"
-	cont "abgeschlossen."
+	para "My research isn't"
+	line "complete yet."
 
-	para "O.K., du gewinnst."
-	line "Nimm diesen ORDEN."
+	para "OK, you win. Take"
+	line "this BADGE."
 	done
 
 Text_ReceivedHiveBadge:
-	text "<PLAYER> erhält"
-	line "INSEKTORDEN."
+	text "<PLAYER> received"
+	line "HIVEBADGE."
 	done
 
 BugsyText_HiveBadgeSpeech:
-	text "Kennst du die Vor-"
-	line "züge des INSEKT-"
-	cont "ORDENs?"
+	text "Do you know the"
+	line "benefits of HIVE-"
+	cont "BADGE?"
 
-	para "Durch ihn gehor-"
-	line "chen dir #MON"
-	cont "bis zu Level 30."
+	para "If you have it,"
+	line "#MON up to L30"
 
-	para "Deine #MON"
-	line "können ZERSCHNEI-"
-	cont "DER nun auch"
-	cont "außerhalb des"
-	cont "Kampfes anwenden."
+	para "will obey you,"
+	line "even traded ones."
 
-	para "Bitte nimm auch"
-	line "dies!"
+	para "#MON that know"
+	line "CUT will be able"
+
+	para "to use it outside"
+	line "of battle too."
+
+	para "Here, I also want"
+	line "you to have this."
 	done
 
 BugsyText_FuryCutterSpeech:
-	text "TM49 enthält"
-	line "ZORNKLINGE."
+	text "TM49 contains"
+	line "FURY CUTTER."
 
-	para "Wird das Ziel ge-"
-	line "troffen, gewinnt"
-	cont "die Attacke jede"
-	cont "Runde an Stärke."
+	para "If you don't miss,"
+	line "it gets stronger"
+	cont "every turn."
 
-	para "Je länger der"
-	line "Kampf dauert, des-"
-	cont "to besser wird der"
-	cont "Angriff."
+	para "The longer your"
+	line "battle goes, the"
+	cont "better it gets."
 
-	para "Ist das nicht"
-	line "toll? Ich selbst"
-	cont "habe diese Ent-"
-	cont "deckung gemacht!"
+	para "Isn't that great?"
+	line "I discovered it!"
 	done
 
 BugsyText_BugMonsAreDeep:
-	text "Käfer-#MON"
-	line "sind ein weites"
+	text "Bug #MON are"
+	line "deep. There are"
 
-	para "Gebiet. Es gibt"
-	line "noch viele Geheim-"
-	cont "nisse zu er-"
-	cont "gründen."
+	para "many mysteries to"
+	line "be explored."
 
-	para "Studiere deine"
-	line "Lieblinge gründ-"
-	cont "lich!"
+	para "Study your favor-"
+	line "ites thoroughly."
 	done
 
 BugCatcherBennySeenText:
-	text "Käfer-#MON"
-	line "entwickeln sich"
+	text "Bug #MON evolve"
+	line "young. So they get"
 
-	para "sehr früh. Das"
-	line "heißt, dass sie"
-
-	para "auch schnell stär-"
-	line "ker werden."
+	para "stronger that much"
+	line "faster."
 	done
 
 BugCatcherBennyBeatenText:
-	text "Entwicklung allein"
-	line "ist nicht genug!"
+	text "Just evolving"
+	line "isn't enough!"
 	done
 
 BugCatcherBennyAfterBattleText:
-	text "#MON werden"
-	line "stärker, wenn sie"
-	cont "sich entwickeln."
-	cont "Wirklich!"
+	text "#MON become"
+	line "stronger if they"
+	cont "evolve. Really!"
 	done
 
 BugCatcherAlSeenText:
-	text "Käfer-#MON"
-	line "sind cool und"
+	text "Bug #MON are"
+	line "cool and tough!"
 
-	para "tough! Ich beweise"
-	line "es dir!"
+	para "I'll prove it to"
+	line "you!"
 	done
 
 BugCatcherAlBeatenText:
-	text "Du hast bewiesen,"
-	line "wie tough du bist…"
+	text "You proved how"
+	line "tough you are…"
 	done
 
 BugCatcherAlAfterBattleText:
-	text "Sie sind so cool,"
-	line "aber die meisten"
+	text "They're so cool,"
+	line "but most girls"
 
-	para "Mädchen mögen kei-"
-	line "ne Käfer-#MON."
+	para "don't like bug"
+	line "#MON."
 
-	para "Ich weiß nicht,"
-	line "wieso…"
+	para "I don't know why…"
 	done
 
 BugCatcherJoshSeenText:
-	text "Du hast die FLEG-"
-	line "MON gerettet? Oh"
-	cont "Mann, bist du"
-	cont "stark!"
+	text "You saved all the"
+	line "SLOWPOKE? Whew,"
+	cont "you're mighty!"
 
-	para "Aber meine ausge-"
-	line "wachsenen #MON"
-	cont "sind auch sehr"
-	cont "stark!"
+	para "But my grown-up"
+	line "#MON are pretty"
+	cont "tough too!"
 	done
 
 BugCatcherJoshBeatenText:
@@ -299,80 +287,76 @@ BugCatcherJoshBeatenText:
 	done
 
 BugCatcherJoshAfterBattleText:
-	text "Vielleicht sollte"
-	line "ich sie ein wenig"
-	cont "besser trainieren…"
+	text "I guess I should"
+	line "teach them better"
+	cont "moves…"
 	done
 
 TwinsAmyandmay1SeenText:
-	text "EVA: Hi! Forderst"
-	line "du den LEITER"
-	cont "heraus? Unmöglich!"
+	text "AMY: Hi! Are you"
+	line "challenging the"
+	cont "LEADER? No way!"
 	done
 
 TwinsAmyandmay1BeatenText:
-	text "EVA & UTE: Oh, um"
-	line "Himmels Willen!"
+	text "AMY & MAY: Oh,"
+	line "double goodness!"
 	done
 
 TwinsAmyandmay1AfterBattleText:
-	text "EVA: Du bist"
-	line "wirklich stark!"
+	text "AMY: You're"
+	line "really strong!"
 	done
 
 TwinsAmyandmay2SeenText:
-	text "UTE: Du möchtest"
-	line "zum LEITER? Erst"
-	cont "sind wir dran!"
+	text "MAY: You want to"
+	line "see the LEADER?"
+	cont "We come first!"
 	done
 
 TwinsAmyandmay2BeatenText:
-	text "EVA & UTE: Um"
-	line "Himmels Willen!"
+	text "AMY & MAY: Oh,"
+	line "double goodness!"
 	done
 
 TwinsAmyandmay2AfterBattleText:
-	text "UTE: Unsere Käfer-"
-	line "#MON haben ver-"
-	cont "loren! Was für ei-"
-	cont "ne Schande!"
+	text "MAY: Our bug #-"
+	line "MON lost! Oh, what"
+	cont "a shame."
 	done
 
 AzaleaGymGuideText:
-	text "Yo, Herausfor-"
-	line "derer!"
+	text "Yo, challenger!"
 
-	para "KAI ist zwar jung,"
-	line "aber sein Wissen"
+	para "BUGSY's young, but"
+	line "his knowledge of"
 
-	para "über Käfer-#-"
-	line "MON ist unüber-"
-	cont "trefflich."
+	para "bug #MON is for"
+	line "real."
 
-	para "Ohne meine Tipps"
-	line "wird der Kampf für"
-	cont "dich sehr hart."
+	para "It's going to be"
+	line "tough without my"
+	cont "advice."
 
-	para "Mal sehen… Käfer-"
-	line "#MON mögen kein"
-	cont "Feuer."
+	para "Let's see… Bug"
+	line "#MON don't like"
+	cont "fire."
 
-	para "Auch Flug-Attacken"
-	line "sind sehr effek-"
-	cont "tiv."
+	para "Flying-type moves"
+	line "are super-effec-"
+	cont "tive too."
 	done
 
 AzaleaGymGuideWinText:
-	text "Gut gemacht! Das"
-	line "war ein Muster-"
-	cont "kampf zweier ta-"
-	cont "lentierter, junger"
-	cont "Trainer."
+	text "Well done! That"
+	line "was a great clash"
 
-	para "Mit Leuten wie dir"
-	line "sieht die Zukunft"
-	cont "der #MON rosig"
-	cont "aus!"
+	para "of talented young"
+	line "trainers."
+
+	para "With people like"
+	line "you, the future of"
+	cont "#MON is bright!"
 	done
 
 AzaleaGym_MapEvents:

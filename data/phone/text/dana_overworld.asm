@@ -1,74 +1,72 @@
 DanaAskNumber1Text:
-	text "Du kennst dich gut"
-	line "mit #MON aus!"
+	text "You're really good"
+	line "at #MON!"
 
-	para "Nach den Kämpfen"
-	line "bekomme ich Items."
+	para "Boys give me items"
+	line "after battles, but"
 
-	para "Und manchmal sind"
-	line "es viel zu viele."
+	para "sometimes they"
+	line "give me too much."
 
-	para "Wenn du möchtest,"
-	line "kann ich mit dir"
+	para "Next time, I can"
+	line "share some if you"
 
-	para "teilen. Gib mir"
-	line "deine Nummer."
+	para "want. Let me get"
+	line "your phone number."
 	done
 
 DanaAskNumber2Text:
-	text "Ich teile meine"
-	line "Geschenke mit dir."
+	text "I'll share my"
+	line "gifts with you."
 
-	para "Verrate mir deine"
-	line "Telefonnummer."
+	para "Let me get your"
+	line "phone number."
 	done
 
 DanaNumberAcceptedText:
-	text "Wenn ich das"
-	line "nächste Mal etwas"
+	text "Next time a boy"
+	line "gives me something"
 
-	para "nach einem Kampf"
-	line "bekomme, teile ich"
-	cont "mit dir!"
+	para "after a battle,"
+	line "I'll share some!"
 
-	para "Bin ich ein"
-	line "schlechter Mensch?"
+	para "Does that make me"
+	line "bad?"
 	done
 
 DanaNumberDeclinedText:
-	text "Argh, du möchtest"
-	line "es nicht?"
+	text "Aww, you don't"
+	line "want anything?"
 
-	para "Aber es ist"
-	line "kostenlos…"
+	para "But it's all for"
+	line "free…"
 	done
 
 DanaPhoneFullText:
-	text "Du kannst keine"
-	line "Nummer mehr"
-	cont "speichern!"
+	text "But your phone's"
+	line "out of memory!"
 	done
 
 DanaRematchText:
-	text "Du kommst sehr"
-	line "spät!"
+	text "You're really"
+	line "late!"
 
-	para "Ich möchte endlich"
-	line "beginnen!"
+	para "I'm eager to get"
+	line "going!"
 	done
 
 DanaGiftText:
-	text "Hi! Kommst du we-"
-	line "gen dem Geschenk?"
+	text "Hi! Are you here"
+	line "for your gift?"
 
-	para "Es wird deinen Tag"
-	line "retten!"
+	para "This should really"
+	line "make your day!"
 	done
 
 DanaPackFullText:
-	text "Wo möchtest du"
-	line "es verstauen?"
+	text "Where are you"
+	line "going to put this?"
 
-	para "Du kannst es dir"
-	line "später abholen."
+	para "I'll keep it, so"
+	line "come get it later!"
 	done

@@ -1,82 +1,79 @@
 BrentAnswerPhoneText:
-	text "Ja? @"
+	text "Yes? @"
 	text_ram wStringBuffer3
-	text "…"
+	text " here…"
 
-	para "Ah, <PLAYER>. Was"
-	line "kann ich für"
-	cont "dich tun?"
+	para "Ah, <PLAYER>. What"
+	line "can I do for you?"
 	done
 
 BrentAnswerPhoneDayText:
-	text "Ja? @"
+	text "Yes? @"
 	text_ram wStringBuffer3
-	text "…"
+	text " here…"
 
-	para "Ah, <PLAYER>. Was"
-	line "kann ich für"
-	cont "dich tun?"
+	para "Ah, <PLAYER>. What"
+	line "can I do for you?"
 	done
 
 BrentAnswerPhoneNiteText:
-	text "Ja? @"
+	text "Yes? @"
 	text_ram wStringBuffer3
-	text "…"
+	text " here…"
 
-	para "Ah, <PLAYER>. Was"
-	line "kann ich für"
-	cont "dich tun?"
+	para "Ah, <PLAYER>. What"
+	line "can I do for you?"
 	done
 
 BrentGreetText:
-	text "Hiya, <PLAYER>."
-	line "Wie geht es dir?"
+	text "Hiya, <PLAYER>. How"
+	line "are you doing?"
 
-	para "Heh! Ich bin's,"
+	para "Hey! It's me,"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 	done
 
 BrentGreetDayText:
-	text "Hiya, <PLAYER>,"
-	line "wie geht es dir?"
+	text "Hiya, <PLAYER>, how"
+	line "are you doing?"
 
-	para "Heh, ich bin's,"
+	para "Hey, it's me,"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 	done
 
 BrentGreetNiteText:
-	text "Hiya, <PLAYER>,"
-	line "wie geht es dir?"
+	text "Hiya, <PLAYER>, how"
+	line "are you doing?"
 
-	para "Heh, ich bin's,"
+	para "Hey, it's me,"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 	done
 
 BrentGenericText:
-	text "Oh ja, ich sah"
-	line "dich neulich aus"
+	text "Oh yeah, I saw you"
+	line "coming out of a"
 
-	para "einem #MON-"
-	line "CENTER kommen."
+	para "#MON CENTER the"
+	line "other day."
 
-	para "Du lässt deine"
-	line "#MON regelmäßig"
+	para "You heal your"
+	line "#MON regularly,"
 
-	para "heilen, oder? Ich"
-	line "bin beeindruckt."
+	para "don't you?"
+	line "I'm impressed."
 
-	para "Mein @"
+	para "Heh, my @"
 	text_ram wStringBuffer4
 	text_start
-	line "ist so stark, dass"
+	line "is so tough, it"
 
-	para "es nicht oft in"
-	line "ein #MON-CENTER"
-	cont "muss. Heheh!"
+	para "doesn't need to go"
+	line "to #MON CENTERS"
+	cont "often. Heheh!"
 	done

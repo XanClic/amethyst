@@ -79,57 +79,51 @@ WillsRoom_EnterMovement:
 	step_end
 
 WillScript_WillBeforeText:
-	text "Willkommen in der"
-	line "#MON LIGA,"
-	cont "<PLAYER>."
+	text "Welcome to #MON"
+	line "LEAGUE, <PLAYER>."
 
-	para "Erlaube mir, mich"
-	line "vorzustellen. Ich"
-	cont "bin WILLI."
+	para "Allow me to intro-"
+	line "duce myself. I am"
+	cont "WILL."
 
-	para "Ich habe die ganze"
-	line "Welt bereist, um"
+	para "I have trained all"
+	line "around the world,"
 
-	para "meine Psycho-#-"
-	line "MON zu verbessern."
+	para "making my psychic"
+	line "#MON powerful."
 
-	para "Und schließlich"
-	line "habe ich es"
-	cont "in die TOP VIER"
-	cont "geschafft."
+	para "And, at last, I've"
+	line "been accepted into"
+	cont "the ELITE FOUR."
 
-	para "Ich werde ständig"
-	line "besser!"
+	para "I can only keep"
+	line "getting better!"
 
-	para "Verlieren ist"
-	line "keine Alternative!"
+	para "Losing is not an"
+	line "option!"
 	done
 
 WillScript_WillBeatenText:
-	text "Ich… ich kann…"
-	line "es nicht glauben…"
+	text "I… I can't…"
+	line "believe it…"
 	done
 
 WillScript_WillDefeatText:
-	text "Auch wenn ich"
-	line "besiegt wurde,"
-	cont "werde ich an"
-	cont "meiner Überzeugung"
-	cont "festhalten."
+	text "Even though I was"
+	line "defeated, I won't"
+	cont "change my course."
 
-	para "Ich werde weiter"
-	line "kämpfen, bis ich"
+	para "I will continue"
+	line "battling until I"
 
-	para "besser bin, als"
-	line "alle anderen"
-	cont "Trainer!"
+	para "stand above all"
+	line "trainers!"
 
-	para "<PLAYER>, schreite"
-	line "voran und lerne"
+	para "Now, <PLAYER>, move"
+	line "on and experience"
 
-	para "die Grausamkeit"
-	line "der TOP VIER"
-	cont "kennen."
+	para "the true ferocity"
+	line "of the ELITE FOUR."
 	done
 
 WillsRoom_MapEvents:

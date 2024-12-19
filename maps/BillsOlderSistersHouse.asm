@@ -14,18 +14,15 @@ BillsOlderSistersHouseYoungsterScript:
 	jumptextfaceplayer BillsOlderSistersHouseYoungsterText
 
 BillsOlderSisterText:
-	text "Mein Großvater"
-	line "besucht meinen"
-	cont "Bruder BILL am KAP"
-	cont "bei AZURIA CITY."
+	text "My grandpa is at "
+	line "my brother BILL's"
+	cont "on CERULEAN CAPE."
 	done
 
 BillsOlderSistersHouseYoungsterText:
-	text "Ich habe diese"
-	line "merkwürdigen,"
-	cont "langsamen #MON"
-	cont "auf dem RADWEG"
-	cont "gesehen."
+	text "I saw these weird,"
+	line "slow #MON on"
+	cont "CYCLING ROAD."
 	done
 
 BillsOlderSistersHouse_MapEvents:

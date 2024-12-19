@@ -162,22 +162,11 @@ endc
 	ret
 
 .String_PressAToLink_BToCancel:
-if !DEF(_CRYSTAL_EU)
 	db   "Press A to"
 	next "link IR-Device"
 	next "Press B to"
-	next "cancel it.@"
-elif DEF(_CRYSTAL_DE)
-	db   "A-KNOPF für"
-	next "IR-Aktivierung"
-	next "B-KNOPF für"
-	next "zurück.@"
-elif DEF(_CRYSTAL_ES)
-	db   "Pulsa A para"
-	next "enlace IR."
-	next "Pulsa B para"
-	next "cancelar.@"
-endc
+	next "cancel it."
+	db   "@"
 
 .MysteryGiftCanceledText:
 	text_far _MysteryGiftCanceledText

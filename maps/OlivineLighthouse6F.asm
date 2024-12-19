@@ -165,104 +165,98 @@ OlivineLighthouseJasmineLeavesRightMovement:
 	step_end
 
 JasmineCianwoodPharmacyText:
-	text "JASMIN: …Dieses"
-	line "#MON hat"
+	text "JASMINE: … This"
+	line "#MON always"
 
-	para "das Meer immer"
-	line "erleuchtet."
+	para "kept the sea lit"
+	line "at night."
 
-	para "…Aber plötzlich"
-	line "wurde es krank… Es"
-	cont "schnappt nach"
-	cont "Luft…"
+	para "…But it suddenly"
+	line "got sick… It's"
+	cont "gasping for air…"
 
-	para "…Ich weiß, dass"
-	line "es eine gut"
+	para "…I understand"
+	line "that there is a"
 
-	para "sortierte APOTHEKE"
-	line "in ANEMONIA CITY"
-	cont "gibt…"
+	para "wonderful PHARMACY"
+	line "in CIANWOOD…"
 
-	para "Aber dafür musst"
-	line "du über das Meer…"
+	para "But that's across"
+	line "the sea…"
 
-	para "Und ich kann AMPHI"
-	line "nicht unbeaufsich-"
-	cont "tigt zurücklassen…"
+	para "And I can't leave"
+	line "AMPHY unattended…"
 	done
 
 JasmineGetSomeMedicineText:
-	text "…Vielleicht"
-	line "könntest du die"
-	cont "Medizin für mich"
-	cont "besorgen? Bitte!"
+	text "…May I ask you to"
+	line "get some medicine"
+	cont "for me? Please?"
 	done
 
 JasmineCureAmphyText:
-	text "JASMIN: …Wird"
-	line "diese Arznei AMPHI"
-	cont "helfen?"
+	text "JASMINE: …Will"
+	line "that medicine cure"
+	cont "AMPHY?"
 	done
 
 PlayerHandedSecretpotionText:
-	text "<PLAYER> übergibt"
-	line "JASMIN den"
-	cont "GEHEIMTRANK."
+	text "<PLAYER> handed the"
+	line "SECRETPOTION to"
+	cont "JASMINE."
 	done
 
 JasmineDontBeOffendedText:
-	text "JASMIN: …Hm,"
-	line "sei bitte nicht"
-	cont "beleidigt…"
+	text "JASMINE: …Um,"
+	line "please don't be"
+	cont "offended…"
 
-	para "…AMPHI nimmt"
-	line "die Arznei nur"
-	cont "von mir…"
+	para "…AMPHY will not"
+	line "take anything from"
+	cont "anyone but me…"
 	done
 
 JasmineAmphyHowAreYouFeelingText:
-	text "JASMIN: …"
+	text "JASMINE: …"
 
-	para "AMPHI, wie geht"
-	line "es dir?"
+	para "AMPHY, how are you"
+	line "feeling?"
 	done
 
 JasmineThankYouText:
-	text "JASMIN: …Oh, ich"
-	line "bin erleichtert…"
+	text "JASMINE: …Oh, I'm"
+	line "so relieved…"
 
-	para "Das ist einfach"
-	line "wundervoll…"
+	para "This is just so"
+	line "wonderful…"
 
-	para "Ich danke dir"
-	line "vielmals."
+	para "Thank you so very,"
+	line "very much."
 
-	para "…Ich kehre in die"
-	line "PKMN-ARENA zurück."
+	para "…I will return to"
+	line "the GYM…"
 	done
 
 JasmineISeeText:
-	text "JASMIN: …Ich ver-"
-	line "stehe…"
+	text "JASMINE: …I see…"
 	done
 
 JasmineAmphyHangOnText:
-	text "…AMPHI, halte"
-	line "durch!"
+	text "…AMPHY, hang on!"
 	done
 
 AmphyPalPalooText:
-	text "AMPHI: …"
-	line "…Pa…Paluu…"
+	text "AMPHY: …"
+	line "…Pa… paloo…"
 	done
 
 AmphyBreathingLaboredText:
-	text "Es hat Probleme"
-	line "mit der Atmung…"
+	text "Its breathing is"
+	line "terribly labored…"
 	done
 
 AmphyPaluPaluluText:
-	text "AMPHI: Palu!"
+	text "AMPHY: Palu!"
 	line "Palulu!"
 	done
 

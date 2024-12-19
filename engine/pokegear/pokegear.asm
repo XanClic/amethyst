@@ -313,19 +313,6 @@ InitPokegearTilemap:
 	hlcoord 12, 1
 	ld de, .switch
 	call PlaceString
-if DEF(_CRYSTAL_DE)
-	; Make top-right bubble one tile wider
-	hlcoord 11, 0
-	ld [hl], $30 ; top-left corner
-	inc hl
-	ld [hl], " "
-	hlcoord 11, 1
-	ld [hl], " "
-	hlcoord 11, 2
-	ld [hl], $32 ; bottom-left corner
-	inc hl
-	ld [hl], " "
-endc
 	hlcoord 0, 12
 	lb bc, 4, 18
 	call Textbox
@@ -333,13 +320,7 @@ endc
 	ret
 
 .switch
-if !DEF(_CRYSTAL_EU)
 	db " SWITCH▶@"
-elif DEF(_CRYSTAL_DE)
-	db " WEITER▶@"
-elif DEF(_CRYSTAL_ES)
-	db " CAMBIO▶@"
-endc
 
 .Map:
 	ld a, [wPokegearMapPlayerIconLandmark]
@@ -1265,24 +1246,12 @@ PokegearPhoneContactSubmenu:
 	ret
 
 .CallDeleteCancelStrings:
-	dwcoord 9, 6
+	dwcoord 10, 6
 	db 3
-if !DEF(_CRYSTAL_EU)
 	db   "CALL"
 	next "DELETE"
 	next "CANCEL"
 	db   "@"
-elif DEF(_CRYSTAL_DE)
-	db   "ANRUF"
-	next "LÖSCHEN"
-	next "ZURÜCK"
-	db   "@"
-elif DEF(_CRYSTAL_ES)
-	db   "LLAMAR"
-	next "BORRAR"
-	next "SALIR"
-	db   "@"
-endc
 
 .CallDeleteCancelJumptable:
 	dw .Call
@@ -1292,19 +1261,9 @@ endc
 .CallCancelStrings:
 	dwcoord 10, 8
 	db 2
-if !DEF(_CRYSTAL_EU)
 	db   "CALL"
 	next "CANCEL"
 	db   "@"
-elif DEF(_CRYSTAL_DE)
-	db   "ANRUF"
-	next "ZURÜCK"
-	db   "@"
-elif DEF(_CRYSTAL_ES)
-	db   "LLAMAR"
-	next "SALIR"
-	db   "@"
-endc
 
 .CallCancelJumptable:
 	dw .Call
@@ -1651,13 +1610,7 @@ LoadStation_BuenasPassword:
 	ld de, BuenasPasswordName
 	ret
 
-if !DEF(_CRYSTAL_EU)
 BuenasPasswordName:    db "BUENA'S PASSWORD@"
-elif DEF(_CRYSTAL_DE)
-BuenasPasswordName:    db "BUENAs PASSWORT@"
-elif DEF(_CRYSTAL_ES)
-BuenasPasswordName:    db "CÓDIGO DE BUENA@"
-endc
 NotBuenasPasswordName: db "@"
 
 LoadStation_UnownRadio:
@@ -1790,7 +1743,6 @@ NoRadioName:
 	call Textbox
 	ret
 
-if !DEF(_CRYSTAL_EU)
 OaksPKMNTalkName:     db "OAK's <PK><MN> Talk@"
 PokedexShowName:      db "#DEX Show@"
 PokemonMusicName:     db "#MON Music@"
@@ -1800,27 +1752,6 @@ UnownStationName:     db "?????@"
 PlacesAndPeopleName:  db "Places & People@"
 LetsAllSingName:      db "Let's All Sing!@"
 PokeFluteStationName: db "# FLUTE@"
-elif DEF(_CRYSTAL_DE)
-OaksPKMNTalkName:     db "EICHs <PKMN>-Talk@"
-PokedexShowName:      db "#DEX Show@"
-PokemonMusicName:     db "#MON-Musik@"
-LuckyChannelName:     db "Glückskanal@"
-UnownStationName:     db "?????@"
-
-PlacesAndPeopleName:  db "Orte & Personen@"
-LetsAllSingName:      db "Lasst uns singen@"
-PokeFluteStationName: db "#MON-FLÖTE@"
-elif DEF(_CRYSTAL_ES)
-OaksPKMNTalkName:     db "La Hora de OAK@"
-PokedexShowName:      db "Ver #DEX@"
-PokemonMusicName:     db "Música #MON@"
-LuckyChannelName:     db "Canal Suerte@"
-UnownStationName:     db "¿¿??@"
-
-PlacesAndPeopleName:  db "Lugares y Gente@"
-LetsAllSingName:      db "Cantemos todos@"
-PokeFluteStationName: db "FLAUTA #MON@"
-endc
 
 _TownMap:
 	ld hl, wOptions
@@ -2246,13 +2177,7 @@ TownMapBubble:
 	ret
 
 .Where:
-if !DEF(_CRYSTAL_EU)
 	db "Where?@"
-elif DEF(_CRYSTAL_DE)
-	db "WO?@"
-elif DEF(_CRYSTAL_ES)
-	db "¿Dónde?@"
-endc
 
 .Name:
 ; We need the map location of the default flypoint
@@ -2534,7 +2459,6 @@ Pokedex_GetArea:
 	ld a, $07
 	call ByteFill
 	ld [hl], $17
-if !DEF(_CRYSTAL_EU)
 	call GetPokemonName
 	hlcoord 2, 0
 	call PlaceString
@@ -2542,33 +2466,10 @@ if !DEF(_CRYSTAL_EU)
 	ld l, c
 	ld de, .String_SNest
 	call PlaceString
-elif DEF(_CRYSTAL_DE)
-	call GetPokemonName
-	hlcoord 1, 0
-	call PlaceString
-	ld h, b
-	ld l, c
-	ld de, .String_SNest
-	call PlaceString
-elif DEF(_CRYSTAL_ES)
-	hlcoord 1, 0
-	ld de, .String_SNest
-	call PlaceString
-	push bc
-	call GetPokemonName
-	pop hl
-	call PlaceString
-endc
 	ret
 
 .String_SNest:
-if !DEF(_CRYSTAL_EU)
 	db "'S NEST@"
-elif DEF(_CRYSTAL_DE)
-	db " FUNDORT@"
-elif DEF(_CRYSTAL_ES)
-	db "NIDO DE @"
-endc
 
 .GetAndPlaceNest:
 	ld [wTownMapCursorLandmark], a

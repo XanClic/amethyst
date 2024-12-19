@@ -103,180 +103,159 @@ VermilionGymStatue:
 	jumpstd GymStatue2Script
 
 LtSurgeIntroText:
-	text "MAJOR BOB: Heh, du"
-	line "Windelpupser!"
+	text "SURGE: Hey, you"
+	line "little tyke!"
 
-	para "Das muss ich dir"
-	line "lassen. Es ist"
+	para "I have to hand it"
+	line "to you. It may not"
 
-	para "nicht sehr weise,"
-	line "mich herauszufor-"
-	cont "dern, aber es ist"
-	cont "mutig!"
+	para "be very smart to"
+	line "challenge me, but"
+	cont "it takes guts!"
 
-	para "Wenn es um"
-	line "Elektro-#MON"
-	cont "geht, bin ich die"
-	cont "Nummer eins!"
+	para "When it comes to"
+	line "electric #MON,"
+	cont "I'm number one!"
 
-	para "Ich habe das"
-	line "Schlachtfeld nie"
+	para "I've never lost on"
+	line "the battlefield."
 
-	para "als Verlierer"
-	line "verlassen."
-
-	para "Ich grille dich,"
-	line "wie ich es mit"
-
-	para "meinen Feinden im"
-	line "Krieg tat!"
+	para "I'll zap you just"
+	line "like I did my"
+	cont "enemies in war!"
 	done
 
 LtSurgeWinLossText:
-	text "MAJOR BOB: Arrrgh!"
-	line "Du bist stark!"
+	text "SURGE: Arrrgh!"
+	line "You are strong!"
 
-	para "O.K., Wicht. Du"
-	line "erhältst den"
-	cont "DONNERORDEN!"
+	para "OK, kid. You get"
+	line "THUNDERBADGE!"
 	done
 
 ReceivedThunderBadgeText:
-	text "<PLAYER> erhält"
-	line "DONNERORDEN."
+	text "<PLAYER> received"
+	line "THUNDERBADGE."
 	done
 
 LtSurgeThunderBadgeText:
-	text "MAJOR BOB: Der"
-	line "DONNERORDEN erhöht"
+	text "SURGE: THUNDER-"
+	line "BADGE increases"
+	cont "#MON's speed. "
 
-	para "den INIT-Wert"
-	line "deiner #MON."
+	para "Consider it proof"
+	line "that you defeated"
 
-	para "Du darfst stolz"
-	line "darauf sein, mich"
-
-	para "besiegt zu haben,"
-	line "hörst du?"
+	para "me. You wear it"
+	line "proudly, hear?"
 	done
 
 LtSurgeFightDoneText:
-	text "MAJOR BOB: Zwerg!"
-	line "Immer noch bei"
-	cont "der Sache?"
+	text "SURGE: Hey, kid!"
+	line "Still slugging and"
+	cont "chugging away?"
 
-	para "Meine #MON und"
-	line "ich sind noch"
-	cont "dabei!"
+	para "My #MON and I"
+	line "are still at it!"
 	done
 
 GentlemanGregorySeenText:
-	text "Du willst MAJOR"
-	line "BOB besiegen?"
+	text "You're here to"
+	line "defeat LT.SURGE?"
 
-	para "Da musst du erst"
-	line "an mir vorbei!"
+	para "Not if I can help"
+	line "it!"
 	done
 
 GentlemanGregoryBeatenText:
-	text "Ich habe versagt,"
-	line "MAJOR BOB. Es tut"
-	cont "mir Leid!"
+	text "Sorry I failed"
+	line "you, LT.SURGE,"
+	cont "sir!"
 	done
 
 GentlemanGregoryAfterBattleText:
-	text "Als ich noch bei"
-	line "der Armee war, hat"
+	text "When I was still"
+	line "in the army, LT."
 
-	para "MAJOR BOB mein"
-	line "Leben gerettet."
+	para "SURGE saved my"
+	line "life."
 	done
 
 GuitaristVincentSeenText:
-	text "MAJOR BOB hat mein"
-	line "Talent für"
+	text "LT.SURGE recog-"
+	line "nized my potential"
 
-	para "Elektro-#MON"
-	line "erkannt."
+	para "with electric"
+	line "#MON."
 
-	para "Glaubst du, du"
-	line "kannst mich"
-	cont "besiegen?"
+	para "Think you can beat"
+	line "me?"
 	done
 
 GuitaristVincentBeatenText:
-	text "Oh, wie"
-	line "schockierend!"
+	text "Ooh, how shocking!"
 	done
 
 GuitaristVincentAfterBattleText:
-	text "Wenn die Fallen"
-	line "der Trainer"
+	text "If the GYM's traps"
+	line "were working, you"
 
-	para "funktionieren"
-	line "würden, wärst du"
-
-	para "schon längst"
-	line "hinüber…"
+	para "would have been"
+	line "toast…"
 	done
 
 JugglerHortonSeenText:
-	text "Ich werde dich"
-	line "fertig machen! Du"
-	cont "wirst gleich einen"
-	cont "Schlag bekommen!"
+	text "I'm going to take"
+	line "you down! Prepare"
+	cont "to be shocked!"
 	done
 
 JugglerHortonBeatenText:
-	text "Ahh! Ich stand zu"
-	line "sehr unter Strom…"
+	text "Gwaaah!"
+	line "I was overpowered…"
 	done
 
 JugglerHortonAfterBattleText:
-	text "Lass dir den Sieg"
-	line "über mich nicht zu"
+	text "Don't get too com-"
+	line "fortable about"
 
-	para "Kopf steigen…"
-	line "MAJOR BOB ist"
-	cont "stark."
+	para "beating me…"
+	line "LT.SURGE is tough."
 	done
 
 VermilionGymGuideText:
-	text "He! Du CHAMP"
-	line "in spe!"
+	text "Yo! CHAMP in"
+	line "making!"
 
-	para "Dieses Mal hattest"
-	line "du Glück."
+	para "You lucked out"
+	line "this time."
 
-	para "MAJOR BOB ist sehr"
-	line "vorsichtig. Er"
+	para "LT.SURGE is very"
+	line "cautious. He has"
 
-	para "hat überall in der"
-	line "PKMN-ARENA Fallen"
-	cont "aufgestellt."
+	para "traps set all over"
+	line "the GYM."
 
-	para "Aber, -- hihi --"
-	line "die Fallen funk-"
-	cont "tionieren nicht."
+	para "But--he-heh--the"
+	line "traps aren't"
+	cont "active right now."
 
-	para "Du wirst MAJOR BOB"
-	line "problemlos"
-	cont "erreichen."
+	para "You'll have no"
+	line "problem getting to"
+	cont "LT.SURGE."
 	done
 
 VermilionGymGuideWinText:
-	text "Puh! Das war ein"
-	line "elektrisierendes"
-	cont "Erlebnis!"
+	text "Whew! That was an"
+	line "electrifying bout!"
 
-	para "Das hat meine"
-	line "Nerven sehr"
-	cont "strapaziert."
+	para "It sure made me"
+	line "nervous."
 	done
 
 VermilionGymTrashCanText:
-	text "Nein! Hier ist"
-	line "nur Müll."
+	text "Nope! Nothing here"
+	line "but trash."
 	done
 
 VermilionGym_MapEvents:

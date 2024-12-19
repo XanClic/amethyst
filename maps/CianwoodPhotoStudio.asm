@@ -26,25 +26,24 @@ CianwoodPhotoStudioFishingGuruScript:
 	end
 
 CianwoodPhotoStudioFishingGuruText_Question:
-	text "Deine #MON sind"
-	line "großartig!"
+	text "You have magnifi-"
+	line "cent #MON with"
+	cont "you."
 
-	para "Wie wär's mit ei-"
-	line "nem Foto als Sou-"
-	cont "venir?"
+	para "How about a photo"
+	line "for a souvenir?"
 	done
 
 CianwoodPhotoStudioFishingGuruText_Yes:
-	text "O.K.! Und jetzt"
-	line "sag: CHEESE!"
+	text "OK! Big smile now!"
 	done
 
 CianwoodPhotoStudioFishingGuruText_No:
-	text "Oh, schade. Ich"
-	line "dachte, das wäre"
+	text "Oh, that's too"
+	line "bad. I thought it"
 
-	para "ein schönes Anden-"
-	line "ken…"
+	para "would be a great"
+	line "memento…"
 	done
 
 CianwoodPhotoStudio_MapEvents:

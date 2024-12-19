@@ -1,10 +1,10 @@
-	db "LÖWENZAHN@" ; species name
-	dbw 6, 10 ; height, weight
+	db "COTTONWEED@" ; species name
+	dw 200, 20 ; height, weight
 
-	db   "Es schließt bei"
-	next "Regen die Blüte"
-	next "auf seinem Kopf"
+	db   "As soon as it"
+	next "rains, it closes"
+	next "its flower and"
 
-	page "und versteckt"
-	next "sich, um nicht"
-	next "nass zu werden.@"
+	page "hides in the shade"
+	next "of a tree to avoid"
+	next "getting wet.@"

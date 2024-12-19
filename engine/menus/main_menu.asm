@@ -355,13 +355,7 @@ MainMenu_PrintCurrentTimeAndDay:
 	ret
 
 .TimeNotSetString:
-if !DEF(_CRYSTAL_EU)
 	db "TIME NOT SET@"
-elif DEF(_CRYSTAL_DE)
-	db "UHR NICHT GESTELLT@"
-elif DEF(_CRYSTAL_ES)
-	db "HORA NO FIJADA@"
-endc
 
 .MainMenuTimeUnknownText: ; unreferenced
 	text_far _MainMenuTimeUnknownText
@@ -382,7 +376,6 @@ endc
 	call PlaceString
 	ret
 
-if !DEF(_CRYSTAL_EU)
 .Days:
 	db "SUN@"
 	db "MON@"
@@ -393,29 +386,6 @@ if !DEF(_CRYSTAL_EU)
 	db "SATUR@"
 .Day:
 	db "DAY@"
-elif DEF(_CRYSTAL_DE)
-.Days:
-	db "SONNTAG@"
-	db "MONTAG@"
-	db "DIENSTAG@"
-	db "MITTWOCH@"
-	db "DONNERSTAG@"
-	db "FREITAG@"
-	db "SAMSTAG@"
-.Day:
-	db "@"
-elif DEF(_CRYSTAL_ES)
-.Days:
-	db "DOMINGO@"
-	db "LUNES@"
-	db "MARTES@"
-	db "MIÉRCOLES@"
-	db "JUEVES@"
-	db "VIERNES@"
-	db "SÁBADO@"
-.Day:
-	db "@"
-endc
 
 ClearTilemapEtc:
 	xor a

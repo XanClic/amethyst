@@ -406,13 +406,7 @@ ScrollingMenu_UpdateDisplay:
 	ret
 
 .CancelString
-if !DEF(_CRYSTAL_EU)
 	db "CANCEL@"
-elif DEF(_CRYSTAL_DE)
-	db "ZURÜCK@"
-elif DEF(_CRYSTAL_ES)
-	db "SALIR@"
-endc
 
 .call_function
 	ld d, h

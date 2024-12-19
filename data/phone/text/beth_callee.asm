@@ -1,15 +1,17 @@
 BethAnswerPhoneText:
-	text "Hallo, hier ist"
+	text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
 	para "Oh, <PLAY_G>."
-	line "Guten Morgen."
+	line "Good morning."
+
+	para ""
 	done
 
 BethAnswerPhoneDayText:
-	text "Hallo, hier ist"
+	text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
@@ -18,62 +20,60 @@ BethAnswerPhoneDayText:
 	done
 
 BethAnswerPhoneNiteText:
-	text "Hallo, hier ist"
+	text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
 	para "Oh, <PLAY_G>."
-	line "Guten Abend."
+	line "Good evening."
 	done
 
 BethGreetText:
-	text "Guten Morgen,"
+	text "Good morning,"
 	line "<PLAY_G>!"
 
-	para "Ich, @"
+	para "This is @"
 	text_ram wStringBuffer3
 	text "."
-	line "Bist du wach?"
+	line "Were you sleeping?"
 	done
 
 BethGreetDayText:
-	text "Hi, <PLAY_G>!"
-	line "Ich, @"
+	text "<PLAY_G>, hi!"
+	line "This is @"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Hast du Zeit zum"
-	line "Reden?"
+	para "Do you have some"
+	line "time?"
 	done
 
 BethGreetNiteText:
 	text "Hi, <PLAY_G>."
-	line "Guten Abend."
+	line "Good evening."
 
-	para "Ich, @"
+	para "This is @"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Ich hoffe, du"
-	line "warst noch wach."
+	para "I hope you were"
+	line "awake."
 	done
 
 BethGenericText:
-	text "Gehörst du zu den"
-	line "Menschen, die oft"
+	text "Are you the kind"
+	line "of person who goes"
 
-	para "in #MON-CENTER"
-	line "gehen?"
+	para "to #MON CENTERS"
+	line "often?"
 
-	para "Ich gehe täglich."
-	line "Sich um das Wohl-"
-	cont "ergehen seiner"
+	para "I go every day."
+	line "Watching out for"
 
-	para "#MON zu küm-"
-	line "mern, gehört zu"
-	cont "den Grundlagen"
+	para "the health of your"
+	line "#MON is a basic"
 
-	para "eines #MON"
-	line "-Trainers."
+	para "part of being a"
+	line "#MON trainer."
 	done

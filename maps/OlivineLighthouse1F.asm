@@ -14,30 +14,24 @@ OlivineLighthouse1FPokefanFScript:
 	jumptextfaceplayer OlivineLighthouse1FPokefanFText
 
 OlivineLighthouse1FSailorText:
-	text "Die Leute kommen"
-	line "zum LEUCHTTURM, um"
-	cont "zu trainieren."
+	text "People train at"
+	line "this LIGHTHOUSE."
 
-	para "Aufgrund der"
-	line "vielen Trainer"
-	cont "ist es nicht"
-	cont "einfach, sich bis"
-	cont "ganz nach oben"
-	cont "vorzukämpfen."
+	para "It's not easy to"
+	line "climb because of"
+	cont "all the trainers."
 	done
 
 OlivineLighthouse1FPokefanFText:
-	text "Früher haben #-"
-	line "MON nachts die"
+	text "In the past, #-"
+	line "MON used to light"
 
-	para "Gewässer um"
-	line "OLIVIANA CITY er-"
-	cont "hellt."
+	para "the sea around"
+	line "OLIVINE at night."
 
-	para "Der LEUCHTTURM"
-	line "wurde errichtet,"
-	cont "um diese #MON"
-	cont "zu ehren."
+	para "The LIGHTHOUSE was"
+	line "made in honor of"
+	cont "those #MON."
 	done
 
 OlivineLighthouse1F_MapEvents:

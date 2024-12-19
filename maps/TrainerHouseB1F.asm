@@ -110,63 +110,61 @@ Movement_TrainerHouseTurnBack:
 	step_end
 
 TrainerHouseB1FIntroText:
-	text "Hi. Willkommen in"
-	line "unserer"
-	cont "ÜBUNGSHALLE."
+	text "Hi. Welcome to our"
+	line "TRAINING HALL."
 
-	para "Einmal pro Tag"
-	line "kannst du gegen"
-	cont "einen Trainer"
-	cont "kämpfen."
+	para "You may battle a"
+	line "trainer once per"
+	cont "day."
 	done
 
 TrainerHouseB1FYourOpponentIsText:
 	text_ram wStringBuffer3
-	text " ist"
-	line "heute dein Gegner."
+	text " is your"
+	line "opponent today."
 	done
 
 TrainerHouseB1FAskWantToBattleText:
-	text "Möchtest du"
-	line "kämpfen?"
+	text "Would you like to"
+	line "battle?"
 	done
 
 TrainerHouseB1FGoRightInText:
-	text "Geh bitte einfach"
-	line "weiter."
+	text "Please go right"
+	line "through."
 
-	para "Du darfst sofort"
-	line "anfangen."
+	para "You may begin"
+	line "right away."
 	done
 
 TrainerHouseB1FPleaseComeAgainText:
-	text "Nur die Trainer,"
-	line "die kämpfen dür-"
-	cont "fen, haben"
-	cont "Zutritt."
+	text "Sorry. Only those"
+	line "trainers who will"
+
+	para "be battling are"
+	line "allowed to go in."
 	done
 
 TrainerHouseB1FSecondChallengeDeniedText:
-	text "Es tut mir Leid,"
-	line "das wäre für dich"
+	text "I'm sorry."
+	line "This would be your"
 
-	para "heute der zweite"
-	line "Kampf. Es ist aber"
+	para "second time today."
+	line "You're permitted"
 
-	para "nur ein Kampf pro"
-	line "Tag erlaubt."
+	para "to enter just once"
+	line "a day."
 	done
 
 TrainerHouseB1FCalBeatenText:
-	text "Ich habe verloren…"
-	line "Mist…"
+	text "I lost…"
+	line "Darn…"
 	done
 
 TrainerHouseB1FCalBeforeText:
-	text "Ich bin nur"
-	line "hergereist, um"
-	cont "gegen dich zu"
-	cont "kämpfen."
+	text "I traveled out"
+	line "here just so I"
+	cont "could battle you."
 	done
 
 TrainerHouseB1F_MapEvents:

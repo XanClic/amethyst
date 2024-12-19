@@ -1,10 +1,10 @@
-	db "BOHRER@" ; species name
-	dbw 14, 620 ; height, weight
+	db "DRILL@" ; species name
+	dw 407, 1370 ; height, weight
 
-	db   "Es greift mit"
-	next "seinen kräftigen"
-	next "Armen, Beinen und"
+	db   "It uses its thick"
+	next "arms, legs and"
+	next "tail to attack"
 
-	page "dem Schwanz an."
-	next "Handgemenge sind"
-	next "seine Spezialität.@"
+	page "forcefully. Melee"
+	next "combat is its"
+	next "specialty.@"

@@ -1,10 +1,10 @@
-	db "RAUPE@" ; species name
-	dbw 3, 32 ; height, weight
+	db "HAIRY BUG@" ; species name
+	dw 100, 70 ; height, weight
 
-	db   "Der Stachel auf"
-	next "seinem Kopf ent-"
-	next "hält ein starkes"
+	db   "The barb on top of"
+	next "its head secretes"
+	next "a strong poison."
 
-	page "Gift. Es setzt das"
-	next "Gift ein, um sich"
-	next "zu schützen.@"
+	page "It uses this toxic"
+	next "barb to protect"
+	next "itself.@"

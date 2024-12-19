@@ -66,55 +66,54 @@ Route4Mewtwo:
 	end
 
 BirdKeeperHankSeenText:
-	text "Ich trainiere"
-	line "#MON. Trittst"
-	cont "du gegen mich an?"
+	text "I'm raising my"
+	line "#MON. Want to"
+	cont "battle with me?"
 	done
 
 BirdKeeperHankBeatenText:
-	text "Uff! Ich habe"
-	line "verloren…"
+	text "Ack! I lost that"
+	line "one…"
 	done
 
 BirdKeeperHankAfterBattleText:
-	text "Hast du ein spe-"
-	line "zielles #MON,"
+	text "If you have a"
+	line "specific #MON"
 
-	para "das du trainieren"
-	line "möchtest, setze es"
+	para "that you want to"
+	line "raise, put it out"
 
-	para "an die erste Stel-"
-	line "le und tausche es"
-	cont "sofort aus."
+	para "first, then switch"
+	line "it right away."
 
-	para "So funktioniert"
-	line "das."
+	para "That's how to do"
+	line "it."
 	done
 
 PicnickerHopeSeenText:
-	text "Ich spüre, dass"
-	line "ich gewinnen kann."
+	text "I have a feeling"
+	line "that I can win."
 
-	para "Mal sehen, ob"
-	line "das stimmt!"
+	para "Let's see if I'm"
+	line "right!"
 	done
 
 PicnickerHopeBeatenText:
-	text "Argh, du bist zu"
-	line "stark."
+	text "Aww, you are too"
+	line "strong."
 	done
 
 PicnickerHopeAfterBattleText:
-	text "Ich hörte, dass"
-	line "PIEPI am MONDBERG"
+	text "I heard CLEFAIRY"
+	line "appear at MT.MOON."
 
-	para "auftauchen. Aber"
-	line "wo soll das sein?"
+	para "But where could"
+	line "they be?"
 	done
 
 PicnickerSharonSeenText:
-	text "Ähm…"
-	line "Ich…"
+	text "Um…"
+	line "I…"
 	done
 
 PicnickerSharonBeatenText:
@@ -122,20 +121,19 @@ PicnickerSharonBeatenText:
 	done
 
 PicnickerSharonAfterBattleText:
-	text "……Ich sollte"
-	line "wohl noch mehr"
-	cont "trainieren…"
+	text "……I'll go train"
+	line "some more…"
 	done
 
 MtMoonSquareSignText:
-	text "MONDBERGPLATZ"
+	text "MT.MOON SQUARE"
 
-	para "Geh die Treppe"
-	line "hinauf"
+	para "Just go up the"
+	line "stairs."
 	done
 
 Route4MewtwoCryText:
-	text "MEWTU: Garara!"
+	text "MEWTWO: Garara!"
 	done
 
 Route4_MapEvents:

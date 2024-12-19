@@ -1,11 +1,11 @@
-	db "SCHNEEHUT@" ; species name
-	dbw 7, 168 ; height, weight
+	db "SNOW HAT@" ; species name
+	dw 204, 3700 ; height, weight
 
 	;  "| ----------------- |"
-	db   "Eine Legende im"
-	next "Land des Schnees"
-	next "besagt, dass in"
+	db   "Folklore of the"
+	next "land of snow says"
+	next "that any house it"
 
-	page "jedes Haus, das"
-	next "es besucht, Wohl-"
-	next "stand einzieht.@"
+	page "visits is sure to"
+	next "prosper for many"
+	next "generations.@"

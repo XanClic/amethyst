@@ -104,7 +104,7 @@ MeetMomTalkedScript:
 	sjump MeetMomScript
 
 PokegearName:
-	db "#COM@"
+	db "#GEAR@"
 
 PlayersHouse1FReceiveItemStd:
 	jumpstd ReceiveItemScript
@@ -211,193 +211,176 @@ MomWalksBackMovement:
 	step_end
 
 ElmsLookingForYouText:
-	text "Oh, <PLAYER>…"
-	line "Unser Nachbar,"
+	text "Oh, <PLAYER>…! Our"
+	line "neighbor, PROF."
 
-	para "PROF. LIND, hat"
-	line "nach dir gesucht."
+	para "ELM, was looking"
+	line "for you."
 
-	para "Er möchte, dass du"
-	line "etwas für ihn er-"
-	cont "ledigst."
+	para "He said he wanted"
+	line "you to do some-"
+	cont "thing for him."
 
-	para "Oh! Fast hätte ich"
-	line "es vergessen! Dein"
+	para "Oh! I almost for-"
+	line "got! Your #MON"
 
-	para "#MON-COM ist"
-	line "von der Reparatur"
-	cont "zurück."
+	para "GEAR is back from"
+	line "the repair shop."
 
-	para "Da hast du ihn!"
+	para "Here you go!"
 	done
 
 MomGivesPokegearText:
-	text "#MON-COM oder"
-	line "einfach nur"
-	cont "#COM."
+	text "#MON GEAR, or"
+	line "just #GEAR."
 
-	para "Ein wichtiges Ge-"
-	line "rät auf deinem"
-	cont "Pfad als Trainer."
+	para "It's essential if"
+	line "you want to be a"
+	cont "good trainer."
 
-	para "Oh, der Wochentag"
-	line "ist noch nicht"
-	cont "eingestellt."
+	para "Oh, the day of the"
+	line "week isn't set."
 
-	para "Das darfst du"
-	line "nicht vergessen!"
+	para "You mustn't forget"
+	line "that!"
 	done
 
 IsItDSTText:
-	text "Haben wir"
-	line "Sommerzeit?"
+	text "Is it Daylight"
+	line "Saving Time now?"
 	done
 
 ComeHomeForDSTText:
-	text "Geh nach Hause, um"
-	line "deine Uhr auf SZ"
-	cont "oder WZ einzu-"
-	cont "stellen."
+	text "Come home to"
+	line "adjust your clock"
 
-	para "Übrigens, weißt du"
-	line "über den Umgang"
-	cont "mit dem TELEFON"
-	cont "Bescheid?"
+	para "for Daylight"
+	line "Saving Time."
+
+	para "By the way, do you"
+	line "know how to use"
+	cont "the PHONE?"
 	done
 
 KnowTheInstructionsText:
-	text "Muss man nicht"
-	line "einfach den #-"
-	cont "COM einschalten"
+	text "Don't you just"
+	line "turn the #GEAR"
 
-	para "und das TELEFON-"
-	line "Symbol anwählen?"
+	para "on and select the"
+	line "PHONE icon?"
 	done
 
 DontKnowTheInstructionsText:
-	text "Ich werde die An-"
-	line "leitung lesen."
+	text "I'll read the"
+	line "instructions."
 
-	para "Schalte den #-"
-	line "COM ein und wähle"
-	cont "das TELEFON-Symbol"
-	cont "an!"
+	para "Turn the #GEAR"
+	line "on and select the"
+	cont "PHONE icon."
 	done
 
 InstructionsNextText:
-	text "Telefonnummern"
-	line "werden gespei-"
-	cont "chert. Wähle ein-"
-	cont "fach den Namen der"
+	text "Phone numbers are"
+	line "stored in memory."
 
-	para "Person, die du an-"
-	line "rufen möchtest."
+	para "Just choose a name"
+	line "you want to call."
 
-	para "Ist das nicht"
-	line "praktisch?"
+	para "Gee, isn't that"
+	line "convenient?"
 	done
 
 HurryUpElmIsWaitingText:
-	text "PROF. LIND wartet"
-	line "auf dich."
+	text "PROF.ELM is wait-"
+	line "ing for you."
 
-	para "Beeile dich, Baby!"
+	para "Hurry up, baby!"
 	done
 
 SoWhatWasProfElmsErrandText:
-	text "Wie lautete der"
-	line "Auftrag von PROF."
-	cont "LIND?"
+	text "So, what was PROF."
+	line "ELM's errand?"
 
 	para "…"
 
-	para "Das klingt nach"
-	line "einer wahren He-"
-	cont "rausforderung."
+	para "That does sound"
+	line "challenging."
 
-	para "Aber du kannst"
-	line "stolz darauf sein,"
-	cont "dass sich die Leu-"
-	cont "te auf dich ver-"
-	cont "lassen!"
+	para "But, you should be"
+	line "proud that people"
+	cont "rely on you."
 	done
 
 ImBehindYouText:
-	text "<PLAYER>, du"
-	line "schaffst es!"
+	text "<PLAYER>, do it!"
 
-	para "Ich werde dir"
-	line "immer zur Seite"
-	cont "stehen!"
+	para "I'm behind you all"
+	line "the way!"
 	done
 
 NeighborMornIntroText:
-	text "Guten Morgen,"
+	text "Good morning,"
 	line "<PLAY_G>!"
 
-	para "Ich bin zu Besuch!"
+	para "I'm visiting!"
 	done
 
 NeighborDayIntroText:
-	text "Hallo, <PLAY_G>!"
-	line "Ich bin zu Besuch!"
+	text "Hello, <PLAY_G>!"
+	line "I'm visiting!"
 	done
 
 NeighborNiteIntroText:
-	text "Guten Abend,"
+	text "Good evening,"
 	line "<PLAY_G>!"
 
-	para "Ich bin zu Besuch!"
+	para "I'm visiting!"
 	done
 
 NeighborText:
-	text "<PLAY_G>, hast"
-	line "du schon gehört?"
+	text "<PLAY_G>, have you"
+	line "heard?"
 
-	para "Meine Tochter will"
-	line "unbedingt PROF."
+	para "My daughter is"
+	line "adamant about"
 
-	para "LINDs Assistentin"
-	line "werden."
+	para "becoming PROF."
+	line "ELM's assistant."
 
-	para "Sie liebt #MON"
-	line "von ganzem Herzen!"
+	para "She really loves"
+	line "#MON!"
 	done
 
 PlayersHouse1FStoveText:
-	text "Mamas Spezialität!"
+	text "Mom's specialty!"
 
-	para "ZINNOBER-VULKAN-"
+	para "CINNABAR VOLCANO"
 	line "BURGER!"
 	done
 
 PlayersHouse1FSinkText:
-	text "Die Spüle ist"
-	line "fleckenlos rein,"
-	cont "so wie es Mama"
-	cont "mag."
+	text "The sink is spot-"
+	line "less. Mom likes it"
+	cont "clean."
 	done
 
 PlayersHouse1FFridgeText:
-	text "Mal sehen, was da"
-	line "im Kühlschrank zu"
-	cont "finden ist…"
+	text "Let's see what's"
+	line "in the fridge…"
 
-	para "TAFELWASSER"
-	line "und leckere LIMO-"
-	cont "NADE!"
+	para "FRESH WATER and"
+	line "tasty LEMONADE!"
 	done
 
 PlayersHouse1FTVText:
-	text "Es läuft ein Film"
-	line "im TV: Die Sterne"
+	text "There's a movie on"
+	line "TV: Stars dot the"
 
-	para "leuchten und zwei"
-	line "Jungen fahren Zug…"
+	para "sky as two boys"
+	line "ride on a train…"
 
-	para "Ich sollte mich"
-	line "auch in Bewegung"
-	cont "setzen!"
+	para "I'd better get"
+	line "rolling too!"
 	done
 
 PlayersHouse1F_MapEvents:

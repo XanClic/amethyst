@@ -150,146 +150,132 @@ CianwoodGymMovement_ChuckChucksBoulder:
 ChuckIntroText1:
 	text "WAHAHAH!"
 
-	para "Du hast es also"
-	line "bis hierher ge-"
-	cont "schafft!"
+	para "So you've come"
+	line "this far!"
 
-	para "Lass dir gesagt"
-	line "sein, dass ich ein"
-	cont "harter Brocken"
-	cont "bin."
+	para "Let me tell you,"
+	line "I'm tough!"
 
-	para "Meine #MON"
-	line "werden dich in"
-	cont "Grund und Boden"
-	cont "rammen!"
+	para "My #MON will"
+	line "crush stones and"
+	cont "shatter bones!"
 
-	para "Pass auf!"
+	para "Watch this!"
 	done
 
 ChuckIntroText2:
-	text "HARTWIG: Urggh!"
+	text "CHUCK: Urggh!"
 	line "…"
 
 	para "Oooarrgh!"
 	done
 
 ChuckIntroText3:
-	text "Da! Jetzt hast du"
-	line "dich erschreckt!"
+	text "There! Scared now,"
+	line "are you?"
 
-	para "Wie?"
-	line "Es hat nichts mit"
+	para "What?"
+	line "It has nothing to"
 
-	para "#MON zu tun?"
-	line "Das ist wahr!"
+	para "do with #MON?"
+	line "That's true!"
 
-	para "Komm her. Lass uns"
-	line "kämpfen!"
+	para "Come on. We shall"
+	line "do battle!"
 	done
 
 ChuckLossText:
-	text "Wa…? Huch?"
-	line "Ich habe verloren?"
+	text "Wha? Huh?"
+	line "I lost?"
 
-	para "Wie wär's damit?"
-	line "Du bist des FAUST-"
-	cont "ORDENs würdig!"
+	para "How about that!"
+	line "You're worthy of"
+	cont "STORMBADGE!"
 	done
 
 GetStormBadgeText:
-	text "<PLAYER> erhält"
-	line "FAUSTORDEN."
+	text "<PLAYER> received"
+	line "STORMBADGE."
 	done
 
 ChuckExplainBadgeText:
-	text "Durch den FAUSTOR-"
-	line "DEN gehorchen dir"
+	text "STORMBADGE makes"
+	line "all #MON up to"
 
-	para "alle #MON"
-	line "bis LV 70. Dies"
+	para "L70 obey, even"
+	line "traded ones."
 
-	para "gilt auch für Ge-"
-	line "tauschte."
+	para "It also lets your"
+	line "#MON use FLY"
 
-	para "Außerdem können"
-	line "deine #MON"
+	para "when you're not in"
+	line "a battle."
 
-	para "FLIEGEN auch"
-	line "außerhalb eines"
-	cont "Kampfes einsetzen."
-
-	para "Hier, nimm auch"
-	line "dies!"
+	para "Here, take this"
+	line "too!"
 	done
 
 ChuckExplainTMText:
-	text "Das ist WUCHT-"
-	line "SCHLAG."
+	text "That is DYNAMIC-"
+	line "PUNCH."
 
-	para "Er trifft zwar"
-	line "nicht immer, aber"
+	para "It doesn't always"
+	line "hit, but when it"
 
-	para "wenn er es tut,"
-	line "verwirrt er den"
-	cont "Gegner!"
+	para "does, it causes"
+	line "confusion!"
 	done
 
 ChuckAfterText:
-	text "WAHAHAH! Es hat"
-	line "Spaß gemacht, ge-"
-	cont "gen dich zu kämp-"
-	cont "fen."
+	text "WAHAHAH! I enjoyed"
+	line "battling you!"
 
-	para "Aber eine Nieder-"
-	line "lage bleibt eine"
-	cont "Niederlage!"
+	para "But a loss is a"
+	line "loss!"
 
-	para "Von jetzt an werde"
-	line "ich 24 Stunden am"
-	cont "Tag trainieren!"
+	para "From now on, I'm"
+	line "going to train 24"
+	cont "hours a day!"
 	done
 
 BlackbeltYoshiSeenText:
-	text "Meine #MON und"
-	line "mich verbindet un-"
-	cont "sere Freundschaft."
+	text "My #MON and I"
+	line "are bound togeth-"
+	cont "er by friendship."
 
-	para "Dieses Band wird"
-	line "nie zerreißen!"
+	para "Our bond will"
+	line "never be broken!"
 	done
 
 BlackbeltYoshiBeatenText:
-	text "Das ist unmöglich!"
+	text "This isn't real!"
 	done
 
 BlackbeltYoshiAfterText:
-	text "Es scheint, als"
-	line "stündest auch du"
-	cont "deinen #MON"
-	cont "sehr nahe!"
+	text "You seem to have a"
+	line "strong bond with"
+	cont "your #MON too!"
 	done
 
 BlackbeltLaoSeenText:
-	text "Wir Meister der"
-	line "Kampfkunst haben"
-	cont "vor nichts Angst!"
+	text "We martial artists"
+	line "fear nothing!"
 	done
 
 BlackbeltLaoBeatenText:
-	text "Schockierend!"
+	text "That's shocking!"
 	done
 
 BlackbeltLaoAfterText:
-	text "Kampf-#MON"
-	line "fürchten sich vor"
-	cont "Psycho-Attacken…"
+	text "Fighting #MON"
+	line "are afraid of psy-"
+	cont "chics…"
 	done
 
 BlackbeltNobSeenText:
-	text "Worte sind nutz-"
-	line "los. Lass deine"
-	cont "Fäuste sprechen!"
+	text "Words are useless."
+	line "Let your fists do"
+	cont "the talking!"
 	done
 
 BlackbeltNobBeatenText:
@@ -297,27 +283,24 @@ BlackbeltNobBeatenText:
 	done
 
 BlackbeltNobAfterText:
-	text "Ich habe verloren!"
-	line "Ich bin sprachlos!"
+	text "I lost! "
+	line "I'm speechless!"
 	done
 
 BlackbeltLungSeenText:
-	text "Gegen die Wut mei-"
-	line "ner Fäuste können"
-	cont "deine #MON"
-	cont "nichts ausrichten!"
+	text "My raging fists"
+	line "will shatter your"
+	cont "#MON!"
 	done
 
 BlackbeltLungBeatenText:
-	text "Ich wurde zer-"
-	line "schmettert!"
+	text "I got shattered!"
 	done
 
 BlackbeltLungAfterText:
-	text "Meine #MON ha-"
-	line "ben verloren…"
-	cont "Mein Stolz ist"
-	cont "zerstört…"
+	text "My #MON lost…"
+	line "My… my pride is"
+	cont "shattered…"
 	done
 
 CianwoodGym_MapEvents:

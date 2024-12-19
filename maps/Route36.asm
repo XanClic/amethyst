@@ -442,241 +442,212 @@ Route36SuicuneMovement:
 	step_end
 
 UseSquirtbottleText:
-	text "Das ist ein merk-"
-	line "würdiger Baum."
-	cont "Möchtest du die"
-	cont "SCHIGGYKANNE"
-	cont "benutzen?"
+	text "It's a weird tree."
+	line "Use SQUIRTBOTTLE?"
 	done
 
 UsedSquirtbottleText:
-	text "<PLAYER> benutzt"
-	line "SCHIGGYKANNE."
+	text "<PLAYER> used the"
+	line "SQUIRTBOTTLE."
 	done
 
 SudowoodoAttackedText:
-	text "Der merkwürdige"
-	line "Baum mag die"
-	cont "SCHIGGYKANNE"
-	cont "nicht!"
+	text "The weird tree"
+	line "doesn't like the"
+	cont "SQUIRTBOTTLE!"
 
-	para "Der merkwürdige"
-	line "Baum greift an!"
+	para "The weird tree"
+	line "attacked!"
 	done
 
 FloriaText1:
-	text "Ich bin FLORA"
-	line "vom BLUMENLADEN!"
+	text "I'm the FLOWER"
+	line "SHOP's FLORIA!"
 
-	para "Stell dir vor:"
+	para "Listen, listen!"
 
-	para "Als ich den wacke-"
-	line "ligen Baum mit"
+	para "When I sprinkled"
+	line "water on that"
 
-	para "Wasser benetzte,"
-	line "ist er hoch-"
-	cont "geschreckt!"
+	para "wiggly tree, it"
+	line "jumped right up!"
 
-	para "Es muss einfach"
-	line "ein #MON sein."
+	para "It just has to be"
+	line "a #MON."
 
-	para "Ich wette, es gibt"
-	line "seine Verkleidung"
+	para "I bet it would be"
+	line "shocked out of its"
 
-	para "auf, wenn man es"
-	line "gießt!"
+	para "disguise if you"
+	line "soaked it!"
 
-	para "Genau! Ich sage es"
-	line "meiner Schwester"
-	cont "und leihe mir"
-	cont "ihre Gießkanne!"
+	para "I know! I'll tell"
+	line "my sis and borrow"
+	cont "her water bottle!"
 	done
 
 FloriaText2:
-	text "Als ich meiner"
-	line "Schwester von dem"
+	text "When I told my sis"
+	line "about the jiggly"
 
-	para "wackeligen Baum"
-	line "erzählte, sagte"
+	para "tree, she said"
+	line "it's dangerous."
 
-	para "sie, er sei"
-	line "gefährlich."
+	para "If I beat WHITNEY,"
+	line "I wonder if she'll"
 
-	para "Wenn ich BIANKA"
-	line "besiege, gibt sie"
-
-	para "mir vielleicht die"
-	line "Gießkanne…"
+	para "lend me her water"
+	line "bottle…"
 	done
 
 RockSmashGuyText1:
-	text "Oje!"
+	text "Wa-hey!"
 
-	para "Ich wollte den"
-	line "Baum mit einem"
+	para "I was going to"
+	line "snap that tree"
 
-	para "mächtigen Hieb"
-	line "entzweibrechen."
+	para "with my straight-"
+	line "arm punch."
 
-	para "Aber ich habe es"
-	line "nicht geschafft."
-	cont "Ich habe versagt!"
+	para "But I couldn't!"
+	line "I'm a failure!"
 	done
 
 RockSmashGuyText2:
-	text "Hast du diesen"
-	line "seltsamen Baum"
-	cont "weggeschafft?"
+	text "Did you clear that"
+	line "wretched tree?"
 
-	para "Ich bin"
-	line "beeindruckt! Ich"
-	cont "möchte dir dies"
-	cont "geben."
+	para "I'm impressed!"
+	line "I want you to"
+	cont "have this."
 	done
 
 Text_ReceivedTM08: ; unreferenced
-	text "<PLAYER> erhält"
+	text "<PLAYER> received"
 	line "TM08."
 	done
 
 RockSmashGuyText3:
-	text "Das ist der"
-	line "ZERTRÜMMERER."
+	text "That happens to be"
+	line "ROCK SMASH."
 
-	para "Damit kannst du"
-	line "Felsen mit einem"
+	para "You can shatter"
+	line "rocks with just a"
 
-	para "einzigen, gut "
-	line "gezielten Schlag"
-	cont "zertrümmern."
+	para "single well-aimed"
+	line "smack."
 
-	para "Sind dir irgend-"
-	line "welche Steine im"
-	cont "Weg, dann"
-	cont "zertrümmere sie"
-	cont "einfach!"
+	para "If any rocks are"
+	line "in your way, just"
+	cont "smash 'em up!"
 	done
 
 UnusedOddTreeText: ; unreferenced
-	text "Ein alter Baum"
-	line "versperrt den Weg"
-	cont "nach DUKATIA CITY."
+	text "An odd tree is"
+	line "blocking the way"
+	cont "to GOLDENROD CITY."
 
-	para "Ich wollte mir das"
-	line "riesige #MON-"
-	cont "CENTER, das vor"
-	cont "kurzem eröffnet"
-	cont "wurde, ansehen…"
+	para "I wanted to go see"
+	line "the huge #MON"
+
+	para "CENTER they just"
+	line "opened…"
 	done
 
 Route36LassText:
-	text "Ein merkwürdiger"
-	line "Baum blockiert die"
+	text "An odd tree is"
+	line "blocking the way"
+	cont "to GOLDENROD CITY."
 
-	para "Straße nach"
-	line "DUKATIA CITY."
+	para "It's preventing"
+	line "me from shopping."
 
-	para "Wegen dieses"
-	line "Baumes kann ich"
-
-	para "nicht Einkaufen"
-	line "gehen. Man sollte"
-	cont "etwas dagegen tun."
+	para "Something should"
+	line "be done about it."
 	done
 
 Route36LassText_ClearedSudowoodo:
-	text "Dieser merkwürdige"
-	line "Baum ist spurlos"
-	cont "verschwunden."
+	text "That odd tree dis-"
+	line "appeared without a"
+	cont "trace."
 
-	para "Ach! Der Baum war"
-	line "in Wirklichkeit"
-	cont "ein #MON?"
+	para "Oh! That tree was"
+	line "really a #MON?"
 	done
 
 PsychicMarkSeenText:
-	text "Ich werde jetzt"
-	line "deine Gedanken"
-	cont "lesen!"
+	text "I'm going to read"
+	line "your thoughts!"
 	done
 
 PsychicMarkBeatenText:
-	text "Ich habe mich wohl"
-	line "bei dir verlesen!"
+	text "I misread you!"
 	done
 
 PsychicMarkAfterBattleText:
-	text "Ich wäre wirklich"
-	line "stark, wenn ich "
+	text "I'd be strong if"
+	line "only I could tell"
 
-	para "wüsste, was mein"
-	line "Gegner denkt."
+	para "what my opponent"
+	line "was thinking."
 	done
 
 SchoolboyAlan1SeenText:
-	text "Dank meiner"
-	line "Studien bin ich"
-	cont "für jedes #MON"
-	cont "bereit!"
+	text "Thanks to my stud-"
+	line "ies, I'm ready for"
+	cont "any #MON!"
 	done
 
 SchoolboyAlan1BeatenText:
-	text "Ups! Ein Fehler"
-	line "in der Berechnung?"
+	text "Oops! Computation"
+	line "error?"
 	done
 
 SchoolboyAlanBooksText:
-	text "Mist! Ich lerne"
-	line "auch fünf Stunden"
-	cont "am Tag."
+	text "Darn. I study five"
+	line "hours a day too."
 
-	para "Es gibt vieles,"
-	line "das du nicht aus"
-	cont "Büchern lernen"
-	cont "kannst."
+	para "There's more to"
+	line "learning than just"
+	cont "reading books."
 	done
 
 MeetArthurText:
-	text "DONATUS: Wer bist"
-	line "du?"
+	text "ARTHUR: Who are"
+	line "you?"
 
-	para "Ich bin DONATUS"
-	line "von Donnerstag."
+	para "I'm ARTHUR of"
+	line "Thursday."
 	done
 
 ArthurGivesGiftText:
-	text "Hier bitte. Das"
-	line "kannst du haben."
+	text "Here. You can have"
+	line "this."
 	done
 
 ArthurGaveGiftText:
-	text "DONATUS: Ein"
-	line "#MON, das"
+	text "ARTHUR: A #MON"
+	line "that uses rock-"
 
-	para "Gestein-Attacken"
-	line "benutzt, sollte"
-	cont "dies mit sich"
-	cont "tragen."
+	para "type moves should"
+	line "hold on to that."
 
-	para "Es verstärkt"
-	line "Gestein-Attacken."
+	para "It pumps up rock-"
+	line "type attacks."
 	done
 
 ArthurThursdayText:
-	text "DONATUS: Ich bin"
-	line "DONATUS von"
+	text "ARTHUR: I'm ARTHUR"
+	line "of Thursday. I'm"
 
-	para "Donnerstag. Ich"
-	line "bin der zweite"
-
-	para "Sohn von"
-	line "sieben Kindern."
+	para "the second son out"
+	line "of seven children."
 	done
 
 ArthurNotThursdayText:
-	text "DONATUS: Heute ist"
-	line "nicht Donnerstag."
-	cont "Wie bedauerlich!"
+	text "ARTHUR: Today's"
+	line "not Thursday. How"
+	cont "disappointing."
 	done
 
 Route36SignText:
@@ -684,47 +655,39 @@ Route36SignText:
 	done
 
 RuinsOfAlphNorthSignText:
-	text "ALPH-RUINEN"
-	line "NORDEINGANG"
+	text "RUINS OF ALPH"
+	line "NORTH ENTRANCE"
 	done
 
 Route36TrainerTips1Text:
-	text "TIPPS für TRAINER"
-	line "Der Status der"
+	text "TRAINER TIPS"
 
-	para "#MON ist unter-"
-	line "schiedlich, sogar"
+	para "#MON stats"
+	line "vary--even within"
+	cont "the same species."
 
-	para "innerhalb der-"
-	line "selben Spezies."
+	para "Their stats may be"
+	line "similar at first."
 
-	para "Zu Beginn ist er"
-	line "vielleicht noch"
-	cont "ähnlich."
+	para "However, differ-"
+	line "ences will become"
 
-	para "Doch die Unter-"
-	line "schiede werden "
-
-	para "deutlicher, wenn"
-	line "die #MON"
-	cont "heranwachsen."
+	para "pronounced as the"
+	line "#MON grow."
 	done
 
 Route36TrainerTips2Text:
-	text "TIPPS für TRAINER"
-	line "Setze den"
+	text "TRAINER TIPS"
 
-	para "SCHAUFLER ein, um"
-	line "an den Eingang"
+	para "Use DIG to return"
+	line "to the entrance of"
+	cont "any place."
 
-	para "eines Ortes"
-	line "zurückzugelangen."
+	para "It is convenient"
+	line "for exploring"
 
-	para "Das ist sehr nütz-"
-	line "lich beim Erkunden"
-
-	para "von Höhlen und an-"
-	line "deren Umgebungen."
+	para "caves and other"
+	line "landmarks."
 	done
 
 Route36_MapEvents:

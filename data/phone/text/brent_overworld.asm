@@ -1,66 +1,62 @@
 BrentAskNumber1Text:
-	text "Du bist ein"
-	line "#MANIAC…"
+	text "By the way, you're"
+	line "a #MANIAC…"
 
-	para "Ich spüre das."
-	line "Ja, du bist einer."
+	para "I can tell."
+	line "Yes, you are."
 
-	para "Aber dein Wissen"
-	line "ist noch klein!"
+	para "But your knowledge"
+	line "is shallow still!"
 
-	para "Kennst du BILL? Er"
-	line "ist ein wahrer"
+	para "Do you know BILL?"
+	line "He's an incredible"
 
-	para "#MANIAC. Ich"
-	line "verehre ihn."
+	para "#MANIAC."
+	line "I revere him."
 
-	para "Ich gebe dir mein"
-	line "Wissen über BILL"
+	para "I'll teach you all"
+	line "I know about BILL,"
 
-	para "weiter, wenn du"
-	line "mir deine Nummer"
-	cont "gibst."
+	para "so leave me your"
+	line "phone number."
 	done
 
 BrentAskNumber2Text:
-	text "Ich gebe dir mein"
-	line "Wissen über BILL"
+	text "I'll teach you all"
+	line "I know about BILL,"
 
-	para "weiter, wenn du"
-	line "mir deine Nummer"
-	cont "gibst."
+	para "so leave me your"
+	line "phone number."
 	done
 
 BrentNumberAcceptedText:
-	text "BILL - er ist"
-	line "unbeschreiblich!"
+	text "BILL--he's more"
+	line "than amazing!"
 
-	para "Ein #MANIAC,"
-	line "wie er zu werden…"
+	para "To be a #MANIAC"
+	line "like him someday…"
 
-	para "ist mein Traum."
+	para "That's my dream."
 	done
 
 BrentNumberDeclinedText:
-	text "Das wirst du noch"
-	line "bereuen…"
+	text "You're going to"
+	line "regret it…"
 
-	para "Aber, das ist mir"
-	line "völlig gleich…"
+	para "And I won't care…"
 	done
 
 BrentPhoneFullText:
-	text "Dein Nummern-"
-	line "speicher ist voll."
+	text "Huh? Your phone"
+	line "list's full."
 
-	para "Ein #MANIAC"
-	line "muss ordentlicher"
-	cont "sein!"
+	para "A #MANIAC has"
+	line "to be more tidy!"
 	done
 
 BrentRematchText:
-	text "Ich warte."
+	text "I've been waiting."
 
-	para "Sieh, das sind"
-	line "meine #MON!"
+	para "Look, check out my"
+	line "#MON!"
 	done

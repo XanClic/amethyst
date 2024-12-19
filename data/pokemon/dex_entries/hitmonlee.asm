@@ -1,10 +1,10 @@
-	db "KICKER@" ; species name
-	dbw 15, 498 ; height, weight
+	db "KICKING@" ; species name
+	dw 411, 1100 ; height, weight
 
-	db   "Man nennt es auch"
-	next "den Kick Master."
-	next "Mit seinen beweg-"
+	db   "It is also called"
+	next "the Kick Master."
+	next "It uses its"
 
-	page "lichen Beinen be-"
-	next "herrscht es jeden"
-	next "denkbaren Tritt.@"
+	page "elastic legs to"
+	next "execute every"
+	next "known kick.@"

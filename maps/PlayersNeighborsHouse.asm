@@ -45,61 +45,55 @@ PlayersNeighborsHouseRadioScript:
 	end
 
 PlayersNeighborsDaughterText:
-	text "PIKACHU ist ein"
-	line "entwickeltes"
-	cont "#MON."
+	text "PIKACHU is an"
+	line "evolved #MON."
 
-	para "PROF. LINDs"
-	line "Entdeckungen"
-	cont "sind wirklich"
-	cont "erstaunlich."
+	para "I was amazed by"
+	line "PROF.ELM's find-"
+	cont "ings."
 
-	para "Er ist berühmt für"
-	line "seine Forschungen"
-	cont "auf dem Gebiet der"
-	cont "#MON-Evolution."
+	para "He's so famous for"
+	line "his research on"
+	cont "#MON evolution."
 
-	para "…Seufz…"
+	para "…sigh…"
 
-	para "Ich wünschte, ich"
-	line "wäre ein Forscher"
-	cont "wie er…"
+	para "I wish I could be"
+	line "a researcher like"
+	cont "him…"
 	done
 
 PlayersNeighborText:
-	text "Meine Tochter will"
-	line "unbedingt PROF."
+	text "My daughter is"
+	line "adamant about"
 
-	para "LINDs Assistentin"
-	line "werden."
+	para "becoming PROF."
+	line "ELM's assistant."
 
-	para "Sie liebt #MON"
-	line "von ganzem Herzen!"
+	para "She really loves"
+	line "#MON!"
 
-	para "Aber ich auch!"
+	para "But then, so do I!"
 	done
 
 PlayerNeighborRadioText1:
-	text "PROF. EICHs #-"
-	line "MON-TALK! Schalten"
-	cont "Sie auch das"
-	cont "nächste Mal wieder"
-	cont "ein!"
+	text "PROF.OAK'S #MON"
+	line "TALK! Please tune"
+	cont "in next time!"
 	done
 
 PlayerNeighborRadioText2:
-	text "#MON-PROGRAMM!"
+	text "#MON CHANNEL!"
 	done
 
 PlayerNeighborRadioText3:
-	text "Hier ist DJ"
-	line "MARGIT, Ihr Co-"
-	cont "Moderator!"
+	text "This is DJ MARY,"
+	line "your co-host!"
 	done
 
 PlayerNeighborRadioText4:
 	text "#MON!"
-	line "#MON-PROGRAMM…"
+	line "#MON CHANNEL…"
 	done
 
 PlayersNeighborsHouse_MapEvents:

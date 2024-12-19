@@ -199,187 +199,163 @@ CopycatSpinAroundMovementData:
 	step_end
 
 CopycatText_Male_1:
-	text "<PLAYER>: Hi! Magst"
-	line "du #MON?"
+	text "<PLAYER>: Hi! Do"
+	line "you like #MON?"
 
-	para "<PLAYER>: Äh, nein,"
-	line "ich frage dich."
+	para "<PLAYER>: Uh, no, I"
+	line "just asked you."
 
-	para "<PLAYER>: Was?"
-	line "Du bist komisch!"
+	para "<PLAYER>: Huh?"
+	line "You're strange!"
 	done
 
 CopycatText_QuickMimicking:
-	text "NACHAHMERIN: Hm?"
-	line "Das Nachahmen"
-	cont "aufgeben?"
+	text "COPYCAT: Hmm?"
+	line "Quit mimicking?"
 
-	para "Aber das ist"
-	line "meine liebste"
-	cont "Beschäftigung!"
+	para "But that's my"
+	line "favorite hobby!"
 	done
 
 CopycatText_Male_2:
 	text "<PLAYER>: Hi!"
-	line "Ich habe gehört,"
+	line "I heard that you"
 
-	para "dass du deine"
-	line "Lieblings-"
-	cont "#PUPPE"
-	cont "verloren hast."
+	para "lost your favorite"
+	line "# DOLL."
 
-	para "<PLAYER>: Gibst du"
-	line "mir einen FAHR-"
-	cont "SCHEIN, wenn ich"
-	cont "sie finde?"
+	para "<PLAYER>: If I find"
+	line "it, you'll give me"
+	cont "a rail PASS?"
 
-	para "<PLAYER>: Ich suche"
-	line "sie für dich."
+	para "<PLAYER>: I'll go"
+	line "find it for you."
 
-	para "Du glaubst, sie"
-	line "auf dem Weg nach"
-	cont "ORANIA CITY"
-	cont "verloren zu haben?"
+	para "You think you lost"
+	line "it when you went"
+	cont "to VERMILION CITY?"
 	done
 
 CopycatText_Worried:
-	text "NACHAHMERIN:"
-	line "Bitte?"
+	text "COPYCAT: Pardon?"
 
-	para "Ich soll dir nicht"
-	line "sagen, was du zu"
-	cont "tun hast?"
+	para "I shouldn't decide"
+	line "what you should"
+	cont "do?"
 
-	para "Aber ich mache mir"
-	line "wirklich Sorgen…"
-	cont "Was, wenn jemand"
-	cont "sie findet?"
+	para "But I'm really"
+	line "worried… What if"
+	cont "someone finds it?"
 	done
 
 CopycatText_GiveDoll:
-	text "NACHAHMERIN: Jaa!"
-	line "Das ist meine"
-	cont "PIEPI-#PUPPE!"
+	text "COPYCAT: Yay!"
+	line "That's my CLEFAIRY"
+	cont "# DOLL!"
 
-	para "Siehst du die"
-	line "Naht am rechten"
+	para "See the tear where"
+	line "the right leg is"
 
-	para "Bein? Das ist"
-	line "der Beweis!"
+	para "sewn on? That's"
+	line "proof!"
 	done
 
 CopycatText_GivePass:
-	text "Also gut. Hier ist"
-	line "der FAHRSCHEIN für"
-	cont "den MAGNETZUG! Wie"
-	cont "versprochen."
+	text "OK. Here's the"
+	line "MAGNET TRAIN PASS"
+	cont "like I promised!"
 	done
 
 CopycatText_ExplainPass:
-	text "NACHAHMERIN: Das"
-	line "ist der FAHRSCHEIN"
-	cont "für den MAGNETZUG."
+	text "COPYCAT: That's"
+	line "the PASS for the"
+	cont "MAGNET TRAIN."
 
-	para "Der Mann von der"
-	line "Eisenbahn gab mir"
+	para "The rail company"
+	line "man gave me that"
 
-	para "das, als sie unser"
-	line "altes Haus nieder-"
-	cont "rissen, um den"
-	cont "BAHNHOF zu bauen."
+	para "when they tore"
+	line "down our old house"
+	cont "for the STATION."
 	done
 
 CopycatText_Male_3:
 	text "<PLAYER>: Hi!"
-	line "Vielen Dank für"
-	cont "den FAHRSCHEIN!"
+	line "Thanks a lot for"
+	cont "the rail PASS!"
 
-	para "<PLAYER>: Bitte?"
+	para "<PLAYER>: Pardon?"
 
-	para "<PLAYER>: Ist es"
-	line "wirklich so toll,"
-	cont "jede Bewegung"
-	cont "nachzuahmen?"
+	para "<PLAYER>: Is it"
+	line "that fun to mimic"
+	cont "my every move?"
 	done
 
 CopycatText_ItsAScream:
-	text "NACHAHMERIN: "
-	line "Darauf kannst du"
-	cont "wetten!"
+	text "COPYCAT: You bet!"
+	line "It's a scream!"
 	done
 
 CopycatText_Female_1:
-	text "<PLAYER>: Hi. Du"
-	line "musst #MON"
-	cont "mögen."
+	text "<PLAYER>: Hi. You"
+	line "must like #MON."
 
-	para "<PLAYER>: Nein,"
-	line "nicht ich. Ich"
-	cont "habe dich gefragt."
+	para "<PLAYER>: No, not"
+	line "me. I asked you."
 
-	para "<PLAYER>: Bitte?"
-	line "Du bist seltsam!"
+	para "<PLAYER>: Pardon?"
+	line "You're weird!"
 	done
 
 CopycatText_Female_2:
-	text "<PLAYER>: Hi."
-	line "Hast du wirklich"
-	cont "deine #PUPPE"
-	cont "verloren?"
+	text "<PLAYER>: Hi. Did"
+	line "you really lose"
+	cont "your # DOLL?"
 
-	para "<PLAYER>: Du"
-	line "gibst mir wirklich"
+	para "<PLAYER>: You'll"
+	line "really give me a"
 
-	para "einen FAHRSCHEIN,"
-	line "falls ich sie"
-	cont "finde?"
+	para "rail PASS if I"
+	line "find it for you?"
 
-	para "<PLAYER>: Gewiss,"
-	line "ich halte die"
-	cont "Augen offen!"
+	para "<PLAYER>: Sure,"
+	line "I'll look for it!"
 
-	para "Du denkst, du hast"
-	line "sie in ORANIA CITY"
-	cont "verloren?"
+	para "You think you lost"
+	line "it when you were"
+	cont "in VERMILION?"
 	done
 
 CopycatText_Female_3:
-	text "<PLAYER>: Danke für"
-	line "den FAHRSCHEIN!"
+	text "<PLAYER>: Thank you"
+	line "for the rail PASS!"
 
-	para "<PLAYER>: …Bitte?"
+	para "<PLAYER>: …Pardon?"
 
-	para "<PLAYER>: Macht"
-	line "es wirklich so"
+	para "<PLAYER>: Is it"
+	line "really that fun to"
 
-	para "viel Spaß mir"
-	line "alles nachzu-"
-	cont "sprechen und alles"
-	cont "nachzuahmen?"
+	para "copy what I say"
+	line "and do?"
 	done
 
 CopycatsDodrioText1:
-	text "DODRI: Gii giii!"
+	text "DODRIO: Gii giii!"
 	done
 
 CopycatsDodrioText2:
-	text "SPIEGLEIN, SPIEG-"
-	line "LEIN AN DER WAND,"
+	text "MIRROR, MIRROR ON"
+	line "THE WALL, WHO'S"
 
-	para "WER IST DIE"
-	line ""
-	line "SCHÖNSTE IM GANZEN"
-
-	para "LAND?"
+	para "THE FAIREST ONE OF"
+	line "ALL?"
 	done
 
 CopycatsHouse2FDollText:
-	text "Das ist ein"
-	line "seltenes #MON!"
-	cont "Was?"
+	text "This is a rare"
+	line "#MON! Huh?"
 
-	para "Es ist nur eine"
-	line "Puppe…"
+	para "It's only a doll…"
 	done
 
 CopycatsHouse2F_MapEvents:

@@ -1,10 +1,10 @@
-	db "EI@" ; species name
-	dbw 4, 25 ; height, weight
+	db "EGG@" ; species name
+	dw 104, 60 ; height, weight
 
-	db   "Selbst wenn sie"
-	next "getrennt werden,"
-	next "kommen sie auf"
+	db   "If even one is"
+	next "separated from the"
+	next "group, the energy"
 
-	page "Grund ihres Ener-"
-	next "giebundes sofort"
-	next "wieder zusammen.@"
+	page "bond between the"
+	next "six will make them"
+	next "rejoin instantly.@"

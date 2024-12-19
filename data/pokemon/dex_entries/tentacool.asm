@@ -1,10 +1,10 @@
-	db "QUALLE@" ; species name
-	dbw 9, 455 ; height, weight
+	db "JELLYFISH@" ; species name
+	dw 211, 1000 ; height, weight
 
-	db   "Wenn es auf den"
-	next "Wellen treibt,"
-	next "setzt es seine"
+	db   "As it floats along"
+	next "on the waves, it"
+	next "uses its toxic"
 
-	page "giftigen Tentakel"
-	next "ein, um alles zu"
-	next "berühren.@"
+	page "feelers to stab"
+	next "anything it"
+	next "touches.@"

@@ -1,10 +1,10 @@
-	db "GIFTDORN@" ; species name
-	dbw 4, 70 ; height, weight
+	db "POISON PIN@" ; species name
+	dw 104, 150 ; height, weight
 
-	db   "Es ist klein und"
-	next "scheu. Es ver-"
-	next "teidigt sich mit"
+	db   "Small and very"
+	next "docile, it pro-"
+	next "tects itself with"
 
-	page "seinem kleinen,"
-	next "aber giftigen"
-	next "Horn.@"
+	page "its small, poison-"
+	next "ous horn when"
+	next "attacked.@"

@@ -1,10 +1,10 @@
-	db "FLUGSKORPI@" ; species name
-	dbw 11, 648 ; height, weight
+	db "FLYSCORPIO@" ; species name
+	dw 307, 1430 ; height, weight
 
-	db   "Sein Nest liegt an"
-	next "einer steilen"
-	next "Klippe. Ist es zu"
+	db   "It builds its nest"
+	next "on a steep cliff."
+	next "When it is done"
 
-	page "erschöpft zum"
-	next "Gleiten, hüpft es"
-	next "ins Nest zurück.@"
+	page "gliding, it hops"
+	next "along the ground"
+	next "back to its nest.@"

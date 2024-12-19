@@ -1,11 +1,11 @@
-	db "URGOLEM@" ; species name
-	dbw 10, 920 ; height, weight
+	db "AUTOMATON@" ; species name
+	dw 303, 20300 ; height, weight
 
 	;  "| ----------------- |"
-	db   "Es wurde von ei-"
-	next "ner uralten Kul-"
-	next "tur aus Lehm er-"
+	db   "Ancient science"
+	next "fashioned this"
+	next "#MON from clay."
 
-	page "schaffen und kann"
-	next "Jahrtausende in"
-	next "Bewegung bleiben.@"
+	page "It's been active"
+	next "for thousands of"
+	next "years.@"

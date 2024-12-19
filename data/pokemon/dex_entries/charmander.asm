@@ -1,10 +1,10 @@
-	db "ECHSE@" ; species name
-	dbw 6, 85 ; height, weight
+	db "LIZARD@" ; species name
+	dw 200, 190 ; height, weight
 
-	db   "Ist es gesund,"
-	next "strahlt die Flamme"
-	next "auf der Schwanz-"
+	db   "If it's healthy,"
+	next "the flame on the"
+	next "tip of its tail"
 
-	page "spitze leuchtend"
-	next "hell, auch wenn"
-	next "sie nass wird.@"
+	page "will burn vigor-"
+	next "ously, even if it"
+	next "gets a bit wet.@"

@@ -1,91 +1,88 @@
 ReenaMonsIsAPerfectMatchText:
-	text "Hör zu…"
+	text "Listen, dear…"
 
-	para "Erinnerst du dich"
-	line "an mein"
-	cont "@"
+	para "Do you recall my"
+	line "@"
 	text_ram wStringBuffer4
 	text "?"
 
-	para "Ja, genau. Das"
-	line "süße @"
+	para "Yes, exactly. That"
+	line "lovely @"
 	text_ram wStringBuffer4
 	text "."
 
-	para "Meinst du nicht"
-	line "auch, dass es per-"
-	cont "fekt zu mir passt?"
+	para "Wouldn't you agree"
+	line "it's a perfect"
+	cont "match for me?"
 	done
 
 ReenaDefeatedMonText:
-	text "Ob mir schon ein-"
-	line "mal ein wildes"
-	cont "@"
+	text "Have I ever faced"
+	line "a wild @"
 	text_ram wStringBuffer4
-	text_start
-	cont "begegnet ist?"
+	text "?"
 
-	para "Du stellst Fragen!"
+	para "You need to ask?"
 
 	para "@"
 	text_ram wStringBuffer4
-	text " habe"
-	line "ich schon oft"
-	cont "besiegt!"
+	text " I've"
+	line "beaten on numerous"
+	cont "occasions!"
 	done
 
 ReenaLostAMonText:
-	text "Ob mir je ein wil-"
-	line "des #MON"
-	cont "entwischt ist?"
+	text "Have I ever failed"
+	line "to catch a wild"
+	cont "#MON?"
 
-	para "Du stellst Fragen!"
+	para "You need to ask?"
 
-	para "Mir würde nie ein"
-	line "wildes @"
+	para "I would never fail"
+	line "to catch a wild"
+
+	para "@"
 	text_ram wStringBuffer4
-	text_start
-
-	para "entkommen…"
-	line "Oh! Kein Problem!"
+	text "…"
+	line "Oh! Never mind!"
 	done
 
 ReenaBattleRematchText:
-	text "Wir werden gegen-"
-	line "einander kämpfen!"
+	text "We are going to"
+	line "battle!"
 
-	para "Und zwar hier:"
+	para "The place shall be"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"
 
-	para "Lass mich nicht"
-	line "warten! O.K.?"
+	para "Don't make me"
+	line "wait! Got it?"
 	done
 
 ReenaHangUpText:
-	text "Du darfst gehen."
+	text "Fine, you may go."
 	done
 
 ReenaForwardText:
-	text "Sei nicht zu"
-	line "stolz, dass du"
+	text "Don't be too proud"
+	line "just because you"
 
-	para "mich zufällig ge-"
-	line "schlagen hast…"
+	para "happened to beat"
+	line "me… "
 
-	para "Das war Dusel!"
+	para "It was a fluke!"
 	done
 
 ReenaHurryText:
-	text "Was machst du"
-	line "gerade?"
+	text "What are you"
+	line "doing?"
 
-	para "Ich sagte doch,"
-	line "ich bin hier:"
+	para "I told you that"
+	line "the place was"
 
 	para "@"
 	text_ram wStringBuffer5
 	text "!"
-	line "Lauf nicht weg!"
+	line "Don't try to run!"
 	done

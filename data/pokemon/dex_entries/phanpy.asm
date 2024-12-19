@@ -1,10 +1,10 @@
-	db "LANGRÜSSEL@" ; species name
-	dbw 5, 335 ; height, weight
+	db "LONG NOSE@" ; species name
+	dw 108, 740 ; height, weight
 
-	db   "In den ruhigen"
-	next "Morgenstunden"
-	next "geht es zu seiner"
+	db   "During the desert-"
+	next "ed morning hours,"
+	next "it comes ashore"
 
-	page "Wasserstelle und"
-	next "duscht sich mit"
-	next "seinem Rüssel.@"
+	page "where it deftly"
+	next "uses its trunk to"
+	next "take a shower.@"

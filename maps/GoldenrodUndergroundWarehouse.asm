@@ -96,123 +96,116 @@ GoldenrodUndergroundWarehouseUltraBall:
 	itemball ULTRA_BALL
 
 GruntM24SeenText:
-	text "Wie bist du"
-	line "so weit gekommen?"
+	text "How did you get"
+	line "this far?"
 
-	para "Ich denke, es gibt"
-	line "keine andere"
-	cont "Lösung, um dich"
-	cont "loszuwerden."
+	para "I guess it can't"
+	line "be helped. I'll"
+	cont "dispose of you."
 	done
 
 GruntM24BeatenText:
-	text "Er wurde mich los…"
+	text "I got disposed of…"
 	done
 
 GruntM24AfterBattleText:
-	text "TEAM ROCKET wird"
-	line "weitermachen."
-	cont "Sie warten auf die"
-	cont "Rückkehr von"
-	cont "GIOVANNI."
+	text "TEAM ROCKET will"
+	line "keep going, wait-"
+	cont "ing for the return"
+	cont "of GIOVANNI."
 
-	para "Wir werden alles"
-	line "dafür geben."
+	para "We'll do whatever"
+	line "it takes."
 	done
 
 GruntM14SeenText:
-	text "Weiter kommst"
-	line "du nicht!"
+	text "You're not going"
+	line "any farther!"
 
-	para "Ich habe niemals"
-	line "Mitleid mit meinen"
-	cont "Gegnern, auch"
-	cont "nicht mit Kindern!"
+	para "I don't show mercy"
+	line "to my enemies, not"
+	cont "even brats!"
 	done
 
 GruntM14BeatenText:
-	text "Verdammt!"
+	text "Blast it!"
 	done
 
 GruntM14AfterBattleText:
-	text "Ich habe verloren…"
+	text "I lost…"
 
-	para "Bitte vergib mir,"
+	para "Please forgive me,"
 	line "GIOVANNI!"
 	done
 
 GruntM15SeenText:
-	text "Hiuck-hiuck-hiuck!"
-	line "Ich kenne dich!"
+	text "Hyuck-hyuck-hyuck!"
+	line "I remember you!"
 
-	para "Du hast mich in"
-	line "unserem Versteck"
-	cont "richtig vermöbelt!"
+	para "You got me good"
+	line "at our hideout!"
 	done
 
 GruntM15BeatenText:
-	text "Hiuck-hiuck-hiuck!"
-	line "So ist das also?"
+	text "Hyuck-hyuck-hyuck!"
+	line "So, that's how?"
 	done
 
 GruntM15AfterBattleText:
-	text "Hiuck-hiuck-hiuck!"
-	line "Das war grandios!"
-	cont "Ich werde dich"
-	cont "nicht vergessen!"
+	text "Hyuck-hyuck-hyuck!"
+	line "That was a blast!"
+	cont "I'll remember you!"
 	done
 
 DirectorIntroText:
-	text "INTENDANT: Wie?"
-	line "Was? Du willst"
-	cont "mich retten?"
+	text "DIRECTOR: Who?"
+	line "What? You came to"
+	cont "rescue me?"
 
-	para "Danke!"
+	para "Thank you!"
 
-	para "Der RADIOTURM!"
+	para "The RADIO TOWER!"
 
-	para "Was geschieht"
-	line "dort?"
+	para "What's happening"
+	line "there?"
 
-	para "Von TEAM ROCKET"
-	line "besetzt?"
+	para "Taken over by TEAM"
+	line "ROCKET?"
 
-	para "Hier, nimm diesen"
-	line "TÜRÖFFNER."
+	para "Here. Take this"
+	line "CARD KEY."
 	done
 
 DirectorCardKeyText:
-	text "INTENDANT: Damit"
-	line "kannst du den"
-	cont "Rollladen im 2S"
-	cont "öffnen."
+	text "DIRECTOR: Use that"
+	line "to open the shut-"
+	cont "ters on 3F."
 	done
 
 DirectorAfterText:
-	text "Ich flehe dich an,"
-	line "uns zu helfen."
+	text "I'm begging you to"
+	line "help."
 
-	para "Niemand weiß, was"
-	line "sie vorhaben, wenn"
+	para "There's no telling"
+	line "what they'll do if"
 
-	para "sie erst Kontrolle"
-	line "über den Trans-"
-	cont "mitter erlangen."
+	para "they control the"
+	line "transmitter."
 
-	para "Sie könnten sogar"
-	line "mit einem Spezial-"
-	cont "signal alle #-"
-	cont "MON kontrollieren!"
+	para "They may even be"
+	line "able to control"
 
-	para "Bitte hilf mir!"
-	line "Du bist meine"
-	cont "letzte Rettung."
+	para "#MON using a"
+	line "special signal!"
 
-	para "Bitte rette den"
-	line "RADIOTURM…"
+	para "You're the only"
+	line "one I can call on."
 
-	para "Und alle #MON"
-	line "in diesem Land!"
+	para "Please save the"
+	line "RADIO TOWER…"
+
+	para "And all the #-"
+	line "MON nationwide!"
 	done
 
 GoldenrodUndergroundWarehouse_MapEvents:

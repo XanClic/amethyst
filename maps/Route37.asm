@@ -115,136 +115,120 @@ Route37HiddenEther:
 	hiddenitem ETHER, EVENT_ROUTE_37_HIDDEN_ETHER
 
 TwinsAnnandanne1SeenText:
-	text "NORA: JO und ich"
-	line "arbeiten immer"
-	cont "zusammen!"
+	text "ANN: ANNE and I"
+	line "are in this to-"
+	cont "gether!"
 	done
 
 TwinsAnnandanne1BeatenText:
-	text "NORA & JO: Nn… ein"
-	line "wenig zu stark."
+	text "ANN & ANNE: Nnn… A"
+	line "little too strong."
 	done
 
 TwinsAnnandanne1AfterBattleText:
-	text "NORA: Ich kenne"
-	line "die Gedanken"
+	text "ANN: I can tell"
+	line "what my sister and"
 
-	para "meiner Schwester"
-	line "und die meiner"
-	cont "#MON."
+	para "my #MON are"
+	line "thinking."
 	done
 
 TwinsAnnandanne2SeenText:
-	text "JO: NORA und ich"
-	line "arbeiten immer"
-	cont "zusammen!"
+	text "ANNE: ANN and I"
+	line "are in this to-"
+	cont "gether!"
 	done
 
 TwinsAnnandanne2BeatenText:
-	text "NORA & JO: Nn…ein"
-	line "wenig zu stark."
+	text "ANN & ANNE: Nnn… A"
+	line "little too strong."
 	done
 
 TwinsAnnandanne2AfterBattleText:
-	text "JO: Wir fühlen"
-	line "dasselbe wie"
-	cont "unsere #MON."
+	text "ANNE: We share the"
+	line "same feelings as"
+	cont "our #MON."
 	done
 
 PsychicGregSeenText:
-	text "#MON können"
-	line "nicht agieren,"
-	cont "wenn sie"
-	cont "schlafen."
+	text "#MON can't do a"
+	line "thing if they are"
+	cont "asleep."
 
-	para "Ich werde dir zei-"
-	line "gen, wie furcht-"
-	cont "erregend das ist!"
+	para "I'll show you how"
+	line "scary that is!"
 	done
 
 PsychicGregBeatenText:
-	text "Ich habe"
-	line "verloren. Wie"
-	cont "betrüblich…"
+	text "I lost. That's"
+	line "pretty sad…"
 	done
 
 PsychicGregAfterBattleText:
-	text "Im Kampf stellt"
-	line "es eine gute"
-	cont "Taktik dar, die"
-	cont "gegnerischen #-"
-	cont "MON in Schlaf zu"
-	cont "versetzen oder sie"
-	cont "zu paralysieren."
+	text "Putting #MON to"
+	line "sleep or paralyz-"
+	cont "ing them are good"
+	cont "battle techniques."
 	done
 
 MeetSunnyText:
-	text "SONNFRIED: Hi!"
+	text "SUNNY: Hi!"
 
-	para "Ich bin SONNFRIED"
-	line "von Sonntag. Soll"
-	cont "heißen, heute ist"
-	cont "Sonntag!"
+	para "I'm SUNNY of Sun-"
+	line "day, meaning it's"
+	cont "Sunday today!"
 	done
 
 SunnyGivesGiftText1:
-	text "Man hat mir auf-"
-	line "getragen, dir das"
-	cont "zu geben, wenn ich"
-	cont "dich treffe!"
+	text "I was told to give"
+	line "you this if I saw"
+	cont "you!"
 	done
 
 SunnyGivesGiftText2:
-	text "Mir wurde aufge-"
-	line "tragen, dir das"
-
-	para "zu überreichen,"
-	line "wenn ich dich"
-	cont "treffe!"
+	text "I was told to give"
+	line "you this if I saw"
+	cont "you!"
 	done
 
 SunnyGaveGiftText:
-	text "SONNFRIED: Dieses"
-	line "Ding…"
+	text "SUNNY: That thing…"
 
-	para "Äh…"
+	para "Um…"
 
-	para "…Was war das"
-	line "nochmal…"
+	para "… What was it now…"
 
 	para "…"
 
-	para "Ah! Jetzt erinnere"
-	line "ich mich!"
+	para "Oh! I remember"
+	line "now!"
 
-	para "Ein #MON, das"
-	line "Elektro-Attacken"
+	para "A #MON that"
+	line "knows electric"
 
-	para "verwendet, sollte"
-	line "dies erhalten."
+	para "moves should hold"
+	line "it."
 
-	para "Meine Schwester"
-	line "MONJA behauptet,"
-	cont "es verstärkt"
-	cont "Elektro-Attacken!"
+	para "My sis MONICA said"
+	line "it powers up"
+	cont "electric moves!"
 	done
 
 SunnySundayText:
-	text "SONNFRIED: Meine"
-	line "Geschwister heißen"
-	cont "MONJA, DIETLINDE,"
-	cont "MITKO, DONATUS,"
-	cont "FRIEDA und SAMSON."
+	text "SUNNY: My sisters"
+	line "and brothers are"
+	cont "MONICA, TUSCANY,"
+	cont "WESLEY, ARTHUR,"
+	cont "FRIEDA and SANTOS."
 
-	para "Sie sind alle"
-	line "älter als ich!"
+	para "They're all older"
+	line "than me!"
 	done
 
 SunnyNotSundayText:
-	text "SONNFRIED: Ist"
-	line "heute nicht Sonn-"
-	cont "tag? Äh… Das habe"
-	cont "ich vergessen!"
+	text "SUNNY: Isn't today"
+	line "Sunday?"
+	cont "Um… I forgot!"
 	done
 
 Route37SignText:

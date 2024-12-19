@@ -129,230 +129,217 @@ WiseTriosRoomSageAllowsPassageMovement:
 	step_end
 
 WiseTriosRoomSage1Text:
-	text "Erstaunlich…"
+	text "Astounding…"
 
-	para "SUICUNE, ENTEI und"
-	line "RAIKOU sind aus"
-	cont "dem Schlaf"
-	cont "erwacht…"
+	para "SUICUNE, ENTEI and"
+	line "RAIKOU have arisen"
+	cont "from their sleep…"
 
-	para "Wird die Legende"
-	line "wahr?"
+	para "Is the legend"
+	line "coming true?"
 	done
 
 WiseTriosRoomSage2Text:
-	text "Wir trainieren bei"
-	line "der TURMRUINE,"
+	text "We train at the"
+	line "BURNED TOWER, but"
 
-	para "aber wir haben nie"
-	line "von einem Loch ge-"
-	cont "hört, das sich"
-	cont "dort geöffnet"
+	para "we've never heard"
+	line "of a hole opening"
 
-	para "haben soll. Jemand"
-	line "muss das absicht-"
-	cont "lich getan haben."
+	para "up there before."
+	line "It must have been"
+
+	para "deliberately made"
+	line "by someone."
 	done
 
 WiseTriosRoomSage3BlocksExitText:
-	text "Zutritt zum ZINN-"
-	line "TURM haben jene,"
+	text "TIN TOWER may be"
+	line "entered by those"
 
-	para "die den ORDEN der"
-	line "PKMN-ARENA von"
-	cont "TEAK CITY tragen."
+	para "bearing ECRUTEAK's"
+	line "GYM BADGE."
 
-	para "Da SUICUNE, RAIKOU"
-	line "und ENTEI jetzt"
+	para "However, now that"
+	line "SUICUNE, RAIKOU"
 
-	para "aber erwacht sind,"
-	line "muss ich dich"
+	para "and ENTEI have"
+	line "arisen, I ask you"
 
-	para "bitten, nicht"
-	line "einzutreten!"
+	para "to refrain from"
+	line "entering!"
 	done
 
 WiseTriosRoomSage3Text:
-	text "Wir, das TRIO der"
-	line "WEISEN, sind die"
+	text "We, the WISE TRIO,"
+	line "are the protectors"
 
-	para "Hüter der legen-"
-	line "dären #MON."
+	para "of the legendary"
+	line "#MON."
 	done
 
 SageGakuSeenText:
-	text "Die Legende be-"
-	line "sagt, dass beim"
+	text "Legend has it that"
+	line "upon the emergence"
 
-	para "Erscheinen eines"
-	line "Trainers, der die"
+	para "of a trainer who"
+	line "has the ability to"
 
-	para "Fähigkeit besitzt,"
-	line "die Seelen der"
+	para "touch the souls of"
+	line "#MON, a #MON"
 
-	para "#MON zu be-"
-	line "rühren, ein #-"
-	cont "MON kommt, das ihn"
+	para "will come forth to"
+	line "put that trainer"
 
-	para "beim ZINNTURM auf"
-	line "die Probe stellt."
+	para "to test at the TIN"
+	line "TOWER."
 
-	para "Die Legende ist"
-	line "wahr!"
+	para "The legend has"
+	line "come true!"
 
-	para "Das legendäre"
+	para "The legendary"
 	line "#MON SUICUNE"
-	cont "ist gekommen!"
+	cont "has arrived!"
 
-	para "Wir, das TRIO der"
-	line "WEISEN, werden"
+	para "We, the WISE TRIO,"
+	line "shall test your"
 
-	para "prüfen, ob du"
-	line "würdig bist,"
-	cont "einzutreten!"
+	para "worthiness to go"
+	line "inside!"
 	done
 
 SageGakuBeatenText:
-	text "Stärker als wir"
-	line "dachten? Wer weiß…"
+	text "Stronger than we"
+	line "thought? Perhaps…"
 	done
 
 SageGakuAfterBattleText:
-	text "Ah, du behauptest"
-	line "also, SUICUNE,"
+	text "Ah, so it is you"
+	line "who claim to have"
 
-	para "ENTEI und RAIKOU"
-	line "während sie"
+	para "seen SUICUNE,"
+	line "ENTEI and RAIKOU"
+	cont "while they slept?"
 
-	para "schliefen"
-	line "gesehen zu haben?"
+	para "Unbelievable!"
 
-	para "Unglaublich!"
-
-	para "Der Legende nach"
-	line "können sie während"
-
-	para "des Schlafs nicht"
-	line "gesehen werden…"
+	para "Legend has it that"
+	line "they can't be seen"
+	cont "while they sleep…"
 	done
 
 SageMasaSeenText:
-	text "Kann man dir die"
-	line "Wahrheit"
-	cont "anvertrauen?"
+	text "Can you be trusted"
+	line "with the truth?"
 
-	para "Ich muss prüfen,"
-	line "ob du würdig bist."
+	para "I must ascertain"
+	line "your worthiness."
 	done
 
 SageMasaBeatenText:
-	text "…Ich sage dir"
-	line "die Wahrheit…"
+	text "…I will tell you"
+	line "the truth…"
 	done
 
 SageMasaAfterBattleText:
-	text "Es gab früher zwei"
-	line "8-stöckige"
-	cont "Türme hier."
+	text "In the past, there"
+	line "were two nine-tier"
+	cont "towers here."
 
-	para "Den BRONZETURM,"
-	line "der die #MON"
+	para "The BRASS TOWER,"
+	line "which was said to"
 
-	para "erwecken sollte,"
-	line "und den ZINNTURM,"
+	para "awaken #MON,"
+	line "and the TIN TOWER,"
 
-	para "in dem die #MON"
-	line "ruhen sollten."
+	para "where #MON were"
+	line "said to rest."
 
-	para "Die Aussicht von"
-	line "den beiden Spitzen"
+	para "The view from the"
+	line "tops of the TOWERS"
 
-	para "der TÜRME muss"
-	line "atemberaubend"
-	cont "gewesen sein."
+	para "must have been"
+	line "magnificent."
 
-	para "Zu dieser Zeit"
-	line "soll sich ein"
+	para "At the time, an"
+	line "immense, silver-"
 
-	para "gigantisches, sil-"
-	line "bernes #MON auf"
+	para "colored #MON"
+	line "was said to make"
 
-	para "der Spitze des"
-	line "BRONZETURMs"
+	para "its roost atop the"
+	line "BRASS TOWER."
 
-	para "niedergelassen"
-	line "haben."
+	para "However…"
 
-	para "Jedoch…"
+	para "About 150 years"
+	line "ago, a lightning"
 
-	para "Vor 150 Jahren"
-	line "schlug ein Blitz"
+	para "bolt struck one of"
+	line "the TOWERS."
 
-	para "in einen der"
-	line "beiden TÜRME ein."
+	para "It was engulfed in"
+	line "flames that raged"
+	cont "for three days."
 
-	para "Die Flammen"
-	line "wüteten für ganze"
-	cont "drei Tage."
+	para "A sudden downpour"
+	line "finally put out"
+	cont "the blaze."
 
-	para "Ein plötzlicher"
-	line "Platzregen löschte"
-	cont "das Feuer."
-
-	para "Und so ist die"
-	line "TURMRUINE"
-	cont "entstanden."
+	para "And that is how"
+	line "the BURNED TOWER"
+	cont "came to be."
 	done
 
 SageKojiSeenText:
-	text "Beweise mir deine"
-	line "Kraft!"
+	text "Let me see your"
+	line "power!"
 	done
 
 SageKojiBeatenText:
-	text "Zu stark!"
-	line "Warum?"
+	text "Too strong!"
+	line "Why?"
 	done
 
 SageKojiAfterBattleQuestionText:
-	text "Du… bist du der"
-	line "Trainer, der von"
+	text "You… Are you the"
+	line "trainer who is"
 
-	para "dem legendären"
-	line "#MON erwartet"
-	cont "wird?"
+	para "awaited by the"
+	line "legendary #MON?"
 	done
 
 SageKojiAfterBattleSpeechText:
-	text "Ich verstehe…"
+	text "I see…"
 
-	para "Wir, das TRIO der"
-	line "WEISEN, sind ver-"
-	cont "antwortlich für"
-	cont "den Schutz der"
+	para "We, the WISE TRIO,"
+	line "have been given "
 
-	para "legendären #-"
-	line "MON. Wir gestatten"
+	para "the responsibility"
+	line "of protecting the"
 
-	para "nur jenen Zutritt,"
-	line "die eine reine"
+	para "legendary #MON."
+	line "We are to allow"
 
-	para "Seele und wahre"
-	line "Kraft besitzen."
+	para "passage only to"
+	line "those people who"
 
-	para "Schreite voran und"
-	line "betritt den"
-	cont "ZINNTURM."
+	para "possess the power"
+	line "and soul of truth."
 
-	para "SUICUNE wird dich"
-	line "prüfen."
+	para "Please, do go on"
+	line "and enter the TIN"
+	cont "TOWER ahead."
+
+	para "SUICUNE will put"
+	line "you to the test."
 	done
 
 SageKojiAfterBattleFinalText:
-	text "Schreite voran!"
+	text "Please, do go on."
 
-	para "SUICUNE wird dich"
-	line "prüfen."
+	para "SUICUNE will put"
+	line "you to the test."
 	done
 
 WiseTriosRoom_MapEvents:

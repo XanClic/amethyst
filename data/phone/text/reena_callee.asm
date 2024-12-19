@@ -1,72 +1,72 @@
 ReenaAnswerPhoneText:
-	text "Hallo, hier ist"
+	text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
 	para "Oh. Hi, <PLAYER>."
-	line "Was gibt's?"
+	line "What's up?"
 	done
 
 ReenaAnswerPhoneDayText:
-	text "Hallo, hier ist"
+	text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
 	para "Oh, hi, <PLAYER>,"
-	line "was gibt's?"
+	line "what's up?"
 	done
 
 ReenaAnswerPhoneNiteText:
-	text "Hallo, hier ist"
+	text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
 	para "Oh, hi, <PLAYER>,"
-	line "was gibt's?"
+	line "what's up?"
 	done
 
 ReenaGreetText:
-	text "Du bist lahm! Auf,"
-	line "antworte mir!"
+	text "You're slow! Hurry"
+	line "up and answer!"
 
-	para "Ich, @"
+	para "It's me, @"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 ReenaGreetDayText:
-	text "Du bist lahm! Auf,"
-	line "antworte mir!"
+	text "You're slow! Hurry"
+	line "up and answer!"
 
-	para "Ich, @"
+	para "It's me, @"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 ReenaGreetNiteText:
-	text "Du bist lahm! Auf,"
-	line "antworte mir!"
+	text "You're slow! Hurry"
+	line "up and answer!"
 
-	para "Ich, @"
+	para "It's me, @"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 ReenaGenericText:
-	text "Heh, wie geht es"
-	line "deinen #MON?"
+	text "Hey, how are your"
+	line "#MON doing?"
 
-	para "Was? Gut?"
-	line "Verstehe…"
+	para "What? Great?"
+	line "I see…"
 
-	para "Meinen #MON?"
+	para "What? My #MON?"
 
-	para "Es geht ihnen sehr"
-	line "gut! Was stellst"
+	para "Of course they're"
+	line "doing great! What"
 
-	para "du denn für"
-	line "Fragen?"
+	para "kind of a question"
+	line "is that?"
 	done

@@ -1,10 +1,10 @@
-	db "TAUCHER@" ; species name
-	dbw 52, 2160 ; height, weight
+	db "DIVING@" ; species name
+	dw 1701, 4760 ; height, weight
 
-	db   "Es verfügt über"
-	next "die Fähigkeit"
-	next "Stürme zu zügeln."
+	db   "It has an incred-"
+	next "ible ability to"
+	next "calm raging sto-"
 
-	page "Man sagt, dass"
-	next "LUGIA auftaucht,"
-	next "wenn es stürmt.@"
+	page "rms. It is said"
+	next "that LUGIA appears"
+	next "when storms start.@"

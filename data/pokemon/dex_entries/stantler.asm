@@ -1,10 +1,10 @@
-	db "VIELENDER@" ; species name
-	dbw 14, 712 ; height, weight
+	db "BIG HORN@" ; species name
+	dw 407, 1570 ; height, weight
 
-	db   "Die Kugeln, die"
-	next "an abgefallenem"
-	next "Geweih gefunden"
+	db   "The round balls"
+	next "found on the"
+	next "fallen antlers can"
 
-	page "werden, können zu"
-	next "Schlafpuder"
-	next "gemahlen werden.@"
+	page "be ground into a"
+	next "powder that aids"
+	next "in sleeping.@"

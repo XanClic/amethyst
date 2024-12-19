@@ -1,11 +1,11 @@
-	db "MISSGUNST@" ; species name
-	dbw 5, 20 ; height, weight
+	db "LINGERING@" ; species name
+	dw 108, 400 ; height, weight
 
 	;  "| ----------------- |"
-	db   "Es lebte einst im"
-	next "Meer. Dann ist es"
-	next "als Geist wieder-"
+	db   "It used to live"
+	next "in the sea. Its"
+	next "spirit rose and"
 
-	page "erwacht und irrt"
-	next "dort nun rastlos"
-	next "umher.@"
+	page "now roams its old"
+	next "habitat aimlessly"
+	next "and without rest.@"

@@ -32,7 +32,7 @@ MountMortar1FOutsideZorua:
 	end
 
 MountMortar1FZoruaCryText:
-	text "ZORUA: Wiff-wiff!"
+	text "ZORUA: Irf-irf!"
 	done
 
 MountMortar1FOutside_MapEvents:

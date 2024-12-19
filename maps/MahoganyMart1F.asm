@@ -155,74 +155,67 @@ MahoganyMart1FLanceGoDownStairsMovement:
 	step_end
 
 MahoganyMart1FRageCandyBarText: ; unreferenced
-	text "Hallo, Wicht!"
+	text "Hello, kiddo!"
 
-	para "Möchtest du einen"
-	line "WUTKEKS?"
+	para "How would you like"
+	line "some RAGECANDYBAR?"
 
-	para "Man isst dies in"
-	line "MAHAGONIA CITY!"
+	para "It's the thing to"
+	line "eat in MAHOGANY!"
 	done
 
 MahoganyMart1FPharmacistText_LanceEntered:
-	text "Arrgh… Du hast"
-	line "die Geheimtreppe"
-	cont "gefunden…"
+	text "Arrgh… You found"
+	line "the secret stair-"
+	cont "way…"
 	done
 
 MahoganyMart1FBlackBeltText:
-	text "Heheh! Das"
-	line "Experiment verlief"
-	cont "wie am Schnürchen."
+	text "Heheh! The experi-"
+	line "ment worked like a"
+	cont "charm."
 
-	para "KARPADOR ist"
-	line "wertlos, aber"
+	para "MAGIKARP are just"
+	line "worthless, but"
 
-	para "GARADOS verkauft"
-	line "sich gut."
+	para "GYARADOS are big"
+	line "moneymakers."
 	done
 
 MahoganyMart1FBlackBeltText_LanceEntered:
 	text "Urrgh…"
 
-	para "Seine Drachen-"
-	line "#MON sind"
-	cont "stark…"
+	para "That guy's dragon"
+	line "#MON are tough…"
 	done
 
 MahoganyMart1FLanceDragoniteHyperBeamText:
-	text "SIEGFRIED:"
-	line "DRAGORAN,"
-
-	para "HYPERSTRAHL!"
+	text "LANCE: DRAGONITE,"
+	line "HYPER BEAM."
 	done
 
 MahoganyMart1FLanceRadioText:
-	text "Wo bleibst du,"
+	text "What took you,"
 	line "<PLAY_G>?"
 
-	para "Das habe ich mir"
-	line "gleich gedacht."
+	para "Just as I thought,"
+	line "that strange radio"
 
-	para "Die merkwürdigen"
-	line "Radiowellen kommen"
-	cont "von hier."
+	para "signal is coming"
+	line "from here."
 	done
 
 MahoganyMart1FLanceStairsText:
-	text "Die Treppe"
-	line "ist hier."
+	text "The stairs are"
+	line "right here."
 	done
 
 MahoganyMart1FLanceSplitUpText:
-	text "SIEGFRIED:"
-	line "<PLAY_G>,"
+	text "LANCE: <PLAY_G>, we"
+	line "should split up to"
 
-	para "wir sollten uns"
-	line "trennen, um diesen"
-
-	para "Ort zu erforschen."
-	line "Ich gehe zuerst."
+	para "check this place."
+	line "I'll go first."
 	done
 
 MahoganyMart1F_MapEvents:

@@ -1,6 +1,6 @@
 ArnieAnswerPhoneText:
-	text "Yeah, hallo. Hier"
-	line "ist @"
+	text "Yeah, hello."
+	line "This is @"
 	text_ram wStringBuffer3
 	text "."
 
@@ -8,8 +8,8 @@ ArnieAnswerPhoneText:
 	done
 
 ArnieAnswerPhoneDayText:
-	text "Yo, hallo, du hast"
-	line "@"
+	text "Yeah, hello, you"
+	line "got @"
 	text_ram wStringBuffer3
 	text "."
 
@@ -17,8 +17,8 @@ ArnieAnswerPhoneDayText:
 	done
 
 ArnieAnswerPhoneNiteText:
-	text "Yo, hallo, du hast"
-	line "@"
+	text "Yeah, hello, you"
+	line "got @"
 	text_ram wStringBuffer3
 	text "."
 
@@ -26,37 +26,37 @@ ArnieAnswerPhoneNiteText:
 	done
 
 ArnieGreetText:
-	text "Yeah, hallo?"
+	text "Yeah, hello?"
 	line "@"
 	text_ram wStringBuffer3
-	text " hier."
+	text " calling."
 
-	para "Was läuft bei dir,"
-	line "<PLAY_G>?"
+	para "What are you up"
+	line "to, <PLAY_G>?"
 	done
 
 ArnieGreetDayText:
-	text "Yeah, hallo?"
+	text "Yeah, hello?"
 	line "@"
 	text_ram wStringBuffer3
-	text " hier."
+	text " calling."
 
-	para "Wo bist du,"
+	para "Where are you now,"
 	line "<PLAY_G>?"
 	done
 
 ArnieGreetNiteText:
-	text "Yeah, hallo?"
+	text "Yeah, hello?"
 	line "@"
 	text_ram wStringBuffer3
-	text " hier."
+	text " calling."
 
-	para "Bist du wach,"
+	para "Are you awake now,"
 	line "<PLAY_G>?"
 	done
 
 ArnieGenericText:
-	text "Ich wette, deine"
-	line "#MON sind viel"
-	cont "stärker als zuvor."
+	text "I bet your #MON"
+	line "are a lot stronger"
+	cont "than before."
 	done

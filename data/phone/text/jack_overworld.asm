@@ -1,58 +1,55 @@
 JackAskNumber1Text:
-	text "Dein Wissen ist"
-	line "bemerkenswert!"
+	text "Your knowledge is"
+	line "impressive!"
 
-	para "Ich mag das!"
+	para "I like that!"
 
-	para "Sollen wir Tipps"
-	line "austauschen?"
+	para "Want to trade"
+	line "battle tips?"
 
-	para "Ich rufe an, wenn"
-	line "ich etwas"
-	cont "herausfinde."
+	para "I'll phone if I"
+	line "get good info."
 
-	para "Gibst du mir deine"
-	line "Telefonnummer?"
+	para "Would you tell me"
+	line "your number?"
 	done
 
 JackAskNumber2Text:
-	text "Sollen wir Tipps"
-	line "austauschen?"
+	text "Want to trade"
+	line "battle tips?"
 
-	para "Ich rufe an, wenn"
-	line "ich etwas"
-	cont "herausfinde."
+	para "I'll phone if I"
+	line "get good info."
 
-	para "Gibst du mir deine"
-	line "Telefonnummer?"
+	para "Would you tell me"
+	line "your number?"
 	done
 
 JackNumberAcceptedText:
-	text "Ich rufe an, wenn"
-	line "ich etwas erfahre!"
+	text "I'll call you if I"
+	line "hear anything!"
 	done
 
 JackNumberDeclinedText:
-	text "O.K. Dann nicht…"
+	text "Oh, OK. Too bad…"
 
-	para "Wenn du meine"
-	line "Nummer möchtest,"
-	cont "komm vorbei!"
+	para "Well, if you ever"
+	line "want my number,"
+	cont "come see me, OK?"
 	done
 
 JackPhoneFullText:
-	text "Oh? Dein Nummern-"
-	line "speicher ist voll."
+	text "Oh?"
+	line "Your phone's full."
 
-	para "Du kannst die"
-	line "Nummer nicht"
-	cont "speichern."
+	para "It can't register"
+	line "my number."
 	done
 
 JackRematchText:
-	text "Ich habe schon auf"
-	line "dich gewartet!"
+	text "Hi, I was waiting"
+	line "for you to show!"
 
-	para "Also, worauf war-"
-	line "test du noch?"
+	para "Let's get started"
+	line "right away!"
 	done

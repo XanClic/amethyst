@@ -50,71 +50,64 @@ CinnabarGymSign:
 	jumptext CinnabarGymSignText
 
 SwimmerfNicoleSeenText:
-	text "Im Wasser fühle"
-	line "ich mich so"
-	cont "leicht."
+	text "I feel so much"
+	line "lighter in water."
 	done
 
 SwimmerfNicoleBeatenText:
-	text "Oh, nein!"
+	text "Oh, no!"
 	done
 
 SwimmerfNicoleAfterBattleText:
-	text "Beim Schwimmen"
-	line "wird der gesamte"
+	text "Swimming exercises"
+	line "your full body."
 
-	para "Körper trainiert."
-	line "Schwimmen ist"
-	cont "gesund."
+	para "It's really good"
+	line "for you."
 	done
 
 SwimmerfLoriSeenText:
-	text "Du besitzt eine"
-	line "umwerfende Anzahl"
+	text "What an impressive"
+	line "collection of GYM"
 
-	para "ARENA-ORDEN. Lass"
-	line "uns kämpfen!"
+	para "BADGES. We should"
+	line "battle!"
 	done
 
 SwimmerfLoriBeatenText:
-	text "Nein!"
+	text "No!"
 	done
 
 SwimmerfLoriAfterBattleText:
-	text "SURFER ist nicht"
-	line "mehr die einzige"
-	cont "VM, die du im"
-	cont "Wasser einsetzen"
-	cont "kannst."
+	text "SURF is no longer"
+	line "the only HM move"
+	cont "you use in water."
 	done
 
 SwimmermCameronSeenText:
-	text "Ich denke es ist"
-	line "unmöglich, den"
+	text "I guess it's im-"
+	line "possible to swim"
 
-	para "ganzen Weg nach"
-	line "JOHTO zu"
-	cont "schwimmen."
+	para "all the way to"
+	line "JOHTO."
 	done
 
 SwimmermCameronBeatenText:
-	text "Yippie!"
+	text "Aiyah!"
 	done
 
 SwimmermCameronAfterBattleText:
-	text "Ich schwimme auch"
-	line "in Teichen und"
-	cont "Flüssen."
+	text "Besides the sea, I"
+	line "can also swim in"
+	cont "ponds and rivers."
 	done
 
 CinnabarGymSignText:
-	text "Was steht auf"
-	line "diesem Schild?"
+	text "What does this"
+	line "sign say?"
 
-	para "PKMN-ARENA der"
-	line "ZINNOBERINSEL"
-
-	para "LEITUNG: PYRO"
+	para "CINNABAR GYM"
+	line "LEADER: BLAINE"
 	done
 
 Route20_MapEvents:

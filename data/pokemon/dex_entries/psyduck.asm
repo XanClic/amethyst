@@ -1,10 +1,10 @@
-	db "ENTE@" ; species name
-	dbw 8, 196 ; height, weight
+	db "DUCK@" ; species name
+	dw 207, 430 ; height, weight
 
-	db   "Es kann seine"
-	next "Psychokräfte nur"
-	next "einsetzen, wenn"
+	db   "The only time it"
+	next "can use its psy-"
+	next "chic power is when"
 
-	page "seine schlafenden"
-	next "Gehirnzellen zu-"
-	next "fällig aufwachen.@"
+	page "its sleeping brain"
+	next "cells happen to"
+	next "wake.@"

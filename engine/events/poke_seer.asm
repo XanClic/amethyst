@@ -215,13 +215,7 @@ UnknownCaughtData:
 	ret
 
 .unknown
-if !DEF(_CRYSTAL_EU)
 	db "Unknown@"
-elif DEF(_CRYSTAL_DE)
-	db "Neutrum@"
-elif DEF(_CRYSTAL_ES)
-	db "DESCON.@"
-endc
 
 GetCaughtLocation:
 	ld a, [wSeerCaughtGender]
@@ -233,21 +227,10 @@ GetCaughtLocation:
 	jr z, .fail
 	ld e, a
 	farcall GetLandmarkName
-if !DEF(_CRYSTAL_EU)
 	ld hl, wStringBuffer1
 	ld de, wSeerCaughtLocation
 	ld bc, 17
 	call CopyBytes
-elif DEF(_CRYSTAL_DE)
-	ld hl, wStringBuffer1
-	ld de, wSeerCaughtLocation
-	ld bc, 17
-	call CopyBytes
-elif DEF(_CRYSTAL_ES)
-	ld de, wStringBuffer1
-	ld hl, wSeerCaughtLocation
-	call CopyName2
-endc
 	and a
 	ret
 

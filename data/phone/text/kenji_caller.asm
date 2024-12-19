@@ -1,66 +1,63 @@
 KenjiHangUpText:
-	text "Egal, wir reden"
-	line "später!"
+	text "Anyway, we'll chat"
+	line "again!"
 	done
 
 KenjiRemainDedicatedText:
-	text "Bist du noch auf"
-	line "Reisen?"
+	text "Are you still on"
+	line "your journey?"
 
-	para "Ich bin meinem"
-	line "Training treu"
-	cont "geblieben."
+	para "I remain dedicated"
+	line "to my training."
 
 	para "Oooooaaarrrgh!"
 	done
 
 KenjiCallMeBackAnotherTimeText:
-	text "Ich trainiere"
-	line "gerade. Ent-"
-	cont "schuldige, aber"
+	text "I'm in training"
+	line "now. I apologize,"
 
-	para "rufe mich später"
-	line "noch mal an."
+	para "but call me back"
+	line "another time."
 
 	para "Oooooaaarrrgh!"
 	done
 
 KenjiIllHaveTimeToChatTomorrowText:
-	text "Leider habe ich"
-	line "keine Zeit zum"
+	text "I apologize, but I"
+	line "don't have time to"
 
-	para "Reden, wenn ich"
-	line "trainiere!"
+	para "chat while I am in"
+	line "training!"
 
-	para "Morgen habe ich"
-	line "Zeit für dich!"
+	para "I'll have time to"
+	line "chat tomorrow!"
 
 	para "Yiiihah!"
 	done
 
 KenjiHangUpMorningText:
-	text "Ich mache Mittags-"
-	line "pause, also komm"
+	text "I plan to take a"
+	line "lunch break, so"
 
-	para "vorbei!"
+	para "come see me then!"
 	line "Ayiiiyah!"
 	done
 
 KenjiTakingABreakText:
-	text "Ich mache auf"
-	line "ROUTE 45 Pause!"
+	text "I'm taking a break"
+	line "on ROUTE 45!"
 
-	para "Komm vorbei, wenn"
-	line "du Zeit hast!"
+	para "Why not drop by if"
+	line "you are free?"
 	done
 
 KenjiHangUpNightText:
-	text "Genug Pause für"
-	line "heute."
+	text "I rested up over"
+	line "my lunch break."
 
-	para "Jetzt muss ich das"
-	line "Training"
-	cont "fortsetzen!"
+	para "Now it's time to"
+	line "resume training!"
 
 	para "Oooryaah!"
 	done

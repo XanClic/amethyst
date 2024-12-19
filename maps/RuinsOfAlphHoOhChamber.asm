@@ -109,40 +109,36 @@ RuinsOfAlphHoOhChamberSkyfallTopMovement:
 	step_end
 
 RuinsOfAlphHoOhChamberWallPatternLeftText:
-	text "Es sind Muster an"
-	line "den Wänden…"
+	text "Patterns appeared"
+	line "on the walls…"
 	done
 
 RuinsOfAlphHoOhChamberUnownText: ; unreferenced
-; unused
-	text "Es ist"
-	line "ICOGNITO-Schrift!"
+	text "It's UNOWN text!"
 	done
 
 RuinsOfAlphHoOhChamberWallPatternRightText:
-	text "Es sind Muster an"
-	line "den Wänden…"
+	text "Patterns appeared"
+	line "on the walls…"
 	done
 
 RuinsOfAlphHoOhChamberWallHoleText:
-	text "Da ist ein großes"
-	line "Loch in der Wand!"
+	text "There's a big hole"
+	line "in the wall!"
 	done
 
 RuinsOfAlphHoOhChamberAncientReplicaText:
-	text "Dies ist eine"
-	line "Nachbildung eines"
-	cont "antiken #MON."
+	text "It's a replica of"
+	line "an ancient #-"
+	cont "MON."
 	done
 
 RuinsOfAlphHoOhChamberDescriptionText:
-	text "Ein #MON, das"
-	line "mittels"
+	text "A #MON that"
+	line "flew gracefully on"
 
-	para "regenbogenfarbener"
-	line "Schwingen grazil"
-	cont "durch die"
-	cont "Lüfte schwebte."
+	para "rainbow-colored"
+	line "wings."
 	done
 
 RuinsOfAlphHoOhChamber_MapEvents:

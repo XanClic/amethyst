@@ -219,254 +219,231 @@ FastShipB1FSailorBlocksLeftMovement:
 	step_end
 
 FastShipB1FOnDutySailorText:
-	text "Heh, könntest"
-	line "du mal nach meinem"
-	cont "Kollegen suchen?"
+	text "Hey, kid. Could I"
+	line "get you to look"
+	cont "for my buddy?"
 
-	para "Er faulenzt"
-	line "irgendwo. Dieser"
-	cont "Müßiggänger!"
+	para "He's goofing off"
+	line "somewhere, that"
+	cont "lazy bum!"
 
-	para "Ich würde ihn"
-	line "selbst suchen,"
-	cont "aber ich bin"
-	cont "gerade im Dienst."
+	para "I want to go find"
+	line "him, but I'm on"
+	cont "duty right now."
 	done
 
 FastShipB1FOnDutySailorRefusedText:
-	text "Oh, oh…"
+	text "Oh, gee…"
 
-	para "Der KAPITÄN"
-	line "wird wütend sein…"
+	para "The CAPTAIN will"
+	line "be furious…"
 	done
 
 FastShipB1FOnDutySailorThanksText:
-	text "Danke!"
-	line "Ich habe mit ihm"
+	text "Thanks, kid!"
+	line "I chewed him out"
 
-	para "geredet, er wird"
-	line "nicht mehr"
-	cont "faulenzen!"
+	para "good so he'll quit"
+	line "slacking off!"
 	done
 
 FastShipB1FOnDutySailorSawLittleGirlText:
-	text "Ein kleines"
-	line "Mädchen?"
+	text "A little girl?"
 
-	para "Ich glaube, sie"
-	line "ist hier vorbei-"
-	cont "gekommen."
+	para "I may have seen"
+	line "her go by here."
 	done
 
 FastShipB1FOnDutySailorDirectionsText:
-	text "Der Speisesaal"
-	line "ist geradeaus."
+	text "The dining room is"
+	line "up ahead."
 
-	para "Die Treppen am"
-	line "Ende führen in"
-	cont "die KAPITÄNS-"
-	cont "KAJÜTE."
+	para "The stairs at the"
+	line "end lead to the"
+	cont "CAPTAIN's cabin."
 	done
 
 SailorJeffSeenText:
-	text "In den Pausen ist"
-	line "Kämpfen meine"
-	cont "Lieblingsbeschäf-"
-	cont "tigung."
+	text "Nothing beats a"
+	line "battle when I'm"
+	cont "on my break."
 	done
 
 SailorJeffBeatenText:
-	text "Sieg oder"
-	line "Niederlage, meine"
-	cont "Pause ist vorüber!"
+	text "Win or lose, my"
+	line "break's over!"
 	done
 
 SailorJeffAfterBattleText:
-	text "Ich denke, ich"
-	line "werde nie"
-	cont "gewinnen, wenn ich"
-	cont "die Sache nicht"
-	cont "ernst nehme."
+	text "I guess I can't"
+	line "win if I don't get"
+	cont "serious."
 	done
 
 PicnickerDebraSeenText:
-	text "Mir ist lang-"
-	line "weilig. Willst du"
-	cont "kämpfen?"
+	text "I'm so bored."
+	line "Want to battle?"
 	done
 
 PicnickerDebraBeatenText:
-	text "Au! Du bist zu"
-	line "stark!"
+	text "Yow! You're too"
+	line "strong!"
 	done
 
 PicnickerDebraAfterBattleText:
-	text "SAFFRONIA,"
-	line "PRISMANIA…"
-	cont "Ich habe gehört,"
+	text "SAFFRON, CELADON…"
+	line "I hear there are"
 
-	para "es gibt viele"
-	line "große Städte"
-	cont "in KANTO."
+	para "many big cities"
+	line "in KANTO."
 	done
 
 JugglerFritzSeenText:
-	text "Uff…"
-	line "Ich bin seekrank!"
+	text "Urrf…"
+	line "I'm seasick!"
 	done
 
 JugglerFritzBeatenText:
-	text "Ich kann mich"
-	line "nicht bewegen…"
+	text "I can't move any-"
+	line "more…"
 	done
 
 JugglerFritzAfterBattleText:
-	text "Ich reise nie"
-	line "mehr mit dem"
+	text "No more ships for"
+	line "me. Next time,"
 
-	para "Schiff. Das"
-	line "nächste Mal nehme"
-	cont "ich den MAGNETZUG."
+	para "I'm taking the"
+	line "MAGNET TRAIN."
 	done
 
 SailorGarrettSeenText:
-	text "Hier arbeiten wir"
-	line "Matrosen!"
+	text "This is where we"
+	line "sailors work!"
 	done
 
 SailorGarrettBeatenText:
-	text "Ich habe auf"
-	line "eigenem Terrain"
-	cont "verloren…"
+	text "I lost on my home"
+	line "field…"
 	done
 
 SailorGarrettAfterBattleText:
-	text "Wir bringen unsere"
-	line "Passagiere von"
+	text "We get different"
+	line "passengers from"
 
-	para "ORANIA CITY nach"
-	line "OLIVIANA CITY."
+	para "VERMILION CITY to"
+	line "OLIVINE CITY."
 	done
 
 FisherJonahSeenText:
-	text "Auch wenn wir"
-	line "mit dem Schiff"
-	cont "fahren, kann ich"
-	cont "nicht angeln!"
+	text "Even though we're"
+	line "out on the sea, I"
+	cont "can't fish!"
 
-	para "Wie langweilig!"
-	line "Lass uns kämpfen!"
+	para "This is boring!"
+	line "Let's battle!"
 	done
 
 FisherJonahBeatenText:
-	text "M-mir ist nicht"
-	line "mehr langweilig…"
+	text "I… I'm not bored"
+	line "anymore…"
 	done
 
 FisherJonahAfterBattleText:
-	text "Ich werde am Kai"
-	line "von ORANIA angeln."
+	text "I plan to fish off"
+	line "VERMILION's pier."
 	done
 
 BlackbeltWaiSeenText:
-	text "Ich trainiere"
-	line "meine Beine, indem"
+	text "I'm building up my"
+	line "legs by bracing"
 
-	para "ich das Schaukeln"
-	line "des Schiffes"
-	cont "ausgleiche!"
+	para "against the ship's"
+	line "rocking!"
 	done
 
 BlackbeltWaiBeatenText:
-	text "Gestürzt und platt"
-	line "gemacht!"
+	text "Rocked and rolled"
+	line "over!"
 	done
 
 BlackbeltWaiAfterBattleText:
-	text "Ich konnte den"
-	line "KARATE-MEISTER in"
-	cont "JOHTO nicht"
-	cont "finden."
+	text "I couldn't find"
+	line "the KARATE KING in"
+	cont "JOHTO."
 
-	para "Er soll irgendwo"
-	line "in einer Höhle"
-	cont "trainieren."
+	para "He's supposed to"
+	line "be training in a"
+	cont "cave somewhere."
 	done
 
 SailorKennethSeenText:
-	text "Ich bin Matrose!"
+	text "I'm a sailor man!"
 
-	para "Aber ich trainiere"
-	line "#MON, um"
-	cont "der CHAMP zu"
-	cont "werden!"
+	para "But I'm training"
+	line "#MON, so I can"
+	cont "become the CHAMP!"
 	done
 
 SailorKennethBeatenText:
-	text "Mein Trainings-"
-	line "rückstand ist"
-	cont "offensichtlich…"
+	text "My lack of train-"
+	line "ing is obvious…"
 	done
 
 SailorKennethAfterBattleText:
-	text "Acht ORDEN!"
-	line "Das heißt, du"
+	text "Eight BADGES!"
+	line "They must prove"
 
-	para "hast die ARENA-"
-	line "LEITER besiegt."
+	para "that you've beaten"
+	line "GYM LEADERS."
 
-	para "Kein Wunder, dass"
-	line "du so stark bist!"
+	para "No wonder you're"
+	line "so good!"
 	done
 
 TeacherShirleySeenText:
-	text "Lass die Finger"
-	line "von meinen"
-	cont "Schülern!"
+	text "Don't lay a finger"
+	line "on my students!"
 	done
 
 TeacherShirleyBeatenText:
-	text "Ah!"
+	text "Aaack!"
 	done
 
 TeacherShirleyAfterBattleText:
-	text "Wir machen einen"
-	line "Ausflug zu den"
-	cont "RUINEN bei"
-	cont "VIOLA CITY."
+	text "We're on a field"
+	line "trip to the RUINS"
+	cont "outside VIOLET."
 	done
 
 SchoolboyNateSeenText:
-	text "Kennst du die"
-	line "ALPH-RUINEN?"
+	text "Do you know the"
+	line "RUINS OF ALPH?"
 	done
 
 SchoolboyNateBeatenText:
-	text "Ah!"
+	text "Yaargh!"
 	done
 
 SchoolboyNateAfterBattleText:
-	text "In den RUINEN"
-	line "empfängt das Radio"
-	cont "seltsame Signale."
+	text "Radios pick up"
+	line "strange signals"
+	cont "inside the RUINS."
 	done
 
 SchoolboyRickySeenText:
-	text "In den ALPH-RUINEN"
-	line "gibt es seltsame"
-	cont "Steinplatten."
+	text "There are some odd"
+	line "stone panels in"
+	cont "the RUINS OF ALPH."
 	done
 
 SchoolboyRickyBeatenText:
-	text "Ich wurde"
-	line "vermöbelt!"
+	text "I was done in!"
 	done
 
 SchoolboyRickyAfterBattleText:
-	text "Ich habe gelesen,"
-	line "dass es vier von"
-	cont "den Steinplatten"
-	cont "gibt."
+	text "I read that there"
+	line "are four of those"
+	cont "stone panels."
 	done
 
 FastShipB1F_MapEvents:

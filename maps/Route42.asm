@@ -224,106 +224,96 @@ Route42SuicuneMovement:
 	step_end
 
 FisherTullySeenText:
-	text "Jetzt demonstriere"
-	line "ich dir die Kraft"
-	cont "des #MON,"
-	cont "das ich gefangen"
-	cont "habe!"
+	text "Let me demonstrate"
+	line "the power of the"
+	cont "#MON I caught!"
 	done
 
 FisherTullyBeatenText:
-	text "Was? Das kann"
-	line "nicht sein."
+	text "What? That's not"
+	line "right."
 	done
 
 FisherTullyAfterBattleText:
-	text "Mit dem #MON,"
-	line "das ich gefangen"
+	text "I want to become"
+	line "the trainer CHAMP"
 
-	para "habe, möchte ich"
-	line "der CHAMP der"
-	cont "Trainer werden."
+	para "using the #MON"
+	line "I caught."
 
-	para "Das ist das Beste"
-	line "am Angeln!"
+	para "That's the best"
+	line "part of fishing!"
 	done
 
 HikerBenjaminSeenText:
-	text "Ach, ist das"
-	line "schön, im Freien"
-	cont "zu sein! Ich fühle"
-	cont "mich so frei!"
+	text "Ah, it's good to"
+	line "be outside!"
+	cont "I feel so free!"
 	done
 
 HikerBenjaminBeatenText:
-	text "Hahaha!"
+	text "Gahahah!"
 	done
 
 HikerBenjaminAfterBattleText:
-	text "Schaut man auf,"
-	line "in dieses überwäl-"
-	cont "tigend schöne Blau"
+	text "Losing feels in-"
+	line "significant if you"
 
-	para "des Himmels, dann"
-	line "verliert eine"
-	cont "Niederlage völlig"
-	cont "an Bedeutung!"
+	para "look up at the big"
+	line "sky!"
 	done
 
 PokemaniacShaneSeenText:
-	text "HEH!"
+	text "HEY!"
 
-	para "Das ist mein"
-	line "Geheimversteck!"
-	cont "Verschwinde, du"
-	cont "Außenseiter!"
+	para "This is my secret"
+	line "place! Get lost,"
+	cont "you outsider!"
 	done
 
 PokemaniacShaneBeatenText:
-	text "Ich hätte meinen"
-	line "MONDSTEIN benutzen"
-	cont "sollen…"
+	text "I should have used"
+	line "my MOON STONE…"
 	done
 
 PokemaniacShaneAfterBattleText:
-	text "Du erstellst einen"
-	line "#DEX?"
+	text "You're working on"
+	line "a #DEX?"
 
-	para "Wow, du kennst"
-	line "bestimmt einige"
-	cont "sehr seltene"
+	para "Wow, you must know"
+	line "some pretty rare"
 	cont "#MON!"
 
-	para "Darf ich bitte mal"
-	line "eines sehen?"
+	para "May I please see"
+	line "it. Please?"
 	done
 
 Route42Sign1Text:
 	text "ROUTE 42"
 
-	para "TEAK CITY -"
-	line "MAHAGONIA CITY"
+	para "ECRUTEAK CITY -"
+	line "MAHOGANY TOWN"
 	done
 
 MtMortarSign1Text:
-	text "KESSELBERG"
+	text "MT.MORTAR"
 
-	para "WASSERFALL-HÖHLE"
-	line "Geradeaus"
+	para "WATERFALL CAVE"
+	line "INSIDE"
 	done
 
 MtMortarSign2Text:
-	text "KESSELBERG"
+	text "MT.MORTAR"
 
-	para "WASSERFALL-HÖHLE"
-	line "Voraus"
+	para "WATERFALL CAVE"
+	line "INSIDE"
 	done
 
 Route42Sign2Text:
 	text "ROUTE 42"
 
-	para "TEAK CITY -"
-	line "MAHAGONIA CITY"
+	para "ECRUTEAK CITY -"
+	line "MAHOGANY TOWN"
 	done
 
 Route42_MapEvents:

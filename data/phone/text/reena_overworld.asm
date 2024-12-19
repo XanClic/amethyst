@@ -1,47 +1,45 @@
 ReenaAskNumber1Text:
-	text "Nicht übel…"
-	line "Mich zu schlagen,"
+	text "Not bad…"
+	line "It's something to"
 
-	para "dazu gehört schon"
-	line "was, auch wenn es"
-	cont "nur Dusel war…"
+	para "beat me, even by"
+	line "an unlikely fluke…"
 
-	para "Ich mag dich! Kann"
-	line "ich deine Nummer"
-	cont "haben?"
+	para "I like you! Give"
+	line "me your number!"
 
-	para "Du wirst mein"
-	line "Sparringspartner!"
+	para "You can be my"
+	line "practice partner!"
 	done
 
 ReenaAskNumber2Text:
-	text "Gib mir deine"
-	line "Telefonnummer!"
+	text "Give me your phone"
+	line "number!"
 
-	para "Du wirst mein"
-	line "zukünftiger"
-	cont "Sparringspartner!"
+	para "You are going to"
+	line "be my practice"
+	cont "partner!"
 	done
 
 ReenaNumberAcceptedText:
-	text "Sei nicht zu stolz"
-	line "auf deinen Sieg!"
+	text "Don't be too proud"
+	line "about beating me!"
 
-	para "Das war nur Dusel!"
+	para "It was a fluke!"
 	done
 
 ReenaNumberDeclinedText:
-	text "Das kann nicht"
-	line "sein! Das wirst du"
-	cont "noch bereuen!"
+	text "I don't believe"
+	line "it! You're going"
+	cont "to regret this!"
 	done
 
 ReenaPhoneFullText:
-	text "Was! Dein Nummern-"
-	line "speicher ist voll!"
+	text "What? Your phone"
+	line "list has no room!"
 	done
 
 ReenaRematchText:
-	text "Was hat dich auf-"
-	line "gehalten? Los!"
+	text "What took you?"
+	line "Start right away!"
 	done

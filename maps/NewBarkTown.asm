@@ -187,100 +187,96 @@ NewBarkTown_RivalReturnsToTheShadowsMovement:
 	step_end
 
 Text_GearIsImpressive:
-	text "Wow, dein #COM"
-	line "ist beeindruckend!"
+	text "Wow, your #GEAR"
+	line "is impressive!"
 
-	para "Hast du den von"
-	line "Mama bekommen?"
+	para "Did your mom get"
+	line "it for you?"
 	done
 
 Text_WaitPlayer:
-	text "Warte, <PLAY_G>!"
+	text "Wait, <PLAY_G>!"
 	done
 
 Text_WhatDoYouThinkYoureDoing:
-	text "Was hast du vor?"
+	text "What do you think"
+	line "you're doing?"
 	done
 
 Text_ItsDangerousToGoAlone:
-	text "Es ist gefährlich,"
-	line "ohne #MON das"
-	cont "Haus zu verlassen!"
+	text "It's dangerous to"
+	line "go out without a"
+	cont "#MON!"
 
-	para "Auf dem Weg zur"
-	line "nächsten Stadt"
+	para "Wild #MON"
+	line "jump out of the"
 
-	para "können jederzeit"
-	line "wilde #MON"
-
-	para "auftauchen."
+	para "grass on the way"
+	line "to the next town."
 	done
 
 Text_YourMonIsAdorable:
-	text "Oh! Dein #MON"
-	line "ist bezaubernd!"
-
-	para "Ich wünschte, ich"
-	line "hätte auch eines."
+	text "Oh! Your #MON"
+	line "is adorable!"
+	cont "I wish I had one!"
 	done
 
 Text_TellMomIfLeaving:
 	text "Hi, <PLAY_G>!"
-	line "Du gehst schon?"
+	line "Leaving again?"
 
-	para "Gib deiner Mama"
-	line "Bescheid, wenn du"
-	cont "gehst."
+	para "You should tell"
+	line "your mom if you"
+	cont "are leaving."
 	done
 
 Text_CallMomOnGear:
-	text "Ruf deine Mama mit"
-	line "dem #COM an,"
+	text "Call your mom on"
+	line "your #GEAR to"
 
-	para "damit sie weiß,"
-	line "was du machst."
+	para "let her know how"
+	line "you're doing."
 	done
 
 Text_ElmDiscoveredNewMon:
 	text "Yo, <PLAYER>!"
 
-	para "Ich habe gehört,"
-	line "PROF. LIND hat"
-	cont "neue #MON"
-	cont "entdeckt."
+	para "I hear PROF.ELM"
+	line "discovered some"
+	cont "new #MON."
 	done
 
 NewBarkTownRivalText1:
 	text "<……>"
 
-	para "Das ist also das"
-	line "berühmte LIND-"
-	cont "#MON-LABOR…"
+	para "So this is the"
+	line "famous ELM #MON"
+	cont "LAB…"
 	done
 
 NewBarkTownRivalText2:
-	text "…Was starrst du"
-	line "so?"
+	text "…What are you"
+	line "staring at?"
 	done
 
 NewBarkTownSignText:
-	text "NEUBORKIA"
+	text "NEW BARK TOWN"
 
-	para "Die Stadt, in der"
-	line "der Wind der Er-"
-	cont "neuerung weht"
+	para "The Town Where the"
+	line "Winds of a New"
+	cont "Beginning Blow"
 	done
 
 NewBarkTownPlayersHouseSignText:
-	text "Haus von <PLAYER>"
+	text "<PLAYER>'s House"
 	done
 
 NewBarkTownElmsLabSignText:
-	text "LIND-#MON-LABOR"
+	text "ELM #MON LAB"
 	done
 
 NewBarkTownElmsHouseSignText:
-	text "PROF. LINDs HAUS"
+	text "ELM'S HOUSE"
 	done
 
 NewBarkTown_MapEvents:

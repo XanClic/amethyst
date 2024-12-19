@@ -1,10 +1,10 @@
-	db "KRÖTE@" ; species name
-	dbw 10, 225 ; height, weight
+	db "TURTLE@" ; species name
+	dw 303, 500 ; height, weight
 
-	db   "Sein langer und"
-	next "buschiger Schwanz"
-	next "zeugt von Lang-"
+	db   "Its long, furry"
+	next "tail is a symbol"
+	next "of longevity,"
 
-	page "lebigkeit. Darum"
-	next "ist es bei alten"
-	next "Menschen beliebt.@"
+	page "making it quite"
+	next "popular among"
+	next "older people.@"

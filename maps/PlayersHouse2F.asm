@@ -93,26 +93,23 @@ PlayersHousePCScript:
 	end
 
 PlayersRadioText1:
-	text "PROF. EICHs #-"
-	line "MON-TALK! Schal-"
-	cont "ten Sie auch das"
-	cont "nächste Mal wieder"
-	cont "ein!"
+	text "PROF.OAK'S #MON"
+	line "TALK! Please tune"
+	cont "in next time!"
 	done
 
 PlayersRadioText2:
-	text "#MON-PROGRAMM!"
+	text "#MON CHANNEL!"
 	done
 
 PlayersRadioText3:
-	text "Hier ist DJ"
-	line "MARGIT, Ihr Co-"
-	cont "Moderator!"
+	text "This is DJ MARY,"
+	line "your co-host!"
 	done
 
 PlayersRadioText4:
 	text "#MON!"
-	line "#MON-PROGRAMM!"
+	line "#MON CHANNEL…"
 	done
 
 PlayersHouse2F_MapEvents:

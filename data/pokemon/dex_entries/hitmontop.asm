@@ -1,10 +1,10 @@
-	db "KOPFSTAND@" ; species name
-	dbw 14, 480 ; height, weight
+	db "HANDSTAND@" ; species name
+	dw 407, 1060 ; height, weight
 
-	db   "Nach einem Hand-"
-	next "stand, der das"
-	next "Timing des Gegners"
+	db   "After doing a"
+	next "handstand to"
+	next "throw off the"
 
-	page "stören soll, tritt"
-	next "es elegant um"
-	next "sich.@"
+	page "opponent's timing,"
+	next "it presents its"
+	next "fancy kick moves.@"

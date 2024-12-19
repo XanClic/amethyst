@@ -103,17 +103,12 @@ DisplayMoneyAndCoinBalance:
 	call PrintNum
 	ret
 
-if !DEF(_CRYSTAL_EU)
-MoneyString: db "MONEY@"
-CoinString:  db "COIN@"
-elif DEF(_CRYSTAL_DE)
-MoneyString: db "GELD@"
-CoinString:  db "MÜNZEN@"
-elif DEF(_CRYSTAL_ES)
-MoneyString: db "DIN.@"
-CoinString:  db "FICHAS@"
-endc
-ShowMoney_TerminatorString: db "@"
+MoneyString:
+	db "MONEY@"
+CoinString:
+	db "COIN@"
+ShowMoney_TerminatorString:
+	db "@"
 
 StartMenu_PrintSafariGameStatus: ; unreferenced
 	ld hl, wOptions
@@ -150,11 +145,7 @@ StartMenu_PrintSafariGameStatus: ; unreferenced
 StartMenu_DrawBugContestStatusBox:
 	hlcoord 0, 0
 	ld b, 5
-if !DEF(_CRYSTAL_EU)
 	ld c, 17
-else
-	ld c, 18
-endc
 	call Textbox
 	ret
 
@@ -167,11 +158,7 @@ StartMenu_PrintBugContestStatus:
 	hlcoord 1, 5
 	ld de, .BallsString
 	call PlaceString
-if !DEF(_CRYSTAL_ES)
 	hlcoord 8, 5
-else
-	hlcoord 7, 5
-endc
 	ld de, wParkBallsRemaining
 	lb bc, PRINTNUM_LEFTALIGN | 1, 2
 	call PrintNum
@@ -186,13 +173,7 @@ endc
 	call GetPokemonName
 
 .no_contest_mon
-if !DEF(_CRYSTAL_EU)
 	hlcoord 8, 1
-elif DEF(_CRYSTAL_DE)
-	hlcoord 9, 1
-elif DEF(_CRYSTAL_ES)
-	hlcoord 7, 1
-endc
 	call PlaceString
 	ld a, [wContestMon]
 	and a
@@ -214,23 +195,14 @@ endc
 
 .BallsJPString: ; unreferenced
 	db "ボール　　　こ@"
-
-if !DEF(_CRYSTAL_EU)
-.CaughtString: db "CAUGHT@"
-.BallsString:  db "BALLS:@"
-.NoneString:   db "None@"
-.LevelString:  db "LEVEL@"
-elif DEF(_CRYSTAL_DE)
-.CaughtString: db "BESITZ:@"
-.BallsString:  db "BÄLLE:@"
-.NoneString:   db "KEINE@"
-.LevelString:  db "LEVEL@"
-elif DEF(_CRYSTAL_ES)
-.CaughtString: db "ATR.:@"
-.BallsString:  db "BALL:@"
-.NoneString:   db "Ninguno@"
-.LevelString:  db "NIVEL@"
-endc
+.CaughtString:
+	db "CAUGHT@"
+.BallsString:
+	db "BALLS:@"
+.NoneString:
+	db "None@"
+.LevelString:
+	db "LEVEL@"
 
 FindApricornsInBag:
 ; Checks the bag for Apricorns.

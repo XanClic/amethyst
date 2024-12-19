@@ -1,10 +1,10 @@
-	db "BEUTELWURM@" ; species name
-	dbw 12, 1258 ; height, weight
+	db "BAGWORM@" ; species name
+	dw 311, 2770 ; height, weight
 
-	db   "Man findet es auf"
-	next "Baumstämmen. Re-"
-	next "gistriert es Bewe-"
+	db   "Usually found"
+	next "hanging on to a"
+	next "fat tree trunk. It"
 
-	page "gung, verschleu-"
-	next "dert es Teile"
-	next "seiner Schale.@"
+	page "shoots out bits of"
+	next "its shell when it"
+	next "sees action.@"

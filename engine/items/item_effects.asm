@@ -777,12 +777,9 @@ HeavyBallMultiplier:
 	jr nz, .SkipText
 
 	ld a, d
-if !DEF(_CRYSTAL_EU)
 	push bc
-endc
 	inc hl
 	inc hl
-if !DEF(_CRYSTAL_EU)
 	call GetFarWord
 
 	srl h
@@ -819,9 +816,6 @@ endr
 	ret
 
 .compare
-else
-	call GetFarByte
-endc
 	ld c, a
 	cp HIGH(1024) ; 102.4 kg
 	jr c, .lightmon
@@ -1221,25 +1215,11 @@ StatStrings:
 	dw .speed
 	dw .special
 
-if !DEF(_CRYSTAL_EU)
 .health  db "HEALTH@"
 .attack  db "ATTACK@"
 .defense db "DEFENSE@"
 .speed   db "SPEED@"
 .special db "SPECIAL@"
-elif DEF(_CRYSTAL_DE)
-.health  db "GESU@"
-.attack  db "ANGRIFF@"
-.defense db "VERT@"
-.speed   db "INIT@"
-.special db "SPEZIAL@"
-elif DEF(_CRYSTAL_ES)
-.health  db "SALUD@"
-.attack  db "ATAQUE@"
-.defense db "DEFENSA@"
-.speed   db "VELOCID.@"
-.special db "ESPECIAL@"
-endc
 
 GetStatExpRelativePointer:
 	ld a, [wCurItem]

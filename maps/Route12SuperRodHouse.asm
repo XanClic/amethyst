@@ -36,46 +36,44 @@ SuperRodHouseBookshelf: ; unreferenced
 	jumpstd PictureBookshelfScript
 
 OfferSuperRodText:
-	text "Ich bin der"
-	line "jüngere Bruder des"
-	cont "PROFI-ANGLERs."
+	text "I'm the FISHING"
+	line "GURU's younger"
+	cont "brother."
 
-	para "Wie ich sehe,"
-	line "macht dir Angeln"
+	para "I can see that you"
+	line "like fishing."
 
-	para "Spaß. Darüber gibt"
-	line "es keinen Zweifel!"
+	para "There's no doubt"
+	line "in my mind at all!"
 
-	para "Na? Das stimmt"
-	line "doch, oder?"
+	para "So? I know I'm"
+	line "right."
 	done
 
 GiveSuperRodText:
-	text "Jawohl! Genau, wie"
-	line "ich dachte!"
+	text "Yes, yes. Just as"
+	line "I thought!"
 
-	para "Hier, Angelfreak!"
-	line "Nimm dies - die"
-	cont "SUPERANGEL."
+	para "Here, fishing fan!"
+	line "Take this--it's a"
+	cont "SUPER ROD."
 	done
 
 GaveSuperRodText:
-	text "Wirf sie aus und"
-	line "angle, wo immer"
-	cont "es Wasser gibt."
+	text "Try your hand at"
+	line "fishing wherever"
+	cont "there is water."
 
-	para "Denk daran - du"
-	line "kannst mit ver-"
-	cont "schiedenen Angeln"
+	para "Remember--you can"
+	line "catch different"
 
-	para "auch verschiedene"
-	line "#MON fangen."
+	para "#MON using"
+	line "different RODS."
 	done
 
 DontWantSuperRodText:
-	text "Hä? Meine Augen"
-	line "haben mich"
-	cont "getäuscht."
+	text "Huh? My own eyes"
+	line "deceived me?"
 	done
 
 Route12SuperRodHouse_MapEvents:

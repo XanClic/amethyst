@@ -1,10 +1,10 @@
-	db "KLEINVOGEL@" ; species name
-	dbw 3, 18 ; height, weight
+	db "TINY BIRD@" ; species name
+	dw 100, 40 ; height, weight
 
-	db   "Es schlägt mit den"
-	next "Flügeln, um eine"
-	next "Staubwolke aufzu-"
+	db   "It rapidly flaps"
+	next "its wings in the"
+	next "grass, stirring up"
 
-	page "wirbeln, die In-"
-	next "sekten aus ihrem"
-	next "Versteck treibt.@"
+	page "a dust cloud that"
+	next "drives insect prey"
+	next "out into the open.@"

@@ -284,112 +284,102 @@ OlivinePortApproachFastShipAfterHOFRightMovement:
 	step_end
 
 OlivinePortSailorGetOnBoardText:
-	text "Wir legen bald"
-	line "ab! Geh an"
-	cont "Bord."
+	text "We're departing"
+	line "soon. Please get"
+	cont "on board."
 	done
 
 OlivinePortCantBoardText:
-	text "Du darfst jetzt"
-	line "nicht an Bord."
+	text "Sorry. You can't"
+	line "board now."
 	done
 
 OlivinePortAskBoardText:
-	text "Willkommen auf "
-	line "dem SCHNELLBOOT"
-	cont "M.S. AQUA."
+	text "Welcome to FAST"
+	line "SHIP S.S.AQUA."
 
-	para "Trittst du heute"
-	line "deine Reise an?"
+	para "Will you be board-"
+	line "ing today?"
 	done
 
 OlivinePortAskTicketText:
-	text "Zeige mir bitte"
-	line "dein"
-
-	para "BOOTSTICKET."
+	text "May I see your"
+	line "S.S.TICKET?"
 	done
 
 OlivinePortComeAgainText:
-	text "Komm jederzeit"
-	line "wieder vorbei!"
+	text "We hope to see you"
+	line "again!"
 	done
 
 OlivinePortFlashTicketText:
-	text "<PLAYER> zeigt"
-	line "das BOOTSTICKET."
+	text "<PLAYER> flashed"
+	line "the S.S.TICKET."
 
-	para "In Ordnung."
-	line "Danke schön!"
+	para "That's it."
+	line "Thank you!"
 	done
 
 OlivinePortNoTicketText:
-	text "<PLAYER> sucht"
-	line "das BOOTS-"
+	text "<PLAYER> tried to"
+	line "show the S.S."
 	cont "TICKET…"
 
-	para "…Kein TICKET!"
+	para "…But no TICKET!"
 
-	para "Tut mir Leid!"
-	line "Du darfst nur"
+	para "Sorry!"
+	line "You may board only"
 
-	para "mit TICKET"
-	line "an Bord."
+	para "if you have an"
+	line "S.S.TICKET."
 	done
 
 OlivinePortMondayShipText:
-	text "Das SCHNELLBOOT"
-	line "legt nächsten"
-	cont "Montag ab."
+	text "The FAST SHIP will"
+	line "sail next Monday."
 	done
 
 OlivinePortFridayShipText:
-	text "Das SCHNELLBOOT"
-	line "legt nächsten"
-	cont "Freitag ab."
+	text "The FAST SHIP will"
+	line "sail next Friday."
 	done
 
 OlivinePortFishingGuru1Text:
-	text "Hier kannst du"
-	line "MUSCHAS leicht"
+	text "SHELLDER are easy"
+	line "to catch here."
 
-	para "fangen. An anderen"
-	line "Orten sind sie"
-	cont "seltener."
+	para "They're kind of"
+	line "rare elsewhere."
 	done
 
 OlivinePortFishingGuru2Text:
-	text "Wie viele ANGELN"
-	line "hast du?"
+	text "How many RODS do"
+	line "you have?"
 
-	para "Mit verschiedenen"
-	line "ANGELN, fängst du"
-	cont "verschiedene"
+	para "Different RODS"
+	line "catch different"
 	cont "#MON."
 	done
 
 OlivinePortYoungsterText:
-	text "M.S. AQUA benutzt"
-	line "Spezialdüsen,"
-	cont "um über die Wellen"
-	cont "zu gleiten!"
+	text "S.S.AQUA uses jets"
+	line "to skim over the"
+	cont "waves!"
 	done
 
 OlivinePortCooltrainerFText:
-	text "In KANTO gibt es"
-	line "viele #MON."
+	text "There are lots of"
+	line "#MON in KANTO."
 
-	para "Ich wünschte, ich"
-	line "könnte dorthin…"
+	para "I wish I could go…"
 	done
 
 OlivinePortSailorBeforeHOFText:
-	text "Wir wollen nicht,"
-	line "dass du ins Wasser"
+	text "We don't want you"
+	line "to fall into the"
 
-	para "fällst. Darum"
-	line "lassen wir dich"
-	cont "nicht herein."
+	para "sea, so you're not"
+	line "allowed in."
 	done
 
 OlivinePort_MapEvents:

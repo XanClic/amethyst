@@ -227,74 +227,73 @@ VermilionPortApproachFastShipRightMovement:
 	step_end
 
 VermilionPortDepartingText:
-	text "Wir legen bald ab."
-	line "Komm bitte"
-	cont "an Bord."
+	text "We're departing"
+	line "soon. Please get"
+	cont "on board."
 	done
 
 VermilionPortCantBoardText:
-	text "Du kannst jetzt"
-	line "nicht an Bord."
+	text "Sorry. You can't"
+	line "board now."
 	done
 
 VermilionPortAskBoardingText:
-	text "Willkommen auf "
-	line "dem SCHNELLBOOT"
-	cont "M.S. AQUA."
+	text "Welcome to FAST"
+	line "SHIP S.S.AQUA."
 
-	para "Trittst du heute"
-	line "deine Reise an?"
+	para "Will you be board-"
+	line "ing today?"
 	done
 
 VermilionPortAskTicketText:
-	text "Zeige mir bitte"
-	line "dein BOOTSTICKET!"
+	text "May I see your"
+	line "S.S.TICKET?"
 	done
 
 VermilionPortComeAgainText:
-	text "Komm jederzeit"
-	line "wieder vorbei!"
+	text "We hope to see you"
+	line "again!"
 	done
 
 VermilionPortSSTicketText:
-	text "<PLAYER> zeigt"
-	line "das BOOTSTICKET."
+	text "<PLAYER> flashed"
+	line "the S.S.TICKET."
 
-	para "In Ordnung."
-	line "Dankeschön!"
+	para "That's it."
+	line "Thank you!"
 	done
 
 VermilionPortNoTicketText:
-	text "<PLAYER> sucht"
-	line "das BOOTS-"
+	text "<PLAYER> tried to"
+	line "show the S.S."
 	cont "TICKET…"
 
-	para "…Kein TICKET!"
+	para "…But no TICKET!"
 
-	para "Tut mir Leid!"
-	line "Du darfst nur"
+	para "Sorry!"
+	line "You may board only"
 
-	para "mit TICKET"
-	line "an Bord."
+	para "if you have an"
+	line "S.S.TICKET."
 	done
 
 VermilionPortSailWednesdayText:
-	text "Wir legen nächsten"
-	line "Mittwoch ab."
+	text "The FAST SHIP will"
+	line "sail on Wednesday."
 	done
 
 VermilionPortSailSundayText:
-	text "Wir legen nächsten"
-	line "Sonntag ab."
+	text "The FAST SHIP will"
+	line "sail next Sunday."
 	done
 
 VermilionPortSuperNerdText:
-	text "Du kommst aus"
+	text "You came from"
 	line "JOHTO?"
 
-	para "Dort sollen viele"
-	line "seltene #MON"
-	cont "leben."
+	para "I hear many rare"
+	line "#MON live over"
+	cont "there."
 	done
 
 VermilionPort_MapEvents:

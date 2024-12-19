@@ -1,10 +1,10 @@
 	db "TRANSFORM@" ; species name
-	dbw 3, 40 ; height, weight
+	dw 100, 90 ; height, weight
 
-	db   "Trifft es auf ein"
-	next "anderes DITTO, be-"
-	next "wegt es sich"
+	db   "When it encount-"
+	next "ers another DITTO,"
+	next "it will move"
 
-	page "schneller als"
-	next "gewöhnlich, um es"
-	next "exakt nachzuahmen.@"
+	page "faster than normal"
+	next "to duplicate that"
+	next "opponent exactly.@"

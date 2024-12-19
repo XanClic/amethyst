@@ -1,96 +1,97 @@
 AlanGettingStrongerText:
-	text "Mein @"
+	text "My @"
 	text_ram wStringBuffer4
-	text_start
-	line "wird immer stär-"
-	cont "ker, womit ich"
-	cont "gerechnet habe!"
+	text "'s"
+	line "getting stronger,"
+
+	para "exactly as I"
+	line "calculated!"
 	done
 
 AlanDefeatedMonText:
-	text "Apropos, wir"
-	line "besiegten neulich"
+	text "By the way, we"
+	line "knocked out a wild"
 
-	para "ein wildes"
-	line "@"
+	para "@"
 	text_ram wStringBuffer4
-	text "."
+	text " just"
+	line "the other day."
 
-	para "Die richtige Vor-"
-	line "bereitung lohnt!"
+	para "Studying up in"
+	line "advance worked!"
 	done
 
 AlanLostAMonText:
-	text "Übrigens, gestern"
-	line "entkam mir ein"
-	cont "wildes @"
+	text "By the way, a wild"
+	line "@"
 	text_ram wStringBuffer4
-	text "."
+	text " escaped"
+	cont "on me yesterday."
 
-	para "Ein Berechnungs-"
-	line "fehler von mir…"
+	para "A computational"
+	line "error on my part…"
 	done
 
 AlanBattleRematchText:
-	text "Ich habe seitdem"
-	line "einiges gelernt"
+	text "I've studied quite"
+	line "a bit since then,"
 
-	para "und ich wurde viel"
-	line "besser!"
+	para "and I've gotten a"
+	line "lot better!"
 
-	para "Ich bin hier:"
+	para "I'm hanging out on"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "Schau doch auf ei-"
-	line "nen Kampf vorbei?"
+	para "Can you come down"
+	line "for a battle?"
 	done
 
 AlanHangUpText:
-	text "Bis später!"
+	text "See you later!"
 	done
 
 AlanFoundItemText:
-	text "Hehehe, ich fand"
-	line "etwas Schönes!"
+	text "Hehehe, I picked"
+	line "up something nice!"
 
-	para "Es gehört dir!"
-	line "Hole es dir hier:"
-	cont "@"
+	para "You can have it!"
+	line "Why don't you come"
+
+	para "to @"
 	text_ram wStringBuffer5
-	text_end
-
-	text_end ; unused
+	text_start
+	line "and pick it up?"
+	done
 
 AlanHaventPickedUpAnythingText:
-	text "Ich habe noch"
-	line "nichts gefunden."
+	text "I haven't picked"
+	line "up anything yet."
 
-	para "Ich rufe an, wenn"
-	line "ich etwas finde."
+	para "I'll call you if I"
+	line "find something."
 	done
 
 AlanReminderText:
-	text "Falls wir nicht"
-	line "bald kämpfen, ver-"
-	cont "gesse ich meine"
-	cont "Strategie!"
+	text "If we don't battle"
+	line "soon, I'll forget"
+	cont "my strategy!"
 
-	para "Ich warte hier:"
+	para "I'm waiting on"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 AlanComePickUpGiftText:
-	text "Ich muss meine"
-	line "Hausaufgaben"
+	text "I have to do my"
+	line "homework, so can"
 
-	para "machen, kannst du"
-	line "gleich herkommen?"
+	para "you come get your"
+	line "gift right away?"
 
-	para "Ich warte hier:"
+	para "I'm waiting on"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"

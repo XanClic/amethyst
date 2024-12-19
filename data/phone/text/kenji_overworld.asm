@@ -1,69 +1,67 @@
 KenjiAskNumber1Text:
-	text "Unser Kampf war"
-	line "großartig!"
+	text "Our battle was"
+	line "remarkable!"
 
-	para "Ich möchte ein"
-	line "Andenken an dich!"
+	para "I wish for some-"
+	line "thing to remember"
+	cont "you by!"
 
-	para "Deine Telefonnum-"
-	line "mer würde genügen!"
+	para "Perhaps your phone"
+	line "number will do?"
 
-	para "Mein intensives"
-	line "Training lässt mir"
-	cont "nur wenig Zeit zum"
-	cont "Plaudern, aber…"
+	para "My training makes"
+	line "it impossible to"
+	cont "chat much, but…"
 	done
 
 KenjiAskNumber2Text:
-	text "Mein Training er-"
-	line "laubt mir kein"
+	text "My training makes"
+	line "chatting tough,"
 
-	para "Telefonieren, aber"
-	line "nimm meine Nummer."
+	para "but will you take"
+	line "down my number?"
 	done
 
 KenjiNumberAcceptedText:
-	text "Ich muss härter"
-	line "trainieren, um"
-	cont "der Beste zu"
-	cont "werden!"
+	text "I must train"
+	line "harder to become"
+	cont "the mightiest!"
 	done
 
 KenjiNumberDeclinedText:
-	text "Wenn du meine"
-	line "Nummer möchtest,"
-	cont "komm wieder."
+	text "If you decide you"
+	line "want my number,"
+	cont "come see me."
 	done
 
 KenjiPhoneFullText:
-	text "Dein Nummern-"
-	line "speicher ist voll."
+	text "Your phone appears"
+	line "to be full."
 
-	para "Komm später"
-	line "wieder!"
+	para "Come back later!"
 	done
 
 KenjiGiftText:
-	text "Ich möchte dir"
-	line "danken, <PLAYER>!"
+	text "I wish to thank"
+	line "you, <PLAYER>!"
 
-	para "Ich habe stets"
-	line "alleine trainiert…"
+	para "I've been training"
+	line "all alone…"
 
-	para "Ich war froh, dass"
-	line "du angerufen hast…"
+	para "I was happy that"
+	line "you cared to call…"
 
-	para "Ich möchte dir das"
-	line "überreichen!"
+	para "I want you to have"
+	line "this!"
 	done
 
 KenjiPackFullText:
-	text "Deine Kraft reicht"
-	line "nicht aus, noch"
+	text "Your strength will"
+	line "not let you carry"
 
-	para "mehr zu tragen!"
-	line "Ich bewahre das"
+	para "another thing!"
+	line "I will hold this"
 
-	para "auf, bis dein"
-	line "BEUTEL leerer ist!"
+	para "till you lighten"
+	line "your PACK!"
 	done

@@ -1,11 +1,11 @@
-	db "BETREUER@" ; species name
-	dbw 14, 110 ; height, weight
+	db "CARETAKER@" ; species name
+	dw 407, 2400 ; height, weight
 
 	;  "| ----------------- |"
-	db   "Ohne GROLLDRA auf"
-	next "dem Kopf wird es"
-	next "nervös und ver-"
+	db   "Without DREEPY on"
+	next "its head, it gets"
+	next "nervous and tries"
 
-	page "sucht sich andere"
-	next "#MON auf seinen"
-	next "Kopf zu setzen.@"
+	page "to snatch other"
+	next "#MON to put on"
+	next "its head.@"

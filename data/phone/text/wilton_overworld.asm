@@ -1,63 +1,61 @@
 WiltonAskNumber1Text:
-	text "Ich denke, unser"
-	line "Kampf war klasse…"
+	text "Eh, our battle was"
+	line "fun, I'd say…"
 
-	para "Beim Angeln finde"
-	line "ich oft Items, die"
+	para "When I'm fishing,"
+	line "I sometimes snag"
 
-	para "einfach weg-"
-	line "geworfen wurden."
+	para "items that people"
+	line "have dropped."
 
-	para "Möchtest du sie?"
-	line "Gib mir deine"
-	cont "Nummer."
+	para "Do you want them?"
+	line "What's the number?"
 	done
 
 WiltonAskNumber2Text:
-	text "Finde ich beim"
-	line "Angeln ein Item,"
+	text "If I snag an item"
+	line "while I'm fishing,"
 
-	para "gehört es dir. Gib"
-	line "mir deine Nummer?"
+	para "it's yours. What's"
+	line "your number?"
 	done
 
 WiltonNumberAcceptedText:
-	text "Ich melde mich,"
-	line "falls ich etwas"
-	cont "finde."
+	text "If I snag anything"
+	line "good, I'll be sure"
+	cont "to let you know."
 	done
 
 WiltonNumberDeclinedText:
-	text "Gut… Komme wieder,"
-	line "wenn du anders"
-	cont "darüber denkst."
+	text "All right… Come"
+	line "back if you have a"
+	cont "change of heart."
 	done
 
 WiltonPhoneFullText:
-	text "Dein Nummern-"
-	line "speicher ist voll."
+	text "You can't register"
+	line "another number."
 	done
 
 WiltonRematchText:
-	text "Uah! Wegen dir ist"
-	line "QUAPSEL schon"
-	cont "wieder geflohen!"
+	text "Argh! You startled"
+	line "POLIWAG into"
+	cont "fleeing again!"
 	done
 
 WiltonGiftText:
-	text "Ah, da bist du ja."
+	text "So here you are."
 
-	para "Siehst du das?"
-	line "Ich habe es vor"
+	para "See this?"
+	line "I snagged it just"
 
-	para "kurzem geangelt."
-	line "Es gehört dir."
+	para "a little while"
+	line "ago. It's yours."
 	done
 
 WiltonPackFullText:
-	text "Dein BEUTEL ist"
-	line "voll?"
+	text "Your PACK's full?"
 
-	para "Ich gebe es dir"
-	line "später."
+	para "I'll give it to"
+	line "you later."
 	done

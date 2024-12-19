@@ -1,10 +1,10 @@
-	db "HADES@" ; species name
-	dbw 14, 350 ; height, weight
+	db "DARK@" ; species name
+	dw 407, 770 ; height, weight
 
-	db   "Der stechende"
-	next "Gestank seiner"
-	next "Flamme, die seinem"
+	db   "The pungent-"
+	next "smelling flame"
+	next "that shoots from"
 
-	page "Maul entspringt,"
-	next "kommt von dem Gift"
-	next "in seinem Körper.@"
+	page "its mouth results"
+	next "from toxins burn-"
+	next "ing in its body.@"

@@ -1,308 +1,289 @@
 IrwinHangUpText:
-	text "Ich hasse es,"
-	line "bei dir auflegen"
-	cont "zu müssen!"
+	text "I hate having to"
+	line "hang up on you!"
 
-	para "Bis später!"
+	para "Call you later!"
 	done
 
 IrwinRocketTakeoverRumorText:
-	text "<PLAY_G>, hast"
-	line "du gehört?"
+	text "<PLAY_G>, have you"
+	line "heard?"
 
-	para "Der RADIOTURM von"
-	line "DUKATIA CITY wurde"
+	para "GOLDENROD's RADIO"
+	line "TOWER has been"
 
-	para "von TEAM ROCKET"
-	line "annektiert!"
+	para "taken over by TEAM"
+	line "ROCKET!"
 
-	para "…Ähm… Was ist"
-	line "TEAM ROCKET?"
+	para "…Um… What's TEAM"
+	line "ROCKET?"
 	done
 
 IrwinPlainBadgeGossipText:
-	text "<PLAY_G>, ich"
-	line "hörte davon!"
+	text "<PLAY_G>, I heard!"
 
-	para "Du hast BIANKA"
-	line "besiegt?"
+	para "You defeated that"
+	line "WHITNEY?"
 
-	para "Ich bin stolz,"
-	line "dein Freund zu"
-	cont "sein!"
+	para "It makes me proud"
+	line "to be your friend!"
 	done
 
 IrwinJasmineReturnedGossipText:
-	text "Heh, ich hörte von"
-	line "dir!"
+	text "Hey, I heard about"
+	line "you!"
 
-	para "Du hast das #-"
-	line "MON im LEUCHTTURM"
+	para "You saved that"
+	line "#MON at the"
 
-	para "gerettet, nicht"
-	line "wahr?"
+	para "LIGHTHOUSE, didn't"
+	line "you?"
 
-	para "<PLAY_G>, ich"
-	line "wünschte du wür-"
-	cont "dest mich be-"
-	cont "suchen, wenn ich"
+	para "<PLAY_G>, I wish"
+	line "you'd come see me"
 
-	para "mit einer Er-"
-	line "kältung im Bett"
-	cont "liege!"
+	para "when I'm sick in"
+	line "bed with a cold!"
 	done
 
 IrwinRocketHideoutGossipText:
-	text "Ich hörte, ich"
-	line "hörte, ich hörte!"
+	text "I heard, I heard,"
+	line "I heard!"
 
-	para "Du hast TEAM"
-	line "ROCKETs-Versteck"
-	cont "ausgehoben!"
+	para "You smashed TEAM"
+	line "ROCKET's hideout!"
 
-	para "Du bist ein Film-"
-	line "star, genau!"
+	para "You're like a"
+	line "movie hero, even!"
 
-	para "Aber äh… Was war"
+	para "But um… What was"
 	line "TEAM ROCKET?"
 	done
 
 IrwinRadioTowerGossipText:
-	text "Ich hörte, ich"
-	line "hörte, ich hörte!"
+	text "I heard, I heard,"
+	line "I heard!"
 
-	para "Von deiner helden-"
-	line "haften Befreiung"
+	para "About your heroic"
+	line "liberation of the"
 
-	para "des RADIOTURMs! Du"
-	line "bist klasse!"
+	para "RADIO TOWER! You"
+	line "rock so hard!"
 	done
 
 IrwinRisingBadgeGossipText:
-	text "Ich sah, ich sah…"
+	text "I saw, I saw!"
 
-	para "Ich sah, wie du in"
-	line "die DRACHENHÖHLE"
-	cont "gingst!"
+	para "I saw you go into"
+	line "the DRAGON'S DEN!"
 
-	para "Ich bin sicher, du"
-	line "hast bestanden!"
+	para "I'm certain you"
+	line "passed! Aww, no"
 
-	para "Nur keine falsche"
-	line "Bescheidenheit! Du"
-
-	para "kannst nicht"
-	line "scheitern!"
+	para "need to be modest!"
+	line "You can't fail!"
 	done
 
 IrwinEliteFourGossipText:
-	text "Gestern ging ich"
-	line "nach NEUBORKIA."
+	text "Yesterday, I went"
+	line "out to NEW BARK"
 
-	para "Ich sah eine Dame,"
-	line "die dir sehr ähn-"
-	cont "lich sah,"
-	cont "<PLAY_G>."
+	para "TOWN.  There was a"
+	line "lady who looked a"
 
-	para "Was? Die Dame war"
-	line "deine Mama?"
+	para "lot like you,"
+	line "<PLAY_G>."
 
-	para "Ah, ich hätte mich"
-	line "vorstellen sollen!"
+	para "What? That lady"
+	line "was your mom?"
 
-	para "Ich wette, deine"
-	line "Mama ist sehr"
+	para "Aww, I should've"
+	line "introduced myself!"
 
-	para "stolz auf dich,"
-	line "nachdem, was du"
-	cont "erreicht hast."
+	para "I bet your mom's"
+	line "really proud of"
 
-	para "Anders gesagt,"
-	line "ich wäre stolz,"
+	para "all that you've"
+	line "accomplished."
 
-	para "wenn ich deine"
-	line "Mama wäre!"
+	para "Heh, put it this"
+	line "way. I'd be proud"
+
+	para "if I were your"
+	line "mom, believe me!"
 	done
 
 IrwinVermilionCityGossipText:
-	text "Ich sah, ich sah"
-	line "ich sah…"
+	text "I saw, I saw,"
+	line "I saw!"
 
-	para "Du bist an Bord"
-	line "eines Schiffes ge-"
-	cont "gangen, <PLAY_G>!"
+	para "You striding onto"
+	line "a ship, <PLAY_G>!"
 
-	para "Ich kann nicht"
-	line "genug von deinem"
+	para "I can't get over"
+	line "how good you look"
 
-	para "Anblick mit dem"
-	line "Meer im Hinter-"
-	cont "grund bekommen, so"
-	cont "gut sieht das aus!"
+	para "with the sea as"
+	line "your backdrop!"
 	done
 
 IrwinTrainPassGossipText:
-	text "Ich hörte!"
+	text "I heard, I heard!"
 
-	para "Du hast einen"
-	line "FAHRSCHEIN für"
-	cont "den MAGNETZUG!"
+	para "You got a MAGNET"
+	line "TRAIN PASS!"
 
-	para "Als ich dich an"
-	line "Bord gehen sah,"
+	para "When I saw you"
+	line "departing on the"
 
-	para "war ich traurig,"
-	line "dass ich dich eine"
+	para "ship, I felt sad"
+	line "that I wouldn't be"
 
-	para "Weile nicht sehen"
-	line "würde."
+	para "able to see you"
+	line "for a while."
 
-	para "Aber da du den"
-	line "FAHRSCHEIN hast,"
+	para "But since you have"
+	line "that PASS, you can"
 
-	para "kannst du jeder-"
-	line "zeit zurückkommen!"
-	cont "Ein tolles Gefühl!"
+	para "zip back anytime!"
+	line "That's reassuring!"
 
-	para "Was? Du kannst"
-	line "jederzeit zurück-"
-	cont "FLIEGEN?"
+	para "What? You can FLY"
+	line "back anytime?"
 
-	para "Was meinst du mit"
-	line "FLIEGEN?"
+	para "What do you mean"
+	line "by FLY?"
 	done
 
 IrwinSnorlaxGossipText:
-	text "Ich sah, ich sah…"
+	text "I saw, I saw!"
 
-	para "Du hast RELAXO"
-	line "geweckt!"
+	para "You waking up"
+	line "SNORLAX!"
 
-	para "Ich habe dich aus"
-	line "der Ferne beo-"
-	cont "bachtet, daher"
-	cont "weiß ich nicht,"
-	cont "was du getan hast."
+	para "I was watching you"
+	line "from afar, so I"
 
-	para "Hast du eine Flöte"
-	line "gespielt, um es"
-	cont "aufzuwecken?"
+	para "couldn't tell what"
+	line "you did exactly."
 
-	para "Wow! Das muss"
-	line "Magie sein!"
+	para "Did you play a"
+	line "flute to wake it?"
+
+	para "Wow! That's like"
+	line "magic!"
 	done
 
 IrwinMtSilverGossipText:
-	text "Ich hörte überall"
-	line "Gerüchte über"
-	cont "dich."
+	text "I hear rumors"
+	line "about you all over"
+	cont "the place."
 
-	para "Sie entlockten mir"
-	line "ein Seufzen, "
-	cont "<PLAY_G>."
+	para "It just makes me"
+	line "sigh, <PLAY_G>."
 
-	para "Wie wurdest du so"
-	line "stark?"
+	para "How did you get so"
+	line "strong?"
 
-	para "Greife nach der"
-	line "Weltmeisterschaft!"
+	para "Go for the world"
+	line "championship now!"
 
-	para "Ich werde dich"
-	line "immer anfeuern!"
+	para "I'll always be"
+	line "cheering you on!"
 	done
 
 IrwinCalledRightAwayText:
-	text "Hehe, ich habe"
-	line "gleich angerufen!"
+	text "Hehe, I called"
+	line "right away!"
 
-	para "Ich denke, wir"
-	line "werden sehr gute"
-	cont "Kameraden!"
+	para "I think we can be"
+	line "good friends!"
 	done
 
 IrwinFogBadgeGossipText:
-	text "Ich sah, ich sah…"
+	text "I saw, I heard!"
 
-	para "Du hast SOPHIE,"
-	line "die ARENALEITERIN"
-	cont "von TEAK CITY"
+	para "You beat SOPHIE of"
+	line "ECRUTEAK GYM!"
 
-	para "besiegt!"
-	line "Das ist unfassbar!"
+	para "Th-that's just"
+	line "incredible!"
 
-	para "Ich bin zur PKMN-"
-	line "ARENA gegangen, um"
+	para "I actually went to"
+	line "the GYM's entrance"
 
-	para "dich anzufeuern."
-	line "Wusstest du das?"
+	para "to cheer you on."
+	line "Did you know that?"
 
-	para "Aber alle schweb-"
-	line "ten und überall"
+	para "But everyone was"
+	line "floating, and"
 
-	para "waren Geister!"
-	line "Also bin ich ver-"
-	cont "duftet und nach"
-	cont "Hause gegangen…"
+	para "there were ghosts"
+	line "all over! So I"
+
+	para "chickened out and"
+	line "took off for home…"
 	done
 
 IrwinMarshBadgeGossipText:
-	text "<PLAY_G>, ich weiß!"
+	text "<PLAY_G>, I heard!"
 
-	para "Du hast ganz schön"
-	line "für Aufregung ge-"
-	cont "sorgt in KANTO!"
+	para "You're kicking up"
+	line "a mighty ruckus"
 
-	para "Du hast recht viel"
-	line "Staub aufgewir-"
-	cont "belt!"
+	para "over in KANTO!"
+	line "What a glorious"
 
-	para "Du bist gut!"
+	para "rampage it must"
+	line "be!"
+
+	para "You so rock!"
 	done
 
 IrwinYourEscapadesRockText:
-	text "Als ich deine"
-	line "Geschichten hörte,"
+	text "Hearing about your"
+	line "escapades rocks my"
 
-	para "weinte meine"
-	line "Seele! Wirklich!"
+	para "soul!"
+	line "It sure does!"
 	done
 
 IrwinGoodMatchText:
-	text "Ich bin froh, dass"
-	line "du anrufst!"
+	text "I'm so glad you"
+	line "called!"
 
-	para "Ich wollte dich"
-	line "auch gerade an-"
-	cont "rufen! Wir passen"
-	cont "gut zusammen!"
+	para "I was just about"
+	line "to call you too!"
+
+	para "I guess we must be"
+	line "a good match!"
 	done
 
 IrwinSoMuchToChatAboutText:
-	text "Wie geht es dir?"
+	text "How are you?"
 
-	para "Was machst du"
-	line "gerade?"
+	para "What are you"
+	line "doing?"
 
-	para "Wo bist du?"
+	para "Where are you?"
 
-	para "Wie viele ORDEN"
-	line "hast du jetzt?"
+	para "How many BADGES do"
+	line "you have now?"
 
-	para "Wie viel Geld hast"
-	line "du gespart?"
+	para "How much money"
+	line "have you saved?"
 
-	para "Wie geht es deiner"
-	line "Mama?"
+	para "How's your mom?"
 
-	para "Hast du viele"
-	line "#MON?"
+	para "Have you got lots"
+	line "of #MON?"
 
-	para "Scheint morgen die"
-	line "Sonne?"
+	para "Is it going to be"
+	line "sunny tomorrow?"
 
-	para "Arrgh, es gibt so"
-	line "viel, über das ich"
+	para "Arrgh, there's so"
+	line "much I want to"
 
-	para "reden möchte! Das"
-	line "führt zu nichts!"
+	para "chat about! This"
+	line "is going nowhere!"
 	done

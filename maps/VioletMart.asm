@@ -21,34 +21,29 @@ VioletMartCooltrainerMScript:
 	jumptextfaceplayer VioletMartCooltrainerMText
 
 VioletMartGrannyText:
-	text "Fängst du ein"
-	line "#MON, ist es"
-	cont "vermutlich sehr"
-	cont "schwach."
+	text "When you first"
+	line "catch a #MON,"
+	cont "it may be weak."
 
-	para "Aber letztendlich"
-	line "wird es wachsen"
-	cont "und stärker"
-	cont "werden."
+	para "But it will even-"
+	line "tually grow to be"
+	cont "strong."
 
-	para "Es ist wichtig,"
-	line "#MON sehr viel"
-	cont "Liebe zu schenken."
+	para "It's important to"
+	line "treat #MON with"
+	cont "love."
 	done
 
 VioletMartCooltrainerMText:
-	text "#MON können"
-	line "Items wie TRANK"
-	cont "und GEGENGIFT"
-	cont "tragen."
+	text "#MON can hold"
+	line "items like POTION"
+	cont "and ANTIDOTE."
 
-	para "Aber offenbar sind"
-	line "sie nicht in der"
+	para "But they don't"
+	line "appear to know how"
 
-	para "Lage, künstlich"
-	line "hergestellte Items"
-
-	para "zu benutzen."
+	para "to use manmade"
+	line "items."
 	done
 
 VioletMart_MapEvents:

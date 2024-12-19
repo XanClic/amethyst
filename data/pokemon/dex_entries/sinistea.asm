@@ -1,11 +1,11 @@
-	db "SCHWARZTEE@" ; species name
-	dbw 1, 2 ; height, weight
+	db "BLACK TEA@" ; species name
+	dw 4, 100 ; height, weight
 
 	;  "| ----------------- |"
-	db   "Es heißt, eine"
-	next "einsame Seele"
-	next "habe Besitz von"
+	db   "This #MON is"
+	next "said to have been"
+	next "born by a lonely"
 
-	page "einer abgestell-"
-	next "ten kalten Tasse"
-	next "Tee ergriffen.@"
+	page "soul possessing a"
+	next "cold forgotten"
+	next "cup of tea.@"

@@ -191,31 +191,29 @@ BridgetWalksAwayMovement:
 	step_end
 
 WhitneyBeforeText:
-	text "Ich bin BIANKA!"
+	text "Hi! I'm WHITNEY!"
 
-	para "Jeder hat sich für"
-	line "#MON inte-"
-	cont "ressiert, also"
-	cont "musste ich mit-"
-	cont "machen!"
+	para "Everyone was into"
+	line "#MON, so I got"
+	cont "into it too!"
 
-	para "#MON sind"
-	line "superniedlich!"
+	para "#MON are"
+	line "super-cute!"
 
-	para "Willst du kämpfen?"
-	line "Sei gewarnt, ich"
-	cont "bin gut!"
+	para "You want to bat-"
+	line "tle? I'm warning"
+	cont "you--I'm good!"
 	done
 
 WhitneyShouldntBeSoSeriousText:
-	text "Schluchz…"
+	text "Sob…"
 
 	para "…Waaaaaaah!"
-	line "Du bist gemein!"
+	line "You're mean!"
 
-	para "Du solltest nicht"
-	line "so ernst sein! Du,"
-	cont "du Kind, du!"
+	para "You shouldn't be"
+	line "so serious! You…"
+	cont "you child, you!"
 	done
 
 WhitneyYouMeanieText:
@@ -223,202 +221,180 @@ WhitneyYouMeanieText:
 
 	para "Waaaaah!"
 
-	para "…Schnüff, japs…"
-	line "…Du bist gemein!"
+	para "…Snivel, hic…"
+	line "…You meanie!"
 	done
 
 WhitneyWhatDoYouWantText:
-	text "…Schnüff…"
+	text "…Sniff…"
 
-	para "Was? Was willst"
-	line "du? Einen ORDEN?"
+	para "What? What do you"
+	line "want? A BADGE?"
 
-	para "Oh, stimmt, ich"
-	line "vergaß. Hier ist"
-	cont "der BASISORDEN."
+	para "Oh, right."
+	line "I forgot. Here's"
+	cont "PLAINBADGE."
 	done
 
 PlayerReceivedPlainBadgeText:
-	text "<PLAYER> erhält"
-	line "BASISORDEN."
+	text "<PLAYER> received"
+	line "PLAINBADGE."
 	done
 
 WhitneyPlainBadgeText:
-	text "Mit Hilfe des BA-"
-	line "SISORDENs können"
+	text "PLAINBADGE lets"
+	line "your #MON use"
 
-	para "deine #MON"
-	line "STÄRKE auch außer-"
-	cont "halb eines Kampfes"
-	cont "einsetzen."
+	para "STRENGTH outside"
+	line "of battle."
 
-	para "Außerdem erhöht er"
-	line "die INIT deiner"
-	cont "#MON."
+	para "It also boosts"
+	line "your #MON's"
+	cont "SPEED."
 
-	para "Oh, das hier"
-	line "kannst du auch"
-	cont "haben!"
+	para "Oh, you can have"
+	line "this too!"
 	done
 
 WhitneyAttractText:
-	text "Es ist ANZIEHUNG!"
-	line "Es bringt den"
+	text "It's ATTRACT!"
+	line "It makes full use"
 
-	para "Charme eines"
-	line "#MON voll zur"
-	cont "Geltung."
+	para "of a #MON's"
+	line "charm."
 
-	para "Passt das nicht"
-	line "perfekt zu einem"
-	cont "süßen Ding wie"
-	cont "mir?"
+	para "Isn't it just per-"
+	line "fect for a cutie"
+	cont "like me?"
 	done
 
 WhitneyPolkadotBowText:
-	text "Ach, und das hier"
-	line "habe ich mir mal"
+	text "Ah, also, I got"
+	line "this from some-"
+	cont "where, but it"
 
-	para "geholt, aber ir-"
-	line "gendwie passt es"
-	cont "gar nicht zu mir…"
+	para "actually doesn't"
+	line "really suit me…"
 
-	para "Vielleicht kannst"
-	line "du es ja besser"
-	cont "gebrauchen!"
+	para "Maybe you can make"
+	line "better use of it!"
 	done
 
 WhitneyGoodCryText:
-	text "Ah, die Flennerei"
-	line "hat gut getan! Be-"
+	text "Ah, that was a"
+	line "good cry!"
 
-	para "suche mich mal"
-	line "wieder! Tschüssi!"
+	para "Come for a visit"
+	line "again! Bye-bye!"
 	done
 
 LassCarrieSeenText:
-	text "Lass dich nicht"
-	line "von dem netten"
+	text "Don't let my"
+	line "#MON's cute"
 
-	para "Äußeren meiner"
-	line "#MON täuschen."
-
-	para "Sie können dich"
-	line "platt machen."
+	para "looks fool you."
+	line "They can whip you!"
 	done
 
 LassCarrieBeatenText:
-	text "Verflixt… Ich"
-	line "dachte, du wärest"
-	cont "schwach…"
+	text "Darn… I thought"
+	line "you were weak…"
 	done
 
 LassCarrieAfterBattleText:
-	text "Denken meine #-"
-	line "MON, dass ich"
-	cont "niedlich bin?"
+	text "Do my #MON"
+	line "think I'm cute?"
 	done
 
 LassBridgetSeenText:
-	text "Ich mag niedliche"
-	line "#MON lieber"
-	cont "als starke."
+	text "I like cute #-"
+	line "MON better than"
+	cont "strong #MON."
 
-	para "Aber ich habe"
-	line "starke und nied-"
-	cont "liche #MON!"
+	para "But I have strong"
+	line "and cute #MON!"
 	done
 
 LassBridgetBeatenText:
-	text "Oh, nein, nein!"
+	text "Oh, no, no, no!"
 	done
 
 LassBridgetAfterBattleText:
-	text "Ich trainiere, um"
-	line "BIANKA zu besie-"
-	cont "gen… aber es ist"
-	cont "hoffnungslos."
+	text "I'm trying to beat"
+	line "WHITNEY, but…"
+	cont "It's depressing."
 
-	para "Wenn ich verliere,"
-	line "werde ich einfach"
+	para "I'm okay! If I"
+	line "lose, I'll just"
 
-	para "härter trainieren!"
+	para "try harder next"
+	line "time!"
 	done
 
 BridgetWhitneyCriesText:
-	text "Oh nein. Du hast"
-	line "BIANKA zum Weinen"
-	cont "gebracht."
+	text "Oh, no. You made"
+	line "WHITNEY cry."
 
-	para "Keine Sorge. Sie"
-	line "beruhigt sich bald"
+	para "It's OK. She'll"
+	line "stop soon. She"
 
-	para "wieder. Sie weint"
-	line "immer, wenn sie"
-	cont "verloren hat."
+	para "always cries when"
+	line "she loses."
 	done
 
 BeautyVictoriaSeenText:
-	text "Oh, du musst wohl"
-	line "noch etwas"
+	text "Oh, you are a cute"
+	line "little trainer! "
 
-	para "wachsen! Ich mag"
-	line "dich, aber ich"
-
-	para "werde mich nicht"
-	line "zurückhalten!"
+	para "I like you, but I"
+	line "won't hold back!"
 	done
 
 BeautyVictoriaBeatenText:
-	text "Mal sehen… Ups,"
-	line "schon vorbei?"
+	text "Let's see… Oops,"
+	line "it's over?"
 	done
 
 BeautyVictoriaAfterBattleText:
-	text "Wow, du musst gut"
-	line "sein, wenn du es"
-	cont "schaffst, mich zu"
-	cont "schlagen. Mach"
-	cont "weiter so!"
+	text "Wow, you must be"
+	line "good to beat me!"
+	cont "Keep it up!"
 	done
 
 BeautySamanthaSeenText:
-	text "Schlag ordentlich"
-	line "zu, sonst werde"
-	cont "ich es tun!"
+	text "Give it your best"
+	line "shot, or I'll take"
+	cont "you down!"
 	done
 
 BeautySamanthaBeatenText:
-	text "Nein! Oh, MAUZI,"
-	line "es tut mir Leid!"
+	text "No! Oh, MEOWTH,"
+	line "I'm so sorry!"
 	done
 
 BeautySamanthaAfterBattleText:
-	text "Ich habe MAUZI die"
-	line "unterschiedlich-"
-	cont "sten Attacken bei-"
-	cont "gebracht…"
+	text "I taught MEOWTH"
+	line "moves for taking"
+	cont "on any type…"
 	done
 
 GoldenrodGymGuideText:
-	text "Yo! CHAMP in spe!"
+	text "Yo! CHAMP in"
+	line "making!"
 
-	para "In dieser PKMN-"
-	line "ARENA warten Trai-"
-	cont "ner mit #MON"
-	cont "des Typs Normal"
+	para "This GYM is home"
+	line "to normal-type"
+	cont "#MON trainers."
 
-	para "auf dich. Ich rate"
-	line "dir, Kampf-#MON"
-	cont "einzusetzen."
+	para "I recommend you"
+	line "use fighting-type"
+	cont "#MON."
 	done
 
 GoldenrodGymGuideWinText:
-	text "Du hast gewonnen?"
-	line "Toll! Ich war da-"
-	cont "mit beschäftigt,"
-	cont "die hübschen Damen"
-	cont "hier zu bewundern."
+	text "You won? Great! I"
+	line "was busy admiring"
+	cont "the ladies here."
 	done
 
 GoldenrodGym_MapEvents:

@@ -253,171 +253,161 @@ Route26MaxElixer:
 	itemball MAX_ELIXER
 
 CooltrainermJakeSeenText:
-	text "Ich treffe die"
-	line "letzten Vorberei-"
-	cont "tungen für die"
-	cont "#MON LIGA."
+	text "I'm making my"
+	line "final preparations"
+
+	para "for the #MON"
+	line "LEAGUE."
 	done
 
 CooltrainermJakeBeatenText:
-	text "Ich habe es"
-	line "vermasselt!"
+	text "I blew it!"
 	done
 
 CooltrainermJakeAfterBattleText:
-	text "Es ist sehr"
-	line "schwer, in der"
-	cont "LIGA zu gewinnen."
+	text "It's going to be"
+	line "tough to win at"
+	cont "the LEAGUE."
 
-	para "Ich muss mehr"
-	line "trainieren."
+	para "I need to do some"
+	line "more training."
 
-	para "Ich habe gehört,"
-	line "dass die TOP VIER"
+	para "I hear that the"
+	line "LEAGUE's ELITE"
 
-	para "aus der LIGA noch"
-	line "stärker sind als"
-	cont "die ARENALEITER."
+	para "FOUR are tougher"
+	line "than GYM LEADERS."
 	done
 
 CooltrainermGaven3SeenText:
-	text "Wenn du harte"
-	line "Kämpfe bestrei-"
-	cont "test, wirst du"
-	cont "stärker."
+	text "By experiencing"
+	line "tough battles, you"
+	cont "gain power."
 	done
 
 CooltrainermGaven3BeatenText:
-	text "Gah! Das Leben ist"
-	line "noch härter!"
+	text "Gaah! Life is even"
+	line "tougher!"
 	done
 
 CooltrainermGavenAfterText:
-	text "Um zur #MON"
-	line "LIGA zu gelangen,"
+	text "To get to #MON"
+	line "LEAGUE, you have"
 
-	para "musst du die"
-	line "SIEGESSTRASSE"
-	cont "passieren."
+	para "to get through"
+	line "VICTORY ROAD."
 
-	para "Die SIEGESSTRASSE"
-	line "ist schwierig."
+	para "But VICTORY ROAD"
+	line "is tough."
 
-	para "Eigentlich geht"
-	line "niemand dorthin!"
+	para "Practically nobody"
+	line "goes there!"
 	done
 
 CooltrainerfJoyceSeenText:
-	text "Da du es bis"
-	line "hierher geschafft"
-	cont "hast, musst du"
-	cont "gut sein."
+	text "Since you've come"
+	line "this far, you must"
+	cont "be good."
 
-	para "Ich werde in"
-	line "diesem Kampf"
-	cont "alles geben!"
+	para "I'm going to give"
+	line "this battle every-"
+	cont "thing I've got!"
 	done
 
 CooltrainerfJoyceBeatenText:
-	text "Nein! Ich kann"
-	line "das nicht glauben!"
+	text "No! I don't"
+	line "believe this!"
 	done
 
 CooltrainerfJoyceAfterBattleText:
-	text "Ich bezwang acht"
-	line "ARENALEITER, also"
+	text "I've defeated"
+	line "eight GYM LEADERS,"
 
-	para "hatte ich genug"
-	line "Selbstbewusstsein."
+	para "so I was feeling"
+	line "confident."
 
-	para "Das nächste Mal"
-	line "muss ich mich mehr"
-	cont "anstrengen."
+	para "I'll have to try"
+	line "harder next time."
 	done
 
 CooltrainerfBeth1SeenText:
-	text "Ich habe gegen"
-	line "einen Trainer"
-	cont "namens <RIVAL>"
-	cont "verloren."
+	text "I lost to a train-"
+	line "er named <RIVAL>."
 
-	para "Er war sehr"
-	line "stark, aber…"
+	para "He was really"
+	line "strong, but…"
 
-	para "Es schien, als"
-	line "sei er vom Siegen"
-	cont "besessen."
+	para "It was as if he"
+	line "absolutely had to"
+	cont "win at any cost."
 
-	para "Seine #MON"
-	line "taten mir Leid."
+	para "I felt sorry for"
+	line "his #MON."
 	done
 
 CooltrainerfBeth1BeatenText:
-	text "#MON sind keine"
-	line "Kriegswerkzeuge."
+	text "#MON aren't"
+	line "tools of war."
 	done
 
 CooltrainerfBethAfterText:
-	text "#MON sind"
-	line "unschätzbare,"
-	cont "lebenslange"
-	cont "Partner."
+	text "#MON are in-"
+	line "valuable, lifelong"
+	cont "partners."
 	done
 
 PsychicRichardSeenText:
-	text "Wow, sieh dir all"
-	line "die ORDEN an! Ich"
-	cont "bin beeindruckt."
+	text "Wow, look at all"
+	line "those BADGES!"
+	cont "I'm impressed."
 
-	para "Aber es reicht dir"
-	line "nicht, sie nur zu"
+	para "But you're not"
+	line "satisfied by just"
 
-	para "sammeln, oder?"
+	para "collecting them,"
+	line "right?"
 	done
 
 PsychicRichardBeatenText:
-	text "Guter Kampf!"
+	text "Good battle!"
 	done
 
 PsychicRichardAfterBattleText:
-	text "Menschen und #-"
-	line "MON wachsen mit"
-	cont "ihren Erfahrungen."
+	text "People and #MON"
+	line "grow from their"
+	cont "experiences."
 
-	para "Du darfst nicht"
-	line "faul und selbstge-"
-	cont "fällig werden."
+	para "Don't get lazy and"
+	line "complacent."
 	done
 
 FisherScottSeenText:
-	text "Heute fühle ich"
-	line "mich grossartig!"
+	text "I'm feeling great"
+	line "today!"
 
-	para "Ich fühle mich so"
-	line "stark, dass ich"
-	cont "den LIGA-CHAMP"
-	cont "besiegen könnte!"
+	para "I feel like I"
+	line "could boot even"
+	cont "the LEAGUE CHAMP!"
 	done
 
 FisherScottBeatenText:
-	text "Nein! Nicht in"
-	line "diesem Kampf!"
+	text "No! Not in this"
+	line "battle!"
 	done
 
 FisherScottAfterBattleText:
-	text "Das Angeln und"
-	line "#MON sind sehr"
+	text "Just like in fish-"
+	line "ing, it's all over"
 
-	para "ähnlich. Wenn du"
-	line "aufgibst, ist es"
-	cont "vorüber."
+	para "in #MON if you"
+	line "give up."
 	done
 
 Route26SignText:
 	text "ROUTE 26"
 
-	para "#MON LIGA"
-	line "EMPFANG"
+	para "#MON LEAGUE"
+	line "RECEPTION GATE"
 	done
 
 Route26_MapEvents:

@@ -1,10 +1,10 @@
 	db "PSI@" ; species name
-	dbw 15, 480 ; height, weight
+	dw 411, 1060 ; height, weight
 
-	db   "Sein IQ ist 5000."
-	next "Es berechnet sehr"
-	next "viele Dinge, um"
+	db   "It has an IQ of"
+	next "5000. It calcu-"
+	next "lates many things"
 
-	page "im Kampf das"
-	next "Letzte aus sich"
-	next "herauszuholen.@"
+	page "in order to gain"
+	next "the edge in every"
+	next "battle.@"

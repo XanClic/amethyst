@@ -89,194 +89,172 @@ EcruteakCityHiddenHyperPotion:
 	hiddenitem HYPER_POTION, EVENT_ECRUTEAK_CITY_HIDDEN_HYPER_POTION
 
 UnusedMissingDaughterText: ; unreferenced
-; unused
-	text "Oh nein, oh nein…"
+	text "Oh, no. Oh, no…"
 
-	para "Meine Tochter wird"
-	line "vermisst."
+	para "My daughter is"
+	line "missing."
 
-	para "Nein… Hoffentlich"
-	line "ist sie nicht zur"
-	cont "TURMRUINE gegan-"
-	cont "gen."
+	para "No… She couldn't"
+	line "have gone to the"
+	cont "BURNED TOWER."
 
-	para "Ich habe ihr ge-"
-	line "sagt, sie soll"
+	para "I told her not to"
+	line "go near it…"
 
-	para "sich von dort"
-	line "fernhalten. Es"
+	para "People seem to"
+	line "disappear there…"
 
-	para "scheint, als wür-"
-	line "den Leute dort"
-	cont "verschwinden…"
-
-	para "Oh, was soll ich"
-	line "nur tun…?"
+	para "Oh, what should I"
+	line "do…?"
 	done
 
 EcruteakCityGramps1Text:
-	text "Es gab zwei Türme"
-	line "in TEAK CITY. Ei-"
-	cont "nen im Osten, ei-"
-	cont "nen im Westen."
+	text "ECRUTEAK used to"
+	line "have two towers:"
+
+	para "one each in the"
+	line "east and west."
 	done
 
 EcruteakCityGramps2Text:
-	text "Na, Kröte?"
-	line "Hast du gelernt zu"
+	text "Ah, child."
+	line "Have you learned"
 
-	para "tanzen wie die"
-	line "KIMONO-GIRLS?"
+	para "to dance like the"
+	line "KIMONO GIRLS?"
 
-	para "Ich habe gehört,"
-	line "dass dir ein ei-"
-	cont "genartiger Mann"
-	cont "etwas Nettes geben"
+	para "If you go to their"
+	line "DANCE THEATER, an"
 
-	para "wird, wenn du zu"
-	line "ihrem TANZTHEATER"
-	cont "gehst."
+	para "odd old man will"
+	line "give you something"
+	cont "nice, I hear."
 	done
 
 EcruteakCityLass1Text:
-	text "Ich will im TANZ-"
-	line "THEATER üben."
+	text "I'm going to prac-"
+	line "tice at the DANCE"
 
-	para "Kommst du mit?"
+	para "THEATER. Care to"
+	line "join me?"
 	done
 
 EcruteakCityLass2Text:
-	text "Der Turm, der"
-	line "früher hier stand…"
+	text "The tower that"
+	line "used to be here…"
 
-	para "Meine Oma sagte"
-	line "mir, dass er"
-	cont "früher höher war."
+	para "My grandma told me"
+	line "it used to be much"
+	cont "taller."
 	done
 
 EcruteakCityLass2Text_ReleasedBeasts:
-	text "Drei große #MON"
-	line "sind in verschie-"
-	cont "dene Richtungen"
-	cont "davongelaufen! Was"
-	cont "waren das für"
-	cont "welche?"
+	text "Three big #MON"
+	line "ran off in differ-"
+	cont "ent directions."
+	cont "What were they?"
 	done
 
 EcruteakCityFisherText:
-	text "Es kursiert ein"
-	line "Gerücht über den"
-	cont "LEUCHTTURM in OLI-"
-	cont "VIANA CITY."
+	text "I heard a rumor"
+	line "about OLIVINE"
+	cont "LIGHTHOUSE."
 
-	para "Das #MON, das"
-	line "als Leuchtfeuer"
+	para "The #MON that"
+	line "serves as the"
 
-	para "dient, wurde"
-	line "krank. Sieht so"
-
-	para "aus, als wären sie"
-	line "in Schwierig-"
-	cont "keiten."
+	para "beacon fell ill."
+	line "Sounds like they"
+	cont "are in trouble."
 	done
 
 EcruteakCityFisherText_JasmineReturned:
-	text "Das #MON im"
-	line "LEUCHTTURM von"
-	cont "OLIVIANA CITY wur-"
-	cont "de geheilt."
+	text "The #MON at"
+	line "OLIVINE LIGHTHOUSE"
+	cont "has been cured."
 
-	para "Jetzt können die"
-	line "Schiffe wieder ge-"
-	cont "fahrlos nachts in"
-	cont "See stechen."
+	para "Boats can safely"
+	line "sail out to sea at"
+	cont "night again."
 	done
 
 EcruteakCityYoungsterText:
-	text "Ich hörte, dass"
-	line "#MON am SEE DES"
+	text "I hear #MON are"
+	line "rampaging at the"
 
-	para "ZORNS Unruhe stif-"
-	line "ten. Das würde ich"
-	cont "gerne sehen."
+	para "LAKE OF RAGE. I'd"
+	line "like to see that."
 	done
 
 EcruteakCityGramps3Text:
-	text "Vor langer Zeit…"
+	text "In the distant"
+	line "past…"
 
-	para "Dieser Turm ist"
-	line "abgebrannt. Drei"
+	para "This tower burned"
+	line "in a fire. Three"
 
-	para "namenlose #MON"
-	line "sind dabei"
-	cont "umgekommen."
+	para "nameless #MON"
+	line "perished in it."
 
-	para "Ein regenbogen-"
-	line "farbenes #MON"
+	para "A rainbow-colored"
+	line "#MON descended"
 
-	para "kam herab und"
-	line "hauchte ihnen wie-"
-	cont "der Leben ein…"
+	para "from the sky and"
+	line "resurrected them…"
 
-	para "Diese Legende wird"
-	line "von jedem LEITER"
+	para "It's a legend that"
+	line "has been passed"
 
-	para "der PKMN-ARENA von"
-	line "TEAK CITY an den"
+	para "down by ECRUTEAK"
+	line "GYM LEADERS."
 
-	para "nächsten"
-	line "weitergegeben."
+	para "Me?"
 
-	para "Ich?"
-
-	para "Damals war ich"
-	line "ein Trainer."
+	para "I was a trainer"
+	line "way back when."
 	cont "Hohoho!"
 	done
 
 EcruteakCitySignText:
-	text "TEAK CITY"
-	line "Eine historische"
+	text "ECRUTEAK CITY"
+	line "A Historical City"
 
-	para "Stadt, wo Vergan-"
-	line "genheit und Gegen-"
-	cont "wart aufeinander-"
-	cont "treffen"
+	para "Where the Past"
+	line "Meets the Present"
 	done
 
 TinTowerSignText:
-	text "ZINNTURM"
+	text "TIN TOWER"
 
-	para "Man sagt, ein le-"
-	line "gendäres #MON"
-
-	para "soll dort sein."
+	para "A legendary #-"
+	line "MON is said to"
+	cont "roost here."
 	done
 
 EcruteakGymSignText:
-	text "PKMN-ARENA von"
-	line "TEAK CITY"
-	cont "LEITUNG: SOPHIE"
+	text "ECRUTEAK CITY"
+	line "#MON GYM"
+	cont "LEADER: SOPHIE"
 
-	para "Fasziniert mit"
-	line "fantastischen"
-	cont "Phantomen"
+	para "Fascinates with"
+	line "phantastic"
+	cont "phantoms"
 	done
 
 EcruteakDanceTheaterSignText:
-	text "TANZTHEATER VON"
-	line "TEAK CITY"
+	text "ECRUTEAK DANCE"
+	line "THEATER"
 	done
 
 BurnedTowerSignText:
-	text "TURMRUINE"
+	text "BURNED TOWER"
 
-	para "Er wurde durch ein"
-	line "mysteriöses Feuer"
-	cont "zerstört."
+	para "It was destroyed"
+	line "by a mysterious"
+	cont "fire."
 
-	para "Bitte nicht betre-"
-	line "ten!"
+	para "Please stay away,"
+	line "as it is unsafe."
 	done
 
 EcruteakCity_MapEvents:

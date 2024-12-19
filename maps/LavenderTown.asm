@@ -45,70 +45,62 @@ LavenderMartSignText:
 	jumpstd MartSignScript
 
 LavenderTownPokefanMText:
-	text "Ein recht beein-"
-	line "druckendes"
-	cont "Gebäude, nicht?"
+	text "That's quite some"
+	line "building, eh?"
 
-	para "Das ist der RADIO-"
-	line "TURM von KANTO."
+	para "It's KANTO's RADIO"
+	line "TOWER."
 	done
 
 LavenderTownTeacherText:
-	text "In KANTO werden"
-	line "viele, gute Radio-"
-	cont "programme"
-	cont "gesendet."
+	text "KANTO has many"
+	line "good radio shows."
 	done
 
 LavenderTownGrampsText:
-	text "Die Leute kommen"
-	line "von überall her,"
+	text "People come from"
+	line "all over to pay"
 
-	para "um den Seelen"
-	line "dahingegangener"
-	cont "#MON Respekt"
-	cont "zu erweisen."
+	para "their respects to"
+	line "the departed souls"
+	cont "of #MON."
 	done
 
 LavenderTownYoungsterText:
-	text "Mit einer #-"
-	line "FLÖTE weckst du"
-	cont "schlafende"
-	cont "#MON."
+	text "You need a #"
+	line "FLUTE to wake"
+	cont "sleeping #MON."
 
-	para "Jeder Trainer muss"
-	line "das wissen!"
+	para "Every trainer has"
+	line "to know that!"
 	done
 
 LavenderTownSignText:
-	text "LAVANDIA"
+	text "LAVENDER TOWN"
 
-	para "Die Liebliche"
-	line "Lilafarbene Stadt"
+	para "The Noble Purple"
+	line "Town"
 	done
 
 KantoRadioStationSignText:
-	text "KANTO RADIO-"
+	text "KANTO RADIO"
 	line "STATION"
 
-	para "Deine Lieblings-"
-	line "programme zu jeder"
-	cont "Tages- und Nacht-"
-	cont "zeit!"
+	para "Your Favorite"
+	line "Programs On-Air"
+	cont "Around the Clock!"
 	done
 
 VolunteerPokemonHouseSignText:
-	text "WAISENHAUS für"
-	line "#MON"
-	cont "von LAVANDIA"
+	text "LAVENDER VOLUNTEER"
+	line "#MON HOUSE"
 	done
 
 SoulHouseSignText:
-	text "RUHESTÄTTE"
+	text "SOUL HOUSE"
 
-	para "Mögen die Seelen"
-	line "der #MON hier"
-	cont "in Frieden Ruhen"
+	para "May the Souls of"
+	line "#MON Rest Easy"
 	done
 
 LavenderTown_MapEvents:

@@ -168,125 +168,122 @@ OlivineCityPlayerStepsAsideBottomMovement:
 OlivineCityRivalText:
 	text "…"
 
-	para "Du schon wieder?"
+	para "You again?"
 
-	para "Kein Grund zur Pa-"
-	line "nik. Mit Verlie-"
-	cont "rern wie dir gebe"
-	cont "ich mich nicht ab."
+	para "There's no need to"
+	line "panic. I don't"
 
-	para "Apropos Verlierer:"
-	line "die ARENALEITERIN"
+	para "bother with wimps"
+	line "like you."
 
-	para "dieser Stadt ist"
-	line "nicht hier."
+	para "Speaking of weak-"
+	line "lings, the city's"
 
-	para "Sie kümmert sich"
-	line "wohl gerade um ein"
+	para "GYM LEADER isn't"
+	line "here."
 
-	para "krankes #MON im"
-	line "LEUCHTTURM."
+	para "Supposedly taking"
+	line "care of a sick"
 
-	para "Hmpf! Bu-Huu!"
-	line "Wozu soll das nur"
-	cont "gut sein?"
+	para "#MON at the"
+	line "LIGHTHOUSE."
 
-	para "Ein #MON, das"
-	line "nicht kämpfen"
-	cont "kann, ist wertlos!"
+	para "Humph! Boo-hoo!"
+	line "Just let sick"
+	cont "#MON go!"
 
-	para "Warum trainierst"
-	line "du nicht im"
-	cont "LEUCHTTURM?"
+	para "A #MON that"
+	line "can't battle is"
+	cont "worthless!"
 
-	para "Wer weiß, viel-"
-	line "leicht wirst du"
-	cont "dadurch ein wenig"
-	cont "stärker!"
+	para "Why don't you go"
+	line "train at the"
+	cont "LIGHTHOUSE?"
+
+	para "Who knows. It may"
+	line "make you a bit"
+	cont "less weak!"
 	done
 
 OlivineCitySailor1Text:
-	text "Nachts sind dunkle"
-	line "Straßen gefähr-"
-	cont "lich."
+	text "Dark roads are"
+	line "dangerous at"
+	cont "night."
 
-	para "Auch das Meer"
-	line "wirkt viel bedroh-"
-	cont "licher in der"
+	para "But in the pitch-"
+	line "black of night,"
 
-	para "pechschwarzen"
-	line "Finsternis!"
+	para "the sea is even"
+	line "more treacherous!"
 
-	para "Ohne das Licht des"
-	line "LEUCHTTURMs könnte"
+	para "Without the beacon"
+	line "of the LIGHTHOUSE"
 
-	para "kein Schiff das"
-	line "Meer bereisen."
+	para "to guide it, no"
+	line "ship can sail."
 	done
 
 OlivineCityStandingYoungsterPokegearText:
-	text "Dieses Ding da ist"
-	line "doch ein #COM."
-	cont "Wow, das ist cool!"
+	text "That thing you"
+	line "have--it's a #-"
+	cont "GEAR, right? Wow,"
+	cont "that's cool."
 	done
 
 OlivineCityStandingYoungsterPokedexText:
-	text "Wow, du hast einen"
+	text "Wow, you have a"
 	line "#DEX!"
 
-	para "Das ist so toll!"
+	para "That is just so"
+	line "awesome."
 	done
 
 OlivineCitySailor2Text:
-	text "Die See ist schön!"
+	text "The sea is sweet!"
 
-	para "Sonnenuntergänge"
-	line "über dem Meer sind"
-	cont "wundervoll!"
+	para "Sunsets on the sea"
+	line "are marvelous!"
 
-	para "Sing mit mir!"
-	line "Yo-ho! Seebären"
-	cont "sind so cool!…"
+	para "Sing with me! "
+	line "Yo-ho! Blow the"
+	cont "man down!…"
 	done
 
 OlivineCitySignText:
-	text "OLIVIANA CITY"
+	text "OLIVINE CITY"
 
-	para "Das Tor zu einer"
-	line "neuen Welt"
+	para "The Port Closest"
+	line "to Foreign Lands"
 	done
 
 OlivineCityPortSignText:
-	text "HAFEN von OLIVIANA"
-	line "CITY"
-	cont "SCHNELLBOOT-PIER"
+	text "OLIVINE PORT"
+	line "FAST SHIP PIER"
 	done
 
 OlivineGymSignText:
-	text "PKMN-ARENA von"
-	line "OLIVIANA CITY"
-	cont "LEITUNG: JASMIN"
+	text "OLIVINE CITY"
+	line "#MON GYM"
+	cont "LEADER: JASMINE"
 
-	para "Ein stahlhartes"
-	line "Mädchen!"
+	para "The Steel-Clad"
+	line "Defense Girl"
 	done
 
 OlivineLighthouseSignText:
-	text "LEUCHTTURM von"
-	line "OLIVIANA CITY,"
-	cont "auch bekannt als"
-	cont "GLITZER-LEUCHTTURM"
+	text "OLIVINE LIGHTHOUSE"
+	line "Also known as the"
+	cont "GLITTER LIGHTHOUSE"
 	done
 
 OlivineCityBattleTowerSignText:
-	text "DUELLTURM VORAUS"
-	line "Geöffnet!"
+	text "BATTLE TOWER AHEAD"
+	line "Opening Now!"
 	done
 
 OlivineCityBattleTowerSignText_NotYetOpen: ; unreferenced
 ; originally shown when the Battle Tower was closed
-; unused; originally shown when the Battle Tower was closed
-	text "DUELLTURM VORAUS"
+	text "BATTLE TOWER AHEAD"
 	done
 
 OlivineCity_MapEvents:

@@ -107,141 +107,129 @@ CarefulSwimmingSign:
 	jumptext CarefulSwimmingSignText
 
 SwimmermHaroldSeenText:
-	text "Warst du schon"
-	line "einmal nachts im"
-	cont "Meer?"
+	text "Have you ever gone"
+	line "swimming in the"
+	cont "sea at night?"
 	done
 
 SwimmermHaroldBeatenText:
-	text "Gulp…"
+	text "Glub…"
 	done
 
 SwimmermHaroldAfterBattleText:
-	text "Nachts wird das"
-	line "Meer schwarz. Es"
+	text "At night, the sea"
+	line "turns black. It"
 
-	para "scheint, als"
-	line "wollte es dich"
-	cont "verschlingen."
+	para "feels like it will"
+	line "swallow you up."
 	done
 
 SwimmermTuckerSeenText:
-	text "Uff, uff…"
-	line "Nur… noch… ein"
+	text "Pant, pant…"
+	line "Just… a little…"
 
-	para "kleines Stück… bis"
-	line "…FUCHSANIA CITY…"
+	para "farther… to…"
+	line "FUCHSIA…"
 	done
 
 SwimmermTuckerBeatenText:
-	text "Ich ertrinke!"
+	text "I'm drowning!"
 	done
 
 SwimmermTuckerAfterBattleText:
-	text "Ich… bat meine"
-	line "Freundin nach"
-	cont "FUCHSANIA CITY…"
-	cont "zu schwimmen…"
+	text "I… asked my girl-"
+	line "friend to swim to"
+	cont "FUCHSIA… Gasp…"
 	done
 
 SwimmerfDawnSeenText:
-	text "Schwächlinge"
-	line "widern mich an!"
+	text "I'm disgusted by"
+	line "wimpy people!"
 	done
 
 SwimmerfDawnBeatenText:
-	text "Ich schlage dich"
-	line "beim Schwimmen…"
+	text "I could beat you"
+	line "at swimming…"
 	done
 
 SwimmerfDawnAfterBattleText:
-	text "Es ist nur eine"
-	line "kurze Distanz"
+	text "It's a quick swim"
+	line "between FUCHSIA"
 
-	para "zwischen FUCHSANIA"
-	line "CITY und den"
-	cont "SEESCHAUMINSELN…"
+	para "and SEAFOAM IS-"
+	line "LANDS…"
 
-	para "Uah, mein Freund"
-	line "ist so groß und"
+	para "Sheesh, some big"
+	line "man my boyfriend"
 
-	para "dennoch ein"
-	line "Schwächling!"
+	para "is! What a wimp!"
 	done
 
 SwimmermJeromeSeenText:
-	text "Schwimmen? Ich bin"
-	line "ein miserabler"
-	cont "Schwimmer."
+	text "Swimming?"
+	line "I'm lousy at it."
 
-	para "Ich plansche"
-	line "lieber in dieser"
-	cont "Riesenpfütze."
+	para "I'm just splashing"
+	line "around in these"
+	cont "shallow waters."
 	done
 
 SwimmermJeromeBeatenText:
-	text "Ich dachte, ich"
-	line "könnte gewinnen."
+	text "I thought I could"
+	line "win."
 	done
 
 SwimmermJeromeAfterBattleText:
-	text "Schwimmen mag"
-	line "nicht meine Stärke"
-	cont "sein, dennoch"
-	cont "liebe ich das"
-	cont "Meer."
+	text "I might be bad at"
+	line "swimming, but I"
+	cont "love the sea."
 	done
 
 Route19Fisher1Text:
-	text "Tut mir Leid."
-	line "Die Straße ist"
-	cont "aufgrund von Bau-"
-	cont "arbeiten gesperrt."
+	text "Sorry. This road"
+	line "is closed for"
+	cont "construction."
 
-	para "Wenn du zu der"
-	line "ZINNOBERINSEL"
+	para "If you want to get"
+	line "to CINNABAR, you'd"
 
-	para "möchtest, gehst"
-	line "du von ALABASTIA"
-	cont "gen Süden."
+	para "better go south"
+	line "from PALLET TOWN."
 	done
 
 Route19Fisher1Text_RocksCleared:
-	text "Ich bin total"
-	line "verschwitzt. Es"
-	cont "ist Zeit zum"
-	cont "Schwimmen."
+	text "I'm all sweaty."
+	line "Time for a swim!"
 	done
 
 Route19Fisher2Text:
-	text "Es würde zu lange"
-	line "dauern, diesen"
-	cont "Felsen zu bewegen…"
+	text "Who knows how long"
+	line "it would take to"
+	cont "move this boulder…"
 	done
 
 Route19Fisher2Text_RocksCleared:
-	text "Die Bauarbeiten"
-	line "sind beendet."
+	text "The roadwork is"
+	line "finally finished."
 
-	para "Jetzt kann ich"
-	line "wieder angeln."
+	para "Now I can go"
+	line "fishing again."
 	done
 
 Route19SignText:
 	text "ROUTE 19"
 
-	para "FUCHSANIA CITY -"
-	line "SEESCHAUMINSELN"
+	para "FUCHSIA CITY -"
+	line "SEAFOAM ISLANDS"
 	done
 
 CarefulSwimmingSignText:
-	text "Sei auf der Hut,"
-	line "wenn du zu den"
-	cont "SEESCHAUMINSELN"
-	cont "schwimmst."
+	text "Please be careful"
+	line "if you are swim-"
+	cont "ming to SEAFOAM"
+	cont "ISLANDS."
 
-	para "ORDNUNGSAMT VON"
-	line "FUCHSANIA CITY"
+	para "FUCHSIA POLICE"
 	done
 
 Route19_MapEvents:

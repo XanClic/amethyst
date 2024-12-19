@@ -1,10 +1,10 @@
-	db "SONNE@" ; species name
-	dbw 9, 265 ; height, weight
+	db "SUN@" ; species name
+	dw 211, 580 ; height, weight
 
-	db   "Die Spitze seines"
-	next "geteilten Schweifs"
-	next "bebt, wenn es die"
+	db   "The tip of its"
+	next "forked tail"
+	next "quivers when it is"
 
-	page "nächste Attacke"
-	next "seines Feindes"
-	next "voraussagt.@"
+	page "predicting its"
+	next "opponent's next"
+	next "move.@"

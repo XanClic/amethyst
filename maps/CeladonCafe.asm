@@ -119,102 +119,90 @@ CeladonCafeTrashcan:
 ChefText_Eatathon:
 	text "Hi!"
 
-	para "Wir halten gerade"
-	line "ein Wettessen ab."
+	para "We're holding an"
+	line "eatathon contest."
 
-	para "Wir können dich"
-	line "im Moment leider"
-	cont "nicht bedienen."
+	para "We can't serve you"
+	line "right now. Sorry."
 	done
 
 Fisher1Text_Snarfle:
-	text "…Schlürf,"
-	line "schlabber…"
+	text "…Snarfle, chew…"
 	done
 
 Fisher1Text_Concentration:
-	text "Sprich mich"
-	line "nicht an!"
+	text "Don't talk to me!"
 
-	para "Du störst meine"
-	line "Konzentration!"
+	para "You'll break my"
+	line "concentration!"
 	done
 
 Fisher2Text_GulpChew:
-	text "…Schluck…"
-	line "Schling…"
+	text "…Gulp… Chew…"
 	done
 
 Fisher2Text_Quantity:
-	text "Quantität ist mir"
-	line "wichtiger als"
-	cont "Qualität!"
+	text "I take quantity"
+	line "over quality!"
 
-	para "Ich bin erst"
-	line "glücklich, wenn"
-	cont "ich platze!"
+	para "I'm happy when I'm"
+	line "full!"
 	done
 
 Fisher3Text_MunchMunch:
-	text "Mampf, mampf…"
+	text "Munch, munch…"
 	done
 
 Fisher3Text_GoldenrodIsBest:
-	text "Das Essen hier ist"
-	line "gut, aber in"
-	cont "DUKATIA CITY gibt"
-	cont "es die besten"
-	cont "Speisen der Welt."
+	text "The food is good"
+	line "here, but GOLDEN-"
+	cont "ROD has the best"
+	cont "food anywhere."
 	done
 
 TeacherText_CrunchCrunch:
-	text "Krümel… Mampf…"
+	text "Crunch… Crunch…"
 	done
 
 TeacherText_NoCoinCase:
-	text "Hier wird dir"
-	line "niemand einen"
+	text "Nobody here will"
+	line "give you a COIN"
 
-	para "MÜNZKORB geben."
-	line "Den bekommst du"
-	cont "in JOHTO."
+	para "CASE. You should"
+	line "look in JOHTO."
 	done
 
 TeacherText_KeepEating:
-	text "Krümel… Kau…"
+	text "Crunch… Crunch…"
 
-	para "Ich esse immer"
-	line "weiter!"
+	para "I can keep eating!"
 	done
 
 TeacherText_MoreChef:
-	text "Nachschub,"
-	line "CHEFKOCH!"
+	text "More, CHEF!"
 	done
 
 EatathonContestPosterText:
-	text "Wettessen! Essen"
-	line "bis zum Umfallen!"
+	text "Eatathon Contest!"
+	line "No time limit!"
 
-	para "Kein Zeitlimit!"
-	line "Der größte"
+	para "A battle without"
+	line "end! The biggest"
 
-	para "Vielfraß bekommt"
-	line "alles umsonst!"
+	para "muncher gets it"
+	line "all for free!"
 	done
 
 FoundLeftoversText:
-	text "<PLAYER> hat"
+	text "<PLAYER> found"
 	line "@"
 	text_ram wStringBuffer3
-	text_start
-	cont "gefunden."
+	text "!"
 	done
 
 NoRoomForLeftoversText:
-	text "Aber <PLAYER> kann"
-	line "kein weiteres Item"
-	cont "aufnehmen…"
+	text "But <PLAYER> can't"
+	line "hold another item…"
 	done
 
 CeladonCafe_MapEvents:

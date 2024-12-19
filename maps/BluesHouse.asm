@@ -64,94 +64,82 @@ DaisyScript:
 	end
 
 DaisyHelloText:
-	text "SARAH: Hi! Mein"
-	line "kleiner Bruder ist"
+	text "DAISY: Hi! My kid"
+	line "brother is the GYM"
 
-	para "ARENALEITER in"
-	line "VERTANIA CITY."
+	para "LEADER in VIRIDIAN"
+	line "CITY."
 
-	para "Aber er verlässt"
-	line "die Stadt so oft,"
+	para "But he goes out"
+	line "of town so often,"
 
-	para "dass die Trainer"
-	line "Schwierigkeiten"
-	cont "bekommen."
+	para "it causes problems"
+	line "for the trainers."
 	done
 
 DaisyOfferGroomingText:
-	text "SARAH: Hi! Gutes"
-	line "Timing. Ich war"
-	cont "gerade dabei, Tee"
-	cont "zu machen."
+	text "DAISY: Hi! Good"
+	line "timing. I'm about"
+	cont "to have some tea."
 
-	para "Hättest du auch"
-	line "gern eine"
-	cont "Tasse Tee?"
+	para "Would you like to"
+	line "join me?"
 
-	para "Oh, deine #MON"
-	line "sehen ein bisschen"
-	cont "mitgenommen aus."
+	para "Oh, your #MON"
+	line "are a bit dirty."
 
-	para "Möchtest du, dass"
-	line "ich eines für dich"
-	cont "verschönere?"
+	para "Would you like me"
+	line "to groom one?"
 	done
 
 DaisyWhichMonText:
-	text "SARAH: Welches"
-	line "soll ich ver-"
-	cont "schönern?"
+	text "DAISY: Which one"
+	line "should I groom?"
 	done
 
 DaisyAlrightText:
-	text "SARAH: Gut. In"
-	line "kürzester Zeit"
-	cont "wird es hübsch und"
-	cont "adrett aussehen."
+	text "DAISY: OK, I'll"
+	line "get it looking"
+	cont "nice in no time."
 	done
 
 GroomedMonLooksContentText:
 	text_ram wStringBuffer3
-	text " sieht"
-	line "zufrieden aus."
+	text " looks"
+	line "content."
 	done
 
 DaisyAllDoneText:
-	text "SARAH: Hier bitte."
-	line "Schon fertig."
+	text "DAISY: There you"
+	line "go! All done."
 
-	para "Siehst du? Ist es"
-	line "jetzt nicht"
-	cont "wunderschön?"
+	para "See? Doesn't it"
+	line "look nice?"
 
-	para "Es ist so ein"
-	line "süßes #MON."
+	para "It's such a cute"
+	line "#MON."
 	done
 
 DaisyAlreadyGroomedText:
-	text "SARAH: Um diese"
-	line "Zeit trinke ich"
+	text "DAISY: I always"
+	line "have tea around"
 
-	para "immer meinen Tee."
-	line "Möchtest du auch"
-	cont "eine Tasse Tee?"
+	para "this time. Come"
+	line "join me."
 	done
 
 DaisyRefusedText:
-	text "SARAH: Möchtest du"
-	line "keines deiner"
+	text "DAISY: You don't"
+	line "want to have one"
 
-	para "#MON ver-"
-	line "schönern lassen?"
-	cont "Gut, dann trinken"
-	cont "wir eben nur Tee."
+	para "groomed? OK, we'll"
+	line "just have tea."
 	done
 
 DaisyCantGroomEggText:
-	text "SARAH: Es tut mir"
-	line "Leid, aber ich"
-	cont "kann wirklich kein"
-	cont "EI verschönern."
+	text "DAISY: Oh, sorry."
+	line "I honestly can't"
+	cont "groom an EGG."
 	done
 
 BluesHouse_MapEvents:

@@ -1,10 +1,10 @@
-	db "EULE@" ; species name
-	dbw 7, 212 ; height, weight
+	db "OWL@" ; species name
+	dw 204, 470 ; height, weight
 
-	db   "Es ruft immer zur"
-	next "gleichen Tages-"
-	next "zeit. Einige"
+	db   "It begins to hoot"
+	next "at the same time"
+	next "every day. Some"
 
-	page "Trainer verzichten"
-	next "daher auf ihre"
-	next "Armbanduhren.@"
+	page "trainers use them"
+	next "in place of"
+	next "clocks.@"

@@ -239,246 +239,225 @@ SSAquaGrandpaApproachesPlayerMovement:
 	step_end
 
 SSAquaCaptainExhaustingText:
-	text "Wow! Danke, dass"
-	line "du mitgekommen"
-	cont "bist."
+	text "Whew! Thanks for"
+	line "coming along."
 
-	para "Es war sehr"
-	line "schwer, das kleine"
-	cont "Mädchen bei Laune"
-	cont "zu halten."
+	para "Keeping that lit-"
+	line "tle girl amused"
+	cont "was exhausting."
 	done
 
 SSAquaCaptainHowDoYouLikeText:
-	text "Hat dir die Fahrt"
-	line "mit der M.S. AQUA"
-	cont "gefallen?"
+	text "How do you like"
+	line "S.S.AQUA's ride?"
 
-	para "Sie gleitet"
-	line "regelrecht über"
-	cont "die Wellen."
+	para "She practically"
+	line "skates across the"
+	cont "waves."
 	done
 
 SSAquaCantFindGranddaughterText:
-	text "Oh, hallo…"
+	text "Oh, hello…"
 
-	para "Ich kann meine"
-	line "Enkelin nirgendwo"
-	cont "finden."
+	para "I still can't find"
+	line "my granddaughter."
 
-	para "Wenn sie an Bord"
-	line "ist, ist alles"
-	cont "in Ordnung."
+	para "If she's on the"
+	line "ship, that's OK."
 
-	para "Sie ist ein"
-	line "Energiebündel und"
+	para "She's an energetic"
+	line "child, so she may"
 
-	para "könnte jemanden"
-	line "nerven. Ich mache"
-	cont "mir ernsthaft"
-	cont "Sorgen…"
+	para "be bugging some-"
+	line "one. I'm worried…"
 	done
 
 SSAquaEntertainedGranddaughterText:
-	text "<PLAY_G>, oder? Ich"
-	line "hörte, du hast"
-	cont "meine Enkelin bei"
-	cont "Laune gehalten."
+	text "<PLAY_G>, was it?"
+	line "I heard you enter-"
+	cont "tained my grand-"
+	cont "daughter."
 
-	para "Ich möchte dir"
-	line "dafür danken."
+	para "I want to thank"
+	line "you for that."
 	done
 
 SSAquaGrandpaHaveThisText:
-	text "Ich möchte, dass"
-	line "du das nimmst!"
+	text "I know! I'd like"
+	line "you to have this!"
 	done
 
 SSAquaGrandpaTravellingText:
-	text "Wir reisen um"
-	line "die Welt."
+	text "We're traveling"
+	line "around the world."
 	done
 
 SSAquaGranddaughterCaptainPlayWithMeText:
-	text "KAPITÄN, spielst"
-	line "du mit mir?"
+	text "CAPTAIN, play with"
+	line "me, please?"
 
-	para "Mir ist langwei-"
-	line "lig! Ich möchte"
-	cont "spielen!"
+	para "I'm bored! I want"
+	line "to play more!"
 	done
 
 SSAquaGranddaughterHasToFindGrandpaText:
-	text "Hi! Willst du"
-	line "mit mir"
-	cont "spielen?"
+	text "Hi! Will you play"
+	line "with me?"
 
 	para "…Oh!"
 
-	para "Opa sorgt sich"
-	line "um mich?"
+	para "Grandpa's worried"
+	line "about me?"
 
-	para "Ich muss los!"
+	para "I have to go!"
 
-	para "Ich muss Opa"
-	line "finden!"
+	para "I have to go find"
+	line "Grandpa!"
 	done
 
 SSAquaGranddaughterWasPlayingMText:
-	text "Hallo Opa, hier"
-	line "bin ich! Ich habe"
+	text "Grandpa, here I"
+	line "am! I was playing"
 
-	para "mit dem KAPITÄN"
-	line "und ihm hier"
-	cont "gespielt!"
+	para "with the CAPTAIN"
+	line "and this guy!"
 	done
 
 SSAquaGranddaughterWasPlayingFText:
-	text "Hallo Opa, hier"
-	line "bin ich! Ich habe"
+	text "Grandpa, here I"
+	line "am! I was playing"
 
-	para "mit dem KAPITÄN"
-	line "und ihr hier"
-	cont "gespielt!"
+	para "with the CAPTAIN"
+	line "and this big girl!"
 	done
 
 SSAquaGranddaughterHadFunText:
-	text "Das Spielen hat"
-	line "mir Spaß gemacht!"
+	text "I had lots of fun"
+	line "playing!"
 	done
 
 PokefanmColinSeenText:
-	text "Hey, Winzling!"
-	line "Möchtest du gegen"
-	cont "mich antreten?"
+	text "Hey, kid! Want to"
+	line "battle with me?"
 	done
 
 PokefanmColinBeatenText:
-	text "Du bist stark!"
+	text "You're strong!"
 	done
 
 PokefanmColinAfterBattleText:
-	text "Du reist ganz"
-	line "alleine?"
+	text "You're traveling"
+	line "all alone?"
 
-	para "Ist deine Mutter"
-	line "nicht besorgt?"
+	para "Isn't your mom"
+	line "worried?"
 	done
 
 TwinsMegandpeg1SeenText:
-	text "Du denkst, ich"
-	line "bin noch ein Baby?"
-	cont "Das ist gemein!"
+	text "You think I'm a"
+	line "baby?"
+	cont "That's not fair!"
 	done
 
 TwinsMegandpeg1BeatenText:
-	text "Oh! Wir haben"
-	line "verloren!"
+	text "Oh! We lost!"
 	done
 
 TwinsMegandpeg1AfterBattleText:
-	text "“Baby” ist kein"
-	line "schöner Name"
-	cont "für Mädchen!"
+	text "Baby is a rude"
+	line "name to call us"
+	cont "girls!"
 	done
 
 TwinsMegandpeg2SeenText:
-	text "Ich bin kein Baby!"
+	text "I'm not a baby!"
 
-	para "So etwas sagt man"
-	line "nicht zu einer"
-	cont "Dame!"
+	para "That's not nice to"
+	line "say to a lady!"
 	done
 
 TwinsMegandpeg2BeatenText:
-	text "Oh! Wir haben"
-	line "verloren!"
+	text "Oh! We lost!"
 	done
 
 TwinsMegandpeg2AfterBattleText:
-	text "Manchmal sind"
-	line "Kinder schlauer"
-	cont "als Erwachsene!"
+	text "Sometimes, kids"
+	line "are smarter than"
+	cont "grown-ups!"
 	done
 
 PsychicRodneySeenText:
-	text "Ssh! Mein Gehirn"
-	line "empfängt Radio-"
-	cont "wellen!"
+	text "Ssh! My brain is"
+	line "picking up radio"
+	cont "signals!"
 	done
 
 PsychicRodneyBeatenText:
-	text "…Ich kann etwas"
-	line "hören!"
+	text "…I hear some-"
+	line "thing!"
 	done
 
 PsychicRodneyAfterBattleText:
-	text "Ich verstehe! Man"
-	line "kann den Radio-"
-	cont "sender aus JOHTO"
-	cont "auf dem SCHNELL-"
-	cont "BOOT hören."
+	text "I get it. You can"
+	line "hear JOHTO's radio"
+	cont "on the FAST SHIP."
 	done
 
 PokefanmJeremySeenText:
-	text "Was denkst du?"
-	line "Meine #MON sind"
-	cont "doch schön, oder?"
+	text "What do you think?"
+	line "My #MON are"
+	cont "beautiful, yes?"
 	done
 
 PokefanmJeremyBeatenText:
-	text "Oh, nein! Meine"
-	line "schönen #MON!"
+	text "Oh, no! My beauti-"
+	line "ful #MON!"
 	done
 
 PokefanmJeremyAfterBattleText:
-	text "Ich muss in den"
-	line "#MON-SALON, um"
-	cont "sie zurechtmachen"
-	cont "zu lassen!"
+	text "I must go to the"
+	line "#MON SALON and"
+	cont "fix them up nice!"
 	done
 
 PokefanfGeorgiaSeenText:
-	text "Ich gehe ins"
-	line "EINKAUFSZENTRUM"
-	cont "und…"
+	text "I'm going to shop"
+	line "at the DEPT.STORE"
+	cont "and then…"
 	done
 
 PokefanfGeorgiaBeatenText:
-	text "Was wollte ich"
-	line "tun?"
+	text "What was I going"
+	line "to do?"
 	done
 
 PokefanfGeorgiaAfterBattleText:
-	text "Oh, ja! Ich muss"
-	line "meine #MON von"
-	cont "der PENSION"
-	cont "abholen!"
+	text "Oh, yes! I have to"
+	line "get my #MON out"
+	cont "of DAY-CARE!"
 	done
 
 SupernerdShawnSeenText:
-	text "Was für #-"
-	line "BÄLLE hast du"
-	cont "dabei?"
+	text "What kinds of #"
+	line "BALLS do you have"
+	cont "with you?"
 	done
 
 SupernerdShawnBeatenText:
-	text "Warte! Halt!"
-	line "Nicht! Bitte!"
+	text "Wait! Stop! Don't!"
+	line "Please!"
 	done
 
 SupernerdShawnAfterBattleText:
-	text "Der BALL, den du"
-	line "einsetzt, muss zu"
-	cont "der Situation"
-	cont "passen."
+	text "You should use the"
+	line "right BALLS to fit"
+	cont "the situation."
 	done
 
 SSAquaHasArrivedVermilionText:
-	text "Die M.S. AQUA legt"
-	line "in"
-
-	para "ORANIA CITY an."
+	text "FAST SHIP S.S.AQUA"
+	line "has arrived in"
+	cont "VERMILION CITY."
 	done
 
 FastShipCabins_SE_SSE_CaptainsCabin_MapEvents:

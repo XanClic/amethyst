@@ -41,41 +41,32 @@ CherrygroveMartYoungsterScript:
 	jumptextfaceplayer CherrygroveMartYoungsterText
 
 CherrygroveMartCooltrainerMText:
-	text "Die #BÄLLE"
-	line "sind leider aus-"
-	cont "verkauft!"
+	text "They're fresh out"
+	line "of # BALLS!"
 
-	para "Hoffentlich kommt"
-	line "bald eine neue"
-	cont "Lieferung!"
+	para "When will they get"
+	line "more of them?"
 	done
 
 CherrygroveMartCooltrainerMText_PokeBallsInStock:
-	text "#BÄLLE sind"
-	line "wieder auf Lager!"
-	cont "Jetzt kann ich"
-	cont "#MON fangen!"
+	text "# BALLS are in"
+	line "stock! Now I can"
+	cont "catch #MON!"
 	done
 
 CherrygroveMartYoungsterText:
-	text "Als ich durch das"
-	line "Gras spazierte,"
+	text "When I was walking"
+	line "in the grass, a"
 
-	para "hat ein Käfer-"
-	line "#MON mein"
+	para "bug #MON poi-"
+	line "soned my #MON!"
 
-	para "#MON ver-"
-	line "giftet!"
+	para "I just kept going,"
+	line "but then my"
+	cont "#MON fainted."
 
-	para "Ich ging einfach"
-	line "weiter, aber dann"
-	cont "wurde mein #-"
-	cont "MON plötzlich be-"
-	cont "siegt."
-
-	para "Du solltest stän-"
-	line "dig ein GEGENGIFT"
-	cont "mit dir führen."
+	para "You should keep an"
+	line "ANTIDOTE with you."
 	done
 
 CherrygroveMart_MapEvents:

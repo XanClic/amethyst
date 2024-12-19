@@ -1,11 +1,11 @@
-	db "SANDHAUFEN@" ; species name
-	dbw 5, 700 ; height, weight
+	db "SAND HEAP@" ; species name
+	dw 108, 15400 ; height, weight
 
 	;  "| ----------------- |"
-	db   "Wer die Hand in"
-	next "sein Maul steckt,"
-	next "den überkommt der"
+	db   "Whoever sticks"
+	next "their hand in its"
+	next "jaws is overcome"
 
-	page "Drang, unbedingt"
-	next "Sand auf SANKABUH"
-	next "aufzuhäufen.@"
+	page "by an intense"
+	next "urge to pile sand"
+	next "onto SANDYGAST.@"

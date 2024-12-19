@@ -1,135 +1,130 @@
 JoseMonsStickHasADeliciousAromaText:
-	text "Sperr die Ohren"
-	line "auf, die Stange"
-
-	para "meines @"
+	text "Hey listen, my"
+	line "@"
 	text_ram wStringBuffer4
-	text "s"
-	line "riecht verlockend."
+	text "'s stick"
 
-	para "Der Duft bringt"
-	line "meine Geschmacks-"
-	cont "nerven in Ekstase!"
+	para "has this really"
+	line "delicious aroma."
+
+	para "That aroma gets my"
+	line "appetite going!"
 	done
 
 JoseDefeatedMonText:
-	text "Vor geraumer Zeit"
-	line "schlug mein"
-
-	para "PORENTA ein"
-	line "@"
+	text "A while ago, my"
+	line "FARFETCH'D KO'd"
+	cont "this @"
 	text_ram wStringBuffer4
-	text " K.O."
+	text "."
 
-	para "Du hättest sehen"
-	line "sollen, wie grazil"
+	para "You should have"
+	line "seen FARFETCH'D"
 
-	para "PORENTA mit seiner"
-	line "Stange umgeht!"
-	cont "Einfach unfassbar!"
+	para "wield that stick."
+	line "Amazing stuff!"
 	done
 
 JoseLostAMonText:
-	text "Mir begegnete ein"
-	line "wildes @"
+	text "I ran into a wild"
+	line "@"
 	text_ram wStringBuffer4
 	text "…"
 
-	para "Ich wollte es"
-	line "fangen, aber es"
+	para "I was trying to"
+	line "catch it, but it"
 
-	para "floh schneller,"
-	line "als ich dachte."
+	para "took off faster"
+	line "than I thought it"
 
-	para "Es war ein wenig"
-	line "enttäuschend."
+	para "would. It was a"
+	line "bit disappointing."
 	done
 
 JoseBattleRematchText:
-	text "Willst du erneut"
-	line "kämpfen?"
+	text "Want to battle"
+	line "again?"
 
-	para "Aus irgendeinem"
-	line "Grund ist mein"
+	para "For some reason,"
+	line "my FARFETCH'D is"
 
-	para "PORENTA hitzig und"
-	line "kampfbereit."
+	para "all worked up and"
+	line "raring to go."
 
-	para "Ich bin hier:"
-	line "@"
+	para "@"
 	text_ram wStringBuffer5
-	text "."
+	text "'s"
+	line "where I'm at."
 
-	para "Schau doch einmal"
-	line "vorbei, O.K.?"
+	para "Keep an eye out"
+	line "for me, OK?"
 	done
 
 JoseHangUpText:
-	text "Wir sehen uns!"
+	text "Be seeing you!"
 	done
 
 JoseFoundItemText:
-	text "Mein PORENTA hatte"
-	line "etwas Schönes"
-	cont "im Schnabel."
+	text "My FARFETCH'D had"
+	line "something pretty"
+	cont "in its beak."
 
-	para "Wie versprochen,"
-	line "gehört es dir."
+	para "Like I promised,"
+	line "you can have it."
 
-	para "Besuche mich hier:"
+	para "Catch up to me on"
 	line "@"
 	text_ram wStringBuffer5
 	text ","
 
-	para "und hole es dir"
-	line "bei mir ab."
+	para "and I'll let you"
+	line "have it."
 	done
 
 JoseHaventGottenItemYetText:
-	text "Ich habe noch"
-	line "nicht, was ich"
-	cont "dir versprach."
+	text "I haven't gotten"
+	line "what I promised"
+	cont "you yet."
 
-	para "Ich melde mich,"
-	line "alsbald ich es"
+	para "I'll call you as"
+	line "soon as I get it,"
 
-	para "habe. Kannst du"
-	line "noch ein wenig"
-	cont "warten?"
+	para "so could you wait"
+	line "a little longer?"
 	done
 
 JoseReminderText:
-	text "<PLAY_G>, kommst"
-	line "du schnell zu mir?"
+	text "<PLAY_G>, could you"
+	line "hurry over?"
 
-	para "PORENTA ist"
-	line "aufgeregt."
+	para "FARFETCH'D is"
+	line "agitated."
 
-	para "Wenn du nicht bald"
-	line "kommst, schlägt es"
+	para "If you don't come"
+	line "soon, it might"
 
-	para "mich noch mit"
-	line "seiner Stange!"
+	para "smack me with its"
+	line "stick!"
 
 	para "@"
 	text_ram wStringBuffer5
 	text "!"
 
-	para "Bitte, komm so"
-	line "schnell du kannst!"
+	para "Please come as"
+	line "soon as you can!"
 	done
 
 JoseComePickUpText:
-	text "Was ist los?"
+	text "What's wrong?"
 
-	para "Willst du das"
-	line "Geschenk nicht?"
+	para "Don't you want"
+	line "this gift?"
 
-	para "Ich bin hier:"
+	para "Catch up to me on"
 	line "@"
 	text_ram wStringBuffer5
-	text "."
+	text ","
 
-	para "Komm vorbei und"
-	line "hole es dir ab."
+	para "and I'll let you"
+	line "have it."
 	done

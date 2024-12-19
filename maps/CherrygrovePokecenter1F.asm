@@ -35,40 +35,35 @@ CherrygrovePokecenter1FTeacherScript:
 	end
 
 CherrygrovePokecenter1FFisherText:
-	text "Das ist toll! Ich"
-	line "kann so viele"
+	text "It's great. I can"
+	line "store any number"
 
-	para "#MON lagern,"
-	line "wie ich will, und"
-	cont "das umsonst!"
+	para "of #MON, and"
+	line "it's all free."
 	done
 
 CherrygrovePokecenter1FGentlemanText:
-	text "Dieser PC steht"
-	line "jedem Trainer kos-"
-	cont "tenfrei zur Verfü-"
-	cont "gung."
+	text "That PC is free"
+	line "for any trainer"
+	cont "to use."
 	done
 
 CherrygrovePokecenter1FTeacherText:
-	text "Das KOMMUNI-"
-	line "KATIONS-CENTER im"
-	cont "ersten Stock ist"
-	cont "gerade fertig."
+	text "The COMMUNICATION"
+	line "CENTER upstairs"
+	cont "was just built."
 
-	para "Aber der Fein-"
-	line "schliff fehlt"
-	cont "noch."
+	para "But they're still"
+	line "finishing it up."
 	done
 
 CherrygrovePokecenter1FTeacherText_CommCenterOpen:
-	text "Das KOMMUNI-"
-	line "KATIONS-CENTER im"
-	cont "ersten Stock ist"
-	cont "gerade fertig."
+	text "The COMMUNICATION"
+	line "CENTER upstairs"
+	cont "was just built."
 
-	para "Ich habe schon"
-	line "#MON getauscht!"
+	para "I traded #MON"
+	line "there already!"
 	done
 
 CherrygrovePokecenter1F_MapEvents:

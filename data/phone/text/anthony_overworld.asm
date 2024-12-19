@@ -1,56 +1,52 @@
 AnthonyAskNumber1Text:
-	text "Ich bin übrigens"
-	line "WANDERER. Ich gehe"
+	text "By the way, I'm a"
+	line "HIKER, so I often"
 
-	para "oft in die Berge "
-	line "und in Höhlen."
+	para "go to mountains"
+	line "and caves."
 
-	para "Manchmal sehe ich"
-	line "seltene #MON."
+	para "I occasionally see"
+	line "rare #MON."
 
-	para "Ich könnte dich"
-	line "anrufen, wenn mir"
-	cont "eines begegnet."
+	para "I could call you"
+	line "the next time I"
+	cont "see one."
 
-	para "Gibst du mir deine"
-	line "Telefonnummer?"
+	para "Feel like swapping"
+	line "phone numbers?"
 	done
 
 AnthonyAskNumber2Text:
-	text "Ich könnte dich"
-	line "anrufen, wenn ich"
+	text "I could call you"
+	line "when I see some"
+	cont "rare #MON."
 
-	para "ein seltenes"
-	line "#MON sehe."
-
-	para "Gibst du mir deine"
-	line "Telefonnummer?"
+	para "Feel like swapping"
+	line "phone numbers?"
 	done
 
 AnthonyNumberAcceptedText:
-	text "Geduld! Ich finde"
-	line "seltene #MON"
-	cont "für dich!"
+	text "Be patient. I'll"
+	line "find some rare"
+	cont "#MON for you!"
 	done
 
 AnthonyNumberDeclinedText:
-	text "Du bist kühl. Ich"
-	line "könnte auch in die"
-	cont "Berge gehen…"
+	text "You're cold. I may"
+	line "as well head to"
+	cont "the mountains…"
 	done
 
 AnthonyPhoneFullText:
-	text "Dein Nummern-"
-	line "speicher ist voll."
+	text "Your phone's full."
 
-	para "Du kannst keine"
-	line "Nummer mehr"
-	cont "speichern."
+	para "It can't register"
+	line "my phone number."
 	done
 
 AnthonyRematchText:
-	text "In Ordnung!"
+	text "All righty, then!"
 
-	para "Meine #MON und"
-	line "ich sind bereit!"
+	para "My #MON and I"
+	line "are raring to go!"
 	done

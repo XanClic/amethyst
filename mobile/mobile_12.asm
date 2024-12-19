@@ -209,11 +209,7 @@ Function48187:
 	ret
 
 .String_TellLater:
-if !DEF(_CRYSTAL_EU)
 	db "Tell Later@"
-else
-	db "@"
-endc
 
 Function4820d:
 	call PlaceHollowCursor
@@ -270,11 +266,7 @@ Function48272:
 	jp Function4840c
 
 MobileString_PersonalInfo:
-if !DEF(_CRYSTAL_EU)
 	db "Personal Info@"
-else
-	db "@"
-endc
 
 Function48283:
 	lb bc, 2, 18
@@ -547,7 +539,6 @@ Mobile12_Bin2Dec:
 	db "8@"
 	db "9@"
 
-if !DEF(_CRYSTAL_EU)
 MobileProfileString:         db "  Mobile Profile@"
 MobileString_Gender:         db "Gender@"
 MobileString_Age:            db "Age@"
@@ -559,19 +550,6 @@ MobileDesc_Gender:           db "Boy or girl?@"
 MobileDesc_Age:              db "How old are you?@"
 MobileDesc_Address:          db "Where do you live?@"
 MobileDesc_ZipCode:          db "Your zip code?@"
-else
-MobileProfileString:         db "@"
-MobileString_Gender:         db "@"
-MobileString_Age:            db "@"
-MobileString_Address:        db "@"
-MobileString_ZipCode:        db "@"
-MobileString_OK:             db "@"
-MobileString_ProfileChanged: db "@"
-MobileDesc_Gender:           db "@"
-MobileDesc_Age:              db "@"
-MobileDesc_Address:          db "@"
-MobileDesc_ZipCode:          db "@"
-endc
 
 MenuHeader_0x484f1:
 	db MENU_BACKUP_TILES ; flags
@@ -583,13 +561,8 @@ MenuData_0x484f9:
 	db STATICMENU_CURSOR | STATICMENU_WRAP ; flags
 	db 2 ; items
 Strings_484fb:
-if !DEF(_CRYSTAL_EU)
 String_484fb: db "Boy@"
 String_484ff: db "Girl@"
-else
-String_484fb: db "@"
-String_484ff: db "@"
-endc
 
 MenuHeader_0x48504:
 	db MENU_BACKUP_TILES ; flags
@@ -1287,13 +1260,8 @@ MenuHeader_0x48a9c:
 	menu_coords 10, 8, SCREEN_WIDTH - 1, 13
 
 String_48aa1:
-if !DEF(_CRYSTAL_EU)
 	db   "Tell Now"
-	next "Tell Later"
-	db   "@"
-else
-	db   "@"
-endc
+	next "Tell Later@"
 
 Function48ab5:
 	ldh a, [hJoyPressed]

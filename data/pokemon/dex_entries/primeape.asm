@@ -1,10 +1,10 @@
-	db "SCHW./ AFFE@" ; species name
-	dbw 10, 320 ; height, weight
+	db "PIG MONKEY@" ; species name
+	dw 303, 710 ; height, weight
 
-	db   "Es verprügelt"
-	next "jeden, der es"
-	next "nervt, auch wenn"
+	db   "It will beat up"
+	next "anyone who makes"
+	next "it mad, even if it"
 
-	page "es ihn bis ans"
-	next "Ende der Welt"
-	next "verfolgen muss.@"
+	page "has to chase them"
+	next "until the end of"
+	next "the world.@"

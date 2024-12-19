@@ -1,11 +1,11 @@
-	db "SCHWARZTEE@" ; species name
-	dbw 2, 4 ; height, weight
+	db "BLACK TEA@" ; species name
+	dw 8, 100 ; height, weight
 
 	;  "| ----------------- |"
-	db   "Wenn es seinem"
-	next "Trainer vertraut,"
-	next "lässt es ihn"
+	db   "When it trusts"
+	next "its trainer, it"
+	next "may let them try"
 
-	page "manchmal einen"
-	next "kleinen Schluck"
-	next "Tee probieren.@"
+	page "a sip of its"
+	next "delicious tea"
+	next "once in a while.@"

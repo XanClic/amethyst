@@ -1,11 +1,11 @@
-	db "DUNKELWESEN@" ; species name
-	dbw 7, 222 ; height, weight
+	db "GLOOMDWELLER@" ; species name
+	dw 204, 4900 ; height, weight
 
 	;  "| ----------------- |"
-	db   "Da es in der Lage"
-	next "ist, mit jedem"
-	next "Schatten zu ver-"
+	db   "Because it can"
+	next "sink into any"
+	next "shadow, it has"
 
-	page "schmelzen, ist es"
-	next "lange Zeit unent-"
-	next "deckt geblieben.@"
+	page "remained undis-"
+	next "covered for a"
+	next "long time.@"

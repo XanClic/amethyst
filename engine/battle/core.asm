@@ -1721,16 +1721,10 @@ HandleScreens:
 	ld hl, wStringBuffer1
 	jp CopyName2
 
-if !DEF(_CRYSTAL_EU)
-.Your:  db "Your@"
-.Enemy: db "Enemy@"
-elif DEF(_CRYSTAL_DE)
-.Your:  db "Dein@"
-.Enemy: db "Gegner@"
-elif DEF(_CRYSTAL_ES)
-.Your:  db "tu@"
-.Enemy: db "enemigo@"
-endc
+.Your:
+	db "Your@"
+.Enemy:
+	db "Enemy@"
 
 .LightScreenTick:
 	ld a, [de]
@@ -5802,16 +5796,10 @@ MoveInfoBox:
 .done
 	ret
 
-if !DEF(_CRYSTAL_EU)
-.Disabled: db "Disabled!@"
-.Type:     db "TYPE/@"
-elif DEF(_CRYSTAL_DE)
-.Disabled: db "Blockiert@"
-.Type:     db "TYP/@"
-elif DEF(_CRYSTAL_ES)
-.Disabled: db "¡Desact.!@"
-.Type:     db "TIPO/@"
-endc
+.Disabled:
+	db "Disabled!@"
+.Type:
+	db "TYPE/@"
 
 .PrintPP:
 	hlcoord 5, 11
@@ -8620,11 +8608,7 @@ DisplayLinkBattleResult:
 	jr .store_result
 
 .store_result
-if !DEF(_CRYSTAL_EU)
 	hlcoord 6, 8
-else
-	hlcoord 3, 8
-endc
 	call PlaceString
 	farcall BackupGSBallFlag
 	ld c, 200
@@ -8650,39 +8634,24 @@ endc
 	call ClearTilemap
 	ret
 
-if !DEF(_CRYSTAL_EU)
-.YouWin:  db "YOU WIN@"
-.YouLose: db "YOU LOSE@"
-.Draw:    db "  DRAW@"
-elif DEF(_CRYSTAL_DE)
-.YouWin:  db "   GEWONNEN   @"
-.YouLose: db "   VERLOREN   @"
-.Draw:    db "UNENTSCHIEDEN @"
-elif DEF(_CRYSTAL_ES)
-.YouWin:  db "    GANAS     @"
-.YouLose: db "   PIERDES    @"
-.Draw:    db "    EMPATE    @"
-endc
+.YouWin:
+	db "YOU WIN@"
+.YouLose:
+	db "YOU LOSE@"
+.Draw:
+	db "  DRAW@"
 
 .Mobile_InvalidBattle:
-if !DEF(_CRYSTAL_EU)
 	hlcoord 6, 8
 	ld de, .InvalidBattle
 	call PlaceString
 	ld c, 200
 	call DelayFrames
 	call ClearTilemap
-endc
 	ret
 
 .InvalidBattle:
-if !DEF(_CRYSTAL_EU)
 	db "INVALID BATTLE@"
-elif DEF(_CRYSTAL_DE)
-	db "Ungültiger Kampf@"
-elif DEF(_CRYSTAL_ES)
-	db "BATALLA INVALIDA@"
-endc
 
 IsMobileBattle2:
 	ld a, [wLinkMode]
@@ -8833,20 +8802,12 @@ ReadAndPrintLinkBattleRecord:
 .Format:
 	db "  ---  <LF>"
 	db "         -    -    -@"
-
-if !DEF(_CRYSTAL_EU)
-.Record: db "<PLAYER>'s RECORD@"
-.Result: db "RESULT WIN LOSE DRAW@"
-.Total:  db "TOTAL  WIN LOSE DRAW@"
-elif DEF(_CRYSTAL_DE)
-.Record: db "<PLAYER>s STATISTIK@"
-.Result: db "Erg. Gew. Verl. Patt@"
-.Total:  db "Ges. Gew. Verl. Patt@"
-elif DEF(_CRYSTAL_ES)
-.Record: db "RÉCORD de <PLAYER>@"
-.Result: db "RESULT  GAN PERD EMP@"
-.Total:  db "TOTAL   GAN PERD EMP@"
-endc
+.Record:
+	db "<PLAYER>'s RECORD@"
+.Result:
+	db "RESULT WIN LOSE DRAW@"
+.Total:
+	db "TOTAL  WIN LOSE DRAW@"
 
 AddLastLinkBattleToLinkRecord:
 	ld hl, wOTPlayerID

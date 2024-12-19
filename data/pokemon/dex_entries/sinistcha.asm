@@ -1,11 +1,11 @@
 	db "MATCHA@" ; species name
-	dbw 2, 22 ; height, weight
+	dw 8, 500 ; height, weight
 
 	;  "| ----------------- |"
-	db   "Es rührt sich"
-	next "selbst gern mit"
-	next "dem Teebesen auf"
+	db   "The more stirring"
+	next "it does with the"
+	next "tea whisk on its"
 
-	page "einem Kopf um."
-	next "So tankt es"
-	next "Energie.@"
+	page "head, the more"
+	next "energy it builds"
+	next "up for battles.@"

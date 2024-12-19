@@ -10,15 +10,12 @@ VermilionDiglettsCaveSpeechHouseGentlemanScript:
 	jumptextfaceplayer VermilionDiglettsCaveSpeechHouseGentlemanText
 
 VermilionDiglettsCaveSpeechHouseGentlemanText:
-	text "Im Laufe vieler"
-	line "Jahre haben die"
-	cont "DIGDA einen langen"
-	cont "Tunnel gebaut."
+	text "Over many years,"
+	line "DIGLETT dug a"
+	cont "large tunnel."
 
-	para "Dieser Tunnel"
-	line "führt zu einer"
-	cont "weit entfernten"
-	cont "Stadt."
+	para "That tunnel goes"
+	line "to a distant town."
 	done
 
 VermilionDiglettsCaveSpeechHouse_MapEvents:

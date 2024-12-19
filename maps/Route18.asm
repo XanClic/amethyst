@@ -33,49 +33,46 @@ Route18Sign:
 	jumptext Route18SignText
 
 BirdKeeperBorisSeenText:
-	text "Wenn du nach"
-	line "#MON suchst,"
+	text "If you're looking"
+	line "for #MON, you"
 
-	para "musst du ins"
-	line "hohe Gras gehen."
+	para "have to look in"
+	line "the tall grass."
 	done
 
 BirdKeeperBorisBeatenText:
-	text "Yippi!"
+	text "Ayieee!"
 	done
 
 BirdKeeperBorisAfterBattleText:
-	text "Da du so stark"
-	line "bist, muss es"
-	cont "Spaß machen, gegen"
-	cont "dich zu kämpfen."
+	text "Since you're so"
+	line "strong, it must be"
+	cont "fun to battle."
 	done
 
 BirdKeeperBobSeenText:
-	text "Der RADWEG ist"
-	line "eine schnelle"
-	cont "Abkürzung nach"
-	cont "PRISMANIA CITY."
+	text "CYCLING ROAD is a"
+	line "quick shortcut to"
+	cont "CELADON."
 	done
 
 BirdKeeperBobBeatenText:
-	text "…Uff!"
+	text "…Whew!"
 	done
 
 BirdKeeperBobAfterBattleText:
-	text "Wenn du kein"
-	line "FAHRRAD hast,"
+	text "If you don't have"
+	line "a BICYCLE, you're"
 
-	para "darfst du die"
-	line "Abkürzung nicht"
-	cont "benutzen."
+	para "not allowed to use"
+	line "the shortcut."
 	done
 
 Route18SignText:
 	text "ROUTE 18"
 
-	para "PRISMANIA CITY -"
-	line "FUCHSANIA CITY"
+	para "CELADON CITY -"
+	line "FUCHSIA CITY"
 	done
 
 Route18_MapEvents:

@@ -64,44 +64,43 @@ Route11HiddenRevive:
 	hiddenitem REVIVE, EVENT_ROUTE_11_HIDDEN_REVIVE
 
 YoungsterOwenSeenText:
-	text "Bei #MON wird"
-	line "nicht gemogelt."
+	text "There's no cheat-"
+	line "ing in #MON."
 
-	para "Immer fair"
-	line "spielen."
+	para "Let's keep it fair"
+	line "and square!"
 	done
 
 YoungsterOwenBeatenText:
-	text "Huch? Wie konnte"
-	line "das passieren?"
+	text "Huh? How did this"
+	line "happen?"
 	done
 
 YoungsterOwenAfterBattleText:
-	text "Ich habe immer"
-	line "fair und ehrenhaft"
-	cont "gekämpft."
+	text "I fought fair and"
+	line "square with honor."
 
-	para "Ich habe es noch"
-	line "nie bedauert."
+	para "I don't regret"
+	line "this at all."
 	done
 
 YoungsterJasonSeenText:
-	text "Es juckt und"
-	line "sticht, wenn ich"
+	text "It itches and"
+	line "tickles a bit when"
 
-	para "mit meinen Shorts"
-	line "durchs Gras laufe."
+	para "I wear shorts in"
+	line "the grass."
 	done
 
 YoungsterJasonBeatenText:
 	text "Aiyaaah!"
-	line "Ich bekam Dresche!"
+	line "I got stomped!"
 	done
 
 YoungsterJasonAfterBattleText:
-	text "Im Gras werde ich"
-	line "mehr #MON"
-	cont "fangen."
+	text "I'm going to catch"
+	line "more #MON in"
+	cont "the grass."
 	done
 
 PsychicHermanSeenText:
@@ -115,31 +114,29 @@ PsychicHermanBeatenText:
 PsychicHermanAfterBattleText:
 	text "…"
 
-	para "Ich verlor, als"
-	line "ich meine Augen"
-	cont "schloss…"
+	para "I lost while I had"
+	line "my eyes closed…"
 	done
 
 PsychicFidelSeenText:
-	text "Ich kann es sehen…"
+	text "I can see it…"
 
-	para "Ich kann alles"
-	line "über dich sehen…"
+	para "Everything to see"
+	line "about you…"
 	done
 
 PsychicFidelBeatenText:
-	text "Deine Stärke"
-	line "konnte ich nicht"
-	cont "sehen…"
+	text "I couldn't foresee"
+	line "your power…"
 	done
 
 PsychicFidelAfterBattleText:
-	text "Deine Überzeugung"
-	line "ist stark…"
+	text "Strength in con-"
+	line "viction…"
 
-	para "Du bist stark,"
-	line "weil du an deine"
-	cont "#MON glaubst."
+	para "You're strong be-"
+	line "cause you believe"
+	cont "in your #MON."
 	done
 
 Route11SignText:

@@ -1,10 +1,10 @@
-	db "SAMEN@" ; species name
-	dbw 20, 1000 ; height, weight
+	db "SEED@" ; species name
+	dw 607, 2210 ; height, weight
 
-	db   "Wenn es sich in"
-	next "der Sonne wärmt,"
-	next "entströmt den"
+	db   "As it warms it-"
+	next "self and absorbs"
+	next "the sunlight, its"
 
-	page "Blättern seiner"
-	next "Blüte ein wohliges"
-	next "Aroma.@"
+	page "flower petals"
+	next "release a pleasant"
+	next "fragrance.@"

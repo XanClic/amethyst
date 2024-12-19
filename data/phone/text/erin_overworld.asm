@@ -1,66 +1,63 @@
 ErinAskNumber1Text:
-	text "Diese Niederlage"
-	line "war schmerzhaft."
+	text "It really made me"
+	line "angry to lose."
 
-	para "Ich muss härter"
-	line "trainieren…"
+	para "I'll have to train"
+	line "much harder…"
 
-	para "Das ist meine"
-	line "Nummer. Ich bin"
+	para "Here's my number."
+	line "I'm ERIN--don't"
 
-	para "LOTTE, vergiss das"
-	line "nicht! Wollen wir"
-	cont "erneut kämpfen?"
+	para "forget! Want to"
+	line "battle me again?"
 	done
 
 ErinAskNumber2Text:
-	text "Ich fordere dich"
-	line "erneut heraus."
+	text "I want to battle"
+	line "with you again."
 
-	para "Gibst du mir deine"
-	line "Telefonnummer?"
+	para "Do you want to"
+	line "exchange numbers?"
 	done
 
 ErinNumberAcceptedText:
-	text "Ich melde mich,"
-	line "wenn ich erneut"
-	cont "kämpfen möchte!"
+	text "I'll remember to"
+	line "call when I want"
+	cont "to battle again!"
 	done
 
 ErinNumberDeclinedText:
-	text "Oh… Wie schade…"
-	line "Möchtest du doch"
+	text "Oh… I'm sad…"
+	line "If you do want to"
 
-	para "kämpfen, dann"
-	line "suche nach LOTTE!"
+	para "battle, come see"
+	line "ERIN--that's me!"
 	done
 
 ErinPhoneFullText:
-	text "Oh, dein Nummern-"
-	line "speicher ist voll."
+	text "Oh no. Your phone"
+	line "is all filled up."
 	done
 
 ErinRematchText:
-	text "Ich warte bereits!"
-	line "Und los geht's!"
+	text "Yay! I waited!"
+	line "Let's start now!"
 	done
 
 ErinPackFullText:
-	text "Pech für dich! Du"
-	line "hast keinen Platz…"
+	text "That's too bad!"
+	line "You have no room…"
 
-	para "Ich händige es dir"
-	line "später aus."
+	para "I'll give it to"
+	line "you another time."
 	done
 
 ErinRematchGiftText:
-	text "Argh… Ich habe"
-	line "erneut verloren!"
+	text "Aww… I lost again!"
 
-	para "Zum wievielten"
-	line "Mal war das…"
+	para "I wonder how many"
+	line "times that is…"
 
-	para "Danke, für alles!"
-	line "Hier ist dein"
-	cont "Geschenk!"
+	para "Thanks for coming!"
+	line "Here's a present!"
 	done

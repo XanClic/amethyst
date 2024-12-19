@@ -1,10 +1,10 @@
-	db "PANZER@" ; species name
-	dbw 20, 2020 ; height, weight
+	db "ARMOR@" ; species name
+	dw 607, 4450 ; height, weight
 
-	db   "Es besitzt so viel"
-	next "Kraft, dass es mit"
-	next "nur einer Hand die"
+	db   "In just one of its"
+	next "mighty hands, it"
+	next "has the power to"
 
-	page "Erde beben lassen"
-	next "und Berge"
-	next "zerbröckeln kann.@"
+	page "make the ground"
+	next "shake and moun-"
+	next "tains crumble.@"

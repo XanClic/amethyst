@@ -90,10 +90,10 @@ CeladonDeptStore6FVendingMachine:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "TAFELWASSER  ¥{d:CELADONDEPTSTORE6F_FRESH_WATER_PRICE}@"
-	db "SPRUDEL      ¥{d:CELADONDEPTSTORE6F_SODA_POP_PRICE}@"
-	db "LIMONADE     ¥{d:CELADONDEPTSTORE6F_LEMONADE_PRICE}@"
-	db "ZURÜCK@"
+	db "FRESH WATER  ¥{d:CELADONDEPTSTORE6F_FRESH_WATER_PRICE}@"
+	db "SODA POP     ¥{d:CELADONDEPTSTORE6F_SODA_POP_PRICE}@"
+	db "LEMONADE     ¥{d:CELADONDEPTSTORE6F_LEMONADE_PRICE}@"
+	db "CANCEL@"
 
 CeladonDeptStore6FDirectory:
 	jumptext CeladonDeptStore6FDirectoryText
@@ -102,51 +102,48 @@ CeladonDeptStore6FElevatorButton: ; unreferenced
 	jumpstd ElevatorButtonScript
 
 CeladonVendingText:
-	text "Ein Automat!"
-	line "Hier ist die"
-	cont "Anleitung."
+	text "A vending machine!"
+	line "Here's the menu."
 	done
 
 CeladonClangText:
-	text "Klang!"
+	text "Clang!"
 
 	para "@"
 	text_ram wStringBuffer3
 	text_start
-	line "liegt im Schacht."
+	line "popped out."
 	done
 
 CeladonVendingNoMoneyText:
-	text "Ups, nicht"
-	line "genügend Geld…"
+	text "Oops, not enough"
+	line "money…"
 	done
 
 CeladonVendingNoSpaceText:
-	text "Da ist nicht genug"
-	line "Platz für mehr"
-	cont "Utensilien…"
+	text "There's no more"
+	line "room for stuff…"
 	done
 
 CeladonDeptStore6FSuperNerdText:
-	text "Ein Spielautomat"
-	line "mit einem"
-	cont "Roulette…"
+	text "A vending machine"
+	line "with a prize rou-"
+	cont "lette…"
 
-	para "Die gibt es schon"
-	line "lange nicht mehr."
+	para "You never see"
+	line "those anymore."
 	done
 
 CeladonDeptStore6FYoungsterText:
-	text "Aww! Hier gibt es"
-	line "keine Spiele!"
+	text "Aww! There's no"
+	line "games here!"
 
-	para "Ich wollte doch"
-	line "spielen…"
+	para "I wanted to play…"
 	done
 
 CeladonDeptStore6FDirectoryText:
-	text "5S: DACHTERRASSE"
-	line "SPIELAUTOMATEN"
+	text "6F: ROOFTOP SQUARE"
+	line "VENDING MACHINES"
 	done
 
 CeladonDeptStore6F_MapEvents:

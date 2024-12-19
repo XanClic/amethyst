@@ -1,10 +1,10 @@
-	db "GEDULD@" ; species name
-	dbw 13, 285 ; height, weight
+	db "PATIENT@" ; species name
+	dw 403, 630 ; height, weight
 
-	db   "Um seinen schwar-"
-	next "zen Schwanz zu"
-	next "verstecken, lebt"
+	db   "In order to con-"
+	next "ceal its black"
+	next "tail, it lives in"
 
-	page "es in einer Höhle,"
-	next "die es nur nachts"
-	next "verläßt.@"
+	page "a dark cave and"
+	next "only moves about"
+	next "at night.@"

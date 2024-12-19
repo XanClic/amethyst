@@ -1,10 +1,10 @@
 	db "EVOLUTION@" ; species name
-	dbw 3, 65 ; height, weight
+	dw 100, 140 ; height, weight
 
-	db   "Da es so viele"
-	next "verschiedene Ent-"
-	next "wicklungsformen"
+	db   "Its ability to"
+	next "evolve into many"
+	next "forms allows it to"
 
-	page "hat, kann es sich"
-	next "jeder Umgebung"
-	next "perfekt anpassen.@"
+	page "adapt smoothly"
+	next "and perfectly to"
+	next "any environment.@"

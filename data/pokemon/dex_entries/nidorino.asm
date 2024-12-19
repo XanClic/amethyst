@@ -1,10 +1,10 @@
-	db "GIFTDORN@" ; species name
-	dbw 9, 195 ; height, weight
+	db "POISON PIN@" ; species name
+	dw 211, 430 ; height, weight
 
-	db   "Es ist leicht"
-	next "erregbar und setzt"
-	next "sein Horn ein,"
+	db   "It is easily"
+	next "agitated and uses"
+	next "its horn for"
 
-	page "sobald es einen"
-	next "Angreifer"
-	next "wahrnimmt.@"
+	page "offense as soon as"
+	next "it notices an"
+	next "attacker.@"

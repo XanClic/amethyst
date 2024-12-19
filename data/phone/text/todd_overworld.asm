@@ -1,78 +1,67 @@
 ToddAskNumber1Text:
-	text "Von hier kann ich"
-	line "das KAUFHAUS von"
+	text "From here, I can"
+	line "see GOLDENROD's"
 
-	para "DUKATIA CITY"
-	line "sehen. Sie ver-"
+	para "DEPT.STORE. They"
+	line "have bargain sales"
 
-	para "kaufen hin und"
-	line "wieder Sonderan-"
-	cont "gebote auf dem"
-	cont "Dach."
+	para "up on the rooftop"
+	line "every so often."
 
-	para "Gibst du mir deine"
-	line "Telefonnummer?"
+	para "Could I get your"
+	line "phone number?"
 
-	para "Ich melde mich,"
-	line "wenn sie wieder"
-	cont "Angebote haben."
+	para "I'll call you when"
+	line "they have a sale."
 	done
 
 ToddAskNumber2Text:
-	text "Wenn du mir deine"
-	line "Nummer gibst, rufe"
+	text "If you give me"
+	line "your number, I'll"
 
-	para "ich an, wenn sie"
-	line "Angebote haben."
+	para "call you when they"
+	line "have a sale."
 	done
 
 ToddNumberAcceptedText:
-	text "Ich gehe täglich"
-	line "in das KAUFHAUS"
+	text "I check GOLDENROD"
+	line "DEPT.STORE every"
 
-	para "von DUKATIA CITY."
-	line "Daher weiß ich,"
-
-	para "wann sie Angebote"
-	line "haben."
+	para "day, so I know"
+	line "when there's a"
+	cont "sale."
 	done
 
 ToddNumberDeclinedText:
-	text "Egal…"
+	text "Anyway…"
 
-	para "Bist du knapp bei"
-	line "Kasse, notiere"
-	cont "meine Nummer."
+	para "If you're short on"
+	line "money, take down"
+	cont "my number."
 
-	para "Ich rufe dich an,"
-	line "wenn sie Angebote"
-	cont "haben."
+	para "I'll call you when"
+	line "there's a sale."
 	done
 
 ToddPhoneFullText:
-	text "Dein Telefon hat"
-	line "keinen freien"
-	cont "Speicherplatz"
-	cont "mehr."
+	text "Your phone doesn't"
+	line "have enough memory"
+	cont "for more numbers."
 	done
 
 ToddRematchText:
-	text "Ich erwartete"
-	line "dich! Ich war"
+	text "I waited for you!"
+	line "I even cut back my"
 
-	para "nicht mehr so"
-	line "oft Einkaufen, um"
-
-	para "mein #MON bes-"
-	line "ser zu trainieren!"
+	para "shopping to raise"
+	line "my #MON better!"
 	done
 
-UnusedText_0xa43ca:
-; This is unused; Todd says this during the department store sale,
-; but this is a duplicate of the actual string in the Route 34 scripts.
-	text "Einkaufen unter"
-	line "freiem Himmel!"
+ToddSaleText: ; unreferenced
+; This is a duplicate of CamperToddSaleText in maps/Route34.asm.
+	text "Shopping under the"
+	line "sky!"
 
-	para "Es ist wunderschön"
-	line "hier auf dem Dach."
+	para "It feels so nice"
+	line "up on a rooftop."
 	done

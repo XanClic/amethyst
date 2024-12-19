@@ -28,34 +28,30 @@ GoldenrodDeptStore3FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodDeptStore3FSuperNerdText:
-	text "Ich, ich, ich bin"
-	line "so ungeduldig!"
+	text "I, I, I'm really"
+	line "impatient!"
 
-	para "Ich setze X-TEMPO"
-	line "im Kampf ein, um"
-
-	para "den INIT-Wert"
-	line "meiner #MON"
-
-	para "zu erhöhen."
+	para "I use X SPEED in"
+	line "battle to speed up"
+	cont "my #MON."
 	done
 
 GoldenrodDeptStore3FRockerText:
-	text "Hey! Setzt du im"
-	line "Kampf X-SPEZIAL"
-	cont "ein?"
+	text "Hey! When you bat-"
+	line "tle, do you use X"
+	cont "SPECIAL?"
 
-	para "Es ist toll. Es"
-	line "verstärkt alle"
-	cont "SPEZIALATTACKEN!"
+	para "It's awesome. It"
+	line "really jacks up"
+	cont "SPECIAL ATTACK!"
 	done
 
 GoldenrodDeptStore3FDirectoryText:
-	text "Für Sieges-"
-	line "hungrige"
+	text "For Victory"
+	line "Seekers"
 
-	para "2S KAMPF-"
-	line "   KOLLEKTION"
+	para "3F BATTLE"
+	line "   COLLECTION"
 	done
 
 GoldenrodDeptStore3F_MapEvents:

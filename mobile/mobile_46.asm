@@ -3870,7 +3870,6 @@ MenuData_119cff: ; unreferenced
 String_119d07:
 	db "   ▼@"
 
-if !DEF(_CRYSTAL_EU)
 Strings_L10ToL100:
 	db " L:10 @@"
 	db " L:20 @@"
@@ -3891,55 +3890,8 @@ Strings_Ll0ToL40:
 	db " L:40 @@"
 	db "CANCEL@@"
 
-String_119d8c:
+BattleTowerCancelString: ; unreferenced
 	db "CANCEL@"
-elif DEF(_CRYSTAL_DE)
-Strings_L10ToL100:
-	db " L:10 @@"
-	db " L:20 @@"
-	db " L:30 @@"
-	db " L:40 @@"
-	db " L:50 @@"
-	db " L:60 @@"
-	db " L:70 @@"
-	db " L:80 @@"
-	db " L:90 @@"
-	db " L:100@@"
-	db "ZURÜCK@@"
-
-Strings_Ll0ToL40:
-	db " L:10 @@"
-	db " L:20 @@"
-	db " L:30 @@"
-	db " L:40 @@"
-	db "ZURÜCK@@"
-
-String_119d8c:
-	db "ZURÜCK@"
-elif DEF(_CRYSTAL_ES)
-Strings_L10ToL100:
-	db " N:10 @@"
-	db " N:20 @@"
-	db " N:30 @@"
-	db " N:40 @@"
-	db " N:50 @@"
-	db " N:60 @@"
-	db " N:70 @@"
-	db " N:80 @@"
-	db " N:90 @@"
-	db " N:100@@"
-	db "SALIR @@"
-
-Strings_Ll0ToL40:
-	db " N:10 @@"
-	db " N:20 @@"
-	db " N:30 @@"
-	db " N:40 @@"
-	db " SALIR@@"
-
-String_119d8c:
-	db " SALIR@@"
-endc
 
 BattleTower_LevelCheck:
 	ldh a, [rSVBK]
@@ -4587,31 +4539,13 @@ BattleTowerRoomMenu2_PlaceYesNoMenu:
 	call MenuBox
 	call MenuBoxCoord2Tile
 	call ApplyTilemap
-if !DEF(_CRYSTAL_EU)
 	hlcoord 16, 8
-elif DEF(_CRYSTAL_DE)
-	hlcoord 15, 8
-elif DEF(_CRYSTAL_ES)
-	hlcoord 17, 8
-endc
 	ld de, String_11a2cf
 	call PlaceString
-if !DEF(_CRYSTAL_EU)
 	hlcoord 16, 10
-elif DEF(_CRYSTAL_DE)
-	hlcoord 15, 10
-elif DEF(_CRYSTAL_ES)
-	hlcoord 17, 10
-endc
 	ld de, String_11a2d3
 	call PlaceString
-if !DEF(_CRYSTAL_EU)
 	hlcoord 15, 8
-elif DEF(_CRYSTAL_DE)
-	hlcoord 14, 8
-elif DEF(_CRYSTAL_ES)
-	hlcoord 16, 8
-endc
 	ld a, $ed
 	ld [hl], a
 	xor a
@@ -4646,22 +4580,10 @@ BattleTowerRoomMenu2_UpdateYesNoMenu:
 	jr z, .asm_11a24c
 	xor a
 	ld [wMobileInactivityTimerMinutes], a
-if !DEF(_CRYSTAL_EU)
 	hlcoord 15, 8
-elif DEF(_CRYSTAL_DE)
-	hlcoord 14, 8
-elif DEF(_CRYSTAL_ES)
-	hlcoord 16, 8
-endc
 	ld a, $ed
 	ld [hl], a
-if !DEF(_CRYSTAL_EU)
 	hlcoord 15, 10
-elif DEF(_CRYSTAL_DE)
-	hlcoord 14, 10
-elif DEF(_CRYSTAL_ES)
-	hlcoord 16, 10
-endc
 	ld a, $7f
 	ld [hl], a
 	jr .asm_11a24c
@@ -4675,22 +4597,10 @@ endc
 	jr nz, .asm_11a24c
 	inc a
 	ld [wMobileInactivityTimerMinutes], a
-if !DEF(_CRYSTAL_EU)
 	hlcoord 15, 8
-elif DEF(_CRYSTAL_DE)
-	hlcoord 14, 8
-elif DEF(_CRYSTAL_ES)
-	hlcoord 16, 8
-endc
 	ld a, $7f
 	ld [hl], a
-if !DEF(_CRYSTAL_EU)
 	hlcoord 15, 10
-elif DEF(_CRYSTAL_DE)
-	hlcoord 14, 10
-elif DEF(_CRYSTAL_ES)
-	hlcoord 16, 10
-endc
 	ld a, $ed
 	ld [hl], a
 	jr .asm_11a24c
@@ -4730,38 +4640,21 @@ endc
 	and a
 	ret
 
-if !DEF(_CRYSTAL_EU)
-String_11a2cf: db "YES@"
-String_11a2d3: db "NO@"
-elif DEF(_CRYSTAL_DE)
-String_11a2cf: db "JA@"
-String_11a2d3: db "NEIN@"
-elif DEF(_CRYSTAL_ES)
-String_11a2cf: db "SÍ@"
-String_11a2d3: db "NO@"
-endc
+String_11a2cf:
+	db "YES@"
+
+String_11a2d3:
+	db "NO@"
 
 MenuHeader_11a2d6: ; unreferenced
 	db MENU_BACKUP_TILES ; flags
-if !DEF(_CRYSTAL_EU)
 	menu_coords 14, 6, SCREEN_WIDTH - 1, 10
-elif DEF(_CRYSTAL_DE)
-	menu_coords 13, 6, SCREEN_WIDTH - 1, 10
-elif DEF(_CRYSTAL_ES)
-	menu_coords 15, 6, SCREEN_WIDTH - 1, 10
-endc
 	dw NULL
 	db 0 ; default option
 
 MenuHeader_11a2de:
 	db MENU_BACKUP_TILES ; flags
-if !DEF(_CRYSTAL_EU)
 	menu_coords 14, 7, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
-elif DEF(_CRYSTAL_DE)
-	menu_coords 13, 7, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
-elif DEF(_CRYSTAL_ES)
-	menu_coords 15, 7, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
-endc
 	dw NULL
 	db 0 ; default option
 
@@ -5540,7 +5433,6 @@ Function11a9f4: ; unreferenced
 	and a
 	ret
 
-if !DEF(_CRYSTAL_EU)
 Text_SaveFileWillBeSent:
 	text "SAVE FILE will be"
 	line "sent."
@@ -5563,12 +5455,12 @@ Text_QuitReadingNews:
 	text "Quit reading NEWS?"
 	done
 
-Text_CanceledSendingSaveFile:
+Text_CanceledSendingSaveFile: ; unreferenced
 	text "Canceled sending"
 	line "SAVE FILE."
 	done
 
-Text_ReceivedOddEgg:
+Text_ReceivedOddEgg: ; unreferenced
 	text "ODD EGG"
 	line "was received!"
 	done
@@ -5578,7 +5470,7 @@ Text_RegisteringRecord:
 	line "record…"
 	done
 
-Text_BattleRoomVisitLimit:
+Text_BattleRoomVisitLimit: ; unreferenced
 	text "One visit per day"
 	line "per BATTLE ROOM!"
 	done
@@ -5607,7 +5499,7 @@ Text_ExitGymLeaderHonorRoll:
 	line "HONOR ROLL?"
 	done
 
-Text_LinkingWithCenter:
+Text_LinkingWithCenter: ; unreferenced
 	text "Linking with the"
 	line "CENTER…"
 	done
@@ -5622,16 +5514,16 @@ Text_CheckBattleRoomListByMaxLevel:
 	line "list by max level?"
 	done
 
-Text_EnterWhichBattleRoom:
+Text_EnterWhichBattleRoom: ; unreferenced
 	text "Enter which"
 	line "BATTLE ROOM?"
 	done
 
-Text_WhichBattleRoom:
+Text_WhichBattleRoom: ; unreferenced
 	text "Which BATTLE ROOM?"
 	done
 
-Text_ThisBattleRoomPleaseWait:
+Text_ThisBattleRoomPleaseWait: ; unreferenced
 	text_ram wStringBuffer3
 	text "'s ROOM"
 	line "@"
@@ -5639,226 +5531,6 @@ Text_ThisBattleRoomPleaseWait:
 	text "?"
 	cont "Please wait…"
 	done
-elif DEF(_CRYSTAL_DE)
-Text_SaveFileWillBeSent:
-	text "SPIELSTAND wird"
-	line "übertragen."
-	done
-
-Text_SentSaveFileReadingNews:
-	text "SPIELSTAND fertig."
-	line "Lade DATEN…"
-	done
-
-Text_ReadingNews:
-	text "Lade DATEN…"
-	done
-
-Text_ReceivedNews:
-	text "DATEN übertragen!"
-	done
-
-Text_QuitReadingNews:
-	text "DATEN nicht laden?"
-	done
-
-Text_CanceledSendingSaveFile:
-	text "SPIELSTAND-Über-"
-	line "trag abgebrochen."
-	done
-
-Text_ReceivedOddEgg:
-	text "KURIOS-EI"
-	line "erhalten!"
-	done
-
-Text_RegisteringRecord:
-	text "Deine Daten werden"
-	line "gesichert…"
-	done
-
-Text_BattleRoomVisitLimit:
-	text "Nur ein Besuch im"
-	line "KAMPFRAUM pro Tag!"
-	done
-
-Text_PartyMonTopsThisLevel:
-	text "Eines oder mehrere"
-	line "#MON in deinem"
-	cont "Team übersteigen"
-	cont "den Level."
-	done
-
-Text_UberRestriction:
-	text_ram wcd49
-	text " ist"
-	line "nur für KAMPFRÄUME"
-
-	para "ab LV 70 oder"
-	line "höher zugelassen."
-	done
-
-Text_CancelBattleRoomChallenge:
-	text "Die KAMPFRAUM-"
-	line "Herausforderung"
-	cont "abbrechen?"
-	done
-
-Text_ExitGymLeaderHonorRoll:
-	text "ARENALEITER-EHREN-"
-	line "LISTE verlassen?"
-	done
-
-Text_LinkingWithCenter:
-	text "Verbindung mit"
-	line "CENTER erstellen…"
-	done
-
-Text_WhatLevelDoYouWantToChallenge:
-	text "Welchen Level"
-	line "herausfordern?"
-	done
-
-Text_CheckBattleRoomListByMaxLevel:
-	text "KAMPFRAUM-Liste"
-	line "nach max. Level"
-	cont "überprüfen?"
-	done
-
-Text_EnterWhichBattleRoom:
-	text "Welchen KAMPFRAUM"
-	line "betreten?"
-	done
-
-Text_WhichBattleRoom:
-	text "Welchen KAMPFRAUM?"
-	done
-
-Text_ThisBattleRoomPleaseWait:
-	text_ram wStringBuffer3
-	text "s RAUM"
-	line "@"
-	text_ram wStringBuffer4
-	text "?"
-	cont "Bitte warten…"
-	done
-
-elif DEF(_CRYSTAL_ES)
-Text_SaveFileWillBeSent:
-	text "Se enviará el"
-	line "FICHERO GUARDADO."
-	done
-
-Text_SentSaveFileReadingNews:
-	text "FICHERO GUARDADO"
-	line "enviado."
-	cont "Leyendo NOTICIAS…"
-	done
-
-Text_ReadingNews:
-	text "Leyendo NOTICIAS…"
-	done
-
-Text_ReceivedNews:
-	text "¡NOTICIAS"
-	line "recibidas!"
-	done
-
-Text_QuitReadingNews:
-	text "¿Dejas de leer las"
-	line "NOTICIAS?"
-	done
-
-Text_CanceledSendingSaveFile:
-	text "Envío de FICHERO"
-	line "GUARDADO"
-	cont "cancelado."
-	done
-
-Text_ReceivedOddEgg:
-	text "¡Recibido"
-	line "HUEVO RARO!"
-	done
-
-Text_RegisteringRecord:
-	text "Registrando tu"
-	line "récord…"
-	done
-
-Text_BattleRoomVisitLimit:
-	text "¡Sólo puedes"
-	line "visitar una vez al"
-
-	para "día cada SALA"
-	line "BATALLA!"
-	done
-
-Text_PartyMonTopsThisLevel:
-	text "Uno o más #MON"
-	line "de tu equipo"
-	cont "superan ese nivel."
-	done
-
-Text_UberRestriction:
-	text_ram wcd49
-	text " puede"
-	line "ir sólo a SALAS"
-
-	para "BATALLA que sean"
-	line "de Nivel 70 o"
-	cont "superior."
-	done
-
-Text_CancelBattleRoomChallenge:
-	text "¿Cancelas tu"
-	line "desafío de SALA"
-	cont "BATALLA?"
-	done
-
-Text_ExitGymLeaderHonorRoll:
-	text "¿Sales de la LISTA"
-	line "de HONOR de los"
-	cont "LíD. de GIMNASIO?"
-	done
-
-Text_LinkingWithCenter:
-	text "Conectando con el"
-	line "CENTRO…"
-	done
-
-Text_WhatLevelDoYouWantToChallenge:
-	text "¿Contra qué nivel"
-	line "quieres combatir?"
-	done
-
-Text_CheckBattleRoomListByMaxLevel:
-	text "¿Compruebas la"
-	line "lista de SALAS"
-
-	para "BATALLA por nivel"
-	line "máximo?"
-	done
-
-Text_EnterWhichBattleRoom:
-	text "¿En qué SALA"
-	line "BATALLA entras?"
-	done
-
-Text_WhichBattleRoom:
-	text "¿Qué SALA"
-	line "BATALLA?"
-	done
-
-Text_ThisBattleRoomPleaseWait:
-	text "¿SALA @"
-	text_ram wStringBuffer4
-	text_start
-	line "de @"
-	text_ram wStringBuffer3
-	text "?"
-	cont "Por favor, espera…"
-	done
-endc
 
 Function11ac3e:
 	call SpeechTextbox

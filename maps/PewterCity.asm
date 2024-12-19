@@ -67,99 +67,87 @@ PewterCityFruitTree2:
 	fruittree FRUITTREE_PEWTER_CITY_2
 
 PewterCityCooltrainerFText:
-	text "Warst du schon in"
-	line "der PKMN-ARENA von"
-	cont "MARMORIA CITY?"
+	text "Have you visited"
+	line "PEWTER GYM?"
 
-	para "Der LEITER dort"
-	line "verwendet Gestein-"
-	cont "#MON."
+	para "The LEADER uses"
+	line "rock-type #MON."
 	done
 
 PewterCityBugCatcherText:
-	text "NACHTs spielen"
-	line "PIEPI beim"
-	cont "MONDBERG."
+	text "At night, CLEFAIRY"
+	line "come out to play"
+	cont "at MT.MOON."
 
-	para "Aber nicht in"
-	line "jeder Nacht."
+	para "But not every"
+	line "night."
 	done
 
 PewterCityGrampsText:
-	text "Oh, du bist den"
-	line "ganzen Weg "
-	cont "von JOHTO bis"
-	cont "hierher gekommen?"
+	text "Ah, you came all"
+	line "the way out here"
+	cont "from JOHTO?"
 
-	para "Das weckt"
-	line "Erinnerungen. Als"
+	para "That brings back"
+	line "memories. When I"
 
-	para "ich noch jung war,"
-	line "habe ich in JOHTO"
-	cont "oft trainiert."
+	para "was young, I went"
+	line "to JOHTO to train."
 
-	para "Du erinnerst"
-	line "mich an mich"
+	para "You remind me so"
+	line "much of what I was"
 
-	para "selbst als junger"
-	line "Mann."
+	para "like as a young"
+	line "man."
 
-	para "Hier. Ich möchte,"
-	line "dass du dieses"
-	cont "Item, das ich in"
-	cont "JOHTO fand,"
-	cont "behältst."
+	para "Here. I want you"
+	line "to have this item"
+	cont "I found in JOHTO."
 	done
 
 PewterCityGrampsText_GotSilverWing:
-	text "Neue und un-"
-	line "bekannte Orte zu"
-	cont "erforschen und"
-	cont "fremde Menschen"
-	cont "kennen zu lernen…"
+	text "Going to new, un-"
+	line "known places and"
+	cont "seeing new people…"
 
-	para "Das ist das Schöne"
-	line "am Reisen."
+	para "Those are the joys"
+	line "of travel."
 	done
 
 PewterCitySignText:
-	text "MARMORIA CITY"
-	line "Eine Steingraue"
-	cont "Stadt"
+	text "PEWTER CITY"
+	line "A Stone Gray City"
 	done
 
 PewterGymSignText:
-	text "PKMN-ARENA von"
-	line "MARMORIA CITY"
-	cont "LEITUNG: ROCKO"
+	text "PEWTER CITY"
+	line "#MON GYM"
+	cont "LEADER: BROCK"
 
-	para "Der Felsenharte"
-	line "#MON-Trainer"
+	para "The Rock Solid"
+	line "#MON Trainer"
 	done
 
 PewterMuseumSignText:
-	text "Hier ist eine"
-	line "Nachricht…"
+	text "There's a notice"
+	line "here…"
 
-	para "MARMORIAS MUSEUM"
-	line "DER WISSENSCHAFT"
-	cont "ist wegen Reno-"
-	cont "vierungsarbeiten"
-	cont "geschlossen…"
+	para "PEWTER MUSEUM OF"
+	line "SCIENCE is closed"
+	cont "for renovations…"
 	done
 
 PewterCityMtMoonGiftShopSignText:
-	text "Hier ist eine"
-	line "Nachricht…"
+	text "There's a notice"
+	line "here…"
 
-	para "SOUVENIRLADEN AM"
-	line "MONDBERG"
-	cont "Jetzt geöffnet!"
+	para "MT.MOON GIFT SHOP"
+	line "NOW OPEN!"
 	done
 
 PewterCityWelcomeSignText:
-	text "Willkommen in"
-	line "MARMORIA CITY!"
+	text "WELCOME TO"
+	line "PEWTER CITY!"
 	done
 
 PewterCity_MapEvents:

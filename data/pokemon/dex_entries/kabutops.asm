@@ -1,10 +1,10 @@
-	db "SCHALTIER@" ; species name
-	dbw 13, 405 ; height, weight
+	db "SHELLFISH@" ; species name
+	dw 403, 890 ; height, weight
 
-	db   "Es konnte sehr"
-	next "schnell schwimmen,"
-	next "da es seine"
+	db   "It was able to"
+	next "swim quickly thro-"
+	next "ugh the water by"
 
-	page "rasiermesser-"
-	next "scharfen Sicheln"
-	next "einklappte.@"
+	page "compactly folding"
+	next "up its razor-sharp"
+	next "sickles.@"

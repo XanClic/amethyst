@@ -1,10 +1,10 @@
-	db "GIFTMOTTE@" ; species name
-	dbw 15, 125 ; height, weight
+	db "POISONMOTH@" ; species name
+	dw 411, 280 ; height, weight
 
-	db   "Die Schuppen, die"
-	next "es verstreut,"
-	next "lähmen jeden, der"
+	db   "The scales it"
+	next "scatters will"
+	next "paralyze anyone"
 
-	page "sie berührt und"
-	next "zwingen ihn, sich"
-	next "zu setzen.@"
+	page "who touches them,"
+	next "making that person"
+	next "unable to stand.@"

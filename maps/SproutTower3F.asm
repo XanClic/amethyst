@@ -152,194 +152,179 @@ SproutTower3FRivalLeavesElderMovement:
 	step_end
 
 SproutTowerElderLecturesRivalText:
-	text "WEISER: Du bist "
-	line "wirklich ein"
-	cont "begabter Trainer."
+	text "ELDER: You are in-"
+	line "deed skilled as a"
+	cont "trainer."
 
-	para "Wie abgemacht, be-"
-	line "kommst du die VM."
+	para "As promised, here"
+	line "is your HM."
 
-	para "Eines gebe ich dir"
-	line "noch mit: "
+	para "But let me say"
+	line "this: You should"
 
-	para "Behandle deine"
-	line "#MON besser."
+	para "treat your"
+	line "#MON better."
 
-	para "Dein Kampfstil"
-	line "ist zu aggressiv."
+	para "The way you battle"
+	line "is far too harsh."
 
-	para "#MON sind keine"
-	line "Kampfspielzeuge…"
+	para "#MON are not"
+	line "tools of war…"
 	done
 
 SproutTowerRivalOnlyCareAboutStrongText:
 	text "…"
-	line "…Hmpf!"
+	line "…Humph!"
 
-	para "Er behauptet,"
-	line "ein WEISER zu"
-	cont "sein. Aber er ist"
-	cont "schwach."
+	para "He claims to be"
+	line "the ELDER but"
+	cont "he's weak."
 
-	para "Das muss noch"
-	line "geklärt werden."
+	para "It stands to"
+	line "reason."
 
-	para "Ich würde nie ge-"
-	line "gen so einen Nar-"
-	cont "ren verlieren, der"
+	para "I'd never lose to"
+	line "fools who babble"
 
-	para "mir rät, meine"
-	line "#MON gut zu"
-	cont "behandeln."
+	para "about being nice"
+	line "to #MON."
 
-	para "Für mich zählen"
-	line "nur starke"
-	cont "#MON."
+	para "I only care about"
+	line "strong #MON"
+	cont "that can win."
 
-	para "Schwache #MON"
-	line "interessieren mich"
-	cont "gar nicht."
+	para "I really couldn't"
+	line "care less about"
+	cont "weak #MON."
 	done
 
 SproutTowerRivalUsedEscapeRopeText:
-	text "<RIVAL> benutzt"
-	line "FLUCHTSEIL!"
+	text "<RIVAL> used an"
+	line "ESCAPE ROPE!"
 	done
 
 SageLiSeenText:
-	text "Schön, dass du"
-	line "gekommen bist!"
+	text "So good of you to"
+	line "come here!"
 
-	para "Der KNOFENSA-TURM"
-	line "ist eine"
+	para "SPROUT TOWER is a"
+	line "place of training."
 
-	para "Trainingsstätte."
-	line "Trainer und"
+	para "People and #MON"
+	line "test their bonds"
 
-	para "#MON prüfen"
-	line "ihre Freundschaft,"
+	para "to build a bright"
+	line "future together."
 
-	para "um gemeinsam eine"
-	line "rosige Zukunft"
+	para "I am the final"
+	line "test."
 
-	para "aufzubauen."
-	line "Und ich bin der"
+	para "Allow me to check"
+	line "the ties between"
 
-	para "letzte Test."
-	line "Erlaube, dass ich"
-
-	para "die Freundschaft"
-	line "zwischen dir und"
-
-	para "deinen #MON"
-	line "überprüfe!"
+	para "your #MON and"
+	line "you!"
 	done
 
 SageLiBeatenText:
-	text "Ah, sehr gut!"
+	text "Ah, excellent!"
 	done
 
 SageLiTakeThisFlashText:
-	text "Du und dein #-"
-	line "MON dürftet keine"
+	text "You and your #-"
+	line "MON should have"
 
-	para "Probleme mit die-"
-	line "ser Attacke haben."
+	para "no problem using"
+	line "this move."
 
-	para "Nimm diese VM."
-	line "Sie enthält BLITZ."
+	para "Take this FLASH"
+	line "HM."
 	done
 
 SageLiFlashExplanationText:
-	text "Mit BLITZ kannst"
-	line "du die dunkelsten"
-	cont "Orte erhellen."
+	text "FLASH illuminates"
+	line "even the darkest"
+	cont "of all places."
 
-	para "Um BLITZ auch"
-	line "außerhalb eines"
+	para "But to use it out"
+	line "of battle, you"
 
-	para "Kampfes anwenden"
-	line "zu können, benö-"
-	cont "tigst du den ORDEN"
-	cont "des ARENALEITERs"
-	cont "von VIOLA CITY."
+	para "need the BADGE"
+	line "from VIOLET's GYM."
 	done
 
 SageLiAfterBattleText:
-	text "Ich hoffe, du"
-	line "lernst viel auf"
-	cont "deiner Reise."
+	text "I hope you learn"
+	line "and grow from your"
+	cont "journey."
 	done
 
 SageJinSeenText:
-	text "Ich trainiere, um"
-	line "durch #MON die"
-	cont "Erleuchtung"
-	cont "zu finden!"
+	text "I train to find"
+	line "enlightenment in"
+	cont "#MON!"
 	done
 
 SageJinBeatenText:
-	text "Mein Training ist"
-	line "unvollständig…"
+	text "My training is"
+	line "incomplete…"
 	done
 
 SageJinAfterBattleText:
-	text "Je stärker die"
-	line "#MON werden,"
-	cont "desto stärker wird"
-	cont "auch ihr Trainer."
+	text "As #MON grow"
+	line "stronger, so does"
+	cont "the trainer."
 
-	para "Nein, warte! Je"
-	line "stärker der Trai-"
-	cont "ner wird, desto"
-	cont "stärker werden"
-	cont "auch die #MON."
+	para "No, wait. As the"
+	line "trainer grows"
+
+	para "stronger, so do"
+	line "the #MON."
 	done
 
 SageTroySeenText:
-	text "Ich will sehen,"
-	line "wie sehr du deinen"
-	cont "#MON vertraust."
+	text "Let me see how"
+	line "much you trust"
+	cont "your #MON."
 	done
 
 SageTroyBeatenText:
-	text "Ja, du vertraust"
-	line "ihnen wirklich!"
+	text "Yes, your trust is"
+	line "real!"
 	done
 
 SageTroyAfterBattleText:
-	text "Du triffst bald"
-	line "auf den WEISEN."
+	text "It is not far to"
+	line "the ELDER."
 	done
 
 SageNealSeenText:
-	text "Mit der VM des"
-	line "WEISEN kannst du"
-	cont "selbst dunkelste"
-	cont "Orte erhellen."
+	text "The ELDER's HM"
+	line "lights even pitch-"
+	cont "black darkness."
 	done
 
 SageNealBeatenText:
-	text "Denken ist eben"
-	line "meine Stärke!"
+	text "It is my head that"
+	line "is bright!"
 	done
 
 SageNealAfterBattleText:
-	text "Möge dein Weg"
-	line "erleuchtet sein."
+	text "Let there be light"
+	line "on your journey."
 	done
 
 SproutTower3FPaintingText:
-	text "Dies ist ein dy-"
-	line "namisches Gemälde"
-	cont "von KNOFENSA."
+	text "It's a powerful"
+	line "painting of a"
+	cont "BELLSPROUT."
 	done
 
 SproutTower3FStatueText:
-	text "Eine PKMN-Statue…"
+	text "A #MON statue…"
 
-	para "Sie sieht sehr"
-	line "erhaben aus."
+	para "It looks very"
+	line "distinguished."
 	done
 
 SproutTower3F_MapEvents:

@@ -132,172 +132,153 @@ Route41HiddenMaxEther:
 	hiddenitem MAX_ETHER, EVENT_ROUTE_41_HIDDEN_MAX_ETHER
 
 SwimmermCharlieSeenText:
-	text "Das Wasser ist"
-	line "schön warm. Ich"
-	cont "bin also sehr"
-	cont "locker und gelenk."
+	text "The water's warm"
+	line "here. I'm loose"
+	cont "and limber."
 
-	para "Natürlich trete"
-	line "ich gegen dich an!"
+	para "Sure, I'll take"
+	line "you on!"
 	done
 
 SwimmermCharlieBeatenText:
-	text "Oje! Ich habe eine"
-	line "Gänsehaut!"
+	text "Yikes! I've got"
+	line "prune skin!"
 	done
 
 SwimmermCharlieAfterBattleText:
-	text "Ist es nicht"
-	line "sehr entspannend,"
-	cont "sich auf dem"
-	cont "Wasser treiben"
-	cont "zu lassen?"
+	text "Isn't it relaxing"
+	line "just floating like"
+	cont "this?"
 	done
 
 SwimmermGeorgeSeenText:
-	text "Ich bin etwas"
-	line "müde. Wenn ich"
-	cont "gewinne, leihst du"
-	cont "mir dein #MON."
+	text "I'm a bit tired."
+	line "If I win, lend me"
+	cont "your #MON."
 	done
 
 SwimmermGeorgeBeatenText:
-	text "Keuch, japs…"
+	text "Pant, pant…"
 	done
 
 SwimmermGeorgeAfterBattleText:
-	text "ANEMONIA CITY ist"
-	line "noch so weit weg."
+	text "It's so far to"
+	line "CIANWOOD."
 
-	para "Aber der Rückweg"
-	line "nach OLIVIANA CITY"
-	cont "ist auch nicht"
-	cont "viel kürzer."
+	para "But it's no easy"
+	line "return trip to"
+	cont "OLIVINE either."
 
-	para "Was soll ich tun?"
+	para "What should I do?"
 	done
 
 SwimmermBerkeSeenText:
-	text "Siehst du diese"
-	line "Inseln, die von"
-	cont "den Strudeln"
-	cont "blockiert werden?"
+	text "See those islands"
+	line "that are blocked"
+	cont "by whirlpools?"
 
-	para "Dort gibt es"
-	line "bestimmt ein"
-	cont "Geheimnis!"
+	para "There just has to"
+	line "be a secret!"
 	done
 
 SwimmermBerkeBeatenText:
-	text "Was ist das"
-	line "Geheimnis deiner"
-	cont "Stärke?"
+	text "What's the secret"
+	line "to your strength?"
 	done
 
 SwimmermBerkeAfterBattleText:
-	text "Die Nacht war"
-	line "dunkel und ein"
-	cont "Sturm wütete…"
+	text "It was a dark and"
+	line "stormy night…"
 
-	para "Da sah ich dieses"
-	line "riesige #MON"
-	cont "über den Inseln"
-	cont "aufsteigen."
+	para "I saw this giant"
+	line "#MON flying"
+	cont "from the islands."
 
-	para "Aus seinen"
-	line "silbernen Flügeln"
-	cont "fielen ein paar"
-	cont "Federn."
+	para "It was scattering"
+	line "feathers from its"
+	cont "silver wings."
 	done
 
 SwimmermKirkSeenText:
-	text "Hier gibt es hohe"
-	line "Wellen."
+	text "The waves are wild"
+	line "here."
 
-	para "Das macht dich"
-	line "schnell müde."
+	para "They tire you out"
+	line "while you swim."
 	done
 
 SwimmermKirkBeatenText:
-	text "Ich bin besiegt!"
+	text "I'm beat!"
 	done
 
 SwimmermKirkAfterBattleText:
-	text "Die Strömung ist"
-	line "zu stark. Ich kann"
-	cont "die Insel nicht"
-	cont "erreichen."
+	text "The currents keep"
+	line "me from reaching"
+	cont "that island."
 	done
 
 SwimmermMathewSeenText:
-	text "Suchst du die"
-	line "Geheimnisse der"
-	cont "STRUDELINSELN?"
+	text "Are you seeking"
+	line "the secrets of"
+	cont "WHIRL ISLANDS?"
 	done
 
 SwimmermMathewBeatenText:
-	text "Ach. Du hast viel"
-	line "Ausdauer!"
+	text "Ooh, you've got"
+	line "great endurance!"
 	done
 
 SwimmermMathewAfterBattleText:
-	text "Ein Geheimnis"
-	line "der STRUDELINSELN…"
+	text "A secret about"
+	line "WHIRL ISLANDS…"
 
-	para "Es ist kohlraben-"
-	line "schwarz darinnen!"
+	para "It's pitch-black"
+	line "inside!"
 	done
 
 SwimmerfKayleeSeenText:
-	text "Ich bin auf dem"
-	line "Weg zu den"
-	cont "STRUDELINSELN."
+	text "I'm on my way to"
+	line "WHIRL ISLANDS."
 
-	para "Ich gehe mit"
-	line "meinen Kameraden"
-	cont "auf Erkundungs-"
-	cont "reise."
+	para "I'm going explor-"
+	line "ing with friends."
 	done
 
 SwimmerfKayleeBeatenText:
-	text "Ist es so richtig?"
+	text "Is that how you do"
+	line "it?"
 	done
 
 SwimmerfKayleeAfterBattleText:
-	text "Tief versteckt"
-	line "auf den STRUDEL-"
-	cont "INSELN soll ein"
-	cont "großes #MON"
-	cont "leben."
+	text "There's supposed"
+	line "to be a big #-"
+	cont "MON deep beneath"
+	cont "WHIRL ISLANDS."
 
-	para "Was für ein #-"
-	line "MON das wohl ist?"
+	para "I wonder what it"
+	line "could be?"
 	done
 
 SwimmerfSusieSeenText:
-	text "Du gleitest so"
-	line "elegant auf deinem"
-	cont "#MON dahin."
+	text "You look so ele-"
+	line "gant, riding your"
+	cont "#MON."
 	done
 
 SwimmerfSusieBeatenText:
-	text "Ich bin"
-	line "geschlagen…"
+	text "I'm crushed…"
 	done
 
 SwimmerfSusieAfterBattleText:
-	text "Gab es da nicht"
-	line "einmal einen Hit,"
-	cont "der von einem"
-	cont "Jungen handelte,"
-	cont "der auf einem"
-	cont "LAPRAS ritt?"
+	text "Wasn't there a hit"
+	line "song about a boy"
+	cont "riding a LAPRAS?"
 	done
 
 SwimmerfDeniseSeenText:
-	text "Das Wetter ist so"
-	line "herrlich. Ich bin"
-	cont "richtig benommen!"
+	text "The weather is so"
+	line "beautiful, I'm in"
+	cont "a daze!"
 	done
 
 SwimmerfDeniseBeatenText:
@@ -305,66 +286,56 @@ SwimmerfDeniseBeatenText:
 	done
 
 SwimmerfDeniseAfterBattleText:
-	text "Ein Sonnenbrand"
-	line "ist sehr schlecht"
-	cont "für die Haut."
+	text "A sunburn is the"
+	line "worst for skin."
 
-	para "Aber ich benutze"
-	line "keine Sonnencreme."
+	para "But I don't use a"
+	line "sunblock."
 
-	para "Ich möchte das"
-	line "Wasser nicht"
-	cont "verschmutzen."
+	para "I won't pollute"
+	line "the water."
 	done
 
 SwimmerfKaraSeenText:
-	text "Wenn du eine Pause"
-	line "brauchst, dann"
-	cont "halte deinen Kopf"
-	cont "über Wasser und"
-	cont "paddle mit den"
-	cont "Füßen."
+	text "If you need to"
+	line "rest, just tread"
+	cont "water."
 
-	para "Auf diese Weise"
-	line "legst du eine"
+	para "You'll get your"
+	line "wind back, so you"
 
-	para "Ruhepause ein und"
-	line "sammelst Energie."
+	para "can keep on going"
+	line "strong."
 	done
 
 SwimmerfKaraBeatenText:
-	text "Oh! Du bist aus-"
-	line "geruhter als ich."
+	text "Oh! You have more"
+	line "energy than I do."
 	done
 
 SwimmerfKaraAfterBattleText:
-	text "Ich habe tief aus"
-	line "dem Inneren der"
-	cont "STRUDELINSELN ein"
-	cont "Brüllen gehört."
+	text "I heard roars from"
+	line "deep inside the"
+	cont "ISLANDS."
 	done
 
 SwimmerfWendySeenText:
-	text "NACHTs sammeln"
-	line "sich STERNDU"
-	cont "nahe der Wasser-"
-	cont "oberfläche."
+	text "At night, STARYU"
+	line "gather near the"
+	cont "water's surface."
 	done
 
 SwimmerfWendyBeatenText:
-	text "Oje…"
+	text "Oh, dear…"
 	done
 
 SwimmerfWendyAfterBattleText:
-	text "In der Gruppe"
-	line "fangen"
-	cont "STERNDU an"
-	cont "zu leuchten."
+	text "The clusters of"
+	line "STARYU light up"
+	cont "at the same time."
 
-	para "Das ist"
-	line "wunderschön und"
-	cont "beängstigend"
-	cont "zugleich."
+	para "It's so beautiful,"
+	line "it's scary."
 	done
 
 Route41_MapEvents:

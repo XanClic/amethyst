@@ -1,11 +1,11 @@
-	db "BALLON@" ; species name
-	dbw 4, 12 ; height, weight
+	db "BALLOON@" ; species name
+	dw 104, 300 ; height, weight
 
 	;  "| ----------------- |"
-	db   "Es zieht Kinder"
-	next "an den Händen, um"
-	next "sie mitzunehmen."
+	db   "It tugs on the"
+	next "hands of children"
+	next "to steal them"
 
-	page "Doch stets wird"
-	next "es dann durch die"
-	next "Gegend gezogen.@"
+	page "away. However,"
+	next "instead, it gets"
+	next "pulled around.@"

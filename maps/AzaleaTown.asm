@@ -244,150 +244,140 @@ AzaleaTownPlayerLeavesKurtsHouseMovement:
 	step_end
 
 AzaleaTownRivalBeforeText:
-	text "…Sag mir"
-	line "etwas."
+	text "…Tell me some-"
+	line "thing."
 
-	para "Ist es wahr, dass"
-	line "TEAM ROCKET zu-"
-	cont "rückgekehrt ist?"
+	para "Is it true that"
+	line "TEAM ROCKET has"
+	cont "returned?"
 
-	para "Was? Du hast sie"
-	line "geschlagen? Ha!"
-	cont "Hör auf zu lügen!"
+	para "What? You beat"
+	line "them? Hah! Quit"
+	cont "lying."
 
-	para "Du machst keine"
-	line "Witze? Dann lass"
-	cont "uns sehen, wie gut"
-	cont "du bist!"
+	para "You're not joking?"
+	line "Then let's see how"
+	cont "good you are."
 	done
 
 AzaleaTownRivalWinText:
-	text "…Hmpf! Nutzlose"
+	text "… Humph! Useless"
 	line "#MON!"
 
-	para "He, du! Du hast"
-	line "nur gewonnen, weil"
+	para "Listen, you. You"
+	line "only won because"
 
-	para "meine #MON"
-	line "schwach sind."
+	para "my #MON were"
+	line "weak."
 	done
 
 AzaleaTownRivalAfterText:
-	text "Ich hasse"
-	line "Schwäche!"
+	text "I hate the weak."
 
-	para "#MON, Trainer."
-	line "Es macht keinen"
-	cont "Unterschied, wer"
-	cont "oder was."
+	para "#MON, trainers."
+	line "It doesn't matter"
+	cont "who or what."
 
-	para "Ich werde stark"
-	line "sein und das"
-	cont "Schwache aus-"
-	cont "löschen!"
+	para "I'm going to be"
+	line "strong and wipe"
+	cont "out the weak."
 
-	para "Das gilt auch für"
-	line "TEAM ROCKET."
+	para "That goes for TEAM"
+	line "ROCKET too."
 
-	para "Nur gemeinsam sind"
-	line "sie stark. Aber"
+	para "They act big and"
+	line "tough in a group."
 
-	para "triffst du auf ei-"
-	line "nen allein, ist er"
-	cont "schwach."
+	para "But get them"
+	line "alone, and they're"
+	cont "weak."
 
-	para "Ich hasse sie."
+	para "I hate them all."
 
-	para "Geh mir aus dem"
-	line "Weg. Ein Schwäch-"
-	cont "ling wie du, ist"
+	para "You stay out of my"
+	line "way. A weakling"
 
-	para "nicht mehr als"
-	line "eine Ablenkung."
+	para "like you is only a"
+	line "distraction."
 	done
 
 AzaleaTownRivalLossText:
-	text "…Hmpf! Ich wusste,"
-	line "dass du lügst."
+	text "…Humph! I knew"
+	line "you were lying."
 	done
 
 AzaleaTownRocket1Text:
-	text "Es ist gefährlich,"
-	line "da hineinzugehen."
-	cont "Deshalb stehe ich"
-	cont "hier Wache."
+	text "It's unsafe to go"
+	line "in there, so I'm"
+	cont "standing guard."
 
-	para "Bin ich nicht ein"
-	line "barmherziger"
-	cont "Samariter?"
+	para "Aren't I a good"
+	line "Samaritan?"
 	done
 
 AzaleaTownRocket2Text:
-	text "Hast du schon mal"
-	line "eine FLEGMONRUTE"
-	cont "probiert? Sie soll"
-	cont "sehr lecker sein."
+	text "Do you know about"
+	line "SLOWPOKETAIL? I"
+	cont "heard it's tasty!"
 
-	para "Du bist sicher"
-	line "froh, dass ich dir"
-	cont "das gesagt habe."
+	para "Aren't you glad I"
+	line "told you that?"
 	done
 
 AzaleaTownGrampsTextBefore:
-	text "Alle FLEGMON sind"
-	line "aus der Stadt ver-"
-	cont "schwunden…"
+	text "The SLOWPOKE have"
+	line "disappeared from"
+	cont "town…"
 
-	para "Ich hörte, dass"
-	line "ihre RUTEN ver-"
-	cont "kauft werden."
+	para "I heard their"
+	line "TAILS are being"
+	cont "sold somewhere."
 	done
 
 AzaleaTownGrampsTextAfter:
-	text "Die FLEGMON sind"
-	line "zurückgekehrt."
+	text "The SLOWPOKE have"
+	line "returned."
 
-	para "Vermutlich haben"
-	line "sie wieder irgend-"
-	cont "wo gefaulenzt."
+	para "Knowing them, they"
+	line "could've just been"
+
+	para "goofing off some-"
+	line "where."
 	done
 
 AzaleaTownTeacherText:
-	text "Bist du gekommen,"
-	line "um KURT zu bitten,"
-	cont "dir ein paar BÄLLE"
-	cont "zu machen?"
+	text "Did you come to"
+	line "get KURT to make"
+	cont "some BALLS?"
 
-	para "Eine Menge Leute"
-	line "wollen das."
+	para "A lot of people do"
+	line "just that."
 	done
 
 AzaleaTownYoungsterText:
-	text "Gehe durch AZALEA"
-	line "CITY und du lan-"
-	cont "dest im STEINEI-"
-	cont "CHENWALD."
+	text "Cut through AZALEA"
+	line "and you'll be in"
+	cont "ILEX FOREST."
 
-	para "Aber diese dürren"
-	line "Bäume machen es"
+	para "But these skinny"
+	line "trees make it"
 
-	para "unmöglich, weiter-"
-	line "zukommen."
+	para "impossible to get"
+	line "through."
 
-	para "Die #MON des"
-	line "KÖHLERs können die"
-	cont "Bäume mit dem ZER-"
-	cont "SCHNEIDER fällen."
+	para "The CHARCOAL MAN's"
+	line "#MON can CUT"
+	cont "down trees."
 	done
 
 AzaleaTownSlowpokeText1:
-	text "FLEGMON: …"
+	text "SLOWPOKE: …"
 
 	para "<……> <……> <……>"
 	done
 
 AzaleaTownSlowpokeText2:
-	text "<……> <……>Gähn?"
+	text "<……> <……>Yawn?"
 	done
 
 WoosterText:
@@ -395,75 +385,71 @@ WoosterText:
 	done
 
 AzaleaTownKurtText1:
-	text "Im STEINEICHENWALD"
-	line "herrscht Unruhe!"
+	text "ILEX FOREST is"
+	line "restless!"
 
-	para "Was ist bloß los?"
+	para "What is going on?"
 	done
 
 AzaleaTownKurtText2:
-	text "<PLAYER>, hier"
-	line "dein GS-BALL!"
+	text "<PLAYER>, here's"
+	line "your GS BALL back!"
 	done
 
 AzaleaTownKurtText3:
-	text "Könntest du nach-"
-	line "sehen, was im"
-	cont "STEINEICHENWALD"
-	cont "los ist?"
+	text "Could you go see"
+	line "why ILEX FOREST is"
+	cont "so restless?"
 	done
 
 AzaleaTownSignText:
-	text "AZALEA CITY"
-	line "Hier leben Men-"
-	cont "schen und #MON"
-	cont "in Harmonie"
+	text "AZALEA TOWN"
+	line "Where People and"
+
+	para "#MON Live in"
+	line "Happy Harmony"
 	done
 
 KurtsHouseSignText:
-	text "KURTs HAUS"
+	text "KURT'S HOUSE"
 	done
 
 AzaleaGymSignText:
-	text "PKMN-ARENA von"
-	line "AZALEA CITY"
-	cont "LEITUNG: KAI"
+	text "AZALEA TOWN"
+	line "#MON GYM"
+	cont "LEADER: BUGSY"
 
-	para "Die lebende Käfer-"
-	line "#MON-Enzyklo-"
-	cont "pädie"
+	para "The Walking"
+	line "Bug #MON"
+	cont "Encyclopedia"
 	done
 
 SlowpokeWellSignText:
-	text "Der FLEGMON-BRUN-"
-	line "NEN ist auch be-"
-	cont "kannt als REGEN-"
-	cont "MACHERQUELLE."
+	text "SLOWPOKE WELL"
 
-	para "Die Leute hier"
-	line "glauben, dass das"
-	cont "Gähnen eines FLEG-"
-	cont "MONs Regen er-"
-	cont "zeugt."
+	para "Also known as the"
+	line "RAINMAKER WELL."
 
-	para "Laut den Aufzeich-"
-	line "nungen soll das"
+	para "Locals believe"
+	line "that a SLOWPOKE's"
+	cont "yawn summons rain."
 
-	para "Gähnen eines FLEG-"
-	line "MONS vor 400 Jah-"
-	cont "ren eine Dürre be-"
-	cont "endet haben."
+	para "Records show that"
+	line "a SLOWPOKE's yawn"
+
+	para "ended a drought"
+	line "400 years ago."
 	done
 
 CharcoalKilnSignText:
-	text "HOLZKOHLE-OFEN"
+	text "CHARCOAL KILN"
 	done
 
 AzaleaTownIlexForestSignText:
-	text "STEINEICHENWALD"
+	text "ILEX FOREST"
 
-	para "Tritt durch das"
-	line "Tor"
+	para "Enter through the"
+	line "gate."
 	done
 
 AzaleaTown_MapEvents:

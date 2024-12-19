@@ -1,77 +1,73 @@
 ParryAskNumber1Text:
-	text "Yeah! Wie du mich"
-	line "angegriffen hast,"
+	text "Sheesh, the way"
+	line "you attacked! That"
 
-	para "das war gut! Wir"
-	line "müssen uns wieder-"
-	cont "sehen!"
+	para "was something! We"
+	line "should meet again!"
 
-	para "Gib mir doch bitte"
-	line "deine Nummer!"
+	para "How about giving"
+	line "me your number?"
 	done
 
 ParryAskNumber2Text:
-	text "Du möchtest meine"
-	line "Nummer speichern,"
+	text "So you want to"
+	line "register my phone"
 
-	para "um erneut gegen"
-	line "mich zu kämpfen?"
+	para "number for a re-"
+	line "match, huh?"
 	done
 
 ParryNumberAcceptedText:
-	text "Ich rufe an, wenn"
-	line "mir der Sinn nach"
-	cont "Kämpfen ist!"
+	text "I'll call you"
+	line "whenever I feel"
+	cont "like battling!"
 	done
 
 ParryNumberDeclinedText:
-	text "Nein? In Ordnung."
+	text "No? That's fine."
 
-	para "Ein klares Nein"
-	line "ist leicht zu"
-	cont "verkraften!"
+	para "A definite no is"
+	line "easy to take!"
 
-	para "Ich bin hier, wenn"
-	line "du erneut kämpfen"
-	cont "möchtest."
+	para "I'll be right here"
+	line "when you're ready"
+	cont "for a rematch."
 	done
 
 ParryPhoneFullText:
-	text "Du kannst keine"
-	line "weitere Nummer"
-	cont "mehr speichern."
+	text "Oh? There's no"
+	line "room to register"
+	cont "my phone number."
 	done
 
 ParryRematchText:
-	text "Platz, jetzt komme"
-	line "ich! Und los!"
+	text "Hey, here comes"
+	line "the kid! Let's go!"
 
-	para "Mach dich bereit"
-	line "für meine Hals"
-	cont "über Kopf-Attacke!"
+	para "Ready for my usual"
+	line "no-brainer, all-"
+	cont "out offense?"
 	done
 
 ParryPackFullText:
-	text "Es scheint, dein"
-	line "BEUTEL ist voll!"
+	text "Your PACK looks"
+	line "stuffed full!"
 
-	para "Du kannst das"
-	line "jetzt nicht haben."
+	para "You can't have"
+	line "this now."
 	done
 
 ParryRematchGiftText:
-	text "Gut, du bist an-"
-	line "ders, in Ordnung."
+	text "Well, you're"
+	line "special all right."
 
-	para "Hätte ich mich"
-	line "doch früher mit"
-	cont "#MON befasst…"
+	para "If only I'd begun"
+	line "#MON when I was"
+	cont "a tad younger…"
 
-	para "Ich möchte, dass"
-	line "du in unser beider"
+	para "I want you to work"
+	line "and succeed for"
 
-	para "Namen arbei-"
-	line "test und erfolg-"
-	cont "reich bist. Also"
-	cont "nimm dies!"
+	para "the both of us."
+	line "So take this, OK?"
 	done

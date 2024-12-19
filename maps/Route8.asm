@@ -76,104 +76,98 @@ Route8FruitTree:
 	fruittree FRUITTREE_ROUTE_8
 
 BikerDwayneSeenText:
-	text "Wir repräsentieren"
-	line "die #MON-"
-	cont "TRAINERGILDE aus"
-	cont "KANTO."
+	text "We're the KANTO"
+	line "#MON FEDERATION"
+	cont "trainer group."
 
-	para "Hier kommst du"
-	line "unter die Räder!"
+	para "We'll drive you"
+	line "under our wheels!"
 	done
 
 BikerDwayneBeatenText:
-	text "En-entschuldigung!"
+	text "S-sorry!"
 	done
 
 BikerDwayneAfterBattleText:
-	text "Die #MON-"
-	line "TRAINERGILDE aus"
-	cont "KANTO wird"
-	cont "immer existieren!"
+	text "The KANTO #MON"
+	line "FEDERATION will"
+	cont "never fall!"
 	done
 
 BikerHarrisSeenText:
-	text "Das ORDNUNGSAMT"
-	line "hat unseren"
+	text "The cops shut down"
+	line "our UNDERGROUND"
 
-	para "TUNNELPFAD zu-"
-	line "schütten lassen."
-	cont "Das ängstigt mich!"
+	para "PATH! That really"
+	line "fries me!"
 	done
 
 BikerHarrisBeatenText:
-	text "V-vergib mir!"
+	text "F-forgive me!"
 	done
 
 BikerHarrisAfterBattleText:
-	text "Vermöbelt von"
-	line "einem Rowdy aus"
-	cont "JOHTO…"
+	text "Wiped out by some"
+	line "punk from JOHTO…"
 	done
 
 BikerZekeSeenText:
-	text "Wir sind die"
-	line "#MON-TRAINER-"
-	cont "GILDE aus KANTO!"
-	cont "Nimm dich in Acht!"
+	text "We're the KANTO"
+	line "#MON FEDERA-"
+	cont "TION!"
+	cont "Right on!"
 	done
 
 BikerZekeBeatenText:
-	text "Uah! Entschuldige!"
+	text "Yikes! Sorry!"
 	done
 
 BikerZekeAfterBattleText:
-	text "Wir versuchen,"
-	line "ab jetzt niemanden"
-	cont "mehr zu stören…"
+	text "We'll try not to"
+	line "disturb anyone"
+	cont "from now on…"
 	done
 
 SupernerdSamSeenText:
-	text "Wie funktioniert"
-	line "der MAGNETZUG?"
+	text "How does the MAG-"
+	line "NET TRAIN work?"
 	done
 
 SupernerdSamBeatenText:
-	text "Ich möchte nur den"
-	line "MAGNETZUG sehen…"
+	text "I just want to see"
+	line "the MAGNET TRAIN…"
 	done
 
 SupernerdSamAfterBattleText:
-	text "Die Kraft von"
-	line "Magneten ist"
-	cont "beeindruckend!"
+	text "The power of mag-"
+	line "nets is awesome!"
 	done
 
 SupernerdTomSeenText:
-	text "Hm… Du hast"
-	line "viele ORDEN."
+	text "Hm… You've got"
+	line "many GYM BADGES."
 	done
 
 SupernerdTomBeatenText:
-	text "Wie ich dachte…"
-	line "Du bist stark!"
+	text "Just as I thought…"
+	line "You're tough!"
 	done
 
 SupernerdTomAfterBattleText:
-	text "ORDEN verschaffen"
-	line "dir im Kampf"
-	cont "Vorteile."
+	text "GYM BADGES give"
+	line "you advantages in"
+	cont "battles."
 	done
 
 Route8LockedDoorText:
-	text "Es ist verriegelt…"
+	text "It's locked…"
 	done
 
 Route8UndergroundPathSignText:
-	text "Das Flugblatt ist"
-	line "zerrissen."
+	text "The flyer's torn."
 
-	para "Es ist nicht mehr"
-	line "lesbar…"
+	para "It's impossible to"
+	line "read…"
 	done
 
 Route8_MapEvents:

@@ -487,7 +487,6 @@ CardFlip_UpdateCoinBalanceDisplay:
 	ret
 
 CardFlip_PrintCoinBalance:
-if !DEF(_CRYSTAL_EU)
 	hlcoord 9, 15
 	ld b, 1
 	ld c, 9
@@ -495,15 +494,6 @@ if !DEF(_CRYSTAL_EU)
 	hlcoord 10, 16
 	ld de, .CoinStr
 	call PlaceString
-else
-	hlcoord 7, 15
-	ld b, 1
-	ld c, 11
-	call Textbox
-	hlcoord 8, 16
-	ld de, .CoinStr
-	call PlaceString
-endc
 	hlcoord 15, 16
 	ld de, wCoins
 	lb bc, PRINTNUM_LEADINGZEROS | 2, 4
@@ -511,13 +501,7 @@ endc
 	ret
 
 .CoinStr:
-if !DEF(_CRYSTAL_EU)
 	db "COIN@"
-elif DEF(_CRYSTAL_DE)
-	db "MÜNZEN@"
-elif DEF(_CRYSTAL_ES)
-	db "FICHAS@"
-endc
 
 CardFlip_InitTilemap:
 	xor a

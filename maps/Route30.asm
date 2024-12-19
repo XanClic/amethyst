@@ -261,155 +261,147 @@ Route30_MikeysRattataAttacksMovement:
 	step_end
 
 Text_UseTackle:
-	text "Los, RATTFRATZ!"
+	text "Go, RATTATA!"
 
 	para "TACKLE!"
 	done
 
 Text_ThisIsABigBattle:
-	text "Was? Das ist ein"
-	line "harter Kampf!"
-	cont "Lass mich in Ruhe!"
+	text "What? This is a"
+	line "big battle!"
+	cont "Leave me alone!"
 	done
 
 YoungsterJoey1SeenText:
-	text "Ich habe verloren!"
-	line "Ich versuche, mehr"
-	cont "#MON zu finden."
+	text "I just lost, so"
+	line "I'm trying to find"
+	cont "more #MON."
 
-	para "Halt! Du siehst"
-	line "schwach aus! Los,"
-	cont "lass uns kämpfen!"
+	para "Wait! You look"
+	line "weak! Come on,"
+	cont "let's battle!"
 	done
 
 YoungsterJoey1BeatenText:
-	text "Ahh! Wieder ver-"
-	line "loren! Mist!"
+	text "Ack! I lost again!"
+	line "Doggone it!"
 	done
 
 YoungsterJoey1AfterText:
-	text "Benötige ich noch"
-	line "mehr #MON, um"
+	text "Do I have to have"
+	line "more #MON in"
 
-	para "noch besser zu"
-	line "kämpfen?"
+	para "order to battle"
+	line "better?"
 
-	para "Nein! Ich behalte"
-	line "dieses, egal, was"
-	cont "passiert!"
+	para "No! I'm sticking"
+	line "with this one no"
+	cont "matter what!"
 	done
 
 YoungsterMikeySeenText:
-	text "Du bist ein #-"
-	line "MON-Trainer, oder?"
+	text "You're a #MON"
+	line "trainer, right?"
 
-	para "Dann musst du"
-	line "kämpfen!"
+	para "Then you have to"
+	line "battle!"
 	done
 
 YoungsterMikeyBeatenText:
-	text "Das ist seltsam."
-	line "Davor habe ich"
-	cont "gewonnen."
+	text "That's strange."
+	line "I won before."
 	done
 
 YoungsterMikeyAfterText:
-	text "Ein guter Trainer"
-	line "zu werden ist"
-	cont "nicht einfach."
+	text "Becoming a good"
+	line "trainer is really"
+	cont "tough."
 
-	para "Ich kämpfe gegen"
-	line "andere Trainer, um"
-	cont "besser zu werden."
+	para "I'm going to bat-"
+	line "tle other people"
+	cont "to get better."
 	done
 
 BugCatcherDonSeenText:
-	text "Anstatt eines"
-	line "Käfer-#MON"
-	cont "traf ich auf"
-	cont "einen Trainer!"
+	text "Instead of a bug"
+	line "#MON, I found"
+	cont "a trainer!"
 	done
 
 BugCatcherDonBeatenText:
-	text "Argh! Du bist"
-	line "zu stark!"
+	text "Argh! You're too"
+	line "strong!"
 	done
 
 BugCatcherDonAfterText:
-	text "Mir sind während"
-	line "des Fangens die"
-	cont "#BÄLLE aus-"
-	cont "gegangen."
+	text "I ran out of #"
+	line "BALLS while I was"
+	cont "catching #MON."
 
-	para "Ich hätte mehr"
-	line "kaufen sollen…"
+	para "I should've bought"
+	line "some more…"
 	done
 
 Route30YoungsterText_DirectionsToMrPokemonsHouse:
-	text "Das Haus von"
-	line "MR. #MON ist"
-	cont "gleich da vorne!"
+	text "MR.#MON's"
+	line "house? It's a bit"
+	cont "farther ahead."
 	done
 
 Route30YoungsterText_EveryoneIsBattling:
-	text "Jedem macht das"
-	line "Kämpfen Spaß!"
+	text "Everyone's having"
+	line "fun battling!"
+	cont "You should too!"
 	done
 
 Route30CooltrainerFText:
-	text "Ich bin kein"
-	line "Trainer."
+	text "I'm not a trainer."
 
-	para "Wenn du einem in"
-	line "die Augen siehst,"
-	cont "dann bereite dich"
-	cont "auf einen Kampf"
-	cont "vor."
+	para "But if you look"
+	line "one in the eyes,"
+	cont "prepare to battle."
 	done
 
 Route30SignText:
 	text "ROUTE 30"
 
-	para "VIOLA CITY -"
-	line "ROSALIA CITY"
+	para "VIOLET CITY -"
+	line "CHERRYGROVE CITY"
 	done
 
 MrPokemonsHouseDirectionsSignText:
-	text "Das Haus von"
-	line "MR. #MON?"
-	cont "Immer geradeaus."
+	text "MR.#MON'S HOUSE"
+	line "STRAIGHT AHEAD!"
 	done
 
 MrPokemonsHouseSignText:
-	text "Das HAUS von"
-	line "MR. #MON"
+	text "MR.#MON'S HOUSE"
 	done
 
 Route30TrainerTipsText:
-	text "TIPPS für TRAINER"
+	text "TRAINER TIPS"
 
-	para "Du sollst keine"
-	line "#MON stehlen!"
+	para "No stealing other"
+	line "people's #MON!"
 
-	para "#BÄLLE dürfen"
-	line "nur bei wilden"
-	cont "#MON eingesetzt"
-	cont "werden!"
+	para "# BALLS are to"
+	line "be thrown only at"
+	cont "wild #MON!"
 	done
 
 YoungsterJoeyText_GiveHPUpAfterBattle:
-	text "Wieder verloren…"
-	line "Bist du stark!"
+	text "I lost again…"
+	line "Gee, you're tough!"
 
-	para "Oh fast vergaß"
-	line "ich, dass ich dir"
-	cont "das geben muss."
+	para "Oh yeah, I almost"
+	line "forgot that I had"
+	cont "to give you this."
 
-	para "Werde damit noch"
-	line "stärker, O.K.?"
+	para "Use it to get even"
+	line "tougher, OK?"
 
-	para "Ich werde auch"
-	line "noch stärker."
+	para "I'm going to get"
+	line "tougher too."
 	done
 
 Route30_MapEvents:

@@ -37,42 +37,40 @@ HikerJimSeenText:
 	done
 
 HikerJimBeatenText:
-	text "Hahaha-hatschi!"
+	text "Hahaha-hachoo!"
 	done
 
 HikerJimAfterBattleText:
-	text "Ich habe Heu-"
-	line "schnupfen!"
-
-	para "Haha-hatschi!"
+	text "Hay fever is"
+	line "making me sneeze!"
+	cont "Ahahah-CHOO!"
 	done
 
 PokefanmRobertSeenText:
-	text "Du magst #MON,"
-	line "nicht wahr?"
+	text "You like #MON,"
+	line "don't you?"
 
-	para "Ich auch!"
+	para "Me too!"
 	done
 
 PokefanmRobertBeatenText:
-	text "Ich gebe zu, ich"
-	line "habe verloren."
+	text "I'd have to say"
+	line "that's my loss."
 	done
 
 PokefanmRobertAfterBattleText:
-	text "Sieh nur, was du"
-	line "meinen #MON"
-	cont "angetan hast…"
+	text "Look what you did"
+	line "to my #MON…"
 
-	para "Das werde ich dir"
-	line "nie verzeihen…"
+	para "I won't forget"
+	line "this…"
 	done
 
 Route10SignText:
 	text "ROUTE 10"
 
-	para "AZURIA CITY -"
-	line "LAVANDIA"
+	para "CERULEAN CITY -"
+	line "LAVENDER TOWN"
 	done
 
 Route10South_MapEvents:

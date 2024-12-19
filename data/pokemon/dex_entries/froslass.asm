@@ -1,11 +1,11 @@
-	db "SCHNEEGEBIET@" ; species name
-	dbw 13, 266 ; height, weight
+	db "SNOW LAND@" ; species name
+	dw 403, 5900 ; height, weight
 
 	;  "| ----------------- |"
-	db   "Friert Beute mit"
-	next "ihrem eiskalten"
-	next "Atem ein, nimmt"
+	db   "It freezes prey"
+	next "with its ice-cold"
+	next "breath, takes it"
 
-	page "sie in seinen Bau"
-	next "und stellt sie"
-	next "dann dort aus.@"
+	page "into its chilly"
+	next "den and displays"
+	next "it there.@"

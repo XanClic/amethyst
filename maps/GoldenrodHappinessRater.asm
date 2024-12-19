@@ -70,77 +70,68 @@ HappinessRatersHouseRadio:
 	jumpstd Radio2Script
 
 GoldenrodHappinessRaterTeacherText:
-	text "Behandelst du"
-	line "deine #MON gut,"
+	text "If you treat your"
+	line "#MON nicely,"
 
-	para "werden sie dich"
-	line "regelrecht lieben."
+	para "they will love you"
+	line "in return."
 
-	para "Oh! Lass mich dein"
-	line "@"
+	para "Oh? Let me see"
+	line "your @"
 	text_ram wStringBuffer3
-	text " sehen…"
+	text "…"
 	done
 
 GoldenrodHappinessRatingText_LovesYouALot:
-	text "Es sieht sehr"
-	line "glücklich aus! Es"
-	cont "muss dich sehr"
-	cont "gern haben."
+	text "It looks really"
+	line "happy! It must"
+	cont "love you a lot."
 	done
 
 GoldenrodHappinessRatingText_ReallyTrustsYou:
-	text "Ich habe den Ein-"
-	line "druck, dass es dir"
-	cont "wirklich vertraut."
+	text "I get the feeling"
+	line "that it really"
+	cont "trusts you."
 	done
 
 GoldenrodHappinessRatingText_SortOfHappy:
-	text "Es verhält sich"
-	line "dir gegenüber sehr"
-	cont "freundlich. Es"
-	cont "muss glücklich"
-	cont "sein."
+	text "It's friendly to-"
+	line "ward you. It looks"
+	cont "sort of happy."
 	done
 
 GoldenrodHappinessRatingText_QuiteCute:
-	text "Es ist sehr süß."
+	text "It's quite cute."
 	done
 
 GoldenrodHappinessRatingText_NotUsedToYou:
-	text "Du solltest es"
-	line "besser behandeln."
-	cont "Es hat sich noch"
-	cont "nicht an dich ge-"
-	cont "wöhnt."
+	text "You should treat"
+	line "it better. It's"
+	cont "not used to you."
 	done
 
 GoldenrodHappinessRatingText_LooksMean:
-	text "Es scheint dich"
-	line "gar nicht zu mö-"
-	cont "gen. Es sieht ge-"
-	cont "mein aus."
+	text "It doesn't seem to"
+	line "like you at all."
+	cont "It looks mean."
 	done
 
 GoldenrodHappinessRaterPokefanMText:
-	text "Ständig verliere"
-	line "ich in Kämpfen und"
+	text "I keep losing in"
+	line "battles, and my"
 
-	para "meine #MON"
-	line "werden immer be-"
-	cont "siegt…"
+	para "#MON end up"
+	line "fainting…"
 
-	para "Das mag der Grund"
-	line "sein, warum mich"
-	cont "meine #MON"
-	cont "nicht mögen…"
+	para "Maybe that's why"
+	line "my #MON don't"
+	cont "like me much…"
 	done
 
 GoldenrodHappinessRaterTwinText:
-	text "Wenn ich meinem"
-	line "#MON ein Item"
-	cont "gebe, dann freut"
-	cont "es sich!"
+	text "When I use an item"
+	line "on my #MON, it"
+	cont "acts really glad!"
 	done
 
 GoldenrodHappinessRater_MapEvents:

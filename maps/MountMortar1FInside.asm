@@ -65,56 +65,53 @@ MountMortar1FInsideHiddenMaxRepel:
 	hiddenitem MAX_REPEL, EVENT_MOUNT_MORTAR_1F_INSIDE_HIDDEN_MAX_REPEL
 
 PokemaniacMillerSeenText:
-	text "Heute verliere ich"
-	line "gewiß nicht!"
+	text "I'm not losing"
+	line "this time!"
 	done
 
 PokemaniacMillerBeatenText:
-	text "Ich habe gegen ein"
-	line "Kind verloren…?"
+	text "I lost to some"
+	line "kid…?"
 	done
 
 PokemaniacMillerAfterBattleText:
-	text "Vor geraumer Zeit"
-	line "wollte dieser"
+	text "A while back, this"
+	line "karate dude wanted"
 
-	para "Karateka kämpfen."
-	line "Er war sehr gut."
+	para "to battle. He was"
+	line "ridiculously good."
 
-	para "Er hat uns richtig"
-	line "verprügelt."
+	para "He just thrashed"
+	line "us silly."
 
-	para "Er murmelte etwas"
-	line "von seinem"
+	para "He went in deeper"
+	line "saying it was for"
 
-	para "Training. Ich"
-	line "frage mich, wie"
-	cont "es ihm geht?"
+	para "his training. I"
+	line "wonder how he is?"
 	done
 
 SupernerdMarkusSeenText:
-	text "Heh! RANDALF!"
+	text "Hey! HUGH!"
 	done
 
 SupernerdMarkusBeatenText:
-	text "Ich habe dich"
-	line "verwechselt…"
+	text "I mistook you for"
+	line "someone else…"
 	done
 
 SupernerdMarkusAfterBattleText:
-	text "Ich wollte den"
-	line "KESSELBERG erkun-"
-	cont "den, aber ich habe"
+	text "I came to explore"
+	line "MT.MORTAR, but I"
 
-	para "meinen Kameraden"
-	line "verloren…"
+	para "got separated from"
+	line "my partner…"
 
-	para "Bist du einem Geg-"
-	line "ner begegnet, der"
+	para "Did you run into a"
+	line "trainer who uses a"
 
-	para "ein SEEMON ein-"
-	line "setzt, das KASKADE"
-	cont "beherrscht?"
+	para "SEADRA that knows"
+	line "WATERFALL?"
 	done
 
 MountMortar1FInside_MapEvents:

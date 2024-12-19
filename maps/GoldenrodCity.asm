@@ -98,10 +98,10 @@ MoveTutorScript:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "FLAMMENWURF@"
-	db "DONNERBLITZ@"
-	db "EISSTRAHL@"
-	db "ZURÜCK@"
+	db "FLAMETHROWER@"
+	db "THUNDERBOLT@"
+	db "ICE BEAM@"
+	db "CANCEL@"
 
 .Refused:
 	writetext GoldenrodCityMoveTutorAwwButTheyreAmazingText
@@ -279,284 +279,266 @@ GoldenrodCityMoveTutorWalkAroundPlayerThenEnterGameCornerMovement:
 	step_end
 
 GoldenrodCityPokefanMText:
-	text "Der neue RADIOTURM"
-	line "wurde erbaut, um"
+	text "They built the new"
+	line "RADIO TOWER to"
 
-	para "den alten zu er-"
-	line "setzen."
+	para "replace the old,"
+	line "creaky one."
 	done
 
 GoldenrodCityYoungster1Text:
-	text "Es soll einen neu-"
-	line "en FAHRRADLADEN"
+	text "I know there's a"
+	line "new BIKE SHOP, but"
 
-	para "geben, aber ich"
-	line "kann ihn nirgends"
-	cont "finden."
+	para "I can't find it"
+	line "anywhere."
 	done
 
 GoldenrodCityCooltrainerF1Text:
-	text "Hat sich dieser"
-	line "Mann in Schwarz"
+	text "Is that man in"
+	line "black dressed up"
 
-	para "als Mitglied von"
-	line "TEAM ROCKET ver-"
-	cont "kleidet? Wie däm-"
-	cont "lich!"
+	para "like a TEAM ROCKET"
+	line "member? How silly!"
 	done
 
 GoldenrodCityCooltrainerF1Text_ClearedRadioTower:
-	text "Gehörte dieser"
-	line "Mann in Schwarz"
+	text "Was that man in"
+	line "black really part"
 
-	para "wirklich zu TEAM"
-	line "ROCKET? Ich kann"
-
-	para "es nicht glauben!"
+	para "of TEAM ROCKET? I"
+	line "can't believe it!"
 	done
 
 GoldenrodCityCooltrainerF2Text:
-	text "Der RADIOTURM in"
-	line "DUKATIA CITY ist"
-	cont "ein Wahrzeichen."
+	text "The RADIO TOWER in"
+	line "GOLDENROD CITY is"
+	cont "a landmark."
 
-	para "Zurzeit läuft ge-"
-	line "rade eine Werbe-"
-	cont "kampagne."
+	para "They're running a"
+	line "promotional cam- "
+	cont "paign right now."
 
-	para "Sie können deinen"
-	line "#COM modifi-"
-	cont "zieren, so dass er"
-	cont "auch als Radio"
+	para "They'll modify"
+	line "your #GEAR,"
 
-	para "verwendet werden"
-	line "kann."
+	para "so it can also"
+	line "serve as a radio."
 	done
 
 GoldenrodCityCooltrainerF2Text_GotRadioCard:
-	text "Oh, dein #COM"
-	line "ist auch ein"
-	cont "Radio!"
+	text "Oh, your #GEAR"
+	line "works as a radio!"
 	done
 
 GoldenrodCityYoungster2Text:
 	text "E-he-he-he…"
 
-	para "Ich habe Ärger be-"
-	line "kommen, weil ich"
+	para "I got in trouble"
+	line "for playing in the"
 
-	para "im Keller des"
-	line "KAUFHAUSes ge-"
-	cont "spielt habe."
+	para "basement of the"
+	line "DEPT.STORE."
 	done
 
 GoldenrodCityLassText:
-	text "Der Mann in diesem"
-	line "Haus bewertet dei-"
-	cont "ne #MON-Namen."
+	text "The man at that"
+	line "house rates your"
+	cont "#MON names."
 
-	para "Er kann deine"
-	line "#MON auch"
-	cont "umbenennen."
+	para "He can even rename"
+	line "your #MON."
 	done
 
 GoldenrodCityGrampsText:
-	text "Wow! Das ist eine"
-	line "große Stadt. Ich"
+	text "Whew! This is one"
+	line "big town. I don't"
 
-	para "finde mich noch"
-	line "gar nicht zurecht."
+	para "know where any-"
+	line "thing is."
 	done
 
 GoldenrodCityRocketScoutText1:
-	text "Das ist also der"
-	line "RADIOTURM…"
+	text "So this is the"
+	line "RADIO TOWER…"
 	done
 
 GoldenrodCityRocketScoutText2:
-	text "Was willst du, du"
-	line "Nervensäge? Hau"
-	cont "ab!"
+	text "What do you want,"
+	line "you pest? Scram!"
 	done
 
 GoldenrodCityRocket1Text:
-	text "Aus dem Weg! Ver-"
-	line "schwinde!"
+	text "Stay out of the"
+	line "way! Beat it!"
 	done
 
 GoldenrodCityRocket2Text:
-	text "Den RADIOTURM ein-"
-	line "nehmen…"
+	text "Take over the"
+	line "RADIO TOWER…"
 
-	para "Was? Das geht dich"
-	line "nichts an!"
+	para "What? It's none of"
+	line "your business!"
 	done
 
 GoldenrodCityRocket3Text:
-	text "#MON? Sie sind"
-	line "nicht mehr als"
+	text "#MON? They're"
+	line "nothing more than"
 
-	para "Werkzeuge zum"
-	line "Geldscheffeln!"
+	para "tools for making"
+	line "money!"
 	done
 
 GoldenrodCityRocket4Text:
-	text "Bald wird sich un-"
-	line "ser Traum er-"
-	cont "füllen…"
+	text "Our dream will"
+	line "soon come true…"
 
-	para "So lange hat es"
-	line "schon gedauert…"
+	para "It was such a long"
+	line "struggle…"
 	done
 
 GoldenrodCityRocket5Text:
-	text "Hey, Grünschnabel!"
-	line "Du hast hier"
-	cont "nichts zu suchen!"
+	text "Hey, brat! You"
+	line "don't belong here!"
+	cont "Get lost!"
 	done
 
 GoldenrodCityRocket6Text:
-	text "Komm und werde"
-	line "Zeuge der Macht"
-	cont "von TEAM ROCKET!"
+	text "Come taste the"
+	line "true terror of"
+	cont "TEAM ROCKET!"
 	done
 
 GoldenrodCityStationSignText:
-	text "DUKATIA CITY"
-	line "BAHNHOF"
+	text "GOLDENROD CITY"
+	line "STATION"
 	done
 
 GoldenrodCityRadioTowerSignText:
-	text "DUKATIA CITY"
-	line "RADIOTURM"
+	text "GOLDENROD CITY"
+	line "RADIO TOWER"
 	done
 
 GoldenrodDeptStoreSignText:
-	text "Große Auswahl an"
-	line "#MON-Artikeln!"
+	text "Full Selection of"
+	line "#MON Goods!"
 
-	para "DUKATIA CITY"
-	line "KAUFHAUS"
+	para "GOLDENROD CITY"
+	line "DEPT.STORE"
 	done
 
 GoldenrodGymSignText:
-	text "PKMN-ARENA von"
-	line "DUKATIA CITY"
-	cont "LEITUNG: BIANKA"
+	text "GOLDENROD CITY"
+	line "#MON GYM"
+	cont "LEADER: WHITNEY"
 
-	para "Ein unglaublich"
-	line "hübsches Mädchen!"
+	para "The Incredibly"
+	line "Pretty Girl!"
 	done
 
 GoldenrodCitySignText:
-	text "DUKATIA CITY"
+	text "GOLDENROD CITY"
 
-	para "Die festliche"
-	line "Stadt mit opulen-"
-	cont "tem Charme"
+	para "The Festive City"
+	line "of Opulent Charm"
 	done
 
 GoldenrodCityBikeShopSignText:
-	text "Die Welt ist ein"
-	line "Radweg!"
-	cont "FAHRRADLADEN"
+	text "The World is a"
+	line "Cycle Path!"
+	cont "BIKE SHOP"
 	done
 
 GoldenrodCityGameCornerSignText:
-	text "Dein Spielplatz!"
+	text "Your Playground!"
 
-	para "DUKATIA CITY"
-	line "SPIELHALLE"
+	para "GOLDENROD CITY"
+	line "GAME CORNER"
 	done
 
 GoldenrodCityNameRaterSignText:
-	text "NAMEN-BEWERTER"
+	text "NAME RATER"
 
-	para "Möchtest du deine"
-	line "Spitznamen bewer-"
-	cont "ten lassen?"
+	para "Get Your #MON"
+	line "Nicknames Rated"
 	done
 
 GoldenrodCityUndergroundSignNorthText:
-	text "UNTERGRUND-"
-	line "EINGANG"
+	text "UNDERGROUND"
+	line "ENTRANCE"
 	done
 
 GoldenrodCityUndergroundSignSouthText:
-	text "UNTERGRUND-"
-	line "EINGANG"
+	text "UNDERGROUND"
+	line "ENTRANCE"
 	done
 
 GoldenrodCityPokeComCenterSignText: ; unreferenced
-; unused
-	text_start
+	text "For Mobile Tips!"
+	line "#COM CENTER"
 	done
 
 GoldenrodCityFlowerShopSignText:
-	text "Blühender"
-	line "BLUMENLADEN"
+	text "Blooming Beautiful"
+	line "FLOWER SHOP"
 	done
 
 GoldenrodCityMoveTutorAskTeachAMoveText:
-	text "Wenn du möchtest,"
-	line "kann ich deinen"
+	text "I can teach your"
+	line "#MON amazing"
 
-	para "#MON tolle"
-	line "Attacken"
-	cont "beibringen."
+	para "moves if you'd"
+	line "like."
 
-	para "Soll ich das"
-	line "machen?"
+	para "Should I teach a"
+	line "new move?"
 	done
 
 GoldenrodCityMoveTutorAskPriceOkayText:
-	text "Das kostet dich"
+	text "It will cost you"
 	line "¥4000. Okay?"
 	done
 
 GoldenrodCityMoveTutorAwwButTheyreAmazingText:
-	text "Uah… aber sie sind"
-	line "wirklich toll…"
+	text "Aww… But they're"
+	line "amazing…"
 	done
 
 GoldenrodCityMoveTutorWhichMoveShouldITeachText:
-	text "Wahahah! Das wirst"
-	line "du nicht bereuen!"
+	text "Wahahah! You won't"
+	line "regret it!"
 
-	para "Welche Attacke"
-	line "erlernen?"
+	para "Which move should"
+	line "I teach?"
 	done
 
 GoldenrodCityMoveTutorHmTooBadText:
-	text "Hm, Mist. Ich muss"
-	line "noch Geld von zu"
-	cont "Hause holen…"
+	text "Hm, too bad. I'll"
+	line "have to get some"
+	cont "cash from home…"
 	done
 
 GoldenrodCityMoveTutorIfYouUnderstandYouveMadeItText:
-	text "Wenn du verstehst,"
-	line "was an dieser"
+	text "If you understand"
+	line "what's so amazing"
 
-	para "Attacke so toll"
-	line "ist, dann darfst"
-
-	para "du dich einen"
-	line "Trainer nennen."
+	para "about this move,"
+	line "you've made it as"
+	cont "a trainer."
 	done
 
 GoldenrodCityMoveTutorFarewellKidText:
-	text "Wahahah! Mach's"
-	line "gut, Wicht!"
+	text "Wahahah!"
+	line "Farewell, kid!"
 	done
 
 GoldenrodCityMoveTutorBButText:
-	text "A-aber…"
+	text "B-but…"
 	done
 
 GoldenrodCityMoveTutorYouDontHaveEnoughMoneyText:
-	text "…Du hast nicht"
-	line "genügend Geld"
-	cont "dabei…"
+	text "…You don't have"
+	line "enough money here…"
 	done
 
 GoldenrodCityMoveTutorMoveText:

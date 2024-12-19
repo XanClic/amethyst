@@ -22,60 +22,52 @@ SoulHouseGrannyScript:
 	jumptextfaceplayer SoulHouseGrannyText
 
 MrFujiText:
-	text "MR. FUJI: Sei"
-	line "willkommen."
+	text "MR.FUJI: Welcome."
 
-	para "Hm… Du scheinst"
-	line "deine #MON"
+	para "Hmm… You appear to"
+	line "be raising your"
 
-	para "mit Sorgfalt und"
-	line "Liebe aufzuziehen."
+	para "#MON in a kind"
+	line "and loving manner."
 
-	para "Solche, die #-"
-	line "MON verehren,"
+	para "#MON lovers"
+	line "come here to pay"
 
-	para "zollen hier den"
-	line "dahingegangenen"
-	cont "#MON ihren"
-	cont "Respekt."
+	para "their respects to"
+	line "departed #MON."
 
-	para "Bekunde bitte dein"
-	line "Beileid für die"
+	para "Please offer con-"
+	line "dolences for the"
 
-	para "Seelen der"
-	line "dahingegangenen"
-	cont "#MON."
+	para "souls of the de-"
+	line "parted #MON."
 
-	para "Ich bin sicher,"
-	line "das macht sie"
-	cont "glücklich."
+	para "I'm sure that will"
+	line "make them happy."
 	done
 
 SoulHouseTeacherText:
-	text "Ich glaube, hier"
-	line "liegen noch andere"
-	cont "#MON begraben."
+	text "There are other"
+	line "graves of #MON"
+	cont "here, I think."
 
-	para "Es gibt viele"
-	line "Kammern, die nur"
-	cont "MR. FUJI betreten"
-	cont "darf."
+	para "There are many"
+	line "chambers that only"
+	cont "MR.FUJI may enter."
 	done
 
 SoulHouseLassText:
-	text "Ich besuche mit"
-	line "meiner Mutter die"
-	cont "Grabmale der"
-	cont "#MON…"
+	text "I came with my mom"
+	line "to visit #MON"
+	cont "graves…"
 	done
 
 SoulHouseGrannyText:
-	text "Die #MON, die"
-	line "bei mir lebten…"
+	text "The #MON that"
+	line "lived with me…"
 
-	para "Ich hatte sie so"
-	line "lieb wie meine"
-	cont "Enkelkinder…"
+	para "I loved them like"
+	line "my grandchildren…"
 	done
 
 SoulHouse_MapEvents:

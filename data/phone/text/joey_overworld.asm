@@ -1,75 +1,71 @@
 JoeyAskNumber1Text:
-	text "Gibst du mir deine"
-	line "Telefonnummer?"
+	text "Listen, can I get"
+	line "your phone number?"
 
-	para "Ich melde mich,"
-	line "wenn ich kämpfen"
-	cont "möchte."
+	para "I'll ring you for"
+	line "some battles."
 
-	para "Ich bin auch ein"
-	line "Anfänger, also"
-
-	para "wäre ich ein guter"
-	line "Motivator."
+	para "I'm a rookie too, "
+	line "so I think it'd be"
+	cont "a good motivator."
 	done
 
 JoeyAskNumber2Text:
-	text "Bekomme ich deine"
-	line "Telefonnummer?"
+	text "Can I get your"
+	line "phone number?"
 
-	para "Ich möchte nicht"
-	line "gegen dich"
-	cont "verlieren!"
+	para "I don't want to"
+	line "lose against you!"
 
-	para "Wir müssen noch"
-	line "einmal kämpfen!"
+	para "We have to battle"
+	line "again, OK?"
 	done
 
 JoeyNumberAcceptedText:
-	text "Ich rufe dich an,"
-	line "wenn ich unbedingt"
-	cont "kämpfen möchte!"
+	text "I'll ring you"
+	line "whenever I get the"
+	cont "urge to battle!"
 	done
 
 JoeyNumberDeclinedText:
-	text "Oh, in Ordnung…"
+	text "Oh, all right…"
 
-	para "Du besiegst mich"
-	line "nicht noch einmal!"
+	para "But I won't lose"
+	line "to you again!"
 	done
 
 JoeyPhoneFullText:
-	text "Wie? Dein Nummern-"
-	line "speicher ist voll!"
+	text "Huh, what? Your"
+	line "phone's full."
 	done
 
 JoeyRematchText:
-	text "Ich warte bereits!"
-	line "Auf in den Kampf!"
+	text "I've been waiting!"
+	line "Let's battle now!"
 	done
 
 JoeyPackFullText:
-	text "Halt! Dein BEUTEL"
-	line "ist randvoll!"
+	text "Hey, wait! Your"
+	line "PACK is stuffed!"
 
-	para "Hole es dir beim"
-	line "nächsten Mal."
+	para "Well, we'll leave"
+	line "it till next time."
 	done
 
 JoeyRematchGiftText:
-	text "Und dennoch wieder"
-	line "verloren…"
+	text "And yet another"
+	line "loss…"
 
-	para "Du bist stark - so"
-	line "viel steht fest."
+	para "No doubt about"
+	line "it--you're tough."
 
-	para "Oft zu verlieren"
-	line "ist eigentlich"
-	cont "kein übles Gefühl!"
+	para "Being beaten this"
+	line "often actually"
+	cont "feels good now!"
 
-	para "Nimm dies! Werde"
-	line "damit noch besser."
+	para "Here, take this. "
+	line "Use it to get even"
 
-	para "Dadurch werde auch"
-	line "ich stärker!"
+	para "tougher. That will"
+	line "toughen me up too!"
 	done

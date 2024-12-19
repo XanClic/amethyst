@@ -1,10 +1,10 @@
-	db "ZEITREISE@" ; species name
-	dbw 6, 50 ; height, weight
+	db "TIMETRAVEL@" ; species name
+	dw 200, 110 ; height, weight
 
-	db   "CELEBI wird als"
-	next "Hüter des Waldes"
-	next "verehrt und taucht"
+	db   "Revered as a"
+	next "guardian of the"
+	next "forest, CELEBI"
 
-	page "dort auf, wo"
-	next "es schöne Wälder"
-	next "gibt.@"
+	page "appears wherever"
+	next "beautiful forests"
+	next "exist.@"

@@ -1,10 +1,10 @@
-	db "FEUERPFERD@" ; species name
-	dbw 10, 300 ; height, weight
+	db "FIRE HORSE@" ; species name
+	dw 303, 660 ; height, weight
 
-	db   "Das Springen über"
-	next "Gras, das täglich"
-	next "wächst, hat es zu"
+	db   "Training by"
+	next "jumping over grass"
+	next "that grows longer"
 
-	page "einem Springer von"
-	next "Weltklasse"
-	next "gemacht.@"
+	page "every day has made"
+	next "it a world-class"
+	next "jumper.@"

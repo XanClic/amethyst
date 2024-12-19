@@ -169,90 +169,83 @@ Route46FruitTree2:
 	fruittree FRUITTREE_ROUTE_46_2
 
 HikerBaileySeenText:
-	text "Also gut! Ich"
-	line "zeige dir die"
-	cont "Kraft von Berg-"
-	cont "#MON!"
+	text "Awright! I'll show"
+	line "you the power of"
+	cont "mountain #MON!"
 	done
 
 HikerBaileyBeatenText:
-	text "Gnade! Ich kenne"
-	line "jetzt deine Kraft!"
+	text "Mercy! You showed"
+	line "me your power!"
 	done
 
 HikerBaileyAfterBattleText:
-	text "Es ist vorbei."
-	line "Auch gut. Wir"
-	cont "WANDERER sind eben"
-	cont "so."
+	text "It's over. I don't"
+	line "mind. We HIKERS"
+	cont "are like that."
 	done
 
 CamperTedSeenText:
-	text "Ich trainiere auch"
-	line "#MON!"
+	text "I'm raising #-"
+	line "MON too!"
 
-	para "Möchtest du gegen"
-	line "mich kämpfen?"
+	para "Will you battle"
+	line "with me?"
 	done
 
 CamperTedBeatenText:
-	text "Wah…?"
+	text "Wha…?"
 	done
 
 CamperTedAfterBattleText:
-	text "Ich habe mein"
-	line "Bestes gegeben und"
-	cont "das reichte leider"
-	cont "nicht."
+	text "I did my best but"
+	line "came up short."
 
-	para "Ich gebe ganz"
-	line "offen zu - ich"
-	cont "habe verloren."
+	para "No excuses--I"
+	line "admit I lost."
 	done
 
 PicnickerErin1SeenText:
-	text "Ich trainiere auch"
-	line "#MON!"
+	text "I raise #MON"
+	line "too!"
 
-	para "Trittst du gegen"
-	line "mich an?"
+	para "Will you battle"
+	line "with me?"
 	done
 
 PicnickerErin1BeatenText:
-	text "Oh, Mistkerle!"
+	text "Oh, rats!"
 	done
 
 PicnickerErinAfterBattleText:
-	text "Ich war in vielen"
-	line "PKMN-ARENEN, aber"
+	text "I've been to many"
+	line "GYMS, but the GYM"
 
-	para "die PKMN-ARENA in"
-	line "DUKATIA CITY"
-	cont "ist am schönsten."
+	para "in GOLDENROD is my"
+	line "favorite."
 
-	para "Dort sind wunder-"
-	line "schöne Blumen!"
+	para "It's filled with"
+	line "pretty flowers!"
 	done
 
 PicnickerErin2BeatenText:
-	text "Arg… Ständig"
-	line "verliere ich! Ich"
+	text "Aww… I keep losing"
+	line "all the time!"
 
-	para "muss es noch"
-	line "härter probieren!"
+	para "I'll just have to"
+	line "try harder!"
 
-	para "Egal, danke, dass"
-	line "du immer wieder"
+	para "Anyway, thanks for"
+	line "battling me again"
 
-	para "gegen mich"
-	line "kämpfst. Hier ist"
-	cont "das Geschenk vom"
-	cont "letzen Mal."
+	para "and again. Here's"
+	line "that present from"
+	cont "the other time."
 	done
 
 Route46SignText:
 	text "ROUTE 46"
-	line "BERGWEG VORAUS"
+	line "MOUNTAIN RD. AHEAD"
 	done
 
 Route46_MapEvents:

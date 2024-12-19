@@ -83,75 +83,75 @@ FlowerShopRadio: ; unreferenced
 	jumpstd Radio2Script
 
 GoldenrodFlowerShopTeacherMySisterWentToSeeWigglyTreeRoute36Text:
-	text "Hast du den wacke-"
-	line "ligen Baum auf"
-	cont "ROUTE 36 gesehen?"
+	text "Have you seen that"
+	line "wiggly tree that's"
 
-	para "Meine kleine"
-	line "Schwester war auf-"
-	cont "geregt und wollte"
-	cont "ihn sich ansehen…"
+	para "growing on ROUTE"
+	line "36?"
 
-	para "Ich bin besorgt…"
-	line "Ist das riskant?"
+	para "My little sister"
+	line "got all excited"
+
+	para "and went to see"
+	line "it…"
+
+	para "I'm worried… Isn't"
+	line "it dangerous?"
 	done
 
 GoldenrodFlowerShopTeacherAskWantToBorrowWaterBottleText:
-	text "Möchtest du auch"
-	line "die Gießkanne aus-"
-	cont "leihen? Ich werde"
-	cont "nicht zulassen,"
+	text "Do you want to"
+	line "borrow the water"
 
-	para "dass du etwas Ge-"
-	line "fährliches damit"
-	cont "anstellst."
+	para "bottle too?"
+	line "I don't want you"
+
+	para "doing anything"
+	line "dangerous with it."
 	done
 
 GoldenrodFlowerShopTeacherHeresTheSquirtbottleText:
-	text "Oh, du bist besser"
-	line "als BIANKA…"
+	text "Oh, you're better"
+	line "than WHITNEY…"
 
-	para "Dann bist du in"
-	line "Ordnung. Hier, die"
-	cont "SCHIGGYKANNE!"
+	para "You'll be OK,"
+	line "then. Here's the"
+	cont "SQUIRTBOTTLE!"
 	done
 
 GoldenrodFlowerShopTeacherDontDoAnythingDangerousText:
-	text "Unternimm nichts"
-	line "Gefährliches!"
+	text "Don't do anything"
+	line "too dangerous!"
 	done
 
 GoldenrodFlowerShopTeacherLalalaHavePlentyOfWaterText:
 	text "Lalala lalalala."
-	line "Da hast du Wasser,"
-	cont "mein Hübsches!"
+	line "Have plenty of"
+	cont "water, my lovely!"
 	done
 
 GoldenrodFlowerShopFloriaWonderIfSisWillLendWaterBottleText:
-	text "Als ich meiner"
-	line "Schwester von dem"
+	text "When I told my sis"
+	line "about the jiggly"
 
-	para "wackeligen Baum"
-	line "erzählte, sagte"
+	para "tree, she told me"
+	line "it's dangerous."
 
-	para "sie mir, dass er"
-	line "gefährlich sei."
+	para "If I beat WHITNEY,"
+	line "I wonder if she'll"
 
-	para "Ich frage mich, ob"
-	line "sie mir ihre Gieß-"
-	cont "kanne leiht, wenn"
-	cont "ich BIANKA"
-	cont "besiege…"
+	para "lend me her water"
+	line "bottle…"
 	done
 
 GoldenrodFlowerShopFloriaYouBeatWhitneyText:
-	text "Wow, du hast gegen"
-	line "BIANKA gewonnen?"
+	text "Wow, you beat"
+	line "WHITNEY? Cool!"
 	done
 
 GoldenrodFlowerShopFloriaItReallyWasAMonText:
-	text "Es war tatsächlich"
-	line "ein #MON!"
+	text "So it really was a"
+	line "#MON!"
 	done
 
 GoldenrodFlowerShop_MapEvents:

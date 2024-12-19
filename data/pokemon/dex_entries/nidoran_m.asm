@@ -1,10 +1,10 @@
-	db "GIFTDORN@" ; species name
-	dbw 5, 90 ; height, weight
+	db "POISON PIN@" ; species name
+	dw 108, 200 ; height, weight
 
-	db   "Es richtet seine"
-	next "großen Ohren stän-"
-	next "dig in alle Rich-"
+	db   "It constantly"
+	next "moves its large"
+	next "ears in many"
 
-	page "tungen, um Gefahr"
-	next "frühzeitig"
-	next "zu registrieren.@"
+	page "directions in"
+	next "order to detect"
+	next "danger right away.@"

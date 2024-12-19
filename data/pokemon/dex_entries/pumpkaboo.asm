@@ -1,11 +1,11 @@
-	db "KÜRBIS@" ; species name
-	dbw 8, 150 ; height, weight
+	db "PUMPKIN@" ; species name
+	dw 206, 3300 ; height, weight
 
 	;  "| ----------------- |"
-	db   "Im Diesseits ge-"
-	next "fangene verlorene"
-	next "Seelen finden in"
+	db   "It is said to"
+	next "carry wandering"
+	next "spirits to the"
 
-	page "ihm Platz, um ins"
-	next "Jenseits zu"
-	next "reisen.@"
+	page "place where they"
+	next "belong so they"
+	next "can move on.@"

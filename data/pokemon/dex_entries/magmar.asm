@@ -1,10 +1,10 @@
-	db "BRENNER@" ; species name
-	dbw 13, 445 ; height, weight
+	db "SPITFIRE@" ; species name
+	dw 403, 980 ; height, weight
 
-	db   "Man trifft es häu-"
-	next "figer in warmen"
-	next "Gebieten. Es heilt"
+	db   "It moves more"
+	next "frequently in hot"
+	next "areas. It can heal"
 
-	page "seine Wunden,"
-	next "indem es sie in"
-	next "Lava taucht.@"
+	page "itself by dipping"
+	next "its wound into"
+	next "lava.@"

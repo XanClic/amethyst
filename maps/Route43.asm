@@ -323,214 +323,179 @@ Route43MaxEther:
 	itemball MAX_ETHER
 
 PokemaniacBenSeenText:
-	text "Ich liebe #MON!"
+	text "I love #MON!"
 
-	para "Deshalb habe ich"
-	line "angefangen, #-"
-	cont "MON zu sammeln und"
+	para "That's why I"
+	line "started--and why"
 
-	para "damit werde ich"
-	line "auch nicht mehr"
-	cont "aufhören!"
+	para "I'll keep on col-"
+	line "lecting #MON!"
 	done
 
 PokemaniacBenBeatenText:
-	text "Wie konntest du"
-	line "mir das antun?"
+	text "How could you do"
+	line "this to me?"
 	done
 
 PokemaniacBenAfterBattleText:
-	text "Du fragst, was ich"
-	line "außer #MON"
-	cont "noch mag?"
+	text "What else do I"
+	line "like besides"
+	cont "#MON?"
 
-	para "MARGIT vom Radio!"
-	line "Die ist bestimmt"
-	cont "süß!"
+	para "MARY on the radio."
+	line "I bet she's cute!"
 	done
 
 PokemaniacBrentSeenText:
-	text "Heh! Hast du"
-	line "seltene #MON?"
+	text "Hey! Do you have"
+	line "any rare #MON?"
 	done
 
 PokemaniacBrentBeatenText:
-	text "Meine armen #-"
-	line "MON-Lieblinge!"
+	text "Oh, my poor #-"
+	line "MON! Darlings!"
 	done
 
 PokemaniacBrentAfterBattleText:
-	text "Ich wäre schon"
-	line "froh, wenn ich nur"
-	cont "ein einziges"
-	cont "seltenes #MON"
-	cont "hätte."
+	text "I'd be happy just"
+	line "to own a single"
+	cont "rare #MON."
 	done
 
 PokemaniacRonSeenText:
-	text "Stell dir mal vor!"
+	text "Would you get"
+	line "this?"
 
-	para "So ein <RIVAL>"
-	line "hat sich über"
-	cont "mein #MON"
-	cont "lustig gemacht!"
+	para "Some <RIVAL> guy"
+	line "made fun of my"
+	cont "#MON!"
 
-	para "Unverschämtheit!"
-	line "Mein #MON"
-	cont "ist toll!"
+	para "Darn it! My #-"
+	line "MON's great!"
 	done
 
 PokemaniacRonBeatenText:
-	text "Mein NIDOKING hat"
-	line "sich wacker ge-"
-	cont "schlagen!"
+	text "My NIDOKING did"
+	line "pretty right on!"
 	done
 
 PokemaniacRonAfterBattleText:
-	text "Für die meisten"
-	line "Menschen ist es"
+	text "It's okay for"
+	line "people to like"
 
-	para "ganz natürlich,"
-	line "unterschiedliche"
+	para "different types"
+	line "of #MON."
 
-	para "Arten von #MON"
-	line "zu mögen."
-
-	para "Es geht bei"
-	line "#MON nicht"
-
-	para "darum, das"
-	line "Stärkste von allen"
-	cont "zu haben."
+	para "#MON isn't just"
+	line "about having the"
+	cont "most powerful one."
 	done
 
 FisherMarvinSeenText:
-	text "Ich bin gerade"
-	line "ziemlich am Boden."
+	text "I'm in a slump."
 
-	para "Vielleicht liegt"
-	line "das an dem Item,"
-	cont "das ich benutze."
+	para "Maybe it's the"
+	line "gear I'm using."
 
-	para "Kämpfen wir! Das"
-	line "hebt vielleicht"
-	cont "meine Laune!"
+	para "Let's battle for a"
+	line "change of pace!"
 	done
 
 FisherMarvinBeatenText:
-	text "Ich habe verloren,"
-	line "aber ich fühle"
-	cont "mich trotzdem"
-	cont "besser."
+	text "I lost, but I feel"
+	line "better anyway."
 	done
 
 FisherMarvinAfterBattleText:
-	text "KURTs KÖDERBALL"
-	line "eignet sich am"
+	text "KURT's LURE BALL"
+	line "is the best for"
 
-	para "besten, um #-"
-	line "MON, die an der"
-	cont "Angel hängen,"
-	cont "einzufangen."
+	para "catching hooked"
+	line "#MON."
 
-	para "Er ist viel"
-	line "effektiver als"
-	cont "der HYPERBALL."
+	para "It's much more"
+	line "effective than a"
+	cont "ULTRA BALL."
 	done
 
 CamperSpencerSeenText:
-	text "Man kann so viel"
-	line "unternehmen mit"
-	cont "seinen #MON -"
-	cont "das macht"
-	cont "unheimlich viel"
-	cont "Spaß!"
+	text "I can do so much"
+	line "with my #MON--"
+	cont "it's super-fun!"
 	done
 
 CamperSpencerBeatenText:
-	text "Verlieren macht"
-	line "überhaupt keinen"
-	cont "Spaß…"
+	text "Losing isn't fun"
+	line "at all…"
 	done
 
 CamperSpencerAfterBattleText:
-	text "Was geht da vor"
-	line "sich am"
-	cont "SEE DES ZORNS?"
+	text "What is going on"
+	line "at LAKE OF RAGE?"
 
-	para "Wir wollen dort"
-	line "zelten."
+	para "We were planning"
+	line "to camp there."
 	done
 
 PicnickerTiffanySeenText:
-	text "Gehst du auch zum"
-	line "SEE DES ZORNS?"
+	text "Are you going to"
+	line "LAKE OF RAGE too?"
 
-	para "Spielen wir ein"
-	line "bisschen!"
+	para "Let's play for a "
+	line "little while!"
 	done
 
 PicnickerTiffanyBeatenText:
-	text "Ich habe zu lange"
-	line "gespielt!"
+	text "I played too much!"
 	done
 
 PicnickerTiffanyWantsPicnicText:
-	text "Ich mache ein"
-	line "Picknick mit"
-	cont "meinen #MON."
+	text "I'm having a pic-"
+	line "nic with #MON."
 
-	para "Setz dich doch zu"
-	line "uns."
+	para "Won't you join us?"
 	done
 
 PicnickerTiffanyClefairyText:
-	text "Ist mein PIEPI"
-	line "nicht"
-	cont "herzallerliebst?"
+	text "Isn't my CLEFAIRY"
+	line "just the most"
+	cont "adorable thing?"
 	done
 
 Route43Sign1Text:
 	text "ROUTE 43"
 
-	para "SEE DES ZORNS -"
-	line "MAHAGONIA CITY"
+	para "LAKE OF RAGE -"
+	line "MAHOGANY TOWN"
 	done
 
 Route43Sign2Text:
 	text "ROUTE 43"
 
-	para "SEE DES ZORNS -"
-	line "MAHAGONIA CITY"
+	para "LAKE OF RAGE -"
+	line "MAHOGANY TOWN"
 	done
 
 Route43TrainerTipsText:
-	text "TIPPS für TRAINER"
+	text "TRAINER TIPS"
 
-	para "Alle #MON haben"
-	line "Vor- und Nach-"
+	para "All #MON have"
+	line "pros and cons"
 
-	para "teile. Das hängt"
-	line "ganz davon ab,"
-	cont "welchem Element"
-	cont "sie angehören."
+	para "depending on their"
+	line "types."
 
-	para "Sind zwei #MON"
-	line "unterschiedlicher"
+	para "If their types"
+	line "differ, a higher-"
 
-	para "Elemente, kann"
-	line "sogar ein #MON"
-	cont "verlieren, das"
-	cont "einen höheren"
-	cont "Level hat."
+	para "level #MON may"
+	line "lose in battle."
 
-	para "Finde heraus,"
-	line "welche Elemente"
+	para "Learn which types"
+	line "are strong and"
 
-	para "effektiv oder"
-	line "ineffektiv gegen"
-	cont "deine #MON"
-	cont "sind."
+	para "weak against your"
+	line "#MON's type."
 	done
 
 Route43_MapEvents:

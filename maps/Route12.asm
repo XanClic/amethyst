@@ -71,98 +71,97 @@ Route12HiddenElixer:
 	hiddenitem ELIXER, EVENT_ROUTE_12_HIDDEN_ELIXER
 
 FisherMartinSeenText:
-	text "Geduld ist das"
-	line "Zauberwort. Das"
-	cont "gilt fürs Angeln"
-	cont "und für #MON."
+	text "Patience is the"
+	line "key to both fish-"
+	cont "ing and #MON."
 	done
 
 FisherMartinBeatenText:
-	text "Guaah!"
+	text "Gwaaah!"
 	done
 
 FisherMartinAfterBattleText:
-	text "Ich bin zu unge-"
-	line "duldig für das"
-	cont "Angeln…"
+	text "I'm too impatient"
+	line "for fishing…"
 	done
 
 FisherStephenSeenText:
-	text "Wenn ich beim"
-	line "Angeln Radio hören"
-	cont "kann, bin ich"
-	cont "glücklich."
+	text "I feel so content,"
+	line "fishing while lis-"
+	cont "tening to some"
+	cont "tunes on my radio."
 	done
 
 FisherStephenBeatenText:
-	text "Das blöde Radio"
-	line "beunruhigt mich!"
+	text "My stupid radio"
+	line "distracted me!"
 	done
 
 FisherStephenAfterBattleText:
-	text "Kennst du schon"
-	line "die Radiosender"
+	text "Have you checked"
+	line "out KANTO's radio"
 
-	para "aus KANTO? Es gibt"
-	line "viele hier."
+	para "programs? We get a"
+	line "good variety here."
 	done
 
 FisherBarneySeenText:
-	text "Was ist in unserem"
-	line "alltäglichen Leben"
-	cont "am wichtigsten?"
+	text "What's most impor-"
+	line "tant in our every-"
+	cont "day lives?"
 	done
 
 FisherBarneyBeatenText:
-	text "Die Antwort gibt"
-	line "es demnächst!"
+	text "The answer is"
+	line "coming up next!"
 	done
 
 FisherBarneyAfterBattleText:
-	text "Meiner Meinung"
-	line "nach ist Strom"
+	text "I think electric-"
+	line "ity is the most"
 
-	para "das Wichtigste"
-	line "in unserem Leben."
+	para "important thing in"
+	line "our daily lives."
 
-	para "Wenn dem nicht so"
-	line "wäre, hätten die"
+	para "If it weren't,"
+	line "people wouldn't"
 
-	para "Leute nicht so"
-	line "einen Aufstand"
+	para "have made such a"
+	line "fuss when the"
 
-	para "fabriziert, als"
-	line "das KRAFTWERK"
-	cont "außer Betrieb war."
+	para "POWER PLANT went"
+	line "out of commission."
 	done
 
 FisherKyleSeenText:
-	text "Erinnerst du dich?"
+	text "Do you remember?"
 	done
 
 FisherKyleBeatenText:
-	text "Du erinnerst dich?"
+	text "You do remember?"
 	done
 
 FisherKyleAfterBattleText:
-	text "Das Reißen an der"
-	line "ANGEL, wenn du"
+	text "The tug you feel"
+	line "on the ROD when"
 
-	para "ein #MON"
-	line "fangen möchtest…"
+	para "you hook a #-"
+	line "MON…"
 
-	para "Das ist das"
-	line "Schönste für einen"
-	cont "Angler wie mich."
+	para "That's the best"
+	line "feeling ever for"
+	cont "an angler like me."
 	done
 
 Route12SignText:
 	text "ROUTE 12"
-	line "NORDEN: LAVANDIA"
+
+	para "NORTH TO LAVENDER"
+	line "TOWN"
 	done
 
 FishingSpotSignText:
-	text "ANGELPLATZ"
+	text "FISHING SPOT"
 	done
 
 Route12_MapEvents:

@@ -1,10 +1,10 @@
-	db "TRIVOGEL@" ; species name
-	dbw 18, 852 ; height, weight
+	db "TRIPLEBIRD@" ; species name
+	dw 511, 1880 ; height, weight
 
-	db   "Lässt ein Feind"
-	next "auch nur einen der"
-	next "drei Köpfe für nur"
+	db   "An enemy that"
+	next "takes its eyes off"
+	next "any of the three"
 
-	page "eine Sekunde aus"
-	next "den Augen, wird"
-	next "er sofort gepickt.@"
+	page "heads--even for a"
+	next "second--will get"
+	next "pecked severely.@"

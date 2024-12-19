@@ -1,10 +1,10 @@
-	db "FEUER@" ; species name
-	dbw 9, 250 ; height, weight
+	db "FLAME@" ; species name
+	dw 211, 550 ; height, weight
 
-	db   "Hat dieses #MON"
-	next "genügend Wärme im"
-	next "Körper gesammelt,"
+	db   "Once it has stored"
+	next "up enough heat,"
+	next "this #MON's"
 
-	page "kann seine Körper-"
-	next "temperatur 900"
-	next "Grad C erreichen.@"
+	page "body temperature"
+	next "can reach up to"
+	next "1700 degrees.@"

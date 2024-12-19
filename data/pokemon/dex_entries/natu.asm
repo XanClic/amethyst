@@ -1,10 +1,10 @@
-	db "KLEINVOGEL@" ; species name
-	dbw 2, 20 ; height, weight
+	db "LITTLE BIRD@" ; species name
+	dw 8, 40 ; height, weight
 
-	db   "Es kann hervor-"
-	next "ragend klettern."
-	next "Es klettert gerne"
+	db   "It is extremely"
+	next "good at climbing"
+	next "tree trunks and"
 
-	page "auf Bäume und"
-	next "frisst die jungen"
-	next "Triebe.@"
+	page "likes to eat the"
+	next "new sprouts on"
+	next "the trees.@"

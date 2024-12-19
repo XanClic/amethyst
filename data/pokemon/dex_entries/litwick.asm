@@ -1,11 +1,11 @@
-	db "KERZE@" ; species name
-	dbw 3, 31 ; height, weight
+	db "CANDLE@" ; species name
+	dw 100, 700 ; height, weight
 
 	;  "| ----------------- |"
-	db   "Es entfacht eine"
-	next "Flamme, die von"
-	next "der Lebensenergie"
+	db   "It shines a light"
+	next "that absorbs the"
+	next "life energy of"
 
-	page "eines Menschen"
-	next "oder eines #MON"
-	next "zehrt.@"
+	page "people and #MON,"
+	next "which becomes the"
+	next "fuel it burns.@"

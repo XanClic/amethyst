@@ -1,81 +1,81 @@
 LizAnswerPhoneText:
-	text "Hallo, @"
+	text "Hello, @"
 	text_ram wStringBuffer3
 	text_start
-	line "am Apparat."
+	line "speaking."
 
 	para "Oh, <PLAY_G>."
-	line "Guten Morgen."
+	line "Good morning."
 	done
 
 LizAnswerPhoneDayText:
-	text "Hallo, @"
+	text "Hello, @"
 	text_ram wStringBuffer3
 	text_start
-	line "ist dran."
+	line "speaking."
 
 	para "Oh, <PLAY_G>."
-	line "Wie geht es dir?"
+	line "How are you?"
 	done
 
 LizAnswerPhoneNiteText:
-	text "Hallo, @"
+	text "Hello, @"
 	text_ram wStringBuffer3
 	text_start
-	line "am Apparat."
+	line "speaking."
 
 	para "Oh, <PLAY_G>."
-	line "Guten Abend."
+	line "Good evening."
 	done
 
 LizGreetText:
-	text "Guten Morgen,"
+	text "Good morning,"
 	line "<PLAY_G>."
 
-	para "@"
+	para "This is @"
 	text_ram wStringBuffer3
-	text ", hallo!"
-	line "Bist du wach?"
+	text "."
+	line "Were you sleeping?"
 	done
 
 LizGreetDayText:
 	text "Hi, <PLAY_G>."
-	line "@"
+	line "This is @"
 	text_ram wStringBuffer3
-	text ", hallo!"
+	text "."
 
-	para "Wie ist es dir"
-	line "ergangen?"
+	para "How are things"
+	line "going for you?"
 	done
 
 LizGreetNiteText:
-	text "Guten Abend,"
+	text "Good evening,"
 	line "<PLAY_G>."
 
-	para "@"
+	para "This is @"
 	text_ram wStringBuffer3
-	text ", hallo!"
-	line "Bist du wach?"
+	text "."
+	line "Are you awake?"
 	done
 
 LizGenericText:
-	text "Ich hatte Zeit,"
-	line "daher rufe ich an."
+	text "I had some time,"
+	line "so I called you."
 
-	para "Wie geht es deinen"
-	line "#MON?"
+	para "So anyway, how are"
+	line "your #MON?"
 
-	para "Ich bringe mein"
+	para "Me, I take my"
 	line "@"
 	text_ram wStringBuffer4
-	text " täglich"
+	text " to the"
 
-	para "in das #MON-"
-	line "CENTER von VIOLA"
+	para "#MON CENTER in"
+	line "VIOLET every day,"
 
-	para "CITY, darum geht"
-	line "es ihm wunderbar!"
+	para "so it's doing just"
+	line "fantastic!"
 
-	para "Die Rezeptionistin"
-	line "ist eine Freundin!"
+	para "I'm friends with"
+	line "the receptionist!"
 	done

@@ -143,188 +143,171 @@ BlackthornCityMartSign:
 	jumpstd MartSignScript
 
 Text_ClairIsOut:
-	text "Tut mir Leid."
+	text "I am sorry."
 
-	para "SANDRA, unsere"
-	line "ARENALEITERIN,"
+	para "CLAIR, our GYM"
+	line "LEADER, entered"
 
-	para "ist in die"
-	line "DRACHENHÖHLE"
+	para "the DRAGON'S DEN"
+	line "behind the GYM."
 
-	para "hinter der PKMN-"
-	line "ARENA gegangen."
-
-	para "Ich weiß nicht,"
-	line "wann sie wieder-"
-	cont "kommt."
+	para "I have no idea"
+	line "when our LEADER"
+	cont "will return."
 	done
 
 Text_ClairIsIn:
-	text "SANDRA, unsere"
-	line "ARENALEITERIN,"
-	cont "erwartet dich."
+	text "CLAIR, our GYM"
+	line "LEADER, is waiting"
+	cont "for you."
 
-	para "Für einen gewöhn-"
-	line "lichen Trainer"
+	para "However, it would"
+	line "be impossible for"
 
-	para "ist es jedoch un-"
-	line "möglich zu siegen."
+	para "a run-of-the-mill"
+	line "trainer to win."
 	done
 
 Text_ClairIsBeaten:
-	text "Du hast SANDRA"
-	line "besiegt?"
+	text "You defeated"
+	line "CLAIR?"
 
-	para "Wie erstaunlich!"
+	para "That's amazing!"
 
-	para "Soweit ich weiß,"
-	line "hat sie bis jetzt"
+	para "I've never heard"
+	line "of her losing to"
 
-	para "nur gegen"
-	line "SIEGFRIED"
-	cont "verloren."
+	para "anyone other than"
+	line "LANCE."
 	done
 
 BlackthornGrampsRefusesEntryText:
-	text "Nein. Nur auser-"
-	line "wählte Trainer"
+	text "No. Only chosen"
+	line "trainers may train"
 
-	para "dürfen hier"
-	line "trainieren."
-	cont "Gehe hinfort."
+	para "here."
+	line "Please leave."
 	done
 
 BlackthornGrampsGrantsEntryText:
-	text "Wenn SANDRA es dir"
-	line "gestattet, dann"
+	text "If CLAIR allows"
+	line "it, her grand-"
+	cont "father--our MASTER"
+	cont "--will also."
 
-	para "wird auch ihr Opa"
-	line "- unser MEISTER -"
-	cont "zustimmen."
-
-	para "Tritt ein."
+	para "You may enter."
 	done
 
 BlackBeltText_WeirdRadio:
-	text "Mein Radio ist im"
-	line "Eimer. Seit kurzem"
-	cont "empfange ich nur"
-	cont "dieses eigenartige"
-	cont "Signal."
+	text "My radio's busted?"
+	line "Lately, I only get"
+	cont "this weird signal."
 	done
 
 BlackBeltText_VoicesInMyHead:
-	text "Aruuu! Stimmen in"
-	line "meinem Kopf!"
+	text "Arooo! Voices in"
+	line "my head!"
 
-	para "Häh? Ich höre"
-	line "Radio!"
+	para "Huh? I'm listening"
+	line "to my radio!"
 	done
 
 BlackthornCooltrainerF1Text:
-	text "Willst du, dass"
-	line "deine #MON ei-"
-	cont "nige Attacken ver-"
-	cont "gessen?"
+	text "Are you going to"
+	line "make your #MON"
+	cont "forget some moves?"
 	done
 
 BlackthornYoungsterText:
-	text "Alle Drachen-"
-	line "meister kommen aus"
-	cont "EBENHOLZ CITY."
+	text "Dragon masters all"
+	line "come from the city"
+	cont "of BLACKTHORN."
 	done
 
 MeetSantosText:
-	text "SAMSON: …"
+	text "SANTOS: …"
 
-	para "Heute ist Samstag…"
+	para "It's Saturday…"
 
-	para "Ich bin SAMSON von"
-	line "Samstag…"
+	para "I'm SANTOS of"
+	line "Saturday…"
 	done
 
 SantosGivesGiftText:
-	text "Du kannst das"
-	line "haben…"
+	text "You can have this…"
 	done
 
 SantosGaveGiftText:
-	text "SAMSON: …"
+	text "SANTOS: …"
 
-	para "BANNSTICKER…"
+	para "SPELL TAG…"
 
-	para "Geist-Attacken"
-	line "werden stärker…"
+	para "Ghost-type moves"
+	line "get stronger…"
 
-	para "Es ist geradezu"
-	line "beängstigend…"
+	para "It will frighten"
+	line "you…"
 	done
 
 SantosSaturdayText:
-	text "SAMSON: …"
+	text "SANTOS: …"
 
-	para "Wir sehen uns an"
-	line "einem anderen"
-	cont "Samstag wieder…"
+	para "See you again on"
+	line "another Saturday…"
 
-	para "Aber ich werde"
-	line "dann keine Ge-"
-	cont "schenke mehr"
-	cont "haben…"
+	para "I won't have any"
+	line "more gifts…"
 	done
 
 SantosNotSaturdayText:
-	text "SAMSON: Heute ist"
-	line "nicht Samstag…"
+	text "SANTOS: Today's"
+	line "not Saturday…"
 	done
 
 BlackthornCooltrainerF2Text:
-	text "Wow, du bist über"
-	line "den EISPFAD gekom-"
-	cont "men?"
+	text "Wow, you came"
+	line "through the ICE"
+	cont "PATH?"
 
-	para "Du musst ein rich-"
-	line "tiger Heißsporn"
-	cont "sein!"
+	para "You must be a real"
+	line "hotshot trainer!"
 	done
 
 BlackthornCitySignText:
-	text "EBENHOLZ CITY"
+	text "BLACKTHORN CITY"
 
-	para "Ein ruhiger Ort in"
-	line "den Bergen"
+	para "A Quiet Mountain"
+	line "Retreat"
 	done
 
 BlackthornGymSignText:
-	text "PKMN-ARENA von"
-	line "EBENHOLZ CITY"
+	text "BLACKTHORN CITY"
+	line "#MON GYM"
+	cont "LEADER: CLAIR"
 
-	para "LEITUNG: SANDRA"
-	line "Die gesegnete Dra-"
-	cont "chen-#MON-"
-	cont "Trainerin"
+	para "The Blessed User"
+	line "of Dragon #MON"
 	done
 
 MoveDeletersHouseSignText:
-	text "HAUS DES ATTACKEN-"
-	line "VERLERNERs"
+	text "MOVE DELETER'S"
+	line "HOUSE"
 	done
 
 DragonDensSignText:
-	text "DRACHENHÖHLE"
-	line "GERADEAUS"
+	text "DRAGON'S DEN"
+	line "AHEAD"
 	done
 
 BlackthornCityTrainerTipsText:
-	text "TIPPS FÜR TRAINER"
+	text "TRAINER TIPS"
 
-	para "Ein #MON, das"
-	line "eine WUNDERBEERE"
+	para "A #MON holding"
+	line "a MIRACLEBERRY"
 
-	para "trägt, kann von"
-	line "sich aus Status-"
-	cont "veränderungen hei-"
-	cont "len."
+	para "will cure itself"
+	line "of any status"
+	cont "problem."
 	done
 
 BlackthornCity_MapEvents:

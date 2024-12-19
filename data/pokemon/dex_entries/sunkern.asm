@@ -1,10 +1,10 @@
-	db "SAMEN@" ; species name
-	dbw 3, 18 ; height, weight
+	db "SEED@" ; species name
+	dw 100, 40 ; height, weight
 
-	db   "Es ist sehr"
-	next "schwach. Es kann"
-	next "sich nur vertei-"
+	db   "It is very weak."
+	next "Its only means of"
+	next "defense is to"
 
-	page "digen, indem es"
-	next "seine Blätter"
-	next "heftig schüttelt.@"
+	page "shake its leaves"
+	next "desperately at its"
+	next "attacker.@"

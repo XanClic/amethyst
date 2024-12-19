@@ -1,10 +1,10 @@
-	db "KOBRA@" ; species name
-	dbw 35, 650 ; height, weight
+	db "COBRA@" ; species name
+	dw 1106, 1430 ; height, weight
 
-	db   "Um Feinde einzu-"
-	next "schüchtern, bläht"
-	next "es seine Brust auf"
+	db   "To intimidate"
+	next "foes, it spreads"
+	next "its chest wide and"
 
-	page "und stößt unheim-"
-	next "liche Laute durch"
-	next "sein Maul aus.@"
+	page "makes eerie sounds"
+	next "by expelling air"
+	next "from its mouth.@"

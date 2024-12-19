@@ -34,21 +34,19 @@ Route17Route18GateCannotPassMovement:
 	step_end
 
 Route17Route18GateOfficerText:
-	text "RADWEG"
-	line "Ab hier geht's"
-	cont "bergauf."
+	text "CYCLING ROAD"
+	line "Uphill Starts Here"
 	done
 
 Route17Route18GateCannotPassText:
-	text "Warte! Hast du"
-	line "kein FAHRRAD?"
+	text "Hang on! Don't you"
+	line "have a BICYCLE?"
 
-	para "Der RADWEG"
-	line "beginnt da vorne."
+	para "The CYCLING ROAD"
+	line "is beyond here."
 
-	para "Ohne FAHRRAD"
-	line "darfst du ihn"
-	cont "nicht benutzen."
+	para "You have to have a"
+	line "BICYCLE to go on."
 	done
 
 Route17Route18Gate_MapEvents:

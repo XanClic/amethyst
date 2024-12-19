@@ -1,11 +1,11 @@
-	db "KÖNIGSKLINGE@" ; species name
-	dbw 17, 530 ; height, weight
+	db "ROYAL SWORD@" ; species name
+	dw 507, 11700 ; height, weight
 
 	;  "| ----------------- |"
-	db   "Generationen von"
-	next "Königen glaubten"
-	next "dieses #MON an"
+	db   "Generations of"
+	next "kings believed"
+	next "this #MON at"
 
-	page "ihrer Seite; doch"
-	next "in Wahrheit be-"
-	next "herrschte es sie.@"
+	page "their side; but"
+	next "in truth, it"
+	next "controlled them.@"

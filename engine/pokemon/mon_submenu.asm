@@ -20,11 +20,7 @@ MonSubmenu:
 
 .MenuHeader:
 	db MENU_BACKUP_TILES ; flags
-if !DEF(_CRYSTAL_EU)
 	menu_coords 6, 0, SCREEN_WIDTH - 1, SCREEN_HEIGHT - 1
-else
-	menu_coords 5, 0, SCREEN_WIDTH - 1, SCREEN_HEIGHT - 1
-endc
 	dw 0
 	db 1 ; default option
 
@@ -283,29 +279,13 @@ BattleMonMenu:
 
 .MenuHeader:
 	db 0 ; flags
-if !DEF(_CRYSTAL_EU)
 	menu_coords 11, 11, SCREEN_WIDTH - 1, SCREEN_HEIGHT - 1
-elif DEF(_CRYSTAL_DE)
-	menu_coords 9, 11, SCREEN_WIDTH - 1, SCREEN_HEIGHT - 1
-elif DEF(_CRYSTAL_ES)
-	menu_coords 11, 11, SCREEN_WIDTH - 1, SCREEN_HEIGHT - 1
-endc
 	dw .MenuData
 	db 1 ; default option
 
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 3 ; items
-if !DEF(_CRYSTAL_EU)
 	db "SWITCH@"
 	db "STATS@"
 	db "CANCEL@"
-elif DEF(_CRYSTAL_DE)
-	db "TAUSCH@"
-	db "STATUS@"
-	db "ZURÜCK@"
-elif DEF(_CRYSTAL_ES)
-	db "CAMBIO@"
-	db "ESTAD.@"
-	db "SALIR@"
-endc

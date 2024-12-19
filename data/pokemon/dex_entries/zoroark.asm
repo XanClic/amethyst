@@ -1,11 +1,11 @@
-	db "FLUCHFUCHS@" ; species name
-	dbw 16, 730 ; height, weight
+	db "BANEFUL FOX@" ; species name
+	dw 503, 16100 ; height, weight
 
 	;  "| ----------------- |"
-	db   "Getrieben von"
-	next "bitterem Groll"
-	next "streckt es Feinde"
+	db   "Recklessly driven"
+	next "by bitter resent-"
+	next "ment, it fells"
 
-	page "ohne Rücksicht"
-	next "auf das eigene"
-	next "Leben nieder.@"
+	page "its foes with"
+	next "utter disregard"
+	next "for its own life.@"

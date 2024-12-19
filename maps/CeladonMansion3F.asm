@@ -82,23 +82,22 @@ CeladonMansion3FReferenceMaterial:
 	jumptext CeladonMansion3FReferenceMaterialText
 
 GameFreakGameDesignerText:
-	text "Ist das richtig?"
+	text "Is that right?"
 
-	para "Ich bin der"
-	line "SPIELDESIGNER!"
+	para "I'm the GAME"
+	line "DESIGNER!"
 
-	para "Es ist schwer,"
-	line "den #DEX zu"
-	cont "erstellen, aber"
-	cont "gib nicht auf!"
+	para "Filling up your"
+	line "#DEX is tough,"
+	cont "but don't give up!"
 	done
 
 GameFreakGameDesignerCompletedPokedexText:
-	text "Wow! Hervorragend!"
-	line "Dein #DEX ist"
-	cont "komplett!"
+	text "Wow! Excellent!"
+	line "You completed your"
+	cont "#DEX!"
 
-	para "Gratuliere!"
+	para "Congratulations!"
 	done
 
 GameFreakGameDesignerPauseForDiplomaText:
@@ -106,97 +105,86 @@ GameFreakGameDesignerPauseForDiplomaText:
 	done
 
 GameFreakGameDesignerAfterDiplomaText:
-	text "Der GRAFIKER wird"
-	line "dir ein DIPLOM"
-	cont "ausdrucken."
+	text "The GRAPHIC ARTIST"
+	line "will print out a"
+	cont "DIPLOMA for you."
 
-	para "Gib ruhig damit"
-	line "an."
+	para "You should go show"
+	line "it off."
 	done
 
 GameFreakGraphicArtistText:
-	text "Ich bin der"
-	line "GRAFIKER."
+	text "I'm the GRAPHIC"
+	line "ARTIST."
 
-	para "Ich habe eine"
-	line "Zeichnung von dir"
-	cont "angefertigt!"
+	para "I drew you!"
 	done
 
 GameFreakGraphicArtistPrintDiplomaText:
-	text "Ich bin der"
-	line "GRAFIKER."
+	text "I'm the GRAPHIC"
+	line "ARTIST."
 
-	para "Oh, du hast deinen"
-	line "#DEX fertig"
-	cont "gestellt?"
+	para "Oh, you completed"
+	line "your #DEX?"
 
-	para "Möchtest du, dass"
-	line "ich dir ein DIPLOM"
-	cont "ausdrucke?"
+	para "Want me to print"
+	line "out your DIPLOMA?"
 	done
 
 GameFreakGraphicArtistRefusedText:
-	text "Gib mir Bescheid,"
-	line "wenn ich dir dein"
-	cont "DIPLOM ausdrucken"
-	cont "soll."
+	text "Give me a shout if"
+	line "you want your"
+	cont "DIPLOMA printed."
 	done
 
 GameFreakGraphicArtistErrorText:
-	text "Irgendetwas stimmt"
-	line "da nicht. Ich muss"
-	cont "den Druckvorgang"
-	cont "beenden."
+	text "Something's wrong."
+	line "I'll have to can-"
+	cont "cel printing."
 	done
 
 GameFreakProgrammerText:
-	text "Wer, ich? Ich bin"
-	line "der PROGRAMMIERER."
+	text "Who, me? I'm the"
+	line "PROGRAMMER."
 
-	para "Probier die"
-	line "Spielautomaten"
-	cont "aus!"
+	para "Play the slot"
+	line "machines!"
 	done
 
 GameFreakCharacterDesignerText:
-	text "Sind die ZWILLINGE"
-	line "nicht"
-	cont "anbetungswürdig?"
+	text "Aren't the TWINS"
+	line "adorable?"
 
-	para "JASMIN ist auch"
-	line "sehr hübsch."
+	para "JASMINE's pretty"
+	line "too."
 
-	para "Oh, ich bete"
-	line "sie an!"
+	para "Oh, I love them!"
 	done
 
 CeladonMansion3FDevRoomSignText:
 	text "GAME FREAK"
-	line "ENTWICKLUNGSRAUM"
+	line "DEVELOPMENT ROOM"
 	done
 
 CeladonMansion3FDrawingText:
-	text "Das ist eine sehr"
-	line "detaillierte"
-	cont "Zeichnung eines"
-	cont "hübschen Mädchens."
+	text "It's a detailed"
+	line "drawing of a"
+	cont "pretty girl."
 	done
 
 CeladonMansion3FGameProgramText:
-	text "Das ist das Spiel-"
-	line "programm. Die"
+	text "It's the game"
+	line "program. Messing"
 
-	para "falsche Handhabe"
-	line "könnte Fehler im"
-	cont "Spiel verursachen!"
+	para "with it could put"
+	line "a bug in the game!"
 	done
 
 CeladonMansion3FReferenceMaterialText:
-	text "Es ist angefüllt"
-	line "mit Utensilien."
-	cont "Da ist sogar eine"
-	cont "#PUPPE."
+	text "It's crammed with"
+	line "reference materi-"
+	cont "als. There's even"
+	cont "a # DOLL."
 	done
 
 CeladonMansion3F_MapEvents:

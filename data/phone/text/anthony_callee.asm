@@ -1,75 +1,73 @@
 AnthonyAnswerPhoneText:
-	text "Yo, @"
+	text "Yeah, @"
 	text_ram wStringBuffer3
-	text " der"
-	line "WANDERER ist dran."
+	text " the"
+	line "HIKER here."
 
 	para "Ah, <PLAYER>!"
 	done
 
 AnthonyAnswerPhoneDayText:
-	text "Yo, @"
+	text "Yeah, @"
 	text_ram wStringBuffer3
-	text " der"
-	line "WANDERER ist dran."
+	text " the"
+	line "HIKER here."
 
 	para "Ah, <PLAYER>,"
-	line "nicht wahr?"
+	line "right?"
 	done
 
 AnthonyAnswerPhoneNiteText:
-	text "Yo, @"
+	text "Yeah, @"
 	text_ram wStringBuffer3
-	text " der"
-	line "WANDERER ist dran."
+	text " the"
+	line "HIKER here."
 
-	para "Ah, <PLAYER>,"
-	line "nicht wahr?"
+	para "Ah, <PLAYER>, isn't"
+	line "it?"
 	done
 
 AnthonyGreetText:
-	text "Ah, <PLAYER>!"
+	text "Yo, <PLAYER>?"
 
-	para "Yo, @"
+	para "This is @"
 	text_ram wStringBuffer3
-	text " der"
-	line "WANDERER ist dran."
+	text_start
+	line "the HIKER!"
 	done
 
 AnthonyGreetDayText:
-	text "Heh, ist das nicht"
+	text "Hey, is this"
 	line "<PLAYER>?"
 
-	para "Ich, @"
+	para "This is @"
 	text_ram wStringBuffer3
-	text ","
-	line "der WANDERER!"
+	text_start
+	line "the HIKER!"
 	done
 
 AnthonyGreetNiteText:
-	text "<PLAYER>, bist du"
-	line "noch wach?"
+	text "<PLAYER>, you still"
+	line "awake?"
 
-	para "Ich, @"
+	para "This is @"
 	text_ram wStringBuffer3
-	text ","
-	line "der WANDERER!"
+	text_start
+	line "the HIKER!"
 	done
 
 AnthonyGenericText:
-	text "Sind deine #MON"
-	line "immer noch wild?"
+	text "Are your #MON"
+	line "as feisty as ever?"
 
-	para "Mein @"
+	para "My @"
 	text_ram wStringBuffer4
-	text_start
-	line "und ich, wir"
+	text " and"
+	line "me--we have energy"
 
-	para "strotzen vor Ener-"
-	line "gie. Wir wandern"
+	para "to burn. We hike"
+	line "up mountains every"
 
-	para "täglich in den"
-	line "Bergen, um so"
-
-	para "Energie abzubauen."
+	para "day to work out"
+	line "all our energy."
 	done

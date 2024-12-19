@@ -1,115 +1,109 @@
 DanaTakingPhotosText:
-	text "Mein @"
+	text "My @"
 	text_ram wStringBuffer4
-	text_start
-	line "wird immer süßer!"
+	text " is"
+	line "getting prettier!"
 
-	para "Ich habe schon"
-	line "viele Fotos"
-	cont "gemacht!"
+	para "I've been taking"
+	line "photos galore!"
 	done
 
 DanaDefeatedMonText:
-	text "Im Handumdrehen"
-	line "war das wilde"
-	cont "@"
+	text "It took only an"
+	line "instant to KO a"
+	cont "wild @"
 	text_ram wStringBuffer4
-	text " K.O."
+	text "."
 
-	para "Das kommt bestimmt"
-	line "davon, dass du mir"
+	para "It must be because"
+	line "you gave me some"
 
-	para "Kampftipps gegeben"
-	line "hast."
+	para "battling tips last"
+	line "time."
 	done
 
 DanaLostAMonText:
-	text "Weißt du? Ein"
-	line "wildes @"
+	text "You know what?"
+	line "A wild @"
 	text_ram wStringBuffer4
 	text_start
+	para "got away from me"
+	line "again."
 
-	para "ist mir erneut"
-	line "entkommen."
+	para "It was so close!"
+	line "Really, just a"
 
-	para "Es war so knapp!"
-	line "Wirklich, noch ein"
-
-	para "bisschen mehr und"
-	line "ich hätte…"
+	para "little bit more,"
+	line "and I would've…"
 	done
 
 DanaBattleRematchText:
-	text "Ich bin hier:"
+	text "Right now, I'm on"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "Bist du in der"
-	line "Nähe, dann lass"
+	para "If you're close"
+	line "by, let's battle!"
 
-	para "uns kämpfen! Ich"
-	line "erwarte dich!"
+	para "I'll be waiting"
+	line "for you!"
 	done
 
 DanaHangUpText:
-	text "Bis dann!"
+	text "See you!"
 	done
 
 DanaFoundItemText:
-	text "Weißt du?"
-	line "Ich habe ein gutes"
-	cont "Geschenk für dich!"
+	text "You know what?"
+	line "I got a good gift!"
 
-	para "Wie versprochen,"
-	line "es gehört dir!"
+	para "As I promised,"
+	line "it's yours!"
 
-	para "Ich bin sicher,"
-	line "du wirst es mögen."
+	para "I'm sure you'd"
+	line "like it. Come get"
 
-	para "Hole es dir hier:"
+	para "it! I'm waiting on"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 DanaCanYouWaitABitLongerText:
-	text "Oh! Du wolltest"
-	line "ein Geschenk?"
+	text "Oh! You wanted a"
+	line "gift, right?"
 
-	para "Ich habe eines,"
-	line "aber ich will es"
-	cont "behalten."
+	para "I got one, but I"
+	line "want to keep this."
 
-	para "Gedulde dich noch"
-	line "ein wenig!"
+	para "Can you wait a bit"
+	line "longer?"
 	done
 
 DanaReminderText:
-	text "Hi! Du hast dein"
-	line "Versprechen, gegen"
+	text "Hi! You haven't"
+	line "forgotten about"
 
-	para "mich zu kämpfen"
-	line "nicht vergessen,"
-	cont "oder?"
+	para "your promise to"
+	line "battle me?"
 
-	para "Ich warte hier:"
+	para "I'm waiting on"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 DanaComePickUpText:
-	text "Hallo?"
+	text "Hello?"
 
-	para "Wenn du nicht bald"
-	line "hier auftauchst"
+	para "If you don't come"
+	line "get your present"
 
-	para "und dein Geschenk"
-	line "abholst, gebe ich"
-	cont "es jemand anderem."
+	para "soon, I'll give it"
+	line "to someone else."
 
-	para "Ich warte hier:"
+	para "I'm waiting on"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"
