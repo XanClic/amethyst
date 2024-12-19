@@ -1446,7 +1446,7 @@ CalcMonStats:
 ; Calculates all 6 Stats of a mon
 ; b: Take into account stat EXP if TRUE
 ; 'c' counts from 1-6 and points with 'wBaseStats' to the base value
-; hl is the path to the Stat EXP
+; hl is the path to the Stat EXP minus 1
 ; de points to where the final stats will be saved
 
 	ld c, STAT_HP - 1 ; first stat
