@@ -8175,7 +8175,7 @@ DropEnemySub:
 	farcall Mimikyu_ShowBusted_Enemy
 .no_busted_mimikyu:
 
-	ld a, [wPlayerSubStatus4]
+	ld a, [wEnemySubStatus4]
 	bit SUBSTATUS_BLADE_FORM, a
 	jr z, .no_blade_aegislash
 	farcall Aegislash_ShowBladeForm_Enemy
