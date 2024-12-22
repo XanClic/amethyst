@@ -797,7 +797,7 @@ OakSpeech:
 	call RotateThreePalettesRight
 	call ClearTilemap
 
-	ld hl, WOOPER
+	ld hl, MIMIKYU
 	call GetPokemonIDFromIndex
 	ld [wCurSpecies], a
 	ld [wCurPartySpecies], a
@@ -858,7 +858,7 @@ OakText1:
 OakText2:
 	text_far _OakText2
 	text_asm
-	ld hl, WOOPER
+	ld hl, MIMIKYU
 	call GetPokemonIDFromIndex
 	call PlayMonCry
 	call WaitSFX
