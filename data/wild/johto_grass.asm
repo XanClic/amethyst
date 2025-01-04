@@ -586,8 +586,8 @@ JohtoGrassWildMons:
 	dbw 7, ODDISH
 	dbw 7, PSYDUCK
 	dbw 7, HOOTHOOT
-	dbw 6, GOURGEIST
-	dbw 6, GOURGEIST
+	dbw 6, PUMPKABOO
+	dbw 6, PUMPKABOO
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MORTAR_1F_OUTSIDE
