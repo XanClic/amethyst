@@ -15,6 +15,7 @@ EcruteakGym_MapScripts:
 	def_callbacks
 
 EcruteakGymForcedToLeaveScene:
+	sdefer EcruteakGymClosed
 	end
 
 EcruteakGymNoopScene:
