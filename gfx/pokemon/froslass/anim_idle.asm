@@ -2,3 +2,4 @@
 	frame 2, 8
 	frame 0, 12
 	dorepeat 1
+	endanim
