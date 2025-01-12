@@ -10,5 +10,5 @@
 	frame 0, 5
 	frame 2, 5
 	frame 0, 5
-	dorepeat 1
+	dorepeat 8
 	endanim
