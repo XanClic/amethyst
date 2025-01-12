@@ -359,7 +359,7 @@ DragapultEvosAttacks:
 	dbw 42, DRAGON_DANCE
 	dbw 48, SHADOW_CLAW
 	dbw 54, TAKE_DOWN
-	dbw 60, DRAGONBREATH
+	dbw 60, DRAGON_DARTS
 	dbw 63, DRAGON_RUSH
 	dbw 70, DOUBLE_EDGE
 	dbw 78, OUTRAGE
