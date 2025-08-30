@@ -117,6 +117,8 @@ Also simply changed some catch locations so they are available more early on:
 * Per-move physical/special split
 * Fairy type
 * Bug fixes suggested by the pokecrystal documentation
+* Made EXP gain depend on player mon, too, similar to Gen V
+* Strongly raised general levels
 * Light ball raises both attack and special attack; also works on Mimikyu (yes, me liking Mimikyu is the whole reason
   for this whole thing)
 * Move tutor now costs 4000 PKMN Dollars instead of coins, and appears before beating the elite four
