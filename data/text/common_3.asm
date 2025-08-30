@@ -316,7 +316,7 @@ _SeerNameLocationText::
 	prompt
 
 _SeerTimeLevelText::
-	text "Die Tageszeit war"
+	text "Es herrschte"
 	line "@"
 	text_ram wSeerTimeOfDay
 	text "!"

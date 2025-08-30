@@ -152,7 +152,6 @@ GetCaughtLevel:
 	call ByteFill
 
 	; caught level
-	; Limited to between 1 and 63 since it's a 6-bit quantity.
 	ld a, [wSeerCaughtData]
 	and CAUGHT_LEVEL_MASK
 	jr z, .unknown
@@ -181,11 +180,8 @@ GetCaughtLevel:
 GetCaughtTime:
 	ld a, [wSeerCaughtData]
 	and CAUGHT_TIME_MASK
-	jr z, .none
 
 	rlca
-	rlca
-	dec a
 	ld hl, .times
 	call GetNthString
 	ld d, h
@@ -202,17 +198,14 @@ GetCaughtTime:
 
 .times
 if !DEF(_CRYSTAL_EU)
-	db "Morning@"
-	db "Day@"
-	db "Night@"
+	db "Daylight@"
+	db "Darkness@"
 elif DEF(_CRYSTAL_DE)
-	db "VORMITTAG@"
-	db "TAG@"
-	db "NACHT@"
+	db "TAGESLICHT@"
+	db "DUNKELHEIT@"
 elif DEF(_CRYSTAL_ES)
-	db "MAÑ@"
-	db "DÍA@"
-	db "NOCH@"
+	db "LUZ DEL DÍA@"
+	db "OSCURIDAD@"
 endc
 
 UnknownCaughtData:
