@@ -7203,7 +7203,21 @@ GiveExperiencePoints:
 	ld a, [wEnemyMonLevel]
 	ldh [hMultiplier], a
 	call Multiply
-	ld a, 7
+
+	; Modification to make this similar to Gen 5
+	; (though absolutely not the same):
+	; - Multiply by enemy level / player level
+	; - Divide by 5 instead of 7
+	ld a, [wBattleMonLevel]
+	ldh [hDivisor], a
+	ld b, 4
+	call Divide
+
+	ld a, [wEnemyMonLevel]
+	ldh [hMultiplier], a
+	call Multiply
+
+	ld a, 5
 	ldh [hDivisor], a
 	ld b, 4
 	call Divide
