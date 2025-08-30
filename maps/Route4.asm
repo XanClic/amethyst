@@ -58,7 +58,7 @@ Route4Mewtwo:
 	pause 15
 	cry MEWTWO
 	closetext
-	loadwildmon MEWTWO, 60
+	loadwildmon MEWTWO, 80
 	loadvar VAR_BATTLETYPE, BATTLETYPE_GENERIC_LEGENDARY
 	startbattle
 	disappear ROUTE4_MEWTWO

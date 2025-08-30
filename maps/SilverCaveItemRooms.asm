@@ -20,7 +20,7 @@ SilverCaveItemRoomsMew:
 	pause 15
 	cry MEW
 	closetext
-	loadwildmon MEW, 30
+	loadwildmon MEW, 60
 	loadvar VAR_BATTLETYPE, BATTLETYPE_GENERIC_LEGENDARY
 	startbattle
 	disappear SILVERCAVEITEMROOMS_MEW

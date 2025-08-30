@@ -75,7 +75,7 @@ IcePathB1FArticuno:
 	pause 15
 	cry ARTICUNO
 	closetext
-	loadwildmon ARTICUNO, 40
+	loadwildmon ARTICUNO, 60
 	loadvar VAR_BATTLETYPE, BATTLETYPE_GENERIC_LEGENDARY
 	startbattle
 	disappear ICEPATHB1F_ARTICUNO

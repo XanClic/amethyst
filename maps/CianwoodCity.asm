@@ -194,7 +194,7 @@ CianwoodCityMarshadow:
 	yesorno
 	iffalse .Done
 	closetext
-	loadwildmon MARSHADOW, 25
+	loadwildmon MARSHADOW, 35
 	startbattle
 	ifequal DRAW, .DidntCatch
 	disappear CIANWOODCITY_MARSHADOW

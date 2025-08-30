@@ -219,7 +219,7 @@ PowerPlantZapdos:
 	pause 15
 	cry ZAPDOS
 	closetext
-	loadwildmon ZAPDOS, 40
+	loadwildmon ZAPDOS, 70
 	loadvar VAR_BATTLETYPE, BATTLETYPE_GENERIC_LEGENDARY
 	startbattle
 	disappear POWERPLANT_ZAPDOS

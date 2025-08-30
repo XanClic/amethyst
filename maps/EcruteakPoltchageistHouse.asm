@@ -26,7 +26,7 @@ EcruteakPoltchageistHouseGirlScript:
 	writetext EcruteakPoltchageistHouseGirl_ReceivedPoltchageist
 	cry POLTCHAGEIST
 	waitsfx
-	givepoke POLTCHAGEIST, 20
+	givepoke POLTCHAGEIST, 25
 	setevent EVENT_GOT_POLTCHAGEIST
 .gotalready:
 	writetext EcruteakPoltchageistHouseGirl_Thanks

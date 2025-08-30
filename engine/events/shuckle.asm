@@ -9,7 +9,7 @@ GiveShuckle:
 	ld hl, SHUCKLE
 	call GetPokemonIDFromIndex
 	ld [wCurPartySpecies], a
-	ld a, 15
+	ld a, 30
 	ld [wCurPartyLevel], a
 
 	predef TryAddMonToParty

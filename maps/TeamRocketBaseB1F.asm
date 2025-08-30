@@ -451,7 +451,7 @@ VoltorbExplodingTrap:
 	special FadeInFromWhite
 	setlasttalked -1
 	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
-	loadwildmon VOLTORB, 23
+	loadwildmon VOLTORB, 38
 	startbattle
 	end
 
@@ -461,7 +461,7 @@ GeodudeExplodingTrap:
 	special FadeInFromWhite
 	setlasttalked -1
 	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
-	loadwildmon GEODUDE, 21
+	loadwildmon GEODUDE, 36
 	startbattle
 	end
 
@@ -471,7 +471,7 @@ KoffingExplodingTrap:
 	special FadeInFromWhite
 	setlasttalked -1
 	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
-	loadwildmon KOFFING, 21
+	loadwildmon KOFFING, 36
 	startbattle
 	end
 

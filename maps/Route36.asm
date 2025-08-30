@@ -96,7 +96,7 @@ WateredWeirdTreeScript:: ; export (for when you use Squirtbottle from pack)
 	writetext SudowoodoAttackedText
 	waitbutton
 	closetext
-	loadwildmon SUDOWOODO, 20
+	loadwildmon SUDOWOODO, 30
 	startbattle
 	setevent EVENT_FOUGHT_SUDOWOODO
 	ifequal DRAW, DidntCatchSudowoodo
@@ -109,7 +109,7 @@ TrevenantScript:
 	cry TREVENANT
 	showemote EMOTE_SHOCK, PLAYER, 15
 	pause 15
-	loadwildmon TREVENANT, 20
+	loadwildmon TREVENANT, 35
 	startbattle
 	disappear ROUTE36_TREVENANT
 	setflag ENGINE_ROUTE36_TREVENANT

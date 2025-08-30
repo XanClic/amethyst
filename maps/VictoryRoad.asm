@@ -168,7 +168,7 @@ VictoryRoadMoltres:
 	pause 15
 	cry MOLTRES
 	closetext
-	loadwildmon MOLTRES, 40
+	loadwildmon MOLTRES, 70
 	loadvar VAR_BATTLETYPE, BATTLETYPE_GENERIC_LEGENDARY
 	startbattle
 	disappear VICTORYROAD_MOLTRES

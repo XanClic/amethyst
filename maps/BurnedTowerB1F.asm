@@ -212,7 +212,7 @@ BurnedTowerB1FShinyLitwick:
 	pause 15
 	cry LITWICK
 	closetext
-	loadwildmon LITWICK, 23
+	loadwildmon LITWICK, 33
 	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCESHINY
 	startbattle
 	ifequal LOSE, .NotBeaten
