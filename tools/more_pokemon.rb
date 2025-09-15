@@ -3,6 +3,43 @@
 require 'shellwords'
 require 'yaml'
 
+language = ARGV[0]
+if !language
+    case `git rev-parse --abbrev-ref HEAD`.strip
+    when 'main'
+	language = 'de'
+    when 'english'
+	language = 'en'
+    else
+	$stderr.puts("Please specify a language (de or en)")
+	exit 1
+    end
+end
+language = language.downcase
+
+$tags = [language, language == 'en' ? 'imperial' : 'metric', 'default']
+
+def do_get(maybe_tagged)
+    while maybe_tagged.instance_of?(Hash)
+        result = $tags.filter_map { |tag| maybe_tagged[tag] }.first
+        return maybe_tagged if !result
+        maybe_tagged = result
+    end
+    maybe_tagged
+end
+
+def get(hash, path)
+    current = hash
+    path.split('/').each do |key|
+        if !current
+            $stderr.puts("Failed to look up /#{path} with tags #{$tags.inspect} in: #{hash.inspect}")
+            exit 1
+        end
+        current = do_get(current[key])
+    end
+    current
+end
+
 Dir.chdir(File.dirname(__FILE__) + '/..')
 pokemon = YAML.load(IO.read('data/pokemon/more.yaml'))
 
@@ -12,8 +49,9 @@ index = 251
 pokemon.each { |p, data|
     index += 1
     data['index'] = index
-    if data['evolutions']
-        data['evolutions'].each do |_, evo|
+    evos = get(data, 'evolutions')
+    if evos
+        evos.each do |_, evo|
             evolves_from[evo] = p
         end
     end
@@ -99,7 +137,7 @@ end
 IO.write(
     'constants/pokemon_constants_more.asm',
     "DEF MORE_POKEMON EQU const_value#{$/}" +
-    pokemon.map { |p, data| "\tconst #{'%-10s' % p.upcase} ; #{'%02x' % data['index']}#{$/}" }.join
+    pokemon.map { |p, data| "\tconst #{'%-10s' % p.upcase} ; #{'%02x' % get(data, 'index')}#{$/}" }.join
 )
 
 # base stats
@@ -107,26 +145,26 @@ IO.write(
 
 pokemon.each do |p, data|
     stats = <<EOF
-    db #{data['index'] < 256 ? "#{p.upcase} ; #{data['index']}" : "#{data['index'] % 256} ; #{data['index']} -- Is ignored anyway; used to be the basis for deriving the Pokédex bank index, which is no longer true"}
+    db #{get(data, 'index') < 256 ? "#{p.upcase} ; #{get(data, 'index')}" : "#{get(data, 'index') % 256} ; #{get(data, 'index')} -- Is ignored anyway; used to be the basis for deriving the Pokédex bank index, which is no longer true"}
 
-    db #{'%3i' % data['stats']['hp']}, #{'%3i' % data['stats']['atk']}, #{'%3i' % data['stats']['def']}, #{'%3i' % data['stats']['spd']}, #{'%3i' % data['stats']['sat']}, #{'%3i' % data['stats']['sdf']}
+    db #{'%3i' % get(data, 'stats/hp')}, #{'%3i' % get(data, 'stats/atk')}, #{'%3i' % get(data, 'stats/def')}, #{'%3i' % get(data, 'stats/spd')}, #{'%3i' % get(data, 'stats/sat')}, #{'%3i' % get(data, 'stats/sdf')}
     ;   hp, atk, def, spd, sat, sdf
 
-    db #{t = data['types']; if !t; t = data['type']; end; if t.instance_of?(String); t = [t]; end; t.map { |t| typename(t) } * (2 / t.length) * ', '}
-    db #{data['catchrate']} ; catch rate
-    db #{data['baseexp']} ; base exp
-    db #{data['items'] ? data['items'].map { |i| itemname(i) } * ', ' : 'NO_ITEM, NO_ITEM'} ; items
-    db GENDER_#{data['female_ratio'].kind_of?(String) ? split_upcase(data['female_ratio']) : ('F%.1f' % (data['female_ratio'] * 100.0)).sub(/\.0$/, '').sub('.', '_')} ; gender ratio
+    db #{t = get(data, 'types'); if !t; t = get(data, 'type'); end; if t.instance_of?(String); t = [t]; end; t.map { |t| typename(t) } * (2 / t.length) * ', '}
+    db #{get(data, 'catchrate')} ; catch rate
+    db #{get(data, 'baseexp')} ; base exp
+    db #{get(data, 'items') ? get(data, 'items').map { |i| itemname(i) } * ', ' : 'NO_ITEM, NO_ITEM'} ; items
+    db GENDER_#{get(data, 'female_ratio').kind_of?(String) ? split_upcase(get(data, 'female_ratio')) : ('F%.1f' % (get(data, 'female_ratio') * 100.0)).sub(/\.0$/, '').sub('.', '_')} ; gender ratio
     db 100 ; unknown 1
-    db #{data['hatch_cycles']} ; step cycles to hatch
+    db #{get(data, 'hatch_cycles')} ; step cycles to hatch
     db 5 ; unknown 2
     INCBIN "gfx/pokemon/#{p.downcase}/front.dimensions"
     dw NULL, NULL ; unused (beta front/back pics)
-    db #{growthrate(data['leveling'])} ; growth rate
-    dn #{g = data['egg_groups']; if !g; g = data['egg_group']; end; if g.instance_of?(String); g = [g]; end; g.map { |t| egggroup(t) } * (2 / g.length) * ', '} ; egg groups
+    db #{growthrate(get(data, 'leveling'))} ; growth rate
+    dn #{g = get(data, 'egg_groups'); if !g; g = get(data, 'egg_group'); end; if g.instance_of?(String); g = [g]; end; g.map { |t| egggroup(t) } * (2 / g.length) * ', '} ; egg groups
 
     ; tm/hm learnset
-    tmhm #{data['moves']['tmhm'].map { |t| movename(t) } * ', '}
+    tmhm #{get(data, 'moves/tmhm').map { |t| movename(t) } * ', '}
     ;end
 EOF
     IO.write("data/pokemon/base_stats/#{p.downcase}.asm", stats.gsub(/^ +/, "\t"))
@@ -141,10 +179,18 @@ IO.write(
 # -----------
 
 pokemon.each do |p, data|
-    text = data['dex']['text'].split($/)
+    text = get(data, 'dex/text')
+    species = get(data, 'dex/species')
+    height = get(data, 'dex/height')
+    weight = get(data, 'dex/weight')
+    text = text.split($/)
     dex = <<EOF
-    db "#{data['dex']['species'].upcase}@" ; species name
-    dbw #{'%i' % (data['dex']['height'] * 10.0)}, #{'%i' % (data['dex']['weight'] * 10.0)} ; height, weight
+    db "#{species.upcase}@" ; species name
+    #{if $tags.include?('metric');
+"    dbw #{'%i' % (height * 10.0)}, #{'%i' % (weight * 10.0)} ; height, weight";
+      else;
+"    dw #{'%i' % (height * 100.0)}, #{'%i' % (weight * 100.0)} ; height, weight";
+      end}
 
     ;  "| ----------------- |"
     db   #{text[0].inspect}
@@ -176,7 +222,8 @@ SECTION "Egg Moves 3", ROMX
 
 EggMovePointers3::
 #{pokemon.map { |p, data|
-    if data['moves']['egg']
+    egg_moves = get(data, 'moves/egg')
+    if egg_moves && !egg_moves.empty?
         "    dw #{p.capitalize}EggMoves"
     else
         "    dw NoEggMoves3"
@@ -186,8 +233,8 @@ EggMovePointers3::
 EOF
 
 pokemon.each do |p, data|
-    eggm = data['moves']['egg']
-    next unless eggm
+    eggm = get(data, 'moves/egg')
+    next unless eggm && !eggm.empty?
 
     egg_moves += <<EOF
 
@@ -226,8 +273,8 @@ pokemon.each do |p, data|
     evo_attacks << ''
     evo_attacks << "#{p.capitalize}EvosAttacks:"
 
-    if data['evolutions']
-        data['evolutions'].each do |level, to|
+    if get(data, 'evolutions')
+        get(data, 'evolutions').each do |level, to|
             if level.kind_of?(Integer)
                 evo_attacks << "    dbbw EVOLVE_LEVEL, #{level}, #{to.upcase}"
             elsif level == 'trade'
@@ -241,12 +288,13 @@ pokemon.each do |p, data|
     end
     evo_attacks << "    db 0 ; no more evolutions"
 
-    data['moves']['level'].each do |level, moves|
+    get(data, 'moves/level').each do |level, moves|
+        moves = do_get(moves)
         if moves.kind_of?(String)
             moves = [moves]
         end
         moves.each do |move|
-            evo_attacks << "    dbw #{level}, #{movename(move)}"
+            evo_attacks << "    dbw #{level}, #{movename(do_get(move))}"
         end
     end
     evo_attacks << "    db 0 ; no more level-up moves"
@@ -259,9 +307,9 @@ IO.write('data/pokemon/evos_attacks_more.asm', evo_attacks.gsub(/^ +/, "\t"))
 # ------------
 
 first_stages = pokemon.map { |p, data|
-    base = data['base'] ? data['base'].upcase : p.upcase
-    if data['index'] % 8 == 0
-        "    dw #{'%-11s' % base};#{'%02x' % data['index']}"
+    base = get(data, 'base') ? get(data, 'base').upcase : p.upcase
+    if get(data, 'index') % 8 == 0
+        "    dw #{'%-11s' % base};#{'%02x' % get(data, 'index')}"
     else
         "    dw #{base}"
     end
@@ -278,7 +326,7 @@ IO.write('data/pokemon/gen1_order_more.asm', "\tdb WOBBUFFET#{$/}" * pokemon.len
 
 IO.write(
     'data/pokemon/menu_icons_more.asm',
-    pokemon.map { |p, data| "\tdb ICON_#{'%-12s' % split_upcase(data['icon'])}; #{p.upcase}#{$/}" }.join
+    pokemon.map { |p, data| "\tdb ICON_#{'%-12s' % split_upcase(get(data, 'icon'))}; #{p.upcase}#{$/}" }.join
 )
 
 # names
@@ -286,7 +334,7 @@ IO.write(
 
 IO.write(
     'data/pokemon/names_more.asm',
-    pokemon.map { |p, data| "\tdb \"#{('%-10s' % data['name'].upcase).gsub(' ', '@')}\"#{$/}" }.join
+    pokemon.map { |p, data| "\tdb \"#{('%-10s' % get(data, 'name').upcase).gsub(' ', '@')}\"#{$/}" }.join
 )
 
 # palettes
@@ -350,7 +398,7 @@ IO.write(
 
 IO.write(
     'gfx/footprints_more.asm',
-    pokemon.map { |p, data| "INCBIN \"gfx/footprints/#{data['dex']['footprint'].downcase}.1bpp\"#{$/}" }.join
+    pokemon.map { |p, data| "INCBIN \"gfx/footprints/#{get(data, 'dex/footprint').downcase}.1bpp\"#{$/}" }.join
 )
 
 # animations

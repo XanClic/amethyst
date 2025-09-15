@@ -14,7 +14,7 @@ EggMovePointers3::
 	dw NoEggMoves3
 	dw ZoruaEggMoves
 	dw NoEggMoves3
-	dw NoEggMoves3
+	dw PhantumpEggMoves
 	dw NoEggMoves3
 	dw DreepyEggMoves
 	dw NoEggMoves3
@@ -68,6 +68,10 @@ SandygastEggMoves:
 ZoruaEggMoves:
 	dw COUNTER
 	dw DETECT
+	dw -1 ; end
+
+PhantumpEggMoves:
+	dw DISABLE
 	dw -1 ; end
 
 DreepyEggMoves:

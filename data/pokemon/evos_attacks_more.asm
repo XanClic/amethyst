@@ -206,7 +206,8 @@ SandygastEvosAttacks:
 	dbw 36, GIGA_DRAIN
 	dbw 41, SHADOW_BALL
 	dbw 45, EARTH_POWER
-	dbw 50, SANDSTORM
+	dbw 50, SYNTHESIS
+	dbw 54, SANDSTORM
 	db 0 ; no more level-up moves
 
 PalossandEvosAttacks:
@@ -225,7 +226,8 @@ PalossandEvosAttacks:
 	dbw 36, GIGA_DRAIN
 	dbw 41, SHADOW_BALL
 	dbw 47, EARTH_POWER
-	dbw 52, SANDSTORM
+	dbw 54, SYNTHESIS
+	dbw 60, SANDSTORM
 	db 0 ; no more level-up moves
 
 ZoruaEvosAttacks:
@@ -496,6 +498,8 @@ MarshadowEvosAttacks:
 	dbw 1, THUNDERPUNCH
 	dbw 1, ICE_PUNCH
 	dbw 1, SHADOW_SNEAK
+	dbw 1, COUNTER
+	dbw 1, PURSUIT
 	dbw 11, FAINT_ATTACK
 	dbw 15, ROLLING_KICK
 	dbw 20, MACH_PUNCH
@@ -506,23 +510,24 @@ MarshadowEvosAttacks:
 	dbw 45, CROSS_CHOP
 	dbw 50, TRIPLE_KICK
 	dbw 56, PURSUIT
-	dbw 60, HI_JUMP_KICK
+	dbw 60, PAIN_SPLIT
 	db 0 ; no more level-up moves
 
 RotomEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, ASTONISH
-	dbw 1, DOUBLE_TEAM
-	dbw 5, THUNDERSHOCK
-	dbw 10, CONFUSE_RAY
-	dbw 15, SPARK
-	dbw 20, CONVERSION
-	dbw 25, THUNDER_WAVE
-	dbw 35, HEX
-	dbw 40, SUBSTITUTE
-	dbw 45, THIEF
-	dbw 50, CONVERSION2
-	dbw 55, THUNDERBOLT
+	dbw 1, THUNDER_WAVE
+	dbw 1, THUNDERSHOCK
+	dbw 1, CONFUSE_RAY
+	dbw 8, SPARK
+	dbw 15, DOUBLE_TEAM
+	dbw 22, THUNDER_WAVE
+	dbw 29, CONVERSION
+	dbw 36, SUBSTITUTE
+	dbw 43, TRI_ATTACK
+	dbw 50, HEX
+	dbw 57, CONVERSION2
+	dbw 64, THUNDERBOLT
 	db 0 ; no more level-up moves
 
 GolettEvosAttacks:
@@ -639,12 +644,12 @@ PoltchageistEvosAttacks:
 	dbw 12, MILK_DRINK
 	dbw 18, SHADOW_SNEAK
 	dbw 24, MEGA_DRAIN
-	dbw 29, HEX
-	dbw 34, PROTECT
-	dbw 39, GIGA_DRAIN
-	dbw 44, SHADOW_BALL
-	dbw 49, PERISH_SONG
-	dbw 54, PETAL_DANCE
+	dbw 30, HEX
+	dbw 36, PROTECT
+	dbw 42, GIGA_DRAIN
+	dbw 48, SHADOW_BALL
+	dbw 54, PERISH_SONG
+	dbw 60, PETAL_DANCE
 	db 0 ; no more level-up moves
 
 SinistchaEvosAttacks:
